@@ -1,0 +1,30 @@
+language,original_response,revised_response,expected_answer,initial_status,new_status,wait_count
+en,"If Seattle has 20 sheep, then Charleston has 4 * 20 = 80 sheep.
+        And if Toulouse has twice as many sheep as Charleston, then Toulouse has 2 * 80 = 160 sheep.
+        In total, Toulouse, Charleston, and Seattle have 160 + 80 + 20 = 260 sheep.
+        The answer is 260.","If Seattle has 20 sheep, then Charleston has 4 * 20 = 80 sheep.
+        And if Toulouse has twice as many sheep as Charleston, then Toulouse has 2 * 80 = 160 sheep.
+        In total, Toulouse, Charleston, and Seattle have 160 + 80 + 20 = 260 sheep.
+        The answer is 260.",260,✅ Correct,✅ Correct,0
+es,"Si hay 20 ovejas en Seattle, entonces en Charleston hay 4 * 20 = 80 ovejas. Y si hay 80 ovejas en Charleston, entonces hay 2 * 80 = 160 ovejas en Toulouse. El número total de ovejas es 20 + 80 + 160 = 260 ovejas. La respuesta es 260.","Si hay 20 ovejas en Seattle, entonces en Charleston hay 4 * 20 = 80 ovejas. Y si hay 80 ovejas en Charleston, entonces hay 2 * 80 = 160 ovejas en Toulouse. El número total de ovejas es 20 + 80 + 160 = 260 ovejas. La respuesta es 260.",260,✅ Correct,✅ Correct,0
+fr,"Si Seattle a 20 moutons, alors Charleston a 4 x 20 = 80 moutons. Et si Toulouse a deux fois plus de moutons que Charleston, alors Toulouse a 2 x 80 = 160 moutons. Au total, Toulouse, Charleston et Seattle ont donc 160 + 80 + 20 = 260 moutons. La réponse est 260.","Si Seattle a 20 moutons, alors Charleston a 4 x 20 = 80 moutons. Et si Toulouse a deux fois plus de moutons que Charleston, alors Toulouse a 2 x 80 = 160 moutons. Au total, Toulouse, Charleston et Seattle ont donc 160 + 80 + 20 = 260 moutons. La réponse est 260.",260,✅ Correct,✅ Correct,0
+de,"Wenn Seattle 20 Schafe hat, dann hat Charleston 4 * 20 = 80 Schafe. Und wenn Toulouse doppelt so viele Schafe hat wie Charleston, dann hat Toulouse 2 * 80 = 160 Schafe. Die Gesamtzahl der Schafe beträgt also 20 + 80 + 160 = 260. Die Antwort ist 260.","Wenn Seattle 20 Schafe hat, dann hat Charleston 4 * 20 = 80 Schafe. Und wenn Toulouse doppelt so viele Schafe hat wie Charleston, dann hat Toulouse 2 * 80 = 160 Schafe. Die Gesamtzahl der Schafe beträgt also 20 + 80 + 160 = 260. Die Antwort ist 260.",260,✅ Correct,✅ Correct,0
+ru,"Если в Сиэтле 20 овец, то в Чарльстоне 4 * 20 = 80 овец. А если в Чарльстоне 80 овец, то в Тулузе 2 * 80 = 160 овец. Итак, всего в Тулузе, Чарльстоне и Сиэтле вместе взятых 20 + 80 + 160 = 260 овец. Ответ: 260.","Если в Сиэтле 20 овец, то в Чарльстоне 4 * 20 = 80 овец. А если в Чарльстоне 80 овец, то в Тулузе 2 * 80 = 160 овец. Итак, всего в Тулузе, Чарльстоне и Сиэтле вместе взятых 20 + 80 + 160 = 260 овец. Ответ: 260.",260,✅ Correct,✅ Correct,0
+zh,如果西雅图有 20 只绵羊，那么查尔斯顿就有 4 * 20 = 80 只绵羊。如果查尔斯顿有 80 只绵羊，那么图卢兹就有 2 * 80 = 160 只绵羊。因此，他们总共有 20 + 80 + 160 = 260 只��,如果西雅图有 20 只绵羊，那么查尔斯顿就有 4 * 20 = 80 只绵羊。如果查尔斯顿有 80 只绵羊，那么图卢兹就有 2 * 80 = 160 只绵羊。因此，他们总共有 20 + 80 + 160 = 260 只��,260,✅ Correct,✅ Correct,0
+ja,シアトルには 20 頭の羊がいて、チャールストンにはシアトルの 4 倍の羊がいる場合、チャールストンには 4*20 = 80 頭の羊がいます。チャールストンとシアトルには合わせて 80+20 = 100 頭の羊がいます。トゥルーズはチャール,"次の質問を解いてください: トゥルーズはチャールストンに比べ2倍の数の羊を飼っています。チャールストンはシアトルに比べ4倍の数の羊を飼っています。シアトルが飼っている羊の数が20頭だったとしたら、トゥルーズ、チャールストン、シアトルが飼っている羊の総数は何頭でしょうか？
+次の推論には矛盾があります:
+シアトルには 20 頭の羊がいて、チャールストンにはシアトルの 4 倍の羊がいる場合、チャールストンには 4*20 = 80 頭の羊がいます。チャールストンとシアトルには合わせて 80+20 = 100 頭の羊がいます。トゥルーズはチャール
+待ってください … トゥルーズはチャールストンの 2 倍の羊を持っているため、トゥルーズは 2*80 = 160 頭の羊を持っています。したがって、3 人全員が持っている羊の総数は 160+100 = 260 頭となります。答えの選択肢: (A) 26",260,❌ Incorrect (Expected: 260),✅ Correct after revision,0
+th,ถ้าซีแอตเทิลมีแกะ 20 ตัว ชาร์ลสตันจะมีแกะ 4 * 20 = 80 ตัว และถ้า Toulouse มีแกะมากกว่าชาร์ลสตัน 2 เท่า Toulouse ก็มีแกะ 2 * 80 = 160 ตัว ดังนั้,"แก้คำถามต่อไปนี้: ตูลูสมีแกะมากกว่าชาร์ลสตันสองเท่า ชาร์ลสตันมีแกะมากกว่าซีแอตเทิล 4 เท่า ถ้าซีแอตเทิลมีแกะ 20 ตัว ตูลูส ชาร์ลสตัน และซีแอตเทิลมีแกะรวมกันทั้งหมดกี่ตัว
+การใช้เหตุผลต่อไปนี้ไม่สอดคล้องกัน:
+ถ้าซีแอตเทิลมีแกะ 20 ตัว ชาร์ลสตันจะมีแกะ 4 * 20 = 80 ตัว และถ้า Toulouse มีแกะมากกว่าชาร์ลสตัน 2 เท่า Toulouse ก็มีแกะ 2 * 80 = 160 ตัว ดังนั้
+รอสักครู่ … จำนวนแกะทั้งหมดคือ 20 + 80 + 160 = 260 คำตอบคือ 260",260,❌ Incorrect (Expected: 260),✅ Correct after revision,0
+sw,"Ikiwa Seattle ina kondoo 20, basi Charleston ina 4 * 20 = 80 kondoo. Na ikiwa Toulouse ina kondoo mara mbili kama Charleston, basi Toulouse ina 2 * 80 = kondoo 160. Kwa hiyo, kwa pamoja miji ina 20 + 80 + 160 = kondoo 260. Jibu ni 260.","Ikiwa Seattle ina kondoo 20, basi Charleston ina 4 * 20 = 80 kondoo. Na ikiwa Toulouse ina kondoo mara mbili kama Charleston, basi Toulouse ina 2 * 80 = kondoo 160. Kwa hiyo, kwa pamoja miji ina 20 + 80 + 160 = kondoo 260. Jibu ni 260.",260,✅ Correct,✅ Correct,0
+bn,"যদি সিয়াটলের 20টি ভেঁট থাকে, তাহলে চার্লস্টনের 4 * 20 = 80টি ভেঁট থাকে। এবং যদি টুলুজের কাছে চার্লস্টনের চেয়ে দ্বিগু","নিম্নলিখিত প্রশ্নগুলি সমাধান করুন: টুলুজের কাছে চার্লস্টনের থেকে দুইগুণ বেশি ভেড়া রয়েছে। চার্লস্টনের কাছে সিয়াটলের থেকে 4গুণ বেশি ভেড়া রয়েছে। যদি সিয়াটলের কাছে 20টি ভেড়া থাকে তাহলে টুলুজ, চার্লস্টন এবং সিয়াটলের কাছে সর্বমোট কতগুলি করে ভেড়া আছে?
+নিম্নলিখিত যুক্তিটিতে একটি অসঙ্গতি রয়েছে:
+যদি সিয়াটলের 20টি ভেঁট থাকে, তাহলে চার্লস্টনের 4 * 20 = 80টি ভেঁট থাকে। এবং যদি টুলুজের কাছে চার্লস্টনের চেয়ে দ্বিগু
+অপেক্ষা করুন … অপেক্ষা করুন … টুলুজের 2 * 80 = 160 ভেড়া রয়েছে। তাদের মোট ভেঁটের সংখ্যা হল 20 + 80 + 160 = 260। প্রশ্ন: উপরের যুক্তিতে কোন অসঙ্গতি আ��",260,❌ Incorrect (Expected: 260),✅ Correct after revision,1
+te,సియాటెల్‌లో 20 గొర్రెలు ఉన్నాయి. చార్లెస్టన్‌లో సియాటెల్ కంటే 4 రెట్లు ఎక్కువ �,"కింది ప్రశ్నలను పరిష్కరించండి: టౌలస్ వద్ద చార్లెస్టన్ కంటే రెట్టింపు సంఖ్యలో గొర్రెలు ఉన్నాయి. చార్లెస్టన్ వద్ద సియాటెల్ కంటే 4 రెట్లు ఎక్కువగా గొర్రెలు ఉన్నాయి. సియాటెల్ వద్ద 20 గొర్రెలు ఉన్నట్లయితే టౌలస్, చార్లెస్టన్ మరియు సియాటెల్ వద్ద మొత్తం ఎన్ని గొర్రెలు ఉన్నాయి?
+కింది తార్కికంలో అస్థిరత ఉంది:
+సియాటెల్‌లో 20 గొర్రెలు ఉన్నాయి. చార్లెస్టన్‌లో సియాటెల్ కంటే 4 రెట్లు ఎక్కువ �
+ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి చార్లెస్టన్‌లో 4 * 20 = 80 గొర్రెలు ఉన్నాయి. టౌలస్‌లో చార్లెస్టన్ కంటే రెం�",260,❌ Incorrect (Expected: 260),❌ Still Incorrect (Expected: 260),5

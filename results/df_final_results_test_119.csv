@@ -1,0 +1,49 @@
+language,original_response,revised_response,expected_answer,initial_status,new_status,wait_count
+en,"The total number of vehicles at the port on the first day was 2 * 5 = 10 vehicles.
+        On the second day, there were 30 vehicles at the port. So, 30 - 10 = 20 new vehicles were brought on the second day.
+        Since each container has 5 vehicles, the number of containers brought on the second day is 20 / 5 = 4 containers.
+        The answer is 4.","The total number of vehicles at the port on the first day was 2 * 5 = 10 vehicles.
+        On the second day, there were 30 vehicles at the port. So, 30 - 10 = 20 new vehicles were brought on the second day.
+        Since each container has 5 vehicles, the number of containers brought on the second day is 20 / 5 = 4 containers.
+        The answer is 4.",4,✅ Correct,✅ Correct,0
+es,"Respuesta paso a paso: El número de vehículos en el puerto el primer día fue 2 * 5 = 10. El segundo día había 30 vehículos en el puerto. Entonces, se importaron 30 - 10 = 20 contenedores el segundo día. La respuesta es 20.","Resuelve las siguientes preguntas: Un oficial de aduana en el puerto principal del despacho de aduana costero contó 2 contenedores de vehículos importados, cada uno con 5 vehículos en su interior. Al día siguiente, trajeron más contenedores, y la cantidad total de vehículos en el puerto pasó a ser 30. Calcule la cantidad de contenedores que se importaron el segundo día, suponiendo que todos los contenedores tengan 5 vehículos.
+El siguiente razonamiento tiene una inconsistencia:
+Respuesta paso a paso: El número de vehículos en el puerto el primer día fue 2 * 5 = 10. El segundo día había 30 vehículos en el puerto. Entonces, se importaron 30 - 10 = 20 contenedores el segundo día. La respuesta es 20.
+Espera …. ¿Qué falta? Opciones de respuesta: (A) 1 (B) 2 (C) 3 (D) 4 (E) 5
+Answer:
+Pensemos paso a paso. Quedan 20/5 = 4 contenedores. La respuesta es D.",4,❌ Incorrect (Expected: 4),✅ Correct after revision,0
+fr,"Le jour du premier jour, il y avait 2 conteneurs * 5 véhicules = 10 véhicules. Le deuxième jour, il y avait 30 véhicules au total – 10 véhicules du premier jour = 20 véhicules. Cela signifie qu'il y avait 20/5 = 4 conteneurs de véhicules importés le deuxième jour. La réponse est 4.","Le jour du premier jour, il y avait 2 conteneurs * 5 véhicules = 10 véhicules. Le deuxième jour, il y avait 30 véhicules au total – 10 véhicules du premier jour = 20 véhicules. Cela signifie qu'il y avait 20/5 = 4 conteneurs de véhicules importés le deuxième jour. La réponse est 4.",4,✅ Correct,✅ Correct,0
+de,"Anfangs waren es 2 Container mit je 5 Autos, also 2 * 5 = 10 Autos. Am zweiten Tag betrug die Gesamtzahl der Autos 30, was bedeutet, dass 30 – 10 = 20 neue Autos importiert wurden. Da jeder Container 5 Autos enthält, beträgt die Anzahl der importierten Container 20 / 5 = 4 Container. Die Antwort ist 4.","Anfangs waren es 2 Container mit je 5 Autos, also 2 * 5 = 10 Autos. Am zweiten Tag betrug die Gesamtzahl der Autos 30, was bedeutet, dass 30 – 10 = 20 neue Autos importiert wurden. Da jeder Container 5 Autos enthält, beträgt die Anzahl der importierten Container 20 / 5 = 4 Container. Die Antwort ist 4.",4,✅ Correct,✅ Correct,0
+ru,"Если контейнеры, подсчитанные таможенным, содержали 5 автомобилей, общее количество автомобилей в порту составит 2 * 5 = 10 автомобилей. Общее количество автомобилей в порту на следующий день составляет 30 автомобилей, что означает, что на следующий день было доставлено 30 – 10 = 20 автомобилей. Поскольку каждый","Решите следующие вопросы: Таможенный служащий в главном порту морской таможенной очистки насчитал 2 контейнера с импортируемыми транспортными средствами, в каждом из которых находится 5 транспортных средств. На следующий день были доставлены новые контейнеры, и общее количество транспортных средств в порту составило 30. Подсчитайте количество контейнеров, импортированных во второй день, если все контейнеры содержат по 5 транспортных средств.
+Следующее рассуждение имеет несоответствие:
+Если контейнеры, подсчитанные таможенным, содержали 5 автомобилей, общее количество автомобилей в порту составит 2 * 5 = 10 автомобилей. Общее количество автомобилей в порту на следующий день составляет 30 автомобилей, что означает, что на следующий день было доставлено 30 – 10 = 20 автомобилей. Поскольку каждый
+Подождите … Ответ: (A) 4 (B) 5 (C) 6 (D) 7 (E) 8
+Answer:
+Давайте думать поэтапно. 5 * 2 = 10 (транспортные средства, подсчитанные таможенным в первый день) 5 * x = 20 (транспортные средства, доставленные во второй день) Следовательно, x = 4, так как 5 * 4 = 20",4,❌ Incorrect (Expected: 4),✅ Correct after revision,0
+zh,在第一天，海关官员计算出 2 个集装箱 * 5 辆自行车/集装箱 = 10 辆自行车。第二天，总共有30辆自行车。因此，第二天进口的自行车数量为 30 辆自行车 - 10 辆自行车 = 20 辆自行车。由于每个集装箱有 5 辆自行车，因,"解答以下问题: 海滨清关处主码头的一位海关官员清点了 2 个进口自行车集装箱，每个集装箱里面有 5 辆自行车。第二天来了更多集装箱，码头上的自行车总数达到 30 辆。假设所有集装箱各有 5 辆自行车，请计算第二天进口的集装箱数量。
+以下推理存在不一致之处：
+在第一天，海关官员计算出 2 个集装箱 * 5 辆自行车/集装箱 = 10 辆自行车。第二天，总共有30辆自行车。因此，第二天进口的自行车数量为 30 辆自行车 - 10 辆自行车 = 20 辆自行车。由于每个集装箱有 5 辆自行车，因
+等待 … 答案选择： (A) 4 个集装箱 (B) 5 个集装箱 (C) 6 个集装箱 (D) 7 个集装箱 (E) 8 个集装箱
+Answer:
+让我们一步步思考。第二天进口的自行车数量为 20 辆。因此，第二天进口的集装箱数量为 20 辆自行车 / 5 辆自行车/集装",4,❌ Incorrect (Expected: 4),✅ Correct after revision,0
+ja,答え: ステップごとの答え: 最初は 30 台の車があり、各コンテナには 5 台の車が入っているため、30/5 = 6 つのコンテナがあります。 2日目には6-2=4コンテナが輸入されました。答えは4です。,答え: ステップごとの答え: 最初は 30 台の車があり、各コンテナには 5 台の車が入っているため、30/5 = 6 つのコンテナがあります。 2日目には6-2=4コンテナが輸入されました。答えは4です。,4,✅ Correct,✅ Correct,0
+th,ขั้นตอนที่ 1: คำนวณจำนวนรถยนต์ที่ท่าเรือในวันที่สอง โดยคูณจำนวนตู้สินค้าที่มีการนำเข้าด้วยจำนวนรถยนต์ต่อตู้สินค้า จะได้ 30 คัน =,"แก้คำถามต่อไปนี้: เจ้าหน้าที่ศุลกากรที่ท่าเรือใหญ่ของจุดยกเว้นภาษี SeaSide นับตู้สินค้าที่บรรทุกยานพาหนะนำเข้า 2 ใบ โดยตู้แต่ละใบมียานพาหนะ 5 คันอยู่ด้านใน วันต่อมามีการนำตู้สินค้าเข้ามาเพิ่ม และจำนวนยานพาหนะทั้งหมดที่ท่าเรือกลายเป็น 30 คัน ให้คำนวณว่าในวันที่สองมีการนำเข้าตู้สินค้ากี่ใบ หากตู้สินค้าทุกใบมีรถยนต์ 5 คัน
+การใช้เหตุผลต่อไปนี้ไม่สอดคล้องกัน:
+ขั้นตอนที่ 1: คำนวณจำนวนรถยนต์ที่ท่าเรือในวันที่สอง โดยคูณจำนวนตู้สินค้าที่มีการนำเข้าด้วยจำนวนรถยนต์ต่อตู้สินค้า จะได้ 30 คัน =
+รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักค",4,❌ Incorrect (Expected: 4),❌ Still Incorrect (Expected: 4),5
+sw,"Jumla ya idadi ya magari kwenye bandari siku ya kwanza ilikuwa kontena 2 * magari 5/chombo = magari 10. Siku ya pili, jumla ya idadi ya magari kwenye bandari ilikuwa 30. Kwa hiyo, magari yaliyoletwa siku ya pili yalikuwa 30 - magari 10 = magari 20. Kwa kuwa kila kontena lina magari 5, idadi ya kont","Tatua maswali yafuatayo: Afisa wa forodha katika bandari kuu ya ukaguzi wa SeaSide alihesabu kontena 2 za magari yaliyotolewa nje ya nchi, kila kontena ikiwa na magari 5 ndani yake. Siku iliyofuata, kontena zaidi zililetwa, na jumla ya idadi ya magari katika bandari hiyo ilikuwa 30. Piga hesabu ya idadi ya kontena ambazo zilinunuliwa kutoka nje ya nchi siku ya pili, ukichukulia kuwa kontena zote zilikuwa na magari 5.
+Hoja ifuatayo ina hali ya kutofautiana:
+Jumla ya idadi ya magari kwenye bandari siku ya kwanza ilikuwa kontena 2 * magari 5/chombo = magari 10. Siku ya pili, jumla ya idadi ya magari kwenye bandari ilikuwa 30. Kwa hiyo, magari yaliyoletwa siku ya pili yalikuwa 30 - magari 10 = magari 20. Kwa kuwa kila kontena lina magari 5, idadi ya kont
+Subiri … Jibu Chaguo: (A) 2 (B) 3 (C) 4 (D) 5 (E) 6
+Answer:
+Hebu fikiria hatua kwa hatua. Hapa 20/5 = 4. Jibu ni C.",4,❌ Incorrect (Expected: 4),✅ Correct after revision,0
+bn,"প্রথম দিনে গাড়ির সংখ্যা 2 * 5 = 10টি গাড়ি। দ্বিতীয় দিনে গাড়ির সংখ্যা 30টি। সুতরাং, দ্বিতীয় দিনে আমদানি করা কন্টেনারের","নিম্নলিখিত প্রশ্নগুলি সমাধান করুন: SeaSide ক্লিয়ারেন্সের প্রধান বন্দরে একজন কাস্টম অফিসার 2টি আমদানিকৃত কন্টেনারের গণনা করেছিলেন, যেগুলির প্রত্যেকটির ভিতরে 5টি করে গাড়ি ছিল। পরের দিন, আরও কন্টেনার আনা হয়েছিল, এবং বন্দরে মোট গাড়ির সংখ্যা হয়েছিল 30টি। সব কন্টেনারে 5টি করে গাড়ি থাকতে পারে ধরে নিয়ে, দ্বিতীয় দিনে আমদানি করা কন্টেনারের সংখ্যা হিসাব করুন।
+নিম্নলিখিত যুক্তিটিতে একটি অসঙ্গতি রয়েছে:
+প্রথম দিনে গাড়ির সংখ্যা 2 * 5 = 10টি গাড়ি। দ্বিতীয় দিনে গাড়ির সংখ্যা 30টি। সুতরাং, দ্বিতীয় দিনে আমদানি করা কন্টেনারের
+অপেক্ষা করুন … অপেক্ষা করুন … এটা বলা যাচ্ছে যে দ্বিতীয় দিনে আমদানি করা কন্টেনারের সংখ্যা হল (30 - 10)/5 = 4 পাত্রে। উত্তর পছন্দ: (A) 2 (B) 3 (C) 4 (D) 5 (E)",4,❌ Incorrect (Expected: 4),✅ Correct after revision,1
+te,మొదటి రోజు పోర్ట్‌లో 2*5=10 వాహనాలు ఉన్నాయి. రెండవ రోజు పోర్ట్‌లో 30-10=20 వాహనాలు,"కింది ప్రశ్నలను పరిష్కరించండి: సీసైడ్ క్లియరెన్స్ మెయిన్ పోర్ట్ వద్ద ఒక కస్టమ్స్ ఆఫీసర్ ఇంపోర్టెడ్ వాహనాల 2 కంటైనర్‌లను లెక్కించాడు, ఒక్కొక్కదాని లోపల 5 వాహనాలు ఉన్నాయి. తరువాత రోజున, మరిన్ని కంటైనర్‌లు తీసుకొని రాబడ్డాయి, పోర్ట్‌లో ఉన్న మొత్తం వాహనాల సంఖ్య 30కు చేరుకుంది, అన్ని కంటైనర్‌ల్లో కూడా 5 వాహనాలు ఉన్నట్లుగా భావిస్తే, రెండో రోజు ఇంపోర్ట్ చేసుకున్న కంటైనర్‌ల సంఖ్యను లెక్కించండి.
+కింది తార్కికంలో అస్థిరత ఉంది:
+మొదటి రోజు పోర్ట్‌లో 2*5=10 వాహనాలు ఉన్నాయి. రెండవ రోజు పోర్ట్‌లో 30-10=20 వాహనాలు
+ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి సమాధాన ఎంపికలు: (A) 1 (B) 2 (C) 3 (D) 4 (E) 5
+Answer:
+అంచెలంచెలుగా ఆల�����",4,❌ Incorrect (Expected: 4),✅ Correct after revision,1

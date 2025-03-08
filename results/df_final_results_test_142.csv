@@ -1,0 +1,60 @@
+language,original_response,revised_response,expected_answer,initial_status,new_status,wait_count
+en,"Let x represent the number of queens.
+        That means there are 2x worker bees.
+        And there are 2*2x = 4x baby bees.
+        In total, there are x + 2x + 4x = 700 bees.
+        This simplifies to 7x = 700.
+        Dividing both sides by 7 gives x = 100.
+        Therefore, there are 2 * 100 = 200 worker bees.
+        The answer is 2","Solve the following questions: There are 700 bees in a hive. There are twice as many worker bees as baby bees, and there are twice as many babies as queens.  How many worker bees are there?
+The following reasoning has an inconsistency:
+Let x represent the number of queens.
+        That means there are 2x worker bees.
+        And there are 2*2x = 4x baby bees.
+        In total, there are x + 2x + 4x = 700 bees.
+        This simplifies to 7x = 700.
+        Dividing both sides by 7 gives x = 100.
+        Therefore, there are 2 * 100 = 200 worker bees.
+        The answer is 2
+Wait … Wait … Wait … Wait … Wait … Wait … Wait … Wait … Wait … Wait … Wait … Wait … Wait … Wait … Wait … Wait … Wait … Wait … Wait … Wait … Wait … Wait … Wait … Wait … Wait … Wait … Wait … Wait … Wait … Wait … Wait … Wait … Wait … Wait … Wait … Wait … Wait … Wait … Wait … Wait … Wait … Wait … Wait … Wait … Wait … Wait … Wait … Wait … Wait … Wait … Wait … Wait … Wait … Wait … Wait … Wait … Wait … Wait … Wait … Wait … Wait … Wait … Wait … Wait … Wait … Wait … Wait … Wait … Wait …",400,❌ Incorrect (Expected: 400),❌ Still Incorrect (Expected: 400),5
+es,"Representemos el número de abejas obreras como ""w"", el número de abejas bebés como ""b"" y el número de abejas reinas como ""r"". Sabemos que hay dos veces más abejas obreras que abejas bebés, por lo que w = 2b. También sabemos que hay el doble de abejas bebés que de abejas reinas, por lo que b = 2r. Sabemos que hay 700 abejas en total, por lo que w + b + r =","Resuelve las siguientes preguntas: Hay 700 abejas en una colmena. Hay dos veces más de abejas obreras que de abejas bebés, y dos veces más de abejas bebés que de abejas reinas. ¿Cuántas abejas obreras hay?
+El siguiente razonamiento tiene una inconsistencia:
+Representemos el número de abejas obreras como ""w"", el número de abejas bebés como ""b"" y el número de abejas reinas como ""r"". Sabemos que hay dos veces más abejas obreras que abejas bebés, por lo que w = 2b. También sabemos que hay el doble de abejas bebés que de abejas reinas, por lo que b = 2r. Sabemos que hay 700 abejas en total, por lo que w + b + r =
+Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera …",400,❌ Incorrect (Expected: 400),❌ Still Incorrect (Expected: 400),5
+fr,Soit le nombre de bébés abeilles x. Il y a donc 2x abeilles ouvrières. Et il y a 2x/2 = x reines. Le nombre total d'abeilles est donc x + 2x + x = 4x. Nous savons que 4x = 700. Donc x = 700/4 = 175. Il y a donc 2x = 2 * 175 = 350 abeilles ouvrières. La réponse est 3,"Résolvez les questions suivantes: Une ruche compte 700 abeilles. Il y a deux fois plus d'abeilles ouvrières que de bébés abeilles et deux fois plus de bébés que de reines. Combien d'abeilles ouvrières y a-t-il ?
+Le raisonnement suivant présente une incohérence :
+Soit le nombre de bébés abeilles x. Il y a donc 2x abeilles ouvrières. Et il y a 2x/2 = x reines. Le nombre total d'abeilles est donc x + 2x + x = 4x. Nous savons que 4x = 700. Donc x = 700/4 = 175. Il y a donc 2x = 2 * 175 = 350 abeilles ouvrières. La réponse est 3
+Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez…",400,❌ Incorrect (Expected: 400),❌ Still Incorrect (Expected: 400),5
+de,Sei x die Anzahl der Könige. Es gibt also 2x Arbeiterbienen. Und es gibt 4x Babys. Die Gleichung lautet: x + 2x + 4x = 700. Kombinieren Sie ähnliche Terme: 7x = 700. Teilen Sie beide Seiten durch 7: x = 100. Es gibt also 100 Könige. Es gibt 2 x 100 = 200 Arbeiterbienen. Und es gibt 4 x,"Los die folgenden Fragen: Es gibt 700 Bienen in einem Bienenstock. Es gibt zwei Mal so viele Arbeiterbienen wie Babybienen, und es gibt zweimal so viele Babys wie Königinnen. Wie viele Arbeiterbienen gibt es?
+Die folgende Argumentation enthält eine Inkonsistenz:
+Sei x die Anzahl der Könige. Es gibt also 2x Arbeiterbienen. Und es gibt 4x Babys. Die Gleichung lautet: x + 2x + 4x = 700. Kombinieren Sie ähnliche Terme: 7x = 700. Teilen Sie beide Seiten durch 7: x = 100. Es gibt also 100 Könige. Es gibt 2 x 100 = 200 Arbeiterbienen. Und es gibt 4 x
+Warte … Warte … Es gibt 400 Babys. Die Antwort ist 400.",400,❌ Incorrect (Expected: 400),✅ Correct after revision,1
+ru,"Пусть х представляет количество маток. Итак, количество куколок равно 2х, а количество рабочих пчел — 2*2х = 4х. Общее количество пчел равно x + 2x + 4x = 7x. Мы знаем, что общее количество пчел равно 700. Итак, 7x = 700. Разделив обе части уравнения на 7, получим x = 100","Решите следующие вопросы: В улье 700 пчел. Рабочих пчел в два раза больше, чем куколок, а куколок в два раза больше, чем маток. Сколько рабочих пчел?
+Следующее рассуждение имеет несоответствие:
+Пусть х представляет количество маток. Итак, количество куколок равно 2х, а количество рабочих пчел — 2*2х = 4х. Общее количество пчел равно x + 2x + 4x = 7x. Мы знаем, что общее количество пчел равно 700. Итак, 7x = 700. Разделив обе части уравнения на 7, получим x = 100
+Подождите … количество пчел-работников 4х = 4*100 = 400 Ответ 400.",400,❌ Incorrect (Expected: 400),✅ Correct after revision,0
+zh,设 x 为蜂后的数量。幼蜂：x/2 工蜂：2x 总计：x+(x/2)+2x=700 (5/2)x=700 x=700*2/5=280 只工蜂 答案是 280。,"解答以下问题: 蜂巢中有 700 只蜜蜂。工蜂的数量是幼蜂的两倍，幼蜂的数量是蜂后的两倍。工蜂有多少只？
+以下推理存在不一致之处：
+设 x 为蜂后的数量。幼蜂：x/2 工蜂：2x 总计：x+(x/2)+2x=700 (5/2)x=700 x=700*2/5=280 只工蜂 答案是 280。
+等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 …",400,❌ Incorrect (Expected: 400),❌ Still Incorrect (Expected: 400),5
+ja,700 匹の蜂がいて、そのうちの女王蜂が x 匹いるとします。すると、働き蜂の数は 12x になります。そして、赤ちゃん蜂の数は女王蜂の2倍なので、2倍になります。蜂の総数は、女王蜂、働き蜂、赤ちゃん蜂の合計,"次の質問を解いてください: 700匹の蜂が蜂の巣にいる。赤ちゃんの鉢の12倍、働き蜂がおり、女王蜂の2倍の赤ちゃんの蜂がいる。何匹の働き蜂がいますか？
+次の推論には矛盾があります:
+700 匹の蜂がいて、そのうちの女王蜂が x 匹いるとします。すると、働き蜂の数は 12x になります。そして、赤ちゃん蜂の数は女王蜂の2倍なので、2倍になります。蜂の総数は、女王蜂、働き蜂、赤ちゃん蜂の合計
+待ってください … 待ってください … 待ってください … 待ってください … 待ってください … 700 匹の蜂がいるとします。赤ちゃんの鉢の12倍、働き蜂がおり、女王蜂の2倍の赤ちゃんの蜂がいる。それでは、働き蜂は何匹いますか？回答の選択肢: (A) 100 (B) 120 (C) 140 (D) 160 (E) 180
+",400,❌ Incorrect (Expected: 400),❌ Still Incorrect (Expected: 400),5
+th,ให้ x แทนจำนวนนางพญา ดังนั้น จำนวนลูกผึ้งคือ 2 * x และจำนวนผึ้งงานคือ 2 * (2 * x) = 4 * x จำนวนผึ้งทั้งหมดคือ x + 2 * x + 4 * x = 7 * x เรารู้ว่าจำ,"แก้คำถามต่อไปนี้: ในรังมีผึ้ง 700 ตัว ผึ้งงานมีจำนวนเป็นสองเท่าของลูกผึ้ง และลูกผึ้งมีจำนวนเป็นสองเท่าของนางพญาผึ้ง ในรังมีผึ้งงานกี่ตัว
+การใช้เหตุผลต่อไปนี้ไม่สอดคล้องกัน:
+ให้ x แทนจำนวนนางพญา ดังนั้น จำนวนลูกผึ้งคือ 2 * x และจำนวนผึ้งงานคือ 2 * (2 * x) = 4 * x จำนวนผึ้งทั้งหมดคือ x + 2 * x + 4 * x = 7 * x เรารู้ว่าจำ
+รอสักครู่ … 7 * x = 700 ดังนั้น x = 100 ดังนั้น จำนวนผึ้งงานคือ 4 * x = 4 * 100 = 400 คำตอบคือ 400",400,❌ Incorrect (Expected: 400),✅ Correct after revision,0
+sw,"Acha x iwakilishe idadi ya nyuki malkia. Kwa hivyo, idadi ya nyuki watoto ni 3 * x = 3x. Na idadi ya nyuki wanaofanya kazi ni 2 * 3x = 6x. Jumla ya idadi ya nyuki ni x + 3x + 6x = 10x. Kwa kuwa jumla ya idadi ya nyuki ni 700, tuna 10x = 700. Kugawanya pande z","Tatua maswali yafuatayo: Kuna nyuki 700 katika mzinga wa nyuki. Idadi ya nyuki wa kufanya kazi ni mara mbili zaidi ya nyuki watoto, na idadi ya nyuki watoto ni mara tatu zaidi ya nyuki malkia. Kuna nyuki wangapi wa kufanya kazi?
+Hoja ifuatayo ina hali ya kutofautiana:
+Acha x iwakilishe idadi ya nyuki malkia. Kwa hivyo, idadi ya nyuki watoto ni 3 * x = 3x. Na idadi ya nyuki wanaofanya kazi ni 2 * 3x = 6x. Jumla ya idadi ya nyuki ni x + 3x + 6x = 10x. Kwa kuwa jumla ya idadi ya nyuki ni 700, tuna 10x = 700. Kugawanya pande z
+Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri",400,❌ Incorrect (Expected: 400),❌ Still Incorrect (Expected: 400),5
+bn,প্রদত্ত: মোট মৌমাছির সংখ্যা = 700 শিশু মৌমাছির সংখ্যা = কর্মী মৌমাছির সংখ্যা = 2 * কর্মী মৌমাছির সংখ্যা রান,"নিম্নলিখিত প্রশ্নগুলি সমাধান করুন: একটি মৌচাকে 700টি মৌমাছি আছে। শিশু মৌমাছির তুলনায় কর্মী মৌমাছির সংখ্যা দ্বিগুণ, এবং রানী মৌমাছির তুলনায় দ্বিগুণ শিশু মৌমাছি আছে। কটি কর্মী মৌমাছি আছে?
+নিম্নলিখিত যুক্তিটিতে একটি অসঙ্গতি রয়েছে:
+প্রদত্ত: মোট মৌমাছির সংখ্যা = 700 শিশু মৌমাছির সংখ্যা = কর্মী মৌমাছির সংখ্যা = 2 * কর্মী মৌমাছির সংখ্যা রান
+অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অ",400,❌ Incorrect (Expected: 400),❌ Still Incorrect (Expected: 400),5
+te,"పిల్ల తేనెటీగల సంఖ్యను ""x""గా సూచిస్తాం. అప్పుడు కూలీ తేనెటీగల సంఖ్య 2*x.","కింది ప్రశ్నలను పరిష్కరించండి: ఒక తేనెతుట్టెలో 700 తేనెటీగలు ఉన్నాయి. పిల్ల తేనెటీగల కంటే కూలీ తేనెటీగలు రెండు రెట్లు ఎక్కువగా ఉన్నాయి. రాణీ ఈగలు కంటే పిల్ల తేనెటీగల సంఖ్య రెట్టింపు. ఎన్ని కూలీ తేనెటీగలు ఉన్నాయి?
+కింది తార్కికంలో అస్థిరత ఉంది:
+పిల్ల తేనెటీగల సంఖ్యను ""x""గా సూచిస్తాం. అప్పుడు కూలీ తేనెటీగల సంఖ్య 2*x.
+ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండ",400,❌ Incorrect (Expected: 400),❌ Still Incorrect (Expected: 400),5

@@ -1,0 +1,48 @@
+language,original_response,revised_response,expected_answer,initial_status,new_status,wait_count
+en,"The cost of the jacket is 3 × $25 = $75.
+        The average cost of the hat and jacket is ($25 + $75) / 2 = $50.
+        The cost of the pants is $50.
+        Therefore, each uniform costs $25 + $75 + $50 = $150.
+        The answer is 150.","The cost of the jacket is 3 × $25 = $75.
+        The average cost of the hat and jacket is ($25 + $75) / 2 = $50.
+        The cost of the pants is $50.
+        Therefore, each uniform costs $25 + $75 + $50 = $150.
+        The answer is 150.",150,✅ Correct,✅ Correct,0
+es,"El costo de la chaqueta es 3 * 25 = 75 dólares. El costo promedio del sombrero y la chaqueta es (25 + 75) / 2 = 50 dólares. El costo del pantalón es 50 dólares. Por tanto, el coste total de cada uniforme es 25 + 75 + 50 = 150 dólares. La respuesta es 150.","El costo de la chaqueta es 3 * 25 = 75 dólares. El costo promedio del sombrero y la chaqueta es (25 + 75) / 2 = 50 dólares. El costo del pantalón es 50 dólares. Por tanto, el coste total de cada uniforme es 25 + 75 + 50 = 150 dólares. La respuesta es 150.",150,✅ Correct,✅ Correct,0
+fr,"Le coût d'un chapeau est de 25 $. Le coût d'une veste est de 3 * 25$ = 75$. Le coût moyen du chapeau et de la veste est de (25$ + 75$) / 2 = 50$. Le coût d'un pantalon est de 50 $. Par conséquent, le coût total de chaque uniforme est de 25 $ + 75 $ + 50 $ = 150 $. La réponse est","Le coût d'un chapeau est de 25 $. Le coût d'une veste est de 3 * 25$ = 75$. Le coût moyen du chapeau et de la veste est de (25$ + 75$) / 2 = 50$. Le coût d'un pantalon est de 50 $. Par conséquent, le coût total de chaque uniforme est de 25 $ + 75 $ + 50 $ = 150 $. La réponse est",150,✅ Correct,✅ Correct,0
+de,"Der Preis für den Hut beträgt 25 $. Der Preis für die Jacke beträgt das Dreifache des Hutpreises, also 3 x 25 $ = 75 $. Der Durchschnittspreis für Hut und Jacke beträgt (25 $ + 75 $) / 2 = 50 $. Der Preis für die Hose beträgt 50 $. Daher betragen die Gesamtkosten für jede Uniform 25 $ + 75 $ + 50 $ = 15","Los die folgenden Fragen: Die Blaskapelle bestellt gerade neue Uniformen. Geliefert wird jede Uniform mit einem Hut, der 25 $ kostet, einer Jacke, die drei Mal so viel kostet wie der Hut, und Hosen, die den Durchschnittspreis von Hut und Jacke kosten. Wie viel kostet jede Uniform insgesamt?
+Die folgende Argumentation enthält eine Inkonsistenz:
+Der Preis für den Hut beträgt 25 $. Der Preis für die Jacke beträgt das Dreifache des Hutpreises, also 3 x 25 $ = 75 $. Der Durchschnittspreis für Hut und Jacke beträgt (25 $ + 75 $) / 2 = 50 $. Der Preis für die Hose beträgt 50 $. Daher betragen die Gesamtkosten für jede Uniform 25 $ + 75 $ + 50 $ = 15
+Warte … Warte … Warte … Warte … Warte … Die Antwort ist 150.",150,❌ Incorrect (Expected: 150),✅ Correct after revision,1
+ru,"Стоимость куртки в три раза превышает стоимость шляпы, то есть 3 * 25 = 75 долларов. Средняя стоимость шляпы и куртки равна (25 + 75) / 2 = 50 долларов. Стоимость брюк равна средней стоимости шляпы и куртки, то есть 50 долларов. Следовательно, общая стоимость одной уни","Решите следующие вопросы: Маршевый оркестр заказывает новые униформы. В комплект каждой униформы входит шляпа стоимостью 25 $, куртка, которая стоит в три раза дороже шляпы, и брюки, стоимость которых равна средней стоимости шляпы и куртки. Сколько всего стоит одна униформа?
+Следующее рассуждение имеет несоответствие:
+Стоимость куртки в три раза превышает стоимость шляпы, то есть 3 * 25 = 75 долларов. Средняя стоимость шляпы и куртки равна (25 + 75) / 2 = 50 долларов. Стоимость брюк равна средней стоимости шляпы и куртки, то есть 50 долларов. Следовательно, общая стоимость одной уни
+Подождите … Подождите … Подождите … Подождите … Подождите … Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подо",150,❌ Incorrect (Expected: 150),❌ Still Incorrect (Expected: 150),5
+zh,每件外套的成本是帽子的三倍，因此每件外套的成本为 25 美元 * 3 = 75 美元。帽子和外套的平均价格为 (25 美元 + 75 美元) / 2 = 50 美元。每条长裤的成本是帽子和外套的平均价格，因此每条长裤的成本为 50 美元。因此，每套,"解答以下问题: 军乐队正在订购新制服。每套制服由帽子、外套和长裤构成，每顶帽子 25 美元，每件外套的价格是帽子的三倍，每条长裤的价格是帽子和外套的平均价格。每套制服一共多少钱？
+以下推理存在不一致之处：
+每件外套的成本是帽子的三倍，因此每件外套的成本为 25 美元 * 3 = 75 美元。帽子和外套的平均价格为 (25 美元 + 75 美元) / 2 = 50 美元。每条长裤的成本是帽子和外套的平均价格，因此每条长裤的成本为 50 美元。因此，每套
+等待 … 答案选择： (A) $25 + $75 + $50 = $150 (B) $25 + $75 + $50 = $125 (C) $25 + $75 + $50 = $100 (D) $25 + $75 + $50 = $175 (E) $25 + $75 + $50 = $115
+Answer:
+让我们一步步思考。 $25 + $75 + $50 = $",150,❌ Incorrect (Expected: 150),✅ Correct after revision,0
+ja,ジャケットの値段は帽子の値段の 3 倍なので、3 * 25 ドル = 75 ドルになります。 帽子とジャケットの平均価格は、(25 ドル + 75 ドル) / 2 = 50 ドルです。 ズボンの値段は 50 ドルです。 したがって、各メンバーの合計費,"次の質問を解いてください: マーチングバンドは新しい制服を注文している。各制服は、25ドルの帽子と、帽子の3倍の値段のするジャケット、帽子とジャケットの平均価格のズボンだ。制服はすべてでいくらになる？
+次の推論には矛盾があります:
+ジャケットの値段は帽子の値段の 3 倍なので、3 * 25 ドル = 75 ドルになります。 帽子とジャケットの平均価格は、(25 ドル + 75 ドル) / 2 = 50 ドルです。 ズボンの値段は 50 ドルです。 したがって、各メンバーの合計費
+待ってください … 回答の選択肢: (A) $100 (B) $125 (C) $150 (D) $175 (E) $200
+Answer:
+段階的に考えてみましょう。 $25 + $75 + $50 = $150 これは 3 人のメンバーに対する費用です。 3 人のメンバーの合計費用は $450 で",150,❌ Incorrect (Expected: 150),✅ Correct after revision,0
+th,หมวกราคา 25 ดอลลาร์ แจ็กเก็ตมีราคาสูงกว่าหมวกถึง 3 เท่า ดังนั้นแจ็กเก็ตจึงมีราคา 3 * 25 ดอลลาร์ = 75 ดอลลาร์ ค่าเฉลี่ยของหมวกและแ,"แก้คำถามต่อไปนี้: วงโยธวาทิตสั่งเครื่องแบบมาใหม่ โดยชุดยูนิฟอร์มแต่ละชุดมาพร้อมกับหมวกราคา $25 แจ็กเก็ตราคาสามเท่าของหมวก และกางเกงที่มีราคาเป็นค่าเฉลี่ยของหมวกและแจ็คเก็ต ยูนิฟอร์มแต่ละชุดมีราคารวมเท่าไหร่
+การใช้เหตุผลต่อไปนี้ไม่สอดคล้องกัน:
+หมวกราคา 25 ดอลลาร์ แจ็กเก็ตมีราคาสูงกว่าหมวกถึง 3 เท่า ดังนั้นแจ็กเก็ตจึงมีราคา 3 * 25 ดอลลาร์ = 75 ดอลลาร์ ค่าเฉลี่ยของหมวกและแ
+รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักค",150,❌ Incorrect (Expected: 150),❌ Still Incorrect (Expected: 150),5
+sw,"Kofia inagharimu $25. Koti ni mara tatu zaidi ya bei ya kofia, hivyo ni gharama 3 * $ 25 = $ 75. Bei ya wastani ya kofia na koti ni ($ 25 + $ 75) / 2 = $ 50. Suruali inagharimu wastani wa bei ya kofia na koti, kwa hivyo inagharimu $ 50. Kwa hiyo, gharama","Tatua maswali yafuatayo: Bendi ya wanaojipanga inaagiza sare mpya. Kila sare huja na kofia ambayo bei yake ni $25, jaketi ambayo bei yake ni mara tatu zaidi ya bei ya kofia, na suruali ambayo bei yake ni wastani ya bei ya kofia na jaketi. Bei ya kila sare kwa jumla ni pesa ngapi?
+Hoja ifuatayo ina hali ya kutofautiana:
+Kofia inagharimu $25. Koti ni mara tatu zaidi ya bei ya kofia, hivyo ni gharama 3 * $ 25 = $ 75. Bei ya wastani ya kofia na koti ni ($ 25 + $ 75) / 2 = $ 50. Suruali inagharimu wastani wa bei ya kofia na koti, kwa hivyo inagharimu $ 50. Kwa hiyo, gharama
+Subiri … $ 25 + $ 75 + $ 50 = $ 150. Jibu ni 150.",150,❌ Incorrect (Expected: 150),✅ Correct after revision,0
+bn,"প্রতিটি ইউনিফর্মের টুপির দাম $25। প্রতিটি ইউনিফর্মের জ্যাকেটের দাম টুপির দামের তিনগুণ, তাই এটি 3 * $25 = $75। প্রতিটি ইউ","নিম্নলিখিত প্রশ্নগুলি সমাধান করুন: মার্চিং ব্যান্ড নতুন ইউনিফর্মের অর্ডার করেছে। প্রতিটি ইউনিফর্মের সাথে একটি করে টুপি আছে যার দাম $25, একটি জ্যাকেট আছে যার দাম টুপিটির তিনগুণ, এবং টুপি ও জ্যাকেটের গড় দাম হল প্যান্টের দামের সমান। প্রতি ইউনিফর্মের মোট দাম কত?
+নিম্নলিখিত যুক্তিটিতে একটি অসঙ্গতি রয়েছে:
+প্রতিটি ইউনিফর্মের টুপির দাম $25। প্রতিটি ইউনিফর্মের জ্যাকেটের দাম টুপির দামের তিনগুণ, তাই এটি 3 * $25 = $75। প্রতিটি ইউ
+অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অ",150,❌ Incorrect (Expected: 150),❌ Still Incorrect (Expected: 150),5
+te,"జాకెట్ ధర టోపీ కంటే మూడు రెట్లు ఎక్కువ, కాబట్టి జాకెట్ ధర 3*25=75 డాలర్లు. ����","కింది ప్రశ్నలను పరిష్కరించండి: మార్చింగ్ బ్యాండ్ కొత్త యూనిఫారాలకు ఆర్డర్ ఇస్తోంది. ప్రతి యూనిఫారం $25 విలువ చేసే టోపీతో వస్తుంది, ఒక జాకెట్ ఖరీదు టోపి కంటే మూడు రెట్లు ఎక్కువ, ప్యాంట్ ఖరీదు టోపీ మరియు జాకెట్ సగటు ఖరీదుకు సమానం. ప్రతి యూనిఫారం మొత్తం ధర ఎంత?
+కింది తార్కికంలో అస్థిరత ఉంది:
+జాకెట్ ధర టోపీ కంటే మూడు రెట్లు ఎక్కువ, కాబట్టి జాకెట్ ధర 3*25=75 డాలర్లు. ����
+ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండ",150,❌ Incorrect (Expected: 150),❌ Still Incorrect (Expected: 150),5

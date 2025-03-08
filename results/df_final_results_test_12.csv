@@ -1,0 +1,57 @@
+language,original_response,revised_response,expected_answer,initial_status,new_status,wait_count
+en,"The cost of 3 dozen donuts is 3 * 68 = 204 dollars.
+The cost of 2 dozen mini cupcakes is 2 * 80 = 160 dollars.
+The cost of 6 dozen mini cheesecakes is 6 * 55 = 330 dollars.
+The total cost is 204 + 160 + 330 = 794 dollars.
+The answer is 794.","Solve the following questions: Toula went to the bakery and bought various types of pastries. She bought 3 dozen donuts which cost $68 per dozen, 2 dozen mini cupcakes which cost $80 per dozen, and 6 dozen mini cheesecakes for $55 per dozen. How much was the total cost?
+The following reasoning has an inconsistency:
+The cost of 3 dozen donuts is 3 * 68 = 204 dollars.
+The cost of 2 dozen mini cupcakes is 2 * 80 = 160 dollars.
+The cost of 6 dozen mini cheesecakes is 6 * 55 = 330 dollars.
+The total cost is 204 + 160 + 330 = 794 dollars.
+The answer is 794.
+Wait … Wait … Wait … Wait … Wait …
+The answer is 794.
+Answer:
+Let's think step by step.
+t is correct. The cost of the pastries is $794.",694,❌ Incorrect (Expected: 694),❌ Still Incorrect (Expected: 694),5
+es,"El costo de 3 docenas de donas es 3 * 68 = 204 dólares. El costo de 2 docenas de mini pastelillos es 2 * 80 = 160 dólares. El costo de 6 docenas de tortitas de queso es 6 * 55 = 330 dólares. Por lo tanto, el costo total de todos los pasteles es 204 + 160 + 330 = 794 dólares.","Resuelve las siguientes preguntas: Toula fue a la panadería y compró distintos tipos de pasteles. Compró 3 docenas de donas que cuestan $68 la docena, 2 docenas de mini pastelillos que cuestan $80 la docena y 6 docenas de tortitas de queso a $55 la docena. ¿Cuánto costó todo?
+El siguiente razonamiento tiene una inconsistencia:
+El costo de 3 docenas de donas es 3 * 68 = 204 dólares. El costo de 2 docenas de mini pastelillos es 2 * 80 = 160 dólares. El costo de 6 docenas de tortitas de queso es 6 * 55 = 330 dólares. Por lo tanto, el costo total de todos los pasteles es 204 + 160 + 330 = 794 dólares.
+Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera …",694,❌ Incorrect (Expected: 694),❌ Still Incorrect (Expected: 694),5
+fr,Le coût de 3 douzaines de beignets est de 3 x 68 $ = 204 $. Le coût de 2 douzaines de petits gâteaux est de 2 x 80 $ = 160 $. Le coût de 6 douzaines de petits gâteaux au fromage est de 6 x 55 $ = 330 $. Le coût total est donc de 204 $ + 160 $ + 330 $ = 734 $. La réponse,"Résolvez les questions suivantes: Toula a acheté plusieurs pâtisseries différentes à la boulangerie. Elle a acheté 3 douzaines de beignets à 68 $ la douzaine, 2 douzaines de petits gâteaux à 80 $ la douzaine et 6 douzaines de petits gâteaux au fromage à 55 $ la douzaine. À combien s'élève le coût total ?
+Le raisonnement suivant présente une incohérence :
+Le coût de 3 douzaines de beignets est de 3 x 68 $ = 204 $. Le coût de 2 douzaines de petits gâteaux est de 2 x 80 $ = 160 $. Le coût de 6 douzaines de petits gâteaux au fromage est de 6 x 55 $ = 330 $. Le coût total est donc de 204 $ + 160 $ + 330 $ = 734 $. La réponse
+Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez …",694,❌ Incorrect (Expected: 694),❌ Still Incorrect (Expected: 694),5
+de,Die Kosten für die Donuts betragen 3 x 68 $ = 204 $. Die Kosten für die Mini-Cupcakes betragen 2 x 80 $ = 160 $. Die Kosten für die Mini-Cheesecakes betragen 6 x 55 $ = 330 $. Die Gesamtkosten betragen 204 $ + 160 $ + 330 $ = 734 $. Die Antwort ist 734.,"Los die folgenden Fragen: Toula ging in die Bäckerei und kaufte verschiedene Arten von Gebäck. Sie kaufte 3 Dutzend Donuts, die 68 US-Dollar pro Dutzend kosten, 2 Dutzend Mini-Cupcakes, die 80 US-Dollar pro Dutzend kosten und 6 Dutzend Mini-Cheesecakes für 55 US-Dollar pro Dutzend. Wie hoch waren die Gesamtkosten?
+Die folgende Argumentation enthält eine Inkonsistenz:
+Die Kosten für die Donuts betragen 3 x 68 $ = 204 $. Die Kosten für die Mini-Cupcakes betragen 2 x 80 $ = 160 $. Die Kosten für die Mini-Cheesecakes betragen 6 x 55 $ = 330 $. Die Gesamtkosten betragen 204 $ + 160 $ + 330 $ = 734 $. Die Antwort ist 734.
+Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte",694,❌ Incorrect (Expected: 694),❌ Still Incorrect (Expected: 694),5
+ru,Стоимость 3 дюжин пончиков равна 3 * 68 = 204 доллара. Стоимость 2 дюжин мини-кексов равна 2 * 80 = 160 долларов. Стоимость 6 дюжин мини-чизкейков равна 6 * 55 = 330 долларов. Общая стоимость составляет 204 + 160 + 330,"Решите следующие вопросы: Тула пошла в пекарню и купила различные виды выпечки. Она купила 3 дюжины пончиков, которые стоили по 68 $ за дюжину, 2 дюжины мини-кексов, которые стоили по 80 $ за дюжину, и 6 дюжин мини-чизкейков по 55 $ за дюжину. Какова была общая стоимость?
+Следующее рассуждение имеет несоответствие:
+Стоимость 3 дюжин пончиков равна 3 * 68 = 204 доллара. Стоимость 2 дюжин мини-кексов равна 2 * 80 = 160 долларов. Стоимость 6 дюжин мини-чизкейков равна 6 * 55 = 330 долларов. Общая стоимость составляет 204 + 160 + 330
+Подождите … Подождите … Подождите … Подождите … Подождите … Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подо",694,❌ Incorrect (Expected: 694),❌ Still Incorrect (Expected: 694),5
+zh,3 打甜甜圈的成本为 3 * 68 = 204 美元。 2 打迷你纸杯蛋糕的成本为 2 * 80 = 160 美元。 6 打迷你奶酪蛋糕的成本为 6 * 55 = 330 美元。因此，Ghala 总共花费了 204 + 16,"解答以下问题: 图拉去烘焙店买了各种不同的糕点。她买了 3 打甜甜圈（每打 68 美元）、2 打迷你纸杯蛋糕（每打 80 美元）和 6 打迷你奶酪蛋糕（每打 55 美元）。总共花了多少钱？
+以下推理存在不一致之处：
+3 打甜甜圈的成本为 3 * 68 = 204 美元。 2 打迷你纸杯蛋糕的成本为 2 * 80 = 160 美元。 6 打迷你奶酪蛋糕的成本为 6 * 55 = 330 美元。因此，Ghala 总共花费了 204 + 16
+等待 … 等待 … 等待 … 等待 … 等待 … 答案是 585。",694,❌ Incorrect (Expected: 694),❌ Still Incorrect (Expected: 694),5
+ja,トゥラは 1 個あたり 68 ドルのドーナツを 36 個購入したため、ドーナツに 36 * 68 = 2416 ドルを費やしました。彼女はまた、1 個あたり 80 ドルのミニカップケーキを 24 個購入したため、ミニカップケーキに 24 *,"次の質問を解いてください: トゥーラはパン屋さんに行き、様々なペーストリーを買いました。12個あたり68ドルかかるドーナッツを36個、12個あたり80ドルかかるミニカップケーキを24個、12個あたり55ドルかかるミニチーズケーキを72個購入しました。合計金額はいくらだったでしょうか？
+次の推論には矛盾があります:
+トゥラは 1 個あたり 68 ドルのドーナツを 36 個購入したため、ドーナツに 36 * 68 = 2416 ドルを費やしました。彼女はまた、1 個あたり 80 ドルのミニカップケーキを 24 個購入したため、ミニカップケーキに 24 *
+待ってください … 待ってください … 待ってください … 待ってください … 待ってください … 答えは 792 です。",694,❌ Incorrect (Expected: 694),❌ Still Incorrect (Expected: 694),5
+th,โดนัท 3 โหล ราคา 68 ดอลลาร์ต่อโหล รวมเป็น 3 * 68 = 204 ดอลลาร์ มินิคัพเค้ก 2 โหล ราคา 80 ดอลลาร์ต่อโหล รวมเป็น 2 * 80 = 160 ดอลลาร์,"แก้คำถามต่อไปนี้: ตูล่าไปร้านเบเกอรี่และซื้อขนมปังมาหลายประเภท เธอซื้อโดนัท 3 โหลในราคาโหลละ $68 มินิคัพเค้ก 2 โหลในราคาโหลละ $80 และมินิชีสเค้ก 6 โหลในราคาโหลละ $55 ค่าขนมปังทั้งหมดเท่ากับกี่ดอลลาร์
+การใช้เหตุผลต่อไปนี้ไม่สอดคล้องกัน:
+โดนัท 3 โหล ราคา 68 ดอลลาร์ต่อโหล รวมเป็น 3 * 68 = 204 ดอลลาร์ มินิคัพเค้ก 2 โหล ราคา 80 ดอลลาร์ต่อโหล รวมเป็น 2 * 80 = 160 ดอลลาร์
+รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักค",694,❌ Incorrect (Expected: 694),❌ Still Incorrect (Expected: 694),5
+sw,"Toula alinunua donati 3 kwa $68/dazeni, kwa hivyo gharama ya jumla ya donati ni 3 * $68 = $204. Toula alinunua keki 2 kwa $80/dazeni, kwa hivyo gharama ya jumla ya keki ni 2 * $80 = $160. Toula alinunua keki 6 za jibini kwa $55/dazeni, kwa h","Tatua maswali yafuatayo: Toula alienda kwenye tanuri mikate na akanunua aina mbalimbali za vitobosho. Alinunua dazeni 3 za donati zinazogharimu $68 kwa kila dazeni, dazeni 2 za keki ndogo zinazogharimu $80 kwa kila dazeni, na dazeni 6 za keki ndogo za jibini kwa $55 kwa kila dazeni. Jumla ya gharama ilikuwa ngapi?
+Hoja ifuatayo ina hali ya kutofautiana:
+Toula alinunua donati 3 kwa $68/dazeni, kwa hivyo gharama ya jumla ya donati ni 3 * $68 = $204. Toula alinunua keki 2 kwa $80/dazeni, kwa hivyo gharama ya jumla ya keki ni 2 * $80 = $160. Toula alinunua keki 6 za jibini kwa $55/dazeni, kwa h
+Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri",694,❌ Incorrect (Expected: 694),❌ Still Incorrect (Expected: 694),5
+bn,ডোনাটের দাম 3 * 68 = $204। ছোট কাপকেকের দাম 2 * 80 = $160। মিনি চিজকেকের দাম 6 * 55 = $330। মোট খরচ হল 204 + 160 + 330 = $794। উত্তর হ,"নিম্নলিখিত প্রশ্নগুলি সমাধান করুন: টুলা বেকারিতে গিয়ে বিভিন্ন রকমের পেস্ট্রি কিনেছিলেন। তিনি $68 ডজন দরে 3 ডজন ডোনাট, $80 ডজন দরে 2 ডজন ছোট কাপকেক, এবং $55 ডজন দরে 6 ডজন মিনি চিজকেক কিনেছিলেন। মোট কত খরচ হয়েছিল?
+নিম্নলিখিত যুক্তিটিতে একটি অসঙ্গতি রয়েছে:
+ডোনাটের দাম 3 * 68 = $204। ছোট কাপকেকের দাম 2 * 80 = $160। মিনি চিজকেকের দাম 6 * 55 = $330। মোট খরচ হল 204 + 160 + 330 = $794। উত্তর হ
+অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন।",694,❌ Incorrect (Expected: 694),❌ Still Incorrect (Expected: 694),5
+te,డోనట్స్ ధర 3*68 = $204 మినీ కప్‌కేక్‌ల ధర 2*80 = $160 మినీ చీజ్‌కేక్‌ల ధర 6*55 = $330 మొత్తం ��,"కింది ప్రశ్నలను పరిష్కరించండి: టౌలా ఒక బేకరీకి వెళ్లి, వివిధ రకాలైన పేస్ట్రీలను కొనుగోలు చేసింది. ఆమె డజను $68 ఖరీదుతో 3 డజన్ల డోనట్‌లను, డజను $80 డాలర్లు ఖరీదుతో 2 డజన్ల మినీ కప్‌ కేకులను, డజను $55 ఖరీదుతో 6 డజన్ల మినీ చీజ్‌కేక్‌లను కొనుగోలు చేసింది. మొత్తం ఖర్చు ఎంత?
+కింది తార్కికంలో అస్థిరత ఉంది:
+డోనట్స్ ధర 3*68 = $204 మినీ కప్‌కేక్‌ల ధర 2*80 = $160 మినీ చీజ్‌కేక్‌ల ధర 6*55 = $330 మొత్తం ��
+ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండ",694,❌ Incorrect (Expected: 694),❌ Still Incorrect (Expected: 694),5

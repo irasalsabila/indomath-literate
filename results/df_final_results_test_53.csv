@@ -1,0 +1,26 @@
+language,original_response,revised_response,expected_answer,initial_status,new_status,wait_count
+en,"The comic books weigh 30 * 1/4 = 7.5 pounds.
+        The toys weigh x * 1/2 = 7.5 pounds.
+        (Since 1/2 of a pound is the same as 7.5 pounds)
+        Therefore, x = 15.
+        The answer is 15.","The comic books weigh 30 * 1/4 = 7.5 pounds.
+        The toys weigh x * 1/2 = 7.5 pounds.
+        (Since 1/2 of a pound is the same as 7.5 pounds)
+        Therefore, x = 15.
+        The answer is 15.",15,✅ Correct,✅ Correct,0
+es,"Las revistas de historietas de Uriah pesan 30 * 1/4 = 7,5 libras. Los juguetes de Uriah pesan x * 1/2 = x/2 libras. El peso total de los libros de historietas y los juguetes de Uriah es 7,5 + x/2 libras. Dado que Uriah necesita quitar 15 libras, entonces 7,5 + x/2 = 15. Para resolver x, resta 7","Las revistas de historietas de Uriah pesan 30 * 1/4 = 7,5 libras. Los juguetes de Uriah pesan x * 1/2 = x/2 libras. El peso total de los libros de historietas y los juguetes de Uriah es 7,5 + x/2 libras. Dado que Uriah necesita quitar 15 libras, entonces 7,5 + x/2 = 15. Para resolver x, resta 7",15,✅ Correct,✅ Correct,0
+fr,"Les bandes dessinées d'Uriah pèsent 30 x 1/4 = 7,5 livres. Les jouets pèsent 15 - 7,5 = 7,5 livres. Puisque chaque jouet pèse 1/2 livre, Uriah doit retirer 7,5 / 1/2 = 15 jouets. La réponse est 15.","Les bandes dessinées d'Uriah pèsent 30 x 1/4 = 7,5 livres. Les jouets pèsent 15 - 7,5 = 7,5 livres. Puisque chaque jouet pèse 1/2 livre, Uriah doit retirer 7,5 / 1/2 = 15 jouets. La réponse est 15.",15,✅ Correct,✅ Correct,0
+de,"Die Comic-Bücher wiegen jeweils 1/4 Pfund und Uriah hat 30 davon entfernt, sodass das Gesamtgewicht der Comic-Bücher 1/4 x 30 = 7,5 Pfund beträgt. Die Spielzeuge wiegen jeweils 1/2 Pfund und Uriah muss 15 Pfund abnehmen, also beträgt das Gewicht der Spielzeuge 15 - 7,5 = 7,5 Pfund. Da jedes Spielzeug 1","Die Comic-Bücher wiegen jeweils 1/4 Pfund und Uriah hat 30 davon entfernt, sodass das Gesamtgewicht der Comic-Bücher 1/4 x 30 = 7,5 Pfund beträgt. Die Spielzeuge wiegen jeweils 1/2 Pfund und Uriah muss 15 Pfund abnehmen, also beträgt das Gewicht der Spielzeuge 15 - 7,5 = 7,5 Pfund. Da jedes Spielzeug 1",15,✅ Correct,✅ Correct,0
+ru,"1/4 фунта равно 12 унциям, потому что 1/4 x 16 = 12 1/2 фунта равно 16 унциям, потому что 1/2 x 16 = 8 30 комиксов весят 360 унций, потому что 30 x 12 = 360 Игрушки весят 160 унций, потому что 40 x 4 = 1","Решите следующие вопросы: Портфель становится для Юрайи слишком тяжелым. Ему нужно вытащить оттуда 15 фунтов. Его комиксы весят 1/4 фунта каждый, а игрушки — 1/2 фунта каждая. Если он вытащит 30 комиксов, сколько игрушек ему нужно будет вытащить?
+Следующее рассуждение имеет несоответствие:
+1/4 фунта равно 12 унциям, потому что 1/4 x 16 = 12 1/2 фунта равно 16 унциям, потому что 1/2 x 16 = 8 30 комиксов весят 360 унций, потому что 30 x 12 = 360 Игрушки весят 160 унций, потому что 40 x 4 = 1
+Подождите … нужно убрать 4 игрушки, потому что 160 / 4 = 40. Ответ — 4.",15,❌ Incorrect (Expected: 15),✅ Correct after revision,0
+zh,漫画书的重量为 30 * 1/4 = 7.5 磅。玩具的重量为 2 * 1/2 = 1 磅。玩具重量为 15 - 7.5 = 7.5 磅。这意味着他需要去掉 7.5 / 1 = 7.5 个玩具。答案是 7。,漫画书的重量为 30 * 1/4 = 7.5 磅。玩具的重量为 2 * 1/2 = 1 磅。玩具重量为 15 - 7.5 = 7.5 磅。这意味着他需要去掉 7.5 / 1 = 7.5 个玩具。答案是 7。,15,✅ Correct,✅ Correct,0
+ja,ステップごとの答え： 漫画本の重量は 15 ポンド、または 15*4=60 分の 1 ポンドです。彼は 30 冊の漫画本を取り除きました。これは、60/30 = 2 分の 1 ポンドの重量に相当します。彼はまだ 60-2=58 分の 1,ステップごとの答え： 漫画本の重量は 15 ポンド、または 15*4=60 分の 1 ポンドです。彼は 30 冊の漫画本を取り除きました。これは、60/30 = 2 分の 1 ポンドの重量に相当します。彼はまだ 60-2=58 分の 1,15,✅ Correct,✅ Correct,0
+th,หนังสือการ์ตูน 30 เล่ม หนัก 30 * 1/4 = 7.5 ปอนด์ ของเล่นของยูไรอาห์มีน้ำหนัก 15 - 7.5 = 7.5 ปอนด์ ของเล่นของยูไรอาห์แต่ละชิ้นมีน้ำห,หนังสือการ์ตูน 30 เล่ม หนัก 30 * 1/4 = 7.5 ปอนด์ ของเล่นของยูไรอาห์มีน้ำหนัก 15 - 7.5 = 7.5 ปอนด์ ของเล่นของยูไรอาห์แต่ละชิ้นมีน้ำห,15,✅ Correct,✅ Correct,0
+sw,Uzito wa vitabu vya Uriah vya futuhi ni pauni 15 * 1/4 = pauni 3.75. Uzito wa wanasesere wa Uriah ni pauni 1/2 * idadi ya wanasesere. Uzito wa jumla wa vitabu vya Uriah vya futuhi na wanasesere ni pauni 15 - pauni 3.75 = pauni 11.25. Kwa hivyo idadi ya wanasesere al,Uzito wa vitabu vya Uriah vya futuhi ni pauni 15 * 1/4 = pauni 3.75. Uzito wa wanasesere wa Uriah ni pauni 1/2 * idadi ya wanasesere. Uzito wa jumla wa vitabu vya Uriah vya futuhi na wanasesere ni pauni 15 - pauni 3.75 = pauni 11.25. Kwa hivyo idadi ya wanasesere al,15,✅ Correct,✅ Correct,0
+bn,কমিক বইয়ের ওজন 30 * 1/4 = 7.5 পাউন্ড। এর মানে হল যে খেলনার ওজন 15 - 7.5 = 7.5 পাউন্ড। তাই তাকে 15 / 1/2 = 30 টি খেলনা নি,কমিক বইয়ের ওজন 30 * 1/4 = 7.5 পাউন্ড। এর মানে হল যে খেলনার ওজন 15 - 7.5 = 7.5 পাউন্ড। তাই তাকে 15 / 1/2 = 30 টি খেলনা নি,15,✅ Correct,✅ Correct,0
+te,మొదట బొమ్మల బరువును పౌండ్లలో కనుగొనండి. బొమ్మలు ఒక్కొక్కటి 1/2 పౌండ్ బరువ,"కింది ప్రశ్నలను పరిష్కరించండి: ఊరియాకు పుస్తకాల బ్యాగ్ బరువుగా మారుతోంది. అతడు దాని నుంచి 15 పౌండ్‌లను తొలగించాల్సి ఉంది. అతడి కామిక్ పుస్తకాలు ఒక్కొక్కటి 1/4 పౌండ్‌ల బరువు, అతడి బొమ్మలు ఒక్కొక్కటి 1/2 పౌండ్‌ల బరువు ఉంటాయి. అతడు 30 కామిక్ పుస్తకాలను తొలగిస్తే, అతడు ఎన్ని బొమ్మలను తొలగించాల్సి ఉంటుంది?
+కింది తార్కికంలో అస్థిరత ఉంది:
+మొదట బొమ్మల బరువును పౌండ్లలో కనుగొనండి. బొమ్మలు ఒక్కొక్కటి 1/2 పౌండ్ బరువ
+ఆగండి … అప్పుడు మొత్తం బరువు నుండి పుస్తకాల బరువును తీసివేయండి. మిగిలిన బరువు బొమ్మల బర",15,❌ Incorrect (Expected: 15),✅ Correct after revision,0

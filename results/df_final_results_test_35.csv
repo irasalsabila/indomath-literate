@@ -1,0 +1,31 @@
+language,original_response,revised_response,expected_answer,initial_status,new_status,wait_count
+en,"Aaron has 5+40/2 = 25 jewels.
+        Siobhan has 25 - 2 = 23 jewels.
+        The answer is 23.","Aaron has 5+40/2 = 25 jewels.
+        Siobhan has 25 - 2 = 23 jewels.
+        The answer is 23.",23,✅ Correct,✅ Correct,0
+es,"Si Raymond tiene 40 joyas, entonces la mitad de sus joyas son 40/2 = 20 joyas. Aaron tiene 5 más de la mitad de los chupetines de Raymond, por lo que Aaron tiene 20 + 5 = 25 chupetines. Siobhan tiene 2 chupetines menos que Aaron, por lo que tiene 25 - 2 = 23 chupetines. La respuesta es 23.","Si Raymond tiene 40 joyas, entonces la mitad de sus joyas son 40/2 = 20 joyas. Aaron tiene 5 más de la mitad de los chupetines de Raymond, por lo que Aaron tiene 20 + 5 = 25 chupetines. Siobhan tiene 2 chupetines menos que Aaron, por lo que tiene 25 - 2 = 23 chupetines. La respuesta es 23.",23,✅ Correct,✅ Correct,0
+fr,"La moitié des bijoux de Raymond est de 40/2 = 20 bijoux. Aaron a 5 de plus que cela, donc Aaron a 20 + 5 = 25 bijoux. Siobhan a 2 de moins qu'Aaron, donc Siobhan a 25 - 2 = 23 bijoux. La réponse est 23.","La moitié des bijoux de Raymond est de 40/2 = 20 bijoux. Aaron a 5 de plus que cela, donc Aaron a 20 + 5 = 25 bijoux. Siobhan a 2 de moins qu'Aaron, donc Siobhan a 25 - 2 = 23 bijoux. La réponse est 23.",23,✅ Correct,✅ Correct,0
+de,"Wenn Raymond 40 Schmuckstücke hat, hat Aaron 40 / 2 = 20 Schmuckstücke. Aaron hat 5 mehr als 20 / 2 = 10 Schmuckstücke. Aaron hat also 10 + 5 = 15 Schmuckstücke. Siobhan hat 15 - 2 = 13 Schmuckstücke. Die Antwort ist 13.","Los die folgenden Fragen: Siobhan besitzt 2 Schmuckstücke weniger als Aaron. Aaron hat 5 Schmuckstücke mehr als die Hälfte von Raymonds Schmuckstücken. Wenn Raymond 40 Schmuckstücke hat, wie viele Schmuckstücke besitzt dann Siobhan?
+Die folgende Argumentation enthält eine Inkonsistenz:
+Wenn Raymond 40 Schmuckstücke hat, hat Aaron 40 / 2 = 20 Schmuckstücke. Aaron hat 5 mehr als 20 / 2 = 10 Schmuckstücke. Aaron hat also 10 + 5 = 15 Schmuckstücke. Siobhan hat 15 - 2 = 13 Schmuckstücke. Die Antwort ist 13.
+Warte … Warte … Warte … Warte … Warte … Die Antwort ist 13.",23,❌ Incorrect (Expected: 23),❌ Still Incorrect (Expected: 23),5
+ru,"Если у Рэймонда 40 драгоценных камней, то у Аарона 40/2 + 5 = 25 драгоценных камней. А у Шивон на 2 меньше, чем у Аарона, поэтому у нее 25 – 2 = 23 драгоценных камня. Ответ: 23.","Если у Рэймонда 40 драгоценных камней, то у Аарона 40/2 + 5 = 25 драгоценных камней. А у Шивон на 2 меньше, чем у Аарона, поэтому у нее 25 – 2 = 23 драгоценных камня. Ответ: 23.",23,✅ Correct,✅ Correct,0
+zh,如果雷蒙德有 40 颗珠宝，那么艾伦有 (1/2) * 40 + 5 = 20 + 5 = 25 颗珠宝。由于 Winston 的珠宝数量比 Alayne 少 2 颗，因此他有 25 - 2 = 23 颗珠宝。答案是23。,如果雷蒙德有 40 颗珠宝，那么艾伦有 (1/2) * 40 + 5 = 20 + 5 = 25 颗珠宝。由于 Winston 的珠宝数量比 Alayne 少 2 颗，因此他有 25 - 2 = 23 颗珠宝。答案是23。,23,✅ Correct,✅ Correct,0
+ja,アーロンは 40+5=45 個の宝石を持っています。つまり、シヴォーンは 45-2=43 個の宝石を持っています。答えは43です。,"次の質問を解いてください: シヴォーンが持つ宝石の数は、アーロンよりも2個少ないです。アーロンはレイモンドよりも、5個多く宝石を持っています。もしもレイモンドが40個の宝石を持っている場合、シヴォーンはいくつ宝石を持っていますか？
+次の推論には矛盾があります:
+アーロンは 40+5=45 個の宝石を持っています。つまり、シヴォーンは 45-2=43 個の宝石を持っています。答えは43です。
+待ってください … 待ってください … 待ってください … 待ってください … 待ってください … 待ってください。答えは43です。",23,❌ Incorrect (Expected: 23),❌ Still Incorrect (Expected: 23),5
+th,ถ้าเรย์มอนด์มีอัญมณี 40 เม็ด ครึ่งหนึ่งของจำนวนนั้นคือ 40/2 = 20 อัญมณี แอรอนมีอัญมณีมากกว่าครึ่งหนึ่งของจำนวนที่เรย์มอนด์มี 5 เ,"แก้คำถามต่อไปนี้: โชบานมีอัญมณีน้อยกว่าแอรอน 2 เม็ด แอรอนมีอัญมณีมากกว่าครึ่งหนึ่งของที่เรย์มอนด์มี 5 เม็ด ถ้าเรย์มอนด์มีอัญมณี 40 เม็ด โชบานจะมีอัญมณีกี่เม็ด
+การใช้เหตุผลต่อไปนี้ไม่สอดคล้องกัน:
+ถ้าเรย์มอนด์มีอัญมณี 40 เม็ด ครึ่งหนึ่งของจำนวนนั้นคือ 40/2 = 20 อัญมณี แอรอนมีอัญมณีมากกว่าครึ่งหนึ่งของจำนวนที่เรย์มอนด์มี 5 เ
+รอสักครู่ … แอรอนจึงมีอัญมณี 20 + 5 = 25 เม็ด โชบานมีอัญมณีน้อยกว่าแอรอน 2 เม็ด ดังนั้นโชบานจึงมีอัญมณี 25 - 2 = 23 เม็ด ดังนั้น โชบานจึงมีอัญม",23,❌ Incorrect (Expected: 23),✅ Correct after revision,0
+sw,"Ikiwa Raymond ana vito 40, basi Aaron ana 40/2 + 5 = 25 vito. Na ikiwa Aaron ana vito 25, basi Siobhan ana 25 - 2 = 23 vito. Kwa hivyo Siobhan ana vito 23. Jibu ni 23.","Ikiwa Raymond ana vito 40, basi Aaron ana 40/2 + 5 = 25 vito. Na ikiwa Aaron ana vito 25, basi Siobhan ana 25 - 2 = 23 vito. Kwa hivyo Siobhan ana vito 23. Jibu ni 23.",23,✅ Correct,✅ Correct,0
+bn,"যদি রেমন্ডের 40টি রত্ন থাকে, তাহলে অ্যারনের 40/2 + 5 = 25টি রত্ন থাকে। সিওভানের অ্যারনের চেয়ে 2টি কম রত্ন রয়েছে, তাই তা","নিম্নলিখিত প্রশ্নগুলি সমাধান করুন: অ্যারনের থেকে সিওভানের কাছে 2টি কম রত্ন আছে। রেমন্ডের রত্নের অর্ধেকের থেকে 5টি বেশি রত্ন অ্যারনের কাছে আছে। যদি রেমন্ডের কাছে 40টি রত্ন থাকে, তাহলে সিওভানের কাছে কটি রত্ন আছে?
+নিম্নলিখিত যুক্তিটিতে একটি অসঙ্গতি রয়েছে:
+যদি রেমন্ডের 40টি রত্ন থাকে, তাহলে অ্যারনের 40/2 + 5 = 25টি রত্ন থাকে। সিওভানের অ্যারনের চেয়ে 2টি কম রত্ন রয়েছে, তাই তা
+অপেক্ষা করুন … 25 - 2 = 23 রত্ন। উত্তর হল 23।",23,❌ Incorrect (Expected: 23),✅ Correct after revision,0
+te,"రేమండ్ వద్ద 40 ఆభరణాలు ఉంటే, ఆరోన్ వద్ద 40/2=20 ఆభరణాలు ఉన్నాయి. ఆరోన్ వద్ద ఉ","కింది ప్రశ్నలను పరిష్కరించండి: సియోభన్ వద్ద ఆరోన్ కంటే 2 ఆభరణాలు తక్కువగా ఉన్నాయి. ఆరోన్ వద్ద రేమండ్ ఆభరణాల్లో సగానికంటే 5 ఆభరణాలు ఎక్కువగా ఉన్నాయి. రేమండ్ వద్ద 40 ఆభరణాలు ఉంటే, సియోభన్ వద్ద ఎన్ని ఆభరణాలు ఉన్నాయి?
+కింది తార్కికంలో అస్థిరత ఉంది:
+రేమండ్ వద్ద 40 ఆభరణాలు ఉంటే, ఆరోన్ వద్ద 40/2=20 ఆభరణాలు ఉన్నాయి. ఆరోన్ వద్ద ఉ
+ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి సమాధానం 13.",23,❌ Incorrect (Expected: 23),❌ Still Incorrect (Expected: 23),5

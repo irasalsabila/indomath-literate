@@ -1,0 +1,66 @@
+language,original_response,revised_response,expected_answer,initial_status,new_status,wait_count
+en,"Judy teaches 5 classes on weekdays, so she has 5 * 15 = 75 dollars per weekday.
+        Judy teaches 8 classes on Saturday, so she has 8 * 15 = 120 dollars on Saturday.
+        In total, Judy makes 75 + 120 = 195 dollars in a week.
+        The answer is 195.","Solve the following questions: Judy teaches 5 dance classes, every day, on the weekdays and 8 classes on Saturday.  If each class has 15 students and she charges $15.00 per student, how much money does she make in 1 week?
+The following reasoning has an inconsistency:
+Judy teaches 5 classes on weekdays, so she has 5 * 15 = 75 dollars per weekday.
+        Judy teaches 8 classes on Saturday, so she has 8 * 15 = 120 dollars on Saturday.
+        In total, Judy makes 75 + 120 = 195 dollars in a week.
+        The answer is 195.
+Wait … Wait … Wait … Wait … Wait …
+The answer is 195.
+The answer is 195.
+The answer is 195.
+The answer is 195.
+The answer is 195.
+The answer is 195.
+The answer is 195.
+The answer is 195.
+The answer is 195.
+The answer is 195.
+The answer is 195.
+The answer is 195.
+The answer is 195.
+The answer is 195.
+The",7425,❌ Incorrect (Expected: 7425),❌ Still Incorrect (Expected: 7425),5
+es,"Judy enseña 5 clases de baile todos los días de la semana, por lo que gana 5 * 15 = 75 dólares por día de la semana. Ella enseña 8 clases de baile los sábados, por lo que gana 8 * 15 = 120 dólares los sábados. En total, gana 75 * 5 = 375 dólares entre semana. Y gana 120 dólares los sábados","Resuelve las siguientes preguntas: Judy enseña 5 clases de baile, todos los días de la semana y 8 clases los sábados. Si en cada clase hay 15 alumnos y ella cobra $15,00 por alumno, ¿cuánto dinero recauda en 1 semana?
+El siguiente razonamiento tiene una inconsistencia:
+Judy enseña 5 clases de baile todos los días de la semana, por lo que gana 5 * 15 = 75 dólares por día de la semana. Ella enseña 8 clases de baile los sábados, por lo que gana 8 * 15 = 120 dólares los sábados. En total, gana 75 * 5 = 375 dólares entre semana. Y gana 120 dólares los sábados
+Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera …",7425,❌ Incorrect (Expected: 7425),❌ Still Incorrect (Expected: 7425),5
+fr,"Judy donne 5 cours de danse en semaine, elle enseigne donc 5 x 15 = 75 étudiants en semaine. Elle donne également 8 cours le samedi, donc elle enseigne à 8 x 15 = 120 étudiants le samedi. Au total, Judy enseigne à 75 + 120 = 195 étudiants par semaine. Puisqu'elle facture 15,00 $ par élève, Judy gagne 195 x","Résolvez les questions suivantes: En semaine, Judy donne 5 cours de danse tous les jours et 8 cours le samedi. Si chaque cours compte 15 élèves et qu'elle facture 15,00 $ par élève, combien d'argent gagne-t-elle en une semaine ?
+Le raisonnement suivant présente une incohérence :
+Judy donne 5 cours de danse en semaine, elle enseigne donc 5 x 15 = 75 étudiants en semaine. Elle donne également 8 cours le samedi, donc elle enseigne à 8 x 15 = 120 étudiants le samedi. Au total, Judy enseigne à 75 + 120 = 195 étudiants par semaine. Puisqu'elle facture 15,00 $ par élève, Judy gagne 195 x
+Attendez … Attendez … Attendez … Attendez … Attendez … Attendez… La réponse est 2 825.",7425,❌ Incorrect (Expected: 7425),❌ Still Incorrect (Expected: 7425),5
+de,"Judy unterrichtet 5 Tanzkurse an Wochentagen, also unterrichtet sie 5 x 15 = 75 Schüler an Wochentagen. Sie unterrichtet 8 Tanzkurse am Samstag, also unterrichtet sie am Samstag 8 x 15 = 120 Schüler. Insgesamt unterrichtet sie 75 + 120 = 195 Schüler in einer Woche. Wenn sie 15,00 $ pro Schüler berechnet,","Los die folgenden Fragen: Judy unterrichtet 5 Tanzkurse, täglich, an den Wochenenden und 8 Kurse am Samstag. Wenn jeder Kurs aus 15 Schülern besteht und sie 15,00 US-Dollar pro Schüler verlangt, wie viel Geld macht sie dann innerhalb 1 Woche?
+Die folgende Argumentation enthält eine Inkonsistenz:
+Judy unterrichtet 5 Tanzkurse an Wochentagen, also unterrichtet sie 5 x 15 = 75 Schüler an Wochentagen. Sie unterrichtet 8 Tanzkurse am Samstag, also unterrichtet sie am Samstag 8 x 15 = 120 Schüler. Insgesamt unterrichtet sie 75 + 120 = 195 Schüler in einer Woche. Wenn sie 15,00 $ pro Schüler berechnet,
+Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte",7425,❌ Incorrect (Expected: 7425),❌ Still Incorrect (Expected: 7425),5
+ru,"Джуди преподает 5 классов в будние дни, поэтому она зарабатывает 5 * 15 = 75 долларов в будние дни. Она преподает 8 классов по субботам, поэтому по субботам она зарабатывает 8 * 15 = 120 долларов. В общей сложности она зарабатывает 75 долларов + 120 долларов =","Решите следующие вопросы: Джуди преподает у 5 танцевальных классов каждый день в будние дни и у 8 классов в субботу. Если в каждом классе 15 учеников и она берет по 15,00 $ с ученика, сколько денег она зарабатывает за 1 неделю?
+Следующее рассуждение имеет несоответствие:
+Джуди преподает 5 классов в будние дни, поэтому она зарабатывает 5 * 15 = 75 долларов в будние дни. Она преподает 8 классов по субботам, поэтому по субботам она зарабатывает 8 * 15 = 120 долларов. В общей сложности она зарабатывает 75 долларов + 120 долларов =
+Подождите … Подождите … Подождите … Подождите … Подождите … Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подо",7425,❌ Incorrect (Expected: 7425),❌ Still Incorrect (Expected: 7425),5
+zh,朱迪每天教 5 节课，所以她每天教 5 * 15 = 75 美元。朱迪周六教 8 节课，所以她周六赚 8 * 15 = 120 美元。一周内，朱迪总共赚了 75 * 5 + 120 = 425 美元。答案是425。,"解答以下问题: 朱迪每天和周末教授 5 节舞蹈课，周六教授 8 节舞蹈课。如果每节课有 15 个学生，而她对每个学生收取 15.00 美元的学费，则她一周能赚多少钱？
+以下推理存在不一致之处：
+朱迪每天教 5 节课，所以她每天教 5 * 15 = 75 美元。朱迪周六教 8 节课，所以她周六赚 8 * 15 = 120 美元。一周内，朱迪总共赚了 75 * 5 + 120 = 425 美元。答案是425。
+等待 … 等待 … 等待 … 等待 … 等待 … 答案是425。",7425,❌ Incorrect (Expected: 7425),❌ Still Incorrect (Expected: 7425),5
+ja,ジュディは平日に 5 つのダンス クラスを教えているため、平日には 5 * 15 = 75 ドルを稼ぎます。彼女は土曜日に 8 つのダンス クラスを教えているため、土曜日には 8 * 15 = 120 ドルを稼ぎます。合計すると、彼,"次の質問を解いてください: ジュディは、平日は毎日5つのダンスのクラスを教えており、土曜日は8クラス教えています。もしも各クラスに15人の生徒がおり、1人に$15請求しているとしたら、彼女は1週間でいくら稼ぎますか？
+次の推論には矛盾があります:
+ジュディは平日に 5 つのダンス クラスを教えているため、平日には 5 * 15 = 75 ドルを稼ぎます。彼女は土曜日に 8 つのダンス クラスを教えているため、土曜日には 8 * 15 = 120 ドルを稼ぎます。合計すると、彼
+待ってください … 待ってください … 待ってください … 待ってください … 待ってください … 答えは 390 です。",7425,❌ Incorrect (Expected: 7425),❌ Still Incorrect (Expected: 7425),5
+th,ในวันธรรมดา จูดี้สอน 5 คาบ * นักเรียน 15 คนต่อคาบ = 75 คนต่อวัน ในวันเสาร์ จูดี้สอน 8 คาบ * นักเรียน 15 คนต่อคาบ = 120 คน ในหนึ่งสั,"แก้คำถามต่อไปนี้: จูดี้สอนชั้นเรียนเต้น 5 คาบในวันธรรมดาทุกวัน และสอน 8 คาบในวันเสาร์ ถ้าแต่ละคาบมีนักเรียน 15 คนซึ่งเธอคิดเงิน $15.00 ต่อคน ใน 1 สัปดาห์ จูดี้จะมีรายได้กี่ดอลลาร์
+การใช้เหตุผลต่อไปนี้ไม่สอดคล้องกัน:
+ในวันธรรมดา จูดี้สอน 5 คาบ * นักเรียน 15 คนต่อคาบ = 75 คนต่อวัน ในวันเสาร์ จูดี้สอน 8 คาบ * นักเรียน 15 คนต่อคาบ = 120 คน ในหนึ่งสั
+รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักค",7425,❌ Incorrect (Expected: 7425),❌ Still Incorrect (Expected: 7425),5
+sw,"Judy anafundisha madarasa 5 ya densi kila siku ya juma, kwa hivyo anafundisha 5 * 5 = madarasa 25 kwa jumla siku za juma. Yeye pia hufundisha madarasa 8 ya densi siku za Jumamosi, kwa hivyo hufundisha jumla ya madarasa 25 + 8 = 33 kwa wiki. Ikiwa kila darasa lina wanafunzi 15, bas","Tatua maswali yafuatayo: Judy hufunza madarasa 5 ya densi, kila siku, siku za wiki na madarasa 8 Jumamosi. Ikiwa kila darasa lina wanafunzi 15 na anatoza $15.00 kwa kila mwanafunzi, huwa anatengeneza pesa ngapi kwa wiki 1?
+Hoja ifuatayo ina hali ya kutofautiana:
+Judy anafundisha madarasa 5 ya densi kila siku ya juma, kwa hivyo anafundisha 5 * 5 = madarasa 25 kwa jumla siku za juma. Yeye pia hufundisha madarasa 8 ya densi siku za Jumamosi, kwa hivyo hufundisha jumla ya madarasa 25 + 8 = 33 kwa wiki. Ikiwa kila darasa lina wanafunzi 15, bas
+Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri",7425,❌ Incorrect (Expected: 7425),❌ Still Incorrect (Expected: 7425),5
+bn,জুডি সপ্তাহের দিনগুলিতে 5 * 5 = 25টি ক্লাস নেয়। জুডি শনিবার 8 * 1 = 8 ক্লাস নেয়। তিনি প্রতি সপ্তাহে মোট 25 + 8 = 33টি ক্লাস নেন। যদ,"নিম্নলিখিত প্রশ্নগুলি সমাধান করুন: জুডি সপ্তাহের প্রতিদিন 5টি করে ও শনিবারে 8টি করে নাচের ক্লাস করেন। যদি প্রতি ক্লাসে 15 জন করে শিক্ষার্থী থাকে ও তিনি প্রতি শিক্ষার্থীর থেকে $15.00 করে নেন, তবে 1 সপ্তাহে তিনি কত পরিমাণ অর্থ উপার্জন করেন?
+নিম্নলিখিত যুক্তিটিতে একটি অসঙ্গতি রয়েছে:
+জুডি সপ্তাহের দিনগুলিতে 5 * 5 = 25টি ক্লাস নেয়। জুডি শনিবার 8 * 1 = 8 ক্লাস নেয়। তিনি প্রতি সপ্তাহে মোট 25 + 8 = 33টি ক্লাস নেন। যদ
+অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অ",7425,❌ Incorrect (Expected: 7425),❌ Still Incorrect (Expected: 7425),5
+te,"జూడీ వారపు రోజులలో ప్రతిరోజూ 5 డ్యాన్స్ క్లాస్‌లను బోధిస్తుంది, కాబట్టి �������","కింది ప్రశ్నలను పరిష్కరించండి: జూడీ వారం దినాల్లో ప్రతిరోజూ 5 డ్యాన్స్ క్లాస్‌లను మరియు శనివారం నాడు 8 క్లాసులను బోధిస్తుంది. ప్రతి క్లాసులో 15 మంది విద్యార్ధులున్నారు మరియు ప్రతి విద్యార్ధికి $15.00 వసూలు చేస్తుంది, ఆమె 1 వారంలో ఎంతమొత్తాన్ని సంపాదిస్తుంది?
+కింది తార్కికంలో అస్థిరత ఉంది:
+జూడీ వారపు రోజులలో ప్రతిరోజూ 5 డ్యాన్స్ క్లాస్‌లను బోధిస్తుంది, కాబట్టి �������
+ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి శనివారం నాడు 8 డ్యాన్స్ క్లాస్‌లు బోధిస్తుంది. ప్రతి తరగతిలో 15 మంది విద్యార్��",7425,❌ Incorrect (Expected: 7425),❌ Still Incorrect (Expected: 7425),5

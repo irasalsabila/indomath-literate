@@ -1,0 +1,29 @@
+language,original_response,revised_response,expected_answer,initial_status,new_status,wait_count
+en,"Jean has 30 - 2 = 28 lollipops remaining.
+        Jean can fill 28 / 2 = 14 bags.
+        The answer is 14.","Jean has 30 - 2 = 28 lollipops remaining.
+        Jean can fill 28 / 2 = 14 bags.
+        The answer is 14.",14,✅ Correct,✅ Correct,0
+es,Respuesta paso a paso: Jean tiene 30 - 2 = 28 paletas. Jean tiene 28/2 = 14 bolsas. La respuesta es 14.,Respuesta paso a paso: Jean tiene 30 - 2 = 28 paletas. Jean tiene 28/2 = 14 bolsas. La respuesta es 14.,14,✅ Correct,✅ Correct,0
+fr,Réponse étape par étape : Jean a 30 - 2 = 28 sucettes. Jean a 28/2 = 14 sacs de sucettes. La réponse est 14.,Réponse étape par étape : Jean a 30 - 2 = 28 sucettes. Jean a 28/2 = 14 sacs de sucettes. La réponse est 14.,14,✅ Correct,✅ Correct,0
+de,"Schritt-für-Schritt-Antwort: Jean hat 30 Lutscher und isst 2, also hat sie noch 30 - 2 = 28 Lutscher übrig. Jean möchte die restlichen 28 Lutscher in Beutel mit jeweils 2 Lutschern aufteilen. 28 / 2 = 14. Jean kann 14 Beutel füllen. Die Antwort ist 14.","Schritt-für-Schritt-Antwort: Jean hat 30 Lutscher und isst 2, also hat sie noch 30 - 2 = 28 Lutscher übrig. Jean möchte die restlichen 28 Lutscher in Beutel mit jeweils 2 Lutschern aufteilen. 28 / 2 = 14. Jean kann 14 Beutel füllen. Die Antwort ist 14.",14,✅ Correct,✅ Correct,0
+ru,"У Джин осталось 30 - 2 = 28 леденцов после того, как она съела 2 леденца. Осталось 28 леденцов можно упаковать в 28/2 = 14 пакетов. Ответ: 14.","У Джин осталось 30 - 2 = 28 леденцов после того, как она съела 2 леденца. Осталось 28 леденцов можно упаковать в 28/2 = 14 пакетов. Ответ: 14.",14,✅ Correct,✅ Correct,0
+zh,Jean 有 30 根棒棒糖，吃了 2 根，所以她还剩下 30 - 2 = 28 根棒棒糖。 Jean 想要将剩余的棒棒糖装在 2 包中，因此她可以装 28 / 2 = 14 包。答案是14。,Jean 有 30 根棒棒糖，吃了 2 根，所以她还剩下 30 - 2 = 28 根棒棒糖。 Jean 想要将剩余的棒棒糖装在 2 包中，因此她可以装 28 / 2 = 14 包。答案是14。,14,✅ Correct,✅ Correct,0
+ja,ステップごとの答え：ジェーンは 30 個の飴を持っていて、2 個食べたので、30-2=28 個の飴が残っています。ジェーンは残りの飴を 28/2=14 袋に入れます。答えは14です。,ステップごとの答え：ジェーンは 30 個の飴を持っていて、2 個食べたので、30-2=28 個の飴が残っています。ジェーンは残りの飴を 28/2=14 袋に入れます。答えは14です。,14,✅ Correct,✅ Correct,0
+th,จีนมีอมยิ้ม 30 แท่ง และเธอกินไป 2 แท่ง ดังนั้นตอนนี้เธอจึงมีอมยิ้มเหลืออยู่ 30 - 2 = 28 แท่ง จีนต้องการแบ่งอมยิ้มที่เหลือออกเป็นถ,"แก้คำถามต่อไปนี้: จีนมีอมยิ้ม 30 แท่ง จีนกินอมยิ้มไป 2 แท่ง จีนต้องการนำอมยิ้มที่เหลือแบ่งใส่ถุง ถุงละ 2 แท่ง จีนจะแบ่งอมยิ้มได้กี่ถุง
+การใช้เหตุผลต่อไปนี้ไม่สอดคล้องกัน:
+จีนมีอมยิ้ม 30 แท่ง และเธอกินไป 2 แท่ง ดังนั้นตอนนี้เธอจึงมีอมยิ้มเหลืออยู่ 30 - 2 = 28 แท่ง จีนต้องการแบ่งอมยิ้มที่เหลือออกเป็นถ
+รอสักครู่ … ถุงละ 2 แท่ง จีนจะใส่อมยิ้มได้กี่ถุง? ตัวเลือกคำตอบ: (A) 14 (B) 16 (C) 18 (D) 10 (E) 12
+Answer:
+ลองคิดทีละขั้นตอน ขั้นตอนที่ 1: ค้นหาจำน",14,❌ Incorrect (Expected: 14),✅ Correct after revision,0
+sw,Jean ana pipi 30 - 2 = 28 zilizosalia. Jean anaweza kujaza mifuko yake 28/2 = 14. Jibu ni 14.,Jean ana pipi 30 - 2 = 28 zilizosalia. Jean anaweza kujaza mifuko yake 28/2 = 14. Jibu ni 14.,14,✅ Correct,✅ Correct,0
+bn,"জিনের 30টি ললিপপ ছিল, এবং 2টি খেয়েছিল, তাই তার এখন 30 - 2 = 28টি ললিপপ রয়েছে৷ জিন ব্যাগে 2টি ললিপপ রাখতে চায়, তা","নিম্নলিখিত প্রশ্নগুলি সমাধান করুন: জিনের কাছে 30টি ললিপপ আছে। জিন 2টি ললিপপ খেয়েছে। অবশিষ্ট ললিপপগুলি দিয়ে, জিন একটি ব্যাগের মধ্যে 2টি করে ললিপপ ভরতে চায়। তাহলে জিন কতগুলি ব্যাগ ভর্তি করতে পারবে?
+নিম্নলিখিত যুক্তিটিতে একটি অসঙ্গতি রয়েছে:
+জিনের 30টি ললিপপ ছিল, এবং 2টি খেয়েছিল, তাই তার এখন 30 - 2 = 28টি ললিপপ রয়েছে৷ জিন ব্যাগে 2টি ললিপপ রাখতে চায়, তা
+অপেক্ষা করুন … জিন কত ব্যাগ ললিপপ পূরণ করতে পারে? উত্তর পছন্দ: (A) 14 (B) 15 (C) 16 (D) 17 (E) 18
+Answer:
+আসুন ধাপে ধাপে চিন্তা করি। ব্যাগে",14,❌ Incorrect (Expected: 14),✅ Correct after revision,0
+te,దశ 1: జీన్ ఎన్ని లాలీపాప్‌లను మిగిల్చిందో మొదట కనుగొనండి. 30-2=28 లాలీపాప్‌లు. ��,"కింది ప్రశ్నలను పరిష్కరించండి: జీన్ వద్ద 30 లాలీపాప్‌లు ఉన్నాయి. జీన్ 2 లాలీపాప్‌లను తిన్నాడు. మిగిలిన లాలీపాప్‌లతో, జీన్ ఒక బ్యాగ్‌లో 2 లాలీపాప్‌లను ప్యాక్ చేయాలని అనుకుంటున్నాడు. జీన్ ఎన్ని బ్యాగ్‌లను నింపగలడు?
+కింది తార్కికంలో అస్థిరత ఉంది:
+దశ 1: జీన్ ఎన్ని లాలీపాప్‌లను మిగిల్చిందో మొదట కనుగొనండి. 30-2=28 లాలీపాప్‌లు. ��
+ఆగండి … దశ 2: జీన్ ఎన్ని లాలీపాప్‌లను ఒక బ్యాగ్‌లో సరిపోతాడో కనుగొనండి. 28/2=14 సంచులు. �",14,❌ Incorrect (Expected: 14),✅ Correct after revision,0

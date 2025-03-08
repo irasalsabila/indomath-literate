@@ -1,0 +1,51 @@
+language,original_response,revised_response,expected_answer,initial_status,new_status,wait_count
+en,"The total cost of the nonfood items is $2 + $3 + $3 + $3 + $4 = $15.
+The tax on the nonfood items is 10% of $15, which is $15 * 10% = $1.50.
+The total cost is $15 + $1.50 = $16.50.
+The answer is 16.50.
+
+
+        Question: 
+The cost of 20 oranges at $1.20 each is 20 * 1.","The total cost of the nonfood items is $2 + $3 + $3 + $3 + $4 = $15.
+The tax on the nonfood items is 10% of $15, which is $15 * 10% = $1.50.
+The total cost is $15 + $1.50 = $16.50.
+The answer is 16.50.
+
+
+        Question: 
+The cost of 20 oranges at $1.20 each is 20 * 1.",16,✅ Correct,✅ Correct,0
+es,"El costo de los artículos no comestibles es $2 + $3 + $3 + $3 + $4 = $15. El impuesto sobre los artículos no comestibles es 10/100 * $15 = $1,5. El costo total es $15 + $1,5 = $16,5. La respuesta es 16.","El costo de los artículos no comestibles es $2 + $3 + $3 + $3 + $4 = $15. El impuesto sobre los artículos no comestibles es 10/100 * $15 = $1,5. El costo total es $15 + $1,5 = $16,5. La respuesta es 16.",16,✅ Correct,✅ Correct,0
+fr,"Le coût total des articles non alimentaires est de 2 $ + 3 $ + 3 $ + 3 $ + 4 $ = 15 $. La taxe sur les articles non alimentaires est de 10 % de 15 $, soit 15 $ x 10 % = 1,50 $. Par conséquent, le coût total, taxes comprises, est de 15 $ + 1,50 $ = 16,50 $. La réponse est 16.","Le coût total des articles non alimentaires est de 2 $ + 3 $ + 3 $ + 3 $ + 4 $ = 15 $. La taxe sur les articles non alimentaires est de 10 % de 15 $, soit 15 $ x 10 % = 1,50 $. Par conséquent, le coût total, taxes comprises, est de 15 $ + 1,50 $ = 16,50 $. La réponse est 16.",16,✅ Correct,✅ Correct,0
+de,Die Antwort ist 17.,"Los die folgenden Fragen: John kauft Milch für 2 Dollar, Eier für 3 Dollar, Glühbirnen für 3 Dollar, Tassen für 3 Dollar und Kakerlakenfallen für 4 Dollar. Wenn es 10 % Steuer auf alle Non-Food-Artikel gibt, sind die Kosten wie hoch.
+Die folgende Argumentation enthält eine Inkonsistenz:
+Die Antwort ist 17.
+Warte … Warte … Warte … Warte … Warte … Antwort ist 17.",16,❌ Incorrect (Expected: 16),❌ Still Incorrect (Expected: 16),5
+ru,"Общая стоимость товаров до налогообложения составляет 2 доллара США + 3 доллара США + 3 доллара США + 3 доллара США + 4 доллара США = 15 долларов США. Налог составляет 10% от 15 долларов США, что составляет 15 долларов США * 0,10 = 1,5 доллара США. Таким образом, общая стоимость, включая налог, составляет","Решите следующие вопросы: Джон покупает молоко за 2 доллара, яйца за 3 доллара, лампочки за 3 доллара, чашки за 3 доллара и ловушки для тараканов за 4 доллара. Если на все непродовольственные товары начисляется налог в размере 10 %, сколько стоило все вместе.
+Следующее рассуждение имеет несоответствие:
+Общая стоимость товаров до налогообложения составляет 2 доллара США + 3 доллара США + 3 доллара США + 3 доллара США + 4 доллара США = 15 долларов США. Налог составляет 10% от 15 долларов США, что составляет 15 долларов США * 0,10 = 1,5 доллара США. Таким образом, общая стоимость, включая налог, составляет
+Подождите … = 15 долларов + 1,5 доллара = 16,5 доллара. Варианты ответа: (A) 16,50 доллара США (B) 12,60 доллара США (C) 15,00 доллара США (D) 20,60 доллара США (E) 20,00 доллара США
+Answer:
+Давайте думать поэтапно. Шаг 1: Найдите общую",16,❌ Incorrect (Expected: 16),✅ Correct after revision,0
+zh,食品总成本为 2 美元 + 3 美元 + 3 美元 + 3 美元 + 4 美元 = 15 美元。税前非食品总成本为 2 美元 + 3 美元 + 3 美元 + 3 美元 = 11 美元。税前所有商品的总成本为 15 美元 + 11 美元 = 26 美元。税额为 26,"解答以下问题: 约翰花 2 美元买牛奶，花 3 美元买鸡蛋，花 3 美元买灯泡，花 3 美元买杯子，花 4 美元买蟑螂诱捕器。如果所有非食品类商品需缴纳 10% 的税收，全部商品多少钱?
+以下推理存在不一致之处：
+食品总成本为 2 美元 + 3 美元 + 3 美元 + 3 美元 + 4 美元 = 15 美元。税前非食品总成本为 2 美元 + 3 美元 + 3 美元 + 3 美元 = 11 美元。税前所有商品的总成本为 15 美元 + 11 美元 = 26 美元。税额为 26
+等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 …",16,❌ Incorrect (Expected: 16),❌ Still Incorrect (Expected: 16),5
+ja,"答えの選択肢: (A) 12.92$ (B) 13.92$ (C) 14.92$ (D) 15.92$ (E) 16.92$
+Answer:
+段階的に考えてみましょう。 2+3+3+4 = 15$ 税金は 15*.10 = 1.5$ 合計は 15+1.5 = 16.5","答えの選択肢: (A) 12.92$ (B) 13.92$ (C) 14.92$ (D) 15.92$ (E) 16.92$
+Answer:
+段階的に考えてみましょう。 2+3+3+4 = 15$ 税金は 15*.10 = 1.5$ 合計は 15+1.5 = 16.5",16,✅ Correct,✅ Correct,0
+th,ต้นทุนรวมของสินค้าที่ไม่ใช่อาหารคือ $2 + $3 + $3 + $3 = $11 ภาษีในสินค้าที่ไม่ใช่อาหารคือ 10% ของ $11 ซึ่งก็คือ $11 * 0.10 = $1.10 ดังนั้น ต้,"แก้คำถามต่อไปนี้: จอห์นซื้อนม 2 ดอลลาร์ ไข่ 3 ดอลลาร์ หลอดไฟ 3 ดอลลาร์ ถ้วย 3 ดอลลาร์ และกับดักแมลงสาบ 4 ดอลลาร์ หากมีภาษี 10% สำหรับสินค้าทั้งหมดที่ไม่ใช่อาหาร สินค้าทั้งหมดมีราคารวมกันเท่าใด
+การใช้เหตุผลต่อไปนี้ไม่สอดคล้องกัน:
+ต้นทุนรวมของสินค้าที่ไม่ใช่อาหารคือ $2 + $3 + $3 + $3 = $11 ภาษีในสินค้าที่ไม่ใช่อาหารคือ 10% ของ $11 ซึ่งก็คือ $11 * 0.10 = $1.10 ดังนั้น ต้
+รอสักครู่ … คำตอบ ตัวเลือก: (A) $12.10 (B) $13.10 (C) $14.10 (D) $15.10 (E) $16.10
+Answer:
+ลองคิดทีละขั้นตอน คำตอบคือ A ภาษีคือ 10% ของต้นทุนทั้งหมด แต่ต้",16,❌ Incorrect (Expected: 16),✅ Correct after revision,0
+sw,"Gharama ya jumla kabla ya kodi ni $2 + $3 + $3 + $3 + $4 = $15. Kiasi cha kodi ni 10% ya $15, ambayo ni $15 * 0.1 = $1.5. Kwa hiyo, gharama ya jumla ikijumuisha kodi ni $15 + $1.5 = $16.5. Jibu ni 16.5.","Gharama ya jumla kabla ya kodi ni $2 + $3 + $3 + $3 + $4 = $15. Kiasi cha kodi ni 10% ya $15, ambayo ni $15 * 0.1 = $1.5. Kwa hiyo, gharama ya jumla ikijumuisha kodi ni $15 + $1.5 = $16.5. Jibu ni 16.5.",16,✅ Correct,✅ Correct,0
+bn,"ট্যাক্সের আগে আইটেমগুলির মোট খরচ হল $2 + $3 + $3 + $3 + $4 = $15 ট্যাক্স হল $15 এর 10%, যা $15 * 0.10 = $1.50 সুতরাং ট্যাক্স সহ সমস্ত আইটেমের","নিম্নলিখিত প্রশ্নগুলি সমাধান করুন: জন 2 ডলার দিয়ে দুধ, 3 ডলার দিয়ে ডিম, 3 ডলার দিয়ে লাইট বাল্ব, 3 ডলার দিয়ে কাপ, ও 4 ডলার দিয়ে আরশোলার ফাঁদ কিনেছেন। যেগুলি খাদ্য সামগ্রী নয় সেগুলির ওপর যদি 10% কর থাকে, তবে একত্রে সব জিনিসের মূল্য কত হয়েছিল?
+নিম্নলিখিত যুক্তিটিতে একটি অসঙ্গতি রয়েছে:
+ট্যাক্সের আগে আইটেমগুলির মোট খরচ হল $2 + $3 + $3 + $3 + $4 = $15 ট্যাক্স হল $15 এর 10%, যা $15 * 0.10 = $1.50 সুতরাং ট্যাক্স সহ সমস্ত আইটেমের
+অপেক্ষা করুন … মোট খরচ হল $15 + $1.50 = $16.50 উত্তর পছন্দ: (A) $16.50 (B) $17.50 (C) $18.50 (D) $19.50 (E) $20.50
+Answer:
+আসুন ধাপে ধাপে চিন্তা করি। ব",16,❌ Incorrect (Expected: 16),✅ Correct after revision,0
+te,పన్నుకు ముందు మొత్తం ఖర్చు 2 + 3 + 3 + 3 + 4 = 15 డాలర్లు. పన్ను 15*10% = 1.5 డాలర్లు. మొత్తం 15+1.5=16.5 డ,పన్నుకు ముందు మొత్తం ఖర్చు 2 + 3 + 3 + 3 + 4 = 15 డాలర్లు. పన్ను 15*10% = 1.5 డాలర్లు. మొత్తం 15+1.5=16.5 డ,16,✅ Correct,✅ Correct,0

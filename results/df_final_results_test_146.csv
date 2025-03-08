@@ -1,0 +1,46 @@
+language,original_response,revised_response,expected_answer,initial_status,new_status,wait_count
+en,"John has 10 hectares of a pineapple field and there are 100 pineapples per hectare, so he has a total of 10 * 100 = 1000 pineapples.
+        He can harvest his pineapples every 3 months, so in a year, he can harvest 12 / 3 = 4 times.
+        Therefore, John can harvest a total of 1000 * 4 = 4000 pineapples in a year.
+        The answer is 4000","John has 10 hectares of a pineapple field and there are 100 pineapples per hectare, so he has a total of 10 * 100 = 1000 pineapples.
+        He can harvest his pineapples every 3 months, so in a year, he can harvest 12 / 3 = 4 times.
+        Therefore, John can harvest a total of 1000 * 4 = 4000 pineapples in a year.
+        The answer is 4000",4000,✅ Correct,✅ Correct,0
+es,"El campo de piñas de John tiene 10 hectáreas y hay 100 piñas por hectárea, por lo que tiene un total de 10 * 100 = 1000 piñas. Puede cosechar las piñas cada 3 meses, por lo que en un año puede cosechar 12/3 = 4 veces. Por lo tanto, John puede cosechar 1000 piñas * 4 = 4000 piñas en un año. La","El campo de piñas de John tiene 10 hectáreas y hay 100 piñas por hectárea, por lo que tiene un total de 10 * 100 = 1000 piñas. Puede cosechar las piñas cada 3 meses, por lo que en un año puede cosechar 12/3 = 4 veces. Por lo tanto, John puede cosechar 1000 piñas * 4 = 4000 piñas en un año. La",4000,✅ Correct,✅ Correct,0
+fr,"Si Jean possède un champ d'ananas de 10 hectares et qu'il y a 100 ananas par hectare, alors il a un total de 10 x 100 = 1 000 ananas. S'il récolte tous les 3 mois, alors en un an, il récoltera 12/3 = 4 fois. Ainsi, en un an, Jean peut récolter un total de 1 000 x 4 = 4 000 ananas. La réponse est","Résolvez les questions suivantes: Jean possède un champ d'ananas de 10 hectares. Sachant qu'il y a 100 ananas par hectare et que Jean les récolte tous les 3 mois, combien peut-il en récolter en un an ?
+Le raisonnement suivant présente une incohérence :
+Si Jean possède un champ d'ananas de 10 hectares et qu'il y a 100 ananas par hectare, alors il a un total de 10 x 100 = 1 000 ananas. S'il récolte tous les 3 mois, alors en un an, il récoltera 12/3 = 4 fois. Ainsi, en un an, Jean peut récolter un total de 1 000 x 4 = 4 000 ananas. La réponse est
+Attendez …. Je vais le résoudre. La réponse est 4000.",4000,❌ Incorrect (Expected: 4000),✅ Correct after revision,0
+de,"John hat ein 10 Hektar großes Ananasfeld und es gibt 100 Ananas pro Hektar, also hat er insgesamt 10 * 100 = 1000 Ananas. Er kann seine Ananas alle 3 Monate ernten, also kann er in einem Jahr 12/3 = 4 Mal ernten. Daher kann John innerhalb eines Jahres insgesamt 1000 * 4 = 4000 Ananas ernten. Die Antwort ist 4000.","John hat ein 10 Hektar großes Ananasfeld und es gibt 100 Ananas pro Hektar, also hat er insgesamt 10 * 100 = 1000 Ananas. Er kann seine Ananas alle 3 Monate ernten, also kann er in einem Jahr 12/3 = 4 Mal ernten. Daher kann John innerhalb eines Jahres insgesamt 1000 * 4 = 4000 Ananas ernten. Die Antwort ist 4000.",4000,✅ Correct,✅ Correct,0
+ru,"У Джона есть поле с ананасами площадью 10 гектаров, и на каждом гектаре растет 100 ананасов, поэтому всего у него 10 * 100 = 1000 ананасов. Он может собирать урожай каждые 3 месяца, то есть за год он может собирать урожай 12/3 = 4 раза. Следовательно, Джон может","Решите следующие вопросы: У Джона есть поле с ананасами в 10 гектаров. На одном гектаре растут 100 ананасов. Джон может снимать урожай ананасов каждые 3 месяца. Сколько ананасов в год может получить Джон?
+Следующее рассуждение имеет несоответствие:
+У Джона есть поле с ананасами площадью 10 гектаров, и на каждом гектаре растет 100 ананасов, поэтому всего у него 10 * 100 = 1000 ананасов. Он может собирать урожай каждые 3 месяца, то есть за год он может собирать урожай 12/3 = 4 раза. Следовательно, Джон может
+Подождите … даже в год 1000 * 4 = 4000 ананасов. Ответ: 4000.",4000,❌ Incorrect (Expected: 4000),✅ Correct after revision,0
+zh,约翰有 10 公顷菠萝，每公顷有 100 棵菠萝，所以他总共有 10 * 100 = 1000 棵菠萝。约翰每 3 个月收获一次菠萝，因此一年内他可以收获 12 / 3 = 4 次。如果约翰每次收获时收获,"解答以下问题: 约翰有 10 公顷的菠萝地。每公顷有 100 棵菠萝。约翰每 3 个月收割菠萝一次。约翰一年内能收割多少菠萝？
+以下推理存在不一致之处：
+约翰有 10 公顷菠萝，每公顷有 100 棵菠萝，所以他总共有 10 * 100 = 1000 棵菠萝。约翰每 3 个月收获一次菠萝，因此一年内他可以收获 12 / 3 = 4 次。如果约翰每次收获时收获
+等待 … 那么一年后他总共可以收获 1000 * 4 = 4000 个菠萝。然而，这个推理存在不一致。菠萝的数量实际上会减少，因为每次收获后，约翰都会留下一些菠萝。因此，约翰一年内实际可以收获的菠萝总数少于 4000 个。你能找",4000,❌ Incorrect (Expected: 4000),✅ Correct after revision,0
+ja,ジョンのパイナップル農園の面積は 10 ヘクタールで、1 ヘクタールあたり 100 本のパイナップルがあるため、10*100 = 1000 本のパイナップルがあります。ジョンは 3 か月ごとにパイナップルを収穫できるため、1 年で 12/3 =,"次の質問を解いてください: ジョンには10ヘクタールのパイナップル農場がある。1ヘクタールあたり100個のパイナップルがある。ジョンは3か月ごとにパイナップルを収穫できる。ジョンは年にいくつのパイナップルを収穫できる？
+次の推論には矛盾があります:
+ジョンのパイナップル農園の面積は 10 ヘクタールで、1 ヘクタールあたり 100 本のパイナップルがあるため、10*100 = 1000 本のパイナップルがあります。ジョンは 3 か月ごとにパイナップルを収穫できるため、1 年で 12/3 =
+待ってください … 1 か月あたり 4 回の収穫が可能になります。したがって、ジョンは 1 年に 4*1000 = 4000 個のパイナップルを収穫できます。しかし、ジョンは 1 か月に 1 回しか収穫できないため、この推論は矛盾しています。答",4000,❌ Incorrect (Expected: 4000),✅ Correct after revision,0
+th,"จอห์นมีพื้นที่ 10 เฮกตาร์ และแต่ละเฮกตาร์มีสับปะรด 100 ต้น ดังนั้นเขาจึงมีสับปะรดทั้งหมด 10 * 100 = 1,000 ต้น เขาสามารถเก็บสั","แก้คำถามต่อไปนี้: จอห์นมีสวนสับปะรดเนื้อที่ 10 เฮกตาร์ ในพื้นที่ทุกหนึ่งเฮกตาร์มีสับปะรด 100 ต้น จอห์นสามารถเก็บสับปะรดได้ทุก 3 เดือน ภายในหนึ่งปีจอห์นสามารถเก็บสับปะรดได้เท่าใด
+การใช้เหตุผลต่อไปนี้ไม่สอดคล้องกัน:
+จอห์นมีพื้นที่ 10 เฮกตาร์ และแต่ละเฮกตาร์มีสับปะรด 100 ต้น ดังนั้นเขาจึงมีสับปะรดทั้งหมด 10 * 100 = 1,000 ต้น เขาสามารถเก็บสั
+รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักค",4000,❌ Incorrect (Expected: 4000),❌ Still Incorrect (Expected: 4000),5
+sw,"John ana hekta 10 za shamba la nanasi na kila hekta ina mananasi 100, hivyo ana jumla ya 10 * 100 = 1000 mananasi. Anaweza kuvuna mananasi yake kila baada ya miezi 3, hivyo kwa mwaka, anaweza kuvuna 12/3 = mara 4. Kwa hiyo, John anaweza kuvuna jumla ya mananasi","Tatua maswali yafuatayo: John ana hekta 10 za shamba la nanasi. Kuna mananasi 100 kwa kila hekta. John anaweza kuvuna mananasi yake baada ya kila miezi 3. John anaweza kuvuna mananasi ngapi kwa mwaka?
+Hoja ifuatayo ina hali ya kutofautiana:
+John ana hekta 10 za shamba la nanasi na kila hekta ina mananasi 100, hivyo ana jumla ya 10 * 100 = 1000 mananasi. Anaweza kuvuna mananasi yake kila baada ya miezi 3, hivyo kwa mwaka, anaweza kuvuna 12/3 = mara 4. Kwa hiyo, John anaweza kuvuna jumla ya mananasi
+Subiri … kwa mwaka. Jibu Chaguo: (A) 4000 (B) 6000 (C) 24000 (D) 48000 (E) 120000
+Answer:
+Hebu fikiria hatua kwa hatua. Mananasi 1000 * mara 4 = mananasi 4000. 4000 * 100 (idadi ya mananasi kwa kila mananasi) = mananasi",4000,❌ Incorrect (Expected: 4000),✅ Correct after revision,0
+bn,"জনের আনারস গাছের একটি প্লট রয়েছে যা 10 হেক্টর জুড়ে, তাই তার মোট 10 * 100 = 1000টি আনারস রয়েছে। তিনি প্রতি 3 মাসে আনারস ত","নিম্নলিখিত প্রশ্নগুলি সমাধান করুন: জনের 10 হেক্টরের একটি আনারসের ক্ষেত আছে। প্রতি হেক্টরে 100টি আনারস হয়েছে। প্রতি 3 মাসে জন আনারস তোলেন। জন একবছরের মধ্যে কতগুলি আনারস তোলেন?
+নিম্নলিখিত যুক্তিটিতে একটি অসঙ্গতি রয়েছে:
+জনের আনারস গাছের একটি প্লট রয়েছে যা 10 হেক্টর জুড়ে, তাই তার মোট 10 * 100 = 1000টি আনারস রয়েছে। তিনি প্রতি 3 মাসে আনারস ত
+অপেক্ষা করুন … এক বছরে 12 মাস থাকে, তাই তিনি প্রতি মাসে 12/3 = 4 বার আনারস তুলতে পারেন। অতএব, জন এক বছরে মোট 4 * 1000 = 4000টি আনারস তুলতে ",4000,❌ Incorrect (Expected: 4000),✅ Correct after revision,0
+te,జాన్‌కు 10 హెక్టార్ల పైనాపిల్ తోట ఉంది మరియు ప్రతి హెక్టార్‌లో 100 పైనాపిల్స్ ఉన్,"కింది ప్రశ్నలను పరిష్కరించండి: జాన్‌కు 10 హెక్టార్‌ల పైనాపిల్ తోట ఉంది. ప్రతి హెక్టార్‌కు 100 పైనాపిల్స్‌ ఉన్నాయి. జాన్ ప్రతి 3 నెలలకు తన పైనాపిల్స్‌ పంటను కోయగలడు. ఒక సంవత్సరంలో జాన్ ఎన్ని పైనాపిల్స్‌ పంటను కోస్తాడు?
+కింది తార్కికంలో అస్థిరత ఉంది:
+జాన్‌కు 10 హెక్టార్ల పైనాపిల్ తోట ఉంది మరియు ప్రతి హెక్టార్‌లో 100 పైనాపిల్స్ ఉన్
+ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి
+Answer:
+అంచెలంచెలుగా ఆలోచిద్దాం. జాన్‌కు 10 హెక్టార్ల పైనాపిల్ తోట ఉంది మ",4000,❌ Incorrect (Expected: 4000),❌ Still Incorrect (Expected: 4000),5

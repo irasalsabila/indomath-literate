@@ -1,0 +1,53 @@
+language,original_response,revised_response,expected_answer,initial_status,new_status,wait_count
+en,"Mark buys 12 cars for $20,000 each, so the total cost before tax and registration is 12 * $20,000 = $240,000.
+        He pays 10% tax on the cars, so the tax amount is 10% * $240,000 = $24,000.
+        He also pays $1000 for registration on each car, so the registration amount is 12 * $1000 = $12,000.","Solve the following questions: Mark buys a fleet of 12 cars for his company.  Each car sells for $20,000.  He pays 10% tax on the cars and then another $1000 for registration on each of them.  How much does he pay for everything?
+The following reasoning has an inconsistency:
+Mark buys 12 cars for $20,000 each, so the total cost before tax and registration is 12 * $20,000 = $240,000.
+        He pays 10% tax on the cars, so the tax amount is 10% * $240,000 = $24,000.
+        He also pays $1000 for registration on each car, so the registration amount is 12 * $1000 = $12,000.
+Wait …
+The total cost including tax and registration is $240,000 + $24,000 + $12,000 = $276,000.
+The answer is 276000.",276000,❌ Incorrect (Expected: 276000),✅ Correct after revision,0
+es,"Mark compra 12 automóviles a $20 000 cada uno, por lo que el costo total antes de impuestos y registro es 12 * $20 000 = $240 000. Paga el 10% de impuestos sobre los vehículos, por lo que el monto del impuesto es 10% * $240 000 = $24 000. Después de impuestos, el costo total es $240","Resuelve las siguientes preguntas: Mark compra una flota de 12 automóviles para su empresa. Cada automóvil se vende a $20 000. Paga el 10 % de impuestos sobre los vehículos y luego otros $1000 para registrar a cada uno de ellos. ¿Cuánto paga por todo?
+El siguiente razonamiento tiene una inconsistencia:
+Mark compra 12 automóviles a $20 000 cada uno, por lo que el costo total antes de impuestos y registro es 12 * $20 000 = $240 000. Paga el 10% de impuestos sobre los vehículos, por lo que el monto del impuesto es 10% * $240 000 = $24 000. Después de impuestos, el costo total es $240
+Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera …",276000,❌ Incorrect (Expected: 276000),❌ Still Incorrect (Expected: 276000),5
+fr,"Marc achète 12 voitures pour 20 000 $ chacune, donc le coût total avant taxes et frais d'immatriculation est de 12 * 20 000 $ = 240 000 $. Il paie 10 % de taxe sur les voitures, donc le montant de la taxe est de 10 % * 240 000 $ = 24 000 $. Il paie également 1 000 $ de plus pour l'","Résolvez les questions suivantes: Marc achète une flotte de 12 voitures pour son entreprise. Chaque voiture se vend 20 000 $. Il paie 10 % de taxe sur les voitures, puis 1 000 $ de plus pour l'immatriculation de chacune d'elles. Combien dépense-t-il en tout ?
+Le raisonnement suivant présente une incohérence :
+Marc achète 12 voitures pour 20 000 $ chacune, donc le coût total avant taxes et frais d'immatriculation est de 12 * 20 000 $ = 240 000 $. Il paie 10 % de taxe sur les voitures, donc le montant de la taxe est de 10 % * 240 000 $ = 24 000 $. Il paie également 1 000 $ de plus pour l'
+Attendez … Attendez … Attendez … Attendez … Attendez … Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez…",276000,❌ Incorrect (Expected: 276000),❌ Still Incorrect (Expected: 276000),5
+de,Die Autos kosten 12 * 20.000 = 240.000 $. Die Steuer beträgt 240.000 * 10 % = 24.000 $. Die Registrierungsgebühr beträgt 1.000 * 12 = 12.000 $. Die Gesamtkosten betragen 240.000 + 24.000 + 12.000 = 276.000 $. Die Antwort,"Los die folgenden Fragen: Mark kauft eine Flotte von 12 Autos für seine Firma. Jedes Auto ist für 20.000 $ zu haben. Er zahlt 10 % Steuer auf die Autos und weitere 1000 $ für jedes davon für die Registrierung. Wie viel bezahlt er für alles?
+Die folgende Argumentation enthält eine Inkonsistenz:
+Die Autos kosten 12 * 20.000 = 240.000 $. Die Steuer beträgt 240.000 * 10 % = 24.000 $. Die Registrierungsgebühr beträgt 1.000 * 12 = 12.000 $. Die Gesamtkosten betragen 240.000 + 24.000 + 12.000 = 276.000 $. Die Antwort
+Warte … Warte … Warte … Warte … Warte … Die Antwort ist D.",276000,❌ Incorrect (Expected: 276000),❌ Still Incorrect (Expected: 276000),5
+ru,"Марк покупает 12 автомобилей по 20 000 долларов каждая, поэтому общая стоимость автомобилей равна 12 * 20 000 долларов = 240 000 долларов. Он платит налог в размере 10% от стоимости автомобилей, поэтому сумма налога составляет 10% * 240 000 долларов США =","Решите следующие вопросы: Марк покупает автопарк из 12 машин для своей компании. Каждая машина продается за 20 000 $. Он платит налог за машины в размере 10 %, а затем еще 1000 $ за регистрацию каждой из них. Сколько он платит за все?
+Следующее рассуждение имеет несоответствие:
+Марк покупает 12 автомобилей по 20 000 долларов каждая, поэтому общая стоимость автомобилей равна 12 * 20 000 долларов = 240 000 долларов. Он платит налог в размере 10% от стоимости автомобилей, поэтому сумма налога составляет 10% * 240 000 долларов США =
+Подождите … Подождите … Подождите … Подождите … Подождите … Подождите… Кажется, расчет не завершен. Недостающая информация может быть, скорее всего, 1000 долларов США за регистрацию каждого автомобиля. Таким образом, общая стоимость автомобилей составит 240 000 долларов США + 1000 долларов США * 12 = 240 000 долларов США + 12 000 долла",276000,❌ Incorrect (Expected: 276000),❌ Still Incorrect (Expected: 276000),5
+zh,"没有税和注册费，马克将支付 12 * 20,000 = 240,000 美元。注册费总计为 1000 * 12 = 12,000 美元。税费总计为 240,000 * 10% = 24,000 美元。因此，Mark 总共支付了 240,000 + 12,000 + 24","解答以下问题: 马克为他的公司买了一支由 12 辆车组成的车队。每辆车售价 20,000 美元。他为这些车付了 10% 的税，又为每辆车交了 1,000 美元的注册费。他为这一切花了多少钱？
+以下推理存在不一致之处：
+没有税和注册费，马克将支付 12 * 20,000 = 240,000 美元。注册费总计为 1000 * 12 = 12,000 美元。税费总计为 240,000 * 10% = 24,000 美元。因此，Mark 总共支付了 240,000 + 12,000 + 24
+等待 … 等待 … 等待 … 等待 … 等待 … 答案是 288,000。",276000,❌ Incorrect (Expected: 276000),❌ Still Incorrect (Expected: 276000),5
+ja,"10% の税金の場合、マークはさらに 12*20,000*10/100 = 2,40,000 ドルを支払いました。 登録料の合計は 1,000*12 = 12,000 ドルです。 したがって、合計で、マークは 20,000*12 + 2,40,000 +","次の質問を解いてください: マークは自分の会社のため12台の車を買いました。車は1台あたり20,000ドルです。マークは車の税金を10%払い、登録のために1台あたり1,000ドル支払いました。合計でいくら払いましたか？
+次の推論には矛盾があります:
+10% の税金の場合、マークはさらに 12*20,000*10/100 = 2,40,000 ドルを支払いました。 登録料の合計は 1,000*12 = 12,000 ドルです。 したがって、合計で、マークは 20,000*12 + 2,40,000 +
+待ってください … 待ってください … 待ってください … 待ってください … 待ってください … 答えは選択肢 2 です。 20,000*12 + 2,40,000 + 12,000 = $ 2,64,000 答えは選択肢 2 です。
+Answer:
+段階的に考えてみましょう。そうですね、私は間違っていました。税金と登録料を加えた合計金額は、2,",276000,❌ Incorrect (Expected: 276000),❌ Still Incorrect (Expected: 276000),5
+th,": ราคารถยนต์ 12 คัน ราคา 20,000 ดอลลาร์ต่อคันคือ 12 * 20,000 = 240,000 ดอลลาร์ ภาษีรถยนต์ 10% คือ 10/100 * 240,000 = 24,000 ดอลลาร์","แก้คำถามต่อไปนี้: มาร์คซื้อรถยนต์จำนวน 12 คันให้บริษัทของเขา โดยแต่ละคันขายในราคา $20,000 เขาจ่ายภาษีรถยนต์ 10% และจ่ายอีก $1,000 เป็นค่าจดทะเบียนรถแต่ละคัน รวมทั้งหมดแล้วเขาจ่ายเงินไปเท่าไหร่
+การใช้เหตุผลต่อไปนี้ไม่สอดคล้องกัน:
+: ราคารถยนต์ 12 คัน ราคา 20,000 ดอลลาร์ต่อคันคือ 12 * 20,000 = 240,000 ดอลลาร์ ภาษีรถยนต์ 10% คือ 10/100 * 240,000 = 24,000 ดอลลาร์
+รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักค",276000,❌ Incorrect (Expected: 276000),❌ Still Incorrect (Expected: 276000),5
+sw,"Gharama ya magari kabla ya kodi ni 12 * 20000 = $240000. Kodi ni 10% ya 240000, kwa hivyo ni 240000 * 10% = $24000. Gharama ya jumla ya magari na ushuru ni 240000 + 24000 = $264000. Anapaswa kulipa $1000 kwa kila","Tatua maswali yafuatayo: Mark ananunua magari 12 katika kampuni yake. Kila gari linauzwa kwa $20,000. Analipa ushuru wa 10% wa magari hayo na kisha $1000 ya usajili kwa kila moja yao. Jumla ya pesa alizolipia kila kitu ni ngapi?
+Hoja ifuatayo ina hali ya kutofautiana:
+Gharama ya magari kabla ya kodi ni 12 * 20000 = $240000. Kodi ni 10% ya 240000, kwa hivyo ni 240000 * 10% = $24000. Gharama ya jumla ya magari na ushuru ni 240000 + 24000 = $264000. Anapaswa kulipa $1000 kwa kila
+Subiri … hiyo itakuwa 12 * 1000 = $ 12000. Jumla ya kiasi cha kulipwa ni 264000 + 12000 = $276000. Jibu ni 276000.",276000,❌ Incorrect (Expected: 276000),✅ Correct after revision,0
+bn,"মার্ক 12টি গাড়ি কিনেছেন এবং প্রতিটি গাড়ির দাম $20,000, তাই গাড়ির মোট খরচ হল 12 * $20,000 = $240,000৷ তিনি প্রতিটি গাড়ির ��","নিম্নলিখিত প্রশ্নগুলি সমাধান করুন: মার্ক তার কোম্পানির জন্য 12টি গাড়ি কিনেছেন। প্রতিটি গাড়ির মূল্য $20,000। প্রতিটি গাড়ির উপর তিনি 10% কর এবং নিবন্ধীকরণের জন্য $1000 খরচ করেছেন। সবকিছুর জন্য তিনি কত অর্থ খরচ করেছেন?
+নিম্নলিখিত যুক্তিটিতে একটি অসঙ্গতি রয়েছে:
+মার্ক 12টি গাড়ি কিনেছেন এবং প্রতিটি গাড়ির দাম $20,000, তাই গাড়ির মোট খরচ হল 12 * $20,000 = $240,000৷ তিনি প্রতিটি গাড়ির ��
+অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন। গাড়ি এবং নিবন্",276000,❌ Incorrect (Expected: 276000),❌ Still Incorrect (Expected: 276000),5
+te,"మార్క్ 12 కార్లను ఒక్కొక్కటి $20,000 చొప్పున కొనుగోలు చేశాడు, కాబట్టి పన్నుకు ముందు ��","కింది ప్రశ్నలను పరిష్కరించండి: మార్క్ తన కంపెనీ కొరకు 12 కార్ల ఫ్లీట్‌ను కొనుగోలు చేస్తాడు, ప్రతి కారు $20,000కు అమ్ముడవుతుంది. అతడు కార్లపై 10% పన్నును మరియు ప్రతి కారు రిజిస్ట్రేషన్ కొరకు మరో $1000 చెల్లించాడు. అతడు ప్రతిదానికి ఎంత చెల్లిస్తాడు?
+కింది తార్కికంలో అస్థిరత ఉంది:
+మార్క్ 12 కార్లను ఒక్కొక్కటి $20,000 చొప్పున కొనుగోలు చేశాడు, కాబట్టి పన్నుకు ముందు ��
+ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండ",276000,❌ Incorrect (Expected: 276000),❌ Still Incorrect (Expected: 276000),5

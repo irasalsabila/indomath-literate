@@ -1,0 +1,30 @@
+language,original_response,revised_response,expected_answer,initial_status,new_status,wait_count
+en,"Baldur gets 5 pails of water every morning and 6 pails of water every afternoon, so he gets a total of 5 + 6 = 11 pails of water every day.
+        If each pail contains 5 liters of water, then he gets 11 x 5 = 55 liters of water every day.
+        The answer is 55.","Baldur gets 5 pails of water every morning and 6 pails of water every afternoon, so he gets a total of 5 + 6 = 11 pails of water every day.
+        If each pail contains 5 liters of water, then he gets 11 x 5 = 55 liters of water every day.
+        The answer is 55.",55,✅ Correct,✅ Correct,0
+es,"Baldur saca 5 baldes de agua por la mañana y 6 baldes de agua por la tarde, por lo que en total saca 5 + 6 = 11 baldes de agua cada día. Si cada balde contiene 5 litros de agua, entonces saca 11 baldes x 5 litros/balde = 55 litros de agua cada día. La respuesta es 55.","Baldur saca 5 baldes de agua por la mañana y 6 baldes de agua por la tarde, por lo que en total saca 5 + 6 = 11 baldes de agua cada día. Si cada balde contiene 5 litros de agua, entonces saca 11 baldes x 5 litros/balde = 55 litros de agua cada día. La respuesta es 55.",55,✅ Correct,✅ Correct,0
+fr,"Baldur récupère 5 seaux le matin et 6 seaux l'après-midi, il récupère donc un total de 5 + 6 = 11 seaux chaque jour. Chaque seau contient 5 litres d'eau, donc Baldur récupère un total de 11 x 5 = 55 litres d'eau chaque jour. La réponse est 55.","Baldur récupère 5 seaux le matin et 6 seaux l'après-midi, il récupère donc un total de 5 + 6 = 11 seaux chaque jour. Chaque seau contient 5 litres d'eau, donc Baldur récupère un total de 11 x 5 = 55 litres d'eau chaque jour. La réponse est 55.",55,✅ Correct,✅ Correct,0
+de,"Baldur holt jeden Morgen 5 Eimer Wasser, also 5 * 5 = 25 Liter Wasser. Außerdem holt er jeden Nachmittag 6 Eimer Wasser, also 6 * 5 = 30 Liter Wasser. Daher holt er jeden Tag insgesamt 25 + 30 = 55 Liter Wasser. Die Antwort ist 55.","Baldur holt jeden Morgen 5 Eimer Wasser, also 5 * 5 = 25 Liter Wasser. Außerdem holt er jeden Nachmittag 6 Eimer Wasser, also 6 * 5 = 30 Liter Wasser. Daher holt er jeden Tag insgesamt 25 + 30 = 55 Liter Wasser. Die Antwort ist 55.",55,✅ Correct,✅ Correct,0
+ru,"Бальдур набирает 5 ведер воды утром и 6 ведер воды вечером, то есть в общей сложности он набирает 5 + 6 = 11 ведер воды каждый день. Если в каждом ведре содержится 5 литров воды, то он набирает 11 х 5 = 55 литров воды каждый день. Ответ: 55.","Бальдур набирает 5 ведер воды утром и 6 ведер воды вечером, то есть в общей сложности он набирает 5 + 6 = 11 ведер воды каждый день. Если в каждом ведре содержится 5 литров воды, то он набирает 11 х 5 = 55 литров воды каждый день. Ответ: 55.",55,✅ Correct,✅ Correct,0
+zh,巴尔德尔早上拿了 5 桶水，下午拿了 6 桶水，所以他每天总共拿了 5 + 6 = 11 桶水。如果每桶有 5 升水，那么巴尔德尔每天总共获得 11 * 5 = 55 升水。答案是 55。,巴尔德尔早上拿了 5 桶水，下午拿了 6 桶水，所以他每天总共拿了 5 + 6 = 11 桶水。如果每桶有 5 升水，那么巴尔德尔每天总共获得 11 * 5 = 55 升水。答案是 55。,55,✅ Correct,✅ Correct,0
+ja,ステップごとの答え： バルダーは朝に5杯の水を摂取し、午後には6杯の水を摂取します。合計すると、彼は毎日 5 + 6 = 11 杯の水を摂取します。 1 つのバケツには 5 リットルの水が入っているため、バルダーは毎日 1,"次の質問を解いてください: バルダーは井戸から水を得る。彼は毎朝桶5杯の水を得て、午後は毎日6杯の水を得る。もし1桶につき5リットルの水が入っているなら、彼は毎日何リットルの水を得ているか？
+次の推論には矛盾があります:
+ステップごとの答え： バルダーは朝に5杯の水を摂取し、午後には6杯の水を摂取します。合計すると、彼は毎日 5 + 6 = 11 杯の水を摂取します。 1 つのバケツには 5 リットルの水が入っているため、バルダーは毎日 1
+待ってください … 答えの選択肢: (A) 22 リットル (B) 22 1/2 リットル (C) 21 1/2 リットル (D) 11 1/2 リットル (E) 11 リットル
+Answer:
+段階的に考えてみましょう。 11 杯の水 = 11 × 5 = 55 リットル。答えはEで",55,❌ Incorrect (Expected: 55),✅ Correct after revision,0
+th,บัลเดอร์ตักน้ำ 5 ถังในตอนเช้า และแต่ละถังมีน้ำ 5 ลิตร ดังนั้นเขาจึงตักน้ำ 5 * 5 = 25 ลิตรในตอนเช้า ในช่วงบ่ายเขาตักน้ำ 6 ถัง และแ,"แก้คำถามต่อไปนี้: บัลเดอร์ตักน้ำจากบ่อน้ำ โดยเขาจะตักน้ำ 5 ถังทุกเช้าและ 6 ถังในตอนบ่ายทุกวัน ถ้าแต่ละถังมีน้ำ 5 ลิตร เขาจะตักน้ำได้วันละกี่ลิตร
+การใช้เหตุผลต่อไปนี้ไม่สอดคล้องกัน:
+บัลเดอร์ตักน้ำ 5 ถังในตอนเช้า และแต่ละถังมีน้ำ 5 ลิตร ดังนั้นเขาจึงตักน้ำ 5 * 5 = 25 ลิตรในตอนเช้า ในช่วงบ่ายเขาตักน้ำ 6 ถัง และแ
+รอสักครู่ … ดังนั้นเขาจึงตักน้ำ 6 * 5 = 30 ลิตรในช่วงบ่าย ดังนั้นเขาจึงตักน้ำได้ทั้งหมด 25 + 30 = 55 ลิตรในหนึ่งวัน อาร์กิวเมนต์ที่ไม่สอดคล้องก",55,❌ Incorrect (Expected: 55),✅ Correct after revision,0
+sw,"Baldur huchukua ndoo 5 za maji asubuhi na ndoo 6 za maji mchana, hivyo kwa jumla anachukua 5 + 6 = ndoo 11 za maji kila siku. Ikiwa kila ndoo ina lita 5 za maji, basi anapata 11 x 5 = lita 55 za maji kila siku. Jibu ni 55.","Baldur huchukua ndoo 5 za maji asubuhi na ndoo 6 za maji mchana, hivyo kwa jumla anachukua 5 + 6 = ndoo 11 za maji kila siku. Ikiwa kila ndoo ina lita 5 za maji, basi anapata 11 x 5 = lita 55 za maji kila siku. Jibu ni 55.",55,✅ Correct,✅ Correct,0
+bn,"বালদুদ প্রতিদিন সকালে 5 বালতি এবং বিকেলে 6 বালতি জল তোলে, তাই মোট সে প্রতিদিন 5 + 6 = 11 বালতি জল তোলে। যদি প্রতিটি বালতিতে 5 লিট","নিম্নলিখিত প্রশ্নগুলি সমাধান করুন: বালদুর একটি কুয়া থেকে জল তোলেন। তিনি প্রতিদিন সকালে 5 বালতি এবং প্রতিদিন বিকেলে 6 বালতি জল তোলেন। যদি প্রতিটি বালতিতে 5 লিটার করে জল ধরে, তবে প্রতিদিন তিনি কত লিটার জল তোলেন?
+নিম্নলিখিত যুক্তিটিতে একটি অসঙ্গতি রয়েছে:
+বালদুদ প্রতিদিন সকালে 5 বালতি এবং বিকেলে 6 বালতি জল তোলে, তাই মোট সে প্রতিদিন 5 + 6 = 11 বালতি জল তোলে। যদি প্রতিটি বালতিতে 5 লিট
+অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন। উত্তর পছন্দ: (A) 250 লিটার (B) 260 লিটার (",55,❌ Incorrect (Expected: 55),❌ Still Incorrect (Expected: 55),5
+te,బల్దూర్ ప్రతి ఉదయం 6 బకెట్ల నీటిని పొందుతుంది మరియు ప్రతి బకెట్‌లో 5 లీటర్ల న,"కింది ప్రశ్నలను పరిష్కరించండి: బల్దూర్ ఒక బావి నుంచి నీటిని పొందుతాడు. అతడు ప్రతి ఉదయం 6 కడవల నీటిని మరియు ప్రతి మధ్యాహ్నం 5 కడవల నీటిని పొందుతాడు. ప్రతి కడవలో 5 లీటర్లు నీరు ఉన్నట్లయితే, అతడు ప్రతిరోజూ ఎన్ని లీటర్ల నీటిని పొందుతాడు?
+కింది తార్కికంలో అస్థిరత ఉంది:
+బల్దూర్ ప్రతి ఉదయం 6 బకెట్ల నీటిని పొందుతుంది మరియు ప్రతి బకెట్‌లో 5 లీటర్ల న
+ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి ప్రతి మధ్యాహ్నం నీరు. సమాధాన ఎంపికలు: (A) 525 లీటర్లు (B) 225 లీటర్లు (C) 425 లీటర్ల",55,❌ Incorrect (Expected: 55),❌ Still Incorrect (Expected: 55),5

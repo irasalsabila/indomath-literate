@@ -1,0 +1,56 @@
+language,original_response,revised_response,expected_answer,initial_status,new_status,wait_count
+en,"Tom plants 10 trees every year, so after 10 years he has planted 10 * 10 = 100 trees.
+        He also chops down 2 trees every year, so after 10 years he has chopped down 2 * 10 = 20 trees.
+        He starts with 50 trees, and after 10 years he has planted 100 trees and chopped down 20 trees, so he has 50 + 100 - 20 = 130 trees.
+        However,","Solve the following questions: Tom plants 10 trees a year.  Every year he also chops down 2 trees a year.  He starts with 50 trees.  After 10 years 30% of the trees die.  How many trees does he have left?
+The following reasoning has an inconsistency:
+Tom plants 10 trees every year, so after 10 years he has planted 10 * 10 = 100 trees.
+        He also chops down 2 trees every year, so after 10 years he has chopped down 2 * 10 = 20 trees.
+        He starts with 50 trees, and after 10 years he has planted 100 trees and chopped down 20 trees, so he has 50 + 100 - 20 = 130 trees.
+        However,
+Wait … 30% of the trees die, so 30% of 130 trees is 0.30 * 130 = 39 trees.
+        Therefore, Tom has 130 - 39 = 91 trees left.
+
+The answer is 91.",91,❌ Incorrect (Expected: 91),✅ Correct after revision,0
+es,"Respuesta paso a paso: Planta 10 árboles y corta 2, por lo que se queda sin 10 - 2 = 8 árboles cada año. Después de 10 años, tiene 8 * 10 = 80 árboles. 30% de ellos mueren, por lo que pierde 80 * 0,30 = 24 árboles. Ahora tiene 80 - 24 = 56 árboles. La respuesta es","Resuelve las siguientes preguntas: Tom planta 10 árboles al año. Cada año también corta 2 árboles. Comienza con 50 árboles. Después de 10 años, el 30 % de los árboles muere. ¿Cuántos árboles le quedan?
+El siguiente razonamiento tiene una inconsistencia:
+Respuesta paso a paso: Planta 10 árboles y corta 2, por lo que se queda sin 10 - 2 = 8 árboles cada año. Después de 10 años, tiene 8 * 10 = 80 árboles. 30% de ellos mueren, por lo que pierde 80 * 0,30 = 24 árboles. Ahora tiene 80 - 24 = 56 árboles. La respuesta es
+Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera …",91,❌ Incorrect (Expected: 91),❌ Still Incorrect (Expected: 91),5
+fr,La réponse est 30.,"Résolvez les questions suivantes: Tom plante 10 arbres par an. Il abat également 2 arbres chaque année. Il commence avec 50 arbres. Au bout de 10 ans, 30 % des arbres meurent. Combien d'arbres lui reste-t-il ?
+Le raisonnement suivant présente une incohérence :
+La réponse est 30.
+Attendez … Attendez … Attendez … Attendez … Attendez … Attendez.
+Answer:
+Réfléchissons étape par étape. Analysons la situation étape par étape. Tom plante 10 arbres par an, donc au bout de 10 ans, il aura planté 10 * 10 = 100 arbres. Tom abat 2 arbres chaque année, donc au bout de 10 ans, il aura abattu 2 * 10 = 20 arbres. Tom commence avec 50 arbres, donc après 10 ans,",91,❌ Incorrect (Expected: 91),❌ Still Incorrect (Expected: 91),5
+de,Schritt-für-Schritt-Antwort: Er hat 50 * 10 = 500 Bäume gepflanzt. Er hat 10 * 2 = 20 Bäume verloren. Er hat also 500 - 20 = 480 Bäume. Nach 10 Jahren sterben 480 * 30 % = 144 Bäume. Er hat also 480 - 144 = 336 Bäume. Die Antwort ist 336,"Los die folgenden Fragen: Tom pflanzt 10 Bäume pro Jahr. Jedes Jahr fällt er auch 2 Bäume pro Jahr. Er beginnt mit 50 Bäumen. Nach 10 Jahren sterben 30 % der Bäume. Wie viele Bäume behält er übrig?
+Die folgende Argumentation enthält eine Inkonsistenz:
+Schritt-für-Schritt-Antwort: Er hat 50 * 10 = 500 Bäume gepflanzt. Er hat 10 * 2 = 20 Bäume verloren. Er hat also 500 - 20 = 480 Bäume. Nach 10 Jahren sterben 480 * 30 % = 144 Bäume. Er hat also 480 - 144 = 336 Bäume. Die Antwort ist 336
+Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte",91,❌ Incorrect (Expected: 91),❌ Still Incorrect (Expected: 91),5
+ru,"Решение: Пошаговое решение: Том сажает 10 деревьев каждый год и срубает 2, поэтому чистый прирост за год составляет 10 - 2 = 8 деревьев. Через 10 лет чистый прирост составит 8 * 10 = 80 деревьев. Если бы он начал с 50 деревьев, то через 10 лет у него будет 50 + 80 =","Решите следующие вопросы: Том сажает по 10 деревьев в год. И каждый год он срубает по 2 дерева. Он начинает с 50 деревьев. Через 10 лет 30 % деревьев погибают. Сколько деревьев у него осталось?
+Следующее рассуждение имеет несоответствие:
+Решение: Пошаговое решение: Том сажает 10 деревьев каждый год и срубает 2, поэтому чистый прирост за год составляет 10 - 2 = 8 деревьев. Через 10 лет чистый прирост составит 8 * 10 = 80 деревьев. Если бы он начал с 50 деревьев, то через 10 лет у него будет 50 + 80 =
+Подождите … 130 деревьев. Теперь давайте рассмотрим умирание деревьев. Если 30% деревьев погибнут, то 30% из 130 деревьев = 0,30 * 130 = 39 деревьев погибнут. Следовательно, у Тома останется 130 – 39 = 91 дерево. Ответ: 91.",91,❌ Incorrect (Expected: 91),✅ Correct after revision,0
+zh,汤姆每年种植 10 棵树，持续 10 年，因此他总共种植了 10 * 10 = 100 棵树。他每年还砍伐 2 棵树，持续 10 年，所以他总共砍伐了 2 * 10 = 20 棵树。 10年后，他的树数增加了100 -,"解答以下问题: 汤姆每年种 10 棵树。他每年还砍掉 2 棵树。他从 50 棵树开始种。10 年后，30% 的树死亡。他剩下多少棵树？
+以下推理存在不一致之处：
+汤姆每年种植 10 棵树，持续 10 年，因此他总共种植了 10 * 10 = 100 棵树。他每年还砍伐 2 棵树，持续 10 年，所以他总共砍伐了 2 * 10 = 20 棵树。 10年后，他的树数增加了100 -
+等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 …",91,❌ Incorrect (Expected: 91),❌ Still Incorrect (Expected: 91),5
+ja,答え: ステップごとの答え: 彼は 50 本の木から始めます。 10 年後、彼は 10*2 = 20 本の木を伐採しました。したがって、彼には 50-20 = 30 本の木が残っています。 10 年後、彼の木の 30% が枯れます。,"次の質問を解いてください: トムは年に10本の木を植えます。毎年彼は、1年に2本の木を伐採します。彼は50本の木から始めます。10年後、30%の木は枯れます。彼には何本の木が残りますか？
+次の推論には矛盾があります:
+答え: ステップごとの答え: 彼は 50 本の木から始めます。 10 年後、彼は 10*2 = 20 本の木を伐採しました。したがって、彼には 50-20 = 30 本の木が残っています。 10 年後、彼の木の 30% が枯れます。
+待ってください … 待ってください … 待ってください … 待ってください … 待ってください … 待ってください … 待ってください … 待ってください … 待ってください … 待ってください … 待ってください … 30 の 30% は 30 です。したがって、30 本の木のうち 30% が枯れます。つまり、30 本の木のうち 30% が枯れます。 3",91,❌ Incorrect (Expected: 91),❌ Still Incorrect (Expected: 91),5
+th,ทอมเริ่มต้นด้วยต้นไม้ 50 ต้นและปลูกต้นไม้ 10 ต้นในแต่ละปี ดังนั้นหลังจาก 10 ปี เขาจะมีต้นไม้ 50 + (10 * 10) = 60 ต้น อย่างไรก็ตาม ใ,"แก้คำถามต่อไปนี้: ทอมปลูกต้นไม้ 10 ต้นต่อปี โดยทุกปีเขาจะโค่นต้นไม้ลงปีละ 2 ต้นเช่นกัน เขาเริ่มต้นโดยการปลูกต้นไม้ 50 ต้น หลังจากผ่านไป 10 ปี ต้นไม้ก็ตายไป 30% เขาจะเหลือต้นไม้กี่ต้น
+การใช้เหตุผลต่อไปนี้ไม่สอดคล้องกัน:
+ทอมเริ่มต้นด้วยต้นไม้ 50 ต้นและปลูกต้นไม้ 10 ต้นในแต่ละปี ดังนั้นหลังจาก 10 ปี เขาจะมีต้นไม้ 50 + (10 * 10) = 60 ต้น อย่างไรก็ตาม ใ
+รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักค",91,❌ Incorrect (Expected: 91),❌ Still Incorrect (Expected: 91),5
+sw,"Tom hupanda miti 10 kila mwaka, hivyo baada ya miaka 10 atakuwa amepanda miti 10 * 10 = 100. Pia anakata miti 2 kila mwaka, hivyo baada ya miaka 10 atakuwa amekata miti 2 * 10 = 20. Anaanza na miti 50, hivyo baada ya miaka 10 atakuwa na 50 + 100 - 20","Tatua maswali yafuatayo: Tom hupanda miti 10 kila mwaka. Kila mwaka pia huwa anakata miti 2. Anaanza na miti 50. Baada ya miaka 10 30% ya miti inakufa. Amesalia na miti mingapi?
+Hoja ifuatayo ina hali ya kutofautiana:
+Tom hupanda miti 10 kila mwaka, hivyo baada ya miaka 10 atakuwa amepanda miti 10 * 10 = 100. Pia anakata miti 2 kila mwaka, hivyo baada ya miaka 10 atakuwa amekata miti 2 * 10 = 20. Anaanza na miti 50, hivyo baada ya miaka 10 atakuwa na 50 + 100 - 20
+Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri",91,❌ Incorrect (Expected: 91),❌ Still Incorrect (Expected: 91),5
+bn,"ধাপে ধাপে উত্তর: টম 10টি গাছ দিয়ে শুরু করে এবং প্রতি বছর আরও 2টি গাছ লাগায়, তাই 10 বছর পরে তিনি 10 + (10 * 2) = 3","নিম্নলিখিত প্রশ্নগুলি সমাধান করুন: এক বছরে টম 10টি গাছ লাগান। প্রতি এক বছরে তিনি 2টি করে গাছ কেটেও ফেলেন। তিনি 50টি গাছ দিয়ে শুরু করেন। 10 বছর পরে 30% গাছ মারা যায়। তাঁর কাছে আর কতগুলি গাছ অবশিষ্ট রয়েছে?
+নিম্নলিখিত যুক্তিটিতে একটি অসঙ্গতি রয়েছে:
+ধাপে ধাপে উত্তর: টম 10টি গাছ দিয়ে শুরু করে এবং প্রতি বছর আরও 2টি গাছ লাগায়, তাই 10 বছর পরে তিনি 10 + (10 * 2) = 3
+অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অ",91,❌ Incorrect (Expected: 91),❌ Still Incorrect (Expected: 91),5
+te,దశలవారీగా సమాధానం: టామ్ 10 చెట్లతో ప్రారంభించి ప్రతి సంవత్సరం మరో 10 చెట్లను నా,"కింది ప్రశ్నలను పరిష్కరించండి: టామ్ ఒక సంవత్సరంలో 10 మొక్కలను నాటాడు. ప్రతి సంవత్సరం అతడు 2 చెట్లను నరికేస్తాడు. అతడు 50 చెట్లతో ప్రారంభించాడు.10 సంవత్సరాల తరువాత 30% చెట్లు చనిపోయాయి. అతడి వద్ద ఎన్ని చెట్లు మిగిలి ఉన్నాయి?
+కింది తార్కికంలో అస్థిరత ఉంది:
+దశలవారీగా సమాధానం: టామ్ 10 చెట్లతో ప్రారంభించి ప్రతి సంవత్సరం మరో 10 చెట్లను నా
+ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండ",91,❌ Incorrect (Expected: 91),❌ Still Incorrect (Expected: 91),5

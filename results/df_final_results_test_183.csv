@@ -1,0 +1,66 @@
+language,original_response,revised_response,expected_answer,initial_status,new_status,wait_count
+en,"If Jan is 30, then Mark is 30 - 2 = 28 years old.
+        Two years ago, Mark was 28 - 2 = 26 years old.
+        At that time, Jan was 30 - 2 = 28 years old.
+        So, Jean is 28 years old.
+        The answer is 28.","Solve the following questions: Jean is two years older than Mark.  Two years ago Mark was 5 years older than half Jan's age.  If Jan is 30 how old is Jean?
+The following reasoning has an inconsistency:
+If Jan is 30, then Mark is 30 - 2 = 28 years old.
+        Two years ago, Mark was 28 - 2 = 26 years old.
+        At that time, Jan was 30 - 2 = 28 years old.
+        So, Jean is 28 years old.
+        The answer is 28.
+Wait … Wait … Wait … Wait … Wait …
+The answer is 28.
+The answer is 28.
+The answer is 28.
+The answer is 28.
+The answer is 28.
+The answer is 28.
+The answer is 28.
+The answer is 28.
+The answer is 28.
+The answer is 28.
+The answer is 28.
+The answer is 28.
+The answer is 28.
+The answer is 28.
+The answer is 28.
+The answer is 28.",23,❌ Incorrect (Expected: 23),❌ Still Incorrect (Expected: 23),5
+es,"Si Jan tiene actualmente 30 años, entonces hace dos años tenía 30 - 2 = 28 años. Hace dos años, Mark tenía 5 años más que la mitad de la edad de Jean, por lo que Mark tenía (28/2) + 5 = 19 años. Dado que Jean es dos años mayor que Mark, Jean tiene actualmente 19 + 2 = 21 años. La respuesta es 21.","Resuelve las siguientes preguntas: Jean es dos años mayor que Mark. Hace dos años, Mark era 5 años mayor que la mitad de la edad de Jan. Si Jan tiene 30, ¿cuántos años tiene Jean?
+El siguiente razonamiento tiene una inconsistencia:
+Si Jan tiene actualmente 30 años, entonces hace dos años tenía 30 - 2 = 28 años. Hace dos años, Mark tenía 5 años más que la mitad de la edad de Jean, por lo que Mark tenía (28/2) + 5 = 19 años. Dado que Jean es dos años mayor que Mark, Jean tiene actualmente 19 + 2 = 21 años. La respuesta es 21.
+Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera …",23,❌ Incorrect (Expected: 23),❌ Still Incorrect (Expected: 23),5
+fr,"Si Jan a actuellement 30 ans, alors Marc a 30 - 2 = 28 ans. Il y a deux ans, Mark avait 28 - 2 = 26 ans. La moitié de l'âge de Jan il y a deux ans était de 26/2 = 13 ans. Ainsi, Jan avait 13 + 5 = 18 ans il y a deux ans. Par conséquent, John a actuellement 30 + 18 = 48 ans. La réponse est 48.","Résolvez les questions suivantes: Jean a deux ans de plus que Marc. Il y a deux ans, Marc avait 5 ans de plus que la moitié de l'âge de Jan. Si Jan a 30 ans, quel âge a Jean ?
+Le raisonnement suivant présente une incohérence :
+Si Jan a actuellement 30 ans, alors Marc a 30 - 2 = 28 ans. Il y a deux ans, Mark avait 28 - 2 = 26 ans. La moitié de l'âge de Jan il y a deux ans était de 26/2 = 13 ans. Ainsi, Jan avait 13 + 5 = 18 ans il y a deux ans. Par conséquent, John a actuellement 30 + 18 = 48 ans. La réponse est 48.
+Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez …",23,❌ Incorrect (Expected: 23),❌ Still Incorrect (Expected: 23),5
+de,"Wenn Jan 30 ist, dann ist Mark 30 - 2 = 28 Jahre alt. Vor zwei Jahren war Mark 28 - 2 = 26 Jahre alt. Und vor zwei Jahren war die Hälfte von Janes Alter 30 / 2 = 15 Jahre alt. Mark war also vor zwei Jahren 26 = 15 + 11 Jahre alt. Daher ist Jean jetzt 28 + 11 = 39 Jahre alt. Die Antwort lautet 39.","Los die folgenden Fragen: Jean ist zwei Jahre älter als Mark. Vor zwei Jahren war Mark 5 Jahre älter als die Hälfte des Alters von Jan. Wenn Jan 30 ist, wie alt ist dann Jean?
+Die folgende Argumentation enthält eine Inkonsistenz:
+Wenn Jan 30 ist, dann ist Mark 30 - 2 = 28 Jahre alt. Vor zwei Jahren war Mark 28 - 2 = 26 Jahre alt. Und vor zwei Jahren war die Hälfte von Janes Alter 30 / 2 = 15 Jahre alt. Mark war also vor zwei Jahren 26 = 15 + 11 Jahre alt. Daher ist Jean jetzt 28 + 11 = 39 Jahre alt. Die Antwort lautet 39.
+Warte … Warte … Warte … Warte … Warte … Die Antwort lautet 39.",23,❌ Incorrect (Expected: 23),❌ Still Incorrect (Expected: 23),5
+ru,"Если Яну сейчас 30 лет, то два года назад ему было 30 - 2 = 28 лет. Возраст Марка был на 5 лет больше половины возраста Джина два года назад, поэтому Марку было (28/2) + 5 = 19 лет. Поскольку Джин на два года старше Марка, Джину сейчас 19 + 2 = 21 год. Ответ: 21.","Решите следующие вопросы: Джин на два года старше Марка. Два года назад возраст Марка был на 5 лет больше, чем половина возраста Яна. Если Яну 30 лет, сколько лет Джину?
+Следующее рассуждение имеет несоответствие:
+Если Яну сейчас 30 лет, то два года назад ему было 30 - 2 = 28 лет. Возраст Марка был на 5 лет больше половины возраста Джина два года назад, поэтому Марку было (28/2) + 5 = 19 лет. Поскольку Джин на два года старше Марка, Джину сейчас 19 + 2 = 21 год. Ответ: 21.
+Подождите … Подождите … Подождите … Подождите … Подождите … Подождите … Подождите … Подождите … Подождите … Подождите … Подождите … Подождите … Подождите … Подождите … Подождите … Подождите … Подождите … Подождите … Подождите … Подождите … Подождите … Подождите … Подождите … Подождите … Подождите … Подождите … Подо",23,❌ Incorrect (Expected: 23),❌ Still Incorrect (Expected: 23),5
+zh,如果 Mark 比 Let 的年龄小一半大 5 岁，那么 Mark 的年龄为 (1/2)*30 - 5 = 15 - 5 = 10 岁。如果珍比马克大 2 岁，那么她就是 2 + 10 = 12 岁。答案是12。,"解答以下问题: 珍比马克大 2 岁。两年前，马克比让的一半岁数大 5 岁。如果让现在 30 岁，珍现在多少岁？
+以下推理存在不一致之处：
+如果 Mark 比 Let 的年龄小一半大 5 岁，那么 Mark 的年龄为 (1/2)*30 - 5 = 15 - 5 = 10 岁。如果珍比马克大 2 岁，那么她就是 2 + 10 = 12 岁。答案是12。
+等待 … 等待 … 等待 … 等待 … 等待 … 答案是 12。",23,❌ Incorrect (Expected: 23),❌ Still Incorrect (Expected: 23),5
+ja,ステップごとの答え: 1) マークは 30 歳より 2 歳年下なので、マークは 30-2=28 歳です。 2) 2 年前、マークは 28-2=26 歳でした。 3) 2 年前、ジェーンは 30-2=28 歳でした。 4) ジェーンは,"次の質問を解いてください: ジェーンはマークよりも2歳年上だ。2年前、マークはジャンの年の半分よりも5個上の年だった。もしジャンが30歳なら、ジェーンは何歳？
+次の推論には矛盾があります:
+ステップごとの答え: 1) マークは 30 歳より 2 歳年下なので、マークは 30-2=28 歳です。 2) 2 年前、マークは 28-2=26 歳でした。 3) 2 年前、ジェーンは 30-2=28 歳でした。 4) ジェーンは
+待ってください … 待ってください … 待ってください … 待ってください … 待ってください … 答えは 28 です。",23,❌ Incorrect (Expected: 23),❌ Still Incorrect (Expected: 23),5
+th,ถ้าตอนนี้แจนอายุ 30 ปี เมื่อสองปีที่แล้วเธออายุ 30 - 2 = 28 ปี ตามข้อมูลที่ให้มา มาร์คอายุมากกว่าครึ่งหนึ่งของอายุของแจนเมื่อสองป,"แก้คำถามต่อไปนี้: ฌองแก่กว่ามาร์คสองปี เมื่อสองปีที่แล้วมาร์คอายุมากกว่าครึ่งหนึ่งของอายุของแจน 5 ปี ถ้าตอนนี้แจนอายุ 30 ปี ฌองมีอายุกี่ปี
+การใช้เหตุผลต่อไปนี้ไม่สอดคล้องกัน:
+ถ้าตอนนี้แจนอายุ 30 ปี เมื่อสองปีที่แล้วเธออายุ 30 - 2 = 28 ปี ตามข้อมูลที่ให้มา มาร์คอายุมากกว่าครึ่งหนึ่งของอายุของแจนเมื่อสองป
+รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักค",23,❌ Incorrect (Expected: 23),❌ Still Incorrect (Expected: 23),5
+sw,"Ikiwa Jan ana miaka 30, basi Marko ana miaka 30 - 2 = 28. Miaka miwili iliyopita, Marko alikuwa na umri wa miaka 28 - 2 = 26. Nusu ya umri wa Jan wakati huo ilikuwa 30/2 = miaka 15. Kwa hivyo miaka miwili iliyopita, Marko alikuwa na umri wa miaka 15 + 5 = 20.","Tatua maswali yafuatayo: Jean ana umri wa miaka miwili zaidi ya Mark. Miaka miwili iliyopita Mark alikuwa na umri wa miaka 5 zaidi ya nusu ya umri wa Jan. Ikiwa Jan ana umri wa miaka 30, Jean ana miaka mingapi?
+Hoja ifuatayo ina hali ya kutofautiana:
+Ikiwa Jan ana miaka 30, basi Marko ana miaka 30 - 2 = 28. Miaka miwili iliyopita, Marko alikuwa na umri wa miaka 28 - 2 = 26. Nusu ya umri wa Jan wakati huo ilikuwa 30/2 = miaka 15. Kwa hivyo miaka miwili iliyopita, Marko alikuwa na umri wa miaka 15 + 5 = 20.
+Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri",23,❌ Incorrect (Expected: 23),❌ Still Incorrect (Expected: 23),5
+bn,দুই বছর আগে মার্কের বয়স ছিল (30 - 2) / 2 = 14 বছর। সুতরাং জিনের বয়স দুই বছর আগে ছিল 14 + 5 = 19 বছর। এখন জিনের বয়স 1,"নিম্নলিখিত প্রশ্নগুলি সমাধান করুন: জিন মার্কের থেকে দুই বছরের বড়। দুই বছর আগে মার্কের বয়স জ্যানের বয়সের অর্ধেকের থেকে 5 বছর বেশি ছিল। জ্যানের বয়স যদি 30 বছর হয় জিনের বয়স কত?
+নিম্নলিখিত যুক্তিটিতে একটি অসঙ্গতি রয়েছে:
+দুই বছর আগে মার্কের বয়স ছিল (30 - 2) / 2 = 14 বছর। সুতরাং জিনের বয়স দুই বছর আগে ছিল 14 + 5 = 19 বছর। এখন জিনের বয়স 1
+অপেক্ষা করুন … উত্তর হল 23।",23,❌ Incorrect (Expected: 23),✅ Correct after revision,0
+te,మార్క్ వయస్సు 30-5= 25 సంవత్సరాలు. రెండు సంవత్సరాల క్రితం మార్క్ వయస్సు 25-2= 23 సంవత్సరాలు. ��,మార్క్ వయస్సు 30-5= 25 సంవత్సరాలు. రెండు సంవత్సరాల క్రితం మార్క్ వయస్సు 25-2= 23 సంవత్సరాలు. ��,23,✅ Correct,✅ Correct,0

@@ -1,0 +1,41 @@
+language,original_response,revised_response,expected_answer,initial_status,new_status,wait_count
+en,"Pancho walks 20 miles a day, 5 days a week, so he walks 20 * 5 = 100 miles from Monday to Friday.
+        On weekends, he walks 10 miles each day, so he walks 10 * 2 = 20 miles.
+        In total, he walks 100 + 20 = 120 miles in a week.
+        The answer is 120.","Pancho walks 20 miles a day, 5 days a week, so he walks 20 * 5 = 100 miles from Monday to Friday.
+        On weekends, he walks 10 miles each day, so he walks 10 * 2 = 20 miles.
+        In total, he walks 100 + 20 = 120 miles in a week.
+        The answer is 120.",120,✅ Correct,✅ Correct,0
+es,"Pancho camina 20 millas al día, por lo que en una semana camina 20 * 5 = 100 millas. Los fines de semana camina 10 millas adicionales, por lo que en una semana camina 100 + 10 = 110 millas. La respuesta es 110.","Resuelve las siguientes preguntas: Pancho camina 20 millas al día. Salvo los fines de semana que camina 10 millas. ¿Cuántas millas camina en una semana?
+El siguiente razonamiento tiene una inconsistencia:
+Pancho camina 20 millas al día, por lo que en una semana camina 20 * 5 = 100 millas. Los fines de semana camina 10 millas adicionales, por lo que en una semana camina 100 + 10 = 110 millas. La respuesta es 110.
+Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera …",120,❌ Incorrect (Expected: 120),❌ Still Incorrect (Expected: 120),5
+fr,"Pancho marche 20 miles chaque jour, donc en une semaine, il marche 20 * 7 = 140 miles. En plus de cela, il marche 10 miles chaque samedi et dimanche, donc en une semaine, il marche 10 * 2 = 20 miles supplémentaires. Par conséquent, Pancho marche un total de 140 + 20 = 160 miles en une semaine. La réponse est 160.","Résolvez les questions suivantes: En dehors du weekend où il marche 10 miles, Pancho fait 20 miles tous les jours. Combien de miles parcourt-il à la marche en une semaine ?
+Le raisonnement suivant présente une incohérence :
+Pancho marche 20 miles chaque jour, donc en une semaine, il marche 20 * 7 = 140 miles. En plus de cela, il marche 10 miles chaque samedi et dimanche, donc en une semaine, il marche 10 * 2 = 20 miles supplémentaires. Par conséquent, Pancho marche un total de 140 + 20 = 160 miles en une semaine. La réponse est 160.
+Attendez … Attendez … Attendez … Attendez … Attendez … Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez…",120,❌ Incorrect (Expected: 120),❌ Still Incorrect (Expected: 120),5
+de,"Antwort: Schritt-für-Schritt-Antwort: In einer Woche geht Pancho 20 Meilen pro Tag, also geht er 20 * 5 = 100 Meilen von Montag bis Freitag. Am Wochenende läuft er 10 Meilen pro Tag, also geht er am Samstag und Sonntag 10 * 2 = 20 Meilen. Insgesamt läuft er 100 + 20 = 120 Meilen in einer Woche. Die","Antwort: Schritt-für-Schritt-Antwort: In einer Woche geht Pancho 20 Meilen pro Tag, also geht er 20 * 5 = 100 Meilen von Montag bis Freitag. Am Wochenende läuft er 10 Meilen pro Tag, also geht er am Samstag und Sonntag 10 * 2 = 20 Meilen. Insgesamt läuft er 100 + 20 = 120 Meilen in einer Woche. Die",120,✅ Correct,✅ Correct,0
+ru,"Решение: Шаг-за-шаг: Панчо проходит по 20 миль в день, кроме выходных, когда он проходит по 10 миль. В неделе 7 дней. Итак, с понедельника по пятницу он проходит 20 миль в день х 5 дней = 100 миль. А в выходные дни он проходит 10 миль в день х 2 дня = 20 миль. Итак, за неде","Решите следующие вопросы: Панчо проходит по 20 миль в день. Кроме выходных, когда он проходит по 10 миль. Сколько миль он проходит за неделю?
+Следующее рассуждение имеет несоответствие:
+Решение: Шаг-за-шаг: Панчо проходит по 20 миль в день, кроме выходных, когда он проходит по 10 миль. В неделе 7 дней. Итак, с понедельника по пятницу он проходит 20 миль в день х 5 дней = 100 миль. А в выходные дни он проходит 10 миль в день х 2 дня = 20 миль. Итак, за неде
+Подождите … давайте посчитаем общую пройденную дистанцию за неделю. С понедельника по пятницу он проходит 100 миль + в выходные дни он проходит 20 миль = 120 миль за неделю. Ответ: 120.",120,❌ Incorrect (Expected: 120),✅ Correct after revision,0
+zh,Punger 每天步行 20 英里，一周有 5 天，因此他在工作日步行 20 * 5 = 100 英里。周末他步行 10 英里，一周有 2 天，所以他周末步行 10 * 2 = 20 英里。因此，Punger 一周总共步行 100 + 20 = 120 英里。答案是120。,Punger 每天步行 20 英里，一周有 5 天，因此他在工作日步行 20 * 5 = 100 英里。周末他步行 10 英里，一周有 2 天，所以他周末步行 10 * 2 = 20 英里。因此，Punger 一周总共步行 100 + 20 = 120 英里。答案是120。,120,✅ Correct,✅ Correct,0
+ja,ステップごとの答え: 1週間で10*2=20マイル歩きます。 20+20=40 マイルを 1 週間で歩きます。答えは40です。,"次の質問を解いてください: パンチョは1日に20マイル歩きます。彼は週末のみ、10マイル歩きます。彼は週に何マイル歩きますか？
+次の推論には矛盾があります:
+ステップごとの答え: 1週間で10*2=20マイル歩きます。 20+20=40 マイルを 1 週間で歩きます。答えは40です。
+待ってください … 待ってください … 待ってください … 待ってください … 待ってください … 答えは 40 です。
+Answer:
+段階的に考えてみましょう。パンチョは平日に 1 日あたり 10 マイル歩きます。平日は 5 日あります。彼は平日に 5*10=50 マイル歩きます。週末は1日10マイル歩きます。彼は週末に 2",120,❌ Incorrect (Expected: 120),❌ Still Incorrect (Expected: 120),5
+th,คำตอบทีละขั้นตอน: พันโชเดิน 20 ไมล์ต่อวัน ยกเว้นวันหยุดสุดสัปดาห์ที่เขาจะเดิน 10 ไมล์ ในหนึ่งสัปดาห์มี 7 วัน ดังนั้น พันโชเดิน,"แก้คำถามต่อไปนี้: พันโชเดิน 20 ไมล์ต่อวัน ยกเว้นวันหยุดสุดสัปดาห์ที่เขาจะเดิน 10 ไมล์ เขาเดินกี่ไมล์ในหนึ่งสัปดาห์
+การใช้เหตุผลต่อไปนี้ไม่สอดคล้องกัน:
+คำตอบทีละขั้นตอน: พันโชเดิน 20 ไมล์ต่อวัน ยกเว้นวันหยุดสุดสัปดาห์ที่เขาจะเดิน 10 ไมล์ ในหนึ่งสัปดาห์มี 7 วัน ดังนั้น พันโชเดิน
+รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักค",120,❌ Incorrect (Expected: 120),❌ Still Incorrect (Expected: 120),5
+sw,"Kuna siku 7 kwa wiki. Siku 5 za wiki, anatembea maili 20 kwa siku, hivyo anatembea 5 * 20 = maili 100. Mwishoni mwa wiki, anatembea maili 10 kwa siku, hivyo anatembea 2 * 10 = maili 20. Anatembea jumla ya maili 100 + 20 = 120 kwa wiki. Jibu","Kuna siku 7 kwa wiki. Siku 5 za wiki, anatembea maili 20 kwa siku, hivyo anatembea 5 * 20 = maili 100. Mwishoni mwa wiki, anatembea maili 10 kwa siku, hivyo anatembea 2 * 10 = maili 20. Anatembea jumla ya maili 100 + 20 = 120 kwa wiki. Jibu",120,✅ Correct,✅ Correct,0
+bn,"পাঞ্চো সপ্তাহের দিনে 20 মাইল হাঁটেন, তাই 5 দিনে তিনি 20 * 5 = 100 মাইল হাঁটেন। সপ্তাহান্তে তিনি 10 মাইল হাঁটেন, তাই 2 দিন","নিম্নলিখিত প্রশ্নগুলি সমাধান করুন: পাঞ্চো একদিনে 20 মাইল হাঁটেন। সপ্তাহান্তে ব্যতিরেকে তিনি 10 মাইল হাঁটেন। এক সপ্তাহে তিনি কত মাইল হাঁটেন?
+নিম্নলিখিত যুক্তিটিতে একটি অসঙ্গতি রয়েছে:
+পাঞ্চো সপ্তাহের দিনে 20 মাইল হাঁটেন, তাই 5 দিনে তিনি 20 * 5 = 100 মাইল হাঁটেন। সপ্তাহান্তে তিনি 10 মাইল হাঁটেন, তাই 2 দিন
+অপেক্ষা করুন … তাই তিনি এক সপ্তাহে 100 + 20 = 120 মাইল হাঁটেন। উত্তর পছন্দ: (A) সত্য (B) মিথ্যা (C) সত্য বা মিথ্যা নির্ধারণ করা যাবে ",120,❌ Incorrect (Expected: 120),✅ Correct after revision,0
+te,దశలవారీగా సమాధానం: పంచో వారపు రోజులలో 20*5= 100 మైళ్లు నడుస్తుంది. పంచో వారాంతాల్,"కింది ప్రశ్నలను పరిష్కరించండి: పంచో రోజుకు 20 మైళ్లు నడుస్తాడు. వారాంతాల్లో మాత్రం అతడు 10 మైళ్లు నడుస్తాడు. అతడు ఒక వారంలో ఎన్ని మైళ్లు నడుస్తాడు?
+కింది తార్కికంలో అస్థిరత ఉంది:
+దశలవారీగా సమాధానం: పంచో వారపు రోజులలో 20*5= 100 మైళ్లు నడుస్తుంది. పంచో వారాంతాల్
+ఆగండి … పంచో వారాంతాల్లో 10*2= 20 మైళ్లు నడుస్తుంది. పంచో ఒక వారంలో 100+20= 120 మైళ్లు నడుస్తుం",120,❌ Incorrect (Expected: 120),✅ Correct after revision,0

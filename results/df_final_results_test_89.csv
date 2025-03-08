@@ -1,0 +1,49 @@
+language,original_response,revised_response,expected_answer,initial_status,new_status,wait_count
+en,"Let x be the number of copies Harald sold.
+        Then Marilyn sold 10x copies.
+        Combined, they sold x + 10x = 11x copies.
+        We know that they sold a total of 88,000 copies, so 11x = 88,000.
+        Dividing both sides of the equation by 11, we get x = 8,000.
+        Therefore, Harald sold 8,000 copies.
+        The answer is 80","Solve the following questions: Marilyn's first record sold 10 times as many copies as Harald's. If they sold 88,000 copies combined, how many copies did Harald sell?
+The following reasoning has an inconsistency:
+Let x be the number of copies Harald sold.
+        Then Marilyn sold 10x copies.
+        Combined, they sold x + 10x = 11x copies.
+        We know that they sold a total of 88,000 copies, so 11x = 88,000.
+        Dividing both sides of the equation by 11, we get x = 8,000.
+        Therefore, Harald sold 8,000 copies.
+        The answer is 80
+Wait …
+The answer is 8000.",8000,❌ Incorrect (Expected: 8000),✅ Correct after revision,0
+es,"Sea x el número de copias que vendió Harald. Luego Marilyn vendió 10 veces más. Por lo tanto, se vendieron x + 10x = 11x copias en total. 11x = 88000 Por lo tanto x = 88000 / 11 = 8000 Entonces Harald vendió 8000 copias. La respuesta es 8000.","Sea x el número de copias que vendió Harald. Luego Marilyn vendió 10 veces más. Por lo tanto, se vendieron x + 10x = 11x copias en total. 11x = 88000 Por lo tanto x = 88000 / 11 = 8000 Entonces Harald vendió 8000 copias. La respuesta es 8000.",8000,✅ Correct,✅ Correct,0
+fr,"Soit x le nombre de disques vendus par Harald. Ensuite, Marilyn a vendu 10x disques. Ensemble, ils ont vendu x + 10x = 11x disques. Nous savons que 11x = 88 000. En divisant les deux côtés de l'équation par 11, nous obtenons x = 8 000. Par conséquent, Harald a vendu 8 000 disques. La réponse est 8 000","Résolvez les questions suivantes: Le premier disque de Marilyn s'est vendu à 10 fois plus d'exemplaires que celui de Harald. S'ils ont vendu 88 000 exemplaires à eux deux, combien d'exemplaires Harald a-t-il vendus ?
+Le raisonnement suivant présente une incohérence :
+Soit x le nombre de disques vendus par Harald. Ensuite, Marilyn a vendu 10x disques. Ensemble, ils ont vendu x + 10x = 11x disques. Nous savons que 11x = 88 000. En divisant les deux côtés de l'équation par 11, nous obtenons x = 8 000. Par conséquent, Harald a vendu 8 000 disques. La réponse est 8 000
+Attendez … Attendez … Attendez … Attendez … Attendez … Attendez… La réponse est 8000.",8000,❌ Incorrect (Expected: 8000),✅ Correct after revision,1
+de,"Sei x die Anzahl der Platten, die Harald verkauft hat. Marilyns Platte wurde 10-mal so oft verkauft wie Haralds, also wurde Marilyns Platte 10-mal so oft verkauft. Zusammen haben sie x + 10x = 11x Exemplare verkauft. Wir wissen, dass sie insgesamt 88.000 Exemplare verkauft haben, also 11x = 88.000. Um x zu finden,","Los die folgenden Fragen: Marilyns erste Platte wurde 10-mal so häufig verkauft wie Haralds. Wenn sie zusammen 88.000 Exemplare verkauft haben, hat Harald wie viele Exemplare verkauft?
+Die folgende Argumentation enthält eine Inkonsistenz:
+Sei x die Anzahl der Platten, die Harald verkauft hat. Marilyns Platte wurde 10-mal so oft verkauft wie Haralds, also wurde Marilyns Platte 10-mal so oft verkauft. Zusammen haben sie x + 10x = 11x Exemplare verkauft. Wir wissen, dass sie insgesamt 88.000 Exemplare verkauft haben, also 11x = 88.000. Um x zu finden,
+Warte … 88.000/11 = 8.000. Daher hat Harald x = 8.000 Exemplare verkauft. Die Antwort ist 8000.",8000,❌ Incorrect (Expected: 8000),✅ Correct after revision,0
+ru,"Пусть x — количество копий, проданных Харальдом. Тогда Мэрилин продала 10 копий. Вместе они продали x + 10x = 11x копий. Мы знаем, что 11x = 88000. Разделив обе части уравнения на 11, получим x = 8000. Следовательно, Харальд продал 8000 копий. Ответ: 8000.","Пусть x — количество копий, проданных Харальдом. Тогда Мэрилин продала 10 копий. Вместе они продали x + 10x = 11x копий. Мы знаем, что 11x = 88000. Разделив обе части уравнения на 11, получим x = 8000. Следовательно, Харальд продал 8000 копий. Ответ: 8000.",8000,✅ Correct,✅ Correct,0
+zh,"设 x 为哈罗德售出的唱片数量。然后莱拉卖出了 10 倍的唱片。 x + 10x = 88,000 11x = 88,000 x = 88,000 / 11 x = 8,000 因此，Harold 卖出了 8,000 张唱片。答案是8000。","设 x 为哈罗德售出的唱片数量。然后莱拉卖出了 10 倍的唱片。 x + 10x = 88,000 11x = 88,000 x = 88,000 / 11 x = 8,000 因此，Harold 卖出了 8,000 张唱片。答案是8000。",8000,✅ Correct,✅ Correct,0
+ja,ハラルドが販売したレコードの数を x とします。マリリンはハラルドの 10 倍のレコードを販売したため、マリリンは 10 倍のレコードを販売しました。合計すると、x + 10x = 11x のレコードが販売されました。 11x =,"次の質問を解いてください: マリリンの最初のレコードはハラルドの10倍売れました。彼らが合わせて88,000枚売っていた場合、ハラルドは何枚売りましたか？
+次の推論には矛盾があります:
+ハラルドが販売したレコードの数を x とします。マリリンはハラルドの 10 倍のレコードを販売したため、マリリンは 10 倍のレコードを販売しました。合計すると、x + 10x = 11x のレコードが販売されました。 11x =
+待ってください … 待ってください … 11x = 88000 次に、x を解くには、方程式の両辺を 11 で割ります。 x = 88000/11 x = 8000 したがって、ハラルドは 8000 枚のレコードを販売しました。答えは8000です。",8000,❌ Incorrect (Expected: 8000),✅ Correct after revision,1
+th,ให้จำนวนแผ่นเพลงที่เฮอรัลด์มีเป็น x เนื่องจากเพลงของมาริลีนมียอดจำหน่ายสูงกว่าของเฮอรัลด์ถึง 10 เท่า เพลงของมาริลีนจึงมียอดจ,"แก้คำถามต่อไปนี้: เพลงแรกของมาริลีนมียอดจำหน่ายสูงกว่าเฮอรัลด์ถึง 10 เท่า หากเพลงของมาริลีนมียอดจำหน่าย 88,000 แผ่น เฮอรัลด์มียอดจำหน่ายเท่าใด
+การใช้เหตุผลต่อไปนี้ไม่สอดคล้องกัน:
+ให้จำนวนแผ่นเพลงที่เฮอรัลด์มีเป็น x เนื่องจากเพลงของมาริลีนมียอดจำหน่ายสูงกว่าของเฮอรัลด์ถึง 10 เท่า เพลงของมาริลีนจึงมียอดจ
+รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักค",8000,❌ Incorrect (Expected: 8000),❌ Still Incorrect (Expected: 8000),5
+sw,"Wacha tufikirie kuwa Harald aliuza nakala za x. Kisha Marilyn aliuza nakala 10x. Kwa pamoja, waliuza x + 10x = 11x nakala. Tunajua kwamba jumla ya nakala zilizouzwa ni 88,000. Kwa hiyo, 11x = 88,000. Ili kupata x, tunagawanya pande zote mbili za equation","Tatua maswali yafuatayo: Rekodi ya kwanza ya Marilyn iliuza nakala mara 10 zaidi ya rekodi ya Harald. Iwapo waliuza nakala 88,000 kwa jumla, Harald aliuza nakala ngapi?
+Hoja ifuatayo ina hali ya kutofautiana:
+Wacha tufikirie kuwa Harald aliuza nakala za x. Kisha Marilyn aliuza nakala 10x. Kwa pamoja, waliuza x + 10x = 11x nakala. Tunajua kwamba jumla ya nakala zilizouzwa ni 88,000. Kwa hiyo, 11x = 88,000. Ili kupata x, tunagawanya pande zote mbili za equation
+Subiri … 88,000/11 = 8,000 Kwa hivyo, Harald aliuza nakala x = 8,000. Jibu ni 8000.",8000,❌ Incorrect (Expected: 8000),✅ Correct after revision,0
+bn,"ধরা যাক হ্যারল্ড বিক্রি করা রেকর্ডের সংখ্যা হল x। তারপর মেরিলিন 10x রেকর্ড বিক্রি করেছে। একসাথে, তারা x + 10x = 11x রেকর্ড","নিম্নলিখিত প্রশ্নগুলি সমাধান করুন: হ্যারল্ডের কপির তুলনায় ম্যারিলিনের প্রথম রেকর্ড 10 গুণ বেশি বিক্রি হয়েছিল। তাঁরা যদি একত্রে 88,000 টি কপি বিক্রয় করে থাকেন, তবে হ্যারল্ড কতগুলি কপি বিক্রয় করেছিলেন?
+নিম্নলিখিত যুক্তিটিতে একটি অসঙ্গতি রয়েছে:
+ধরা যাক হ্যারল্ড বিক্রি করা রেকর্ডের সংখ্যা হল x। তারপর মেরিলিন 10x রেকর্ড বিক্রি করেছে। একসাথে, তারা x + 10x = 11x রেকর্ড
+অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … এখন আমরা জানি যে 11x = 88000 সুতরাং x = 88000 / 11 = 8000 অতএব, হ্যারল্ড 8000 রেকর্ড বিক্রি করেছে। উত্তর পছন্দ: (A) 8000 (B) 8",8000,❌ Incorrect (Expected: 8000),✅ Correct after revision,3
+te,"హెరాల్డ్ విక్రయించిన రికార్డుల సంఖ్యను x అనుకుందాం. ఈ విధంగా, మెర్లిన్ 10*x రికార్డులను విక్ర�","కింది ప్రశ్నలను పరిష్కరించండి: మెర్లిన్ మొదటి రికార్డ్ హెరాల్డ్ కంటే 10 రెట్లు కాపీలు అమ్ముడుపోయింది. వారిద్దరూ కలిసి 88,000 కాపీలను విక్రయిస్తే, హెరాల్డ్ ఎన్ని కాపీలను విక్రయించాడు?
+కింది తార్కికంలో అస్థిరత ఉంది:
+హెరాల్డ్ విక్రయించిన రికార్డుల సంఖ్యను x అనుకుందాం. ఈ విధంగా, మెర్లిన్ 10*x రికార్డులను విక్ర�
+ఆగండి … మెర్లిన్ + హెరాల్డ్ = 88000 రికార్డ్‌లు 10*x + x = 88000 11*x = 88000 x = 8000 కాబట్టి హెరాల్డ్ 8000 రికార్డ్",8000,❌ Incorrect (Expected: 8000),✅ Correct after revision,0

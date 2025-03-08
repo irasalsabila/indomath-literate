@@ -1,0 +1,29 @@
+language,original_response,revised_response,expected_answer,initial_status,new_status,wait_count
+en,"If it takes 6 days to travel by bus, it will take 6/2 = 3 days to travel by car.
+        The total number of days he will spend traveling is 6 + 3 = 9 days.
+        The answer is 9.","If it takes 6 days to travel by bus, it will take 6/2 = 3 days to travel by car.
+        The total number of days he will spend traveling is 6 + 3 = 9 days.
+        The answer is 9.",9,✅ Correct,✅ Correct,0
+es,"La mitad de 6 días son 6/2 = 3 días. Por lo tanto, Andrew viajará 6 + 3 = 9 días. La respuesta es 9.","La mitad de 6 días son 6/2 = 3 días. Por lo tanto, Andrew viajará 6 + 3 = 9 días. La respuesta es 9.",9,✅ Correct,✅ Correct,0
+fr,"Si André a besoin de 6 jours pour voyager en bus, alors il lui faudra 6/2 = 3 jours pour faire le trajet en voiture. Ainsi, le temps total qu'il lui faudra pour voyager jusqu'à Rochester et revenir est de 6 + 3 = 9 jours. La réponse est 9.","Si André a besoin de 6 jours pour voyager en bus, alors il lui faudra 6/2 = 3 jours pour faire le trajet en voiture. Ainsi, le temps total qu'il lui faudra pour voyager jusqu'à Rochester et revenir est de 6 + 3 = 9 jours. La réponse est 9.",9,✅ Correct,✅ Correct,0
+de,"Schritt-für-Schritt-Antwort: Die Fahrt mit dem Bus dauert 6 Tage, die Fahrt mit dem Auto dauert also 6 / 2 = 3 Tage. Wenn Andrew plant, mit dem Bus nach Rochester zu fahren und mit dem Auto zurückzukommen, wird er 6 + 3 = 9 Tage unterwegs sein. Die Antwort ist 9.","Schritt-für-Schritt-Antwort: Die Fahrt mit dem Bus dauert 6 Tage, die Fahrt mit dem Auto dauert also 6 / 2 = 3 Tage. Wenn Andrew plant, mit dem Bus nach Rochester zu fahren und mit dem Auto zurückzukommen, wird er 6 + 3 = 9 Tage unterwegs sein. Die Antwort ist 9.",9,✅ Correct,✅ Correct,0
+ru,"Поездка из Нью-Джерси в Рочестер занимает 6 дней на автобусе. Поездка из Рочестера в Нью-Джерси на автомобиле займет вдвое меньше времени, то есть 6/2 = 3 дня. Таким образом, Эндрю потратит 6 + 3 = 9 дней на поездку. Ответ: 9.","Поездка из Нью-Джерси в Рочестер занимает 6 дней на автобусе. Поездка из Рочестера в Нью-Джерси на автомобиле займет вдвое меньше времени, то есть 6/2 = 3 дня. Таким образом, Эндрю потратит 6 + 3 = 9 дней на поездку. Ответ: 9.",9,✅ Correct,✅ Correct,0
+zh,开车需要的天数是乘坐公共汽车的一半，因此开车需要 6 / 2 = 3 天。总行程时间为乘坐公交车 6 天 + 开车 3 天 = 9 天。答案是9。,开车需要的天数是乘坐公共汽车的一半，因此开车需要 6 / 2 = 3 天。总行程时间为乘坐公交车 6 天 + 开车 3 天 = 9 天。答案是9。,9,✅ Correct,✅ Correct,0
+ja,ステップごとの答え: ステップ 1: バスで移動する場合、アンドリューは 6 日かかります。ステップ 2: 車で移動すると、6/2 = 3 日かかります。ステップ 3: ロチェスターまでのバスでの移動とニュージャージーまでの車での帰りにかかる合計日数は,"次の質問を解いてください: アンドリューはニュージャージーからロチェスターまで車で旅行しようと計画しています。バスで移動すれば6日間かかり、車で移動すればその半分の日数で済みます。ロチェスターまでバスで移動し、ニュージャージーまで車で帰ってきたとしたら、何日間かかるでしょうか？
+次の推論には矛盾があります:
+ステップごとの答え: ステップ 1: バスで移動する場合、アンドリューは 6 日かかります。ステップ 2: 車で移動すると、6/2 = 3 日かかります。ステップ 3: ロチェスターまでのバスでの移動とニュージャージーまでの車での帰りにかかる合計日数は
+待ってください … 回答の選択肢: (A) 6 日 (B) 5 日 (C) 9 日 (D) 10 日 (E) 11 日
+Answer:
+段階的に考えてみましょう。 A 6 日 アンドリューはニュージャージーからロチェスターまでバスで移動し、ニュージャージーに戻るのに 6 + 3 = 9",9,❌ Incorrect (Expected: 9),✅ Correct after revision,0
+th,ถ้าการเดินทางโดยรถบัสใช้เวลา 6 วัน การเดินทางโดยรถยนต์จะใช้เวลา 6/2 = 3 วัน ดังนั้น การเดินทางไปกลับจะใช้เวลา 6 + 3 = 9 วัน คำตอบค,ถ้าการเดินทางโดยรถบัสใช้เวลา 6 วัน การเดินทางโดยรถยนต์จะใช้เวลา 6/2 = 3 วัน ดังนั้น การเดินทางไปกลับจะใช้เวลา 6 + 3 = 9 วัน คำตอบค,9,✅ Correct,✅ Correct,0
+sw,Andrew atasafiri kwa siku 6 + 3 = 9 ikiwa ataenda kwa basi na kurudi kutoka kwa gari. Jibu ni 9.,Andrew atasafiri kwa siku 6 + 3 = 9 ikiwa ataenda kwa basi na kurudi kutoka kwa gari. Jibu ni 9.,9,✅ Correct,✅ Correct,0
+bn,"যদি বাসে রচেস্টার যেতে 6 দিন লাগে, তাহলে গাড়িতে যেতে অর্ধেক সময় লাগবে, তাই 6/2 = 3 দিন। অ্যান্ড্রু বাসে রচেস্টার যাওয়া এব","নিম্নলিখিত প্রশ্নগুলি সমাধান করুন: অ্যান্ড্রিউ নিউ জার্সি থেকে রচেস্টার পর্যন্ত একটি রোড ট্রিপের পরিকল্পনা করেছেন। নিউ জার্সি থেকে রচেস্টার পর্যন্ত বাসে যেতে 6 দিন সময় লাগে এবং গাড়িতে যেতে ঐ সময়ের অর্ধেক লাগে। তাহলে তিনি যদি বাসে রচেস্টার যাওয়া এবং রচেস্টার থেকে গাড়িতে ফেরার পরিকল্পনা করেন তাহলে তাঁকে কতদিন ভ্রমণ করতে হবে?
+নিম্নলিখিত যুক্তিটিতে একটি অসঙ্গতি রয়েছে:
+যদি বাসে রচেস্টার যেতে 6 দিন লাগে, তাহলে গাড়িতে যেতে অর্ধেক সময় লাগবে, তাই 6/2 = 3 দিন। অ্যান্ড্রু বাসে রচেস্টার যাওয়া এব
+অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অ",9,❌ Incorrect (Expected: 9),❌ Still Incorrect (Expected: 9),5
+te,"బస్సు ద్వారా ప్రయాణించడానికి 6 రోజులు పడుతుంది, కాబట్టి కారు ద్వారా ప్రయాణించడాని","కింది ప్రశ్నలను పరిష్కరించండి: ఆండ్రూ న్యూజెర్సీ నుంచి రోచెస్టర్‌కు ఒక రోడ్డు ట్రిప్‌ని ప్లాన్ చేశాడు. న్యూజెర్సీ నుంచి రోచెస్టర్‌కు బస్సు ద్వారా ప్రయాణించడానికి 6 రోజులు మరియు కారు ద్వారా ప్రయాణించడానికి దానిలో సగం రోజులు పడతాయి. రోచెస్టర్‌కు బస్సు ద్వారా మరియు రోచెస్టర్ నుంచి కారు ద్వారా ప్రయాణించాలని అతడి ప్లాన్ చేసినట్లయితే, అతడు ఎన్నిరోజులు ప్రయాణిస్తాడు?
+కింది తార్కికంలో అస్థిరత ఉంది:
+బస్సు ద్వారా ప్రయాణించడానికి 6 రోజులు పడుతుంది, కాబట్టి కారు ద్వారా ప్రయాణించడాని
+ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి సమాధాన ఎంపికలు: (A) 6 (B) 12 (C) 18 (D) 24 (E) 30
+Answer:
+అంచెలంచెలుగా ఆలోచిద్దాం. ఆండ్ర",9,❌ Incorrect (Expected: 9),❌ Still Incorrect (Expected: 9),5

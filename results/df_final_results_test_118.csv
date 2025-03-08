@@ -1,0 +1,34 @@
+language,original_response,revised_response,expected_answer,initial_status,new_status,wait_count
+en,"Step-by-Step Answer: Step-by-Step Answer: He bought 2 * 3 = 6 pairs of shoes.
+The total cost was 6 * 60 = $360.
+The answer is 360.","Step-by-Step Answer: Step-by-Step Answer: He bought 2 * 3 = 6 pairs of shoes.
+The total cost was 6 * 60 = $360.
+The answer is 360.",360,✅ Correct,✅ Correct,0
+es,Respuesta paso a paso: Compró 2 * 3 = 6 pares de zapatos. El costo total fue 6 * 60 = $360. La respuesta es 360.,Respuesta paso a paso: Compró 2 * 3 = 6 pares de zapatos. El costo total fue 6 * 60 = $360. La respuesta es 360.,360,✅ Correct,✅ Correct,0
+fr,"Jean achète 2 paires de chaussures pour chacun de ses 3 enfants, il achète donc un total de 2 x 3 = 6 paires de chaussures. Chaque paire de chaussures coûte 60 $, donc 6 paires de chaussures coûtent 6 x 60 = 360 $. Jean a donc payé 360 $. La réponse est 360.","Jean achète 2 paires de chaussures pour chacun de ses 3 enfants, il achète donc un total de 2 x 3 = 6 paires de chaussures. Chaque paire de chaussures coûte 60 $, donc 6 paires de chaussures coûtent 6 x 60 = 360 $. Jean a donc payé 360 $. La réponse est 360.",360,✅ Correct,✅ Correct,0
+de,Schritt-für-Schritt-Antwort: Er kaufte 2 * 3 = 6 Paar Schuhe. Die Gesamtkosten betragen 6 * 60 = 360 Dollar. Die Antwort lautet 360.,Schritt-für-Schritt-Antwort: Er kaufte 2 * 3 = 6 Paar Schuhe. Die Gesamtkosten betragen 6 * 60 = 360 Dollar. Die Antwort lautet 360.,360,✅ Correct,✅ Correct,0
+ru,Шаг-1: рассчитайте стоимость одной пары обуви 60 долларов США * 2 = 120 долларов США. Шаг-2: рассчитайте общую стоимость всех трех пар обуви 120 долларов США * 3 = 360 долларов США. Ответ: 360 долларов США.,Шаг-1: рассчитайте стоимость одной пары обуви 60 долларов США * 2 = 120 долларов США. Шаг-2: рассчитайте общую стоимость всех трех пар обуви 120 долларов США * 3 = 360 долларов США. Ответ: 360 долларов США.,360,✅ Correct,✅ Correct,0
+zh,约翰买了 2 双鞋，每双 60 美元，因此他为第一个孩子支付了 2 * 60 美元 = 120 美元。对于第二个孩子，他还支付了 2 * 60 美元 = 120 美元。对于第三个孩子，他还支付了 2 * 60 美元 = 120 美元。总共，约翰为 3 个孩子,"解答以下问题: 约翰为 3 个孩子各买了 2 双鞋，每双鞋 60 美元。他支付了多少钱？
+以下推理存在不一致之处：
+约翰买了 2 双鞋，每双 60 美元，因此他为第一个孩子支付了 2 * 60 美元 = 120 美元。对于第二个孩子，他还支付了 2 * 60 美元 = 120 美元。对于第三个孩子，他还支付了 2 * 60 美元 = 120 美元。总共，约翰为 3 个孩子
+等待 ……………答案选择： (A) 360 (B) 460 (C) 560 (D) 660 (E) 760
+Answer:
+让我们一步步思考。 360 美元，因为他花费了 3 * 120 美元 = 360 美元 答案是 A。",360,❌ Incorrect (Expected: 360),✅ Correct after revision,0
+ja,1 足の靴の価格は 60 ドルなので、2 足の価格は 2*60 ドル = 120 ドルになります。彼は 3 人の子供全員に 2 足購入します。合計費用は 3*120 ドル = 360 ドルです。答えは 360 です。,1 足の靴の価格は 60 ドルなので、2 足の価格は 2*60 ドル = 120 ドルになります。彼は 3 人の子供全員に 2 足購入します。合計費用は 3*120 ドル = 360 ドルです。答えは 360 です。,360,✅ Correct,✅ Correct,0
+th,ราคารองเท้า 2 คู่คือ $60 ดังนั้น 1 คู่คือ $60 / 2 = $30 ดังนั้น จอห์นจึงจ่ายเงิน 30 ดอลลาร์ * 3 = 90 ดอลลาร์สำหรับรองเท้า 3 คู่ คำตอบค,"แก้คำถามต่อไปนี้: จอห์นซื้อรองเท้าให้ลูก 3 คน คนละ 2 คู่ โดยแต่ละคู่มีราคา $60 จอห์นจ่ายเงินไปเท่าใด
+การใช้เหตุผลต่อไปนี้ไม่สอดคล้องกัน:
+ราคารองเท้า 2 คู่คือ $60 ดังนั้น 1 คู่คือ $60 / 2 = $30 ดังนั้น จอห์นจึงจ่ายเงิน 30 ดอลลาร์ * 3 = 90 ดอลลาร์สำหรับรองเท้า 3 คู่ คำตอบค
+รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักค",360,❌ Incorrect (Expected: 360),❌ Still Incorrect (Expected: 360),5
+sw,"John ananunua jozi 2 za viatu kwa kila mmoja wa watoto wake 3, hivyo ananunua jumla ya 2 * 3 = 6 jozi za viatu. Kila jozi ya viatu inagharimu $60, kwa hivyo analipa jumla ya 6 * $ 60 = $360. Jibu ni 360.","John ananunua jozi 2 za viatu kwa kila mmoja wa watoto wake 3, hivyo ananunua jumla ya 2 * 3 = 6 jozi za viatu. Kila jozi ya viatu inagharimu $60, kwa hivyo analipa jumla ya 6 * $ 60 = $360. Jibu ni 360.",360,✅ Correct,✅ Correct,0
+bn,"জন তার 3 সন্তানের প্রত্যেকের জন্য 2 জোড়া জুতা কিনেছিলেন, তাই তিনি মোট 2 * 3 = 6 জোড়া জুতা কিনেছিলেন। প্রতিটি জুতার দাম $60,","নিম্নলিখিত প্রশ্নগুলি সমাধান করুন: জন তাঁর 3 সন্তানের প্রত্যেকের জন্য 2 জোড়া করে জুতো কিনেছেন। প্রত্যেকটির দাম $60 করে। তিনি মোট কত দাম দিয়েছেন?
+নিম্নলিখিত যুক্তিটিতে একটি অসঙ্গতি রয়েছে:
+জন তার 3 সন্তানের প্রত্যেকের জন্য 2 জোড়া জুতা কিনেছিলেন, তাই তিনি মোট 2 * 3 = 6 জোড়া জুতা কিনেছিলেন। প্রতিটি জুতার দাম $60,
+অপেক্ষা করুন … উত্তর পছন্দ: (A) 60 * 6 = $360 (B) 60 * 0 = $0 (C) 60 * 1 = $60 (D) 60 * 2 = $120 (E) 60 * 4 = $240
+Answer:
+আসুন ধাপে ধাপে চিন্তা করি। এটি 60 * ",360,❌ Incorrect (Expected: 360),✅ Correct after revision,0
+te,"జాన్ తన 3 పిల్లలలో ఒక్కొక్కరికి 2 జతల షూలను కొనుగోలు చేశాడు, కాబట్టి అతను మొత్తం 2*3=","కింది ప్రశ్నలను పరిష్కరించండి: జాన్ తన 3 పిల్లలు కోసం ఒక్కొక్కరికి 2 జతల షూలు కొనుగోలు చేశాడు. వాటి ఖరీదు ఒక్కొక్కటి $60. అతడు ఎంత చెల్లించాడు?
+కింది తార్కికంలో అస్థిరత ఉంది:
+జాన్ తన 3 పిల్లలలో ఒక్కొక్కరికి 2 జతల షూలను కొనుగోలు చేశాడు, కాబట్టి అతను మొత్తం 2*3=
+ఆగండి … ఆగండి … అతను ఎంత చెల్లించాడు? సమాధాన ఎంపికలు: (A) 240 (B) 420 (C) 360 (D) 480 (E) 540
+Answer:
+అంచెలంచెలుగా ఆ",360,❌ Incorrect (Expected: 360),✅ Correct after revision,1

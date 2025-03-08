@@ -1,0 +1,44 @@
+language,original_response,revised_response,expected_answer,initial_status,new_status,wait_count
+en,"The gas costs $3.00 a gallon, and there is a $.20 cashback per gallon, so the net cost is 3 - .20 = $2.80 per gallon.
+        If someone buys 10 gallons of gas, the total cost would be 10 * 2.80 = $28.00
+        The cashback is $.20 per gallon, and they bought 10 gallons, so the total cashback would be .20 * 10 = $2.00
+        The","The gas costs $3.00 a gallon, and there is a $.20 cashback per gallon, so the net cost is 3 - .20 = $2.80 per gallon.
+        If someone buys 10 gallons of gas, the total cost would be 10 * 2.80 = $28.00
+        The cashback is $.20 per gallon, and they bought 10 gallons, so the total cashback would be .20 * 10 = $2.00
+        The",28,✅ Correct,✅ Correct,0
+es,"Si una empresa de aplicaciones ofrece un reembolso de $0,20 por galón de gasolina, esto significa que obtendrá 0,20/3 = 2/3 de descuento en cada galón de gasolina. Para calcular el costo total de la gasolina, primero calculamos el costo original, que es 10 * 3 = 30 dólares. El descuento total para las 10 galones de gasolina es 10 * 2/3 =","Resuelve las siguientes preguntas: Una estación de gasolina local vende gasolina a $3,00 el galón. Una empresa de aplicaciones ofrece un reintegro de $0,20 por galón si se carga en esta estación. Si alguien compra 10 galones de gasolina, ¿cuánto le costará la gasolina después de las bonificaciones de reintegros?
+El siguiente razonamiento tiene una inconsistencia:
+Si una empresa de aplicaciones ofrece un reembolso de $0,20 por galón de gasolina, esto significa que obtendrá 0,20/3 = 2/3 de descuento en cada galón de gasolina. Para calcular el costo total de la gasolina, primero calculamos el costo original, que es 10 * 3 = 30 dólares. El descuento total para las 10 galones de gasolina es 10 * 2/3 =
+Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera …",28,❌ Incorrect (Expected: 28),❌ Still Incorrect (Expected: 28),5
+fr,"Le coût de 10 gallons d'essence à 3,00 $ le gallon est de 10 x 3 = 30 $. Le remboursement pour 10 gallons d'essence est de 10 x 0,20 = 2,00 $. Ainsi, le prix d'achat total pour 10 gallons d'essence est de 30 $ - 2 $ = 28 $. La réponse est 28.","Le coût de 10 gallons d'essence à 3,00 $ le gallon est de 10 x 3 = 30 $. Le remboursement pour 10 gallons d'essence est de 10 x 0,20 = 2,00 $. Ainsi, le prix d'achat total pour 10 gallons d'essence est de 30 $ - 2 $ = 28 $. La réponse est 28.",28,✅ Correct,✅ Correct,0
+de,"Schritt-für-Schritt-Antwort: 10 Gallonen Benzin zu 3,00 $ pro Gallone kosten 10 x 3 = 30 $. Wenn das App-Unternehmen eine Rückerstattung von 20 $ anbietet, belaufen sich die Gesamtkosten für das Benzin auf 30 $ – 20 $ = 10 $. Die Antwort lautet 10.","Los die folgenden Fragen: Eine örtliche Tankstelle verkauft Benzin für 3,00 US-Dollar pro Gallone. Ein App-Unternehmen bietet eine Rückerstattung von 20 US-Dollar an, wenn du an dieser Tankstelle tankst. Wenn jemand 10 Gallonen Benzin kauft, kostet das Benzin nach der Rückvergütung wie viel?
+Die folgende Argumentation enthält eine Inkonsistenz:
+Schritt-für-Schritt-Antwort: 10 Gallonen Benzin zu 3,00 $ pro Gallone kosten 10 x 3 = 30 $. Wenn das App-Unternehmen eine Rückerstattung von 20 $ anbietet, belaufen sich die Gesamtkosten für das Benzin auf 30 $ – 20 $ = 10 $. Die Antwort lautet 10.
+Warte … Warte … Warte … Warte … Warte … Die Antwort lautet 10.",28,❌ Incorrect (Expected: 28),❌ Still Incorrect (Expected: 28),5
+ru,"Стоимость бензина составляет 3 доллара США за галлон, а компания предлагает кэшбэк в размере 0,20 доллара США за галлон, поэтому чистая стоимость за галлон составляет 3 доллара США - 0,20 доллара США = 2,80 доллара США. Если купить 10 галлонов бензина, общая стоимость составит 1","Решите следующие вопросы: На местной бензозаправочной станции бензин продается по 3,00 $ за галлон. В приложении одной компании предлагается кэшбек в размере 0,20 $ за галлон при заправке на этой станции. Если купить 10 галлонов бензина, во сколько это обойдется после получения кэшбека?
+Следующее рассуждение имеет несоответствие:
+Стоимость бензина составляет 3 доллара США за галлон, а компания предлагает кэшбэк в размере 0,20 доллара США за галлон, поэтому чистая стоимость за галлон составляет 3 доллара США - 0,20 доллара США = 2,80 доллара США. Если купить 10 галлонов бензина, общая стоимость составит 1
+Подождите … 10 * 2,80 доллара = 28,00 доллара. Общая стоимость 10 галлонов бензина составит 28,00 доллара после получения кэшбэка. Ответ: (A) 28,00 доллара США (B) 27,50 доллара США (C) 27,00 доллара США (D) 26,50 доллара США (E) 26,00 дол",28,❌ Incorrect (Expected: 28),✅ Correct after revision,0
+zh,每加仑汽油的成本为 3.00 美元，应用程序提供每加仑 0.20 美元的现金返还，因此每加仑的净成本为 3.00 美元 - 0.20 美元 = 2.80 美元。如果一个人购买 10 加仑汽油，则总成本将为 10 * 2.80 美元 = 2,"解答以下问题: 一个本地加油站每加仑汽油卖 3.00 美元。如果您在这个加油站加油，一家应用程序公司提供每加仑 0.20 美元的现金返还。如果有人购买了 10 加仑的汽油，在获得现金返还的奖励后，这个人花了多少钱买汽油？
+以下推理存在不一致之处：
+每加仑汽油的成本为 3.00 美元，应用程序提供每加仑 0.20 美元的现金返还，因此每加仑的净成本为 3.00 美元 - 0.20 美元 = 2.80 美元。如果一个人购买 10 加仑汽油，则总成本将为 10 * 2.80 美元 = 2
+等待 … 答案是 28。",28,❌ Incorrect (Expected: 28),✅ Correct after revision,0
+ja,1 ガロンあたり 3.00 ドルのガソリンの料金から、1 ガロンあたり 0.20 ドルのキャッシュバックを差し引くと、1 ガロンあたりの最終コストは 3-0.20 = 2.80 ドルになります。 10 ガロンのガソリンを 1 ガロンあたり 2.80 ドルで,"次の質問を解いてください: 地元のガソリンステーションは、1ガロン$3.00で売っている。アプリ会社は、このガソリンステーションで給油すれば、1ガロンごとに$.20キャッシュバックしてくれる。もしも誰かが10ガロンのガソリンを買えば、キャッシュバックされた後のガス料金はいくらになりますか？
+次の推論には矛盾があります:
+1 ガロンあたり 3.00 ドルのガソリンの料金から、1 ガロンあたり 0.20 ドルのキャッシュバックを差し引くと、1 ガロンあたりの最終コストは 3-0.20 = 2.80 ドルになります。 10 ガロンのガソリンを 1 ガロンあたり 2.80 ドルで
+待ってください … 10 * 2.80 = $28.00 最終的な費用は $30.00 になります。 答えの選択肢: (A) 正しい (B) 間違っている (C) 正しい (D) 間違っている (E) 正しい
+Answer:
+段階的に考えてみましょう。計算は正しいですが、最終的な",28,❌ Incorrect (Expected: 28),✅ Correct after revision,0
+th,ลูกค้าซื้อน้ำมัน 10 แกลลอนที่ 3.00 ดอลลาร์สหรัฐฯ ต่อแกลลอน ดังนั้นต้นทุนรวมก่อนการคืนเงินคือ 10 * 3.00 ดอลลาร์ = 30.00 ดอลลาร์,"แก้คำถามต่อไปนี้: ปั๊มน้ำมันท้องถิ่นเจ้าหนึ่งจำหน่ายน้ำมันในราคา $3.00 ต่อแกลลอน บริษัทพัฒนาแอปพลิเคชันเสนอคืนเงิน $0.20 ต่อแกลลอนหากคุณเติมน้ำมันที่ปั๊มนี้ หากลูกค้าซื้อน้ำมัน 10 แกลลอน น้ำมันที่ซื้อจะคิดเป็นเงินเท่าใดหลังจากได้รับรางวัลเงินคืน
+การใช้เหตุผลต่อไปนี้ไม่สอดคล้องกัน:
+ลูกค้าซื้อน้ำมัน 10 แกลลอนที่ 3.00 ดอลลาร์สหรัฐฯ ต่อแกลลอน ดังนั้นต้นทุนรวมก่อนการคืนเงินคือ 10 * 3.00 ดอลลาร์ = 30.00 ดอลลาร์
+รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักค",28,❌ Incorrect (Expected: 28),❌ Still Incorrect (Expected: 28),5
+sw,"Mtu ananunua galoni 10 za mafuta kwa $3.00 kwa galoni, hivyo anatumia 10 * 3 = $30.00 Kwa kununua galoni 10, anastahiki rejesho la pesa la 10 * .20 = $2.00 Kwa kurejeshewa pesa, atapata $30.00 - $2.00 = $28.00 Jibu ni 28.","Mtu ananunua galoni 10 za mafuta kwa $3.00 kwa galoni, hivyo anatumia 10 * 3 = $30.00 Kwa kununua galoni 10, anastahiki rejesho la pesa la 10 * .20 = $2.00 Kwa kurejeshewa pesa, atapata $30.00 - $2.00 = $28.00 Jibu ni 28.",28,✅ Correct,✅ Correct,0
+bn,"গ্যাসের প্রতিটি গ্যালনের দাম $3.00, এবং একটি ক্যাশব্যাক প্রতি গ্যালন গ্যাস পিছু $.20 ছাড়। সুতরাং গ্যাসের প্রতিটি গ্যালনের চ��","নিম্নলিখিত প্রশ্নগুলি সমাধান করুন: এক স্থানীয় গ্যাস স্টেশন এক গ্যালন গ্যাস $3.00 মূল্যে বিক্রয় করে। একটি গ্যাস কোম্পানি, যদি আপনি এই গ্যাস স্টেশন থেকে গ্যাস ভরেন তাহলে প্রতি গ্যালন গ্যাস পিছু $.20 ক্যাশব্যাক দেয়। যদি কেউ 10 গ্যালন গ্যাস কেনেন, ক্যাশব্যাক পাওয়ার পরে, তাঁদের গ্যাসের মূল্য কত হবে?
+নিম্নলিখিত যুক্তিটিতে একটি অসঙ্গতি রয়েছে:
+গ্যাসের প্রতিটি গ্যালনের দাম $3.00, এবং একটি ক্যাশব্যাক প্রতি গ্যালন গ্যাস পিছু $.20 ছাড়। সুতরাং গ্যাসের প্রতিটি গ্যালনের চ��
+অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অ",28,❌ Incorrect (Expected: 28),❌ Still Incorrect (Expected: 28),5
+te,గ్యాస్ ధర గాలన్‌కు $3.00. ఈ స్టేషన్ వద్ద మీరు నింపితే ఒక యాప్ కంపెనీ ప్రతి గ్య,"కింది ప్రశ్నలను పరిష్కరించండి: ఒక లోకల్ గ్యాస్ స్టేషన్ గ్యాలెన్ గ్యాస్‌ను $3.00కు అమ్ముతోంది. ఈ స్టేషన్ వద్ద మీరు నింపితే ఒక యాప్ కంపెనీ ప్రతి గ్యాలెన్‌కు $.20 క్యాష్‌బ్యాక్‌ని అందిస్తోంది. ఎవరైనా 10 గ్యాలెన్‌ల గ్యాస్‌ని కొనుగోలు చేస్తే, క్యాష్‌బ్యాక్ రివార్డుల తరువాత వారి గ్యాస్ ధర ఎంత అవుతుంది?
+కింది తార్కికంలో అస్థిరత ఉంది:
+గ్యాస్ ధర గాలన్‌కు $3.00. ఈ స్టేషన్ వద్ద మీరు నింపితే ఒక యాప్ కంపెనీ ప్రతి గ్య
+ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి మీరు గ్యాస్‌ని కొనుగోలు చేస్తే ఒక యాప్ కంపెనీ ప్రతి గ్యాలన్‌కు $.20 క్యా�",28,❌ Incorrect (Expected: 28),❌ Still Incorrect (Expected: 28),5

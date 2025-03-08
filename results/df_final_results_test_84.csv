@@ -1,0 +1,27 @@
+language,original_response,revised_response,expected_answer,initial_status,new_status,wait_count
+en,"Dan has 3 rose bushes, and each bush has 25 roses, so he has a total of 3 * 25 = 75 roses.
+        Each rose has 8 thorns, so the total number of thorns is 75 * 8 = 600.
+        The answer is 600.","Dan has 3 rose bushes, and each bush has 25 roses, so he has a total of 3 * 25 = 75 roses.
+        Each rose has 8 thorns, so the total number of thorns is 75 * 8 = 600.
+        The answer is 600.",600,✅ Correct,✅ Correct,0
+es,"Dan tiene 3 rosales y cada arbusto tiene 25 rosas, por lo que tiene un total de 3 * 25 = 75 rosas. Cada rosa tiene 8 espinas, por lo que el número total de espinas es 75 * 8 = 600. La respuesta es 600.","Dan tiene 3 rosales y cada arbusto tiene 25 rosas, por lo que tiene un total de 3 * 25 = 75 rosas. Cada rosa tiene 8 espinas, por lo que el número total de espinas es 75 * 8 = 600. La respuesta es 600.",600,✅ Correct,✅ Correct,0
+fr,"Si chaque rosier a 25 roses et que chaque rose a 8 pétales, alors chaque rosier a 25 * 8 = 200 pétales. Puisque Dan a 3 rosiers, le nombre total de pétales est de 200 * 3 = 600 pétales. La réponse est 600.","Si chaque rosier a 25 roses et que chaque rose a 8 pétales, alors chaque rosier a 25 * 8 = 200 pétales. Puisque Dan a 3 rosiers, le nombre total de pétales est de 200 * 3 = 600 pétales. La réponse est 600.",600,✅ Correct,✅ Correct,0
+de,"Dan pflanzt 3 Rosenbüsche, und jeder Busch hat 25 Rosen, also sind es insgesamt 3 * 25 = 75 Rosen. Jede Rose hat 8 Dornen, also sind es insgesamt 75 * 8 = 600 Dornen. Die Antwort ist 600.","Dan pflanzt 3 Rosenbüsche, und jeder Busch hat 25 Rosen, also sind es insgesamt 3 * 25 = 75 Rosen. Jede Rose hat 8 Dornen, also sind es insgesamt 75 * 8 = 600 Dornen. Die Antwort ist 600.",600,✅ Correct,✅ Correct,0
+ru,"У Дэна 3 куста роз, и на каждом кусте по 25 роз, поэтому всего у него 3 * 25 = 75 роз. У каждой розы по 8 шипов, всего у него 75 * 8 = 600 шипов. Ответ: 600.","У Дэна 3 куста роз, и на каждом кусте по 25 роз, поэтому всего у него 3 * 25 = 75 роз. У каждой розы по 8 шипов, всего у него 75 * 8 = 600 шипов. Ответ: 600.",600,✅ Correct,✅ Correct,0
+zh,3 丛玫瑰 * 每丛 25 朵玫瑰 * 每朵玫瑰 8 片 = 600 片。答案是 600。,3 丛玫瑰 * 每丛 25 朵玫瑰 * 每朵玫瑰 8 片 = 600 片。答案是 600。,600,✅ Correct,✅ Correct,0
+ja,ステップごとの答え：3×25=75本のバラがあります。バラの本数×本数は75×8＝600本となります。答えは600です。,ステップごとの答え：3×25=75本のバラがあります。バラの本数×本数は75×8＝600本となります。答えは600です。,600,✅ Correct,✅ Correct,0
+th,แดนปลูกกุหลาบ 3 ต้น แต่ละต้นออกดอก 25 ดอก ดังนั้นเขาจึงมีดอกกุหลาบทั้งหมด 3 * 25 = 75 ดอก ดอกกุหลาบแต่ละดอกมี 8 กลีบ ดังนั้นจำนวน,"แก้คำถามต่อไปนี้: แดนปลูกกุหลาบ 3 ต้น แต่ละต้นออกดอก 25 ดอก โดยที่แต่ละดอกมีหนาม 8 อัน รวมแล้วกุหลาบมีหนามทั้งหมดกี่อัน
+การใช้เหตุผลต่อไปนี้ไม่สอดคล้องกัน:
+แดนปลูกกุหลาบ 3 ต้น แต่ละต้นออกดอก 25 ดอก ดังนั้นเขาจึงมีดอกกุหลาบทั้งหมด 3 * 25 = 75 ดอก ดอกกุหลาบแต่ละดอกมี 8 กลีบ ดังนั้นจำนวน
+รอสักครู่ … ตัวเลือกคำตอบ: (A) 120 (B) 160 (C) 240 (D) 80 (E) 800
+Answer:
+ลองคิดทีละขั้นตอน 3 * 25 = 75 ดอก 75 ดอก แต่ละดอกมี 8 กลีบ 75 * 8 = 600 กลีบ 6",600,❌ Incorrect (Expected: 600),✅ Correct after revision,0
+sw,"Dan ana vichaka 3 vya waridi, na kila kichaka kina waridi 25, kwa hivyo kwa jumla kuna 3 * 25 = 75 roses. Kila rose ina petals 8, hivyo kwa jumla kuna 75 * 8 = 600 rose petals. Jibu ni 600.","Dan ana vichaka 3 vya waridi, na kila kichaka kina waridi 25, kwa hivyo kwa jumla kuna 3 * 25 = 75 roses. Kila rose ina petals 8, hivyo kwa jumla kuna 75 * 8 = 600 rose petals. Jibu ni 600.",600,✅ Correct,✅ Correct,0
+bn,"ড্যানের 3টি গোলাপ গাছ রয়েছে * প্রতিটি গাছে 25টি গোলাপ রয়েছে = 75টি গোলাপ। প্রতিটি গোলাপে 8টি কাঁটা রয়েছে, তাই 75টি","নিম্নলিখিত প্রশ্নগুলি সমাধান করুন: ড্যান 3টি গোলাপ গাছ লাগিয়েছেন। প্রতিটি গোলাপ গাছে 25টি করে গোলাপ হয়েছে। প্রত্যেকটি গোলাপে 8টি করে কাঁটা রয়েছে। মোট কতগুলি কাঁটা রয়েছে?
+নিম্নলিখিত যুক্তিটিতে একটি অসঙ্গতি রয়েছে:
+ড্যানের 3টি গোলাপ গাছ রয়েছে * প্রতিটি গাছে 25টি গোলাপ রয়েছে = 75টি গোলাপ। প্রতিটি গোলাপে 8টি কাঁটা রয়েছে, তাই 75টি
+অপেক্ষা করুন … 8 = 600টি কাঁটা। উপরের যুক্তিতে একটি অসঙ্গতি রয়েছে কারণ গোলাপের সংখ্যা গুণ করা হয়েছে কাঁটার সংখ্যা বের করা",600,❌ Incorrect (Expected: 600),✅ Correct after revision,0
+te,డాన్ 3 గులాబి పొదలను నాటాడు. ప్రతి గులాబి పొదలో 25 గులాబీలు ఉన్నాయి. ప్రతి గులా����,"కింది ప్రశ్నలను పరిష్కరించండి: డాన్ 3 గులాబి పొదలను నాటాడు. ప్రతి గులాబి పొదలో 25 గులాబీలు ఉన్నాయి. ప్రతి గులాబీకి 8 ముళ్లు ఉన్నాయి. మొత్తం మీద ఎన్ని ముళ్లు ఉన్నాయి?
+కింది తార్కికంలో అస్థిరత ఉంది:
+డాన్ 3 గులాబి పొదలను నాటాడు. ప్రతి గులాబి పొదలో 25 గులాబీలు ఉన్నాయి. ప్రతి గులా����
+ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి ప్రతి గులాబీకి 8 ముళ్లు ఉన్నాయి. మొత్తం మీద ఎన్ని ముళ్లు ఉన్నాయి? సమాధాన ",600,❌ Incorrect (Expected: 600),❌ Still Incorrect (Expected: 600),5

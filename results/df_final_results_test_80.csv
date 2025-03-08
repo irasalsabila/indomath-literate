@@ -1,0 +1,32 @@
+language,original_response,revised_response,expected_answer,initial_status,new_status,wait_count
+en,"The discount is 100 * 0.30 = $30.
+        The original price is $100, so the new price is 100 - 30 = $70.
+        The answer is 70.","The discount is 100 * 0.30 = $30.
+        The original price is $100, so the new price is 100 - 30 = $70.
+        The answer is 70.",70,✅ Correct,✅ Correct,0
+es,"El descuento del 30% en un servicio de $100 es 30/100 * 100 = $30. Entonces, el costo del servicio de peluquería después del descuento es $100 - $30 = $70. Por lo tanto, John pagó $70 por el servicio de peluquería. La respuesta es 70.","El descuento del 30% en un servicio de $100 es 30/100 * 100 = $30. Entonces, el costo del servicio de peluquería después del descuento es $100 - $30 = $70. Por lo tanto, John pagó $70 por el servicio de peluquería. La respuesta es 70.",70,✅ Correct,✅ Correct,0
+fr,"Si Jean bénéficie d'une réduction de 30 % sur le coût du toilettage, il paiera 100 - (30/100) * 100 = 70 $. Le coût final du toilettage est donc de 70 $. La réponse est 70.","Si Jean bénéficie d'une réduction de 30 % sur le coût du toilettage, il paiera 100 - (30/100) * 100 = 70 $. Le coût final du toilettage est donc de 70 $. La réponse est 70.",70,✅ Correct,✅ Correct,0
+de,Eine Rabattberechnung: 100 $ x 30 % = 30 $ Rabatt. Die Kosten für die Hundepflege betragen 100 $ - 30 $ Rabatt = 70 $. Die Antwort ist 70.,Eine Rabattberechnung: 100 $ x 30 % = 30 $ Rabatt. Die Kosten für die Hundepflege betragen 100 $ - 30 $ Rabatt = 70 $. Die Antwort ist 70.,70,✅ Correct,✅ Correct,0
+ru,"Решение: 100 долларов США * 0,30 = 30 долларов США. Скидка 100 долларов США. Скидка 30 долларов США, поэтому общая стоимость составит 100 долларов США - 30 долларов США = 70 долларов США. Ответ: 70.","Решение: 100 долларов США * 0,30 = 30 долларов США. Скидка 100 долларов США. Скидка 30 долларов США, поэтому общая стоимость составит 100 долларов США - 30 долларов США = 70 долларов США. Ответ: 70.",70,✅ Correct,✅ Correct,0
+zh,如果美容师给他 100 美元的折扣，那么他将支付 100 - 7 = 93 美元。答案是 93。,"解答以下问题: 约翰收养了一条狗。他把狗带去美容，美容价格是 100 美元。因为他是新顾客，所以宠物美容师给他打了七折。这次美容花了多少钱？
+以下推理存在不一致之处：
+如果美容师给他 100 美元的折扣，那么他将支付 100 - 7 = 93 美元。答案是 93。
+等待 … 等待 … 等待 … 等待 … 等待 … 答案是 93。
+Answer:
+让我们一步步思考。约翰为这只狗的美容支付了 100 美元。美容师给了他 7 美元的折扣，这意味着他支付了 100 美元 - 7 美元 = 93 美元。因此，这次美容的费用是 93 美元。",70,❌ Incorrect (Expected: 70),❌ Still Incorrect (Expected: 70),5
+ja,ステップごとの答え：ジョンは犬のトリマーに 100 ドルを支払わなければなりません。トリマーは 30% 割引を提供します。つまり、ジョンは 30/100 * $100 = $30 安く支払うことになります。したがって、トリミングのコストは $100 - $3,"次の質問を解いてください: ジョンは犬の里親になります。犬をトリマーに連れて行き、$100かかります。トリマーは彼に、新しい顧客用の30%割引を提供します。トリミングの費用はいくらになりますか？
+次の推論には矛盾があります:
+ステップごとの答え：ジョンは犬のトリマーに 100 ドルを支払わなければなりません。トリマーは 30% 割引を提供します。つまり、ジョンは 30/100 * $100 = $30 安く支払うことになります。したがって、トリミングのコストは $100 - $3
+待ってください … さて、ジョンはトリマーに $100 - $30 = $70 を支払います。答えは 70 です。",70,❌ Incorrect (Expected: 70),✅ Correct after revision,0
+th,คำตอบทีละขั้นตอน: ค่าตัดขนสุนัข $100 มีส่วนลด 30% ดังนั้น John จะประหยัดได้ 30/100 * 100 = $30 ดังนั้น ค่าตัดขนสุนัขจะอยู่ที่ 100 - 30 =,"แก้คำถามต่อไปนี้: จอห์นรับอุปการะสุนัขตัวหนึ่ง เขาพาสุนัขไปตัดขนราคา $100 แต่ร้านตัดขนให้ส่วนลด 30% สำหรับลูกค้าใหม่ ค่าตัดขนสุนัขจะเท่ากับกี่ดอลลาร์
+การใช้เหตุผลต่อไปนี้ไม่สอดคล้องกัน:
+คำตอบทีละขั้นตอน: ค่าตัดขนสุนัข $100 มีส่วนลด 30% ดังนั้น John จะประหยัดได้ 30/100 * 100 = $30 ดังนั้น ค่าตัดขนสุนัขจะอยู่ที่ 100 - 30 =
+รอสักครู่ … คำตอบคือ 70",70,❌ Incorrect (Expected: 70),✅ Correct after revision,0
+sw,Kutumia kipunguzo cha 30% kwa gharama ya $100 inamaanisha kuwa kutumika kwa kiasi cha kupunguzwa ni 30/100 * $100 = $30. Kwa hivyo kiasi kilichopunguzwa ni $100 - $30 = $70. Jibu ni 70.,Kutumia kipunguzo cha 30% kwa gharama ya $100 inamaanisha kuwa kutumika kwa kiasi cha kupunguzwa ni 30/100 * $100 = $30. Kwa hivyo kiasi kilichopunguzwa ni $100 - $30 = $70. Jibu ni 70.,70,✅ Correct,✅ Correct,0
+bn,"যদি গ্রুমার 30% ছাড় দেয়, তাহলে জন মূল খরচের 100 - 30 = 70% প্রদান করবে। জন যে পরিমাণ অর্থ প্রদান করবেন তা গণনা করতে","যদি গ্রুমার 30% ছাড় দেয়, তাহলে জন মূল খরচের 100 - 30 = 70% প্রদান করবে। জন যে পরিমাণ অর্থ প্রদান করবেন তা গণনা করতে",70,✅ Correct,✅ Correct,0
+te,"డిస్కౌంట్ అసలు ధరలో 30%, కాబట్టి డిస్కౌంట్ విలువ 30/100 * 100 = $30. అందువల్ల, గ్రూమింగ్","కింది ప్రశ్నలను పరిష్కరించండి: జాన్ ఒక కుక్కను దత్తతకు తీసుకున్నాడు. అతడు దానిని ఒక గ్రూమర్ వద్దకు తీసుకెళ్లాడు, దీనికి $100 అవుతుంది, కొత్త కస్టమర్ కావడంతో గ్రూమర్ 30% డిస్కౌంట్‌ని అందించాడు. గ్రూమింగ్‌(అలంకరణ) కొరకు ఎంత ఖర్చు అవుతుంది?
+కింది తార్కికంలో అస్థిరత ఉంది:
+డిస్కౌంట్ అసలు ధరలో 30%, కాబట్టి డిస్కౌంట్ విలువ 30/100 * 100 = $30. అందువల్ల, గ్రూమింగ్
+ఆగండి … సమాధాన ఎంపికలు: (A) $ 70 (B) $ 80 (C) $ 85 (D) $ 90 (E) $ 95
+Answer:
+అంచెలంచెలుగా ఆలోచిద్దాం. అసలు ధర $1",70,❌ Incorrect (Expected: 70),✅ Correct after revision,0

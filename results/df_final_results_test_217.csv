@@ -1,0 +1,54 @@
+language,original_response,revised_response,expected_answer,initial_status,new_status,wait_count
+en,"Janeth borrowed $2000 and promised to pay back with an additional 10% of the amount. This means she will pay back $2000 + ($2000 * 10%) = $2000 + $200 = $2200 in total.
+        If she is going to pay $165 a month for 12 months, she will pay a total of $165 * 12 = $1980.
+        Janeth's remaining balance will be $2200 - $1","Solve the following questions: Janeth borrowed $2000 and promised to return it with an additional 10% of the amount. If she is going to pay $165 a month for 12 months, how much will be Janeth's remaining balance by then?
+The following reasoning has an inconsistency:
+Janeth borrowed $2000 and promised to pay back with an additional 10% of the amount. This means she will pay back $2000 + ($2000 * 10%) = $2000 + $200 = $2200 in total.
+        If she is going to pay $165 a month for 12 months, she will pay a total of $165 * 12 = $1980.
+        Janeth's remaining balance will be $2200 - $1
+Wait … Wait …
+        Janeth's remaining balance will be $2200 - $1980 = $220
+The answer is 220.",220,❌ Incorrect (Expected: 220),✅ Correct after revision,1
+es,"Respuesta paso a paso: Janeth pidió prestado $2000 y prometió devolverlo con un 10% adicional. Esto significa que devolverá $2000 + ($2000 * 10%) = $2000 + $200 = $2200 en total. Si paga $165 por mes durante 12 meses, pagará un total de $165 * 12 = $1980. Por lo tanto, Janeth todavía deber","Resuelve las siguientes preguntas: Janeth pidió $2000 prestados y prometió devolverlos con un 10 % adicional al monto. Si va a pagar $165 por mes durante 12 meses, ¿qué saldo le quedará por pagar a Janeth para ese entonces?
+El siguiente razonamiento tiene una inconsistencia:
+Respuesta paso a paso: Janeth pidió prestado $2000 y prometió devolverlo con un 10% adicional. Esto significa que devolverá $2000 + ($2000 * 10%) = $2000 + $200 = $2200 en total. Si paga $165 por mes durante 12 meses, pagará un total de $165 * 12 = $1980. Por lo tanto, Janeth todavía deber
+Espera … $2200 - $1980 = $220 para ser pagado. La respuesta es B.",220,❌ Incorrect (Expected: 220),✅ Correct after revision,0
+fr,"Janeth doit payer 165 $ par mois pendant 12 mois, donc au total, elle paiera 165 $ x 12 = 1980 $. Janeth a initialement emprunté 2 000 $ et a promis de le rendre avec un supplément de 10 %. Elle devra donc payer 2 000 $ x 10 % = 200 $ supplémentaires. Par conséquent, Janeth paiera un total de 2 000 $ + 200","Résolvez les questions suivantes: Janeth a emprunté 2 000 $ et a promis de les rendre avec un supplément de 10 % du montant. Si elle doit payer 165 $ par mois pendant 12 mois, combien d'argent restera-t-il à Janeth d'ici là ?
+Le raisonnement suivant présente une incohérence :
+Janeth doit payer 165 $ par mois pendant 12 mois, donc au total, elle paiera 165 $ x 12 = 1980 $. Janeth a initialement emprunté 2 000 $ et a promis de le rendre avec un supplément de 10 %. Elle devra donc payer 2 000 $ x 10 % = 200 $ supplémentaires. Par conséquent, Janeth paiera un total de 2 000 $ + 200
+Attendez … Attendez … Attendez … Attendez … Attendez … Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez…",220,❌ Incorrect (Expected: 220),❌ Still Incorrect (Expected: 220),5
+de,"Schritt-für-Schritt-Antwort: Janeth hat sich 2.000 $ geliehen und versprochen, es mit zusätzlichen 10 % zurückzuzahlen. Das bedeutet, dass sie insgesamt 2000 $ + (2000 $ x 10 %) = 2200 $ zurückzahlen wird. Wenn sie 12 Monate lang 165 $ pro Monat zahlt, zahlt sie insgesamt 165 $ x","Los die folgenden Fragen: Janeth lieh sich 2000 $ und versprach, den Betrag mit zusätzlichen 10 % zurückzuzahlen. Wenn sie 12 Monate lang 165 $ pro Monat zahlt, wie hoch wird Janeths Restguthaben bis dahin sein?
+Die folgende Argumentation enthält eine Inkonsistenz:
+Schritt-für-Schritt-Antwort: Janeth hat sich 2.000 $ geliehen und versprochen, es mit zusätzlichen 10 % zurückzuzahlen. Das bedeutet, dass sie insgesamt 2000 $ + (2000 $ x 10 %) = 2200 $ zurückzahlen wird. Wenn sie 12 Monate lang 165 $ pro Monat zahlt, zahlt sie insgesamt 165 $ x
+Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte",220,❌ Incorrect (Expected: 220),❌ Still Incorrect (Expected: 220),5
+ru,"Шаг-1: Сумма, которую Дженет будет выплачивать, составляет 165 долларов США * 12 = 1980 долларов США. Шаг 2: Общая сумма заемных денег, включая дополнительные 10%, составляет 2000 долларов США + (2000 долларов США * 10%) = 2200 долларов США. Шаг 3: Дженет будет выпла","Решите следующие вопросы: Дженет заняла 2000 $ и пообещала вернуть их с дополнительными 10 % от суммы. Если Дженет будет выплачивать 165 $ в месяц в течение 12 месяцев, сколько составит остаток средств Дженет к тому моменту?
+Следующее рассуждение имеет несоответствие:
+Шаг-1: Сумма, которую Дженет будет выплачивать, составляет 165 долларов США * 12 = 1980 долларов США. Шаг 2: Общая сумма заемных денег, включая дополнительные 10%, составляет 2000 долларов США + (2000 долларов США * 10%) = 2200 долларов США. Шаг 3: Дженет будет выпла
+Подождите … Шаг 4: Остаток составляет 2200–1980 долларов США = 220 долларов США. Как вы можете объяснить, что несоответствие в рассуждении выше? Варианты ответа: (A) Шаг 1 содержит ошибку. Оплата должна составлять 165 долларов США * 12 = 1980 долларов США. (B) Шаг 2 содержит ошибку.",220,❌ Incorrect (Expected: 220),✅ Correct after revision,0
+zh,"Janice 借了 2,000 美元并承诺额外支付 10% 的金额，因此她将支付 2,000 美元 + (2,000 美元 * 10%) = 2,000 美元 + 200 美元 = 2,200 美元。如果她计划每月支付 12 个月的 165 美元，那么她总共将支付 165","解答以下问题: 珍妮丝借了 2,000 美元并承诺额外返还该金额的 10%。如果她打算 12 个月每月支付 165 美元，到那时珍妮丝剩余的欠款为多少？
+以下推理存在不一致之处：
+Janice 借了 2,000 美元并承诺额外支付 10% 的金额，因此她将支付 2,000 美元 + (2,000 美元 * 10%) = 2,000 美元 + 200 美元 = 2,200 美元。如果她计划每月支付 12 个月的 165 美元，那么她总共将支付 165
+等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 …",220,❌ Incorrect (Expected: 220),❌ Still Incorrect (Expected: 220),5
+ja,ステップごとの答え: ジャネスは 2000 ドルを借りて、10% 増しで返済すると約束しました。つまり、彼女は 2000 ドル + (2000 ドル * 10%) = 2200 ドルを返済することになります。彼女は 12 か月間で月額 165,"次の質問を解いてください: ジャネスは2,000ドル借りて、10%増しで返済すると約束しました。12か月間にわたり月165ドル払うとした場合、12か月後の負債残高はいくらになっていますか？
+次の推論には矛盾があります:
+ステップごとの答え: ジャネスは 2000 ドルを借りて、10% 増しで返済すると約束しました。つまり、彼女は 2000 ドル + (2000 ドル * 10%) = 2200 ドルを返済することになります。彼女は 12 か月間で月額 165
+待ってください … 待ってください … 待ってください … 待ってください … 待ってください … 12 か月後、ジャネスは合計 165 ドル * 12 = 2040 ドルを支払うことになります。 12 か月後の負債残高は、2200 ドル - 2040 ドル = 160 ドルになります。 12 か月後の負債残高は 160 ドルになります。こ",220,❌ Incorrect (Expected: 220),❌ Still Incorrect (Expected: 220),5
+th,"คำตอบทีละขั้นตอน: Janeth จ่ายเงิน 165 ดอลลาร์ต่อเดือนเป็นเวลา 12 เดือน ดังนั้นเธอจึงจ่ายทั้งหมด 165 ดอลลาร์ * 12 = 2,040 ดอลลาร์ เนื่อ","แก้คำถามต่อไปนี้: เจเน็ธยืมเงิน $2,000 และสัญญาว่าจะคืนพร้อมดอกเบี้ย 10% ของจำนวนเงิน ถ้าเธอจะจ่ายเดือนละ $165 เป็นเวลา 12 เดือน เมื่อถึงตอนนั้นเจเน็ธจะเหลือเงินค้างจ่ายเท่าไหร่
+การใช้เหตุผลต่อไปนี้ไม่สอดคล้องกัน:
+คำตอบทีละขั้นตอน: Janeth จ่ายเงิน 165 ดอลลาร์ต่อเดือนเป็นเวลา 12 เดือน ดังนั้นเธอจึงจ่ายทั้งหมด 165 ดอลลาร์ * 12 = 2,040 ดอลลาร์ เนื่อ
+รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักค",220,❌ Incorrect (Expected: 220),❌ Still Incorrect (Expected: 220),5
+sw,"Janeth alikopesha $2000 na akaahidi kurudisha na ziada ya 10% ya kiwango hicho, kwa hivyo atalipa $2000 + ($2000 * 10%) = $2000 + $200 = $2200 kwa jumla. Ikiwa atakuwa akilipa $165 kila mwezi kwa miezi 12, atalipa jumla ya $165 * 12 = $19","Tatua maswali yafuatayo: Janeth alikopesha $2000 na akaahidi kurudisha na ziada ya 10% ya kiwango hicho. Ikiwa atakuwa akilipa $165 kila mwezi kwa miezi 12, salio la Janeth linalosalia kufikia wakati huo litakuwa ngapi?
+Hoja ifuatayo ina hali ya kutofautiana:
+Janeth alikopesha $2000 na akaahidi kurudisha na ziada ya 10% ya kiwango hicho, kwa hivyo atalipa $2000 + ($2000 * 10%) = $2000 + $200 = $2200 kwa jumla. Ikiwa atakuwa akilipa $165 kila mwezi kwa miezi 12, atalipa jumla ya $165 * 12 = $19
+Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri",220,❌ Incorrect (Expected: 220),❌ Still Incorrect (Expected: 220),5
+bn,"জেনিথ $2000 ধার করেছিল এবং 10% অতিরিক্ত অর্থ প্রদান করার প্রতিশ্রুতি দিয়েছিল, যা হল $2000 * 10% = $200৷ সুতরাং তাকে মোট","নিম্নলিখিত প্রশ্নগুলি সমাধান করুন: জেনিথ $2000 ধার করেছিল এবং প্রতিশ্রুতি দিয়েছিল যে ঐ অর্থের 10% অতিরিক্ত অর্থ সমেত ফেরৎ দেবে। যদি সে প্রতি মাসে $165 হিসেবে 12 মাস ধরে পরিশোধ করে, তাহলে জেনিথের তারপরেও কত অর্থ পরিশোধ করা বাকি থাকবে?
+নিম্নলিখিত যুক্তিটিতে একটি অসঙ্গতি রয়েছে:
+জেনিথ $2000 ধার করেছিল এবং 10% অতিরিক্ত অর্থ প্রদান করার প্রতিশ্রুতি দিয়েছিল, যা হল $2000 * 10% = $200৷ সুতরাং তাকে মোট
+অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন। উত্তর পছন্দ: (A) $1810 (B) $1990 (C) $2000 (D) $2010 (E) $2100
+",220,❌ Incorrect (Expected: 220),❌ Still Incorrect (Expected: 220),5
+te,"జనేత్ అదనంగా 10% మొత్తంతో అప్పును తిరిగి ఇచ్చేందుకు వాగ్ధానం చేసింది, ఇది 10/","కింది ప్రశ్నలను పరిష్కరించండి: జనేత్ $2000 అప్పు తీసుకుంది, అదనంగా 10% మొత్తంతో దానిని తిరిగి ఇచ్చేందుకు వాగ్ధానం చేసింది. ఆమె 12 నెలలపాటు నెలకు $165 చొప్పున చెల్లించబోతుంటే, అప్పటికి జనేత్ మిగిలిన బ్యాలెన్స్ ఎంతమొత్తం ఉంటుంది?
+కింది తార్కికంలో అస్థిరత ఉంది:
+జనేత్ అదనంగా 10% మొత్తంతో అప్పును తిరిగి ఇచ్చేందుకు వాగ్ధానం చేసింది, ఇది 10/
+ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి మొత్తం 12 నెలలు.
+Answer:
+అంచెలంచెలుగా ఆలోచిద్దాం. జనేత్ అప్పును తిరిగి ఇవ్వ��",220,❌ Incorrect (Expected: 220),❌ Still Incorrect (Expected: 220),5

@@ -1,0 +1,45 @@
+language,original_response,revised_response,expected_answer,initial_status,new_status,wait_count
+en,"Billy's first 3 customers bought 3 * 1 = 3 DVDs.
+        His next 2 customers bought 2 * 2 = 4 DVDs.
+        His last 3 customers bought 0 * 3 = 0 DVDs.
+        In total, Billy sold 3 + 4 + 0 = 7 DVDs on Tuesday.
+        The answer is 7.
+Answer:
+Let's think step by step.
+Billy sold 7 DVDs on Tuesday.
+The answer is 7.","Billy's first 3 customers bought 3 * 1 = 3 DVDs.
+        His next 2 customers bought 2 * 2 = 4 DVDs.
+        His last 3 customers bought 0 * 3 = 0 DVDs.
+        In total, Billy sold 3 + 4 + 0 = 7 DVDs on Tuesday.
+        The answer is 7.
+Answer:
+Let's think step by step.
+Billy sold 7 DVDs on Tuesday.
+The answer is 7.",7,✅ Correct,✅ Correct,0
+es,"Los primeros 3 clientes compraron 3 * 1 = 3 DVD. Los siguientes 2 clientes compraron 2 * 2 = 4 DVD. Los últimos 3 clientes no compraron ningún DVD. Entonces, en total, Billy vendió 3 + 4 + 0 = 7 DVD el martes. La respuesta es 7.","Los primeros 3 clientes compraron 3 * 1 = 3 DVD. Los siguientes 2 clientes compraron 2 * 2 = 4 DVD. Los últimos 3 clientes no compraron ningún DVD. Entonces, en total, Billy vendió 3 + 4 + 0 = 7 DVD el martes. La respuesta es 7.",7,✅ Correct,✅ Correct,0
+fr,"Les 3 premiers clients ont acheté 3 * 1 = 3 DVD. Les 2 clients suivants ont acheté 2 * 2 = 4 DVD. Les 3 derniers clients n'en ont acheté aucun, donc 0 DVD. Au total, Billy a vendu 3 + 4 + 0 = 7 DVD. La réponse est 7.","Les 3 premiers clients ont acheté 3 * 1 = 3 DVD. Les 2 clients suivants ont acheté 2 * 2 = 4 DVD. Les 3 derniers clients n'en ont acheté aucun, donc 0 DVD. Au total, Billy a vendu 3 + 4 + 0 = 7 DVD. La réponse est 7.",7,✅ Correct,✅ Correct,0
+de,"Billys erste 3 Kunden kauften 3 * 1 = 3 DVDs. Seine nächsten 2 Kunden kauften 2 * 2 = 4 DVDs. Seine letzten 3 Kunden haben keine DVDs gekauft, also 0 * 3 = 0 DVDs. Insgesamt hat Billy am Dienstag 3 + 4 + 0 = 7 DVDs verkauft. Die Antwort ist 7.","Billys erste 3 Kunden kauften 3 * 1 = 3 DVDs. Seine nächsten 2 Kunden kauften 2 * 2 = 4 DVDs. Seine letzten 3 Kunden haben keine DVDs gekauft, also 0 * 3 = 0 DVDs. Insgesamt hat Billy am Dienstag 3 + 4 + 0 = 7 DVDs verkauft. Die Antwort ist 7.",7,✅ Correct,✅ Correct,0
+ru,Билли продал 3 DVD-диска первым покупателям * 1 DVD-диск = 3 DVD-диска. Он продал 2 DVD-диска * 2 покупателя = 4 DVD-диска вторым покупателям. Он продал 0 DVD-дисков * 3 покупателя = 0 DVD-дисков последним покупателям. Всего он продал 3 + 4 + 0 = 7 DVD-дисков. Ответ: 7.,Билли продал 3 DVD-диска первым покупателям * 1 DVD-диск = 3 DVD-диска. Он продал 2 DVD-диска * 2 покупателя = 4 DVD-диска вторым покупателям. Он продал 0 DVD-дисков * 3 покупателя = 0 DVD-дисков последним покупателям. Всего он продал 3 + 4 + 0 = 7 DVD-дисков. Ответ: 7.,7,✅ Correct,✅ Correct,0
+zh,前 3 位顾客购买了 3 * 1 = 3 张 DVD。接下来的 2 位顾客购买了 2 * 2 = 4 张 DVD。最后 3 位顾客没有购买任何 DVD。因此，总共售出了 3 + 4 + 0 = 7 张 DVD。答案是 7。,前 3 位顾客购买了 3 * 1 = 3 张 DVD。接下来的 2 位顾客购买了 2 * 2 = 4 张 DVD。最后 3 位顾客没有购买任何 DVD。因此，总共售出了 3 + 4 + 0 = 7 张 DVD。答案是 7。,7,✅ Correct,✅ Correct,0
+ja,ビリーの最初の 3 人の顧客は、3*1=3 枚の DVD を購入しました。彼の次の 2 人の顧客は、2*2=4 枚の DVD を購入しました。最後の 3 人の顧客は、3*0=0 枚の DVD を購入しました。合計すると、ビリーは火曜日に 3+,"次の質問を解いてください: ビリーはDVDを売ります。彼は火曜日に8人のお客様がいます。彼の最初の3人のお客様はそれぞれ1枚のDVDを購入します。彼の翌日の2人の顧客は2枚のDVDをそれぞれ購入しました。の最後の3人のお客様はDVDを購入しません。ビリーは火曜日に何枚のDVDを売りましたか？
+次の推論には矛盾があります:
+ビリーの最初の 3 人の顧客は、3*1=3 枚の DVD を購入しました。彼の次の 2 人の顧客は、2*2=4 枚の DVD を購入しました。最後の 3 人の顧客は、3*0=0 枚の DVD を購入しました。合計すると、ビリーは火曜日に 3+
+待ってください … 答えの選択肢: (A) 3 (B) 4 (C) 6 (D) 7 (E) 8
+Answer:
+段階的に考えてみましょう。 3 人の顧客は 3 枚の DVD を購入しました。 2 人の顧客は 4 枚の DVD を購入しました。 3 人の顧客は DVD を購入しま",7,❌ Incorrect (Expected: 7),✅ Correct after revision,0
+th,ลูกค้า 3 รายแรกซื้อดีวีดี 3 * 1 = 3 แผ่น ลูกค้า 2 รายถัดไปซื้อดีวีดี 2 * 2 = 4 แผ่น ลูกค้า 3 รายสุดท้ายไม่ได้ซื้อดีวีดี ดังนั้น 0 แ,"แก้คำถามต่อไปนี้: บิลลีขายแผ่นดีวีดี เมื่อวันอังคาร เขามีลูกค้า 8 คน ลูกค้า 3 คนแรกซื้อดีวีดีคนละแผ่น ลูกค้า 2 คนถัดมาซื้อคนละ 2 แผ่น ลูกค้า 3 คนสุดท้ายไม่ได้ซื้อเลยสักแผ่น เมื่อวันอังคาร บิลลีขายดีวีดีได้กี่แผ่น
+การใช้เหตุผลต่อไปนี้ไม่สอดคล้องกัน:
+ลูกค้า 3 รายแรกซื้อดีวีดี 3 * 1 = 3 แผ่น ลูกค้า 2 รายถัดไปซื้อดีวีดี 2 * 2 = 4 แผ่น ลูกค้า 3 รายสุดท้ายไม่ได้ซื้อดีวีดี ดังนั้น 0 แ
+รอสักครู่ … บิลลี่ขายดีวีดีได้ทั้งหมด 3 + 4 + 0 = 7 แผ่น ตัวเลือกคำตอบ: (A) 7 (B) 8 (C) 9 (D) 10 (E) 11
+Answer:
+ลองคิดทีละขั้นตอน การใช้ตรรกะทางคณิตศาส",7,❌ Incorrect (Expected: 7),✅ Correct after revision,0
+sw,"Wateja 3 wa kwanza wa Billy hununua DVD 3 * 1 = 3. Wateja 2 wa pili wa Billy hununua DVD 2 * 2 = 4. Wateja 3 wa mwisho wa Billy hawanunui DVD yoyote, kwa hivyo wanunua 0 * 3 = 0 DVD. Kwa jumla, Billy anauza 3 + 4 + 0 = DVD 7 Jumanne. Jibu ni 7.","Wateja 3 wa kwanza wa Billy hununua DVD 3 * 1 = 3. Wateja 2 wa pili wa Billy hununua DVD 2 * 2 = 4. Wateja 3 wa mwisho wa Billy hawanunui DVD yoyote, kwa hivyo wanunua 0 * 3 = 0 DVD. Kwa jumla, Billy anauza 3 + 4 + 0 = DVD 7 Jumanne. Jibu ni 7.",7,✅ Correct,✅ Correct,0
+bn,"বিলির প্রথম 3 জন গ্রাহক প্রতিটি 1টি ডিভিডি কিনেছেন, তাই 3 * 1 = 3টি ডিভিডি। তার পরবর্তী 2 জন গ্রাহক প্রতিটি 2টি ডিভিডি কিনে��","নিম্নলিখিত প্রশ্নগুলি সমাধান করুন: বিলি DVD বিক্রয় করেন। মঙ্গলবারে তাঁর 8 জন গ্রাহক হয়েছে। তাঁর প্রথম 3 জন গ্রাহকের প্রত্যেকে একটি করে DVD ক্রয় করেন। পরবর্তী 2 জন গ্রাহকের প্রত্যেকে 2টি করে DVD ক্রয় করেন। তাঁর শেষ 3 জন গ্রাহক কোনও DVD ক্রয় করেননি। বিলি মঙ্গলবারে কতগুলি DVD বিক্রয় করেছেন?
+নিম্নলিখিত যুক্তিটিতে একটি অসঙ্গতি রয়েছে:
+বিলির প্রথম 3 জন গ্রাহক প্রতিটি 1টি ডিভিডি কিনেছেন, তাই 3 * 1 = 3টি ডিভিডি। তার পরবর্তী 2 জন গ্রাহক প্রতিটি 2টি ডিভিডি কিনে��
+অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … তার শেষ 3 জন গ্রাহক কোনও ডিভিডি কেনেননি। তাই তারা 0 * 3 = 0 ডিভিডি কিনেছে। যোগফল হিসাবে, বিলি মঙ্গলবার 3 + 4 + 0 = 7 ডিভিডি ",7,❌ Incorrect (Expected: 7),✅ Correct after revision,3
+te,"బిల్లీ యొక్క మొదటి 3 కస్టమర్‌లు ఒక్కొక్కటి 1 DVDని కొనుగోలు చేశారు, కాబట్టి 3*1=3 DVDలు","కింది ప్రశ్నలను పరిష్కరించండి: బిల్లీ DVDలను విక్రయిస్తాడు. అతడికి మంగళవారం నాడు 8 మంది ఖాతాదారులున్నారు. అతడి మొదటి 3 ఖాతాదారులు ఒక్కొక్క DVD చొప్పున కొనుగోలు చేశారు. అతడి తరువాత 2 ఖాతాదారులు 2 DVDల చొప్పున కొనుగోలు చేశారు. అతడి చివరి 3 ఖాతాదారులు ఎలాంటి DVDలను కొనుగోలు చేయలేదు. బిల్లీ మంగళవారంనాడు ఎన్ని DVDలను విక్రయించాడు?
+కింది తార్కికంలో అస్థిరత ఉంది:
+బిల్లీ యొక్క మొదటి 3 కస్టమర్‌లు ఒక్కొక్కటి 1 DVDని కొనుగోలు చేశారు, కాబట్టి 3*1=3 DVDలు
+ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … బిల్లీ యొక్క చివరి 3 కస్టమర్‌లు ఒక్కొక్కరు 0 DVDలను కొనుగోలు చేశారు, కాబట్టి 3*0=0 DVDలు
+మొ",7,❌ Incorrect (Expected: 7),❌ Still Incorrect (Expected: 7),5

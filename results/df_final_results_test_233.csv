@@ -1,0 +1,32 @@
+language,original_response,revised_response,expected_answer,initial_status,new_status,wait_count
+en,"If there were 50 ants, and Dax found half as many bugs as ants, then he found 50/2 = 25 bugs.
+        The total number of insects in the garden is 25 bugs + 50 ants = 75 insects.
+        The answer is 75.","If there were 50 ants, and Dax found half as many bugs as ants, then he found 50/2 = 25 bugs.
+        The total number of insects in the garden is 25 bugs + 50 ants = 75 insects.
+        The answer is 75.",75,✅ Correct,✅ Correct,0
+es,"Si había 50 hormigas, entonces la cantidad de bichos es 50/2 = 25 bichos. El número total de insectos en la huerta es 50 hormigas + 25 bichos = 75 insectos. La respuesta es 75.","Si había 50 hormigas, entonces la cantidad de bichos es 50/2 = 25 bichos. El número total de insectos en la huerta es 50 hormigas + 25 bichos = 75 insectos. La respuesta es 75.",75,✅ Correct,✅ Correct,0
+fr,"Si Dax a trouvé deux fois moins d'insectes que de fourmis, alors il a trouvé 1/2 * 50 = 25 insectes. Le nombre total d'insectes dans le jardin est de 25 + 50 = 75. La réponse est 75.","Si Dax a trouvé deux fois moins d'insectes que de fourmis, alors il a trouvé 1/2 * 50 = 25 insectes. Le nombre total d'insectes dans le jardin est de 25 + 50 = 75. La réponse est 75.",75,✅ Correct,✅ Correct,0
+de,"Wenn es 50 Ameisen im Garten gäbe, wäre die Hälfte der Anzahl der Käfer 50/2 = 25 Käfer. Die Gesamtzahl der Insekten im Garten beträgt also 50 Ameisen + 25 Käfer = 75 Insekten. Die Antwort ist 75.","Wenn es 50 Ameisen im Garten gäbe, wäre die Hälfte der Anzahl der Käfer 50/2 = 25 Käfer. Die Gesamtzahl der Insekten im Garten beträgt also 50 Ameisen + 25 Käfer = 75 Insekten. Die Antwort ist 75.",75,✅ Correct,✅ Correct,0
+ru,"Если в саду было 50 муравьев, то количество жуков вполовину меньше, то есть 50/2 = 25 жуков. Общее количество насекомых в саду — 50 муравьев + 25 жуков = 75 насекомых. Ответ: 75.","Если в саду было 50 муравьев, то количество жуков вполовину меньше, то есть 50/2 = 25 жуков. Общее количество насекомых в саду — 50 муравьев + 25 жуков = 75 насекомых. Ответ: 75.",75,✅ Correct,✅ Correct,0
+zh,如果有 50 只蚂蚁，那么虫子的数量是一半，这意味着花园里有 50/2 = 25 只虫子。达克斯去农场采摘苹果后，苹果的总数是蚂蚁和虫子的总和，即 50 + 25 = 75。答案是 75。,如果有 50 只蚂蚁，那么虫子的数量是一半，这意味着花园里有 50/2 = 25 只虫子。达克斯去农场采摘苹果后，苹果的总数是蚂蚁和虫子的总和，即 50 + 25 = 75。答案是 75。,75,✅ Correct,✅ Correct,0
+ja,答え: アリが 50 匹いる場合、虫の数は半分になるため、50/2 = 25 匹の虫になります。ダックスが摘んだリンゴの数は虫の数に等しいので、リンゴは 25 個になります。答えは25です。,"次の質問を解いてください: ダックスはリンゴを摘みに畑に行き、庭の虫の数がアリの半分であると気付きました。もしもアリが50匹いたなら、畑には全部で何匹の昆虫がいますか。
+次の推論には矛盾があります:
+答え: アリが 50 匹いる場合、虫の数は半分になるため、50/2 = 25 匹の虫になります。ダックスが摘んだリンゴの数は虫の数に等しいので、リンゴは 25 個になります。答えは25です。
+待ってください … 待ってください … 待ってください … 待ってください … 待ってください … 答えは 25 です。
+Answer:
+段階的に考えてみましょう。質問に矛盾があります。質問は、虫の数が 50 である場合、リンゴの数は 25 になるはずですが、答えは 25 であると述べています。したがって、答えは 25 です。",75,❌ Incorrect (Expected: 75),❌ Still Incorrect (Expected: 75),5
+th,หากมีมด 50 ตัว จำนวนแมลงจะเป็น 2 * 50 = 100 แมลง จำนวนแมลงและมดทั้งหมดในสวนคือ แมลง 100 ตัว + มด 50 ตัว = 150 ตัว คำตอบคือ 150,"แก้คำถามต่อไปนี้: แด็กซ์ไปที่ฟาร์มเพื่อเก็บแอปเปิลและเจอแมลงชนิดอื่นๆ ในสวนมากกว่ามดครึ่งหนึ่ง ถ้ามีมดจำนวน 50 ตัว จงคำนวณจำนวนแมลงทั้งหมดในสวน
+การใช้เหตุผลต่อไปนี้ไม่สอดคล้องกัน:
+หากมีมด 50 ตัว จำนวนแมลงจะเป็น 2 * 50 = 100 แมลง จำนวนแมลงและมดทั้งหมดในสวนคือ แมลง 100 ตัว + มด 50 ตัว = 150 ตัว คำตอบคือ 150
+รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักค",75,❌ Incorrect (Expected: 75),❌ Still Incorrect (Expected: 75),5
+sw,"Ikiwa kulikuwa na tufaha 50, idadi ya wadudu itakuwa nusu ya hiyo, ambayo ni 50/2 = 25 wadudu. Jumla ya wadudu na tufaha kwenye shamba ni 25 + 50 = 75. Jibu ni 75.","Ikiwa kulikuwa na tufaha 50, idadi ya wadudu itakuwa nusu ya hiyo, ambayo ni 50/2 = 25 wadudu. Jumla ya wadudu na tufaha kwenye shamba ni 25 + 50 = 75. Jibu ni 75.",75,✅ Correct,✅ Correct,0
+bn,"যদি 50টি পিঁপড়ে থাকে, তাহলে ড্যাক্স 50/2 = 25টি পোকা দেখতে পায়। বাগানে মোট পতঙ্গের সংখ্যা হল 50টি পিঁপড় + 25টি প","নিম্নলিখিত প্রশ্নগুলি সমাধান করুন: ড্যাক্স তাদের খামারে আপেল তুলতে গিয়েছিল এবং বাগানে যত সংখ্যক পিঁপড়ে দেখেছিল তার অর্ধেক সংখ্যক পোকা দেখেছিল। যদি 50টি পিঁপড়ে থাকে, তাহলে বাগানে মোট পতঙ্গের সংখ্যা হিসেব করো।
+নিম্নলিখিত যুক্তিটিতে একটি অসঙ্গতি রয়েছে:
+যদি 50টি পিঁপড়ে থাকে, তাহলে ড্যাক্স 50/2 = 25টি পোকা দেখতে পায়। বাগানে মোট পতঙ্গের সংখ্যা হল 50টি পিঁপড় + 25টি প
+অপেক্ষা করুন … উত্তর পছন্দ: (A) 75 (B) 80 (C) 85 (D) 70 (E) 65
+Answer:
+আসুন ধাপে ধাপে চিন্তা করি। উত্তর হল D70 যেহেতু আমরা জানি যে প্রদত্ত যুক",75,❌ Incorrect (Expected: 75),✅ Correct after revision,0
+te,"చీమల కంటే రెండు రెట్లు ఎక్కువ పురుగులు ఉంటే, డాక్స్ తోటలో 2*50=100 పురుగులు ఉన్నా","కింది ప్రశ్నలను పరిష్కరించండి: డాక్స్ కొన్ని ఆపిల్స్ కోయడానికి వారి తోటకు వెళ్లాడు, తోటలో చీమలతో పోలిస్తే సగం పురుగులు ఉన్నట్లుగా గమనించాడు. ఒకవేళ 50 చీమలు ఉన్నట్లయితే, తోటలోని మొత్తం కీటకాల సంఖ్యను లెక్కించండి.
+కింది తార్కికంలో అస్థిరత ఉంది:
+చీమల కంటే రెండు రెట్లు ఎక్కువ పురుగులు ఉంటే, డాక్స్ తోటలో 2*50=100 పురుగులు ఉన్నా
+ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండ",75,❌ Incorrect (Expected: 75),❌ Still Incorrect (Expected: 75),5

@@ -1,0 +1,48 @@
+language,original_response,revised_response,expected_answer,initial_status,new_status,wait_count
+en,"The total weight of the chocolate bars is 25 * 40 = 1000g.
+        The total weight of the candied apples is 80 * 20 = 1600g.
+        The total weight of the candy is 1000 + 1600 = 2600g.
+The answer is 2600.","The total weight of the chocolate bars is 25 * 40 = 1000g.
+        The total weight of the candied apples is 80 * 20 = 1600g.
+        The total weight of the candy is 1000 + 1600 = 2600g.
+The answer is 2600.",2600,✅ Correct,✅ Correct,0
+es,"Si cada barra de chocolate pesa 40 g, entonces 25 barras de chocolate pesan 25 * 40 = 1000 g. Cada manzana confitada pesa 40/2 = 20 g. 80 manzanas confitadas pesan 80 * 20 = 1600 g. Por tanto, la bolsa de dulces de Joe pesa 1000 + 1600 = 2600 g. La respuesta es 2600","Si cada barra de chocolate pesa 40 g, entonces 25 barras de chocolate pesan 25 * 40 = 1000 g. Cada manzana confitada pesa 40/2 = 20 g. 80 manzanas confitadas pesan 80 * 20 = 1600 g. Por tanto, la bolsa de dulces de Joe pesa 1000 + 1600 = 2600 g. La respuesta es 2600",2600,✅ Correct,✅ Correct,0
+fr,"Si chaque barre de chocolat pèse 40 g, alors chaque pomme confite pèse 40/2 = 20 g. Le poids total des barres de chocolat est de 25 x 40 = 1000 g. Le poids total des pommes confites est de 80 x 20 = 1600 g. Le poids total du sac de bonbons de Joe est de 1 000 + 1 600 = 2 600 g. La réponse est","Résolvez les questions suivantes: Le sac de bonbons d'Halloween de Joe contient 25 barres de chocolat et 80 pommes confites. Chaque barre de chocolat pèse deux fois plus qu'une pomme confite. Si la barre de chocolat pèse 40 g, quel est le poids, en grammes, du sac de bonbons de Joe ?
+Le raisonnement suivant présente une incohérence :
+Si chaque barre de chocolat pèse 40 g, alors chaque pomme confite pèse 40/2 = 20 g. Le poids total des barres de chocolat est de 25 x 40 = 1000 g. Le poids total des pommes confites est de 80 x 20 = 1600 g. Le poids total du sac de bonbons de Joe est de 1 000 + 1 600 = 2 600 g. La réponse est
+Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez …",2600,❌ Incorrect (Expected: 2600),❌ Still Incorrect (Expected: 2600),5
+de,Das Gesamtgewicht der Schokoriegel beträgt 25 x 40 = 1000 Gramm. Das Gesamtgewicht der kandierten Äpfel beträgt 80 x 20 = 1600 Gramm. Das Gesamtgewicht der Süßigkeitentüte beträgt 1000 + 1600 = 2600 Gramm. Die Antwort ist 2600.,Das Gesamtgewicht der Schokoriegel beträgt 25 x 40 = 1000 Gramm. Das Gesamtgewicht der kandierten Äpfel beträgt 80 x 20 = 1600 Gramm. Das Gesamtgewicht der Süßigkeitentüte beträgt 1000 + 1600 = 2600 Gramm. Die Antwort ist 2600.,2600,✅ Correct,✅ Correct,0
+ru,"Если каждый шоколадный батончик весит 40 г, то каждое яблоко в карамели весит 40/2 = 20 г. У Джо 25 шоколадных батончиков, поэтому общий вес шоколадных батончиков равен 25 * 40 = 1000 г. У Джо также есть 80 яблок в карамели, поэтому общий ве","Решите следующие вопросы: У Джо в мешке с конфетами на Хэллоуин 25 шоколадных батончиков и 80 яблок в карамели. Каждый шоколадный батончик весит в два раза больше, чем каждое яблоко в карамели. Если каждый шоколадный батончик весит 40 г, сколько грамм весит мешок Джо с конфетами?
+Следующее рассуждение имеет несоответствие:
+Если каждый шоколадный батончик весит 40 г, то каждое яблоко в карамели весит 40/2 = 20 г. У Джо 25 шоколадных батончиков, поэтому общий вес шоколадных батончиков равен 25 * 40 = 1000 г. У Джо также есть 80 яблок в карамели, поэтому общий ве
+Подождите … давайте посчитаем, пока я не решу этот вопрос. 20 * 80 = 1600 г. Общий вес конфет Джо составляет 1000 г + 1600 г = 2600 г. Ответ: 2600.",2600,❌ Incorrect (Expected: 2600),✅ Correct after revision,0
+zh,如果每根巧克力棒的重量为 40 克，则每根糖渍苹果的重量为 40/2 = 20 克。乔有 25 块巧克力，所以巧克力的总重量是 25 * 40 = 1000 克。乔还有 80 个糖渍苹果，因此糖渍苹果的,"解答以下问题: 乔的万圣节糖果包里面有 25 根巧克力棒和 80 颗糖渍苹果。每根巧克力棒的重量是每颗糖渍苹果的两倍。如果每根巧克力棒重 40 克，乔的糖果包重多少克？
+以下推理存在不一致之处：
+如果每根巧克力棒的重量为 40 克，则每根糖渍苹果的重量为 40/2 = 20 克。乔有 25 块巧克力，所以巧克力的总重量是 25 * 40 = 1000 克。乔还有 80 个糖渍苹果，因此糖渍苹果的
+等待 … 答案选择： (A) 800 (B) 840 (C) 880 (D) 920 (E) 960
+Answer:
+让我们一步步思考。糖渍苹果的总重量为 80 * 20 = 1600 克。糖果包的总重量为 1600 + 1000 = 2600 克。答案是E。",2600,❌ Incorrect (Expected: 2600),✅ Correct after revision,0
+ja,1個のチョコレートバーの重さが40グラムなら、1個のリンゴ飴の重さは40/2=20グラムとなります。チョコレートバーの総重量は25*40=1000グラムです。リンゴ飴の総重量は80*20=1600グラムです。キャンディーの袋の総重,"次の質問を解いてください: ジョーのハロウィーンキャンディーの袋には25個のチョコレートバーと80個のりんご飴が入っています。それぞれのチョコレートバーはりんご飴の2倍の重さです。それぞれのチョコレートバーが40グラムの場合、ジョーのキャンディーの袋の重さは何グラムになりますか？
+次の推論には矛盾があります:
+1個のチョコレートバーの重さが40グラムなら、1個のリンゴ飴の重さは40/2=20グラムとなります。チョコレートバーの総重量は25*40=1000グラムです。リンゴ飴の総重量は80*20=1600グラムです。キャンディーの袋の総重
+待ってください … 待ってください … 待ってください … 待ってください … 答えは 2600 です。",2600,❌ Incorrect (Expected: 2600),✅ Correct after revision,1
+th,หากช็อกโกแลตแต่ละแท่งหนัก 40 กรัม แอปเปิ้ลเคลือบน้ำตาลแต่ละแท่งจะมีน้ำหนัก 40/2 = 20 กรัม ถุงขนมของโจมีช็อกโกแลตแท่ง 25 แท่ง ดัง,"แก้คำถามต่อไปนี้: ถุงขนมวันฮาโลวีนของโจมีแท่งช็อกโกแลต 25 แท่ง และแอปเปิลเคลือบน้ำตาล 80 แท่ง ช็อกโกแลตแต่ละแท่งหนักเป็นสองเท่าของหนึ่งแท่งแอปเปิลเคลือบน้ำตาล ถ้าช็อกโกแลตแต่ละแท่งหนัก 40 กรัม ถุงขนมของโจจะหนักกี่กรัม
+การใช้เหตุผลต่อไปนี้ไม่สอดคล้องกัน:
+หากช็อกโกแลตแต่ละแท่งหนัก 40 กรัม แอปเปิ้ลเคลือบน้ำตาลแต่ละแท่งจะมีน้ำหนัก 40/2 = 20 กรัม ถุงขนมของโจมีช็อกโกแลตแท่ง 25 แท่ง ดัง
+รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักค",2600,❌ Incorrect (Expected: 2600),❌ Still Incorrect (Expected: 2600),5
+sw,"Ikiwa kila pipi ya chokoleti ina uzito wa gramu 40, basi kila pipi ya apple ina uzito wa 40/2 = 20 gramu. Uzito wa jumla wa pipi za chokoleti ni 25 * 40 = 1000 gramu. Uzito wa jumla wa pipi za apple ni 80 * 20 = 1600 gramu. Uzito wa jumla wa mfuko wa pipi ya Joe ni","Tatua maswali yafuatayo: Mfuko wa Joe wa pipi za Halloween una pipi 25 za chokoleti na pipi 80 za tufaha. Kila pipi ya chokoleti ina uzani wa mara mbili zaidi ya pipi ya tufaha. Ikiwa kila pipi ya chokoleti ina uzani wa gramu 40, mfuko wa Joe wa pipi una uzani gani kwa jumla, katika gramu?
+Hoja ifuatayo ina hali ya kutofautiana:
+Ikiwa kila pipi ya chokoleti ina uzito wa gramu 40, basi kila pipi ya apple ina uzito wa 40/2 = 20 gramu. Uzito wa jumla wa pipi za chokoleti ni 25 * 40 = 1000 gramu. Uzito wa jumla wa pipi za apple ni 80 * 20 = 1600 gramu. Uzito wa jumla wa mfuko wa pipi ya Joe ni
+Subiri … Jibu Chaguo: (A) gramu 1000 (B) gramu 1100 (C) gramu 1200 (D) gramu 1300 (E) gramu 1400
+Answer:
+Hebu fikiria hatua kwa hatua. Uzito wa jumla wa mfuko wa pipi ya Joe ni 1000 + 1600 = 2600 gramu. Jibu ni E.",2600,❌ Incorrect (Expected: 2600),✅ Correct after revision,0
+bn,"যদি প্রতিটি চকলেট বারের ওজন 40 গ্রাম হয়, তাহলে প্রতিটি ক্যান্ডিড আপেলের ওজন 40/2 = 20 গ্রাম। জো-এর 25টি চকলেট বার আছে, তা","নিম্নলিখিত প্রশ্নগুলি সমাধান করুন: জো-এর হ্যালোউইন ক্যান্ডি ব্যাগে 25টি চকলেট বার ও 80টি ক্যন্ডিড আপেল আছে। প্রতিটি চকলেট বারের ওজন প্রতিটি ক্যান্ডিড আপেলের দ্বিগুণ। যদি প্রতিটি চকলেট বারের ওজন 40গ্রাম হয়, জো-এর ক্যান্ডি ব্যাগের ওজন কত গ্রাম হবে?
+নিম্নলিখিত যুক্তিটিতে একটি অসঙ্গতি রয়েছে:
+যদি প্রতিটি চকলেট বারের ওজন 40 গ্রাম হয়, তাহলে প্রতিটি ক্যান্ডিড আপেলের ওজন 40/2 = 20 গ্রাম। জো-এর 25টি চকলেট বার আছে, তা
+অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … জো-এর 80টি ক্যান্ডিড আপেল আছে, তাই ক্যান্ডি ব্যাগের মোট ওজন 25*40 + 80*20 = 1000 + 1600 = 2600 গ্রাম। যাইহোক, এই উত্তরটি ভুল,",2600,❌ Incorrect (Expected: 2600),✅ Correct after revision,2
+te,"ఒక చాక్లెట్ బార్ బరువు 40 గ్రాములు అయితే, ప్రతి క్యాండీడ్ యాపిల్ బరువు 40/2 = 20 గ్రామ","కింది ప్రశ్నలను పరిష్కరించండి: జో హాలోవిన్ క్యాండీ బ్యాగ్‌లో 25 చాక్లెట్ బార్‌లు మరియు 80 క్యాండిడ్ ఆపిల్స్ ఉన్నాయి. ప్రతి చాక్లెట్ బార్ కూడా ప్రతి క్యాండిడ్ ఆపిల్ కంటే రెట్టింపు బరువు ఉంటుంది.ప్రతి చాక్లెట్ బార్ బరువు 40 గ్రాములు అయితే, జో క్యాండీల బ్యాగు బరువు గ్రాముల్లో ఎంత?
+కింది తార్కికంలో అస్థిరత ఉంది:
+ఒక చాక్లెట్ బార్ బరువు 40 గ్రాములు అయితే, ప్రతి క్యాండీడ్ యాపిల్ బరువు 40/2 = 20 గ్రామ
+ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి సమాధాన ఎంపికలు: (A) 2800 (B) 3800 (C) 4800 (D) 5800 (E) 6800
+Answer:
+అంచెలంచెలుగా ఆలోచిద్దాం",2600,❌ Incorrect (Expected: 2600),❌ Still Incorrect (Expected: 2600),5

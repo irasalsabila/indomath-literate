@@ -1,0 +1,32 @@
+language,original_response,revised_response,expected_answer,initial_status,new_status,wait_count
+en,"James runs 3 sprints 3 times a week, so he runs a total of 3 x 3 = 9 sprints.
+        He runs 60 meters each sprint, so he runs a total of 9 x 60 = 540 meters in a week.
+        The answer is 540.","James runs 3 sprints 3 times a week, so he runs a total of 3 x 3 = 9 sprints.
+        He runs 60 meters each sprint, so he runs a total of 9 x 60 = 540 meters in a week.
+        The answer is 540.",540,✅ Correct,✅ Correct,0
+es,"James corre 3 carreras de velocidad 3 veces por semana, por lo que corre un total de 3 x 3 = 9 carreras de velocidad. En cada carrera de velocidad corre 60 metros, por lo que en total corre 9 x 60 = 540 metros. Por tanto, James corre 540 metros en total por semana. La respuesta es 540.","James corre 3 carreras de velocidad 3 veces por semana, por lo que corre un total de 3 x 3 = 9 carreras de velocidad. En cada carrera de velocidad corre 60 metros, por lo que en total corre 9 x 60 = 540 metros. Por tanto, James corre 540 metros en total por semana. La respuesta es 540.",540,✅ Correct,✅ Correct,0
+fr,"James court 60 mètres à chaque sprint et il court 3 sprints chaque jour. Il court donc 60 x 3 = 180 mètres par jour. Puisqu'il y a 7 jours dans une semaine, James court 180 x 7 = 1260 mètres par semaine. La réponse est 1260.","Résolvez les questions suivantes: Jacques fait des séries de 3 sprints 3 fois par semaine. Il court 60 mètres à chaque sprint. Au total, combien de mètres court-il par semaine ?
+Le raisonnement suivant présente une incohérence :
+James court 60 mètres à chaque sprint et il court 3 sprints chaque jour. Il court donc 60 x 3 = 180 mètres par jour. Puisqu'il y a 7 jours dans une semaine, James court 180 x 7 = 1260 mètres par semaine. La réponse est 1260.
+Attendez … Attendez … Attendez … Attendez … Attendez … Attendez… La réponse est 1260.",540,❌ Incorrect (Expected: 540),❌ Still Incorrect (Expected: 540),5
+de,"Schritt-für-Schritt-Antwort: James läuft 3 Mal pro Woche 3 Kurzstreckenläufe, also insgesamt 3 * 3 = 9 Läufe. Pro Lauf läuft er 60 Meter, also insgesamt 9 * 60 = 540 Meter pro Woche. Die Antwort ist 540.","Schritt-für-Schritt-Antwort: James läuft 3 Mal pro Woche 3 Kurzstreckenläufe, also insgesamt 3 * 3 = 9 Läufe. Pro Lauf läuft er 60 Meter, also insgesamt 9 * 60 = 540 Meter pro Woche. Die Antwort ist 540.",540,✅ Correct,✅ Correct,0
+ru,"Джеймс пробегает 3 спринта по 3 раза в неделю, то есть всего он пробегает 3 x 3 = 9 спринтов. Он пробегает 60 метров за каждый спринт, то есть всего он пробегает 9 х 60 = 540 метров. Таким образом, Джеймс пробегает в общей сложности 540 метров в неделю. Ответ: 540","Джеймс пробегает 3 спринта по 3 раза в неделю, то есть всего он пробегает 3 x 3 = 9 спринтов. Он пробегает 60 метров за каждый спринт, то есть всего он пробегает 9 х 60 = 540 метров. Таким образом, Джеймс пробегает в общей сложности 540 метров в неделю. Ответ: 540",540,✅ Correct,✅ Correct,0
+zh,詹姆斯每周跑步 3 次，每次跑步 3 段，所以他总共跑步 3 x 3 = 9 段。每段长 60 米，因此他总共跑了 9 x 60 = 540 米。因此，詹姆斯每周跑 540 米。答案是540。,詹姆斯每周跑步 3 次，每次跑步 3 段，所以他总共跑步 3 x 3 = 9 段。每段长 60 米，因此他总共跑了 9 x 60 = 540 米。因此，詹姆斯每周跑 540 米。答案是540。,540,✅ Correct,✅ Correct,0
+ja,ジェイムズは毎日60メートルを走ります。彼は 1 週間に 3 回走るので、1 日あたり 3*60=180 メートルになります。 1 週間は 7 日なので、ジェイムズは 1 週間に 7*180=1260 メートルを走ります。答えは1260,"次の質問を解いてください: ジェイムズは週に3回、毎回3本のスプリントを走ることに決めました。スプリントごとに60メートル走ります。ジェイムズは1週間で何メートル走るでしょうか？
+次の推論には矛盾があります:
+ジェイムズは毎日60メートルを走ります。彼は 1 週間に 3 回走るので、1 日あたり 3*60=180 メートルになります。 1 週間は 7 日なので、ジェイムズは 1 週間に 7*180=1260 メートルを走ります。答えは1260
+待ってください … 待ってください … 待ってください … 待ってください … 待ってください … 答えは 1260 です。
+Answer:
+段階的に考えてみましょう。ジェイムズは毎日60メートルを走ります。彼は 1 週間に 3 回走るので、1 日あたり 3*60=180 メートルになります。 1 週間は 7 日なので、ジェイムズは 1 �",540,❌ Incorrect (Expected: 540),❌ Still Incorrect (Expected: 540),5
+th,เจมส์วิ่ง 3 เซ็ต 3 ครั้งต่อสัปดาห์ ดังนั้นเขาจึงวิ่งทั้งหมด 3 x 3 = 9 เซ็ต แต่ละเซ็ตคือ 60 เมตร ดังนั้นเจมส์จึงวิ่งรวม 9 x 60 = 540,เจมส์วิ่ง 3 เซ็ต 3 ครั้งต่อสัปดาห์ ดังนั้นเขาจึงวิ่งทั้งหมด 3 x 3 = 9 เซ็ต แต่ละเซ็ตคือ 60 เมตร ดังนั้นเจมส์จึงวิ่งรวม 9 x 60 = 540,540,✅ Correct,✅ Correct,0
+sw,"James anaendesha mbio fupi 3 mara 3 kwa wiki, kwa hivyo anaendesha jumla ya 3 x 3 = 9 mbio fupi. Anakimbia mita 60 kwa kila mbio fupi, kwa hivyo anaendesha jumla ya mita 60 x 9 = 540 kwa wiki. Jibu ni 540.","James anaendesha mbio fupi 3 mara 3 kwa wiki, kwa hivyo anaendesha jumla ya 3 x 3 = 9 mbio fupi. Anakimbia mita 60 kwa kila mbio fupi, kwa hivyo anaendesha jumla ya mita 60 x 9 = 540 kwa wiki. Jibu ni 540.",540,✅ Correct,✅ Correct,0
+bn,"জেমস এক সপ্তাহে 3 বার 3টি স্প্রিন্টে দৌড়ান, তাই তিনি মোট 3 x 3 = 9 স্প্রিন্টে দৌড়ান। তিনি প্রতি স্প্রিন্টে 60 মিটার দ����","নিম্নলিখিত প্রশ্নগুলি সমাধান করুন: জেমস এক সপ্তাহে 3 বার 3টি স্প্রিন্টে দৌড়ানোর সিদ্ধান্ত নিয়েছেন। তিনি প্রতি স্প্রিন্টে 60 মিটার করে দৌড়ান। তিনি এক সপ্তাহে মোট কত মিটার করে দৌড়ান?
+নিম্নলিখিত যুক্তিটিতে একটি অসঙ্গতি রয়েছে:
+জেমস এক সপ্তাহে 3 বার 3টি স্প্রিন্টে দৌড়ান, তাই তিনি মোট 3 x 3 = 9 স্প্রিন্টে দৌড়ান। তিনি প্রতি স্প্রিন্টে 60 মিটার দ����
+অপেক্ষা করুন … তারপর তিনি এক সপ্তাহে মোট কত মিটার দৌড়ান? উত্তর পছন্দ: (A) 60 (B) 180 (C) 540 (D) 1080 (E) 2160
+Answer:
+আসুন ধাপে ধাপে চিন্ত",540,❌ Incorrect (Expected: 540),✅ Correct after revision,0
+te,జేమ్ప్ ప్రతిరోజూ పరుగెత్తే మీటర్ల సంఖ్యను మొదట కనుగొనండి: 60 మీటర్లు * 3,"కింది ప్రశ్నలను పరిష్కరించండి: జేమ్ప్ వారంలో 3 సార్లు 3 స్ప్రింట్స్ పరిగెత్తాలని నిర్ణయించుకున్నాడు. అతడు ప్రతి స్ప్రింట్‌లో 60 మీటర్లు పరిగెత్తాడు. అతడు ఒక వారంలో ఎన్ని మీటర్లు పరిగెత్తాడు?
+కింది తార్కికంలో అస్థిరత ఉంది:
+జేమ్ప్ ప్రతిరోజూ పరుగెత్తే మీటర్ల సంఖ్యను మొదట కనుగొనండి: 60 మీటర్లు * 3
+ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి అప్పుడు మీటర్ల సంఖ్యను కనుగొనడానికి వారంలోని రోజుల సంఖ్యతో గుణించండ",540,❌ Incorrect (Expected: 540),❌ Still Incorrect (Expected: 540),5

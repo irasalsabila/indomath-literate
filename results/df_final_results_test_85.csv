@@ -1,0 +1,65 @@
+language,original_response,revised_response,expected_answer,initial_status,new_status,wait_count
+en,"Let's assume the number of games the team lost is L.
+        Then the number of games they won is 22 - L.
+        According to the problem, they won 8 more than they lost, so we can write the equation:
+        22 - L = L + 8.
+        Simplifying the equation, we get:
+        22 = 2L + 8.
+        Subtracting 8 from both sides, we get:
+        14 = 2L.
+        Dividing both sides by 2, we get:","Solve the following questions: A football team played 22 games. They won 8 more than they lost. How many did they win?
+The following reasoning has an inconsistency:
+Let's assume the number of games the team lost is L.
+        Then the number of games they won is 22 - L.
+        According to the problem, they won 8 more than they lost, so we can write the equation:
+        22 - L = L + 8.
+        Simplifying the equation, we get:
+        22 = 2L + 8.
+        Subtracting 8 from both sides, we get:
+        14 = 2L.
+        Dividing both sides by 2, we get:
+Wait … 7 = L.
+So the team lost 7 games.
+Therefore, the number of games they won is 22 - 7 = 15.
+Therefore, the team won 15 games.
+The answer is 15.",15,❌ Incorrect (Expected: 15),✅ Correct after revision,0
+es,"Supongamos que el número de juegos que perdió el equipo es x. Entonces, el número de juegos que ganó es x + 8. El número total de juegos que jugó es x + (x + 8) = 22. Combinando términos semejantes, obtenemos 2x + 8 = 22. Restando 8 de ambos lados, obtenemos 2x = 14. Dividiendo ambos lados por 2, obtenemos x = 7. Por lo tanto, el equipo","Resuelve las siguientes preguntas: Un equipo de fútbol americano jugó 22 partidos. Ganó 8 más de los que perdió. ¿Cuántos partidos ganó?
+El siguiente razonamiento tiene una inconsistencia:
+Supongamos que el número de juegos que perdió el equipo es x. Entonces, el número de juegos que ganó es x + 8. El número total de juegos que jugó es x + (x + 8) = 22. Combinando términos semejantes, obtenemos 2x + 8 = 22. Restando 8 de ambos lados, obtenemos 2x = 14. Dividiendo ambos lados por 2, obtenemos x = 7. Por lo tanto, el equipo
+Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera …",15,❌ Incorrect (Expected: 15),❌ Still Incorrect (Expected: 15),5
+fr,"Soit x le nombre de parties qu'ils ont perdues. Cela signifie qu'ils ont gagné x + 14 parties. Le nombre total de parties jouées est de x + (x + 14) = 22. En combinant des termes similaires, nous obtenons 2x + 14 = 22. En soustrayant 14 des deux côtés, nous obtenons 2x = 8. En divisant les deux côtés par 2, nous obtenons x = 4. Par","Résolvez les questions suivantes: Une équipe de football a joué 22 matchs. Elle a gagné _ fois plus qu'elle n'a perdu. Combien de fois a-t-elle gagné ?
+Le raisonnement suivant présente une incohérence :
+Soit x le nombre de parties qu'ils ont perdues. Cela signifie qu'ils ont gagné x + 14 parties. Le nombre total de parties jouées est de x + (x + 14) = 22. En combinant des termes similaires, nous obtenons 2x + 14 = 22. En soustrayant 14 des deux côtés, nous obtenons 2x = 8. En divisant les deux côtés par 2, nous obtenons x = 4. Par
+Attendez … Attendez … Attendez … Attendez … Attendez … Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez…",15,❌ Incorrect (Expected: 15),❌ Still Incorrect (Expected: 15),5
+de,"Schritt-für-Schritt-Antwort: Die Anzahl der Spiele, die sie verloren haben, sei x. Das bedeutet, dass sie x + 8 Spiele gewonnen haben. Die Gesamtzahl der Spiele beträgt 22. Also ist x + (x + 8) = 22. Dies ergibt 2x + 8 = 22. Subtrahiert man 8 von beiden Seiten, erhält man 2x = 14. Dividiert man beide Seiten durch 2,","Los die folgenden Fragen: Ein Fußballteam spielt 22 Spiele. Sie haben 8 mehr gewonnen als verloren. Wie viele haben sie gewonnen?
+Die folgende Argumentation enthält eine Inkonsistenz:
+Schritt-für-Schritt-Antwort: Die Anzahl der Spiele, die sie verloren haben, sei x. Das bedeutet, dass sie x + 8 Spiele gewonnen haben. Die Gesamtzahl der Spiele beträgt 22. Also ist x + (x + 8) = 22. Dies ergibt 2x + 8 = 22. Subtrahiert man 8 von beiden Seiten, erhält man 2x = 14. Dividiert man beide Seiten durch 2,
+Warte … x = 7. Also haben sie 7 Spiele verloren und 7 + 8 = 15 Spiele gewonnen. Antwort: Die Anzahl der Spiele, die sie gewonnen haben, beträgt 15. Die Antwort ist 15.",15,❌ Incorrect (Expected: 15),✅ Correct after revision,0
+ru,"Шаг-1: Обозначим количество проигранных игр как L, а количество выигранных игр как W. Мы знаем, что W - L = 8 (выиграно на 8 больше, чем проиграно). Шаг 2: Мы также знаем, что L + W = 22 (всего сыграно 22 игры). Шаг 3: Сложив два уравнения, мы получим W + W = 22 + 8 или 2W","Решите следующие вопросы: Футбольная команда сыграла 22 игры. Они выиграли на 8 больше, чем проиграли. Сколько они выиграли?
+Следующее рассуждение имеет несоответствие:
+Шаг-1: Обозначим количество проигранных игр как L, а количество выигранных игр как W. Мы знаем, что W - L = 8 (выиграно на 8 больше, чем проиграно). Шаг 2: Мы также знаем, что L + W = 22 (всего сыграно 22 игры). Шаг 3: Сложив два уравнения, мы получим W + W = 22 + 8 или 2W
+Подождите … Подождите … Подождите… 2W = 30. Шаг 4: Разделив обе части на 2, получим W = 15. Итак, футбольная команда выиграла 15 игр. Ответ: 15.",15,❌ Incorrect (Expected: 15),✅ Correct after revision,1
+zh,让我们将输掉的比赛表示为 L，将获胜的比赛表示为 W。我们知道他们总共玩了 22 场比赛，因此我们可以写出等式：L + W = 22。我们还知道他们赢得了比赛多了 8 场比赛。比输掉的比赛，所以我们可以写出方程：W = L + 8。我们可以将第二个方程中的 W 值代入第,"解答以下问题: 一支足球队参加了 22 场比赛。他们获胜的比赛比输掉的比赛多 8 场。他们赢了多少场比赛？
+以下推理存在不一致之处：
+让我们将输掉的比赛表示为 L，将获胜的比赛表示为 W。我们知道他们总共玩了 22 场比赛，因此我们可以写出等式：L + W = 22。我们还知道他们赢得了比赛多了 8 场比赛。比输掉的比赛，所以我们可以写出方程：W = L + 8。我们可以将第二个方程中的 W 值代入第
+等待 … L + (L + 8) = 22。组合同类项，我们得到：2L + 8 = 22。两边减去 8，我们得到：2L = 14。两边除以 2，我们得到：L = 7。现在我们可以将 L 的值代入第二个方程来求出 W：W = 7 + 8 = 15。因此，足球队赢了 15 场比赛。答案是15",15,❌ Incorrect (Expected: 15),✅ Correct after revision,0
+ja,ステップごとの答え: ステップ 1: サッカー チームが x 試合に勝ったとします。ステップ 2: 彼らは負けた試合よりも 8 試合多く勝ったため、x + (x - 8) = 22 となります。 ステップ 3: 同様の項を組み合わせると、2x - 8 = 22,"次の質問を解いてください: サッカーチームが22試合行った。彼らは負けた試合の数よりも8試合多く勝った。彼らは何回勝ったか？
+次の推論には矛盾があります:
+ステップごとの答え: ステップ 1: サッカー チームが x 試合に勝ったとします。ステップ 2: 彼らは負けた試合よりも 8 試合多く勝ったため、x + (x - 8) = 22 となります。 ステップ 3: 同様の項を組み合わせると、2x - 8 = 22
+待ってください … ステップ 4: 両辺に 8 を加算すると、2x = 30 が得られます。 ステップ 5: 両辺を 2 で割ると、x = 15 が得られます。 したがって、サッカー チームは 15 試合に勝ちました。答えは15です。",15,❌ Incorrect (Expected: 15),✅ Correct after revision,0
+th,ลองแทนจำนวนแมตช์ที่แพ้เป็น x จากนั้นจำนวนแมตช์ที่ชนะคือ x + 8 จำนวนแมตช์ทั้งหมดคือ x + (x + 8) = 22 เมื่อรวมพจน์ที่เหมือนกันเราจะได้ 2x,"แก้คำถามต่อไปนี้: ทีมฟุตบอลลงแข่งขัน 22 นัด โดยมีนัดที่แข่งชนะมากกว่านัดที่แพ้ 8 นัด ทีมฟุตบอลแข่งชนะทั้งหมดกี่นัด
+การใช้เหตุผลต่อไปนี้ไม่สอดคล้องกัน:
+ลองแทนจำนวนแมตช์ที่แพ้เป็น x จากนั้นจำนวนแมตช์ที่ชนะคือ x + 8 จำนวนแมตช์ทั้งหมดคือ x + (x + 8) = 22 เมื่อรวมพจน์ที่เหมือนกันเราจะได้ 2x
+รอสักครู่ … 2x + 8 = 22 ลบ 8 จากทั้งสองข้าง เราจะได้ 2x = 14 หารทั้งสองข้างด้วย 2 จะได้ x = 7 ดังนั้นทีมฟุตบอลจึงแพ้ 7 นัดและชนะ 7 + 8 = 15 นัด คำ",15,❌ Incorrect (Expected: 15),✅ Correct after revision,0
+sw,Hatua ya 1: Acha x iwe idadi ya michezo waliyopoteza. Hiyo inamaanisha kuwa idadi ya michezo waliyoshinda ni x + 8. Hatua ya 2: Jumla ya idadi ya michezo ni x + x + 8 = 2x + 8. Hatua ya 3: Tunajua kwamba jumla ya idadi ya michezo ni 22. Kwa hivyo 2x + 8 = 22. Hatua ya,"Tatua maswali yafuatayo: Timu ya kandanda ilicheza michezo 22. Walishinda michezo 8 wazidi ya waliopoteza. Walishinda michezo mingapi?
+Hoja ifuatayo ina hali ya kutofautiana:
+Hatua ya 1: Acha x iwe idadi ya michezo waliyopoteza. Hiyo inamaanisha kuwa idadi ya michezo waliyoshinda ni x + 8. Hatua ya 2: Jumla ya idadi ya michezo ni x + x + 8 = 2x + 8. Hatua ya 3: Tunajua kwamba jumla ya idadi ya michezo ni 22. Kwa hivyo 2x + 8 = 22. Hatua ya
+Subiri … 4: Sasa, suluhisha kwa x. 2x = 22 - 8 = 14. x = 14/2 = 7. Hatua ya 5: Kwa hiyo, idadi ya michezo waliyoshinda ni x + 8 = 7 + 8 = 15. Jibu ni 15.",15,❌ Incorrect (Expected: 15),✅ Correct after revision,0
+bn,ধরা যাক দলটি হেরেছে x গেমের সংখ্যা। তারপর তারা যত গেম জিতেছে তার সংখ্যা হল x + 8। মোট খেলার সংখ্যা হল তারা যে গেমটি,"নিম্নলিখিত প্রশ্নগুলি সমাধান করুন: একটি ফুটবল দল 22টি খেলা খেলেছে। তারা যতগুলি খেলা হেরেছে তার তুলনায় 8টি বেশি খেলা জিতেছে। তারা মোট কতগুলি খেলায় জিতেছে?
+নিম্নলিখিত যুক্তিটিতে একটি অসঙ্গতি রয়েছে:
+ধরা যাক দলটি হেরেছে x গেমের সংখ্যা। তারপর তারা যত গেম জিতেছে তার সংখ্যা হল x + 8। মোট খেলার সংখ্যা হল তারা যে গেমটি
+অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অ",15,❌ Incorrect (Expected: 15),❌ Still Incorrect (Expected: 15),5
+te,దశ 1: గెలుపు మరియు ఓటముల సంఖ్యను సూచించడానికి వేరియబుల్స్ సెటప్ చేయం�,"కింది ప్రశ్నలను పరిష్కరించండి: ఒక ఫుట్‌బాల్ టీమ్ 22 గేమ్‌లు ఆడింది. వారు వారు ఓడిపోయిన దానికంటే 8 ఎక్కువగా గెలిచారు. వారు ఎన్ని మ్యాచ్‌లు గెలిచారు?
+కింది తార్కికంలో అస్థిరత ఉంది:
+దశ 1: గెలుపు మరియు ఓటముల సంఖ్యను సూచించడానికి వేరియబుల్స్ సెటప్ చేయం�
+ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి దశ 2: గెలుపు మరియు ఓటముల సంఖ్యను గణించడానికి సమీకరణాన్ని వ్రాయండి … ��",15,❌ Incorrect (Expected: 15),❌ Still Incorrect (Expected: 15),5

@@ -1,0 +1,24 @@
+language,original_response,revised_response,expected_answer,initial_status,new_status,wait_count
+en,"Claire makes 3 egg omelets every morning.
+        In one week, there are 7 days.
+        So in one week, Claire makes 3 * 7 = 21 egg omelets.
+        In four weeks, Claire makes 21 * 4 = 84 egg omelets.
+        Since each omelet requires 1 egg, Claire will eat 84 eggs in four weeks.
+        Since a dozen is equal to 12, Claire will eat 84 / 12 = 7 dozens of eggs.
+The answer is","Claire makes 3 egg omelets every morning.
+        In one week, there are 7 days.
+        So in one week, Claire makes 3 * 7 = 21 egg omelets.
+        In four weeks, Claire makes 21 * 4 = 84 egg omelets.
+        Since each omelet requires 1 egg, Claire will eat 84 eggs in four weeks.
+        Since a dozen is equal to 12, Claire will eat 84 / 12 = 7 dozens of eggs.
+The answer is",7,✅ Correct,✅ Correct,0
+es,"Una docena es igual a 12, por lo que 4 semanas equivalen a 4 * 7 = 28 días. Claire come 3 huevos todas las mañanas, por lo que en 28 días comerá 3 * 28 = 84 huevos. Como una docena es igual a 12, Claire comerá 84/12 = 7 docenas de huevos. La respuesta es 7.","Una docena es igual a 12, por lo que 4 semanas equivalen a 4 * 7 = 28 días. Claire come 3 huevos todas las mañanas, por lo que en 28 días comerá 3 * 28 = 84 huevos. Como una docena es igual a 12, Claire comerá 84/12 = 7 docenas de huevos. La respuesta es 7.",7,✅ Correct,✅ Correct,0
+fr,"Une douzaine équivaut à 12, donc 2 douzaines équivaut à 2 x 12 = 24 œufs. Claire mange 3 œufs chaque matin, donc en 4 semaines, elle mangera 3 x 7 x 4 = 84 œufs. Pour savoir combien de dizaines d’œufs elle mangera, on divise le nombre total d’œufs par 12 : 84 / 12 = 7 douzaines. La","Une douzaine équivaut à 12, donc 2 douzaines équivaut à 2 x 12 = 24 œufs. Claire mange 3 œufs chaque matin, donc en 4 semaines, elle mangera 3 x 7 x 4 = 84 œufs. Pour savoir combien de dizaines d’œufs elle mangera, on divise le nombre total d’œufs par 12 : 84 / 12 = 7 douzaines. La",7,✅ Correct,✅ Correct,0
+de,"Eine Woche hat 7 Tage. In 4 Wochen sind es also 4 x 7 = 28 Tage. Claire isst jeden Morgen 3 Eier, also isst sie in 28 Tagen 3 x 28 = 84 Eier. Ein Dutzend sind 12 Eier. Daher isst Claire 84/12 = 7 Dutzend Eier. Die Antwort ist 7.","Eine Woche hat 7 Tage. In 4 Wochen sind es also 4 x 7 = 28 Tage. Claire isst jeden Morgen 3 Eier, also isst sie in 28 Tagen 3 x 28 = 84 Eier. Ein Dutzend sind 12 Eier. Daher isst Claire 84/12 = 7 Dutzend Eier. Die Antwort ist 7.",7,✅ Correct,✅ Correct,0
+ru,"В неделе 7 дней. Итак, в 4 неделях 4*7=28 дней. Клер каждое утро съедает 3 яйца. Таким образом, за 28 дней она съест 3 * 28 = 84 яйца. В дюжине яиц 12 яиц. Итак, Клер съест 84/12 = 7 дюжин яиц. Ответ: 7.","В неделе 7 дней. Итак, в 4 неделях 4*7=28 дней. Клер каждое утро съедает 3 яйца. Таким образом, за 28 дней она съест 3 * 28 = 84 яйца. В дюжине яиц 12 яиц. Итак, Клер съест 84/12 = 7 дюжин яиц. Ответ: 7.",7,✅ Correct,✅ Correct,0
+zh,一周有 7 天。因此，四个星期内有 4 * 7 = 28 天。克莱尔每天早上吃 3 个鸡蛋，所以在 28 天里她会吃 3 * 28 = 84 个鸡蛋。一打等于 12。因此，克莱尔将吃 84 / 12 = 7 打鸡蛋。答案是7。,一周有 7 天。因此，四个星期内有 4 * 7 = 28 天。克莱尔每天早上吃 3 个鸡蛋，所以在 28 天里她会吃 3 * 28 = 84 个鸡蛋。一打等于 12。因此，克莱尔将吃 84 / 12 = 7 打鸡蛋。答案是7。,7,✅ Correct,✅ Correct,0
+ja,1週間は7日なので、4週間では4×7＝28日となります。クレアは毎朝卵を 3 個使うので、28 日後には 3 x 28 = 84 個の卵を使うことになります。したがって、クレアは 4 週間で 84 個の卵を食べることになります,1週間は7日なので、4週間では4×7＝28日となります。クレアは毎朝卵を 3 個使うので、28 日後には 3 x 28 = 84 個の卵を使うことになります。したがって、クレアは 4 週間で 84 個の卵を食べることになります,7,✅ Correct,✅ Correct,0
+th,แคลร์กินไข่ 3 ฟองทุกวัน ในหนึ่งสัปดาห์มี 7 วัน ดังนั้นแคลร์กินไข่ 3 * 7 = 21 ฟองในหนึ่งสัปดาห์ ใน 4 สัปดาห์ แคลร์กินไข่ 21 * 4 = 84,แคลร์กินไข่ 3 ฟองทุกวัน ในหนึ่งสัปดาห์มี 7 วัน ดังนั้นแคลร์กินไข่ 3 * 7 = 21 ฟองในหนึ่งสัปดาห์ ใน 4 สัปดาห์ แคลร์กินไข่ 21 * 4 = 84,7,✅ Correct,✅ Correct,0
+sw,"Claire huandaa mayai 3 kila asubuhi. Katika wiki moja, kuna siku 7. Kwa hivyo kwa wiki moja, anaandaa mayai 3 x siku 7 = mayai 21. Katika wiki nne, anaandaa mayai 21 x wiki 4 = mayai 84. Kwa kuwa kuna mayai 12 katika dazeni, Claire atakula mayai 84 / mayai 12 kwa dazeni","Claire huandaa mayai 3 kila asubuhi. Katika wiki moja, kuna siku 7. Kwa hivyo kwa wiki moja, anaandaa mayai 3 x siku 7 = mayai 21. Katika wiki nne, anaandaa mayai 21 x wiki 4 = mayai 84. Kwa kuwa kuna mayai 12 katika dazeni, Claire atakula mayai 84 / mayai 12 kwa dazeni",7,✅ Correct,✅ Correct,0
+bn,"এক সপ্তাহে 7 দিন থাকে। সুতরাং 4 সপ্তাহে, 4 * 7 = 28 দিন আছে। ক্লেয়ার প্রতিদিন 3টি ডিম খায়, তাই 28 দিনে সে 3 * 28 = 84টি ডিম","এক সপ্তাহে 7 দিন থাকে। সুতরাং 4 সপ্তাহে, 4 * 7 = 28 দিন আছে। ক্লেয়ার প্রতিদিন 3টি ডিম খায়, তাই 28 দিনে সে 3 * 28 = 84টি ডিম",7,✅ Correct,✅ Correct,0
+te,"ఒక వారంలో 7 రోజులు ఉన్నాయి, కాబట్టి 4 వారాలలో 4*7=28 రోజులు ఉంటాయి. క్లారీ ప్రతిరోజూ ��","ఒక వారంలో 7 రోజులు ఉన్నాయి, కాబట్టి 4 వారాలలో 4*7=28 రోజులు ఉంటాయి. క్లారీ ప్రతిరోజూ ��",7,✅ Correct,✅ Correct,0

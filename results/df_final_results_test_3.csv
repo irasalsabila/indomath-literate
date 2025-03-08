@@ -1,0 +1,70 @@
+language,original_response,revised_response,expected_answer,initial_status,new_status,wait_count
+en,"The final value of the house after repairs is 50000+80000 = $130,000.
+        The value of the house after repairs is 130,000*1.15 = $151,000.
+        Therefore, the profit is 151,000-80,000 = $71,000.
+        The answer is 71,000.","Solve the following questions: Josh decides to try flipping a house.  He buys a house for $80,000 and then puts in $50,000 in repairs.  This increased the value of the house by 150%.  How much profit did he make?
+The following reasoning has an inconsistency:
+The final value of the house after repairs is 50000+80000 = $130,000.
+        The value of the house after repairs is 130,000*1.15 = $151,000.
+        Therefore, the profit is 151,000-80,000 = $71,000.
+        The answer is 71,000.
+Wait … Wait … Wait … Wait … Wait …
+The answer is 71,000.
+
+The answer is 71,000.
+
+The answer is 71,000.
+
+The answer is 71,000.
+
+The answer is 71,000.
+
+The answer is 71,000.
+
+The answer is 71,000.
+
+The answer is 71,000.
+
+The answer is 71,000.
+
+The answer is 71,000",70000,❌ Incorrect (Expected: 70000),❌ Still Incorrect (Expected: 70000),5
+es,"Respuesta paso a paso: Josh compró la casa por $80 000 y agregó $50 000 en reparaciones, por lo que su costo total es 80 000 + 50 000 = $130 000. Luego vende la casa por 150% de su valor, que es 130 000 * 1,5 = $195 000. Para calcular la ganancia, restamos el costo total del precio","Resuelve las siguientes preguntas: Josh decide intentar remodelar y vender una casa. Compra una casa de $80 000 y luego agrega $50 000 para las reparaciones. Esto aumenta un 150 % el valor de la casa. ¿Cuánto obtuvo de ganancia?
+El siguiente razonamiento tiene una inconsistencia:
+Respuesta paso a paso: Josh compró la casa por $80 000 y agregó $50 000 en reparaciones, por lo que su costo total es 80 000 + 50 000 = $130 000. Luego vende la casa por 150% de su valor, que es 130 000 * 1,5 = $195 000. Para calcular la ganancia, restamos el costo total del precio
+Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera …",70000,❌ Incorrect (Expected: 70000),❌ Still Incorrect (Expected: 70000),5
+fr,"Le bénéfice est calculé en soustrayant le coût initial du prix de vente final. Dans ce cas, le prix de vente final est de 80 000 $ x 1,5 = 120 000 $. Le coût initial est de 80 000 $ + 50 000 $ = 130 000 $. Le bénéfice est donc de 120 000 $ - 130 000 $ = -10","Résolvez les questions suivantes: Josh se lance dans la rénovation d'une maison. Il en achète une au prix de 80 000 $ et investit 50 000 $ dans sa restauration. La valeur de la maison augmente alors de 150 %. Quel bénéfice a-t-il réalisé ?
+Le raisonnement suivant présente une incohérence :
+Le bénéfice est calculé en soustrayant le coût initial du prix de vente final. Dans ce cas, le prix de vente final est de 80 000 $ x 1,5 = 120 000 $. Le coût initial est de 80 000 $ + 50 000 $ = 130 000 $. Le bénéfice est donc de 120 000 $ - 130 000 $ = -10
+Attendez … Attendez … Attendez … Attendez … Attendez … Attendez… La réponse est D.",70000,❌ Incorrect (Expected: 70000),❌ Still Incorrect (Expected: 70000),5
+de,"Schritt-für-Schritt-Antwort: Josh kaufte das Haus für 80.000 $ und gab 50.000 $ für Reparaturen aus, sodass seine Gesamtkosten 80.000 $ + 50.000 $ = 130.000 $ betragen. Er verkauft das Haus für 150 % seines Wertes, also verkauft er es für 130.000 $ x 150 % = 19","Los die folgenden Fragen: Josh beschließt, ein Haus zu verkaufen. Er kauft ein Haus für 80.000 US-Dollar und steckt anschließend 50.000 US-Dollar an Reparaturen hinein. Dadurch steigt der Wert des Hauses um 150 %. Wie viel Gewinn macht er?
+Die folgende Argumentation enthält eine Inkonsistenz:
+Schritt-für-Schritt-Antwort: Josh kaufte das Haus für 80.000 $ und gab 50.000 $ für Reparaturen aus, sodass seine Gesamtkosten 80.000 $ + 50.000 $ = 130.000 $ betragen. Er verkauft das Haus für 150 % seines Wertes, also verkauft er es für 130.000 $ x 150 % = 19
+Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte",70000,❌ Incorrect (Expected: 70000),❌ Still Incorrect (Expected: 70000),5
+ru,"Решение: Если Джош купил дом за 80 000 долларов и потратил на ремонт 50 000 долларов, его общие затраты составят 80 000 + 50 000 = 130 000 долларов. Чтобы рассчитать цену продажи, нам нужно найти 150% от первоначальной стоимости, которая составляет 130 0","Решите следующие вопросы: Джош решает перепродать дом. Он покупает дом за 80 000 $ и вкладывает 50 000 $ в ремонт. Это повысило стоимость дома на 150 %. Какую выгоду он получил?
+Следующее рассуждение имеет несоответствие:
+Решение: Если Джош купил дом за 80 000 долларов и потратил на ремонт 50 000 долларов, его общие затраты составят 80 000 + 50 000 = 130 000 долларов. Чтобы рассчитать цену продажи, нам нужно найти 150% от первоначальной стоимости, которая составляет 130 0
+Подождите … Подождите … Подождите … Подождите … Подождите … Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подо",70000,❌ Incorrect (Expected: 70000),❌ Still Incorrect (Expected: 70000),5
+zh,"解决方案：如果乔什以 80,000 美元购买房屋并在其中投入 50,000 美元进行改造，则他总共花费了 80,000 美元 + 50,000 美元 = 130,000 美元。如果他将房子翻新后的价值增加了 150%，那么新的价值就是原始价值的 150%，","解答以下问题: 乔希决定试试房屋翻新。他花了 80,000 美元买了一套房子，然后投入 50,000 美元进行维修。这样做使房子的价值增加了 150%。他赚了多少利润？
+以下推理存在不一致之处：
+解决方案：如果乔什以 80,000 美元购买房屋并在其中投入 50,000 美元进行改造，则他总共花费了 80,000 美元 + 50,000 美元 = 130,000 美元。如果他将房子翻新后的价值增加了 150%，那么新的价值就是原始价值的 150%，
+等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 …",70000,❌ Incorrect (Expected: 70000),❌ Still Incorrect (Expected: 70000),5
+ja,"ステップごとの答え: ステップ 1: コストの 150% を計算します。 150% * 80,000 = 120,000 ドル ステップ 2: 販売価格を計算します。 120,000 + 50,000 = 170,000 ドル ステップ 3: 利益を計","次の質問を解いてください: ジョッシュは不動産の売買に挑戦してみることにしました。8万ドルで家を購入し、5万ドルかけて修繕しました。その結果、家の価格は150%分増えました。ジョッシュの利益はいくらでしょうか？
+次の推論には矛盾があります:
+ステップごとの答え: ステップ 1: コストの 150% を計算します。 150% * 80,000 = 120,000 ドル ステップ 2: 販売価格を計算します。 120,000 + 50,000 = 170,000 ドル ステップ 3: 利益を計
+待ってください … 待ってください … 待ってください … 待ってください … 待ってください … 答えは D です。",70000,❌ Incorrect (Expected: 70000),❌ Still Incorrect (Expected: 70000),5
+th,"การซ่อมแซมบ้านทำให้มูลค่าเพิ่มขึ้น 150% ดังนั้นมูลค่าบ้านหลังการซ่อมแซมคือ 80,000 + 50,000 * 150% = 80,000 + 75,000 = 155,000 ดอลลาร","แก้คำถามต่อไปนี้: จอชตัดสินใจลองซื้อบ้านมาซ่อมเพื่อขายต่อ เขาซื้อบ้านในราคา $80,000 และใช้เงินซ่อมแซมบ้าน $50,000 การซ่อมแซมทำให้บ้านมีมูลค่าเพิ่มขึ้น 150% เขาทำกำไรได้กี่ดอลลาร์
+การใช้เหตุผลต่อไปนี้ไม่สอดคล้องกัน:
+การซ่อมแซมบ้านทำให้มูลค่าเพิ่มขึ้น 150% ดังนั้นมูลค่าบ้านหลังการซ่อมแซมคือ 80,000 + 50,000 * 150% = 80,000 + 75,000 = 155,000 ดอลลาร
+รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักค",70000,❌ Incorrect (Expected: 70000),❌ Still Incorrect (Expected: 70000),5
+sw,"Jibu la Hatua kwa Hatua: Alinunua nyumba kwa $80,000 na kutumia $50,000 kuiboreshwa, kwa hivyo gharama yake yote ilikuwa $80,000 + $50,000 = $130,000. Aliuza nyumba kwa 150% ya gharama yake, kwa hivyo akaiuza kwa $130,000 *","Tatua maswali yafuatayo: Josha anaamua kujaribu kununua nyumba na kuuza kwa faida. Ananunua nyumba kwa $80,000 na kutumia $50,000 kuikarabati. Hii iliongeza thamani ya nyumba hiyo kwa 150%. Alipata faida ya kiasi gani?
+Hoja ifuatayo ina hali ya kutofautiana:
+Jibu la Hatua kwa Hatua: Alinunua nyumba kwa $80,000 na kutumia $50,000 kuiboreshwa, kwa hivyo gharama yake yote ilikuwa $80,000 + $50,000 = $130,000. Aliuza nyumba kwa 150% ya gharama yake, kwa hivyo akaiuza kwa $130,000 *
+Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri",70000,❌ Incorrect (Expected: 70000),❌ Still Incorrect (Expected: 70000),5
+bn,"ধাপে ধাপে উত্তর: জোশ বাড়িটি $80,000-এ কিনেছেন এবং $50,000-এ মেরামত করেছেন, তাই তার মোট খরচ হল 80,000 + 50,000 = $130,00","নিম্নলিখিত প্রশ্নগুলি সমাধান করুন: জোশ একটি বাড়ি ফ্লিপ করার সিদ্ধান্ত নিয়েছেন। তিনি $80,000-এ একটি বাড়ি ক্রয় করলেন এবং $50,000 দিয়ে মেরামত করলেন। এর ফলে বাড়িটির মূল্য 150% বৃদ্ধি পেল। তিনি কত ডলার লাভ করলেন?
+নিম্নলিখিত যুক্তিটিতে একটি অসঙ্গতি রয়েছে:
+ধাপে ধাপে উত্তর: জোশ বাড়িটি $80,000-এ কিনেছেন এবং $50,000-এ মেরামত করেছেন, তাই তার মোট খরচ হল 80,000 + 50,000 = $130,00
+অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অ",70000,❌ Incorrect (Expected: 70000),❌ Still Incorrect (Expected: 70000),5
+te,"అతను ఇంటిని 80,000+50,000=$130,000కి విక్రయించాడు. అతను అమ్మకం ద్వారా 130,000-100,000=$30,000 సంపాదిం","కింది ప్రశ్నలను పరిష్కరించండి: జోష్ ఒక ఇంటిపై పెట్టుబడి పెట్టాలని నిర్ణయించుకున్నాడు. అతడు ఒక ఇంటిని $80,000కు కొనుగోలు చేసి, తరువాత మరమ్మత్తుల కొరకు $50,000 వెచ్చించాడు. ఇది ఇంటి విలువను 150% పెంచింది. అతడు ఎంత లాభం పొందాడు?
+కింది తార్కికంలో అస్థిరత ఉంది:
+అతను ఇంటిని 80,000+50,000=$130,000కి విక్రయించాడు. అతను అమ్మకం ద్వారా 130,000-100,000=$30,000 సంపాదిం
+ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండ",70000,❌ Incorrect (Expected: 70000),❌ Still Incorrect (Expected: 70000),5

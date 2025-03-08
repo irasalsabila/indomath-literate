@@ -1,0 +1,57 @@
+language,original_response,revised_response,expected_answer,initial_status,new_status,wait_count
+en,"John drinks 4 glasses of water during the weekdays, 4 x 5 = 20 glasses.
+        He drinks 1 glass of water on the weekends, 1 x 2 = 2 glasses.
+        In one week, John drinks 20 + 2 = 22 glasses of water.
+The answer is 22.","Solve the following questions: John likes to have a glass of water with breakfast, lunch and dinner.  Finally, he has one before he goes to bed as well.  John does this every weekday, but on the weekends he likes to relax and have a soda with dinner instead.  How many glasses of water does John drink in a week?
+The following reasoning has an inconsistency:
+John drinks 4 glasses of water during the weekdays, 4 x 5 = 20 glasses.
+        He drinks 1 glass of water on the weekends, 1 x 2 = 2 glasses.
+        In one week, John drinks 20 + 2 = 22 glasses of water.
+The answer is 22.
+Wait … Wait … Wait … Wait … Wait …
+The answer is 20.
+Now that John has told us that he drinks 4 glasses of water every weekday, we can multiply this by 5 (the number of weekdays in a week) to find the total number of glasses he drinks during the weekdays. 4 x 5 = 20 glasses.
+The answer is 20.",26,❌ Incorrect (Expected: 26),❌ Still Incorrect (Expected: 26),5
+es,"John bebe un vaso de agua con cada una de sus 3 comidas, además de una antes de dormir, por lo que bebe 3 + 1 = 4 vasos de agua por día. En una semana, bebe 4 * 7 = 28 vasos de agua. Sin embargo, los fines de semana no bebe vasos de agua, por lo que en realidad bebe 28 - 2 = 26 vasos de agua en una semana. La respuesta es 26.","John bebe un vaso de agua con cada una de sus 3 comidas, además de una antes de dormir, por lo que bebe 3 + 1 = 4 vasos de agua por día. En una semana, bebe 4 * 7 = 28 vasos de agua. Sin embargo, los fines de semana no bebe vasos de agua, por lo que en realidad bebe 28 - 2 = 26 vasos de agua en una semana. La respuesta es 26.",26,✅ Correct,✅ Correct,0
+fr,"Jean boit 1 verre d'eau au petit-déjeuner, 1 au déjeuner, 1 au dîner et 1 avant de se coucher, pour un total de 1+1+1+1 = 4 verres d'eau par jour. Il boit 4 verres d'eau par jour pendant 7 jours pour un total de 4*7 = 28 verres d'eau en une semaine. Il boit un soda le week-end, ce qui ajoute 2 soda supplémentaires à son","Résolvez les questions suivantes: Jean aime boire un verre d'eau au petit déjeuner, au déjeuner et au dîner. Pour finir, il en boit également un avant d'aller se coucher. Il suit cette routine tous les jours de la semaine. Le week-end par contre, il aime se détendre et boire un soda au dîner. Combien de verres d'eau Jean boit-il en une semaine ?
+Le raisonnement suivant présente une incohérence :
+Jean boit 1 verre d'eau au petit-déjeuner, 1 au déjeuner, 1 au dîner et 1 avant de se coucher, pour un total de 1+1+1+1 = 4 verres d'eau par jour. Il boit 4 verres d'eau par jour pendant 7 jours pour un total de 4*7 = 28 verres d'eau en une semaine. Il boit un soda le week-end, ce qui ajoute 2 soda supplémentaires à son
+Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez…",26,❌ Incorrect (Expected: 26),❌ Still Incorrect (Expected: 26),5
+de,"John trinkt täglich 4 Gläser Wasser, und zwar an 5 Tagen in der Woche, also trinkt er 4 * 5 = 20 Gläser Wasser in der Woche. Außerdem trinkt er an den Wochenenden 1 Glas Wasser, und zwar an 2 Tagen, also trinkt er 1 * 2 = 2 Gläser Wasser an den Wochenenden. Insgesamt trinkt John 20 + 2 = 22 Gläser Wasser pro Woche. Die","Los die folgenden Fragen: John trinkt zum Frühstück, zum Mittagessen und Abendessen gern ein Glas Wasser. Zum Abschluss trinkt er auch noch eins vor dem Zubettgehen. John macht das an jedem Wochentag, aber an den Wochenenden entspannt er gern und trinkt zum Abendessen stattdessen ein Glas Limonade. Wie viele Gläser Wasser trinkt John pro Woche?
+Die folgende Argumentation enthält eine Inkonsistenz:
+John trinkt täglich 4 Gläser Wasser, und zwar an 5 Tagen in der Woche, also trinkt er 4 * 5 = 20 Gläser Wasser in der Woche. Außerdem trinkt er an den Wochenenden 1 Glas Wasser, und zwar an 2 Tagen, also trinkt er 1 * 2 = 2 Gläser Wasser an den Wochenenden. Insgesamt trinkt John 20 + 2 = 22 Gläser Wasser pro Woche. Die
+Warte … Warte … Warte … Warte … Warte … Die Antwort ist 22.",26,❌ Incorrect (Expected: 26),❌ Still Incorrect (Expected: 26),5
+ru,"Джон выпивает 4 стакана воды в день в будние дни, поэтому он выпивает 4 * 5 = 20 стаканов воды. В выходные дни он выпивает 1 * 2 = 2 стакана воды. В течение недели он выпивает 20 + 2 = 22 стакана воды. Ответ: 22.","Решите следующие вопросы: Джону нравится выпивать стакан воды за завтраком, обедом и ужином. Кроме того, он также выпивает один стакан перед сном. Джон поступает так каждый будний день, но по выходным предпочитает расслабиться и вместо этого на ужин пьет содовую. Сколько стаканов воды Джон выпивает за неделю?
+Следующее рассуждение имеет несоответствие:
+Джон выпивает 4 стакана воды в день в будние дни, поэтому он выпивает 4 * 5 = 20 стаканов воды. В выходные дни он выпивает 1 * 2 = 2 стакана воды. В течение недели он выпивает 20 + 2 = 22 стакана воды. Ответ: 22.
+Подождите … Подождите … Подождите … Подождите … Подождите … Подождите … Подождите … Подождите … Подождите … Подождите … Подождите … Подождите … Подождите … Подождите … Подождите … Подождите … Подождите … Подождите … Подождите … Подождите … Подождите … Подождите … Подождите … Подождите … Подождите … Подождите … Подо",26,❌ Incorrect (Expected: 26),❌ Still Incorrect (Expected: 26),5
+zh,约翰在一天中喝了 4 杯水，即一周 4 * 7 = 28 杯。他周末喝 2 杯苏打水，因此他一周喝 2 * 2 = 4 杯苏打水。因此，约翰一周喝了 28 + 4 = 32 杯水。答案是32。,"解答以下问题: 约翰喜欢在吃早餐、午餐和晚餐时喝一杯水。最后，他睡前也会喝一杯水。约翰在每个工作日这样做，但是在周末，他喜欢放松一下，吃晚餐时喝苏打水。约翰一周喝多少杯水？
+以下推理存在不一致之处：
+约翰在一天中喝了 4 杯水，即一周 4 * 7 = 28 杯。他周末喝 2 杯苏打水，因此他一周喝 2 * 2 = 4 杯苏打水。因此，约翰一周喝了 28 + 4 = 32 杯水。答案是32。
+等待 … 等待 … 等待 … 等待 … 等待 … 答案是 32。
+Answer:
+让我们一步步思考。约翰在工作日喝 4 杯水，周末喝 2 杯苏打水。因此，一周内，他喝了 4 * 5 + 2 * 2 = 20 + 4 = 24 杯水。答案是24。",26,❌ Incorrect (Expected: 26),❌ Still Incorrect (Expected: 26),5
+ja,ジョンは毎日、朝に 1 杯、午後に 1 杯、夕方に 1 杯、合計 1+1+1 = 1 日に 3 杯の水を飲みます。彼は平日は毎日 3 杯の水を飲みます。つまり、3*5 = 15 杯の水です。彼は週末にはソ,"次の質問を解いてください: ジョンは朝ごはん、昼ごはん、夕飯の時に1杯の水を飲むことが好きだ。最終的に、彼はベッドに行く前にも1杯飲む。ジョンは平日毎日これをするが、週末はリラックスしたいと思っており、夕飯時には代わりにソーダを飲む。彼は週に何倍の水を飲むか？
+次の推論には矛盾があります:
+ジョンは毎日、朝に 1 杯、午後に 1 杯、夕方に 1 杯、合計 1+1+1 = 1 日に 3 杯の水を飲みます。彼は平日は毎日 3 杯の水を飲みます。つまり、3*5 = 15 杯の水です。彼は週末にはソ
+待ってください … 待ってください … 待ってください … 待ってください … 待ってください … 待ってください。答えは 15 です。",26,❌ Incorrect (Expected: 26),❌ Still Incorrect (Expected: 26),5
+th,จอห์นดื่มน้ำ 4 แก้วต่อวัน โดย 1 แก้วต่อมื้อ และอีก 1 แก้วก่อนนอน นั่นคือ 4 ถ้วยต่อวัน 7 วันในหนึ่งสัปดาห์ คือ 4 x 7 = 28 ถ้วยต่อส,"แก้คำถามต่อไปนี้: จอห์นมักดื่มน้ำหนึ่งแก้วพร้อมอาหารเช้า กลางวัน และเย็น ในตอนท้ายเขายังดื่มน้ำหนึ่งแก้วก่อนเข้านอนอีกด้วย โดยจอห์นจะทำเช่นนี้ทุกวันธรรมดา แต่ในช่วงสุดสัปดาห์เขาชอบผ่อนคลายและดื่มโซดาพร้อมอาหารเย็นแทน จอห์นดื่มน้ำสัปดาห์ละกี่แก้ว
+การใช้เหตุผลต่อไปนี้ไม่สอดคล้องกัน:
+จอห์นดื่มน้ำ 4 แก้วต่อวัน โดย 1 แก้วต่อมื้อ และอีก 1 แก้วก่อนนอน นั่นคือ 4 ถ้วยต่อวัน 7 วันในหนึ่งสัปดาห์ คือ 4 x 7 = 28 ถ้วยต่อส
+รอสักครู่ … รอสักครู่ … จอห์นดื่มน้ำ 28 ถ้วยต่อสัปดาห์ ยกเว้นวันหยุดสุดสัปดาห์ เมื่อเขาดื่มโซดาแทน คำตอบ ตัวเลือก: (A) 22 (B) 25 (C) 26 (D) 27 (E) 28
+Answer:
+ลอ",26,❌ Incorrect (Expected: 26),✅ Correct after revision,1
+sw,"John hunywa glesi ya maji kila siku za wiki, kwa hivyo hiyo ni siku 5 * glesi 1 kila siku = glasi 5 za maji. Mwishoni mwa wiki, anakunywa glesi 2 * 2 = 4 za maji. Kwa jumla, John hunywa 5 + 4 = glasi 9 za maji kwa wiki. Jibu ni 9.","Tatua maswali yafuatayo: John anapenda kunywa glesi ya maji wakati wa staftahi, chamcha na chajio. Hatimaye, huna anakunywa glesi moja kabla ya kwenda kulala. John hufanya hii kila siku za wiki, lakini wikendi huwa anapenda kutulia na kunywa soda badala ya maji wakati wa chajio. John huwa anakunywa glesi ngapi za maji kwa wiki?
+Hoja ifuatayo ina hali ya kutofautiana:
+John hunywa glesi ya maji kila siku za wiki, kwa hivyo hiyo ni siku 5 * glesi 1 kila siku = glasi 5 za maji. Mwishoni mwa wiki, anakunywa glesi 2 * 2 = 4 za maji. Kwa jumla, John hunywa 5 + 4 = glasi 9 za maji kwa wiki. Jibu ni 9.
+Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri.",26,❌ Incorrect (Expected: 26),❌ Still Incorrect (Expected: 26),5
+bn,"জন প্রতিদিন 4 গ্লাস জল পান করেন, যা 4 x 7 = 28 গ্লাস এক সপ্তাহে পান করে। তিনি সপ্তাহের প্রতিদিন এক গ্লাস জল পান করেন, যা 1 x 7 = 7","নিম্নলিখিত প্রশ্নগুলি সমাধান করুন: জন প্রাতঃরাশ, মধ্যাহ্নভোজন ও নৈশভোজনের সময় এক গ্লাস জল পান করতে পছন্দ করেন। সবশেষে, তিনি বিছানায় শুতে যাওয়ার আগে এক গ্লাস জল পান করেন। জন সপ্তাহের প্রতিদিন এটি করেন কিন্তু সপ্তাহ শেষে তিনি বিশ্রাম করতে পছন্দ করেন ও নৈশভোজে জলের পরিবর্তে সোডা পান করতে পছন্দ করেন। জন এক সপ্তাহে কত গ্লাস জল পান করেন?
+নিম্নলিখিত যুক্তিটিতে একটি অসঙ্গতি রয়েছে:
+জন প্রতিদিন 4 গ্লাস জল পান করেন, যা 4 x 7 = 28 গ্লাস এক সপ্তাহে পান করে। তিনি সপ্তাহের প্রতিদিন এক গ্লাস জল পান করেন, যা 1 x 7 = 7
+অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অ",26,❌ Incorrect (Expected: 26),❌ Still Incorrect (Expected: 26),5
+te,"జాన్ ప్రతిరోజూ అల్పాహారం, భోజనం మరియు రాత్రి భోజనంతో పాటు ఒక గ్లాసు నీటిని తా��","కింది ప్రశ్నలను పరిష్కరించండి: జాన్ అల్పాహారం, మధ్యాహ్న భోజనం మరియు రాత్రి భోజనంతోపాటు ఒక గ్లాసు నీటిని తాగడానికి ఇష్టపడతాడు. చివరిగా, అతడు పడుకోవడానికి ముందుగా ఒక గ్లాసు తాగుతాడు. జాన్ దీనిని ప్రతివారం దినాల్లో చేస్తాడు, కానీ వారాంతాల్లో అతడు రిలాక్స్ కావడానికి ఇష్టపడతాడు, డిన్నర్‌లో నీటికి బదులుగా సోడా తాగుతాడు.వారంలో జాన్ ఎన్ని గ్లాసుల నీటిని తాగుతాడు?
+కింది తార్కికంలో అస్థిరత ఉంది:
+జాన్ ప్రతిరోజూ అల్పాహారం, భోజనం మరియు రాత్రి భోజనంతో పాటు ఒక గ్లాసు నీటిని తా��
+ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి సమాధాన ఎంపికలు: (A) 14 (B) 15 (C) 16 (D) 17 (E) 18
+Answer:
+అంచెలంచెలుగా ఆలోచిద్దాం. ఒక వార",26,❌ Incorrect (Expected: 26),❌ Still Incorrect (Expected: 26),5

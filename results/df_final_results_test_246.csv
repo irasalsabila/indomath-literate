@@ -1,0 +1,51 @@
+language,original_response,revised_response,expected_answer,initial_status,new_status,wait_count
+en,"The difference between the number of snails in the two aquariums is 32 - 4 = 28 snails.
+        This difference is twice the amount of fish in both aquariums, so there are 28 / 2 = 14 fish in each aquarium.
+        The answer is 14.","Solve the following questions: There are 4 snails in one aquarium and 32 snails in another aquarium. The difference between the number of snails in the two aquariums is twice the amount of fish in both aquariums. If both aquariums have the same number of fish in them, how many fish are there in each aquarium?
+The following reasoning has an inconsistency:
+The difference between the number of snails in the two aquariums is 32 - 4 = 28 snails.
+        This difference is twice the amount of fish in both aquariums, so there are 28 / 2 = 14 fish in each aquarium.
+        The answer is 14.
+Wait … Wait …
+        There are two aquariums.
+        So we have 14 / 2 = 7 fish in each aquarium.
+The answer is 7.",7,❌ Incorrect (Expected: 7),✅ Correct after revision,1
+es,Diferencia = 32 - 4 = 28 28/2 = 14 La respuesta es 14.,"Resuelve las siguientes preguntas: Hay 4 caracoles en un acuario y 32 caracoles en otro acuario. La diferencia entre la cantidad de caracoles de los dos acuarios es el doble de la cantidad de peces en ambos acuarios. Si los dos acuarios tienen la misma cantidad de peces, ¿cuántos peces hay en cada acuario?
+El siguiente razonamiento tiene una inconsistencia:
+Diferencia = 32 - 4 = 28 28/2 = 14 La respuesta es 14.
+Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera …",7,❌ Incorrect (Expected: 7),❌ Still Incorrect (Expected: 7),5
+fr,"La différence entre les quantités d'escargots dans les deux aquariums est de 32 - 4 = 28. Cette différence est égale à deux fois la somme des poissons dans les deux aquariums, soit 28 = 2 (poisson total). Cela donne le nombre total de poissons dans les deux aquariums comme 28/2 = 14 poissons. La réponse est 14.","Résolvez les questions suivantes: Il y a 4 escargots dans un aquarium et 32 dans un autre. La différence entre les quantités d'escargots dans les deux aquariums est égale à deux fois la somme des poissons dans les deux aquariums. Si les deux aquariums contiennent le même nombre de poissons, combien de poissons y a-t-il dans chaque aquarium ?
+Le raisonnement suivant présente une incohérence :
+La différence entre les quantités d'escargots dans les deux aquariums est de 32 - 4 = 28. Cette différence est égale à deux fois la somme des poissons dans les deux aquariums, soit 28 = 2 (poisson total). Cela donne le nombre total de poissons dans les deux aquariums comme 28/2 = 14 poissons. La réponse est 14.
+Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez …",7,❌ Incorrect (Expected: 7),❌ Still Incorrect (Expected: 7),5
+de,"Die Differenz zwischen der Anzahl der Schnecken in den beiden Aquarien beträgt 32 - 4 = 28. Diese Differenz ist doppelt so groß wie die Gesamtzahl der Fische in beiden Aquarien, also 2 * Gesamtzahl der Fische = 28. Wenn wir beide Seiten der Gleichung durch 2 dividieren, erhalten wir die Gesamtzahl der Fische = 28 / 2 = 14. Da beide Aquarien die gleiche Anzahl Fische haben, befinden","Los die folgenden Fragen: Es gibt 4 Schnecken in einem Aquarium und 32 Schnecken in einem anderen Aquarium. Der Unterschied zwischen der Anzahl Schnecken in den zwei Aquarien entspricht dem Doppelten der Anzahl Fische in beiden Aquarien. Wenn beide Aquarien die gleiche Anzahl Fische darin haben, wie viele Fische sind dann in jedem Aquarium?
+Die folgende Argumentation enthält eine Inkonsistenz:
+Die Differenz zwischen der Anzahl der Schnecken in den beiden Aquarien beträgt 32 - 4 = 28. Diese Differenz ist doppelt so groß wie die Gesamtzahl der Fische in beiden Aquarien, also 2 * Gesamtzahl der Fische = 28. Wenn wir beide Seiten der Gleichung durch 2 dividieren, erhalten wir die Gesamtzahl der Fische = 28 / 2 = 14. Da beide Aquarien die gleiche Anzahl Fische haben, befinden
+Warte … in jedem Aquarium 14 / 2 = 7 Fische. Die Antwort ist 7.",7,❌ Incorrect (Expected: 7),✅ Correct after revision,0
+ru,"Разница между количеством улиток в двух аквариумах равна 32 – 4 = 28. Число улиток в двух аквариумах в два раза больше, чем количество рыб в двух аквариумах, поэтому 28 * 2 = 56 — это общее количество рыб в двух аквариумах. Таким образом, в каждом аквариуме 56/2 = 28 рыб.","Решите следующие вопросы: В одном аквариуме 4 улитки, а в другом аквариуме 32 улитки. Разница по количеству улиток в двух аквариумах в два раза больше количества рыбок в двух аквариумах. Если в обоих аквариумах одинаковое количество рыбок, сколько рыбок в каждом аквариуме?
+Следующее рассуждение имеет несоответствие:
+Разница между количеством улиток в двух аквариумах равна 32 – 4 = 28. Число улиток в двух аквариумах в два раза больше, чем количество рыб в двух аквариумах, поэтому 28 * 2 = 56 — это общее количество рыб в двух аквариумах. Таким образом, в каждом аквариуме 56/2 = 28 рыб.
+Подождите … Подождите … Подождите … Подождите … Подождите … Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подо",7,❌ Incorrect (Expected: 7),❌ Still Incorrect (Expected: 7),5
+zh,两个水族箱中蜗牛数量的差是 32 - 4 = 28。这个差值是鱼数量的两倍，所以两个水族箱中鱼的数量一定是 28 / 2 = 14。因此，每个水族箱中有 14 条鱼。答案是14。,"解答以下问题: 一个水族箱里有 4 只蜗牛，另一个水族箱里有 32 只蜗牛。这两个水族箱里的蜗牛数量之差是两个水族箱里鱼数量的两倍。如果两个水族箱里鱼的数量相同，每个水族箱里有多少条鱼？
+以下推理存在不一致之处：
+两个水族箱中蜗牛数量的差是 32 - 4 = 28。这个差值是鱼数量的两倍，所以两个水族箱中鱼的数量一定是 28 / 2 = 14。因此，每个水族箱中有 14 条鱼。答案是14。
+等待 … 等待 … 等待 … 等待 … 等待 … 答案是 14。",7,❌ Incorrect (Expected: 7),❌ Still Incorrect (Expected: 7),5
+ja,水族館間のカタツムリの数の差は、32 - 4 = 28 カタツムリです。この差は、両方の水族館の魚の合計数の 2 倍であるため、2 * 合計 = 28 となります。両辺を 2 で割ると、両方の水族館の魚の合計数は 28 / 2 = 14 匹とな,"次の質問を解いてください: ある水族館にカタツムリが4匹います。別の水族館にはカタツムリが32匹います。両者の差は、両方の水族館にいる魚の合計数の2倍です。それぞれの水族館に同じ数の魚がいるとすると、それぞれの水族館にいる魚は何匹ずつでしょうか？
+次の推論には矛盾があります:
+水族館間のカタツムリの数の差は、32 - 4 = 28 カタツムリです。この差は、両方の水族館の魚の合計数の 2 倍であるため、2 * 合計 = 28 となります。両辺を 2 で割ると、両方の水族館の魚の合計数は 28 / 2 = 14 匹とな
+待ってください … さて、各水族館の魚の数を計算してみましょう。合計数を 2 で割ると、各水族館には 14 / 2 = 7 匹の魚がいます。答えは7です。",7,❌ Incorrect (Expected: 7),✅ Correct after revision,0
+th,ส่วนต่างของจำนวนหอยทากในตู้ปลาทั้งสองตู้คือ 32 - 4 = 28 ส่วนต่างนี้เท่ากับสองเท่าของจำนวนปลาในตู้ปลาทั้งสองตู้ ดังนั้น จำนวนปลาใน,"แก้คำถามต่อไปนี้: ในตู้ปลาตู้หนึ่งมีหอยทาก 4 ตัว และในอีกตู้หนึ่งมีหอยทาก 32 ตัว โดยส่วนต่างของจำนวนหอยทากในตู้ปลาสองตู้นั้นเท่ากับสองเท่าของจำนวนปลาในตู้ปลาทั้งสองตู้ ถ้าตู้ปลาทั้งสองตู้มีจำนวนปลาเท่ากัน ในแต่ละตู้จะมีปลากี่ตัว
+การใช้เหตุผลต่อไปนี้ไม่สอดคล้องกัน:
+ส่วนต่างของจำนวนหอยทากในตู้ปลาทั้งสองตู้คือ 32 - 4 = 28 ส่วนต่างนี้เท่ากับสองเท่าของจำนวนปลาในตู้ปลาทั้งสองตู้ ดังนั้น จำนวนปลาใน
+รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักค",7,❌ Incorrect (Expected: 7),❌ Still Incorrect (Expected: 7),5
+sw,"Tofauti kati ya idadi ya konokono katika tangisamaki mbili ni 32 - 4 = 28. Hii ni mara mbili ya idadi ya samaki katika tangisamaki zote mbili, hivyo 28/2 = samaki 14. Kwa hivyo, kila tanki la samaki lina 14/2 = samaki 7. Jibu ni 7.","Tofauti kati ya idadi ya konokono katika tangisamaki mbili ni 32 - 4 = 28. Hii ni mara mbili ya idadi ya samaki katika tangisamaki zote mbili, hivyo 28/2 = samaki 14. Kwa hivyo, kila tanki la samaki lina 14/2 = samaki 7. Jibu ni 7.",7,✅ Correct,✅ Correct,0
+bn,দুটি অ্যাকোরিয়ামে থাকা শামুকের সংখ্যার মধ্যে পার্থক্য হল 32 - 4 = 28। এই পার্থক্যটি উভয় অ্যাকোরিয়ামে থাকা মা��,"নিম্নলিখিত প্রশ্নগুলি সমাধান করুন: একটি অ্যাকোরিয়ামে 4টি শামুক আছে এবং আরেকটি অ্যাকোরিয়ামে 32টি শামুক আছে। দুটি অ্যাকোরিয়ামে থাকা শামুকের সংখ্যার পার্থক্য উভয় অ্যাকোরিয়ামে থাকা মাছের সংখ্যার দ্বিগুণ। যদি উভয় অ্যাকোরিয়ামে সম-সংখ্যক মাছ থাকে, তাহলে প্রতিটি অ্যাকোরিয়ামে কতগুলি মাছ আছে?
+নিম্নলিখিত যুক্তিটিতে একটি অসঙ্গতি রয়েছে:
+দুটি অ্যাকোরিয়ামে থাকা শামুকের সংখ্যার মধ্যে পার্থক্য হল 32 - 4 = 28। এই পার্থক্যটি উভয় অ্যাকোরিয়ামে থাকা মা��
+অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অ",7,❌ Incorrect (Expected: 7),❌ Still Incorrect (Expected: 7),5
+te,రెండు అక్వైరియంలోని మొత్తం నత్తల సంఖ్య 4 + 32 = 36 నత్తలు. రెండు అక్వైరియంలోని నత్తల సంఖ్��,"కింది ప్రశ్నలను పరిష్కరించండి: ఒక అక్వైరియంలో 4 నత్తలు మరియు మరో అక్వైరియంలో 32 నత్తలు ఉన్నాయి. రెండు అక్వైరియంలోని నత్తల సంఖ్యలోని తేడా రెండు అక్వైరియంలోని మొత్తం చేపల సంఖ్యకు రెట్టింపు. రెండు అక్వైరియంల్లో ఒకే సంఖ్యలో చేపలు ఉన్నట్లయితే, ప్రతి అక్వైరియంలో ఎన్ని చేపలు ఉన్నాయి?
+కింది తార్కికంలో అస్థిరత ఉంది:
+రెండు అక్వైరియంలోని మొత్తం నత్తల సంఖ్య 4 + 32 = 36 నత్తలు. రెండు అక్వైరియంలోని నత్తల సంఖ్��
+ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి సమాధాన ఎంపికలు: (A) 6 (B) 8 (C) 10 (D) 12 (E) 14
+Answer:
+అంచెలంచెలుగా ఆలోచిద్దాం. అస్థ",7,❌ Incorrect (Expected: 7),❌ Still Incorrect (Expected: 7),5

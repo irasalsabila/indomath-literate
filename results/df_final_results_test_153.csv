@@ -1,0 +1,48 @@
+language,original_response,revised_response,expected_answer,initial_status,new_status,wait_count
+en,"Carl bought 10 * 6 = 60 cookies.
+        60 cookies cost 60 * $0.10 = $6.
+        Carl will receive $10 - $6 = $4 in change.
+        The answer is 4.","Carl bought 10 * 6 = 60 cookies.
+        60 cookies cost 60 * $0.10 = $6.
+        Carl will receive $10 - $6 = $4 in change.
+        The answer is 4.",4,✅ Correct,✅ Correct,0
+es,"Carl compró 10 paquetes de galletas y cada paquete tiene 6 galletas, por lo que compró un total de 10 * 6 = 60 galletas. Cada galleta cuesta $0,10, por lo que el costo total de las galletas es 60 * $0,10 = $6. Carl pagó con un billete de $10, por lo que recibirá $10 - $6 = $4 de cambio. La respuesta es 4.","Carl compró 10 paquetes de galletas y cada paquete tiene 6 galletas, por lo que compró un total de 10 * 6 = 60 galletas. Cada galleta cuesta $0,10, por lo que el costo total de las galletas es 60 * $0,10 = $6. Carl pagó con un billete de $10, por lo que recibirá $10 - $6 = $4 de cambio. La respuesta es 4.",4,✅ Correct,✅ Correct,0
+fr,"Carl a acheté 10 * 6 = 60 cookies. 60 cookies à 0,10 $ chacun équivaut à 60 * 0,10 $ = 6 $. Carl recevra 10 $ - 6 $ = 4 $ en monnaie. La réponse est 4.","Carl a acheté 10 * 6 = 60 cookies. 60 cookies à 0,10 $ chacun équivaut à 60 * 0,10 $ = 6 $. Carl recevra 10 $ - 6 $ = 4 $ en monnaie. La réponse est 4.",4,✅ Correct,✅ Correct,0
+de,"Schritt-für-Schritt-Antwort: Carl hat 10 Packungen Kekse gekauft, und jede Packung enthält 6 Kekse, also hat er 10 * 6 = 60 Kekse gekauft. Jeder Keks kostet 0,10 $, also kosten 60 Kekse 60 * 0,10 $ = 6 $. Er hat mit einem 10-Dollar-Schein bezahlt, also erhält er 10 Dollar – 6 D","Los die folgenden Fragen: Carl kauft zehn Kekspackungen. In jeder Kekspackung sind sechs Kekse. Jeder Keks kostest 0,10 $. Wie viel Wechselgeld bekommt Carl, wenn er mit einer 10$-Note bezahlt?
+Die folgende Argumentation enthält eine Inkonsistenz:
+Schritt-für-Schritt-Antwort: Carl hat 10 Packungen Kekse gekauft, und jede Packung enthält 6 Kekse, also hat er 10 * 6 = 60 Kekse gekauft. Jeder Keks kostet 0,10 $, also kosten 60 Kekse 60 * 0,10 $ = 6 $. Er hat mit einem 10-Dollar-Schein bezahlt, also erhält er 10 Dollar – 6 D
+Warte … 10 $ – 6 $ = 4 $, also erhält Carl 4 $ als Wechselgeld. Die Antwort ist 4.",4,❌ Incorrect (Expected: 4),✅ Correct after revision,0
+ru,"Карл купил 10 * 6 = 60 печенек. Карл заплатил 10 долларов = 1 доллар. Карл получит сдачу в размере 1 доллара - 0,60 доллара = 0,40 доллара. Карл получит сдачу в размере 40 центов. Ответ: 40.","Решите следующие вопросы: Карл покупает десять упаковок печенья. В каждой упаковке шесть печений. Каждое печенье стоит 0,10 $. Сколько сдачи получит Карл, если заплатит купюрой 10 $?
+Следующее рассуждение имеет несоответствие:
+Карл купил 10 * 6 = 60 печенек. Карл заплатил 10 долларов = 1 доллар. Карл получит сдачу в размере 1 доллара - 0,60 доллара = 0,40 доллара. Карл получит сдачу в размере 40 центов. Ответ: 40.
+Подождите … Подождите … Подождите … Подождите … Подождите … Подождите … Подождите … Подождите … Подождите … Подождите … Подождите … Подождите … Подождите … Подождите … Подождите … Подождите … Подождите … Подождите … Подождите … Подождите … Подождите … Подождите … Подождите … Подождите … Подождите … Подождите … Подо",4,❌ Incorrect (Expected: 4),❌ Still Incorrect (Expected: 4),5
+zh,如果每包曲奇饼包含 6 块曲奇饼，那么 10 包曲奇饼将包含 10 * 6 = 60 块曲奇饼。如果每个曲奇饼的成本为 0.10 美元，那么 60 个曲奇饼的成本为 60 * 0.10 美元 = 6 美元。如果卡尔用 10 美元的钞票付,"解答以下问题: 卡尔买了 10 包曲奇饼。每包曲奇饼里面有 6 片曲奇饼。每片曲奇饼 0.10 美元。如果卡尔用 10 美元的钞票付款，他会收到多少零钱？
+以下推理存在不一致之处：
+如果每包曲奇饼包含 6 块曲奇饼，那么 10 包曲奇饼将包含 10 * 6 = 60 块曲奇饼。如果每个曲奇饼的成本为 0.10 美元，那么 60 个曲奇饼的成本为 60 * 0.10 美元 = 6 美元。如果卡尔用 10 美元的钞票付
+等待 … 答案选择： (A) $4.50 (B) $5.50 (C) $6.50 (D) $7.50 (E) $8.50
+Answer:
+让我们一步步思考。答案是 B 卡尔将收到 5.50 美元的零钱。卡尔的 10 美元将比曲奇饼的总成本多 10 美元，因此他将收到 10 美元 - 6 美元",4,❌ Incorrect (Expected: 4),✅ Correct after revision,0
+ja,カールは 10 パック * 1 パックあたり 6 枚のクッキー = 60 枚のクッキーを購入しました。各クッキーのコストは 0.10 ドルであるため、60 枚のクッキーのコストは 60 * 0.10 ドル = 6 ドルとなります。カールは 10 ドル�����,"次の質問を解いてください: カールはクッキーを10パック買う。各パックは6枚のクッキーが中に入っている。各クッキーは0.10ドルだ。カールが10ドル札で支払った場合、いくらのお釣りが返ってくる？
+次の推論には矛盾があります:
+カールは 10 パック * 1 パックあたり 6 枚のクッキー = 60 枚のクッキーを購入しました。各クッキーのコストは 0.10 ドルであるため、60 枚のクッキーのコストは 60 * 0.10 ドル = 6 ドルとなります。カールは 10 ドル�����
+待ってください … 10 ドル - 6 ドル = 4 ドルのおつりが得られます。答えの選択肢: (A) 1 ドル (B) 2 ドル (C) 3 ドル (D) 4 ドル (E) 5 ドル
+Answer:
+段階的に考えてみましょう。答えは D です。カールは 10 ドル紙幣を支払い",4,❌ Incorrect (Expected: 4),✅ Correct after revision,0
+th,คาร์ลซื้อคุกกี้ 10 ห่อ แต่ละแพ็คมีคุกกี้ 6 ชิ้น ดังนั้นเขาจึงซื้อคุกกี้ทั้งหมด 10 * 6 = 60 ชิ้น คุกกี้แต่ละชิ้นมีราคา 0.10 ดอลลาร,"แก้คำถามต่อไปนี้: คาร์ลซื้อคุกกี้สิบแพ็ก โดยแต่ละแพ็กมีคุกกี้หกชิ้นอยู่ข้างใน คุกกี้แต่ละชิ้นมีราคา $0.10 คาร์ลได้รับเงินทอนเท่าใดหากเขาจ่ายด้วยแบงก์ $10
+การใช้เหตุผลต่อไปนี้ไม่สอดคล้องกัน:
+คาร์ลซื้อคุกกี้ 10 ห่อ แต่ละแพ็คมีคุกกี้ 6 ชิ้น ดังนั้นเขาจึงซื้อคุกกี้ทั้งหมด 10 * 6 = 60 ชิ้น คุกกี้แต่ละชิ้นมีราคา 0.10 ดอลลาร
+รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักค",4,❌ Incorrect (Expected: 4),❌ Still Incorrect (Expected: 4),5
+sw,"Carl alinunua vifurushi 10 vya biskuti, na kila kifurushi kina biskuti 6, kwa hivyo alinunua jumla ya biskuti 10 * 6 = 60. Kila biskuti inagharimu $0.10, kwa hivyo biskuti 60 zitagharimu 60 * 0.10 = $6. Carl alilipa bili ya $10, kwa hivyo atapata $","Tatua maswali yafuatayo: Carl ananunua vifurushi kumi vya biskuti. Kila kifurushi cha biskuti kina biskuti sita ndani yake. Kila biskuti inagharimu $0.10. Carl atarudushiwa pesa ngapi iwapo atalipa kwa kutumia noti ya $10?
+Hoja ifuatayo ina hali ya kutofautiana:
+Carl alinunua vifurushi 10 vya biskuti, na kila kifurushi kina biskuti 6, kwa hivyo alinunua jumla ya biskuti 10 * 6 = 60. Kila biskuti inagharimu $0.10, kwa hivyo biskuti 60 zitagharimu 60 * 0.10 = $6. Carl alilipa bili ya $10, kwa hivyo atapata $
+Subiri … Jibu ni 4.",4,❌ Incorrect (Expected: 4),✅ Correct after revision,0
+bn,"কার্ল 10 প্যাকেট কুকিজ কিনেছেন, এবং প্রতিটি প্যাকেটে 6 টি কুকি আছে, তাই তিনি মোট 10 * 6 = 60 টি কুকি কিনেছেন। প্রতিটি কুকির","নিম্নলিখিত প্রশ্নগুলি সমাধান করুন: কার্ল দশ প্যাকেট কুকিজ কিনেছেন। প্রত্যেক কুকিজের প্যাকেটের ভিতরে ছয়টি করে কুকিজ আছে। প্রত্যেক কুকিজের মূল্য $0.10। তিনি যদি $10-এর নোট দিয়ে অর্থ প্রদান করেন তবে কার্ল কত ফেরত পাবেন?
+নিম্নলিখিত যুক্তিটিতে একটি অসঙ্গতি রয়েছে:
+কার্ল 10 প্যাকেট কুকিজ কিনেছেন, এবং প্রতিটি প্যাকেটে 6 টি কুকি আছে, তাই তিনি মোট 10 * 6 = 60 টি কুকি কিনেছেন। প্রতিটি কুকির
+অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অ",4,❌ Incorrect (Expected: 4),❌ Still Incorrect (Expected: 4),5
+te,సమాధానం: కార్ల్ 10*6=60 కుకీలను కొనుగోలు చేశాడు. అన్ని కుక్కీల ధర 60*$0.10=$6. అతను $10 చెల్లిం,"కింది ప్రశ్నలను పరిష్కరించండి: కార్ల్ కుకీల పది ప్యాక్‌లు కొనుగోలు చేశాడు. ప్రతి కుకీ ప్యాక్‌ లోపల ఆరు కుకీలు ఉన్నాయి. ప్రతి కుకీ ఖరీదు $0.10. అతడు $10 నోటు ద్వారా చెల్లించినట్లయితే కార్ల్ ఎంత చిల్లరను పొందుతాడు?
+కింది తార్కికంలో అస్థిరత ఉంది:
+సమాధానం: కార్ల్ 10*6=60 కుకీలను కొనుగోలు చేశాడు. అన్ని కుక్కీల ధర 60*$0.10=$6. అతను $10 చెల్లిం
+ఆగండి … మార్పు అతనికి $10-$6=$4 ఇస్తుంది. సమాధాన ఎంపికలు: (A) 0.10 (B) 0.20 (C) 0.30 (D) 0.40 (E) 0.50
+Answer:
+అంచెలం��",4,❌ Incorrect (Expected: 4),✅ Correct after revision,0

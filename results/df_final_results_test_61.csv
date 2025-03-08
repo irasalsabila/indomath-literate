@@ -1,0 +1,58 @@
+language,original_response,revised_response,expected_answer,initial_status,new_status,wait_count
+en,"20% of 25 = 0.20 * 25 = 5
+        So, 5 oranges are unripe.
+        2 oranges are sour, so 5 + 2 = 7 oranges are not good.
+        Therefore, there are 25 - 7 = 18 good oranges.
+The answer is 18.","Solve the following questions: A basket contains 25 oranges among which 1 is bad, 20% are unripe, 2 are sour and the rest are good. How many oranges are good?
+The following reasoning has an inconsistency:
+20% of 25 = 0.20 * 25 = 5
+        So, 5 oranges are unripe.
+        2 oranges are sour, so 5 + 2 = 7 oranges are not good.
+        Therefore, there are 25 - 7 = 18 good oranges.
+The answer is 18.
+Wait … Wait … Wait … Wait … Wait …
+The answer is 18.",17,❌ Incorrect (Expected: 17),❌ Still Incorrect (Expected: 17),5
+es,Hay 25 x 20/100 = 5 naranjas que no han madurado. Hay 25 - 5 - 2 = 18 naranjas en buen estado. La respuesta es 18.,"Resuelve las siguientes preguntas: Una canasta contiene 25 naranjas, de las cuales 1 está en mal estado, el 20 % no ha madurado, 2 son agrias y el resto está en buen estado. ¿Cuántas naranjas en buen estado hay?
+El siguiente razonamiento tiene una inconsistencia:
+Hay 25 x 20/100 = 5 naranjas que no han madurado. Hay 25 - 5 - 2 = 18 naranjas en buen estado. La respuesta es 18.
+Espera … Espera … Espera … Espera … Espera … Espera… Espera… Espera… Espera… Espera… Espera… Espera… Espera… Espera… Espera… Espera… Espera… Espera… Espera… Espera… Espera… Espera… Espera… Espera… Espera… Espera… Espera… Espera… Espera… Espera… Espera… Espera… Espera… Espera… Espera… Espera… Espera…",17,❌ Incorrect (Expected: 17),❌ Still Incorrect (Expected: 17),5
+fr,"20 % de 25 équivaut à 25*0,20 = 5. Cela signifie que 5 oranges ne sont pas mûres. Ainsi, il y a 25 - 5 = 20 oranges qui ne sont pas acides ni non mûres. Il y a 2 oranges acides, donc 20 - 2 = 18 oranges sont bons. La réponse est 18.","Résolvez les questions suivantes: Un panier contient 25 oranges dont 1 est avariée, 20 % ne sont pas mûres, 2 sont acides et le reste est bon. Combien d'oranges sont bonnes ?
+Le raisonnement suivant présente une incohérence :
+20 % de 25 équivaut à 25*0,20 = 5. Cela signifie que 5 oranges ne sont pas mûres. Ainsi, il y a 25 - 5 = 20 oranges qui ne sont pas acides ni non mûres. Il y a 2 oranges acides, donc 20 - 2 = 18 oranges sont bons. La réponse est 18.
+Attendez …. Une autre approche consiste à utiliser l'équation mathématique suivante : 20 % de 25 = 5 5 + 2 (acides) + 1 (avarié) = 8 25 - 8 = 17 bons. La réponse est 17.",17,❌ Incorrect (Expected: 17),✅ Correct after revision,0
+de,"20 % von 25 sind 25*0,20=5. Es sind also 5 unreife Orangen. Es gibt 2 Orangen, die sauer sind. Daher sind die restlichen Orangen gut, also 25 - 5 - 2 = 18. Die Antwort ist 18.","Los die folgenden Fragen: Ein Korb enthält 25 Orangen, von denen 1 schlecht ist, 20 % unreif und 2 sauer sind und der Rest gut ist. Wie viele Orangen sind gut?
+Die folgende Argumentation enthält eine Inkonsistenz:
+20 % von 25 sind 25*0,20=5. Es sind also 5 unreife Orangen. Es gibt 2 Orangen, die sauer sind. Daher sind die restlichen Orangen gut, also 25 - 5 - 2 = 18. Die Antwort ist 18.
+Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Die Antwort ist D.",17,❌ Incorrect (Expected: 17),❌ Still Incorrect (Expected: 17),5
+ru,"1 гнилый апельсин из 25 апельсинов, значит, 25 + 1 = 26 апельсинов либо гнилые, либо незрелые. 20% из 25 апельсинов незрелые, значит 25*0,2=5 апельсинов незрелые. Следовательно, 26 – 5 = 21 апельсин либо кислый, либо хоро","Решите следующие вопросы: В корзине находится 25 апельсинов, среди которых 1 гнилой, 20 % незрелые, 2 кислые, а остальные хорошие. Сколько хороших апельсинов?
+Следующее рассуждение имеет несоответствие:
+1 гнилый апельсин из 25 апельсинов, значит, 25 + 1 = 26 апельсинов либо гнилые, либо незрелые. 20% из 25 апельсинов незрелые, значит 25*0,2=5 апельсинов незрелые. Следовательно, 26 – 5 = 21 апельсин либо кислый, либо хоро
+Подождите … Подождите … Подождите … Подождите … Подождите … Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подо",17,❌ Incorrect (Expected: 17),❌ Still Incorrect (Expected: 17),5
+zh,篮子里有 25 个橙子，其中 1 个是坏的，所以还剩下 25 - 1 = 24 个橙子。 20% 的橙子是未成熟的，因此 20/100 * 24 = 4.8 个橙子是未成熟的。由于我们不能得到橙子的一小部分，因此我们可以将 4.,"解答以下问题: 一个篮子里放着 25 颗橙子，其中 1 颗是坏的，20% 是不熟的，2 颗是酸的，剩下的是好的。好的橙子有多少颗？
+以下推理存在不一致之处：
+篮子里有 25 个橙子，其中 1 个是坏的，所以还剩下 25 - 1 = 24 个橙子。 20% 的橙子是未成熟的，因此 20/100 * 24 = 4.8 个橙子是未成熟的。由于我们不能得到橙子的一小部分，因此我们可以将 4.
+等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 …",17,❌ Incorrect (Expected: 17),❌ Still Incorrect (Expected: 17),5
+ja,1 つのオレンジが熟している場合、100% - 20% - 20% = 60% のオレンジが熟していることを意味します。オレンジが 25 個ある場合、60% のオレンジは 25 個を表します。つまり、x 個のオレンジが熟していることを意味します。 x,"次の質問を解いてください: かごには、1つだめになり、20%がまだ青く、2つが酸っぱく、残りがいい状態のオレンジが25個入っています。何個のオレンジがいい状態ですか？
+次の推論には矛盾があります:
+1 つのオレンジが熟している場合、100% - 20% - 20% = 60% のオレンジが熟していることを意味します。オレンジが 25 個ある場合、60% のオレンジは 25 個を表します。つまり、x 個のオレンジが熟していることを意味します。 x
+待ってください … 待ってください … 待ってください … 待ってください … 待ってください … 待ってください … 待ってください … 待ってください … 待ってください … 待ってください… 待ってください… 待ってください… 待ってください… 待ってください… 待ってください… 待ってください… 待ってください… 待ってください… 待ってください… 待",17,❌ Incorrect (Expected: 17),❌ Still Incorrect (Expected: 17),5
+th,20% ของส้ม 25 ผลคือ 0.2 * 25 = ส้ม 5 ผล ดังนั้น ส้ม 5 ผลจึงไม่สุก และส้ม 20 ผล - 5 ผล = ส้ม 15 ผลเปรี้ยว เนื่องจากส้มเปรี้ยว 2 ผล ส,"แก้คำถามต่อไปนี้: ตะกร้าใบหนึ่งมีส้ม 25 ลูก ซึ่งมีส้มเน่า 1 ลูก ส้มไม่สุก 20% ส้มเปรี้ยว 2 ลูก และส้มที่เหลือเป็นส้มหวานอร่อย ส้มที่หวานอร่อยมีทั้งหมดกี่ลูก
+การใช้เหตุผลต่อไปนี้ไม่สอดคล้องกัน:
+20% ของส้ม 25 ผลคือ 0.2 * 25 = ส้ม 5 ผล ดังนั้น ส้ม 5 ผลจึงไม่สุก และส้ม 20 ผล - 5 ผล = ส้ม 15 ผลเปรี้ยว เนื่องจากส้มเปรี้ยว 2 ผล ส
+รอสักครู่ … รอสักครู่ … ส้มที่เหลือต้องเป็นส้มหวานอร่อย ตัวเลือกคำตอบ: (A) 13 (B) 14 (C) 15 (D) 16 (E) 17
+Answer:
+ลองคิดทีละขั้นตอน คำตอบคือ B ส้ม 14 ผล เนื่องจา",17,❌ Incorrect (Expected: 17),✅ Correct after revision,1
+sw,"Kuna machungwa 25 kwenye kikapu. 1 imeharibiwa, kwa hiyo sasa kuna 25 - 1 = 24 machungwa kushoto. 20% ya machungwa hayajaiva, ambayo ina maana 20/100 * 24 = 4.8 machungwa hayajaiva. Kwa kuwa hatuwezi kuwa na sehemu ya chungwa, tunapunguza hadi nambari nzima il","Tatua maswali yafuatayo: Kikapu kina machungwa 25 na 1 miongoni mwao limeharibika, 20% hayajaiva, 2 ni chachu na mengine ni mazuri. Machungwa mangapi ni mazuri?
+Hoja ifuatayo ina hali ya kutofautiana:
+Kuna machungwa 25 kwenye kikapu. 1 imeharibiwa, kwa hiyo sasa kuna 25 - 1 = 24 machungwa kushoto. 20% ya machungwa hayajaiva, ambayo ina maana 20/100 * 24 = 4.8 machungwa hayajaiva. Kwa kuwa hatuwezi kuwa na sehemu ya chungwa, tunapunguza hadi nambari nzima il
+Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri",17,❌ Incorrect (Expected: 17),❌ Still Incorrect (Expected: 17),5
+bn,"20% কাঁচা মানে 20/100 * 25 = 5 কমলা কাঁচা। 1টি খারাপ এবং 2টি টক আছে, যার মানে 5 + 1 + 2 = 8টি কমলা ভালো নয়। এর মানে 25 - 8 =","নিম্নলিখিত প্রশ্নগুলি সমাধান করুন: একটি ঝুড়িতে রাখা 25টি কমলালেবুর মধ্যে 1টি কমলালেবু খারাপ, 20% কাঁচা, 2টি টক ও বাকিগুলো ভালো। কতগুলি কমলালেবু ভালো আছে?
+নিম্নলিখিত যুক্তিটিতে একটি অসঙ্গতি রয়েছে:
+20% কাঁচা মানে 20/100 * 25 = 5 কমলা কাঁচা। 1টি খারাপ এবং 2টি টক আছে, যার মানে 5 + 1 + 2 = 8টি কমলা ভালো নয়। এর মানে 25 - 8 =
+অপেক্ষা করুন … উত্তর পছন্দ: (A) 17 (B) 16 (C) 15 (D) 14 (E) 13
+Answer:
+আসুন ধাপে ধাপে চিন্তা করি। যুক্তি সঠিক নয়। আমরা উপসংহারে পৌঁছ",17,❌ Incorrect (Expected: 17),✅ Correct after revision,0
+te,25 నారింజలు ఉన్నాయి - 1 పాడైపోయినది = 24 నారింజలు మిగిలి ఉన్నాయి. 24 నారింజలు * 20% = 4.8 పండని,"కింది ప్రశ్నలను పరిష్కరించండి: ఒక బుట్టలో 25 నారింజ పండ్లు ఉన్నాయి, వాటిలో 1 పాడైపోయింది, 20% పండలేదు, 2 పుల్లగా ఉన్నాయి మరియు మిగిలినవి బాగున్నాయి. ఎన్ని నారింజపండ్లు మంచివి?
+కింది తార్కికంలో అస్థిరత ఉంది:
+25 నారింజలు ఉన్నాయి - 1 పాడైపోయినది = 24 నారింజలు మిగిలి ఉన్నాయి. 24 నారింజలు * 20% = 4.8 పండని
+ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి ఇది మనకు మొత్తం 24 నారింజలను ఇస్తుంది - 4.8 పండని ఆగండి = 19.2 పండని ఆగండి. అ",17,❌ Incorrect (Expected: 17),❌ Still Incorrect (Expected: 17),5

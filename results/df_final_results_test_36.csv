@@ -1,0 +1,39 @@
+language,original_response,revised_response,expected_answer,initial_status,new_status,wait_count
+en,"In the first 20 minutes, Mike scores 4 points.
+        In the second 20 minutes, he scores 25% more points, which is 4 * 0.25 = 1 more point.
+        So, in the second 20 minutes, he scores 4 + 1 = 5 points.
+        In total, Mike scores 4 + 5 = 9 points.
+        The answer is 9.","In the first 20 minutes, Mike scores 4 points.
+        In the second 20 minutes, he scores 25% more points, which is 4 * 0.25 = 1 more point.
+        So, in the second 20 minutes, he scores 4 + 1 = 5 points.
+        In total, Mike scores 4 + 5 = 9 points.
+        The answer is 9.",9,✅ Correct,✅ Correct,0
+es,"En los primeros 20 minutos, Mike anotó 4 puntos por minuto, por lo que anotó 4 * 20 = 80 puntos. En los segundos 20 minutos, Mike anotó un 25 % más de puntos que en los primeros 20 minutos, lo que es 4 * 0,25 = 1 punto más por minuto. Entonces, en los segundos 20 minutos, Mike anotó 4 + 1 = 5 puntos por minuto.","Resuelve las siguientes preguntas: Mike juega al pimpón durante 40 minutos. En los primeros 20 minutos, gana 4 puntos. En los segundos 20 minutos, gana un 25 % más de puntos. ¿Cuántos puntos ganó en total?
+El siguiente razonamiento tiene una inconsistencia:
+En los primeros 20 minutos, Mike anotó 4 puntos por minuto, por lo que anotó 4 * 20 = 80 puntos. En los segundos 20 minutos, Mike anotó un 25 % más de puntos que en los primeros 20 minutos, lo que es 4 * 0,25 = 1 punto más por minuto. Entonces, en los segundos 20 minutos, Mike anotó 4 + 1 = 5 puntos por minuto.
+Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera …",9,❌ Incorrect (Expected: 9),❌ Still Incorrect (Expected: 9),5
+fr,"Au cours des 20 premières minutes, Mike a marqué 4 points. Au cours des 20 minutes suivantes, il a marqué 25 % de points en plus, soit 4 * 0,25 = 1 point. Ainsi, au cours des 20 secondes suivantes, il a marqué 4 + 1 = 5 points. Au total, Mike a marqué 4 + 5 = 9 points. La réponse est 9.","Au cours des 20 premières minutes, Mike a marqué 4 points. Au cours des 20 minutes suivantes, il a marqué 25 % de points en plus, soit 4 * 0,25 = 1 point. Ainsi, au cours des 20 secondes suivantes, il a marqué 4 + 1 = 5 points. Au total, Mike a marqué 4 + 5 = 9 points. La réponse est 9.",9,✅ Correct,✅ Correct,0
+de,"In den ersten 20 Minuten macht Mike 4 Punkte. In den nächsten 20 Minuten macht er 25 % mehr Punkte, also 4 * 0,25 = 1 Punkt mehr. In den nächsten 20 Minuten macht er also 4 + 1 = 5 Punkte. Insgesamt macht Mike 4 + 5 = 9 Punkte. Die Antwort ist 9.","In den ersten 20 Minuten macht Mike 4 Punkte. In den nächsten 20 Minuten macht er 25 % mehr Punkte, also 4 * 0,25 = 1 Punkt mehr. In den nächsten 20 Minuten macht er also 4 + 1 = 5 Punkte. Insgesamt macht Mike 4 + 5 = 9 Punkte. Die Antwort ist 9.",9,✅ Correct,✅ Correct,0
+ru,"За первые 20 минут Майк набрал 4 очка. За вторые 20 минут он набрал на 25% больше очков, что составляет 4*0,25=1 балл. Итак, за вторые 20 минут он набрал 4+1=5 очков. Всего Майк набрал 4+5=9 очков. Ответ: 9.","За первые 20 минут Майк набрал 4 очка. За вторые 20 минут он набрал на 25% больше очков, что составляет 4*0,25=1 балл. Итак, за вторые 20 минут он набрал 4+1=5 очков. Всего Майк набрал 4+5=9 очков. Ответ: 9.",9,✅ Correct,✅ Correct,0
+zh,在前 20 分钟内，Mike 得到了 4 分。在接下来的 20 分钟内，他的得分提高了 25%，这意味着他每分钟额外获得 4 * 25% = 1 分。因此，在接下来的 20 分钟内，他得到了 4 + 1 = 5 分。总共，迈克得分为 4 + 5 = 9 分。答案是9。,在前 20 分钟内，Mike 得到了 4 分。在接下来的 20 分钟内，他的得分提高了 25%，这意味着他每分钟额外获得 4 * 25% = 1 分。因此，在接下来的 20 分钟内，他得到了 4 + 1 = 5 分。总共，迈克得分为 4 + 5 = 9 分。答案是9。,9,✅ Correct,✅ Correct,0
+ja,ステップごとの答え：マイクは最初の 20 分間で 4 ポイントを獲得しました。次の 20 分間で、彼は 25% 多く得点しました。これは、1 点あたり 1 点多くなります。したがって、彼は次の 20 分間で 4+1=5 ポイントを獲得しました。合計,"次の質問を解いてください: マイクは卓球を40分します。最初の20分に、彼は4ポイント得点します。次の20分では、彼は25%多く得点しました。全部で何ポイント得点しましたか？
+次の推論には矛盾があります:
+ステップごとの答え：マイクは最初の 20 分間で 4 ポイントを獲得しました。次の 20 分間で、彼は 25% 多く得点しました。これは、1 点あたり 1 点多くなります。したがって、彼は次の 20 分間で 4+1=5 ポイントを獲得しました。合計
+待ってください … マイクは 40 分間で 4+5=9 ポイントを獲得しました。答えの選択肢: (A) 10 (B) 11 (C) 12 (D) 13 (E) 14
+Answer:
+段階的に考えてみましょう。ステップごとの解決策: マイクは最初の 20 分間で 4 ポイントを獲得しま",9,❌ Incorrect (Expected: 9),✅ Correct after revision,0
+th,ในช่วง 20 นาทีแรก ไมค์ทำคะแนนได้ 4 แต้ม ในช่วง 20 นาทีต่อมา เขาทำคะแนนเพิ่มขึ้น 25% ซึ่งก็คือ 4 * 0.25 = 1 แต้ม ดังนั้นในช่วง 20,"แก้คำถามต่อไปนี้: ไมค์เล่นปิงปองเป็นเวลา 40 นาที ในช่วง 20 นาทีแรก เขาทำคะแนนได้ 4 แต้ม ในช่วง 20 นาทีต่อมา เขาทำคะแนนเพิ่มได้อีก 25% รวมแล้วเขาทำคะแนนได้ทั้งหมดกี่แต้ม
+การใช้เหตุผลต่อไปนี้ไม่สอดคล้องกัน:
+ในช่วง 20 นาทีแรก ไมค์ทำคะแนนได้ 4 แต้ม ในช่วง 20 นาทีต่อมา เขาทำคะแนนเพิ่มขึ้น 25% ซึ่งก็คือ 4 * 0.25 = 1 แต้ม ดังนั้นในช่วง 20
+รอสักครู่ … เขาทำคะแนนได้ 5 แต้ม คำตอบคือ 7 คะแนน คำตอบคือ (A) 7 (B) 8 (C) 9 (D) 10 (E) 11
+Answer:
+ลองคิดทีละขั้นตอน ให้ x เป็นจำนวนคะแนนที่ได้คะแนนใ",9,❌ Incorrect (Expected: 9),✅ Correct after revision,0
+sw,"Katika dakika 20 za pili, Mike anafunga 4 * 1.25 = alama 5. Kwa jumla, Mike anafunga 4 + 5 = alama 9. Jibu ni 9.","Katika dakika 20 za pili, Mike anafunga 4 * 1.25 = alama 5. Kwa jumla, Mike anafunga 4 + 5 = alama 9. Jibu ni 9.",9,✅ Correct,✅ Correct,0
+bn,"প্রথম 20 মিনিটে, মাইক 4 পয়েন্ট স্কোর করেছে। দ্বিতীয় 20 মিনিটে, তিনি 25% বেশি পয়েন্ট স্কোর করেছেন, যা 4 * 0.25 = 1 আরও","নিম্নলিখিত প্রশ্নগুলি সমাধান করুন: মাইক 40 মিনিট ধরে পিং-পং খেলেন। প্রথম 20 মিনিটে তিনি 4 পয়েন্ট স্কোর করেছেন। দ্বিতীয় 20 মিনিটে তিনি 25% বেশি পয়েন্ট স্কোর করেছেন। তিনি মোট কত পয়েন্ট স্কোর করেছেন?
+নিম্নলিখিত যুক্তিটিতে একটি অসঙ্গতি রয়েছে:
+প্রথম 20 মিনিটে, মাইক 4 পয়েন্ট স্কোর করেছে। দ্বিতীয় 20 মিনিটে, তিনি 25% বেশি পয়েন্ট স্কোর করেছেন, যা 4 * 0.25 = 1 আরও
+অপেক্ষা করুন … তাই দ্বিতীয় 20 মিনিটে, তিনি 4 + 1 = 5 পয়েন্ট স্কোর করেছেন। মাইক মোট 4 + 5 = 9 পয়েন্ট স্কোর করেছে। উত্তর পছন্দ: (A) 9 (B) 1",9,❌ Incorrect (Expected: 9),✅ Correct after revision,0
+te,"మొదటి 20 నిమిషాల్లో, మైక్ 4 పాయింట్లు సాధించాడు, కాబట్టి అతని మొత్తం స్కోరు 4 �","కింది ప్రశ్నలను పరిష్కరించండి: మైక్ 40 నిమిషాలపాటు పింగ్‌ పాంగ్ ఆడతాడు. మొదటి 20 నిమిషాల్లో, అతడు 4 పాయింట్‌ల స్కోరు చేశాడు. రెండో 20 నిమిషాల్లో, అతడు 25% ఎక్కువ పాయింట్‌లను స్కోరు చేశాడు. అతడు మొత్తం ఎన్ని సార్లు స్కోరు చేశాడు?
+కింది తార్కికంలో అస్థిరత ఉంది:
+మొదటి 20 నిమిషాల్లో, మైక్ 4 పాయింట్లు సాధించాడు, కాబట్టి అతని మొత్తం స్కోరు 4 �
+ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి మొదటి 20 నిమిషాల్లో మైక్ స్కోర్ చేసిన పాయింట్లు. అందువల్ల, అతని మొత్తం ",9,❌ Incorrect (Expected: 9),❌ Still Incorrect (Expected: 9),5

@@ -1,0 +1,55 @@
+language,original_response,revised_response,expected_answer,initial_status,new_status,wait_count
+en,"Jill earns $20 per hour for teaching, so she earns 35 * 20 = $700 a week for teaching.
+        Jill earns $30 per hour for being a cheerleading coach, so she earns 15 * 30 = $450 a week for being a coach.
+        Jill earns a total of $700 + $450 = $1150 a week.
+        If Jill works 50 weeks a year, she earns a total of $1150 *","Solve the following questions: Jill gets paid $20 per hour to teach and $30 to be a cheerleading coach. If she works 50 weeks a year, 35 hours a week as a teacher and 15 hours a week as a coach, what's her annual salary?
+The following reasoning has an inconsistency:
+Jill earns $20 per hour for teaching, so she earns 35 * 20 = $700 a week for teaching.
+        Jill earns $30 per hour for being a cheerleading coach, so she earns 15 * 30 = $450 a week for being a coach.
+        Jill earns a total of $700 + $450 = $1150 a week.
+        If Jill works 50 weeks a year, she earns a total of $1150 *
+Wait …
+The answer is 57500.",57500,❌ Incorrect (Expected: 57500),✅ Correct after revision,0
+es,"Jill gana $20 por hora por enseñar, por lo que si trabaja 35 horas a la semana, gana 35 * $20 = $700 por semana. También gana $30 por hora por ser entrenadora de porristas, por lo que si trabaja 15 horas a la semana, gana 15 * $30 = $450 por semana. En total, Jill gana $700 + $450 = $1150 por semana","Resuelve las siguientes preguntas: A Jill le pagan $20 la hora por enseñar y $30 por ser entrenadora de porristas. ¿Cuál es su salario anual si trabaja 50 semanas al año, 35 horas a la semana como maestra y 15 horas a la semana como entrenadora?
+El siguiente razonamiento tiene una inconsistencia:
+Jill gana $20 por hora por enseñar, por lo que si trabaja 35 horas a la semana, gana 35 * $20 = $700 por semana. También gana $30 por hora por ser entrenadora de porristas, por lo que si trabaja 15 horas a la semana, gana 15 * $30 = $450 por semana. En total, Jill gana $700 + $450 = $1150 por semana
+Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera …",57500,❌ Incorrect (Expected: 57500),❌ Still Incorrect (Expected: 57500),5
+fr,"Jill gagne 20 $ de l'heure en tant qu'enseignante, donc si elle travaille 35 heures par semaine, elle gagne 35 x 20 $ = 700 $ par semaine. Elle gagne également 30 $ de l'heure en tant qu'entraîneur de majorettes, donc si elle travaille 15 heures par semaine, elle gagne 15 x 30 $ = 450 $ par semaine. Au total, Jill gagne 700","Résolvez les questions suivantes: Jill gagne 20 $ de l'heure en tant qu'enseignante et 30 $ comme entraineuse de majorettes. Si elle travaille 35 heures par semaine en tant qu'enseignante, 15 heures par semaine comme entraineuse et 50 semaines par an, quel est son salaire annuel ?
+Le raisonnement suivant présente une incohérence :
+Jill gagne 20 $ de l'heure en tant qu'enseignante, donc si elle travaille 35 heures par semaine, elle gagne 35 x 20 $ = 700 $ par semaine. Elle gagne également 30 $ de l'heure en tant qu'entraîneur de majorettes, donc si elle travaille 15 heures par semaine, elle gagne 15 x 30 $ = 450 $ par semaine. Au total, Jill gagne 700
+Attendez … Attendez … Attendez … Attendez … Attendez … Attendez. Quel est le salaire annuel de Jill ? Choix de réponses : (A) 10 400 $ (B) 11 400 $ (C) 12 400 $ (D) 13 400 $ (E) 14 400 $
+Answer:
+Réfléchissons étape par étape. Jill gagne 700 $ + 450 $ = 1 150 $ par sem",57500,❌ Incorrect (Expected: 57500),❌ Still Incorrect (Expected: 57500),5
+de,"Antwort: Schritt-für-Schritt-Antwort: Jill verdient 20 $ pro Stunde als Lehrerin, also verdient sie 35 x 20 = 700 $ pro Woche als Lehrerin. Sie verdient außerdem 30 $ pro Stunde als Cheerleader-Trainerin, also verdient sie 15 x 30 = 450 $ pro Woche als Cheerleader-Trainerin. Insgesamt verdient sie 700 + 45","Los die folgenden Fragen: Jill bekommt 20 US-Dollar pro Stunde für den Unterricht als Lehrerin und 30 US-Dollar als Cheerleader-Coach. Wenn sie 50 Wochen pro Jahr arbeitet, 35 Wochen pro Woche als Lehrerin und 15 Stunden pro Woche als Coach, wie hoch ist dann ihr Jahresgehalt?
+Die folgende Argumentation enthält eine Inkonsistenz:
+Antwort: Schritt-für-Schritt-Antwort: Jill verdient 20 $ pro Stunde als Lehrerin, also verdient sie 35 x 20 = 700 $ pro Woche als Lehrerin. Sie verdient außerdem 30 $ pro Stunde als Cheerleader-Trainerin, also verdient sie 15 x 30 = 450 $ pro Woche als Cheerleader-Trainerin. Insgesamt verdient sie 700 + 45
+Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte",57500,❌ Incorrect (Expected: 57500),❌ Still Incorrect (Expected: 57500),5
+ru,"Джилл зарабатывает 20 долларов в час за работу учителем, и она работает 35 часов в неделю в качестве учителя, поэтому она зарабатывает 20 * 35 = 700 долларов в неделю в качестве учителя. Джилл зарабатывает 30 долларов в час за работу тренером по чирлидингу, и она работает 15 часов в неделю тренером","Решите следующие вопросы: Джилл платят 20 $ в час за работу учителем и 30 $ в час за работу тренером по чирлидингу. Если она работает 50 недель в году, 35 часов в неделю учителем и 15 часов в неделю тренером, какой у нее годовой оклад?
+Следующее рассуждение имеет несоответствие:
+Джилл зарабатывает 20 долларов в час за работу учителем, и она работает 35 часов в неделю в качестве учителя, поэтому она зарабатывает 20 * 35 = 700 долларов в неделю в качестве учителя. Джилл зарабатывает 30 долларов в час за работу тренером по чирлидингу, и она работает 15 часов в неделю тренером
+Подождите … Подождите … Подождите … Подождите … Подождите … Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подо",57500,❌ Incorrect (Expected: 57500),❌ Still Incorrect (Expected: 57500),5
+zh,Jill 每周工作 35 小时，每小时赚取 20 美元，因此她每周的教师收入为 35 * 20 美元 = 700 美元。 Jill 每周工作 15 小时，每小时赚取 30 美元，因此她每周的啦啦队教练收入为 15 * 30 美元 = 450 美元。 Jill 每周,"解答以下问题: 吉尔担任老师的时薪是 20 美元，担任啦啦队教练的时薪是 30 美元。如果她每年工作 50 周，担任老师每周工作 35 小时，担任教练每周工作 15 小时，则她的年薪是多少？
+以下推理存在不一致之处：
+Jill 每周工作 35 小时，每小时赚取 20 美元，因此她每周的教师收入为 35 * 20 美元 = 700 美元。 Jill 每周工作 15 小时，每小时赚取 30 美元，因此她每周的啦啦队教练收入为 15 * 30 美元 = 450 美元。 Jill 每周
+等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 …",57500,❌ Incorrect (Expected: 57500),❌ Still Incorrect (Expected: 57500),5
+ja,ステップごとの答え: ジルは時給 20 ドルを稼ぎ、週 35 時間教えるので、週あたり 35*20=700 ドルを稼ぎます。ジルは時給 30 ドルを稼ぎ、週に 15 時間チアリーディングをします。つまり、週,"次の質問を解いてください: ジルは、教員としては時給20ドル、チアリーディングコーチとしては時給30ドル受け取ります。ジルが年間50週間働き、1週間に35時間を教員、15時間をコーチとして働いた場合、年間の給料はいくらになりますか？
+次の推論には矛盾があります:
+ステップごとの答え: ジルは時給 20 ドルを稼ぎ、週 35 時間教えるので、週あたり 35*20=700 ドルを稼ぎます。ジルは時給 30 ドルを稼ぎ、週に 15 時間チアリーディングをします。つまり、週
+待ってください … 待ってください … 待ってください … 待ってください … 待ってください … ジルは、チアリーディングのコーチとして週に 30*15=450 ドルを稼ぎます。合計すると、ジルは週に 700 ドル + 450 ドル = 1150 ドルを稼ぎます。 1 年間で、ジルは 50*1150 ドル = 57,500 ドルを�",57500,❌ Incorrect (Expected: 57500),❌ Still Incorrect (Expected: 57500),5
+th,ในฐานะครูสอน จิลล์มีรายได้ 20 ดอลลาร์ต่อชั่วโมง และเธอสอน 35 ชั่วโมงต่อสัปดาห์ ดังนั้นเธอจึงมีรายได้ 20 * 35 = 700 ดอลลาร์ต่อสัปด,"แก้คำถามต่อไปนี้: จิลล์ได้รับค่าจ้างสอนหนังสือชั่วโมงละ $20 และเป็นโค้ชเชียร์ลีดเดอร์ชั่วโมงละ $30 ถ้าในหนึ่งปีเธอทำงาน 50 สัปดาห์ โดยเป็นครูสัปดาห์ละ 35 ชั่วโมง และเป็นโค้ชสัปดาห์ละ 15 ชั่วโมง เธอจะมีรายได้ต่อปีกี่ดอลลาร์
+การใช้เหตุผลต่อไปนี้ไม่สอดคล้องกัน:
+ในฐานะครูสอน จิลล์มีรายได้ 20 ดอลลาร์ต่อชั่วโมง และเธอสอน 35 ชั่วโมงต่อสัปดาห์ ดังนั้นเธอจึงมีรายได้ 20 * 35 = 700 ดอลลาร์ต่อสัปด
+รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักค",57500,❌ Incorrect (Expected: 57500),❌ Still Incorrect (Expected: 57500),5
+sw,"Jill anapata $20 kwa saa kwa kufundisha, kwa hiyo kwa saa 35 za kufundisha kwa wiki, anapata 35 * 20 = $700 kwa wiki. Kwa mwaka, anapata $700 * 50 = $35,000 kwa kufundisha. Jill anapata $30 kwa saa kwa kuwa kocha, kwa hiyo kwa saa 15 za k","Tatua maswali yafuatayo: Jill analipwa $20 kila saa kufunza na $30 kuwa kocha wa mashabiki. Iwapo huwa anafanya kazi wiki 50 kwa mwaka, saa 35 kwa wiki kama mwalimu na saa 15 kama kocha, mshahara wake wa kila mwaka ni ngapi?
+Hoja ifuatayo ina hali ya kutofautiana:
+Jill anapata $20 kwa saa kwa kufundisha, kwa hiyo kwa saa 35 za kufundisha kwa wiki, anapata 35 * 20 = $700 kwa wiki. Kwa mwaka, anapata $700 * 50 = $35,000 kwa kufundisha. Jill anapata $30 kwa saa kwa kuwa kocha, kwa hiyo kwa saa 15 za k
+Subiri … anapata 15 * 30 = $450 kwa wiki. Kwa mwaka, anapata $450 * 50 = $22,500 kwa kuwa kocha. Jumla ya mapato yake kutoka kwa kufundisha na kuwa kocha ni $35,000 + $22,500 = $57,500. Jibu ni 57500.",57500,❌ Incorrect (Expected: 57500),✅ Correct after revision,0
+bn,"জিল প্রতি ঘন্টায় $20 উপার্জন করে এবং সপ্তাহে 35 ঘন্টা শিক্ষক হিসাবে কাজ করে, তাই সে প্রতি সপ্তাহে শিক্ষক হিসাবে 35 * $20 = $7","নিম্নলিখিত প্রশ্নগুলি সমাধান করুন: জিল শিক্ষকতা করার জন্য প্রতি ঘণ্টায় $20 এবং চিয়ারলিডার প্রশিক্ষক হওয়ার জন্য $30 বেতন পান। যদি তিনি এক বছরে 50 সপ্তাহ কাজ করেন, তাহলে এক সপ্তাহে 35 ঘণ্টা শিক্ষিকা হিসাবে এবং এক সপ্তাহে 15 ঘণ্টা প্রশিক্ষক হিসাবে কাজ করলে, তাঁর বার্ষিক বেতন কত?
+নিম্নলিখিত যুক্তিটিতে একটি অসঙ্গতি রয়েছে:
+জিল প্রতি ঘন্টায় $20 উপার্জন করে এবং সপ্তাহে 35 ঘন্টা শিক্ষক হিসাবে কাজ করে, তাই সে প্রতি সপ্তাহে শিক্ষক হিসাবে 35 * $20 = $7
+অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন। উত্তর পছন্দ: (A) $1400 (B) $1500 (C) $1600 (D) $1700 (E) $1800
+",57500,❌ Incorrect (Expected: 57500),❌ Still Incorrect (Expected: 57500),5
+te,జిల్ బోధించినందుకు గంటకు $20 సంపాదిస్తుంది మరియు ఆమె వారానికి 35 గంటలు బోధిస్తుం,"కింది ప్రశ్నలను పరిష్కరించండి: జిల్ బోధించినందుకు ప్రతి గంటకు $20 మరియు చీర్‌లీడింగ్ కోచ్‌గా ఉన్నందుకు $30 పొందుతుంది. ఆమె సంవత్సరంలో 50 వారాలు, వారానికి 35 గంటలపాటు టీచర్‌గా మరియు వారానికి 15 గంటలపాటు కోచ్‌గా పనిచేసినట్లయితే, ఆమె వార్షిక వేతనం ఎంత?
+కింది తార్కికంలో అస్థిరత ఉంది:
+జిల్ బోధించినందుకు గంటకు $20 సంపాదిస్తుంది మరియు ఆమె వారానికి 35 గంటలు బోధిస్తుం
+ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి జిల్ చీర్‌లీడింగ్ కోచ్‌గా పనిచేసినందుకు గంటకు $30 సంపాదిస్తుంది మరియు ",57500,❌ Incorrect (Expected: 57500),❌ Still Incorrect (Expected: 57500),5

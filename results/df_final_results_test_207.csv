@@ -1,0 +1,67 @@
+language,original_response,revised_response,expected_answer,initial_status,new_status,wait_count
+en,"Micheal rode his bike 5 times a week for 4 weeks, so he rode 5 * 4 = 20 times in total.
+        In each time he rode, he rode 25 kilometers, so in total he rode 25 * 20 = 500 kilometers in the first 4 weeks.
+        Then he decided to ride his bike 2 times a week for 3 weeks, so he rode 2 * 3 = 6 times in total.
+        In each of these times he rode 60 kilometers, so in total he","Solve the following questions: Micheal loves riding a bike. He rode it at least 5 times a week and makes 25 kilometers each time. He did that for four weeks, and then he decided, to ride the bike only 2 times a week, but for 60 kilometers each time, and he did that for 3 weeks. How many kilometers did Micheal do in total?
+The following reasoning has an inconsistency:
+Micheal rode his bike 5 times a week for 4 weeks, so he rode 5 * 4 = 20 times in total.
+        In each time he rode, he rode 25 kilometers, so in total he rode 25 * 20 = 500 kilometers in the first 4 weeks.
+        Then he decided to ride his bike 2 times a week for 3 weeks, so he rode 2 * 3 = 6 times in total.
+        In each of these times he rode 60 kilometers, so in total he
+Wait … Wait …
+        He rode 60 * 6 = 360 kilometers in the next 3 weeks.
+        So in total Micheal rode 500 + 360 = 860 kilometers.
+Answer Choices: (A) 860 kilometers. (B) 860 kilometers. (C) 806 kilometers. (D) 805 kilometers. (E) 680 kilometers.
+Answer:
+Let's think step by step.
+A
+860 kilometers.
+",860,❌ Incorrect (Expected: 860),✅ Correct after revision,1
+es,"En las primeras cuatro semanas, Michael recorrió 5 veces por semana 25 kilómetros, por lo que recorrió 4 semanas x 5 veces por semana = 20 veces. En cada una de estas 20 veces, recorrió 25 kilómetros, por lo que recorrió 20 veces x 25 kilómetros = 500 kilómetros. En las siguientes tres semanas, Michael anduvo en bicicleta 2 ve","Resuelve las siguientes preguntas: A Micheal le encanta andar en bicicleta. Anda en bicicleta al menos 5 veces a la semana y hace 25 kilómetros cada vez. Lo hizo durante cuatro semanas; luego, decidió andar en bicicleta solo 2 veces a la semana, pero hacer 60 kilómetros cada vez, y lo hizo durante 3 semanas. ¿Cuántos kilómetros recorrió Micheal en total?
+El siguiente razonamiento tiene una inconsistencia:
+En las primeras cuatro semanas, Michael recorrió 5 veces por semana 25 kilómetros, por lo que recorrió 4 semanas x 5 veces por semana = 20 veces. En cada una de estas 20 veces, recorrió 25 kilómetros, por lo que recorrió 20 veces x 25 kilómetros = 500 kilómetros. En las siguientes tres semanas, Michael anduvo en bicicleta 2 ve
+Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera …",860,❌ Incorrect (Expected: 860),❌ Still Incorrect (Expected: 860),5
+fr,"Au cours des quatre premières semaines, Michael a parcouru 5 fois par semaine x 25 miles/trajet = 125 miles/semaine. Au total, il a parcouru 125 milles/semaine x 4 semaines = 500 milles au cours des quatre premières semaines. Au cours des trois semaines suivantes, Michael a parcouru 2 fois par semaine x 60 miles/trajet = 120 miles/semaine. Au total, il a parcouru 120","Résolvez les questions suivantes: Micheal adore faire du vélo. Il en fait au moins 5 fois par semaine et fait 25 kilomètres à chaque fois. Il l'a fait pendant quatre semaines, puis il a décidé de n'en faire que 2 fois par semaine, mais en parcourant 60 kilomètres à chaque fois, ce qu'il a fait pendant 3 semaines. Combien de kilomètres Micheal a-t-il fait au total ?
+Le raisonnement suivant présente une incohérence :
+Au cours des quatre premières semaines, Michael a parcouru 5 fois par semaine x 25 miles/trajet = 125 miles/semaine. Au total, il a parcouru 125 milles/semaine x 4 semaines = 500 milles au cours des quatre premières semaines. Au cours des trois semaines suivantes, Michael a parcouru 2 fois par semaine x 60 miles/trajet = 120 miles/semaine. Au total, il a parcouru 120
+Attendez … 3 semaines x 120 miles/semaine = 360 miles au cours des trois prochaines semaines. Au total, Michael a parcouru 500 milles + 360 milles = 860 milles.
+Answer:
+Réfléchissons étape par étape. L'énoncé initial est correct. Micheal a parcouru un total de 860 milles. La réponse est 860.",860,❌ Incorrect (Expected: 860),✅ Correct after revision,0
+de,In den ersten 4 Wochen fuhr Michael 5 Mal pro Woche x 25 Kilometer/Fahrt = 125 Kilometer/Woche. In 4 Wochen fuhr er insgesamt 125 Kilometer/Woche x 4 Wochen = 500 Kilometer. In den nächsten 3 Wochen fuhr Michael 2 Mal pro Woche x 60 Kilometer/Fahrt = 120 Kilometer/Woche. In 3 Wochen fuhr er insgesamt 12,"Los die folgenden Fragen: Micheal fährt liebend gerne Fahrrad. Er fuhr mindestens 5 Mal pro Woche und legte jedes Mal 25 Kilometer zurück. Er tat das vier Wochen lang und beschloss dann, das Fahrrad nur 2 Mal pro Woche zu fahren, aber jedes Mal 60 Kilometer weit, und tat das 3 Wochen lang. Wie viele Kilometer legte Micheal insgesamt zurück?
+Die folgende Argumentation enthält eine Inkonsistenz:
+In den ersten 4 Wochen fuhr Michael 5 Mal pro Woche x 25 Kilometer/Fahrt = 125 Kilometer/Woche. In 4 Wochen fuhr er insgesamt 125 Kilometer/Woche x 4 Wochen = 500 Kilometer. In den nächsten 3 Wochen fuhr Michael 2 Mal pro Woche x 60 Kilometer/Fahrt = 120 Kilometer/Woche. In 3 Wochen fuhr er insgesamt 12
+Warte … 360 Kilometer. Insgesamt fuhr Michael also 500 Kilometer + 360 Kilometer = 860 Kilometer. Antwortmöglichkeiten: (A) 860 Kilometer (B) 860 Kilometer (C) 860 Kilometer (D) 860 Kilometer (E) 860 Kilometer
+Answer:
+Denken wir Schritt für Schritt. A 860 Kilometer Die Addition der Distanzen ist in der Summe korrekt, also ist",860,❌ Incorrect (Expected: 860),✅ Correct after revision,0
+ru,"За первые четыре недели Майкл проезжал на велосипеде 5 * 25 = 125 километров в неделю. Таким образом, за первые четыре недели он проехал 125 * 4 = 500 километров. В следующие три недели он проезжал на велосипеде 60 * 2 = 120 километров в неделю. Таким образом, за следующие три не","Решите следующие вопросы: Майкл любит кататься на велосипеде. Он ездил на нем не меньше 5 раз в неделю и каждый раз проезжал 25 километров. Он делал это четыре недели, а потом решил ездить на велосипеде только 2 раза в неделю, но каждый раз проезжать 60 километров, и делал это 3 недели. Сколько всего километров проехал Майкл?
+Следующее рассуждение имеет несоответствие:
+За первые четыре недели Майкл проезжал на велосипеде 5 * 25 = 125 километров в неделю. Таким образом, за первые четыре недели он проехал 125 * 4 = 500 километров. В следующие три недели он проезжал на велосипеде 60 * 2 = 120 километров в неделю. Таким образом, за следующие три не
+Подождите … 120 * 3 = 360 километров. Итак, всего Майкл проехал 500 + 360 = 860 километров. Варианты ответа: (A) 860 км (B) 861 км (C) 862 км (D) 863 км (E) 864 км
+Answer:
+Давайте думать поэтапно. 860 км. Добавьте пробе",860,❌ Incorrect (Expected: 860),✅ Correct after revision,0
+zh,在前 4 周内，他骑自行车的距离为 5 * 25 = 125 公里。在接下来的 3 周内，他骑自行车的距离为 2 * 60 = 120 公里。他总共骑了 125 + 120 = 245 公里。答案是245。,"解答以下问题: 迈克尔喜欢骑自行车。他每周至少骑 5 次，每次骑 25 公里。他这样骑了 4 周，然后他决定每周只骑自行车 2 次，但每次骑 60 公里，而且他这样骑了 3 周。迈克尔一共骑了多少公里？
+以下推理存在不一致之处：
+在前 4 周内，他骑自行车的距离为 5 * 25 = 125 公里。在接下来的 3 周内，他骑自行车的距离为 2 * 60 = 120 公里。他总共骑了 125 + 120 = 245 公里。答案是245。
+等待 … 等待 … 等待 … 等待 … 答案是245。
+Answer:
+让我们一步步思考。是的，你是对的。我之前的推理有错误。迈克尔骑自行车的总距离为： 4 周 * 125 公里/周 + 3 周 * 120 公里/周 = 500 + 360 = 860 公里。答案是860。",860,❌ Incorrect (Expected: 860),✅ Correct after revision,3
+ja,最初の 4 週間、マイケルは 5 日間 x 25 キロメートル = 125 キロメートルを週に乗りました。合計すると、最初の 4 週間で、125 キロメートル/週 x 4 週間 = 500 キロメートルを走行しました。次の 3 週間で、,"次の質問を解いてください: マイケルは自転車に乗ることが大好きです。彼は少なくとも週に5回乗って、毎回25キロ走ります。彼はそれを4週間行い、それから週に2回だけ、しかし60キロ毎回乗ることに決めました、彼はそれを3週間続けました。マイケルは全部で何キロ走りましたか？
+次の推論には矛盾があります:
+最初の 4 週間、マイケルは 5 日間 x 25 キロメートル = 125 キロメートルを週に乗りました。合計すると、最初の 4 週間で、125 キロメートル/週 x 4 週間 = 500 キロメートルを走行しました。次の 3 週間で、
+待ってください … 待ってください … 待ってください … 待ってください … 待ってください … 500 キロメートル + 60 キロメートル + 60 キロメートル = 620 キロメートル しかし、次の 3 週間で、彼は 2 日間 x 60 キロメートル = 120 キロメートル/週しか走行しませんでした。したがって、次の 3 週間で、12",860,❌ Incorrect (Expected: 860),❌ Still Incorrect (Expected: 860),5
+th,ในสี่สัปดาห์แรก ไมเคิลปั่นจักรยาน 5 ครั้งต่อสัปดาห์ และแต่ละครั้งเขาปั่นจักรยาน 25 กิโลเมตร ดังนั้นเขาจึงปั่นจักรยานได้ทั้งหมด,"แก้คำถามต่อไปนี้: ไมเคิลชอบปั่นจักรยาน เขาปั่นจักรยานอย่างน้อย 5 ครั้งต่อสัปดาห์ และในแต่ละครั้งปั่นได้ 25 กิโลเมตร เขาทำอย่างนั้นเป็นเวลาสี่สัปดาห์ แล้วเขาก็ตัดสินใจว่าจะปั่นจักรยานเพียง 2 ครั้งต่อสัปดาห์ แต่จะปั่นเป็นระยะทางครั้งละ 60 กิโลเมตร และเขาทำอย่างนั้นเป็นเวลา 3 สัปดาห์ ไมเคิลปั่นจักรยานไปทั้งหมดกี่กิโลเมตร
+การใช้เหตุผลต่อไปนี้ไม่สอดคล้องกัน:
+ในสี่สัปดาห์แรก ไมเคิลปั่นจักรยาน 5 ครั้งต่อสัปดาห์ และแต่ละครั้งเขาปั่นจักรยาน 25 กิโลเมตร ดังนั้นเขาจึงปั่นจักรยานได้ทั้งหมด
+รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักค",860,❌ Incorrect (Expected: 860),❌ Still Incorrect (Expected: 860),5
+sw,"Katika wiki 4 za kwanza, alipanda kilomita 25 * mara 5 kwa wiki = kilomita 125. Katika wiki 3 zilizofuata, alipanda kilomita 60 * mara 2 kwa wiki = kilomita 120. Kwa jumla, alipanda kilomita 125 + 120 kilomita = 245 kilomita. Jibu ni 245.","Tatua maswali yafuatayo: Micheal anapenda kuendesha baiskeli. Aliiendesha angalau mara 5 kwa wiki na kwenda umbali wa kilomita 25 mila mara. Alifanya hiyo kwa wiki nne, na kisha akaamua kuendesha baiskeli mara 2 pekee kwa wiki, lakini kwa kilomita 60 kila mara, na alifanya hiyo kwa wiki 3. Micheal alifanya kilomita ngapi kwa jumla?
+Hoja ifuatayo ina hali ya kutofautiana:
+Katika wiki 4 za kwanza, alipanda kilomita 25 * mara 5 kwa wiki = kilomita 125. Katika wiki 3 zilizofuata, alipanda kilomita 60 * mara 2 kwa wiki = kilomita 120. Kwa jumla, alipanda kilomita 125 + 120 kilomita = 245 kilomita. Jibu ni 245.
+Subiri … Subiri … Subiri … Subiri … Subiri … Subiri.",860,❌ Incorrect (Expected: 860),❌ Still Incorrect (Expected: 860),5
+bn,প্রথম সপ্তাহে মাইকেল 5 দিনের জন্য 25 কিলোমিটার বাইক চালান * 5 দিন = 125 কিলোমিটার। দ্বিতীয় সপ্তাহে তিনি একই দূরত্ব কভার করে�,"নিম্নলিখিত প্রশ্নগুলি সমাধান করুন: মাইকেল বাইক চালাতে ভালোবাসেন। তিনি এটি এক সপ্তাহে অন্তত 5 বার চালিয়েছেন এবং প্রতিবারেই 25 কিলোমিটার চালান। তিনি এটি চার সপ্তাহ ধরে করেছিলেন, এবং তারপর তিনি ঠিক করেছিলেন, এক সপ্তাহে তিনি মাত্র 2 বার বাইক চালাবেন, কিন্তু প্রতিবার 60 কিলোমিটার করে চালাবেন, এবং তিনি এটি 3 সপ্তাহ করেছিলেন। মাইকেল মোট কত কিলোমিটার চালিয়ে ছিলেন?
+নিম্নলিখিত যুক্তিটিতে একটি অসঙ্গতি রয়েছে:
+প্রথম সপ্তাহে মাইকেল 5 দিনের জন্য 25 কিলোমিটার বাইক চালান * 5 দিন = 125 কিলোমিটার। দ্বিতীয় সপ্তাহে তিনি একই দূরত্ব কভার করে�
+অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … তিনি চতুর্থ সপ্তাহে একই দূরত্ব কভার করেছেন। তারপর পঞ্চম সপ্তাহে তিনি 2 দিনের জন্য 60 কিলোমিটার বাইক চালান * 2 দিন = 120 ক",860,❌ Incorrect (Expected: 860),❌ Still Incorrect (Expected: 860),5
+te,"మొదటి 4 వారాలలో, అతను 5*25*4=500 కిలోమీటర్లు బైక్ రైడ్ చేశాడు. తదుపరి 3 వారాలలో, అత","కింది ప్రశ్నలను పరిష్కరించండి: మైకెల్ బైక్ రైడింగ్‌ని ఇష్టపడతాడు. అతడు దానిని వారానికి కనీసం 5సార్లు రైడ్ చేస్తాడు మరియు ప్రతిసారి 25 కిలోమీటర్లు ప్రయాణిస్తాడు. అతడు దీనిని నాలుగు వారాలపాటు చేశాడు, తరువాత, వారానికి కేవలం 2 సార్లు మాత్రమే, అయితే ప్రతిసారి 60 కిలోమీటర్లు బైక్ రైడ్ చేయాలని నిర్ణయించుకున్నాడు, అతడు 3 వారాలపాటు చేశాడు. మైకెల్ మొత్తం ఎన్ని కిలోమీటర్లు రైడింగ్ చేశాడు?
+కింది తార్కికంలో అస్థిరత ఉంది:
+మొదటి 4 వారాలలో, అతను 5*25*4=500 కిలోమీటర్లు బైక్ రైడ్ చేశాడు. తదుపరి 3 వారాలలో, అత
+ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి అతను బైక్ రైడ్ చేసిన మొత్తం దూరాన్ని గణించడానికి మేము అస్థిరమైన భ",860,❌ Incorrect (Expected: 860),❌ Still Incorrect (Expected: 860),5

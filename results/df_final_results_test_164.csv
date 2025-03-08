@@ -1,0 +1,47 @@
+language,original_response,revised_response,expected_answer,initial_status,new_status,wait_count
+en,"The cost of the doll is 3 * 5 = 15.
+        The cost of the red cars is 5 * 4 = 20.
+        The cost of all toys is 15 + 20 + 3 * 5 = 15 + 20 + 15 = 50.
+        The answer is 50.
+Answer:
+Let's think step by step.
+The cost of the doll is 3 * 5 = 15.
+The cost of the red cars is 5 * 4 =","The cost of the doll is 3 * 5 = 15.
+        The cost of the red cars is 5 * 4 = 20.
+        The cost of all toys is 15 + 20 + 3 * 5 = 15 + 20 + 15 = 50.
+        The answer is 50.
+Answer:
+Let's think step by step.
+The cost of the doll is 3 * 5 = 15.
+The cost of the red cars is 5 * 4 =",50,✅ Correct,✅ Correct,0
+es,La respuesta es 14.,"Resuelve las siguientes preguntas: En una sala, hay diferentes juguetes: 5 autitos rojos, 3 muñecos coleccionables y una muñeca. La muñeca cuesta lo mismo que los 3 muñecos coleccionables y un autito rojo cuesta $4. ¿Cuánto valen todos los juguetes si un muñeco coleccionable cuesta $5?
+El siguiente razonamiento tiene una inconsistencia:
+La respuesta es 14.
+Espera … Espera … Espera … Espera … Espera … Espera.",50,❌ Incorrect (Expected: 50),❌ Still Incorrect (Expected: 50),5
+fr,La valeur des 3 figurines est de 3 x 5 = 15 dollars. La valeur de la poupée est de 15 dollars. La valeur des 5 voitures rouges est de 5 x 4 = 20 dollars. La valeur totale de tous les jouets est donc de 15 + 15 + 20 = 50 dollars. La réponse est 50.,La valeur des 3 figurines est de 3 x 5 = 15 dollars. La valeur de la poupée est de 15 dollars. La valeur des 5 voitures rouges est de 5 x 4 = 20 dollars. La valeur totale de tous les jouets est donc de 15 + 15 + 20 = 50 dollars. La réponse est 50.,50,✅ Correct,✅ Correct,0
+de,"Die Puppe kostet 15 $, weil 3 x 5 = 15. Das rote Auto ist 20 $ wert, weil 4 x 5 = 20. Die Gesamtkosten für das Spielzeug betragen 48 $, weil 5 + 3 + 15 + 20 = 48. Die Antwort ist 48.","Los die folgenden Fragen: In einem Zimmer gibt es verschiedenes Spielzeug: 5 rote Autos, 3 Actionfiguren und eine Puppe. Die Puppe kostet so viel wie 3 Actionfiguren, und ein rotes Auto kostet 4 $. Wie viel ist das ganze Spielzeug wert, wenn eine Actionfigur 5 $ kostet?
+Die folgende Argumentation enthält eine Inkonsistenz:
+Die Puppe kostet 15 $, weil 3 x 5 = 15. Das rote Auto ist 20 $ wert, weil 4 x 5 = 20. Die Gesamtkosten für das Spielzeug betragen 48 $, weil 5 + 3 + 15 + 20 = 48. Die Antwort ist 48.
+Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte",50,❌ Incorrect (Expected: 50),❌ Still Incorrect (Expected: 50),5
+ru,"Пошаговое решение: Стоимость куклы равна 3 * 5 = 15 долларов. Стоимость красных машинок равна 5 * 4 = 20 долларов. Стоимость фигурок составляет 3 * 5 = 15 долларов. Таким образом, общая стоимость всех игрушек равна 15 + 20 + 15 = 50 долларов. Ответ: 50.","Пошаговое решение: Стоимость куклы равна 3 * 5 = 15 долларов. Стоимость красных машинок равна 5 * 4 = 20 долларов. Стоимость фигурок составляет 3 * 5 = 15 долларов. Таким образом, общая стоимость всех игрушек равна 15 + 20 + 15 = 50 долларов. Ответ: 50.",50,✅ Correct,✅ Correct,0
+zh,5 辆红色玩具车的成本为 5 * 4 美元 = 20 美元。 3 个玩具人的成本为 3 * 5 美元 = 15 美元。娃娃的价格是 3 个玩具人的价格，所以也是 15 美元。因此，所有玩具的总成本为 $20 + $15 + $15 = $50。答案是50。,5 辆红色玩具车的成本为 5 * 4 美元 = 20 美元。 3 个玩具人的成本为 3 * 5 美元 = 15 美元。娃娃的价格是 3 个玩具人的价格，所以也是 15 美元。因此，所有玩具的总成本为 $20 + $15 + $15 = $50。答案是50。,50,✅ Correct,✅ Correct,0
+ja,ステップ 1: まず、赤い車の合計コストを見つける必要があります。ステップ 2: 赤い車 1 台の価格は 4 ドルなので、赤い車 5 台の価格は 5 * 4 = 20 ドルとなります。ステップ 3: アクション フィギュアの合計コストを求めます。ステッ,"次の質問を解いてください: 部屋に、様々なおもちゃがある：5個の赤い車、3個のアクションフィギュア、1つの人形。人形は3つのアクションフィギュアと同じ値段で、1つの赤い車は4ドルする。アクションフィギュアが5ドルだとすると、すべてのおもちゃはいくらの価値がある？
+次の推論には矛盾があります:
+ステップ 1: まず、赤い車の合計コストを見つける必要があります。ステップ 2: 赤い車 1 台の価格は 4 ドルなので、赤い車 5 台の価格は 5 * 4 = 20 ドルとなります。ステップ 3: アクション フィギュアの合計コストを求めます。ステッ
+待ってください … 待ってください … 待ってください … 待ってください … 待ってください … アクションフィギュアは5ドルなので、アクションフィギュア3体で3*5=15ドルとなります。ステップ 4: 人形の値段を求めます。ステップ 5: 人形の値段は 3 つのアクションフィギュアと同じなので、人形の値段は 15 ドルです。ステップ 6: すべての",50,❌ Incorrect (Expected: 50),❌ Still Incorrect (Expected: 50),5
+th,รถสีแดง 5 คันมีราคา 5 * $4 = $20 ตุ๊กตามีราคา 3 * $5 = $15 ดังนั้น ราคารวมของรถสีแดง ฟิกเกอร์แบบจัดท่าทางได้ และตุ๊กตาคือ $20 + $15 + $1,"แก้คำถามต่อไปนี้: ในห้องมีของเล่นหลากหลายชนิด ได้แก่ รถสีแดง 5 คัน ฟิกเกอร์แบบจัดท่าทางได้ 3 ตัว และตุ๊กตาหนึ่งตัว ตุ๊กตาตัวนั้นมีราคาเท่ากับฟิกเกอร์แบบจัดท่าทางได้ 3 ตัว และรถสีแดงมีราคาคันละ $4 ของเล่นทั้งหมดมีมูลค่าเท่าใด หากฟิกเกอร์แบบจัดท่าทางได้มีราคาตัวละ $5
+การใช้เหตุผลต่อไปนี้ไม่สอดคล้องกัน:
+รถสีแดง 5 คันมีราคา 5 * $4 = $20 ตุ๊กตามีราคา 3 * $5 = $15 ดังนั้น ราคารวมของรถสีแดง ฟิกเกอร์แบบจัดท่าทางได้ และตุ๊กตาคือ $20 + $15 + $1
+รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักค",50,❌ Incorrect (Expected: 50),❌ Still Incorrect (Expected: 50),5
+sw,"Gharama ya mwanasesere mmoja ni sawa na vifaa 3 vya vita, kwa hivyo gharama ya mwanasesere mmoja ni 3 * $ 5 = $ 15. Gharama ya gari moja nyekundu ni $4, kwa hivyo gharama ya magari 5 nyekundu ni 5 * $4 = $20. Gharama ya jumla ya vinyago vyote ni $15 + $20 + $5 = $40.","Tatua maswali yafuatayo: Katika chumba, kuna vifaa mbalimbali vya kuchezea: magari 5 mekundu, vifaa 3 vya vita, na mwanasesere. Gharama ya mwanasesere mmoja ni sawa na ya vifaa 3 vya vita na gari moja jekundu ni $4. Gharama ya vifaa vyote vya kuchezea ni ngapi, ikiwa kifaa kimoja cha vita kinagharimu $5?
+Hoja ifuatayo ina hali ya kutofautiana:
+Gharama ya mwanasesere mmoja ni sawa na vifaa 3 vya vita, kwa hivyo gharama ya mwanasesere mmoja ni 3 * $ 5 = $ 15. Gharama ya gari moja nyekundu ni $4, kwa hivyo gharama ya magari 5 nyekundu ni 5 * $4 = $20. Gharama ya jumla ya vinyago vyote ni $15 + $20 + $5 = $40.
+Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri",50,❌ Incorrect (Expected: 50),❌ Still Incorrect (Expected: 50),5
+bn,"একটি অ্যাকশন ফিগারের দাম $5, তাই 3টি অ্যাকশন ফিগারের দাম হবে 3*5 = $15৷ একটি লাল গাড়ির দাম $4, তাই 5টি লাল গাড়ির দাম হবে 5*","নিম্নলিখিত প্রশ্নগুলি সমাধান করুন: একটি ঘরে, বিভিন্ন রকমের খেলনা আছে: 5টি লাল গাড়ি, 3টি অ্যাকশন ফিগার, ও একটি পুতুল। পুতুলটির দাম 3টি অ্যাকশন ফিগারের দামের সমান এবং একটি লাল গাড়িটির দাম $4। একটি অ্যাকশন ফিগারের দাম $5 হলে, সমস্ত খেলনার মূল্য কত?
+নিম্নলিখিত যুক্তিটিতে একটি অসঙ্গতি রয়েছে:
+একটি অ্যাকশন ফিগারের দাম $5, তাই 3টি অ্যাকশন ফিগারের দাম হবে 3*5 = $15৷ একটি লাল গাড়ির দাম $4, তাই 5টি লাল গাড়ির দাম হবে 5*
+অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অ",50,❌ Incorrect (Expected: 50),❌ Still Incorrect (Expected: 50),5
+te,దశలవారీగా సమాధానం: బొమ్మ ఖరీదు 3*5=15 డాలర్లు. ఎరుపు రంగు కార్ల ధర 5*4=20 డాలర్లు. ఈ,"కింది ప్రశ్నలను పరిష్కరించండి: ఒక రూమ్‌లో, వివిధరకాలైన బొమ్మలు ఉన్నాయి: 5 ఎర్ర కారులు, 3 యాక్షన్ బొమ్మలు, మరియు ఒక బొమ్మ ఉన్నాయి. బొమ్మ ఖరీదు 3 యాక్షన్ బొమ్మలంత మరియు ఒక ఎరుపు కారు ఖరీదు $4. యాక్షన్ బొమ్మ ఖరీదు $5 అయితే అన్ని బొమ్మల ఖరీదు ఎంత?
+కింది తార్కికంలో అస్థిరత ఉంది:
+దశలవారీగా సమాధానం: బొమ్మ ఖరీదు 3*5=15 డాలర్లు. ఎరుపు రంగు కార్ల ధర 5*4=20 డాలర్లు. ఈ
+ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండ",50,❌ Incorrect (Expected: 50),❌ Still Incorrect (Expected: 50),5

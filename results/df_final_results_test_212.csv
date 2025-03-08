@@ -1,0 +1,52 @@
+language,original_response,revised_response,expected_answer,initial_status,new_status,wait_count
+en,"Let x be the number of red chickens.
+        So the number of white chickens is x + 2.
+        The total number of eggs from red chickens is 3 * x, and the total number of eggs from white chickens is 5 * (x + 2).
+        Since Jerry collects 42 eggs every day, we can set up the equation: 3 * x + 5 * (x + 2) = 42.
+        Now let's solve for x:
+        3x + 5x + 10 = 4","Let x be the number of red chickens.
+        So the number of white chickens is x + 2.
+        The total number of eggs from red chickens is 3 * x, and the total number of eggs from white chickens is 5 * (x + 2).
+        Since Jerry collects 42 eggs every day, we can set up the equation: 3 * x + 5 * (x + 2) = 42.
+        Now let's solve for x:
+        3x + 5x + 10 = 4",4,✅ Correct,✅ Correct,0
+es,"Sea x el número de gallinas rojas. Por tanto, el número de gallinas blancas es x + 2. El número total de huevos puestos por las gallinas rojas es 3 * x, y el número total de huevos puestos por las gallinas blancas es 5 * (x + 2). Dado que Jerry recolecta 42 huevos todos los días, podemos establecer la ecuación: 3 * x + 5 * (x + 2) = 42. Simpl","Resuelve las siguientes preguntas: Jerry tiene un gallinero. Las gallinas rojas ponen 3 huevos por día y las gallinas blancas ponen 5 huevos por día. Todos los días, Jerry recolecta 42 huevos. Si tiene dos gallinas blancas más que las gallinas rojas, ¿cuántas gallinas rojas tiene?
+El siguiente razonamiento tiene una inconsistencia:
+Sea x el número de gallinas rojas. Por tanto, el número de gallinas blancas es x + 2. El número total de huevos puestos por las gallinas rojas es 3 * x, y el número total de huevos puestos por las gallinas blancas es 5 * (x + 2). Dado que Jerry recolecta 42 huevos todos los días, podemos establecer la ecuación: 3 * x + 5 * (x + 2) = 42. Simpl
+Espera … 3x + 5x + 10 = 42 8x + 10 = 42 8x = 32 x = 4 Por lo tanto, Jerry tiene 4 gallinas rojas. La respuesta es 4.",4,❌ Incorrect (Expected: 4),✅ Correct after revision,0
+fr,"Soit x le nombre de poules rouges. Il a donc x + 2 poules blanches. L'équation pour le nombre d'œufs est 3x + 5(x + 2) = 42. Simplifiez l'équation, nous obtenons 3x + 5x + 10 = 42. En combinant des termes similaires, nous obtenons 8x + 10 = 42. En soustrayant 10 des deux côtés, nous obtenons 8x","Résolvez les questions suivantes: Jerry a un élevage de poulets. Les poules rouges produisent 3 œufs par jour, et les blanches 5 œufs par jour. Jerry ramasse chaque jour 42 œufs. S'il a deux poulets blancs de plus qu'il y en a de rouges, combien de poulets rouges a-t-il ?
+Le raisonnement suivant présente une incohérence :
+Soit x le nombre de poules rouges. Il a donc x + 2 poules blanches. L'équation pour le nombre d'œufs est 3x + 5(x + 2) = 42. Simplifiez l'équation, nous obtenons 3x + 5x + 10 = 42. En combinant des termes similaires, nous obtenons 8x + 10 = 42. En soustrayant 10 des deux côtés, nous obtenons 8x
+Attendez … En divisant les deux côtés par 8, nous obtenons x = 4,5. Le nombre de poulets rouges est donc 4,5. Cependant, nous ne pouvons pas avoir un nombre fractionnaire de poulets, donc il doit y avoir une erreur dans le raisonnement. Revenons en arrière et vérifions. En nous rappelant que nous avons obtenu x + 2 = 4,5. En soustrayant 2 des deux côtés, nous obtenons x = 4,3. En substituant cette",4,❌ Incorrect (Expected: 4),✅ Correct after revision,0
+de,"Lassen Sie uns eine Gleichung aufstellen, um die Anzahl der roten Hennen darzustellen. Sei R die Anzahl der roten Hennen. Die Anzahl der Eier, die die roten Hennen legen, beträgt 3R. Die Anzahl der Eier, die die weißen Hennen legen, beträgt 5(R + 2). Die Gesamtzahl der gesammelten Eier beträgt 3R + 5(R + 2) = 42. Vereinfacht man die Gleichung","Los die folgenden Fragen: Jerry hat eine Hühnerschar. Die roten Hennen legen 3 Eier pro Tag und die weißen Hennen legen 5 Eier pro Tag. Jeden Tag sammelt Jerry 42 Eier ein. Wenn er zwei weiße Hennen mehr hat als rote Hennen, wie viele rote Hennen hat er dann?
+Die folgende Argumentation enthält eine Inkonsistenz:
+Lassen Sie uns eine Gleichung aufstellen, um die Anzahl der roten Hennen darzustellen. Sei R die Anzahl der roten Hennen. Die Anzahl der Eier, die die roten Hennen legen, beträgt 3R. Die Anzahl der Eier, die die weißen Hennen legen, beträgt 5(R + 2). Die Gesamtzahl der gesammelten Eier beträgt 3R + 5(R + 2) = 42. Vereinfacht man die Gleichung
+Warte … 8R + 10 = 42. 8R = 32. R = 4. Es gibt also 4 rote Hennen.",4,❌ Incorrect (Expected: 4),✅ Correct after revision,0
+ru,"Пусть x — количество рыжих кур. Итак, у него есть х + 2 белых цветка. Уравнение для количества яиц будет таким: 3x + 5(x + 2) = 42. Упростите уравнение: 3x + 5x + 10 = 42. Объедините подобные члены: 8x + 10 = 42. Вычтите 10 из обеих частей:","Решите следующие вопросы: У Джерри есть стая кур. Рыжие куры несут 3 яйца в день, а белые куры несут 5 яиц в день. Каждый день Джерри собирает 42 яйца. Если у него на две белых куры больше, чем рыжих кур, сколько у него рыжих кур?
+Следующее рассуждение имеет несоответствие:
+Пусть x — количество рыжих кур. Итак, у него есть х + 2 белых цветка. Уравнение для количества яиц будет таким: 3x + 5(x + 2) = 42. Упростите уравнение: 3x + 5x + 10 = 42. Объедините подобные члены: 8x + 10 = 42. Вычтите 10 из обеих частей:
+Подождите … 8x = 32. Разделите обе части на 8: x = 4. Итак, у Джерри 4 рыжих цветка. Ответ: 4.",4,❌ Incorrect (Expected: 4),✅ Correct after revision,0
+zh,设 r 为红鸡的数量，w 为白鸡的数量。我们知道 r + w = 鸡总数，白鸡每天产 5 个鸡蛋，因此白鸡产蛋总数为 5w。同样，红鸡每天产 3 个鸡蛋，因此红鸡产蛋总数为 3r。因此，所有鸡的鸡蛋总数,"解答以下问题: 杰瑞有一群鸡。红鸡每天下 3 个蛋，白鸡每天下 5 个蛋。杰瑞每天收集 42 个鸡蛋。如果他的白鸡比红鸡多两只，他有多少只红鸡？
+以下推理存在不一致之处：
+设 r 为红鸡的数量，w 为白鸡的数量。我们知道 r + w = 鸡总数，白鸡每天产 5 个鸡蛋，因此白鸡产蛋总数为 5w。同样，红鸡每天产 3 个鸡蛋，因此红鸡产蛋总数为 3r。因此，所有鸡的鸡蛋总数
+等待 … 3r + 5w = 42 我们知道 w = r + 2 （白鸡比红鸡多 2 只） 将 w 代入上面的方程中，我们得到： 3r + 5(r + 2) = 42 简化方程，我们得到： 3r + 5r + 10 = 42 8r = 32 将两边除以 8，我们得到： r = 4 因此，",4,❌ Incorrect (Expected: 4),✅ Correct after revision,0
+ja,x を赤鶏の数とします。 したがって、彼は x+2 個の白鶏を持っています。 1日にすべての鶏が産む卵の合計は、3x + 5(x+2) = 42 となります。 5x + 10 = 42 となります。 5x = 32 となります。 x = 6. ��,"次の質問を解いてください: ジェリーは鶏の群れを所有している。赤鶏は1日に3つの卵を産み、白鶏は1日に5つの卵を産む。ジェリーは毎日卵を42個集める。もしも彼が赤鶏よりも2匹多い白鶏を所有していた場合、赤鶏は何匹いるか？
+次の推論には矛盾があります:
+x を赤鶏の数とします。 したがって、彼は x+2 個の白鶏を持っています。 1日にすべての鶏が産む卵の合計は、3x + 5(x+2) = 42 となります。 5x + 10 = 42 となります。 5x = 32 となります。 x = 6. ��
+待ってください … 待ってください … 待ってください … 待ってください … 待ってください … 待ってください… 待ってください… 待ってください… 待ってください… 待ってください… 待ってください… 待ってください… 待ってください… 待ってください… 待ってください… 待ってください… 待ってください… 待ってください… 待ってください… 待",4,❌ Incorrect (Expected: 4),❌ Still Incorrect (Expected: 4),5
+th,ให้ x แทนจำนวนไก่แดง ดังนั้น จำนวนไก่ขาวคือ x + 2 จำนวนไข่ทั้งหมดที่เจอร์รี่เก็บได้ทุกวันสามารถคำนวณได้ดังนี้: จำนวนไข่ที่ไก่แดงวา,"แก้คำถามต่อไปนี้: เจอร์รี่มีไก่อยู่หนึ่งฝูง โดยไก่แดงออกไข่วันละ 3 ฟอง ส่วนไก่ขาวออกไข่วันละ 5 ฟอง ซึ่งทุกวันเจอร์รี่จะเก็บไข่ได้ 42 ฟอง ถ้าเขามีไก่ขาวมากกว่าไก่แดงสองตัว เขามีไก่แดงกี่ตัว
+การใช้เหตุผลต่อไปนี้ไม่สอดคล้องกัน:
+ให้ x แทนจำนวนไก่แดง ดังนั้น จำนวนไก่ขาวคือ x + 2 จำนวนไข่ทั้งหมดที่เจอร์รี่เก็บได้ทุกวันสามารถคำนวณได้ดังนี้: จำนวนไข่ที่ไก่แดงวา
+รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักค",4,❌ Incorrect (Expected: 4),❌ Still Incorrect (Expected: 4),5
+sw,"Ikiwa kuku wekundu huzalisha mayai 3 kwa siku, na kuku weupe huzalisha mayai 5 kwa siku, basi jumla ya mayai yanayozalishwa kwa siku ni 3(idadi ya kuku nyekundu) + 5(idadi ya kuku nyeupe). Jerry hukusanya mayai 42 kila siku, ili tuweze kuanzisha equation 3(idadi ya kuku nyek","Tatua maswali yafuatayo: Jerry ana kundi la kuku. Kuku wekundu huzalisha mayai 3 kwa siku, na kuku weupe huzalisha mayai 5 kwa siku. Kila siku Jerry hukusanya mayai 42. Ikiwa ana kuku weupe wawili zaidi ya wekundu, ana kuku wekundu wangapi?
+Hoja ifuatayo ina hali ya kutofautiana:
+Ikiwa kuku wekundu huzalisha mayai 3 kwa siku, na kuku weupe huzalisha mayai 5 kwa siku, basi jumla ya mayai yanayozalishwa kwa siku ni 3(idadi ya kuku nyekundu) + 5(idadi ya kuku nyeupe). Jerry hukusanya mayai 42 kila siku, ili tuweze kuanzisha equation 3(idadi ya kuku nyek
+Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri",4,❌ Incorrect (Expected: 4),❌ Still Incorrect (Expected: 4),5
+bn,"ধরা যাক জেরির লাল মুরগির সংখ্যা R এবং সাদা মুরগির সংখ্যা W। আমরা জানি যে লাল মুরগি প্রতিদিন 3টি ডিম দেয়, তাই R * 3 = লাল মুরগ","নিম্নলিখিত প্রশ্নগুলি সমাধান করুন: জেরির কাছে এক ঝাঁক মুরগি আছে। লাল মুরগি গুলি দিনে 3 টি করে এবং সাদা মুরগি গুলি দিনে 5 টি করে ডিম দেয়। জেরি প্রতিদিন 42টি সংগ্রহ করে। যদি তার কাছে লাল মুরগির থেকে সাদা মুরগি দুটি বেশি থাকে, তাহলে তার কাছে কতগুলি লাল মুরগি আছে?
+নিম্নলিখিত যুক্তিটিতে একটি অসঙ্গতি রয়েছে:
+ধরা যাক জেরির লাল মুরগির সংখ্যা R এবং সাদা মুরগির সংখ্যা W। আমরা জানি যে লাল মুরগি প্রতিদিন 3টি ডিম দেয়, তাই R * 3 = লাল মুরগ
+অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অ",4,❌ Incorrect (Expected: 4),❌ Still Incorrect (Expected: 4),5
+te,జెర్రీ వద్ద x రెడ్ కోళ్లు ఉన్నాయని అనుకుందాం. ప్రతి రెడ్ కోళ్లు రోజుకు 3 గుడ్లు ����,"కింది ప్రశ్నలను పరిష్కరించండి: జెర్రీ వద్ద కోళ్ల గుంపు ఉంది. ఎర్ర కోళ్లు రోజుకు 3 గుడ్లు పెడతాయి, అలానే తెల్ల కోళ్లు రోజుకు 5 గుడ్లు పెడతాయి. ప్రతిరోజూ జెర్రీ 42 గుడ్లను సేకరిస్తాడు. అతడి వద్ద ఎర్ర కోళ్ల కంటే తెల్లకోళ్లు మరో రెండు ఎక్కువగా ఉన్నట్లయితే, అతడి వద్ద ఎన్ని ఎర్ర కోళ్లు ఉన్నాయి?
+కింది తార్కికంలో అస్థిరత ఉంది:
+జెర్రీ వద్ద x రెడ్ కోళ్లు ఉన్నాయని అనుకుందాం. ప్రతి రెడ్ కోళ్లు రోజుకు 3 గుడ్లు ����
+ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి ప్రతి రోజు 3x గుడ్లు పెడతాయి. జెర్రీ వద్ద y వైట్ కోళ్లు ఉన్నాయని అనుకుంద",4,❌ Incorrect (Expected: 4),❌ Still Incorrect (Expected: 4),5

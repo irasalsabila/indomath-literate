@@ -1,0 +1,52 @@
+language,original_response,revised_response,expected_answer,initial_status,new_status,wait_count
+en,"Let x be the number of silver coins.
+There are x + 30 gold coins.
+110 coins total means x + x + 30 = 110.
+2x + 30 = 110.
+2x = 80.
+x = 40.
+There are 40 silver coins.
+40 + 30 = 70 gold coins.
+The answer is 70.","Let x be the number of silver coins.
+There are x + 30 gold coins.
+110 coins total means x + x + 30 = 110.
+2x + 30 = 110.
+2x = 80.
+x = 40.
+There are 40 silver coins.
+40 + 30 = 70 gold coins.
+The answer is 70.",70,✅ Correct,✅ Correct,0
+es,"Sea x el número de monedas de plata. Por lo tanto, la cantidad de monedas de oro es x + 30. En total, hay x + x + 30 = 2x + 30 = 110 monedas. Por lo tanto, 2x = 110 - 30 = 80. Por lo tanto, el número de monedas de plata es x = 80 / 2 = 40 monedas. Por tanto, el número de monedas de oro es 40","Resuelve las siguientes preguntas: Gretchen tiene 110 monedas. Hay 30 monedas más de oro que de plata. ¿Cuántas monedas de oro tiene Gretchen?
+El siguiente razonamiento tiene una inconsistencia:
+Sea x el número de monedas de plata. Por lo tanto, la cantidad de monedas de oro es x + 30. En total, hay x + x + 30 = 2x + 30 = 110 monedas. Por lo tanto, 2x = 110 - 30 = 80. Por lo tanto, el número de monedas de plata es x = 80 / 2 = 40 monedas. Por tanto, el número de monedas de oro es 40
+Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera …",70,❌ Incorrect (Expected: 70),❌ Still Incorrect (Expected: 70),5
+fr,"Soit x le nombre de pièces en argent. Cela signifie donc que le nombre de pièces en or est x + 30. Le nombre total de pièces est x + x + 30 = 2x + 30. Nous savons que le nombre total de pièces est de 110. Donc, 2x + 30 = 110. Soustraire 30 des deux côtés, nous obtenons 2x = 80. En divisant les deux côtés par 2","Résolvez les questions suivantes: Gretchen a 110 pièces. Les pièces en or comptent 30 pièces de plus que celles en argent. Combien Gretchen a-t-elle de pièces en or ?
+Le raisonnement suivant présente une incohérence :
+Soit x le nombre de pièces en argent. Cela signifie donc que le nombre de pièces en or est x + 30. Le nombre total de pièces est x + x + 30 = 2x + 30. Nous savons que le nombre total de pièces est de 110. Donc, 2x + 30 = 110. Soustraire 30 des deux côtés, nous obtenons 2x = 80. En divisant les deux côtés par 2
+Attendez … nous obtenons x = 40. Donc le nombre de pièces en or est 40 + 30 = 70. La réponse est 70.",70,❌ Incorrect (Expected: 70),✅ Correct after revision,0
+de,"Schritt-für-Schritt-Antwort: Sei x die Anzahl der Silbermünzen. Das bedeutet, dass die Anzahl der Goldmünzen x + 30 beträgt. Die Gesamtzahl der Münzen beträgt x + x + 30 = 2x + 30. Die Gesamtzahl der Münzen beträgt 110, also 2x + 30 = 110. Subtrahieren Sie 30 von beiden Seiten, wir erhalten 2x = 8","Los die folgenden Fragen: Gretchen hat 110 Münzen. Es sind 30 mehr Gold- als Silbermünzen. Wie viele Goldmünzen hat Gretchen?
+Die folgende Argumentation enthält eine Inkonsistenz:
+Schritt-für-Schritt-Antwort: Sei x die Anzahl der Silbermünzen. Das bedeutet, dass die Anzahl der Goldmünzen x + 30 beträgt. Die Gesamtzahl der Münzen beträgt x + x + 30 = 2x + 30. Die Gesamtzahl der Münzen beträgt 110, also 2x + 30 = 110. Subtrahieren Sie 30 von beiden Seiten, wir erhalten 2x = 8
+Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte",70,❌ Incorrect (Expected: 70),❌ Still Incorrect (Expected: 70),5
+ru,Пусть x — количество серебряных монет. Золотые монеты x + 30. 110 = x + x + 30 110 = 2x + 30 80 = 2x x = 40 Золотые монеты = 40 + 30 = 70 У Гретхен 70 золотых монет. Ответ: 70.,Пусть x — количество серебряных монет. Золотые монеты x + 30. 110 = x + x + 30 110 = 2x + 30 80 = 2x x = 40 Золотые монеты = 40 + 30 = 70 У Гретхен 70 золотых монет. Ответ: 70.,70,✅ Correct,✅ Correct,0
+zh,设 x 为银币数量 金币数量：x + 30 总币数：x + x + 30 = 2x + 30 = 110 2x = 80 x = 40 金币数量：40 + 30 = 70 Gretchen 有 70 个金币。答案是70。,设 x 为银币数量 金币数量：x + 30 总币数：x + x + 30 = 2x + 30 = 110 2x = 80 x = 40 金币数量：40 + 30 = 70 Gretchen 有 70 个金币。答案是70。,70,✅ Correct,✅ Correct,0
+ja,ステップごとの答え：xを銀貨の枚数とします。すると、金貨の枚数はx+30枚となります。合計すると、x+x+30=110枚のコインがあります。同様の項を組み合わせると、2x+30=110 となります。両辺から 30 を引くと、2x=80 が得,"次の質問を解いてください: グレッチェンは110枚のコインを持っています。金のコインは銀のコインよりも30枚多いです。グレッチェンは金のコインを何枚持っていますか？
+次の推論には矛盾があります:
+ステップごとの答え：xを銀貨の枚数とします。すると、金貨の枚数はx+30枚となります。合計すると、x+x+30=110枚のコインがあります。同様の項を組み合わせると、2x+30=110 となります。両辺から 30 を引くと、2x=80 が得
+待ってください … 両辺を 2 で割ると、x=40 が得られます。つまり、金貨は x+30=40+30=70 枚あります。答えは70です。",70,❌ Incorrect (Expected: 70),✅ Correct after revision,0
+th,ให้ x เป็นจำนวนเหรียญเงินที่ Gretchen มี จำนวนเหรียญทองที่ Gretchen มีคือ x + 30 จำนวนเหรียญทั้งหมดที่ Gretchen มีคือ x + x + 30 = 2x + 30 เรารู้ว่าจำนวนเ,"แก้คำถามต่อไปนี้: เกรทเชนมีเหรียญ 110 เหรียญ โดยมีเหรียญทองมากกว่าเหรียญเงิน 30 เหรียญ เกรทเชนมีเหรียญทองกี่เหรียญ
+การใช้เหตุผลต่อไปนี้ไม่สอดคล้องกัน:
+ให้ x เป็นจำนวนเหรียญเงินที่ Gretchen มี จำนวนเหรียญทองที่ Gretchen มีคือ x + 30 จำนวนเหรียญทั้งหมดที่ Gretchen มีคือ x + x + 30 = 2x + 30 เรารู้ว่าจำนวนเ
+รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักค",70,❌ Incorrect (Expected: 70),❌ Still Incorrect (Expected: 70),5
+sw,"Acha x iwe idadi ya sarafu za fedha. Kwa hivyo kuna sarafu za dhahabu x + 30. Jumla ya idadi ya sarafu ni x + x + 30 = 2x + 30. Kwa kuwa jumla ya sarafu ni 110, tunaweza kuandika equation 2x + 30 = 110. Kutoa 30 kutoka pande zote mbili kunatoa 2x = 8","Tatua maswali yafuatayo: Gretchen ana sarafu 110. Kuna sarafu 30 za dhahabu zaidi ya sarafu za fedha. Gretchen ana sarafu ngapi za dhahabu?
+Hoja ifuatayo ina hali ya kutofautiana:
+Acha x iwe idadi ya sarafu za fedha. Kwa hivyo kuna sarafu za dhahabu x + 30. Jumla ya idadi ya sarafu ni x + x + 30 = 2x + 30. Kwa kuwa jumla ya sarafu ni 110, tunaweza kuandika equation 2x + 30 = 110. Kutoa 30 kutoka pande zote mbili kunatoa 2x = 8
+Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri",70,❌ Incorrect (Expected: 70),❌ Still Incorrect (Expected: 70),5
+bn,ধরা যাক x রূপার মুদ্রার সংখ্যা। তারপর স্বর্ণমুদ্রার সংখ্যা হল x + 30। মোট মুদ্রার সংখ্যা হল x + x + 30 = 2x + 30। মোট মুদ্রা,"নিম্নলিখিত প্রশ্নগুলি সমাধান করুন: গ্রেচেনের কাছে 110টি মুদ্রা আছে। রৌপ্য মুদ্রার থেকে 30টি বেশি স্বর্ণ মুদ্রা আছে। গ্রেচেনের কাছে কতগুলি স্বর্ণ মুদ্রা আছে?
+নিম্নলিখিত যুক্তিটিতে একটি অসঙ্গতি রয়েছে:
+ধরা যাক x রূপার মুদ্রার সংখ্যা। তারপর স্বর্ণমুদ্রার সংখ্যা হল x + 30। মোট মুদ্রার সংখ্যা হল x + x + 30 = 2x + 30। মোট মুদ্রা
+অপেক্ষা করুন … 2x + 30 = 110। এখন আমরা x এর জন্য সমাধান করি। 2x = 110 - 30. 2x = 80. x = 40. অতএব, স্বর্ণমুদ্রার সংখ্যা হল x + 30 = 40 + 30 = 70। অ",70,❌ Incorrect (Expected: 70),✅ Correct after revision,0
+te,గ్రెట్చెన్ వద్ద ఉన్న వెండి నాణేల సంఖ్యను xగా సూచిస్తాం. గ్రెట్చెన్ వద్ద ��,"కింది ప్రశ్నలను పరిష్కరించండి: గ్రెట్‌చెన్ వద్ద 110 కాయిన్‌లు ఉన్నాయి. బంగారు నాణాలు వెండి నాణాల కంటే 30 ఎక్కువగా ఉన్నాయి. గ్రెట్‌చెన్ వద్ద ఎన్ని బంగారు నాణాలు ఉన్నాయి?
+కింది తార్కికంలో అస్థిరత ఉంది:
+గ్రెట్చెన్ వద్ద ఉన్న వెండి నాణేల సంఖ్యను xగా సూచిస్తాం. గ్రెట్చెన్ వద్ద ��
+ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి గ్రెట్చెన్ వద్ద ఉన్న బంగారు నాణేల సంఖ్యను yగా సూచిస్తాం. y = x + 30 గ్రెట్",70,❌ Incorrect (Expected: 70),❌ Still Incorrect (Expected: 70),5

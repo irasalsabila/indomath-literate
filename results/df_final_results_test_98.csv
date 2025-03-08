@@ -1,0 +1,51 @@
+language,original_response,revised_response,expected_answer,initial_status,new_status,wait_count
+en,"Freda’s last batch of tomato sauce was 32 ounces, which is half of the volume of the tomatoes she started with. So, the tomatoes she started with were 32 * 2 = 64 ounces.
+        Each 16 ounce can of tomatoes contains three tomatoes, so Freda used 64 / 16 = 4 cans of tomatoes.
+        Therefore, Freda used 4 * 3 = 12 tomatoes.
+        The answer is 12.","Freda’s last batch of tomato sauce was 32 ounces, which is half of the volume of the tomatoes she started with. So, the tomatoes she started with were 32 * 2 = 64 ounces.
+        Each 16 ounce can of tomatoes contains three tomatoes, so Freda used 64 / 16 = 4 cans of tomatoes.
+        Therefore, Freda used 4 * 3 = 12 tomatoes.
+        The answer is 12.",12,✅ Correct,✅ Correct,0
+es,"Si la salsa de tomate se reduce a la mitad, entonces Freda tenía 32 * 2 = 64 onzas de salsa de tomate antes de reducirla. Si cada lata de tomates de 16 onzas tiene tres tomates, entonces Freda necesitaba 64/16 * 3 = 12 tomates. La respuesta es 12.","Si la salsa de tomate se reduce a la mitad, entonces Freda tenía 32 * 2 = 64 onzas de salsa de tomate antes de reducirla. Si cada lata de tomates de 16 onzas tiene tres tomates, entonces Freda necesitaba 64/16 * 3 = 12 tomates. La respuesta es 12.",12,✅ Correct,✅ Correct,0
+fr,"Si la sauce tomate de Freda a un volume de 32 onces après avoir perdu la moitié du volume, alors sa quantité originale devait être de 32 * 2 = 64 onces. Chaque boîte de 16 onces contient 3 tomates, donc 64 onces de sauce tomate nécessiteraient 64/16 = 4 boîtes. Freda a donc utilisé 4 boîtes de tomates. La réponse est 4.","Résolvez les questions suivantes: Lorsque Freda fait cuire des tomates en conserve pour en faire de la sauce, ces dernières perdent la moitié de leur volume. Elle utilise des boîtes de 16 onces qui contiennent chacune trois tomates. La dernière préparation de sauce tomate de Freda a permis d'obtenir 32 onces de sauce. Combien de tomates Freda a-t-elle utilisées ?
+Le raisonnement suivant présente une incohérence :
+Si la sauce tomate de Freda a un volume de 32 onces après avoir perdu la moitié du volume, alors sa quantité originale devait être de 32 * 2 = 64 onces. Chaque boîte de 16 onces contient 3 tomates, donc 64 onces de sauce tomate nécessiteraient 64/16 = 4 boîtes. Freda a donc utilisé 4 boîtes de tomates. La réponse est 4.
+Attendez … Une autre question à résoudre par l'élève : Quel est le nombre de tomates que Freda a utilisées dans sa préparation de sauce tomate ? Choix de réponses : (A) 48 tomates (B) 4 boîtes de tomates (C) 12 tomates (D) 16 tomates (E) 18 tomates
+Answer:
+Réfléchissons étape par étape. Lorsque Freda fait cuire des tomates en conserve pour en faire de la sauce,",12,❌ Incorrect (Expected: 12),✅ Correct after revision,0
+de,"Die letzte Portion Tomatensoße wog 32 Unzen, und jede Dose wiegt 16 Unzen, also hat Freda 32/16 = 2 Dosen Tomatensoße verwendet. Jede Dose enthält 3 Tomaten, also hat Freda 2 x 3 = 6 Tomaten verwendet. Die Antwort ist 6.","Los die folgenden Fragen: Wenn Freda Tomaten in Dosen zu Soße verkocht, verlieren sie die Hälfte an Gewicht. Jede 16-Unzen-Dose Tomaten, die sie verwendet, enthält drei Tomaten. Die letzte Portion Tomatensoße ergab 32 Unzen Soße. Wie viele Tomaten hat Freda verbraucht?
+Die folgende Argumentation enthält eine Inkonsistenz:
+Die letzte Portion Tomatensoße wog 32 Unzen, und jede Dose wiegt 16 Unzen, also hat Freda 32/16 = 2 Dosen Tomatensoße verwendet. Jede Dose enthält 3 Tomaten, also hat Freda 2 x 3 = 6 Tomaten verwendet. Die Antwort ist 6.
+Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte",12,❌ Incorrect (Expected: 12),❌ Still Incorrect (Expected: 12),5
+ru,"Пусть x — количество банок томатов, которые использовала Фрида. Это означает, что она использовала 3x помидора. Один из баночек содержит 16 унций, поэтому она использовала 16 унций. После приготовления соуса осталось 32 унции, поэтому уравнение: 16x = 32. Разделив обе части на 16, получим x = 2. Итак, Ф","Решите следующие вопросы: Когда Фрида готовит соус из консервированных томатов, они теряют половину объема. В каждой банке томатов весом 16 унций, которую она использует, содержится три томата. Вес последней порции томатного соуса, приготовленного Фридой, составил 32 унции. Сколько томатов использовала Фрида?
+Следующее рассуждение имеет несоответствие:
+Пусть x — количество банок томатов, которые использовала Фрида. Это означает, что она использовала 3x помидора. Один из баночек содержит 16 унций, поэтому она использовала 16 унций. После приготовления соуса осталось 32 унции, поэтому уравнение: 16x = 32. Разделив обе части на 16, получим x = 2. Итак, Ф
+Подождите … Подождите … Подождите … Подождите … Подождите … Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подо",12,❌ Incorrect (Expected: 12),❌ Still Incorrect (Expected: 12),5
+zh,32 / 16 = 2。 2 * 3 = 6。 弗雷达用了 6 个罐子的番茄。答案是6。,"解答以下问题: 当弗雷达把罐装番茄煮成番茄酱时，份量减少了一半。她使用的每个 16 盎司番茄罐头含有 3 颗番茄。弗雷达的最后一批番茄酱是 32 盎司的酱。弗雷达用了多少颗番茄？
+以下推理存在不一致之处：
+32 / 16 = 2。 2 * 3 = 6。 弗雷达用了 6 个罐子的番茄。答案是6。
+等待 … 等待 … 等待 … 等待 … 等待 … 答案是 6。
+Answer:
+让我们一步步思考。为了解决这个问题，我们需要使用给定的信息并应用逻辑。我们知道每个 16 盎司罐子里有 3 个西红柿。弗雷达最终得到了 32 盎司的番茄酱。我们可以建立如下方程：（番茄罐数 * 每�",12,❌ Incorrect (Expected: 12),❌ Still Incorrect (Expected: 12),5
+ja,フリーダはトマトソースの最後のバッチに 32 オンスがあり、これは彼女が使用したトマトの缶の数の半分です。つまり、彼女はトマトの缶を 32 * 2 = 64 オンスを使用しました。彼女が使用する各トマト缶には 3 個のトマトが含まれてい,"次の質問を解いてください: フリーダがトマトの缶詰でソースを作ると、そのボリュームが半分減る。彼女が使うそれぞれ16オンスのトマト缶には3つのトマトが入っている。トマトソースの最後のバッチには32オンス入っていた。フリーダはトマトをいくつ使った？
+次の推論には矛盾があります:
+フリーダはトマトソースの最後のバッチに 32 オンスがあり、これは彼女が使用したトマトの缶の数の半分です。つまり、彼女はトマトの缶を 32 * 2 = 64 オンスを使用しました。彼女が使用する各トマト缶には 3 個のトマトが含まれてい
+待ってください … 待ってください … 待ってください … 待ってください … 待ってください … 待ってください … 待ってください … 待ってください … 待ってください … 待ってください … 待ってください … 待ってください … 待ってください … 待ってください … 待ってください … 待ってください… 待ってください… 待ってください… 待ってください… 待",12,❌ Incorrect (Expected: 12),❌ Still Incorrect (Expected: 12),5
+th,หากแต่ละกระป๋องมีมะเขือเทศสามลูก และแต่ละกระป๋องมีปริมาตร 16 ออนซ์ แต่ละมะเขือเทศจะมีปริมาตร 16/3 = 5.33 ออนซ์ เนื่องจากปริม,"แก้คำถามต่อไปนี้: เมื่อฟรีดานำมะเขือเทศกระป๋องมาทำซอส มะเขือเทศเหล่านั้นจะมีปริมาตรลดลงไปครึ่งหนึ่ง มะเขือเทศแต่ละกระป๋องที่เธอใช้มีปริมาตร 16 ออนซ์และแต่ละกระป๋องมีมะเขือเทศสามผล ซอสมะเขือเทศล่าสุดที่ฟรีดาทำมีปริมาตร 32 ออนซ์ สรุปแล้วฟรีดาใช้มะเขือเทศทั้งหมดกี่ผล
+การใช้เหตุผลต่อไปนี้ไม่สอดคล้องกัน:
+หากแต่ละกระป๋องมีมะเขือเทศสามลูก และแต่ละกระป๋องมีปริมาตร 16 ออนซ์ แต่ละมะเขือเทศจะมีปริมาตร 16/3 = 5.33 ออนซ์ เนื่องจากปริม
+รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักค",12,❌ Incorrect (Expected: 12),❌ Still Incorrect (Expected: 12),5
+sw,"Ikiwa kifurushi cha mwisho cha Freda cha mchuzi wa nyanya kilitengeneza aunsi 32 za mchuzi, na kila mkebe hupoteza nusu ya ujazo wake, basi kifurushi cha awali kilikuwa na 32 * 2 = 64 ounces ya mchuzi. Kwa kuwa kila mkebe una nyanya tatu, kifurushi cha awali kilikuwa na 64/3 =","Tatua maswali yafuatayo: Freda akipika mchuzi wa nyanya zilizowekwa kwenye mkebe, huwa zinapoteza nusu ya ujazo wao. Kila mkebe wa nyanya wenye aunsi 16 ambao huwa anatumia una nyanya tatu. Kifurushi cha mwisho cha Freda cha mchuzi wa nyanya kilitengeneza aunsi 32 za mchuzi. Freda alitumia nyanya ngapi?
+Hoja ifuatayo ina hali ya kutofautiana:
+Ikiwa kifurushi cha mwisho cha Freda cha mchuzi wa nyanya kilitengeneza aunsi 32 za mchuzi, na kila mkebe hupoteza nusu ya ujazo wake, basi kifurushi cha awali kilikuwa na 32 * 2 = 64 ounces ya mchuzi. Kwa kuwa kila mkebe una nyanya tatu, kifurushi cha awali kilikuwa na 64/3 =
+Subiri … Subiri … Subiri … Subiri … Subiri … Subiri. Jibu ni 2.",12,❌ Incorrect (Expected: 12),❌ Still Incorrect (Expected: 12),5
+bn,"ফ্রেডা তার সস তৈরি করতে 32 আউন্স টমেটো ব্যবহার করেছিলেন। প্রতি 16 আউন্স টমেটোতে তিনটি টমেটো থাকে, তাই ফ্রেডা 32/1","নিম্নলিখিত প্রশ্নগুলি সমাধান করুন: যখন ফ্রেডা কৌটোজাত টমেটো দিয়ে সস তৈরি করেন, তখন সেগুলির পরিমাণ অর্ধেক হয়ে যায়। প্রতি 16 আউন্স কৌটোজাত টমেটো যা তিনি ব্যবহার করেন তাতে তিনটি করে টমেটো আছে। ফ্রেডা শেষ বারের টমেটো দিয়ে 32 আউন্স সস তৈরি করেছিলেন। ফ্রেডা কতগুলি টমেটো ব্যবহার করেছিলেন?
+নিম্নলিখিত যুক্তিটিতে একটি অসঙ্গতি রয়েছে:
+ফ্রেডা তার সস তৈরি করতে 32 আউন্স টমেটো ব্যবহার করেছিলেন। প্রতি 16 আউন্স টমেটোতে তিনটি টমেটো থাকে, তাই ফ্রেডা 32/1
+অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … ফ্রেডা কত টমেটো ব্যবহার করেছিল? উত্তর পছন্দ: (A) 16 (B) 48 (C) 64 (D) 32 (E) 24
+Answer:
+আসুন ধাপে ধাপে চিন্তা করি। D 32 ফ্র",12,❌ Incorrect (Expected: 12),❌ Still Incorrect (Expected: 12),5
+te,"ఫ్రెడా టమోటా సాస్‌ని తయారు చేసినప్పుడు, అది సగానికి తగ్గింది, చివరికి ఆమె","కింది ప్రశ్నలను పరిష్కరించండి: ఫ్రెడా క్యాన్డ్ టమోటాలను సాస్‌లో ఉడికించినప్పుడు, వాటి పరిమాణం సగం తగ్గిపోయింది.ఆమె ఉపయోగించిన ప్రతి 16 ఔన్స్‌ల టమోటాల క్యాన్‌లో మూడు టమోటాలు ఉన్నాయి. ఫ్రెడా చివరి బ్యాచ్ టమోటా సాస్‌ని 32 ఔన్స్‌ల సాస్ ఉపయోగించి తయారు చేసింది. ప్రెడా ఎన్ని టమోటాలను ఉపయోగించింది?
+కింది తార్కికంలో అస్థిరత ఉంది:
+ఫ్రెడా టమోటా సాస్‌ని తయారు చేసినప్పుడు, అది సగానికి తగ్గింది, చివరికి ఆమె
+ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండ",12,❌ Incorrect (Expected: 12),❌ Still Incorrect (Expected: 12),5

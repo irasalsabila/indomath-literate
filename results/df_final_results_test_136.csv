@@ -1,0 +1,54 @@
+language,original_response,revised_response,expected_answer,initial_status,new_status,wait_count
+en,"Three times as many video games as Brian has is 3 * 20 = 60 video games.
+        5 fewer than 60 video games is 60 - 5 = 55 video games.
+        So, Bobby has 55 video games.
+        The answer is 55.","Solve the following questions: Brian's friend Bobby has 5 fewer than 3 times as many video games as Brian does.  If Brian has 20 video games but lost 5 right before the comparison was made, how many does Bobby have?
+The following reasoning has an inconsistency:
+Three times as many video games as Brian has is 3 * 20 = 60 video games.
+        5 fewer than 60 video games is 60 - 5 = 55 video games.
+        So, Bobby has 55 video games.
+        The answer is 55.
+Wait … Wait …
+        Brian has 20 video games but lost 5, so he now has 20 - 5 = 15 video games.
+        Three times as many video games as Brian has is 3 * 15 = 45 video games.
+        5 fewer than 45 video games is 45 - 5 = 40 video games.
+        So, Bobby has 40 video games.
+        The answer is 40.
+What is the correct answer?
+Answer Choices: (A) 55 (B) 45 (C",40,❌ Incorrect (Expected: 40),✅ Correct after revision,1
+es,"Si Brian tiene 20 videojuegos, pero perdió 5, entonces tiene 20 - 5 = 15 videojuegos. Tres veces la cantidad de videojuegos que tiene Brian es 3 * 20 = 60 videojuegos. Bobby tiene 5 menos que tres veces la cantidad de videojuegos que tiene Brian, por lo que Bobby tiene 60 - 5 = 55 videojuegos. La respuesta es 55.","Resuelve las siguientes preguntas: Bobby, el amigo de Brian, tiene 5 videojuegos menos que 3 veces la cantidad de videojuegos que tiene Brian. Si Brian tiene 20 videojuegos, pero perdió 5 justo antes de que se hiciera la comparación, ¿cuántos videojuegos tiene Bobby?
+El siguiente razonamiento tiene una inconsistencia:
+Si Brian tiene 20 videojuegos, pero perdió 5, entonces tiene 20 - 5 = 15 videojuegos. Tres veces la cantidad de videojuegos que tiene Brian es 3 * 20 = 60 videojuegos. Bobby tiene 5 menos que tres veces la cantidad de videojuegos que tiene Brian, por lo que Bobby tiene 60 - 5 = 55 videojuegos. La respuesta es 55.
+Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera …",40,❌ Incorrect (Expected: 40),❌ Still Incorrect (Expected: 40),5
+fr,"Trois fois le nombre de jeux vidéo de Brian est de 3 * 20 = 60 jeux vidéo. Bobby en a 5 de moins, donc il a 60 - 5 = 55 jeux vidéo. La réponse est 55.","Résolvez les questions suivantes: L'ami de Brian, Bobby, possède 5 jeux vidéo de moins que 3 fois la quantité de jeux vidéo de Brian. Si Brian possède 20 jeux vidéo mais en a perdu 5 juste avant la comparaison du début, combien Bobby en possède-t-il ?
+Le raisonnement suivant présente une incohérence :
+Trois fois le nombre de jeux vidéo de Brian est de 3 * 20 = 60 jeux vidéo. Bobby en a 5 de moins, donc il a 60 - 5 = 55 jeux vidéo. La réponse est 55.
+Attendez …. Maintenant, Brian a 20 - 5 = 15 jeux vidéo. Le nombre de jeux vidéo de Brian trois fois est de 3 * 15 = 45 jeux vidéo. Bobby en a 5 de moins, donc il a 45 - 5 = 40 jeux vidéo. La réponse est donc 40. Quelle est la bonne réponse ? Choix de réponses : (A) 40 (B) 55 (C) 50 (D) 3",40,❌ Incorrect (Expected: 40),✅ Correct after revision,0
+de,"Schritt-für-Schritt-Antwort: Wenn Brian 20 Videospiele hat, aber 5 verloren hat, hat er 20 - 5 = 15 Videospiele. Dreimal so viele Videospiele wie Brian hat, sind 3 * 20 = 60 Videospiele. Bobby hat 5 weniger als das, also hat er 60 - 5 = 55 Videospiele. Die Antwort ist 55.","Los die folgenden Fragen: Brians Freund Bobby hat 5 Videospiele weniger als 3 Mal so viele wie Brian. Wenn Brian 20 Videospiele hat, aber davon 5 verlor, kurz bevor der Vergleich angestellt wurde, wie viele hat Bobby dann?
+Die folgende Argumentation enthält eine Inkonsistenz:
+Schritt-für-Schritt-Antwort: Wenn Brian 20 Videospiele hat, aber 5 verloren hat, hat er 20 - 5 = 15 Videospiele. Dreimal so viele Videospiele wie Brian hat, sind 3 * 20 = 60 Videospiele. Bobby hat 5 weniger als das, also hat er 60 - 5 = 55 Videospiele. Die Antwort ist 55.
+Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Die Antwort ist 55.",40,❌ Incorrect (Expected: 40),❌ Still Incorrect (Expected: 40),5
+ru,"У Брайана 20 видеоигр, поэтому количество видеоигр, умноженное на 3, равно 20 * 3 = 60. У Бобби на 5 меньше, чем 60 видеоигр, поэтому у него 60 - 5 = 55 видеоигр. Ответ: 55.","Решите следующие вопросы: У друга Брайана Бобби на 5 видеоигр меньше, чем количество видеоигр Брайана, умноженное на 3. Если у Брайана 20 видеоигр, но 5 он потерял прямо перед тем, как было сделано сравнение, сколько видеоигр у Бобби?
+Следующее рассуждение имеет несоответствие:
+У Брайана 20 видеоигр, поэтому количество видеоигр, умноженное на 3, равно 20 * 3 = 60. У Бобби на 5 меньше, чем 60 видеоигр, поэтому у него 60 - 5 = 55 видеоигр. Ответ: 55.
+Подождите … Подождите … Подождите … Подождите … Подождите … Подождите … Подождите … Подождите … Подождите … Подождите … Подождите … Подождите … Подождите … Подождите … Подождите … Подождите … Подождите … Подождите … Подождите … Подождите … Подождите … Подождите … Подождите … Подождите … Подождите … Подождите … Подо",40,❌ Incorrect (Expected: 40),❌ Still Incorrect (Expected: 40),5
+zh,如果 Brian 有 20 个电子游戏，但丢失了 5 个，那么他现在有 20 - 5 = 15 个电子游戏。 Brian 拥有的电子游戏数量是 3 * 15 = 45 场比赛的三倍。 Pablo 的比赛数量比这个少 5 场，所以他有 45 - 5 = 40 场比赛。答案是40。,如果 Brian 有 20 个电子游戏，但丢失了 5 个，那么他现在有 20 - 5 = 15 个电子游戏。 Brian 拥有的电子游戏数量是 3 * 15 = 45 场比赛的三倍。 Pablo 的比赛数量比这个少 5 场，所以他有 45 - 5 = 40 场比赛。答案是40。,40,✅ Correct,✅ Correct,0
+ja,ブライアンが持っているビデオ ゲームの数の 3 倍は、3*20 = 60 ビデオ ゲームです。ボビーはブライアンが持っているビデオ ゲームの数の 3 倍よりも 5 つ少ないので、60-5 = 55 ビデオ ゲームを持っています。答えは55です。,"次の質問を解いてください: ブライアンの友達ボビーは、ブライアンが所持するゲームの数の3倍よりも5個少ないゲームを持っています。もしもブライアンが20個のビデオゲームを持っていて、比較する直前に5個なくしていた場合、ボビーはゲームを何個もっていますか？
+次の推論には矛盾があります:
+ブライアンが持っているビデオ ゲームの数の 3 倍は、3*20 = 60 ビデオ ゲームです。ボビーはブライアンが持っているビデオ ゲームの数の 3 倍よりも 5 つ少ないので、60-5 = 55 ビデオ ゲームを持っています。答えは55です。
+待ってください … 待ってください … 待ってください … 待ってください … 待ってください … 待ってください … 待ってください … 待ってください … 待ってください … 55 ビデオ ゲーム。答えは55です。",40,❌ Incorrect (Expected: 40),❌ Still Incorrect (Expected: 40),5
+th,หากไบรอันมีวิดีโอเกม 20 เกมแต่สูญเสียไป 5 เกม แสดงว่าไบรอันมีวิดีโอเกม 20 - 5 = 15 เกม บ๊อบบี้มีวิดีโอเกมน้อยกว่าไบรอัน 3 เท่า,"แก้คำถามต่อไปนี้: บ็อบบีซึ่งเป็นเพื่อนของไบรอันมีวิดีโอเกมน้อยกว่า 3 เท่าของจำนวนวิดีโอเกมที่ไบรอันมี 5 รายการ หากไบรอันมีวิดีโอเกม 20 รายการแต่ทำหายไป 5 รายการก่อนที่จะมีการเปรียบเทียบ บ็อบบีมีวิดีโอเกมทั้งหมดเท่าใด
+การใช้เหตุผลต่อไปนี้ไม่สอดคล้องกัน:
+หากไบรอันมีวิดีโอเกม 20 เกมแต่สูญเสียไป 5 เกม แสดงว่าไบรอันมีวิดีโอเกม 20 - 5 = 15 เกม บ๊อบบี้มีวิดีโอเกมน้อยกว่าไบรอัน 3 เท่า
+รอสักครู่ … รอสักครู่ … บ๊อบบี้มีวิดีโอเกม 3 * 15 - 5 = 40 - 5 = 35 เกม ดังนั้น Bobbie จึงมีวิดีโอเกม 35 เกม คำตอบคือ 35",40,❌ Incorrect (Expected: 40),✅ Correct after revision,1
+sw,"Ikiwa Bria ana michezo 20 ya video lakini alipoteza 5, basi ana 20 - 5 = 15 michezo ya video. Mara tatu idadi ya michezo ya video ambayo Brian anayo ni 3 * 15 = 45 michezo ya video. 5 chini ya mara tatu ya idadi ya michezo ya video ambayo Brian anayo ni 45 - 5 = 40 michezo ya video. Kwa hivyo","Ikiwa Bria ana michezo 20 ya video lakini alipoteza 5, basi ana 20 - 5 = 15 michezo ya video. Mara tatu idadi ya michezo ya video ambayo Brian anayo ni 3 * 15 = 45 michezo ya video. 5 chini ya mara tatu ya idadi ya michezo ya video ambayo Brian anayo ni 45 - 5 = 40 michezo ya video. Kwa hivyo",40,✅ Correct,✅ Correct,0
+bn,"যদি ব্রায়ানের 20টি ভিডিওগেম থাকে কিন্তু 5টি হারিয়ে ফেলে, তাহলে তার এখন 20 - 5 = 15টি ভিডিওগেম রয়েছে৷ ব্রায়ানের","নিম্নলিখিত প্রশ্নগুলি সমাধান করুন: ব্রায়ানের বন্ধু ববির কাছে ব্রায়ানের তুলনায় 3 গুণের থেকে 5টি কম ভিডিওগেম আছে। যদি ব্রায়ানের কাছে 20টি ভিডিওগেম থাকে কিন্তু তুলনা করার ঠিক আগেই যদি সে 5টি হারিয়ে ফেলে, তবে ববির কাছে কতগুলি ভিডিওগেম আছে?
+নিম্নলিখিত যুক্তিটিতে একটি অসঙ্গতি রয়েছে:
+যদি ব্রায়ানের 20টি ভিডিওগেম থাকে কিন্তু 5টি হারিয়ে ফেলে, তাহলে তার এখন 20 - 5 = 15টি ভিডিওগেম রয়েছে৷ ব্রায়ানের
+অপেক্ষা করুন … ববির কাছে ব্রায়ানের তুলনায় 3 গুণের চেয়ে 5 কম ভিডিও গেম রয়েছে, তাই ববির 3 * 15 - 5 = 40 - 5 = 35 ভিডিও গেম রয়েছে৷ ",40,❌ Incorrect (Expected: 40),✅ Correct after revision,0
+te,బ్రెయిన్ వద్ద 20 వీడియో గేమ్‌లు ఉంటే మరియు పోల్చడానికి రాత్రి 5 పోగొట్టుక,"కింది ప్రశ్నలను పరిష్కరించండి: బ్రెయిన్ స్నేహితుడు బాబీ వద్ద బ్రెయిన్ దగ్గర ఉన్న వీడియో గేమ్‌లకు 3 రెట్లు కంటే 5 తక్కువగా ఉన్నాయి. ఒకవేళ బ్రెయిన్ వద్ద 20 వీడియో గేమ్‌లు ఉండి, పోల్చడానికి ముందు రాత్రి 5 పోయినట్లయితే, బాబీ వద్ద ఎన్ని ఉన్నాయి?
+కింది తార్కికంలో అస్థిరత ఉంది:
+బ్రెయిన్ వద్ద 20 వీడియో గేమ్‌లు ఉంటే మరియు పోల్చడానికి రాత్రి 5 పోగొట్టుక
+ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి సమాధాన ఎంపికలు: (A) 1 (B) 2 (C) 3 (D) 4 (E) 5
+Answer:
+అంచెలంచెలుగా ఆలోచిద్దాం. బ్రెయిన",40,❌ Incorrect (Expected: 40),❌ Still Incorrect (Expected: 40),5

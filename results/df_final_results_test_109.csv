@@ -1,0 +1,58 @@
+language,original_response,revised_response,expected_answer,initial_status,new_status,wait_count
+en,"Let x be the number of cookies Henry baked last year.
+        This year he baked 2*x cookies.
+        He dropped 5 cookies, so he had 2*x - 5 cookies.
+        He now has a total of x + 2*x - 5 = 110 cookies.
+        Combining like terms, we get 3*x - 5 = 110.
+        Adding 5 to both sides, we get 3*x = 115.
+        Dividing both sides by 3, we","Solve the following questions: Henry is making cookies for a local baking competition. He wants to make twice as many as he did last year. When he finishes baking, he realizes he actually baked 15 more cookies than he meant to. He drops 5 of his cookies as he is putting them out to cool, and now has a total of 110 cookies. How many cookies did Henry bake last year?
+The following reasoning has an inconsistency:
+Let x be the number of cookies Henry baked last year.
+        This year he baked 2*x cookies.
+        He dropped 5 cookies, so he had 2*x - 5 cookies.
+        He now has a total of x + 2*x - 5 = 110 cookies.
+        Combining like terms, we get 3*x - 5 = 110.
+        Adding 5 to both sides, we get 3*x = 115.
+        Dividing both sides by 3, we
+Wait … Wait … Wait … Wait … Wait …
+        We get x = 35.
+The answer is 35.",50,❌ Incorrect (Expected: 50),❌ Still Incorrect (Expected: 50),5
+es,"Henry tiene 110 galletas después de descartar 5, por lo que originalmente tenía 110 + 5 = 115 galletas. Horneó 15 galletas más de las que quería, por lo que originalmente planeó hornear 115 - 15 = 100 galletas. Planeó hacer el doble que el año pasado, por lo que el año pasado hizo 100/2 = 50 galletas. La respuesta es 50.","Henry tiene 110 galletas después de descartar 5, por lo que originalmente tenía 110 + 5 = 115 galletas. Horneó 15 galletas más de las que quería, por lo que originalmente planeó hornear 115 - 15 = 100 galletas. Planeó hacer el doble que el año pasado, por lo que el año pasado hizo 100/2 = 50 galletas. La respuesta es 50.",50,✅ Correct,✅ Correct,0
+fr,"Soit x le nombre de cookies qu'Henri a préparés l'année dernière. Cette année, il a fait 2x cookies. Ainsi, le nombre total de cookies qu'il a préparé cette année est x + 2x = 3x. Après avoir jeté 5 cookies, il lui reste 3x - 5 = 110 cookies. Donc, 3x = 115. Par conséquent, x = 35. Ainsi, Henri a préparé 35 biscuits l'année","Résolvez les questions suivantes: Henri prépare des cookies pour un concours local de pâtisserie. Il veut en faire deux fois plus que l'année dernière. A la fin de la fournée, il constate qu'il a fait 15 cookies de plus que prévu. Il fait tomber 5 de ses biscuits pendant qu'il les fait refroidir et se retrouve avec un total de 110 biscuits. Combien de biscuits Henri a-t-il préparés l'année dernière ?
+Le raisonnement suivant présente une incohérence :
+Soit x le nombre de cookies qu'Henri a préparés l'année dernière. Cette année, il a fait 2x cookies. Ainsi, le nombre total de cookies qu'il a préparé cette année est x + 2x = 3x. Après avoir jeté 5 cookies, il lui reste 3x - 5 = 110 cookies. Donc, 3x = 115. Par conséquent, x = 35. Ainsi, Henri a préparé 35 biscuits l'année
+Attendez … Attendez … Attendez … Attendez … Attendez … Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez…",50,❌ Incorrect (Expected: 50),❌ Still Incorrect (Expected: 50),5
+de,"Sei x die Anzahl der Kekse, die Henry letztes Jahr gebacken hat. In diesem Jahr hat er 2*x Kekse gebacken. Er hat 5 davon fallen lassen, also sind 2*x - 5 = 110. 2*x = 115. x = 115 / 2 = 57,5. Henry hat letztes Jahr 57 Kekse gebacken. Die Antwort ist 57.","Los die folgenden Fragen: Henry backt Kekse für einen regionalen Backwettbewerb. Er möchte zweimal so viele backen wie letztes Jahr. Als er mit dem Backen fertig ist, bemerkt er, dass er 15 Kekse mehr gebacken hat als er eigentlich wollte. Er lässt 5 seiner Kekse fallen, als er sie zum Kühlen rausstellt und hat jetzt insgesamt 110 Kekse. Wie viele Kekse hat Henry letztes Jahr gebacken?
+Die folgende Argumentation enthält eine Inkonsistenz:
+Sei x die Anzahl der Kekse, die Henry letztes Jahr gebacken hat. In diesem Jahr hat er 2*x Kekse gebacken. Er hat 5 davon fallen lassen, also sind 2*x - 5 = 110. 2*x = 115. x = 115 / 2 = 57,5. Henry hat letztes Jahr 57 Kekse gebacken. Die Antwort ist 57.
+Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte",50,❌ Incorrect (Expected: 50),❌ Still Incorrect (Expected: 50),5
+ru,"Пусть x — количество печенек, которые Генри испек в прошлом году. В этом году Генри испек вдвое больше печенья, поэтому в этом году он испек в два раза больше печенья. Он выронил 5 печенек, поэтому у него было 2x - 5 печенек после того, как их выронил. Всего у него 110 печенек, поэтому 2x - 5 = 1","Решите следующие вопросы: Генри готовит печенье для местного конкурса выпечки. Он хочет приготовить в два раза больше, чем в прошлом году. Когда он заканчивает печь, то понимает, что на деле испек на 15 печений больше, чем собирался. Он роняет 5 печений, когда выкладывает их остужаться, и теперь у него всего 110 печений. Сколько печений испек Генри в прошлом году?
+Следующее рассуждение имеет несоответствие:
+Пусть x — количество печенек, которые Генри испек в прошлом году. В этом году Генри испек вдвое больше печенья, поэтому в этом году он испек в два раза больше печенья. Он выронил 5 печенек, поэтому у него было 2x - 5 печенек после того, как их выронил. Всего у него 110 печенек, поэтому 2x - 5 = 1
+Подождите … Подождите … Подождите … Подождите … Подождите … Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подо",50,❌ Incorrect (Expected: 50),❌ Still Incorrect (Expected: 50),5
+zh,亨利在扔掉一些饼干之前有 110 - 5 = 115 块饼干。亨利计划制作的饼干数量是他去年制作的饼干数量的两倍，因此他去年制作了 115 / 2 = 57.5 块饼干。答案是 57。,"解答以下问题: 亨利正在为当地的一场烘焙竞赛制作饼干。他想比去年多做一倍。当他烤完后，他意识到自己实际上比想做的多做了 15 片饼干。在把饼干拿出去晾凉时，他掉了 5 片饼干，现在他一共有 110 片饼干。亨利去年做了多少片饼干？
+以下推理存在不一致之处：
+亨利在扔掉一些饼干之前有 110 - 5 = 115 块饼干。亨利计划制作的饼干数量是他去年制作的饼干数量的两倍，因此他去年制作了 115 / 2 = 57.5 块饼干。答案是 57。
+等待 … 等待 … 等待 … 等待 … 等待 … 答案是 57。
+Answer:
+让我们一步步思考。让我们一步一步来。让我们将亨利去年制作的饼干数量表示为 x。这年亨利计划制作的饼干数量是去年的两倍，因此他计划制作 2 块饼干。在扔掉一些饼干之前，亨利有 115 块饼干，因此 ",50,❌ Incorrect (Expected: 50),❌ Still Incorrect (Expected: 50),5
+ja,ヘンリーは、焼き終わったらクッキーを取り出しながら、5 枚を取り除きました。これは、彼が取り出す前に 110 + 5 = 115 枚のクッキーがあったことを意味します。彼は、焼き終わったときに実際に焼いた数よりも 15 枚多く焼いたこと,"次の質問を解いてください: ヘンリーは地元のコンテストのためにクッキーを作っています。彼は去年焼いた数の2倍焼きたいと思っています。焼き終えたら、彼は実際に、思っていた数より15枚多く焼いていることに気付きました。彼はクッキーを冷やすために取り出しながら、それらのうち5枚を取り除き、現在全部で110枚のクッキーがあります。ヘンリーは去年、何枚のクッキーを焼きましたか？
+次の推論には矛盾があります:
+ヘンリーは、焼き終わったらクッキーを取り出しながら、5 枚を取り除きました。これは、彼が取り出す前に 110 + 5 = 115 枚のクッキーがあったことを意味します。彼は、焼き終わったときに実際に焼いた数よりも 15 枚多く焼いたこと
+待ってください … 待ってください … 待ってください … 待ってください … 待ってください … 待ってください … 待ってください … 待ってください … 待ってください … 待ってください … 待ってください … 待ってください… 待ってください… 待ってください… 待ってください… 待ってください… 待ってください… 待ってください… 待ってください… 待",50,❌ Incorrect (Expected: 50),❌ Still Incorrect (Expected: 50),5
+th,ให้ C เป็นจำนวนคุกกี้ที่เฮนรี่อบเมื่อปีที่แล้ว ปีนี้เขาอบคุกกี้ 2C หลังจากที่อบคุกกี้ 2C แล้ว เขามีคุกกี้ C + 2C = 3C เมื่อเขาทำค,"แก้คำถามต่อไปนี้: เฮนรีกำลังทำคุกกี้ไปร่วมการประกวดขนมอบประจำท้องถิ่น เขาต้องการทำคุกกี้เพิ่มเป็นสองเท่าจากปริมาณที่เคยทำเมื่อปีที่แล้ว เมื่อเขาอบคุกกี้เสร็จ ก็ได้รู้ว่าตนเองทำคุกกี้เกินมา 15 ชิ้น เขาทำคุกกี้ตก 5 ชิ้นขณะที่นำออกมาวางให้เย็นตัวลง และตอนนี้เขามีคุกกี้ทั้งหมด 110 ชิ้น เมื่อปีที่แล้วเฮนรีอบคุกกี้กี่ชิ้น
+การใช้เหตุผลต่อไปนี้ไม่สอดคล้องกัน:
+ให้ C เป็นจำนวนคุกกี้ที่เฮนรี่อบเมื่อปีที่แล้ว ปีนี้เขาอบคุกกี้ 2C หลังจากที่อบคุกกี้ 2C แล้ว เขามีคุกกี้ C + 2C = 3C เมื่อเขาทำค
+รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักค",50,❌ Incorrect (Expected: 50),❌ Still Incorrect (Expected: 50),5
+sw,"Hebu x iwe idadi ya biskuti Henry alioka mwaka jana. Mwaka huu, alioka 2 * x biskuti. Kwa hivyo, jumla ya biskuti alizooka mwaka huu ni x + 2x = 3x. Baada ya kuanguka, ana biskuti 110, hivyo 3x - 5 = 110. Kuongeza 5 kwa pande zote mbili za equation, tunapata 3x = 1","Tatua maswali yafuatayo: Henry anatengeneza biskuti kwa ajili ya shindano la ndani ya kuoka. Anataka kutengeneza mara mbili zaidi ya alizotengeneza mwaka jana. Akikamilisha kuoka, anagundua kuwa alioka biskuti 15 zaidi ya alivyotarajia. Biskuti 5 zilianguka alipokuwa akiziweka ili zipoe, na sasa ana jumla ya biskuti 110. Henry alioka biskuti ngapi mwaka jana?
+Hoja ifuatayo ina hali ya kutofautiana:
+Hebu x iwe idadi ya biskuti Henry alioka mwaka jana. Mwaka huu, alioka 2 * x biskuti. Kwa hivyo, jumla ya biskuti alizooka mwaka huu ni x + 2x = 3x. Baada ya kuanguka, ana biskuti 110, hivyo 3x - 5 = 110. Kuongeza 5 kwa pande zote mbili za equation, tunapata 3x = 1
+Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri",50,❌ Incorrect (Expected: 50),❌ Still Incorrect (Expected: 50),5
+bn,"হেনরি বর্তমানে 110টি কুকিজ রয়েছে এবং 5টি পড়ে গেছে, তাই তার কাছে 110 - 5 = 105টি কুকি ছিল যা পড়ে যাওয়ার আগে। তিনি","নিম্নলিখিত প্রশ্নগুলি সমাধান করুন: একটি স্থানীয় বেকিং প্রতিযোগিতার জন্য হেনরি কুকিজ বানাচ্ছেন। তিনি গত বছরে যা বানিয়েছিলেন তার তুলনায় তিনি দ্বিগুণ বানাতে চান। যখন তিনি বেকিং করা শেষ করেন, তিনি বুঝতে পারেন আসলে তিনি যতটা চেয়েছিলেন তার থেকে তিনি 15টি কুকিজ বেশি বেক করেছেন। তিনি সেগুলি ঠাণ্ডা করার জন্য যখন বাইরে রাখার সময় 5টি কুকিজ পড়ে যায়, এবং এখন মোট 110টি কুকিজ রয়েছে। হেনরি গত বছরে কতগুলি কুকিজ বানিয়েছিলেন?
+নিম্নলিখিত যুক্তিটিতে একটি অসঙ্গতি রয়েছে:
+হেনরি বর্তমানে 110টি কুকিজ রয়েছে এবং 5টি পড়ে গেছে, তাই তার কাছে 110 - 5 = 105টি কুকি ছিল যা পড়ে যাওয়ার আগে। তিনি
+অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … হেনরি গত বছরে যা বানিয়েছিলেন তার তুলনায় দ্বিগুণ কুকিজ বানাতে চান। তিনি গত বছরে যা বানিয়েছিলেন তার তুলনায় তিনি আর�",50,❌ Incorrect (Expected: 50),❌ Still Incorrect (Expected: 50),5
+te,హెన్రీ గత సంవత్సరం తయారు చేసిన కుక్కీల సంఖ్యను X అనుకుందాం. ఈ సంవత్సరం అతను 2*X కుకీలన,"కింది ప్రశ్నలను పరిష్కరించండి: స్థానిక బేకింగ్ పోటీల కొరకు హెన్రీ కుకీలను తయారు చేస్తున్నాడు. అతడు గత సంవత్సరం తయారుచేసిన వాటికి రెట్టింపు సంఖ్యలో తయారు చేయాలని కోరుకుంటున్నాడు. అతడు బేక్ చేయడం పూర్తి చేసిన తరువాత, వాస్తవానికి తాను చేయాలని అనుకున్న దానికంటే మరో 15 కుకీలు ఎక్కువగా బేక్ చేసినట్లుగా అర్థం చేసుకున్నాడు. చల్లబరడానికి బయటకు తీసేటప్పుడు అతడు 5 కుకీలను క్రింద పడేశాడు, ఇప్పుడు అతడి వద్ద 110 కుకీలు ఉన్నాయి. హెన్రీ గత సంవత్సరం ఎన్ని కుకీలను తయారు చేశాడు?
+కింది తార్కికంలో అస్థిరత ఉంది:
+హెన్రీ గత సంవత్సరం తయారు చేసిన కుక్కీల సంఖ్యను X అనుకుందాం. ఈ సంవత్సరం అతను 2*X కుకీలన
+ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండ",50,❌ Incorrect (Expected: 50),❌ Still Incorrect (Expected: 50),5

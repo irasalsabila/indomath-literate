@@ -1,0 +1,54 @@
+language,original_response,revised_response,expected_answer,initial_status,new_status,wait_count
+en,"The ratio of teaspoons of sugar to cups of water is 7:13. This means that for every 7 teaspoons of sugar, there are 13 cups of water.
+We can set up a proportion to find the number of teaspoons of sugar. Let x be the number of teaspoons of sugar. We have the equation: 
+x / (x + 13) = 7 / 13
+Cross-multiplying, we get:
+13x = 7(x + 13)
+Expanding and simplifying, we get","Solve the following questions: Katy makes coffee using teaspoons of sugar and cups of water in the ratio of 7:13. If she used a total of 120 teaspoons of sugar and cups of water, calculate the number of teaspoonfuls of sugar she used.
+The following reasoning has an inconsistency:
+The ratio of teaspoons of sugar to cups of water is 7:13. This means that for every 7 teaspoons of sugar, there are 13 cups of water.
+We can set up a proportion to find the number of teaspoons of sugar. Let x be the number of teaspoons of sugar. We have the equation: 
+x / (x + 13) = 7 / 13
+Cross-multiplying, we get:
+13x = 7(x + 13)
+Expanding and simplifying, we get
+Wait …
+The answer is 42.",42,❌ Incorrect (Expected: 42),✅ Correct after revision,0
+es,"La proporción es 7 + 13 = 20 partes. Las 120 cucharaditas de azúcar y agua se dividirán en 20 partes. Por lo tanto, cada parte es igual a 120/20 = 6 cucharaditas. Por lo tanto, Katy usó 7 partes * 6 = 42 cucharaditas de azúcar. La respuesta es 42.","La proporción es 7 + 13 = 20 partes. Las 120 cucharaditas de azúcar y agua se dividirán en 20 partes. Por lo tanto, cada parte es igual a 120/20 = 6 cucharaditas. Por lo tanto, Katy usó 7 partes * 6 = 42 cucharaditas de azúcar. La respuesta es 42.",42,✅ Correct,✅ Correct,0
+fr,"Le rapport total représentant la quantité de café que Katy prépare est de 7 + 13 = 20. Pour savoir combien de cuillères à café de sucre Katy a versées, nous devons trouver la fraction du ratio total qui représente les cuillères à café de sucre. La fraction représentant les cuillères à café de sucre est 7/20, et nous savons que Katy a utilisé un total de 120 cuillères à café de sucre et d'eau, nous pouvons donc calculer","Résolvez les questions suivantes: Katy prépare du café en utilisant des cuillères à café de sucre et des tasses d'eau dans un ratio de 7 : 13. Calculez le nombre de cuillères à café qu'elle a versées, sachant qu'elle a utilisé un total de 120 cuillères à café de sucre et de tasses d'eau.
+Le raisonnement suivant présente une incohérence :
+Le rapport total représentant la quantité de café que Katy prépare est de 7 + 13 = 20. Pour savoir combien de cuillères à café de sucre Katy a versées, nous devons trouver la fraction du ratio total qui représente les cuillères à café de sucre. La fraction représentant les cuillères à café de sucre est 7/20, et nous savons que Katy a utilisé un total de 120 cuillères à café de sucre et d'eau, nous pouvons donc calculer
+Attendez … 7/20 de 120 cuillères à café de sucre et d'eau. 7/20 de 120 équivaut à (7/20) * 120 = 42 cuillères à café de sucre. Ainsi, Katy a versé 42 cuillères à café de sucre. La réponse est 42.",42,❌ Incorrect (Expected: 42),✅ Correct after revision,0
+de,"Das Verhältnis von Teelöffel Zucker zu Tassen Wasser beträgt 7:13. Das bedeutet, dass auf 7 Teelöffel Zucker 13 Tassen Wasser kommen. Wir können dieses Verhältnis als 7x und 13x darstellen, wobei x eine Konstante ist. Die Gesamtzahl der verwendeten Teelöffel Zucker und Tassen Wasser beträgt 120. Das bedeutet, dass 7x + 13x = 120","Los die folgenden Fragen: Katy bereitet Kaffee zu und verwendet dazu Teelöffel mit Zucker und Tassen mit Wasser im Verhältnis 7:13. Wenn sie insgesamt 120 Teelöffel Zucker und Tassen Wasser verwendet hat, berechne die Anzahl der Teelöffel Zucker, die sie verwendet hat.
+Die folgende Argumentation enthält eine Inkonsistenz:
+Das Verhältnis von Teelöffel Zucker zu Tassen Wasser beträgt 7:13. Das bedeutet, dass auf 7 Teelöffel Zucker 13 Tassen Wasser kommen. Wir können dieses Verhältnis als 7x und 13x darstellen, wobei x eine Konstante ist. Die Gesamtzahl der verwendeten Teelöffel Zucker und Tassen Wasser beträgt 120. Das bedeutet, dass 7x + 13x = 120
+Warte … 20x = 120
+Dividiere beide Seiten durch 20, x = 6
+Daraus können wir schließen, dass 7x = 7(6) = 42 Teelöffel Zucker und 13x = 13(6) = 78 Tassen Wasser wurden verwendet. Die Antwort ist 42.",42,❌ Incorrect (Expected: 42),✅ Correct after revision,0
+ru,"Соотношение чайных ложек сахара и чашек воды составляет 7:13. Это означает, что на каждые 7 чайных ложек сахара Кейт использует 13 чашек воды. Нам дано, что Кейт использовала в общей сложности 120 чайных ложек сахара. Чтобы найти количество использованных ею чайных ложек сахара, нам нужно найти до","Решите следующие вопросы: Кейти делает кофе, используя чайные ложки сахара и чашки воды в пропорции 7:13. Если она использовала всего 120 чайных ложек сахара и чашек воды, рассчитайте количество чайных ложек сахара, которые она использовала.
+Следующее рассуждение имеет несоответствие:
+Соотношение чайных ложек сахара и чашек воды составляет 7:13. Это означает, что на каждые 7 чайных ложек сахара Кейт использует 13 чашек воды. Нам дано, что Кейт использовала в общей сложности 120 чайных ложек сахара. Чтобы найти количество использованных ею чайных ложек сахара, нам нужно найти до
+Подождите … Подождите … Подождите … Подождите … Подождите … Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подо",42,❌ Incorrect (Expected: 42),❌ Still Incorrect (Expected: 42),5
+zh,凯蒂的咖啡配方中的比例是 7 茶匙糖与 13 杯水。这意味着每 7 茶匙糖，她需要 13 杯水。如果我们将茶匙和杯子的总数相加，则得到 7 + 13 = 20 个单位。如果总共使用的单位数为 120，则每个单位代,"解答以下问题: 凯蒂以 7 茶匙糖和 13 杯水的比例泡咖啡。如果她使用的糖和水一共 120 茶匙和杯，请计算她使用了多少茶匙的糖。
+以下推理存在不一致之处：
+凯蒂的咖啡配方中的比例是 7 茶匙糖与 13 杯水。这意味着每 7 茶匙糖，她需要 13 杯水。如果我们将茶匙和杯子的总数相加，则得到 7 + 13 = 20 个单位。如果总共使用的单位数为 120，则每个单位代
+等待 … 等待 … 等待 … 等待 … 等待 … 答案是 14。",42,❌ Incorrect (Expected: 42),❌ Still Incorrect (Expected: 42),5
+ja,比率の合計は 7+13=20 です。砂糖の小さじ数を求めるには、砂糖の小さじ数を比率の合計で割る必要があります。つまり、7/20 は小さじ 120 杯の砂糖に相当します。したがって、7/20 * 120 = 小さじ 42 杯の�,比率の合計は 7+13=20 です。砂糖の小さじ数を求めるには、砂糖の小さじ数を比率の合計で割る必要があります。つまり、7/20 は小さじ 120 杯の砂糖に相当します。したがって、7/20 * 120 = 小さじ 42 杯の�,42,✅ Correct,✅ Correct,0
+th,อัตราส่วนรวมของน้ำตาลและน้ำคือ 7 + 13 = 20 หากต้องการหาจำนวนน้ำตาลที่ใช้ เราต้องหาเศษส่วนของอัตราส่วนทั้งหมดที่แสดงถึงปริมาณน้ำตา,"แก้คำถามต่อไปนี้: เคทีชงกาแฟโดยใช้น้ำตาลเป็นหน่วยช้อนชาและน้ำเป็นหน่วยแก้วในอัตราส่วน 7:13 หากจำนวนช้อนชาของน้ำตาลและจำนวนแก้วของน้ำที่เธอใช้นำมารวมกันได้ 120 ให้คำนวณว่าเธอใช้น้ำตาลไปกี่ช้อนชา
+การใช้เหตุผลต่อไปนี้ไม่สอดคล้องกัน:
+อัตราส่วนรวมของน้ำตาลและน้ำคือ 7 + 13 = 20 หากต้องการหาจำนวนน้ำตาลที่ใช้ เราต้องหาเศษส่วนของอัตราส่วนทั้งหมดที่แสดงถึงปริมาณน้ำตา
+รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักค",42,❌ Incorrect (Expected: 42),❌ Still Incorrect (Expected: 42),5
+sw,"Uwiano wa jumla wa vijiko vya sukari kwa vikombe vya maji ni 7 + 13 = 20. Ikiwa alitumia jumla ya vijiko 120 vya sukari na vikombe vya maji, basi kila sehemu ya uwiano inawakilisha 120/20 = 6. Kwa hiyo, alitumia 7 sehemu ya uwiano. ya sukari, ambayo ni 7 x","Tatua maswali yafuatayo: Katy hutengeneza kahawa kwa kutumia vijiko vidogo vya sukari na vikombe vya maji katika uwiano wa 7:13. Ikiwa alitumia jumla ya vijiko vidogo 120 vya sukari na vikombe vya maji, piga hesabu ya idadi ya vijiko vidogo vya sukari alivyotumia.
+Hoja ifuatayo ina hali ya kutofautiana:
+Uwiano wa jumla wa vijiko vya sukari kwa vikombe vya maji ni 7 + 13 = 20. Ikiwa alitumia jumla ya vijiko 120 vya sukari na vikombe vya maji, basi kila sehemu ya uwiano inawakilisha 120/20 = 6. Kwa hiyo, alitumia 7 sehemu ya uwiano. ya sukari, ambayo ni 7 x
+Subiri … Jibu ni 42.",42,❌ Incorrect (Expected: 42),✅ Correct after revision,0
+bn,"চা-চামচ চিনির সাথে পানির কাপের মোট অনুপাত হল 7 + 13 = 20। কেটি কতটা চা-চামচ চিনি ব্যবহার করেছে তা জানতে, আমাদের অনুপাতের ভগ্ন","নিম্নলিখিত প্রশ্নগুলি সমাধান করুন: কেটি 7:13 অনুপাতে চা-চামচ চিনি ও কাপের মাপে জল দিয়ে কফি বানায়। যদি উভয় মিলিয়ে সে মোট 120 পরিমাণের চা-চামচ চিনি ও কাপের মাপে জল দিয়ে কফি বানায়, তবে সে কত চা-চামচ চিনি ব্যবহার করেছে তা হিসাব করুন।
+নিম্নলিখিত যুক্তিটিতে একটি অসঙ্গতি রয়েছে:
+চা-চামচ চিনির সাথে পানির কাপের মোট অনুপাত হল 7 + 13 = 20। কেটি কতটা চা-চামচ চিনি ব্যবহার করেছে তা জানতে, আমাদের অনুপাতের ভগ্ন
+অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অ",42,❌ Incorrect (Expected: 42),❌ Still Incorrect (Expected: 42),5
+te,"టీస్పూన్‌ల చక్కెర మరియు కప్పుల నీటి నిష్పత్తి 7:13 అయితే, చక్కెర టీస్పూన్‌ల �","కింది ప్రశ్నలను పరిష్కరించండి: కేట్ 7:13 నిష్పత్తుల్లో టీస్పూన్‌ల చక్కెర మరియు కప్పుల నీటిని ఉపయోగించి కాఫీ తయారు చేస్తుంది. ఆమె 120 టీస్పూన్‌ల చక్కెర మరియు నీటి కప్పులను ఉపయోగిస్తే, ఆమె ఉపయోగించిన చక్కెర టీస్పూన్‌ల సంఖ్యను లెక్కించండి.
+కింది తార్కికంలో అస్థిరత ఉంది:
+టీస్పూన్‌ల చక్కెర మరియు కప్పుల నీటి నిష్పత్తి 7:13 అయితే, చక్కెర టీస్పూన్‌ల �
+ఆగండి … ఆగండి … ఆగండి సమాధాన ఎంపికలు: (A) 42 (B) 45 (C) 48 (D) 51 (E) 54
+Answer:
+అంచెలంచెలుగా ఆలోచిద్దాం. చక్క��",42,❌ Incorrect (Expected: 42),✅ Correct after revision,1

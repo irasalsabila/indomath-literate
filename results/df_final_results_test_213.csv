@@ -1,0 +1,27 @@
+language,original_response,revised_response,expected_answer,initial_status,new_status,wait_count
+en,"The perimeter of the rectangle is 2 * (1.5 + 6) = 2 * 7.5 = 15 miles.
+        If Gary walks at 3 miles/hour, he will spend 15 / 3 = 5 hours walking.
+        The answer is 5.","The perimeter of the rectangle is 2 * (1.5 + 6) = 2 * 7.5 = 15 miles.
+        If Gary walks at 3 miles/hour, he will spend 15 / 3 = 5 hours walking.
+        The answer is 5.",5,✅ Correct,✅ Correct,0
+es,"El perímetro del rectángulo es 2 * (1,5 + 6) = 18 millas. Si Gary camina a una velocidad de 3 millas por hora, le tomará 18/3 = 6 horas completar la caminata. La respuesta es 6.","El perímetro del rectángulo es 2 * (1,5 + 6) = 18 millas. Si Gary camina a una velocidad de 3 millas por hora, le tomará 18/3 = 6 horas completar la caminata. La respuesta es 6.",5,✅ Correct,✅ Correct,0
+fr,"Le périmètre du rectangle est de 2 * (1,5 + 6) = 18 miles. Si Gary marche à 3 miles par heure, il lui faudra 18/3 = 6 heures pour parcourir le périmètre. La réponse est 6.","Le périmètre du rectangle est de 2 * (1,5 + 6) = 18 miles. Si Gary marche à 3 miles par heure, il lui faudra 18/3 = 6 heures pour parcourir le périmètre. La réponse est 6.",5,✅ Correct,✅ Correct,0
+de,"Die Formel zur Berechnung der Fläche eines Rechtecks ist Länge x Breite. Die Fläche des Parks beträgt 1,5 Meilen x 6 Meilen = 9 Meilen. Wenn Gary mit 3 Meilen pro Stunde läuft, wird er 9 Meilen / 3 Meilen pro Stunde = 3 Stunden laufen. Die Antwort ist 3.","Die Formel zur Berechnung der Fläche eines Rechtecks ist Länge x Breite. Die Fläche des Parks beträgt 1,5 Meilen x 6 Meilen = 9 Meilen. Wenn Gary mit 3 Meilen pro Stunde läuft, wird er 9 Meilen / 3 Meilen pro Stunde = 3 Stunden laufen. Die Antwort ist 3.",5,✅ Correct,✅ Correct,0
+ru,"Периметр прямоугольника определяется по формуле P = 2l + 2w, где l — длина, а w — ширина. Для этого прямоугольника периметр равен P = 2(1,5) + 2(6) = 3 + 12 = 15 миль. Если Гэри идет со скоростью 3 мили в час, то ему понадобится 15 миль / 3 мили в час =","Периметр прямоугольника определяется по формуле P = 2l + 2w, где l — длина, а w — ширина. Для этого прямоугольника периметр равен P = 2(1,5) + 2(6) = 3 + 12 = 15 миль. Если Гэри идет со скоростью 3 мили в час, то ему понадобится 15 миль / 3 мили в час =",5,✅ Correct,✅ Correct,0
+zh,公园的周长为 2 *（长 + 宽）= 2 *（1.5 + 6）= 2 * 7.5 = 15 英里。如果加里以 3 英里/小时的速度行走，他将花费 15 英里/3 英里/小时 = 5 小时步行。答案是5。,公园的周长为 2 *（长 + 宽）= 2 *（1.5 + 6）= 2 * 7.5 = 15 英里。如果加里以 3 英里/小时的速度行走，他将花费 15 英里/3 英里/小时 = 5 小时步行。答案是5。,5,✅ Correct,✅ Correct,0
+ja,ステップごとの答え：長方形の周囲の長さは、1.5 + 1.5 + 6 + 6 = 16 マイルです。彼が 1 時間に 3 マイル歩くとすると、16 / 3 = 5.33 時間かかります。答えは 5 です。,ステップごとの答え：長方形の周囲の長さは、1.5 + 1.5 + 6 + 6 = 16 マイルです。彼が 1 時間に 3 マイル歩くとすると、16 / 3 = 5.33 時間かかります。答えは 5 です。,5,✅ Correct,✅ Correct,0
+th,เส้นรอบวงของสี่เหลี่ยมผืนผ้ากำหนดโดยสูตร P = 2l + 2w โดยที่ P คือเส้นรอบวง l คือความยาว และ w คือความกว้าง สำหรับสวนสาธารณะ เส้นรอบวง,"แก้คำถามต่อไปนี้: แกรี่ชอบเดินรอบริมสวนสาธารณะท้องถิ่น ซึ่งเป็นรูปสี่เหลี่ยมผืนผ้าที่มีขนาด 1.5 ไมล์คูณ 6 ไมล์ ถ้าเขาเดินด้วยความเร็ว 3 ไมล์/ชั่วโมง เขาจะใช้เวลาเดินกี่ชั่วโมง
+การใช้เหตุผลต่อไปนี้ไม่สอดคล้องกัน:
+เส้นรอบวงของสี่เหลี่ยมผืนผ้ากำหนดโดยสูตร P = 2l + 2w โดยที่ P คือเส้นรอบวง l คือความยาว และ w คือความกว้าง สำหรับสวนสาธารณะ เส้นรอบวง
+รอสักครู่ … ตัวเลือกคำตอบ: (A) 6.5 ไมล์ (B) 2.6 ไมล์ (C) 4.5 ไมล์ (D) 5.6 ไมล์ (E) 7.5 ไมล์
+Answer:
+ลองคิดทีละขั้นตอน ความยาวของสี่เหลี่ยมผืนผ้าคือ l",5,❌ Incorrect (Expected: 5),✅ Correct after revision,0
+sw,"Umbali wa njia ni maili 1.5 x maili 6 = maili 9. Anatembea kwa kasi ya maili 3 kwa saa, kwa hivyo itamchukua maili 9 / maili 3 kwa saa = saa 3 kutembea kando ya njia. Jibu ni 3.","Umbali wa njia ni maili 1.5 x maili 6 = maili 9. Anatembea kwa kasi ya maili 3 kwa saa, kwa hivyo itamchukua maili 9 / maili 3 kwa saa = saa 3 kutembea kando ya njia. Jibu ni 3.",5,✅ Correct,✅ Correct,0
+bn,"গ্যারি যে দূরত্বটি হাঁটেন তা হল আয়তক্ষেত্রের পরিধি, যা সূত্র 2 * (দৈর্ঘ্য + প্রস্থ) দ্বারা দেওয়া হয়। এই ক্ষেত্র","নিম্নলিখিত প্রশ্নগুলি সমাধান করুন: গ্যারি স্থানীয় পার্কের সীমানা ধরে হাঁটতে পছন্দ করে, যেটি একটি আয়তকার ক্ষেত্র যার প্রস্থ 1.5 মাইল ও দৈর্ঘ্য 6 মাইল। যদি সে প্রতি ঘণ্টায় 3 মাইল করে হাঁটে, তাহলে সে কত ঘণ্টা হাঁটে?
+নিম্নলিখিত যুক্তিটিতে একটি অসঙ্গতি রয়েছে:
+গ্যারি যে দূরত্বটি হাঁটেন তা হল আয়তক্ষেত্রের পরিধি, যা সূত্র 2 * (দৈর্ঘ্য + প্রস্থ) দ্বারা দেওয়া হয়। এই ক্ষেত্র
+অপেক্ষা করুন … যদি গ্যারি প্রতি ঘন্টায় 3 মাইল বেগে হাঁটে, তাহলে তার গড় গতি সূত্র দ্বারা দেওয়া হবে (দূরত্ব / সময়)। এই ক্ষেত্রে দূ",5,❌ Incorrect (Expected: 5),✅ Correct after revision,0
+te,గ్యారీ పార్క్ చుట్టూ ఎన్ని మైళ్లు నడిచాడో మొదట మనం గుర్తించాలి. దీర్ఘచతుర,"కింది ప్రశ్నలను పరిష్కరించండి: గ్యారీ ఒక స్థానిక పార్కు అంచు వెంబడి నడవడానికి ఇష్టపడతాడు, ఇది దీర్ఘచతురస్రాకారంలో 1.5 మైళ్లు పొడవు మరియు 6 మైళ్ల వెడల్పు ఉంటుంది. అతడు గంటకు 3 మైళ్ల వేగంతో నడిచినట్లయితే, అతడు ఎన్ని గంటలు నడకలో గడుపుతాడు?
+కింది తార్కికంలో అస్థిరత ఉంది:
+గ్యారీ పార్క్ చుట్టూ ఎన్ని మైళ్లు నడిచాడో మొదట మనం గుర్తించాలి. దీర్ఘచతుర
+ఆగండి … ఇది దీర్ఘచతురస్రం, కాబట్టి మనం దానిని దాని చుట్టుకొలత కోసం సూత్రాన్ని ఉపయోగ",5,❌ Incorrect (Expected: 5),✅ Correct after revision,0

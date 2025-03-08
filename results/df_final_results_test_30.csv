@@ -1,0 +1,63 @@
+language,original_response,revised_response,expected_answer,initial_status,new_status,wait_count
+en,"Let x be the cost of the boots.
+        The cost of the two pairs of high heels is 2 * x + 5.
+        The total cost of the shoes is the cost of the boots plus the cost of the two pairs of high heels, so x + 2 * x + 5 = 33.
+        Combining like terms, we get 3 * x + 5 = 33.
+        Subtracting 5 from both sides, we get 3 * x = 28.
+        Dividing both sides by 3, we get x","Solve the following questions: Gloria is shoe shopping when she comes across a pair of boots that fit her shoe budget. However, she has to choose between the boots and two pairs of high heels that together cost five dollars less than the boots. If one pair of heels costs $33 and the other costs twice as much, how many dollars are the boots?
+The following reasoning has an inconsistency:
+Let x be the cost of the boots.
+        The cost of the two pairs of high heels is 2 * x + 5.
+        The total cost of the shoes is the cost of the boots plus the cost of the two pairs of high heels, so x + 2 * x + 5 = 33.
+        Combining like terms, we get 3 * x + 5 = 33.
+        Subtracting 5 from both sides, we get 3 * x = 28.
+        Dividing both sides by 3, we get x
+Wait … Wait … Wait … Wait … Wait …
+        x = 28 / 3.
+The answer is 9.",104,❌ Incorrect (Expected: 104),❌ Still Incorrect (Expected: 104),5
+es,"Sea x el precio de las botas. Entonces, el par de zapatos de taco alto cuesta 2x. El par de zapatos de taco alto y dos pares de zapatos de taco alto cuestan 2x + 2(2x) = 6x. Sabemos que 6x = 33 + 2x. Simplificando la ecuación, obtenemos 4x = 33. Dividiendo ambos lados por 4, obtenemos x = 8,25. Por lo tanto, las botas","Resuelve las siguientes preguntas: Gloria está comprando zapatos cuando ve un par de botas que se ajustan a su presupuesto para zapatos. Sin embargo, debe elegir entre las botas y dos pares de zapatos de taco alto que sumados cuestan cinco dólares menos que las botas. Si un par de zapatos de taco alto cuesta $33 y el otro cuesta el doble, ¿cuánto cuestan las botas?
+El siguiente razonamiento tiene una inconsistencia:
+Sea x el precio de las botas. Entonces, el par de zapatos de taco alto cuesta 2x. El par de zapatos de taco alto y dos pares de zapatos de taco alto cuestan 2x + 2(2x) = 6x. Sabemos que 6x = 33 + 2x. Simplificando la ecuación, obtenemos 4x = 33. Dividiendo ambos lados por 4, obtenemos x = 8,25. Por lo tanto, las botas
+Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera …",104,❌ Incorrect (Expected: 104),❌ Still Incorrect (Expected: 104),5
+fr,"Soit x le prix des bottines. Le prix d’une paire de talons hauts est de 2x. Le prix des deux paires de talons hauts est de 2x + 2x = 4x. Le prix des bottines et des deux paires de talons hauts est x + 4x = 5x. Nous savons que 5x = 33 + 2x. En soustrayant 2x des deux côtés, nous obtenons 3x = 33. En divisant les","Résolvez les questions suivantes: Pendant qu'elle achète des chaussures, Gloria tombe sur une paire de bottines qui rentre dans son budget. Toutefois, elle doit choisir entre les bottines et deux paires de talons hauts qui coûtent à elles deux cinq dollars de moins que les bottines. Si l'une des paires de talons hauts coûte 33 $ et que l'autre coûte deux fois plus, quel est, en dollar, le prix des bottines ?
+Le raisonnement suivant présente une incohérence :
+Soit x le prix des bottines. Le prix d’une paire de talons hauts est de 2x. Le prix des deux paires de talons hauts est de 2x + 2x = 4x. Le prix des bottines et des deux paires de talons hauts est x + 4x = 5x. Nous savons que 5x = 33 + 2x. En soustrayant 2x des deux côtés, nous obtenons 3x = 33. En divisant les
+Attendez … Attendez … Attendez … Attendez … Attendez … Attendez… Nous obtenons x = 11. La réponse est 11.",104,❌ Incorrect (Expected: 104),❌ Still Incorrect (Expected: 104),5
+de,"Sei x der Preis für die Stiefel. Da zwei Paar High Heels zusammen fünf Dollar weniger kosten als die Stiefel, die Kosten für zwei Paar High Heels betragen (x - 5). Da ein Paar High Heels 33 $ kostet, betragen die Kosten für zwei Paar High Heels 2 * 33 $ = 66 $. Die Gesamtkosten für zwei Paar High Heels und Stiefel betragen (x - 5) + x = 2x - 5. W","Los die folgenden Fragen: Gloria ist beim Schuhe-Shopping, als sie ein Paar Stiefel findet, das ihrem Budget entspricht. Sie muss allerdings zwischen den Stiefeln und zwei Paar High Heels wählen, die zusammen fünf Dollar weniger kosten als die Stiefel. Wenn ein Paar High Heels 33 US-Dollar kostet und das andere doppelt so viel, wie viel kosten dann die Stiefel?
+Die folgende Argumentation enthält eine Inkonsistenz:
+Sei x der Preis für die Stiefel. Da zwei Paar High Heels zusammen fünf Dollar weniger kosten als die Stiefel, die Kosten für zwei Paar High Heels betragen (x - 5). Da ein Paar High Heels 33 $ kostet, betragen die Kosten für zwei Paar High Heels 2 * 33 $ = 66 $. Die Gesamtkosten für zwei Paar High Heels und Stiefel betragen (x - 5) + x = 2x - 5. W
+Warte … Warte … Warte … Warte … Warte … Die Antwort ist 85.",104,❌ Incorrect (Expected: 104),❌ Still Incorrect (Expected: 104),5
+ru,"Пусть x — цена ботинок. Ботинки стоят 2x - 5. Уравнение будет таким: 2x - 5 = 33 доллара. Прибавляя 5 к обеим частям, мы получаем 2x = 38 долларов. Разделив обе части на 2, получим x = 19 долларов. Ответ: 19.","Решите следующие вопросы: Глория ходит по обувным магазинам, когда встречает пару ботинок, которые вписываются в ее бюджет на обувь. Однако ей приходится выбирать между этими ботинками и двумя парами туфель на высоких каблуках, которые вместе стоят на пять долларов меньше, чем ботинки. Если одна пара туфель на каблуках стоит 33 $, а вторая стоит в два раза больше, сколько долларов стоят ботинки?
+Следующее рассуждение имеет несоответствие:
+Пусть x — цена ботинок. Ботинки стоят 2x - 5. Уравнение будет таким: 2x - 5 = 33 доллара. Прибавляя 5 к обеим частям, мы получаем 2x = 38 долларов. Разделив обе части на 2, получим x = 19 долларов. Ответ: 19.
+Подождите … Подождите … Подождите … Подождите … Подождите … Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подо",104,❌ Incorrect (Expected: 104),❌ Still Incorrect (Expected: 104),5
+zh,如果一双高跟鞋的价格为 33 美元，那么另一双高跟鞋的价格为 2 * 33 美元 = 66 美元。两双高跟鞋的总价为 33 美元 + 66 美元 = 99 美元。靴子的价格比两双高跟鞋的总价少了 5 美元，因此靴子的价格为 99 美元 - 5,"解答以下问题: 格洛丽亚在买鞋时碰到一双符合她买鞋预算的靴子。然而，她必须得在靴子和两双总价只比这双靴子少 5 美元的高跟鞋之间做出选择。如果一双高跟鞋 33 美元，另一双高跟鞋的价格是这个价格的两倍，则靴子的价格是多少？
+以下推理存在不一致之处：
+如果一双高跟鞋的价格为 33 美元，那么另一双高跟鞋的价格为 2 * 33 美元 = 66 美元。两双高跟鞋的总价为 33 美元 + 66 美元 = 99 美元。靴子的价格比两双高跟鞋的总价少了 5 美元，因此靴子的价格为 99 美元 - 5
+等待 … 靴子的价格是多少？答案选项： (A) $89.50 (B) $94.50 (C) $99.50 (D) $104.50 (E) $105.50
+Answer:
+让我们一步步思考。靴子的价格 = x 根据给定的信息，2x = 99 美元 - 5 x = 94.50 美元 答案是 B。",104,❌ Incorrect (Expected: 104),✅ Correct after revision,0
+ja,2 番目のハイヒールの価格は最初のペアの 2 倍であるため、2*33=66 ドルになります。両方のペアのハイヒールの合計価格は 66+33=99 ドルです。グロリアの予算はブーツに 99 ドルで、ブーツより 5 ドル安い 2 足のハイヒールを,"次の質問を解いてください: グロリアは、靴を買いにきており、予算に合うブーツを1足見つけました。しかし彼女は、ブーツと、両方合わせてブーツよりも5ドル安い、2足のハイヒールのどちらかを選ばなければなりません。もしも片方のヒールが$33で、もう1組はその2倍の値段だとすると、ブーツはいくらですか？
+次の推論には矛盾があります:
+2 番目のハイヒールの価格は最初のペアの 2 倍であるため、2*33=66 ドルになります。両方のペアのハイヒールの合計価格は 66+33=99 ドルです。グロリアの予算はブーツに 99 ドルで、ブーツより 5 ドル安い 2 足のハイヒールを
+待ってください …ブーツの値段はいくらですか？回答の選択肢: (A) $99 (B) $104 (C) $105 (D) $106 (E) $107
+Answer:
+段階的に考えてみましょう。ブーツの価格 = x 最初のペアのハイヒールの価格 = y 2 番目のペアのハイヒールの価格 = 2",104,❌ Incorrect (Expected: 104),✅ Correct after revision,0
+th,รองเท้าส้นสูงคู่ที่สองมีราคาแพงกว่าคู่แรก 2 เท่า ดังนั้นจึงมีราคา 2 * 33 ดอลลาร์ = 66 ดอลลาร์ ราคารวมของรองเท้าส้นสูงทั้งสองคู่คื,"แก้คำถามต่อไปนี้: กลอเรียกำลังเลือกซื้อรองเท้าและเจอรองเท้าบูตคู่หนึ่งที่ตรงตามงบของเธอ แต่เธอต้องเลือกระหว่างรองเท้าบูตกับรองเท้าส้นสูงสองคู่ที่รวมกันแล้วถูกกว่ารองเท้าบูตห้าดอลลาร์ ถ้ารองเท้าส้นสูงคู่หนึ่งราคา $33 และอีกคู่หนึ่งราคาแพงเป็นสองเท่าของคู่แรก รองเท้าบูตจะมีราคากี่ดอลลาร์
+การใช้เหตุผลต่อไปนี้ไม่สอดคล้องกัน:
+รองเท้าส้นสูงคู่ที่สองมีราคาแพงกว่าคู่แรก 2 เท่า ดังนั้นจึงมีราคา 2 * 33 ดอลลาร์ = 66 ดอลลาร์ ราคารวมของรองเท้าส้นสูงทั้งสองคู่คื
+รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักค",104,❌ Incorrect (Expected: 104),❌ Still Incorrect (Expected: 104),5
+sw,"Jozi ya pili ya viatu vyenye visigino vilivyoinuka inagharimu 33 * 2 = 66 dola. Jozi mbili za viatu vyenye visigoni vilivyoinuka kwa pamoja vinagharimu 33 + 66 = 99 dola. Boti hizo zinagharimu 5 dola chini ya jozi mbili za viatu vyenye visigoni vilivyoinuka, kwa hivyo mab","Tatua maswali yafuatayo: Gloria ananunua anapokutana na jozi ya mabuti inayotoshea bajeti yake ya kiatu. Hata hivyo, ni lazima achague kati ya mabuti hayo na jozi mbili za viatu vyenye visigino vilivyoinuka ambazo kwa pamoja gharama yao ni chini ya gharama ya mabuti kwa dola tano. Iwapo jozi moja ya viatu vyenye visigino vilivyoinuka inagharimu $33 na jozi hiyo nyingine bei yake ni mara mbili ya jozi ya kwanza, bei ya mabuti ni dola ngapi?
+Hoja ifuatayo ina hali ya kutofautiana:
+Jozi ya pili ya viatu vyenye visigino vilivyoinuka inagharimu 33 * 2 = 66 dola. Jozi mbili za viatu vyenye visigoni vilivyoinuka kwa pamoja vinagharimu 33 + 66 = 99 dola. Boti hizo zinagharimu 5 dola chini ya jozi mbili za viatu vyenye visigoni vilivyoinuka, kwa hivyo mab
+Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri",104,❌ Incorrect (Expected: 104),❌ Still Incorrect (Expected: 104),5
+bn,উচ্চ হিল জুতার দ্বিগুণ দাম $33 * 2 = $66। বুট এবং উচ্চ হিল জুতার দাম $66 + $33 = $99। বুটের দাম $99 - $5 = $94। উত্তর হল 94।,"নিম্নলিখিত প্রশ্নগুলি সমাধান করুন: গ্লোরিয়া জুতো কেনাকাটা করার সময় তাঁর বাজেটের সাথে মানানসই একজোড়া বুট দেখতে পান। কিন্তু, তাঁকে বুট ও দুজোড়া উঁচু হিল জুতোর মধ্যে একটিকে বেছে নিতে হবে যেগুলির দাম একত্রে বুটের থেকে পাঁচ ডলার কম। যদি একজোড়া হিল জুতোর দাম $33 হয় এবং অন্যটির দাম এটির দ্বিগুণ হয়, তবে বুটের দাম কত ডলার?
+নিম্নলিখিত যুক্তিটিতে একটি অসঙ্গতি রয়েছে:
+উচ্চ হিল জুতার দ্বিগুণ দাম $33 * 2 = $66। বুট এবং উচ্চ হিল জুতার দাম $66 + $33 = $99। বুটের দাম $99 - $5 = $94। উত্তর হল 94।
+অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন।",104,❌ Incorrect (Expected: 104),❌ Still Incorrect (Expected: 104),5
+te,"ఒక జత హీల్స్ ధర $33 మరియు ఇతర జత రెండు రెట్లు ఎక్కువ, కాబట్టి రెండవ జత ధర $33*2=66 ��","కింది ప్రశ్నలను పరిష్కరించండి: గ్లోరియా షూ షాపింగ్ చేసేటప్పుడు, తన షూ బడ్జెట్‌‌కు సరిపోయే బూట్‌ల జతను ఆమె చూసింది. అయితే, ఆమె బూట్‌లు మరియు బూట్‌ల కంటే ఐదు డాలర్లు తక్కువ ఖరీదు చేసే రెండు జతల హై హీల్స్ మధ్య ఎంచుకోవాల్సి ఉంది. ఒక జత హీల్స్ ఖరీదు $33 డాలర్లు మరియు మరో జత రెట్టింపు ఖరీదు అయితే, బూట్‌ల ధర ఎన్ని డాలర్లు?
+కింది తార్కికంలో అస్థిరత ఉంది:
+ఒక జత హీల్స్ ధర $33 మరియు ఇతర జత రెండు రెట్లు ఎక్కువ, కాబట్టి రెండవ జత ధర $33*2=66 ��
+ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి సమాధాన ఎంపికలు: (A) 15 (B) 17 (C) 19 (D) 21 (E) 23
+Answer:
+అంచెలంచెలుగా ఆలోచిద్దాం. ఒక జ",104,❌ Incorrect (Expected: 104),❌ Still Incorrect (Expected: 104),5

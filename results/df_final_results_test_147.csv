@@ -1,0 +1,63 @@
+language,original_response,revised_response,expected_answer,initial_status,new_status,wait_count
+en,"The lego box has 500 pieces.
+        The second box has 3 times more legos than the first box, so it has 3 * 500 = 1500 legos.
+        The third box has 1/4 the number of legos as the second box, so it has 1500 / 4 = 375 legos.
+        In total, Johnny has 500 + 1500 + 375 = 2375 legos to pick up.
+        The answer is","Solve the following questions: Johnny is picking up the toys on the floor of his room.  He'd dumped a lego boxed set with 500 pieces on the floor, and another one that had 3 times more pieces than the 500 piece one, and another one that had 1/4 the number of pieces.  How many blocks does Johnny pick up if he picks up all the legos?
+The following reasoning has an inconsistency:
+The lego box has 500 pieces.
+        The second box has 3 times more legos than the first box, so it has 3 * 500 = 1500 legos.
+        The third box has 1/4 the number of legos as the second box, so it has 1500 / 4 = 375 legos.
+        In total, Johnny has 500 + 1500 + 375 = 2375 legos to pick up.
+        The answer is
+Wait … Wait … Wait … Wait … Wait …
+        The answer is 2375.
+Answer:
+Let's think step by step.
+The lego box has 500 pieces.
+The second box has 3 times more legos than the first box, so it has 3 * 500 = 1500 legos.
+The third box has 1/4 the number of legos as the second box, so it has 375 legos.
+In total, Johnny has 500 + 1500 + 375 = 2375 leg",2125,❌ Incorrect (Expected: 2125),❌ Still Incorrect (Expected: 2125),5
+es,"La caja de Lego de 500 piezas contiene 500 bloques. La caja que tiene 3 veces más piezas que la caja de 500 piezas contiene 3 * 500 = 1500 piezas. La caja que tiene 1/4 de la cantidad de piezas que la caja de 500 piezas contiene 1/4 * 500 = 125 piezas. En total, Johnny está recogiendo 500 + 1500 +","Resuelve las siguientes preguntas: Johnny está recogiendo los juguetes del piso de su habitación. Había desparramado por el piso una caja de bloques Lego de 500 piezas, otra que tenía 3 veces más piezas que la de 500 piezas y otra que tenía 1/4 de la cantidad de piezas. ¿Cuántos bloques recoge Johnny si junta todos los bloques Lego?
+El siguiente razonamiento tiene una inconsistencia:
+La caja de Lego de 500 piezas contiene 500 bloques. La caja que tiene 3 veces más piezas que la caja de 500 piezas contiene 3 * 500 = 1500 piezas. La caja que tiene 1/4 de la cantidad de piezas que la caja de 500 piezas contiene 1/4 * 500 = 125 piezas. En total, Johnny está recogiendo 500 + 1500 +
+Espera … ¿Cuántos bloques de Lego recoge Johnny? Opciones de respuesta: (A) 2125 (B) 2250 (C) 2650 (D) 2450 (E) 2350
+Answer:
+Pensemos paso a paso. La pregunta es: ¿Cuántos bloques de Lego recoge Johnny? No se pregunta cuántos bloques de Lego tiene Johnny (¡que sería una pregunta diferente!). Por",2125,❌ Incorrect (Expected: 2125),✅ Correct after revision,0
+fr,"Johnny a ramassé 500 pièces de Lego. Il a ramassé 3 fois ce montant avec des blocs de construction, donc 3 * 500 = 1 500 pièces. Il a également ramassé 1/4 de la quantité de Lego, soit 1/4 * 500 = 125 pièces. Au total, Johnny a ramassé 500 + 1 500 + 125 = 2 125 pièces. La ré","Résolvez les questions suivantes: Johnny ramasse les jouets qui traînent dans sa chambre. Il a fait tomber un jeu de lego de 500 pièces, un autre avec 3 fois plus de pièces, ainsi qu'un dernier comptant 1/4 du nombre de pièces. Combien de pièces Johnny ramasse-t-il en tout ?
+Le raisonnement suivant présente une incohérence :
+Johnny a ramassé 500 pièces de Lego. Il a ramassé 3 fois ce montant avec des blocs de construction, donc 3 * 500 = 1 500 pièces. Il a également ramassé 1/4 de la quantité de Lego, soit 1/4 * 500 = 125 pièces. Au total, Johnny a ramassé 500 + 1 500 + 125 = 2 125 pièces. La ré
+Attendez … La réponse est 2125.",2125,❌ Incorrect (Expected: 2125),✅ Correct after revision,0
+de,"Johnny hat 500 Legosteine auf dem Boden. Er hat einen weiteren Satz mit 3 * 500 = 1500 Teilen. Er hat auch 1/4 * 500 = 125 Legosteine. Um die Gesamtzahl der Legosteine zu ermitteln, addieren wir die Anzahl der Legosteine in jedem Satz: 500 + 1500 + 125 = 2125. Johnny hat also 2125 Legosteine","Johnny hat 500 Legosteine auf dem Boden. Er hat einen weiteren Satz mit 3 * 500 = 1500 Teilen. Er hat auch 1/4 * 500 = 125 Legosteine. Um die Gesamtzahl der Legosteine zu ermitteln, addieren wir die Anzahl der Legosteine in jedem Satz: 500 + 1500 + 125 = 2125. Johnny hat also 2125 Legosteine",2125,✅ Correct,✅ Correct,0
+ru,"Джонни рассыпал 500 кусков Lego. Он также рассыпал еще один набор, в котором было вдвое больше деталей, чем в наборе из 500 деталей, поэтому в этом наборе было 2 * 500 = 1000 деталей. Он также рассыпал еще один набор, в котором было 1/4 от количества деталей второго набора, поэтому в этом наборе было 1/4","Решите следующие вопросы: Джонни собирает игрушки с пола в своей комнате. Он рассыпал набор Lego из 500 фрагментов и еще один набор, в котором фрагментов в 3 раза больше, чем в коробке с 500 фрагментами, а также еще один, где число фрагментов составляет 1/4 от этого количества. Сколько блоков соберет Джонни, если поднимет все фрагменты Lego?
+Следующее рассуждение имеет несоответствие:
+Джонни рассыпал 500 кусков Lego. Он также рассыпал еще один набор, в котором было вдвое больше деталей, чем в наборе из 500 деталей, поэтому в этом наборе было 2 * 500 = 1000 деталей. Он также рассыпал еще один набор, в котором было 1/4 от количества деталей второго набора, поэтому в этом наборе было 1/4
+Подождите … Подождите … Подождите … Подождите … Подождите … Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подо",2125,❌ Incorrect (Expected: 2125),❌ Still Incorrect (Expected: 2125),5
+zh,约翰尼倒了一套 500 块的乐高积木。他倒了三倍于乐高积木的乐高积木，所以他倒了 3 * 500 = 1500 个乐高积木。他倒了乐高积木数量的 1/4，所以他倒了 1/4 * 500 = 125 个乐高积木。约翰尼总共倒了 500 + 1500 + 125 =,"解答以下问题: 约翰尼正在从他房间里的地板上捡起玩具。他往地板上倒了一套 500 块的盒装乐高，还倒了一套数量比 500 块这一套多 3 倍的乐高和一套只有这个数量的 1/4 的乐高。如果约翰尼要捡起所有乐高，他要捡起多少块？
+以下推理存在不一致之处：
+约翰尼倒了一套 500 块的乐高积木。他倒了三倍于乐高积木的乐高积木，所以他倒了 3 * 500 = 1500 个乐高积木。他倒了乐高积木数量的 1/4，所以他倒了 1/4 * 500 = 125 个乐高积木。约翰尼总共倒了 500 + 1500 + 125 =
+等待 ………答案选择： (A) 2125 乐高积木 (B) 2135 乐高积木 (C) 2145 乐高积木 (D) 2155 乐高积木 (E) 2165 乐高积木
+Answer:
+让我们一步步思考。让我们将这些总和相加。 500 + 1500 + 125 = 2125 所以答案是 A。",2125,❌ Incorrect (Expected: 2125),✅ Correct after revision,0
+ja,ジョニーは 500 個のレゴを持っています。彼は 3 倍の数のレゴを持っています。つまり、3 * 500 = 1500 個のレゴが入っています。また、最初の 2 つのボックスの 1/4 の数が入っています。つまり、1/4 * (500 + 1500) = 375,"次の質問を解いてください: ジョニーは彼の部屋の床のおもちゃを拾っている。彼は床に、500ピース入ったレゴの箱、500ピース入ったものの3倍の数が入った箱、1/4の数のピースが入った箱をひっくり返した。彼がすべてのレゴを拾い上げたら、全部で何個のブロックを拾い上げますか？
+次の推論には矛盾があります:
+ジョニーは 500 個のレゴを持っています。彼は 3 倍の数のレゴを持っています。つまり、3 * 500 = 1500 個のレゴが入っています。また、最初の 2 つのボックスの 1/4 の数が入っています。つまり、1/4 * (500 + 1500) = 375
+待ってください … 待ってください … 待ってください … 待ってください … 待ってください … 待ってください。 500 + 1500 + 375 = 2475 個のレゴ 答えの選択肢: (A) 2850 個のレゴ (B) 2650 個のレゴ (C) 2750 個のレゴ (D) 2550 個のレゴ (E) 2450 個のレゴ
+Answer:
+段階的に考えてみましょ",2125,❌ Incorrect (Expected: 2125),❌ Still Incorrect (Expected: 2125),5
+th,จอห์นนีมีชุดเลโก้แบบกล่อง 500 ชิ้น เขามีชุดเลโก้แบบ 500 ชิ้นมากกว่าสามเท่า ดังนั้นเขาจึงมีชิ้นส่วนเลโก้แบบ 3 * 500 = 1500 ชิ้น เข,"แก้คำถามต่อไปนี้: จอห์นนีกำลังเก็บของเล่นที่พื้นในห้องของตนเอง ก่อนหน้านี้เขาได้เทชุดเลโก้แบบกล่องที่มี 500 ชิ้นลงบนพื้น และอีกชุดหนึ่งที่มีจำนวนชิ้นเป็น 3 เท่าของชุดเลโก้แบบ 500 ชิ้น และอีกชุดหนึ่งที่มีจำนวนชิ้นเป็น 1/4 จอห์นนีเก็บเลโก้ทั้งหมดบนพื้นได้กี่ชิ้น
+การใช้เหตุผลต่อไปนี้ไม่สอดคล้องกัน:
+จอห์นนีมีชุดเลโก้แบบกล่อง 500 ชิ้น เขามีชุดเลโก้แบบ 500 ชิ้นมากกว่าสามเท่า ดังนั้นเขาจึงมีชิ้นส่วนเลโก้แบบ 3 * 500 = 1500 ชิ้น เข
+รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักค",2125,❌ Incorrect (Expected: 2125),❌ Still Incorrect (Expected: 2125),5
+sw,"Johnny ana vipande 500 vya lego kwenye sanduku moja. Sanduku lingine lina vipande mara 3 zaidi, kwa hivyo lina 3 * 500 = vipande 1500 vya lego. Sanduku la tatu lina 1/4 ya idadi ya vipande vya lego kama sanduku la pili, kwa hivyo lina 1500 / 4 = vipande 375 vya lego","Tatua maswali yafuatayo: Johnny anaokota wanasesere kwenye sakafu ya chumba chake. Alikuwa ametupa boksi la lego lenye vipande 500 kwenye sakafu, na lingine lililokuwa na vipande mara 3 zaidi ya lile lenye vipande 500, na lingine lililokuwa na 1/4 ya idadi ya vipande. Johnny ataokota vipande vingapi iwapo ataokota lego zote?
+Hoja ifuatayo ina hali ya kutofautiana:
+Johnny ana vipande 500 vya lego kwenye sanduku moja. Sanduku lingine lina vipande mara 3 zaidi, kwa hivyo lina 3 * 500 = vipande 1500 vya lego. Sanduku la tatu lina 1/4 ya idadi ya vipande vya lego kama sanduku la pili, kwa hivyo lina 1500 / 4 = vipande 375 vya lego
+Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri",2125,❌ Incorrect (Expected: 2125),❌ Still Incorrect (Expected: 2125),5
+bn,"লেগো বক্সের প্রথম সেটে 500 টুকরা ছিল। দ্বিতীয় বাক্সে প্রথম বাক্সের চেয়ে 3 গুণ বেশি টুকরা ছিল, তাই এতে 3 * 500 = 1500","নিম্নলিখিত প্রশ্নগুলি সমাধান করুন: জনি তার ঘরের মেঝেতে পড়ে থাকা খেলনা তুলছে। সে 500টি টুকরোর লেগো বক্সের সেট মেঝেতে জড়ো করেছিল, এবং অন্য আরেকটিতে 500-টুকরোর বক্সের তুলনায় 3 গুণ টুকরো ছিল, ও অন্য আরেকটিতে 1/4 ভাগ টুকরো ছিল। যদি জনি সমস্ত লেগো তুলে থাকে তাহলে কতগুলি ব্লক সে তুলেছিল?
+নিম্নলিখিত যুক্তিটিতে একটি অসঙ্গতি রয়েছে:
+লেগো বক্সের প্রথম সেটে 500 টুকরা ছিল। দ্বিতীয় বাক্সে প্রথম বাক্সের চেয়ে 3 গুণ বেশি টুকরা ছিল, তাই এতে 3 * 500 = 1500
+অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … তৃতীয় বাক্সে প্রথম বাক্সের 1/4 টুকরা ছিল, তাই এতে ছিল 1/4 * 500 = 125 টুকরা তারপর জনি সমস্ত লেগো ব্লক তুলে নিয়েছিল এব",2125,❌ Incorrect (Expected: 2125),❌ Still Incorrect (Expected: 2125),5
+te,జానీ మొదటి పెట్టె నుండి 500 లెగోలను తీసుకున్నాడు. రెండవ పెట్టెలో ����������,"కింది ప్రశ్నలను పరిష్కరించండి: జానీ తన రూమ్‌లో నేలపై ఉన్న బొమ్మలను ఏరుతున్నాడు. అతడు 500 పీస్‌లున్న లెగో బాక్స్ సెట్‌ని, 500 పీస్‌ల దానికంటే 3 రెట్లు ఎక్కువ పీస్‌లు మరో దానిని, 1/4 వంతు పీస్‌లున్న మరోదానిని నేలపై పోశాడు. అతడు అన్ని లెగోలను ఏరినట్లయితే, జానీ ఎన్ని బ్లాక్‌లను నేలపై నుంచి తీయాలి?
+కింది తార్కికంలో అస్థిరత ఉంది:
+జానీ మొదటి పెట్టె నుండి 500 లెగోలను తీసుకున్నాడు. రెండవ పెట్టెలో ����������
+ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి ఆగండి ఆగండి ఆగండి ఆగండి ఆగండి ఆగండి ఆగండి ఆగండి ఆగండి ఆగం",2125,❌ Incorrect (Expected: 2125),❌ Still Incorrect (Expected: 2125),5

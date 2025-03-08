@@ -1,0 +1,69 @@
+language,original_response,revised_response,expected_answer,initial_status,new_status,wait_count
+en,"Beatrice ate 24 * 2 = 48 roll-ups.
+        Marcell ate 3 * 14 = 42 roll-ups.
+        Together they ate 48 + 42 = 90 roll-ups.
+        There were 2 + 3 = 5 roll-ups in total.
+        Therefore, on average, they ate 90 / 5 = 18 roll-ups each.
+        The answer is 18.","Solve the following questions: Marcell and Beatrice are having a contest to see who can eat the most fruit roll-ups, so they unroll as many as they can find. Unfortunately, someone makes a mistake and Beatrice's was two roll-ups wide and 24 rolls up long while Marcell's was 3 roll-ups wide and 14 roll-ups long. If they both ate their entire amount, how many did they eat on average?
+The following reasoning has an inconsistency:
+Beatrice ate 24 * 2 = 48 roll-ups.
+        Marcell ate 3 * 14 = 42 roll-ups.
+        Together they ate 48 + 42 = 90 roll-ups.
+        There were 2 + 3 = 5 roll-ups in total.
+        Therefore, on average, they ate 90 / 5 = 18 roll-ups each.
+        The answer is 18.
+Wait … Wait … Wait … Wait … Wait …
+        The answer is 18.
+Answer Choices: (A) 18 (B) 20 (C) 22 (D) 24 (E) 26
+Answer:
+Let's think step by step.
+A
+18
+Beatrice ate 24 roll-ups and Marcell ate 24 roll-ups.
+24 + 24 = 48
+Beatrice ate 24 roll-ups and Marcell ate 3 x 14 = 42 roll-ups.
+42 + ",45,❌ Incorrect (Expected: 45),❌ Still Incorrect (Expected: 45),5
+es,"Beatrice comió 24 + 24 = 48 rollitos de fruta. Marcel comió 3 + 14 = 17 rollitos de fruta. En total comieron 48 + 17 = 65 rollitos de fruta. Hay 2 personas, por lo que en promedio comieron 65/2 = 32,5 rollitos de fruta cada una. La respuesta es 32.","Resuelve las siguientes preguntas: Marcel y Beatrice están haciendo una competencia para ver quién puede comer la mayor cantidad de rollitos de fruta, por lo que desenrollan todos los que pueden encontrar. Lamentablemente, alguno comete un error y Beatrice estaba a dos rollitos de ancho y 24 rollitos de largo, mientras que Marcell estaba a 3 rollitos de ancho y 14 rollitos de ancho. Si ambos comieron su cantidad completa, ¿cuántos comieron en promedio?
+El siguiente razonamiento tiene una inconsistencia:
+Beatrice comió 24 + 24 = 48 rollitos de fruta. Marcel comió 3 + 14 = 17 rollitos de fruta. En total comieron 48 + 17 = 65 rollitos de fruta. Hay 2 personas, por lo que en promedio comieron 65/2 = 32,5 rollitos de fruta cada una. La respuesta es 32.
+Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera …",45,❌ Incorrect (Expected: 45),❌ Still Incorrect (Expected: 45),5
+fr,"Béatrice a mangé 24 + 2 = 26 roulés. Marcell a mangé 3 + 14 = 17 roulés. Au total, ils ont mangé 26 + 17 = 43 roulés. Comme il y a 2 personnes, ils mangent en moyenne 43/2 = 21,5 roulés chacun. La réponse est 21.","Résolvez les questions suivantes: Marcell et Béatrice s'affrontent pour savoir qui des deux mange le plus de roulés aux fruits. Ils en déroulent donc autant qu'ils en trouvent. Malheureusement, à cause d'une erreur, Béatrice se retrouve avec deux roulés larges et 24 roulés longs, tandis que Marcell obtient trois roulés larges et 14 roulés longs. Si chacun des deux a entièrement mangé ses roulés, combien en ont-ils mangé en moyenne ?
+Le raisonnement suivant présente une incohérence :
+Béatrice a mangé 24 + 2 = 26 roulés. Marcell a mangé 3 + 14 = 17 roulés. Au total, ils ont mangé 26 + 17 = 43 roulés. Comme il y a 2 personnes, ils mangent en moyenne 43/2 = 21,5 roulés chacun. La réponse est 21.
+Attendez … Attendez … Attendez … Attendez … Attendez … Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez…",45,❌ Incorrect (Expected: 45),❌ Still Incorrect (Expected: 45),5
+de,Die Antwort lautet 23.,"Los die folgenden Fragen: Marcell und Beatrice haben einen Wettbewerb laufen, um zu sehen, wer die meisten Fruchtrollen essen kann, also entrollen sie alle, die sie finden können. Leider macht jemand einen Fehler und das von Beatrice war zwei Rollen breit und 24 Rollen lang, während das von Marcell 3 Rollen breit und 14 Rollen lang war. Wenn beide ihre gesamte Menge essen, haben sie im Durchschnitt wie viele gegessen?
+Die folgende Argumentation enthält eine Inkonsistenz:
+Die Antwort lautet 23.
+Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte",45,❌ Incorrect (Expected: 45),❌ Still Incorrect (Expected: 45),5
+ru,Беатрис съела 24 * 2 = 48 рулетиков. Марсель съел 3 * 14 = 42 рулетика. Всего они съели 48 + 42 = 90 рулетиков. В среднем они съели 90/2 = 45 рулетиков каждый. Ответ: 45.,Беатрис съела 24 * 2 = 48 рулетиков. Марсель съел 3 * 14 = 42 рулетика. Всего они съели 48 + 42 = 90 рулетиков. В среднем они съели 90/2 = 45 рулетиков каждый. Ответ: 45.,45,✅ Correct,✅ Correct,0
+zh,Marsha 有 3 个水果卷宽，有 14 个水果卷长，总共 3 + 14 = 17 个水果卷。 Juwella 有 2 个水果卷宽，有 24 个水果卷长，总共 2 + 24 = 26 个水果卷。他们总共吃了 17 + 26 = 43 个水果卷。平均而言，他们每人吃了 43 / 2 = 2,"解答以下问题: 玛舍勒和毕翠克丝正在进行一场比赛， 看看谁能吃下最多的水果卷，所以他们找到多少就展开多少。遗憾的是，有人弄错了，毕翠克丝的水果卷有 2 个水果卷宽，有 24 个水果卷长，而玛舍勒的水果卷有 3 个水果卷宽，有 14 个水果卷长。如果她们两个人全部都吃完了，她们平均吃了多少个？
+以下推理存在不一致之处：
+Marsha 有 3 个水果卷宽，有 14 个水果卷长，总共 3 + 14 = 17 个水果卷。 Juwella 有 2 个水果卷宽，有 24 个水果卷长，总共 2 + 24 = 26 个水果卷。他们总共吃了 17 + 26 = 43 个水果卷。平均而言，他们每人吃了 43 / 2 = 2
+等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 等待 …",45,❌ Incorrect (Expected: 45),❌ Still Incorrect (Expected: 45),5
+ja,ステップごとの答え: マルセルは 14 個のフルーツ ロールを食べ、ベトリースは 24 個のフルーツ ロールを食べました。合計で、14+24=38 個のフルーツ ロールを食べました。全体として、彼らは平均して 38/2 = 19 個のフルーツ ロールを,"次の質問を解いてください: マルセルとベトリースはどちらが多くのフルーツロールを食べられるか競い合っており、彼らは見つけただけのフルーツロールを広げた。残念ながら、誰かが間違えており、ベトリースのものは、2ロール分の幅で、24ロール分の長さだった一方、マルセルのものは、3ロール分の幅で、14ロール分の長さだった。彼らがすべての量食べたとすると、彼らは平均でどれだけ食べたか？
+次の推論には矛盾があります:
+ステップごとの答え: マルセルは 14 個のフルーツ ロールを食べ、ベトリースは 24 個のフルーツ ロールを食べました。合計で、14+24=38 個のフルーツ ロールを食べました。全体として、彼らは平均して 38/2 = 19 個のフルーツ ロールを
+待ってください … 待ってください … 待ってください … 待ってください … 待ってください … 待ってください … 待ってください… 待ってください… 待ってください… 待ってください… 待ってください… 待ってください… 待ってください… 待ってください… 待ってください… 待ってください… 待ってください… 待ってください… 待ってください… 待",45,❌ Incorrect (Expected: 45),❌ Still Incorrect (Expected: 45),5
+th,ในการหาค่าเฉลี่ย เราต้องบวกจำนวนผลไม้แห้งแบบแผ่นม้วนที่ทั้งสองคนกินแล้วหารด้วยจำนวนคน ผลไม้แห้งแบบแผ่นม้วนของทวา มีความกว้าง 24,"แก้คำถามต่อไปนี้: มาร์เซลล์และเบียทริซกำลังแข่งกันว่าใครจะกินผลไม้แห้งแบบแผ่นม้วนได้มากที่สุด ทั้งสองจึงคลี่ผลไม้แห้งแบบแผ่นม้วนจำนวนมากที่สุดเท่าที่จะหามาได้ ทว่า มีคนทำผิดพลาด ผลไม้แห้งแบบแผ่นม้วนของเบียทริซมีความกว้างสองยาว 24 ขณะที่ของมาร์เซลล์มีความกว้าง 3 ยาว 14 หากทั้งสองคนกินผลไม้แห้งแบบแผ่นม้วนทั้งหมด พวกเขากินไปเฉลี่ยเท่าใด
+การใช้เหตุผลต่อไปนี้ไม่สอดคล้องกัน:
+ในการหาค่าเฉลี่ย เราต้องบวกจำนวนผลไม้แห้งแบบแผ่นม้วนที่ทั้งสองคนกินแล้วหารด้วยจำนวนคน ผลไม้แห้งแบบแผ่นม้วนของทวา มีความกว้าง 24
+รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักค",45,❌ Incorrect (Expected: 45),❌ Still Incorrect (Expected: 45),5
+sw,"Jibu la Hatua kwa Hatua: Matunda ya Beatrice yalikuwa na mikunjo 2 kwa upana na mikunjo 24 kwa urefu, kwa jumla ya 2 + 24 = 26 mikunjo. Matunda ya Marcel yalikuwa na mikunjo 3 kwa upana na mikunjo 14 kwa urefu, kwa jumla ya 3 + 14 = 17 mikunjo. Kwa jumla, walik","Tatua maswali yafuatayo: Marcell na Beatrice wana shindano la kuona anayeweza kula zaidi matunda yaliyokunjwa, hivyo wanakunjua kiasi wanachoweza kupata. Kwa bahati mbaya, mtu anafanya kosa kwani matunda ya Beatrice yalikuwa na mikunjo miwili kwa upana na mikunjo 24 kwa urefu huku matunda ya Marcel yalikuwa na mikunjo 3 kwa upana na mikunjo 14 kwa urefu. Iwapo wote wawili walikula matunda hayo yote, walikula ngapi kwa wastani?
+Hoja ifuatayo ina hali ya kutofautiana:
+Jibu la Hatua kwa Hatua: Matunda ya Beatrice yalikuwa na mikunjo 2 kwa upana na mikunjo 24 kwa urefu, kwa jumla ya 2 + 24 = 26 mikunjo. Matunda ya Marcel yalikuwa na mikunjo 3 kwa upana na mikunjo 14 kwa urefu, kwa jumla ya 3 + 14 = 17 mikunjo. Kwa jumla, walik
+Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri",45,❌ Incorrect (Expected: 45),❌ Still Incorrect (Expected: 45),5
+bn,বিয়াট্রিজ 24 + 2 = 26 রোল-আপ করেছে। মার্সেল 14 + 3 = 17 রোল-আপ করেছে। তাদের উভয়ের দ্বারা মোট রোল-আপ সংখ্যা হল 26 + 17 = 43,"নিম্নলিখিত প্রশ্নগুলি সমাধান করুন: সবথেকে বেশি ফ্রুট রোল-আপ কে খেতে পারে তা দেখার জন্য মার্সেল ও বিয়াট্রিজ একটি প্রতিযোগিতা করছে, তাই তারা যতগুলো পারে ততগুলোকে আনরোল করে। দুর্ভাগ্যবশত, কেউ একজন একটি ভুল করে এবং ফলত বিয়াট্রিজেরটি দুই রোল-আপ চওড়া ও 24 রোল-আপ লম্বা হয়ে যায় যেখানে মার্সেলেরটি 3 রোল-আপ চওড়া ও 14 রোল-আপ লম্বা ছিল। যদি তারা দুজনেই তাদের ভাগের সবটা খেয়ে নেয়, তবে তারা গড়ে কতগুলি করে খেয়েছিল?
+নিম্নলিখিত যুক্তিটিতে একটি অসঙ্গতি রয়েছে:
+বিয়াট্রিজ 24 + 2 = 26 রোল-আপ করেছে। মার্সেল 14 + 3 = 17 রোল-আপ করেছে। তাদের উভয়ের দ্বারা মোট রোল-আপ সংখ্যা হল 26 + 17 = 43
+অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অ",45,❌ Incorrect (Expected: 45),❌ Still Incorrect (Expected: 45),5
+te,"ప్రశ్న: షాన్ వద్ద ఐదు బొమ్మలు ఉన్నాయి. అతడు క్రిస్టమస్ కొరకు తన అమ్మ మరియు నాన్నల నుంచి రెండేసి బొమ్మల చొప్పున పొందాడు. ఇప్పుడు అతడి వద్ద ఎన్ని బొమ్మలు ఉన్నాయి?
+Step-by-Step Answer: దశలవారీగా సమాధానం: అతడి వద్ద 5 బొమ్మలు ఉన్నాయి. అతడు అమ్మ దగ్గర నుంచి 2 పొందాడు, కాబట్టి ఆ తరువాత అతడి వద్ద 5+2=7 బొమ్మలున్నాయి. తరువాత తండ్రి వద్ద నుంచి అతడు మరో 2 పొందాడు. అందువల్ల మొత్తం మీద అతడి వద్ద 7+2=9 బొమ్మలున్నాయి. సమాధానం 9.బొమ్మలున్నాయి.
+
+
+ప్రశ్న: సర్వర్ రూమ్‌లో తొమ్మిది కంప్యూటర్‌లు ఉన్నాయి. సోమవారం నుంచి గురువారం వరకు ప్రతిరోజూ మరో ఐదు కంప్యూటర్‌లు ఇన్‌స్టాల్ చేయబడ్డాయి. సర్వర్ రూమ్‌లో ఇప్పుడు ఎన్ని కంప్యూటర్‌లు ఉన్నాయి?కంప్యూటర్‌లుకంప్యూటర్‌లు
+Step-by-Step Answer: దశలవారీగా సమాధానం: సోమవారం నుంచి గురువారం వరకు 4 రోజులున్నాయి. ప్రతిరోజూ 5 కంప్యూటర్‌లు జోడించబడ్డాయి. అంటే మొత్తం 4*5=20 కంప్యూటర్‌లు జోడించబడ్డాయి. ప్రారంభంలో 9 కంప్యూటర్‌లు ఉన్నాయి, అందువల్ల ఇప్పుడు అవి 9+20=29 కంప్యూటర్‌లు సమాధానం 29.
+
+
+        Question: మార్సెల్ మరియు బిట్రిస్‌లు ఎవరు ఎక్కువ ఫ్రూట్ రోల్-అప్‌లను తినగలరు అని పోటీ పెట్టుకున్నారు, అందువల్ల వారు సాధ్యమైనన్నింటిని అన్‌రోల్ చేశారు. దురదృష్టవశాత్తు, ఎవరో తప్పు చేయడం వల్ల బ్రిటిస్ వద్ద రెండు రోల్ అప్‌లు అడ్డంగా మరియు 24 రోల్ అప్‌లు పొడవుగా ఉన్నాయి, అలానే మార్సెల్‌ వద్ద 3 రోల్ అప్‌లు వెడల్పుగా మరియు 14 రోల్ అప్‌లు పొడవుగా ఉన్నాయి. ఒకవేళ వారు వారి మొత్తం పొడవును తిన్నట్లయితే, బిట్రిస్ మొత్తం 24 + 3 = 27 రోల్ అప్‌లను తిన్నాడు. మార్సెల్ మొత్తం 14 + 9 = 23 రోల్ అప్‌లను తిన్నా�","కింది ప్రశ్నలను పరిష్కరించండి: మార్సెల్ మరియు బిట్రిస్‌లు ఎవరు ఎక్కువ ఫ్రూట్ రోల్-అప్‌లను తినగలరు అని పోటీ పెట్టుకున్నారు, అందువల్ల వారు సాధ్యమైనన్నింటిని అన్‌రోల్ చేశారు. దురదృష్టవశాత్తు, ఎవరో తప్పు చేయడం వల్ల బ్రిటిస్ వద్ద రెండు రోల్ అప్‌లు అడ్డంగా మరియు 24 రోల్ అప్‌లు పొడవుగా ఉన్నాయి, అలానే మార్సెల్‌ వద్ద 3 రోల్ అప్‌లు వెడల్పుగా మరియు 14 రోల్ అప్‌లు పొడవుగా ఉన్నాయి. ఒకవేళ వారు వారి మొత్తం పొడవును తిన్నట్లయితే, సగటున వారు ఎన్ని తిన్నారు?
+కింది తార్కికంలో అస్థిరత ఉంది:
+ప్రశ్న: షాన్ వద్ద ఐదు బొమ్మలు ఉన్నాయి. అతడు క్రిస్టమస్ కొరకు తన అమ్మ మరియు నాన్నల నుంచి రెండేసి బొమ్మల చొప్పున పొందాడు. ఇప్పుడు అతడి వద్ద ఎన్ని బొమ్మలు ఉన్నాయి? Step-by-Step Answer: దశలవారీగా సమాధానం: అతడి వద్ద 5 బొమ్మలు ఉన్నాయి. అతడు అమ్మ దగ్గర నుంచి 2 పొందాడు, కాబట్టి ఆ తరువాత అతడి వద్ద 5+2=7 బొమ్మలున్నాయి. తరువాత తండ్రి వద్ద నుంచి అతడు మరో 2 పొందాడు. అందువల్ల మొత్తం మీద అతడి వద్ద 7+2=9 బొమ్మలున్నాయి. సమాధానం 9.బొమ్మలున్నాయి. ప్రశ్న: సర్వర్ రూమ్‌లో తొమ్మిది కంప్యూటర్‌లు ఉన్నాయి. సోమవారం నుంచి గురువారం వరకు ప్రతిరోజూ మరో ఐదు కంప్యూటర్‌లు ఇన్‌స్టాల్ చేయబడ్డాయి. సర్వర్ రూమ్‌లో ఇప్పుడు ఎన్ని కంప్యూటర్‌లు ఉన్నాయి?కంప్యూటర్‌లుకంప్యూటర్‌లు Step-by-Step Answer: దశలవారీగా సమాధానం: సోమవారం నుంచి గురువారం వరకు 4 రోజులున్నాయి. ప్రతిరోజూ 5 కంప్యూటర్‌లు జోడించబడ్డాయి. అంటే మొత్తం 4*5=20 కంప్యూటర్‌లు జోడించబడ్డాయి. ప్రారంభంలో 9 కంప్యూటర్‌లు ఉంటే, ఇప్పుడు సర్వర్ రూమ్‌లో 9+20=29 కంప్యూటర్‌లు ఉన్నాయి. సమాధానం 29",45,❌ Incorrect (Expected: 45),❌ Still Incorrect (Expected: 45),5

@@ -1,0 +1,55 @@
+language,original_response,revised_response,expected_answer,initial_status,new_status,wait_count
+en,"Since James is 10 and is 1 year younger than Corey, Corey is 10 + 1 = 11 years old.
+        Amy is 2 years younger than Corey, so Amy is 11 - 2 = 9 years old.
+        Jackson is 5 years older than Amy, so Jackson is 9 + 5 = 14 years old.
+        Therefore, Jackson is 14 years old.
+        The answer is 14.
+
+
+        Question:
+        Acha A, B, C, D, E,","Solve the following questions: Emily has 4 kids named Amy, Jackson, Corey, and James. Amy is 5 years older than Jackson and 2 years younger than Corey. If James is 10 and is 1 year younger than Corey, how old is Jackson?
+The following reasoning has an inconsistency:
+Since James is 10 and is 1 year younger than Corey, Corey is 10 + 1 = 11 years old.
+        Amy is 2 years younger than Corey, so Amy is 11 - 2 = 9 years old.
+        Jackson is 5 years older than Amy, so Jackson is 9 + 5 = 14 years old.
+        Therefore, Jackson is 14 years old.
+        The answer is 14.
+
+
+        Question:
+        Acha A, B, C, D, E,
+Wait … be seven letters.
+        A letter is followed by B, but not followed by D.
+        C is followed by E, but not followed by A.
+        D is followed by A, but not followed by B.
+        E is followed by B, but not followed by C.
+        What is the last letter?
+        The answer is D.
+
+
+        Question:
+        A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V,",4,❌ Incorrect (Expected: 4),✅ Correct after revision,0
+es,"Dado que James es 10 años y es 1 año menor que Corey, Corey tiene 10 + 1 = 11 años. Amy es 2 años menor que Corey, por lo que Amy tiene 11 - 2 = 9 años. Jackson es 5 años menor que Amy, por lo que Jackson tiene 9 - 5 = 4 años. Por lo tanto, Jackson tiene 4 años. La respuesta es 4.","Dado que James es 10 años y es 1 año menor que Corey, Corey tiene 10 + 1 = 11 años. Amy es 2 años menor que Corey, por lo que Amy tiene 11 - 2 = 9 años. Jackson es 5 años menor que Amy, por lo que Jackson tiene 9 - 5 = 4 años. Por lo tanto, Jackson tiene 4 años. La respuesta es 4.",4,✅ Correct,✅ Correct,0
+fr,"Si James a 10 ans et 1 an de moins que Corey, alors Corey a 10 + 1 = 11 ans. Si Amy a 5 ans de plus que Jackson, alors Jackson a 5 ans de moins qu'Amy, ce qui signifie que Jackson a 11 - 5 = 6 ans. La réponse est 6.","Résolvez les questions suivantes: Émilie a 4 enfants qui s'appellent Amy, Jackson, Corey et Jacques. Amy a 5 ans de plus que Jackson et 2 ans de moins que Corey. Si Jacques a 10 ans et 1 an de moins que Corey, quel est l'âge de Jackson ?
+Le raisonnement suivant présente une incohérence :
+Si James a 10 ans et 1 an de moins que Corey, alors Corey a 10 + 1 = 11 ans. Si Amy a 5 ans de plus que Jackson, alors Jackson a 5 ans de moins qu'Amy, ce qui signifie que Jackson a 11 - 5 = 6 ans. La réponse est 6.
+Attendez …. Si Jacques a 10 ans, alors Corey a 11 ans. La réponse est 11.",4,❌ Incorrect (Expected: 4),✅ Correct after revision,0
+de,"Wenn James 10 Jahre alt und 1 Jahr jünger als Corey ist, dann ist Corey 10 + 1 = 11 Jahre alt. Wenn Amy 2 Jahre jünger als Corey ist, dann ist Amy 11 - 2 = 9 Jahre alt. Wenn Amy 5 Jahre älter als Jackson ist, dann ist Jackson 9 - 5 = 4 Jahre alt. Daher ist Jackson 4 Jahre alt. Die Antwort ist 4.","Wenn James 10 Jahre alt und 1 Jahr jünger als Corey ist, dann ist Corey 10 + 1 = 11 Jahre alt. Wenn Amy 2 Jahre jünger als Corey ist, dann ist Amy 11 - 2 = 9 Jahre alt. Wenn Amy 5 Jahre älter als Jackson ist, dann ist Jackson 9 - 5 = 4 Jahre alt. Daher ist Jackson 4 Jahre alt. Die Antwort ist 4.",4,✅ Correct,✅ Correct,0
+ru,"Если Джеймсу 10 лет и он на 1 год младше Кори, то Кори 10 + 1 = 11 лет. Если Эми на 2 года младше Кори, то Эми 11 – 2 = 9 лет. Если Эми на 5 лет старше Джексона, то Джексону 9 – 5 = 4 года. Итак, Джексону 4 года. Ответ: 4.","Если Джеймсу 10 лет и он на 1 год младше Кори, то Кори 10 + 1 = 11 лет. Если Эми на 2 года младше Кори, то Эми 11 – 2 = 9 лет. Если Эми на 5 лет старше Джексона, то Джексону 9 – 5 = 4 года. Итак, Джексону 4 года. Ответ: 4.",4,✅ Correct,✅ Correct,0
+zh,如果詹姆斯是 10 岁，那么科里是 10 + 1 = 11 岁。由于 Amy 比 Cory 小 2 岁，因此 Amy 的年龄为 11 - 2 = 9 岁。由于艾米比杰克逊大 5 岁，因此杰克逊是 9 - 5 = 4 岁。因此，��,如果詹姆斯是 10 岁，那么科里是 10 + 1 = 11 岁。由于 Amy 比 Cory 小 2 岁，因此 Amy 的年龄为 11 - 2 = 9 岁。由于艾米比杰克逊大 5 岁，因此杰克逊是 9 - 5 = 4 岁。因此，��,4,✅ Correct,✅ Correct,0
+ja,ステップごとの答え: エミリー、ジャクソン、コリー、ジェームスの年齢を A、J、C、J とします。 コリーは 10 - 1 = 9 歳です。 エイミーは 5 歳年上なので、J + 5 = 9 歳です。 したがって、J = 4 となります。 ジャクソン,ステップごとの答え: エミリー、ジャクソン、コリー、ジェームスの年齢を A、J、C、J とします。 コリーは 10 - 1 = 9 歳です。 エイミーは 5 歳年上なので、J + 5 = 9 歳です。 したがって、J = 4 となります。 ジャクソン,4,✅ Correct,✅ Correct,0
+th,ถ้าเจมส์อายุ 10 ปี และอายุน้อยกว่าคอรีย์ 1 ปี คอรีย์ก็จะมีอายุ 10 + 1 = 11 ปี ถ้าเอมีอายุมากกว่าแจ็กสัน 5 ปี เอมีจะมีอายุ 5 + อายุ,"แก้คำถามต่อไปนี้: เอมิลีมีลูก 4 คน ชื่อ เอมี แจ็กสัน คอรีย์ และเจมส์ เอมีอายุมากกว่าแจ็กสัน 5 ปี และอายุน้อยกว่าคอรีย์ 2 ปี หากเจมส์มีอายุ 10 ปี และอายุน้อยกว่าคอรีย์ 1 ปี แจ็กสันมีอายุเท่าใด
+การใช้เหตุผลต่อไปนี้ไม่สอดคล้องกัน:
+ถ้าเจมส์อายุ 10 ปี และอายุน้อยกว่าคอรีย์ 1 ปี คอรีย์ก็จะมีอายุ 10 + 1 = 11 ปี ถ้าเอมีอายุมากกว่าแจ็กสัน 5 ปี เอมีจะมีอายุ 5 + อายุ
+รอสักครู่ … ถ้าอายุน้อยกว่าคอรีย์ 2 ปี อายุของคอรีย์จะเป็นอายุของเอมี + 2 ถ้าเจมส์อายุ 10 ปี คอรีย์ก็จะมีอายุ 11 ปี และถ้าเอมีอายุมากกว่าแจ็",4,❌ Incorrect (Expected: 4),✅ Correct after revision,0
+sw,"Kwa kuwa James ana umri wa miaka 10 na mdogo kwa miaka 1 kuliko Corey, Corey ana miaka 10 + 1 = 11. Ami ana umri wa miaka 2 kuliko Corey, kwa hivyo Ami ana miaka 11 - 2 = 9. Jackson ni mdogo kwa Ami kwa miaka 5, kwa hivyo Jackson ana miaka 9 - 5 = 4. Kwa hivyo, Jackson an","Kwa kuwa James ana umri wa miaka 10 na mdogo kwa miaka 1 kuliko Corey, Corey ana miaka 10 + 1 = 11. Ami ana umri wa miaka 2 kuliko Corey, kwa hivyo Ami ana miaka 11 - 2 = 9. Jackson ni mdogo kwa Ami kwa miaka 5, kwa hivyo Jackson ana miaka 9 - 5 = 4. Kwa hivyo, Jackson an",4,✅ Correct,✅ Correct,0
+bn,"যদি জেমসের বয়স 10 বছর হয় এবং কোরির থেকে 1 বছরের ছোট হয়, তাহলে কোরির বয়স 10 + 1 = 11 বছর। যদি অ্যামি জ্যাকসনের থেক","নিম্নলিখিত প্রশ্নগুলি সমাধান করুন: এমিলির অ্যামি, জ্যাকসন, কোরি, ও জেমস নামের 4 জন সন্তান আছে। অ্যামি জ্যাকসনের থেকে 5 বছরের বড় এবং কোরির থেকে 2বছরের ছোট। যদি জেমসের বয়স 10 বছর হয় এবং সে কোরির থেকে 1 বছরের ছোট হয়, তাহলে জ্যাকসনের বয়স কত?
+নিম্নলিখিত যুক্তিটিতে একটি অসঙ্গতি রয়েছে:
+যদি জেমসের বয়স 10 বছর হয় এবং কোরির থেকে 1 বছরের ছোট হয়, তাহলে কোরির বয়স 10 + 1 = 11 বছর। যদি অ্যামি জ্যাকসনের থেক
+অপেক্ষা করুন … তাহলে অ্যামির বয়স কত? উত্তর পছন্দ: (A) 36 বছর (B) 38 বছর (C) 40 বছর (D) 42 বছর (E) 44 বছর
+Answer:
+আসুন ধাপে ধাপে চিন্",4,❌ Incorrect (Expected: 4),✅ Correct after revision,0
+te,"జేమ్స్ వయస్సు 10 సంవత్సరాలు మరియు కోర్నే కంటే 1 సంవత్సరం చిన్నవాడు కాబట్టి, కోర్న","కింది ప్రశ్నలను పరిష్కరించండి: ఎమ్మీకి ఎమీ, జాక్సన్, కోర్నే మరియు జేమ్స్ అనే 4 పిల్లలు ఉన్నారు. జాక్సన్ కంటే ఎమీ 5 సంవత్సరాలు పెద్ద మరియు కోర్నే కంటే 2 సంవత్సరాలు చిన్నది. జేమ్స్ వయస్సు 10 సంవత్సరాలు మరియు కోర్నే కంటే 1 సంవత్సరం చిన్న అయితే, జాక్సన్ వయస్సు ఎంత?
+కింది తార్కికంలో అస్థిరత ఉంది:
+జేమ్స్ వయస్సు 10 సంవత్సరాలు మరియు కోర్నే కంటే 1 సంవత్సరం చిన్నవాడు కాబట్టి, కోర్న
+ఆగండి … జేమ్స్ వయస్సు ఎంత? సమాధాన ఎంపికలు: (ఎ) 10 సంవత్సరాలు (బి) 11 సంవత్సరాలు (సి) 9 సంవత్సర",4,❌ Incorrect (Expected: 4),✅ Correct after revision,0

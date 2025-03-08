@@ -1,0 +1,56 @@
+language,original_response,revised_response,expected_answer,initial_status,new_status,wait_count
+en,"If there are 60 dogs, and two cats for every dog, there are 60*2 = 120 cats.
+        The total number of dogs and cats in the neighborhood is 120+60 = 180
+        Since the number of rabbits is twelve less than the combined number of dogs and cats, there are 180-12 = 168 rabbits.
+        The total number of pets in the neighborhood is 168+180 = 348
+The answer is 348.","If there are 60 dogs, and two cats for every dog, there are 60*2 = 120 cats.
+        The total number of dogs and cats in the neighborhood is 120+60 = 180
+        Since the number of rabbits is twelve less than the combined number of dogs and cats, there are 180-12 = 168 rabbits.
+        The total number of pets in the neighborhood is 168+180 = 348
+The answer is 348.",348,✅ Correct,✅ Correct,0
+es,"Si hay dos gatos por cada perro y el número de perros es 60, entonces el número de gatos es 60/2 = 30. El número combinado de perros y gatos es 60 + 30 = 90. Si el número de conejos domésticos es doce menos que el número combinado de perros y gatos, entonces el número de conejos domésticos es 90 - 12 = 78. El número total de animales domésticos en el vecindario","Resuelve las siguientes preguntas: En un vecindario, la cantidad de conejos domésticos es doce menos que la cantidad combinada de perros y gatos. Si hay dos gatos por cada perro y la cantidad de perros es 60, ¿cuántos animales domésticos hay en total en el vecindario?
+El siguiente razonamiento tiene una inconsistencia:
+Si hay dos gatos por cada perro y el número de perros es 60, entonces el número de gatos es 60/2 = 30. El número combinado de perros y gatos es 60 + 30 = 90. Si el número de conejos domésticos es doce menos que el número combinado de perros y gatos, entonces el número de conejos domésticos es 90 - 12 = 78. El número total de animales domésticos en el vecindario
+Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera …",348,❌ Incorrect (Expected: 348),❌ Still Incorrect (Expected: 348),5
+fr,"S'il y a 60 chiens et que pour chaque chien il y a deux chats, alors il y a 60/2 = 30 chats. La population totale de chiens et de chats est de 60 + 30 = 90. La population de lapins de compagnie est inférieure de douze au total de chiens et de chats, il y a donc 90 - 12 = 78 lapins de compagnie. Le nombre total d'animaux domestiques dans le quartier est de","Résolvez les questions suivantes: Dans un certain quartier, la population des lapins de compagnie compte douze unités de moins que celle de l'ensemble des chiens et des chats de compagnie. Si pour chaque chien on compte deux chats et qu'il y a en tout 60 chiens, combien d'animaux domestiques y a-t-il au total dans le quartier ?
+Le raisonnement suivant présente une incohérence :
+S'il y a 60 chiens et que pour chaque chien il y a deux chats, alors il y a 60/2 = 30 chats. La population totale de chiens et de chats est de 60 + 30 = 90. La population de lapins de compagnie est inférieure de douze au total de chiens et de chats, il y a donc 90 - 12 = 78 lapins de compagnie. Le nombre total d'animaux domestiques dans le quartier est de
+Attendez … Attendez … Attendez … Attendez … Attendez … Attendez… Il semble qu'il y ait une incohérence dans les informations fournies. Les informations fournies ne fournissent pas suffisamment d’informations pour déterminer le nombre total d’animaux domestiques dans le quartier. Quelle est la réponse?
+Answer:
+Réfléchissons étape par étape. Il semble qu'il y ait une incohérence dans les informations fournies. Les informations fournies ne fournissent pas suffisamment d",348,❌ Incorrect (Expected: 348),❌ Still Incorrect (Expected: 348),5
+de,"Wenn es 60 Hunde gibt und auf jeden Hund zwei Katzen kommen, dann sind es 60/2 = 30 Katzen. Die Gesamtzahl der Hunde und Katzen beträgt 60 + 30 = 90. Die Anzahl der Kaninchen ist zwölfmal geringer als die Gesamtzahl der Hunde und Katzen, es gibt also 90/12 = 7,5 Kaninchen. Da wir keinen Bruchteil eines Kaninchens haben können, runden wir auf die nächste","Los die folgenden Fragen: In einem Wohnviertel ist die Anzahl an Kaninchen als Haustier zwölf Mal geringer als die Anzahl an Hunden und Katzen als Haustiere zusammen. Wenn auf jeden Hund zwei Katzen kommen, und es 60 Hunde gibt, gibt es insgesamt wie viele Haustiere in dem Viertel?
+Die folgende Argumentation enthält eine Inkonsistenz:
+Wenn es 60 Hunde gibt und auf jeden Hund zwei Katzen kommen, dann sind es 60/2 = 30 Katzen. Die Gesamtzahl der Hunde und Katzen beträgt 60 + 30 = 90. Die Anzahl der Kaninchen ist zwölfmal geringer als die Gesamtzahl der Hunde und Katzen, es gibt also 90/12 = 7,5 Kaninchen. Da wir keinen Bruchteil eines Kaninchens haben können, runden wir auf die nächste
+Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte",348,❌ Incorrect (Expected: 348),❌ Still Incorrect (Expected: 348),5
+ru,"Если на каждую собаку приходится две кошки, а количество собак равно 60, то количество кошек равно 60/2 = 30. Общее количество собак и кошек равно 60 + 30 = 90. Если количество домашних кроликов в двенадцать раз меньше, чем общее количество собак и кошек, то количество домашних кроликов равно 90/12","Решите следующие вопросы: В жилом районе количество домашних кроликов в двенадцать раз меньше совокупного количества домашних собак и кошек. Если на каждую собаку приходится две кошки, а число собак составляет 60, сколько всего домашних животных в этом жилом районе?
+Следующее рассуждение имеет несоответствие:
+Если на каждую собаку приходится две кошки, а количество собак равно 60, то количество кошек равно 60/2 = 30. Общее количество собак и кошек равно 60 + 30 = 90. Если количество домашних кроликов в двенадцать раз меньше, чем общее количество собак и кошек, то количество домашних кроликов равно 90/12
+Подождите … Подождите … Подождите … Подождите … Подождите … Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подо",348,❌ Incorrect (Expected: 348),❌ Still Incorrect (Expected: 348),5
+zh,如果猫和狗的比例是2比1，那么猫的数量就是2/1 * 60只狗= 120只猫。猫和狗的总数为 120 只猫 + 60 只狗 = 180 只宠物。宠物兔子的数量比宠物狗和猫的总数少了 12 只，因此有 180 只宠物 - 12,"解答以下问题: 在一个街区，宠物兔的数量比宠物狗和宠物猫的总数量少 12 只。如果猫和狗的数量比是 2 比 1，而狗的数量是 60 只，则这个社区一共有多少只宠物？
+以下推理存在不一致之处：
+如果猫和狗的比例是2比1，那么猫的数量就是2/1 * 60只狗= 120只猫。猫和狗的总数为 120 只猫 + 60 只狗 = 180 只宠物。宠物兔子的数量比宠物狗和猫的总数少了 12 只，因此有 180 只宠物 - 12
+等待 … = 168 只宠物兔子。该社区的宠物总数为 168 只兔子 + 180 只宠物 = 348 只宠物。答案选择： (A) 348 (B) 368 (C) 367 (D) 398 (E) 397
+Answer:
+让我们一步步思考。答：猫和狗的数量比为2比",348,❌ Incorrect (Expected: 348),✅ Correct after revision,0
+ja,60 x 2 = 120 は近所にいる猫の数です。犬と猫の数は120+60=180匹です。近所には180-12=168匹のウサギがいます。答えは168です。,"次の質問を解いてください: 近所では、ペットのウサギの数がペットの犬と猫を合わせた数よりも12匹少ない。犬1匹あたり2匹の猫がおり、犬の数は60匹だとすると、全部で近所には何匹のペットがいますか？
+次の推論には矛盾があります:
+60 x 2 = 120 は近所にいる猫の数です。犬と猫の数は120+60=180匹です。近所には180-12=168匹のウサギがいます。答えは168です。
+待ってください … 待ってください … 待ってください … 待ってください … 待ってください … 答えは 168 です。",348,❌ Incorrect (Expected: 348),❌ Still Incorrect (Expected: 348),5
+th,เนื่องจากมีแมวมากกว่าสุนัขสองเท่า จึงมีแมว 2*60 = 120 ตัว จำนวนสัตว์เลี้ยงที่เป็นสุนัขและแมวทั้งหมดคือ 120 + 60 = 180 จำนวนสัตว์เล,"แก้คำถามต่อไปนี้: ในย่านที่อยู่อาศัยแห่งหนึ่งมีสัตว์เลี้ยงที่เป็นสุนัขและแมวรวมกันมากกว่าสัตว์เลี้ยงที่เป็นกระต่ายอยู่สิบสองตัว หากมีแมวมากกว่าสุนัขสองเท่า และมีสุนัข 60 ตัว ในย่านดังกล่าวจะมีจำนวนสัตว์เลี้ยงรวมทั้งสิ้นกี่ตัว
+การใช้เหตุผลต่อไปนี้ไม่สอดคล้องกัน:
+เนื่องจากมีแมวมากกว่าสุนัขสองเท่า จึงมีแมว 2*60 = 120 ตัว จำนวนสัตว์เลี้ยงที่เป็นสุนัขและแมวทั้งหมดคือ 120 + 60 = 180 จำนวนสัตว์เล
+รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักค",348,❌ Incorrect (Expected: 348),❌ Still Incorrect (Expected: 348),5
+sw,"Ikiwa kuna paka mbili kwa kila mbwa, na idadi ya mbwa ni 60, basi kuna 60/2 = 30 paka. Jumla ya idadi ya mbwa na paka ni mbwa 60 + paka 30 = 90 kipenzi. Kwa kuwa idadi ya sungura ni kidogo kuliko jumla ya idadi ya mbwa na paka, kuna sungura 90 - 12 = 78 katika kitongoji. Jib","Tatua maswali yafuatayo: Katika mtaa, idadi ya sungura ni kidogo na kumi na mbili kwa jumla ya idadi ya mbwa na paka. Ikiwa kuna paka wawili kwa kila mbwa, na idadi ya mbwa ni 60, kuna wanyama vipenzi wangapi kwa jumla katika mtaa huo?
+Hoja ifuatayo ina hali ya kutofautiana:
+Ikiwa kuna paka mbili kwa kila mbwa, na idadi ya mbwa ni 60, basi kuna 60/2 = 30 paka. Jumla ya idadi ya mbwa na paka ni mbwa 60 + paka 30 = 90 kipenzi. Kwa kuwa idadi ya sungura ni kidogo kuliko jumla ya idadi ya mbwa na paka, kuna sungura 90 - 12 = 78 katika kitongoji. Jib
+Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri",348,❌ Incorrect (Expected: 348),❌ Still Incorrect (Expected: 348),5
+bn,"যদি প্রতিটি কুকুরের সাথে দুটি বিড়াল থাকে, তাহলে বিড়ালের সংখ্যা 2 * 60 = 120 বিড়াল। পোষা খরগোশ এবং পোষা কুকুর এবং বি","নিম্নলিখিত প্রশ্নগুলি সমাধান করুন: একটি পাড়ায়, পোষা কুকুর ও বিড়ালের মিলিত সংখ্যার তুলনায় পোষা খরগোশের সংখ্যা বারোটি কম। প্রতিটি কুকুরের অনুপাতে যদি দুটি করে বিড়াল থাকে, এবং কুকুরের সংখ্যা যদি 60টি হয়, ঐ পাড়ায় কতগুলি পোষ্য আছে?
+নিম্নলিখিত যুক্তিটিতে একটি অসঙ্গতি রয়েছে:
+যদি প্রতিটি কুকুরের সাথে দুটি বিড়াল থাকে, তাহলে বিড়ালের সংখ্যা 2 * 60 = 120 বিড়াল। পোষা খরগোশ এবং পোষা কুকুর এবং বি
+অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অ",348,❌ Incorrect (Expected: 348),❌ Still Incorrect (Expected: 348),5
+te,"ప్రతి కుక్కకు రెండు పిల్లులు ఉంటే, మరియు కుక్కల సంఖ్య 60 అయితే, అప్పుడు 60*2 = 120 పిల్ల","కింది ప్రశ్నలను పరిష్కరించండి: ఒక పొరుగు ప్రాంతంలో, పెంపుడు కుక్కలు మరియు పిల్లల మొత్తం సంఖ్య కంటే పెంపుడు కుందేళ్ల సంఖ్య పన్నెండు తక్కువ. ప్రతి కుక్కకు రెండు పిల్లులు ఉన్నట్లయితే, మరియు కుక్కల సంఖ్య 60 అయితే, పొరుగు ప్రాంతంలో మొత్తం ఎన్ని పెంపుడు జంతువులు ఉన్నాయి?
+కింది తార్కికంలో అస్థిరత ఉంది:
+ప్రతి కుక్కకు రెండు పిల్లులు ఉంటే, మరియు కుక్కల సంఖ్య 60 అయితే, అప్పుడు 60*2 = 120 పిల్ల
+ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి సమాధాన ఎంపికలు: (A) 10 (B) 15 (C) 20 (D) 30 (E) 40
+Answer:
+అంచెలంచెలుగా ఆలోచిద్దాం. పెం�",348,❌ Incorrect (Expected: 348),❌ Still Incorrect (Expected: 348),5

@@ -1,0 +1,16 @@
+language,original_response,revised_response,expected_answer,initial_status,new_status,wait_count
+en,"If Amir eats 5 cookies, Cody eats 3 * 5 = 15 cookies.
+        Together, they eat 5 + 15 = 20 cookies.
+        The answer is 20.","If Amir eats 5 cookies, Cody eats 3 * 5 = 15 cookies.
+        Together, they eat 5 + 15 = 20 cookies.
+        The answer is 20.",20,✅ Correct,✅ Correct,0
+es,"Si Amir come 5 galletas, Cody come 3 * 5 = 15 galletas. Juntos comen 5 + 15 = 20 galletas. La respuesta es 20.","Si Amir come 5 galletas, Cody come 3 * 5 = 15 galletas. Juntos comen 5 + 15 = 20 galletas. La respuesta es 20.",20,✅ Correct,✅ Correct,0
+fr,"Si Amir mange 5 biscuits, alors Cody mange 3 * 5 = 15 biscuits. Au total, ils mangent 5 + 15 = 20 cookies. La réponse est 20.","Si Amir mange 5 biscuits, alors Cody mange 3 * 5 = 15 biscuits. Au total, ils mangent 5 + 15 = 20 cookies. La réponse est 20.",20,✅ Correct,✅ Correct,0
+de,"Wenn Amir 5 Kekse isst, dann isst Cody 3 * 5 = 15 Kekse. Zusammen essen sie 5 + 15 = 20 Kekse. Die Antwort ist 20.","Wenn Amir 5 Kekse isst, dann isst Cody 3 * 5 = 15 Kekse. Zusammen essen sie 5 + 15 = 20 Kekse. Die Antwort ist 20.",20,✅ Correct,✅ Correct,0
+ru,"Если Амир съедает 5 печенек, то Коди съедает 3 * 5 = 15 печенек. Вместе они съедают 5 + 15 = 20 печенек. Ответ: 20.","Если Амир съедает 5 печенек, то Коди съедает 3 * 5 = 15 печенек. Вместе они съедают 5 + 15 = 20 печенек. Ответ: 20.",20,✅ Correct,✅ Correct,0
+zh,如果阿米尔吃了 5 块饼干，那么科迪就吃了 3 * 5 = 15 块饼干。他们总共吃了 5 + 15 = 20 块饼干。答案是20。,如果阿米尔吃了 5 块饼干，那么科迪就吃了 3 * 5 = 15 块饼干。他们总共吃了 5 + 15 = 20 块饼干。答案是20。,20,✅ Correct,✅ Correct,0
+ja,アミールが 5 枚のクッキーを食べると、コディーは 3*5 = 15 枚のクッキーを食べます。合計すると、5+15=20 枚のクッキーを食べます。答えは20です。,アミールが 5 枚のクッキーを食べると、コディーは 3*5 = 15 枚のクッキーを食べます。合計すると、5+15=20 枚のクッキーを食べます。答えは20です。,20,✅ Correct,✅ Correct,0
+th,ถ้าอาเมียร์กินคุกกี้ 5 ชิ้น โคดี้ก็กินคุกกี้ 3 * 5 = 15 ชิ้น โดยรวมแล้วพวกเขากินคุกกี้ 5 + 15 = 20 ชิ้น คำตอบคือ 20.,ถ้าอาเมียร์กินคุกกี้ 5 ชิ้น โคดี้ก็กินคุกกี้ 3 * 5 = 15 ชิ้น โดยรวมแล้วพวกเขากินคุกกี้ 5 + 15 = 20 ชิ้น คำตอบคือ 20.,20,✅ Correct,✅ Correct,0
+sw,"Ikiwa Amir anakula biskuti 5, Cody anakula 3 * 5 = cookies 15. Kwa pamoja, wanakula 5 + 15 = 20 cookies. Jibu ni 20.","Ikiwa Amir anakula biskuti 5, Cody anakula 3 * 5 = cookies 15. Kwa pamoja, wanakula 5 + 15 = 20 cookies. Jibu ni 20.",20,✅ Correct,✅ Correct,0
+bn,"যদি আমির 5টি কুকি খেয়ে থাকেন, তাহলে কোডি 3 * 5 = 15টি কুকি খেয়েছেন। একসাথে, তারা 5 + 15 = 20 কুকি খেয়েছে। উত্তর","যদি আমির 5টি কুকি খেয়ে থাকেন, তাহলে কোডি 3 * 5 = 15টি কুকি খেয়েছেন। একসাথে, তারা 5 + 15 = 20 কুকি খেয়েছে। উত্তর",20,✅ Correct,✅ Correct,0
+te,"అమిర్ 5 కుకీలను తింటే, క్యాడీ 3*5=15 కుకీలను తిన్నాడు. అందరూ కలిసి 5+15=20 కుకీలు తిన్నారు. �����","అమిర్ 5 కుకీలను తింటే, క్యాడీ 3*5=15 కుకీలను తిన్నాడు. అందరూ కలిసి 5+15=20 కుకీలు తిన్నారు. �����",20,✅ Correct,✅ Correct,0

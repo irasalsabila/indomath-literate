@@ -1,0 +1,29 @@
+language,original_response,revised_response,expected_answer,initial_status,new_status,wait_count
+en,"John has 20 friends and he wants each friend to have 4 slices, so he needs 20 x 4 = 80 slices in total.
+        Pizzas are sold in 8 slices, so John needs 80 / 8 = 10 pizzas.
+        The answer is 10.","John has 20 friends and he wants each friend to have 4 slices, so he needs 20 x 4 = 80 slices in total.
+        Pizzas are sold in 8 slices, so John needs 80 / 8 = 10 pizzas.
+        The answer is 10.",10,✅ Correct,✅ Correct,0
+es,"John necesita 20 amigos * 4 porciones = 80 porciones en total. Por lo tanto, John necesita 80 porciones / 8 porciones por pizza = 10 pizzas. La respuesta es 10.","John necesita 20 amigos * 4 porciones = 80 porciones en total. Por lo tanto, John necesita 80 porciones / 8 porciones por pizza = 10 pizzas. La respuesta es 10.",10,✅ Correct,✅ Correct,0
+fr,"Si Jean veut s'assurer que chacun ait 4 tranches, et qu'il y ait 20 amis au total, alors il lui faut un total de 4 * 20 = 80 tranches. Puisque les pizzas sont vendues par tranches de 8, Jean doit commander 80/8 = 10 pizzas. La réponse est 10.","Si Jean veut s'assurer que chacun ait 4 tranches, et qu'il y ait 20 amis au total, alors il lui faut un total de 4 * 20 = 80 tranches. Puisque les pizzas sont vendues par tranches de 8, Jean doit commander 80/8 = 10 pizzas. La réponse est 10.",10,✅ Correct,✅ Correct,0
+de,"John hat 20 Freunde und jeder Freund möchte 4 Stücke, also muss John insgesamt 20 x 4 = 80 Stücke bereitstellen. Jede Pizza wird in 8 Scheiben geschnitten, also muss John 80 / 8 = 10 Pizzen bestellen. Die Antwort ist 10.","John hat 20 Freunde und jeder Freund möchte 4 Stücke, also muss John insgesamt 20 x 4 = 80 Stücke bereitstellen. Jede Pizza wird in 8 Scheiben geschnitten, also muss John 80 / 8 = 10 Pizzen bestellen. Die Antwort ist 10.",10,✅ Correct,✅ Correct,0
+ru,"Друзья Джона будут есть в общей сложности 20 x 4 = 80 кусков. Чтобы получить 80 штук, Джону нужно заказать 80/8 = 10 пицц. Ответ: 10.","Друзья Джона будут есть в общей сложности 20 x 4 = 80 кусков. Чтобы получить 80 штук, Джону нужно заказать 80/8 = 10 пицц. Ответ: 10.",10,✅ Correct,✅ Correct,0
+zh,约翰和他的朋友们总共有 20 个朋友 + 1（约翰）= 21 人。如果每个人想吃 4 块披萨，那么他们总共需要 21 * 4 = 84 块披萨。由于每个披萨有 8 片，约翰需要订购 84 / 8 = 10.5 个披萨。由于约翰,约翰和他的朋友们总共有 20 个朋友 + 1（约翰）= 21 人。如果每个人想吃 4 块披萨，那么他们总共需要 21 * 4 = 84 块披萨。由于每个披萨有 8 片，约翰需要订购 84 / 8 = 10.5 个披萨。由于约翰,10,✅ Correct,✅ Correct,0
+ja,スライスの合計数は 20*4=80 スライスになります。したがって、ジョンは 80/8 = 10 枚のピザを注文する必要があります。答えは10です。,スライスの合計数は 20*4=80 スライスになります。したがって、ジョンは 80/8 = 10 枚のピザを注文する必要があります。答えは10です。,10,✅ Correct,✅ Correct,0
+th,จอห์นและเพื่อนๆ ของเขามีทั้งหมด 20 คน และแต่ละคนต้องการกินพิซซ่า 4 ชิ้น ดังนั้น พวกเขาต้องการพิซซ่าทั้งหมด 20 * 4 = 80 ชิ้น พิซ,"แก้คำถามต่อไปนี้: จอห์นสั่งพิซซ่ามาแบ่งกันกินกับเพื่อนๆ ของเขา เพื่อนมีทั้งหมด 20 คน และจอห์นต้องการให้แน่ใจว่าแต่ละคนจะได้กิน 4 ชิ้น ซึ่งพิซซ่าจะขายโดยแบ่งเป็น 8 ส่วนเท่านั้น จอห์นจะต้องสั่งพิซซ่ากี่ถาด
+การใช้เหตุผลต่อไปนี้ไม่สอดคล้องกัน:
+จอห์นและเพื่อนๆ ของเขามีทั้งหมด 20 คน และแต่ละคนต้องการกินพิซซ่า 4 ชิ้น ดังนั้น พวกเขาต้องการพิซซ่าทั้งหมด 20 * 4 = 80 ชิ้น พิซ
+รอสักครู่ … แต่ละพิซมี 8 ชิ้นเท่านั้น ดังนั้นพวกเขาต้องการพิซ 80 / 8 = 10 พิซ ใช่แล้ว สั่งพิซ 10 ถาด แต่ละพิซมี 8 ชิ้น นั่นคือพิซ 10 * 8 = 80 ช",10,❌ Incorrect (Expected: 10),✅ Correct after revision,0
+sw,"John anahitaji kuhakikisha kila mmoja wa marafiki zake 20 anapata vipande 4, hivyo anahitaji jumla ya vipande 20 * 4 = 80. Kila pizza ina vipande 8, kwa hivyo John anahitaji kuagiza 80/8 = 10 pizza. Jibu ni 10.","John anahitaji kuhakikisha kila mmoja wa marafiki zake 20 anapata vipande 4, hivyo anahitaji jumla ya vipande 20 * 4 = 80. Kila pizza ina vipande 8, kwa hivyo John anahitaji kuagiza 80/8 = 10 pizza. Jibu ni 10.",10,✅ Correct,✅ Correct,0
+bn,"যদি প্রতিটি বন্ধু 4 পিস পায় এবং 20 জন বন্ধু থাকে, তাহলে মোট 4 x 20 = 80 পিস প্রয়োজন। যেহেতু প্রতিটি পিজ্জাতে 8টি স্লাইস র","নিম্নলিখিত প্রশ্নগুলি সমাধান করুন: জন তার বন্ধুদের সাথে খাওয়ার জন্য কিছু পিৎজার অর্ডার দিয়েছিলেন। মোট 20জন বন্ধু আছে, এবং জন নিশ্চিত করতে চান যে প্রত্যেকেই যেন 4 টুকরো করে পান। 8 টুকরো ভাগেই কেবলমাত্র পিৎজা বিক্রি হয়। জনকে কতগুলি পিৎজার অর্ডার দিতে হবে?
+নিম্নলিখিত যুক্তিটিতে একটি অসঙ্গতি রয়েছে:
+যদি প্রতিটি বন্ধু 4 পিস পায় এবং 20 জন বন্ধু থাকে, তাহলে মোট 4 x 20 = 80 পিস প্রয়োজন। যেহেতু প্রতিটি পিজ্জাতে 8টি স্লাইস র
+অপেক্ষা করুন … 80 / 8 = 10 পিজ্জা প্রয়োজন। উত্তর পছন্দ: (A) 10 (B) 12 (C) 14 (D) 16 (E) 18
+Answer:
+আসুন ধাপে ধাপে চিন্তা করি। উত্তর হল A. 10 পি",10,❌ Incorrect (Expected: 10),✅ Correct after revision,0
+te,"జాన్ ప్రతి స్నేహితుడికి 4 స్లైస్‌లను అందించాలి, అతనికి 20 మంది స్నేహితులు ఉన్నారు, 4*20=","కింది ప్రశ్నలను పరిష్కరించండి: జాన్ తన స్నేహితులతో పంచుకోవడానికి కొన్ని పిజ్జాలు ఆర్డర్ చేశాడు. మొత్తం 20 మంది స్నేహితులు ఉన్నారు, ప్రతి ఒక్కరికి 4 స్లైస్‌లు వచ్చేలా చూడాలని జాన్ కోరుకుంటున్నాడు. కేవలం 8 పోర్షన్‌లుగా స్లైస్ చేయబడ్డ పిజ్జాలు మాత్రమే విక్రయించబడతాయి. జాన్ ఎన్ని పిజ్జాలను ఆర్డర్ చేయాల్సి ఉంటుంది?
+కింది తార్కికంలో అస్థిరత ఉంది:
+జాన్ ప్రతి స్నేహితుడికి 4 స్లైస్‌లను అందించాలి, అతనికి 20 మంది స్నేహితులు ఉన్నారు, 4*20=
+ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి సమాధానం 10.
+Answer:
+అంచెలంచెలుగా ఆలోచిద్దాం. జాన్ ప్రతి స్న",10,❌ Incorrect (Expected: 10),✅ Correct after revision,1

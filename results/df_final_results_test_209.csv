@@ -1,0 +1,40 @@
+language,original_response,revised_response,expected_answer,initial_status,new_status,wait_count
+en,"Rose bought 4 cakes on Monday.
+        On Tuesday she bought 3 times that number, so she bought 4 x 3 = 12 cakes.
+        On Wednesday she bought 5 times the number she bought on Tuesday, so she bought 12 x 5 = 60 cakes.
+        In total, Rose bought 4 + 12 + 60 = 76 cakes.
+        The answer is 76.","Rose bought 4 cakes on Monday.
+        On Tuesday she bought 3 times that number, so she bought 4 x 3 = 12 cakes.
+        On Wednesday she bought 5 times the number she bought on Tuesday, so she bought 12 x 5 = 60 cakes.
+        In total, Rose bought 4 + 12 + 60 = 76 cakes.
+        The answer is 76.",76,✅ Correct,✅ Correct,0
+es,"El lunes Rose compró 4 pasteles. El martes compró 3 * 4 = 12 pasteles. El miércoles compró 5 * 12 = 60 pasteles. Entonces, en total Rose compró 4 + 12 + 60 = 76 pasteles. La respuesta es 76.","El lunes Rose compró 4 pasteles. El martes compró 3 * 4 = 12 pasteles. El miércoles compró 5 * 12 = 60 pasteles. Entonces, en total Rose compró 4 + 12 + 60 = 76 pasteles. La respuesta es 76.",76,✅ Correct,✅ Correct,0
+fr,"Lundi, Rose a acheté 4 gâteaux. Mardi, elle a acheté 3 fois plus de gâteaux, soit 4 x 3 = 12 gâteaux. Mercredi, elle a acheté 5 fois la quantité de gâteaux qu'elle a achetée mardi, soit 12 x 5 = 60 gâteaux. Au total, Rose a acheté 4 + 12 + 60 = 76 gâteaux. La réponse est 76.","Lundi, Rose a acheté 4 gâteaux. Mardi, elle a acheté 3 fois plus de gâteaux, soit 4 x 3 = 12 gâteaux. Mercredi, elle a acheté 5 fois la quantité de gâteaux qu'elle a achetée mardi, soit 12 x 5 = 60 gâteaux. Au total, Rose a acheté 4 + 12 + 60 = 76 gâteaux. La réponse est 76.",76,✅ Correct,✅ Correct,0
+de,"Am Montag kaufte Rose 4 Kuchen. Am Dienstag kaufte sie dreimal so viele Kuchen wie am Montag, also 4 x 3 = 12 Kuchen. Am Mittwoch kaufte sie fünfmal so viele Kuchen wie am Dienstag, also 12 x 5 = 60 Kuchen. Insgesamt kaufte Rose 4 + 12 + 60 = 76 Kuchen. Die Antwort ist 76.","Am Montag kaufte Rose 4 Kuchen. Am Dienstag kaufte sie dreimal so viele Kuchen wie am Montag, also 4 x 3 = 12 Kuchen. Am Mittwoch kaufte sie fünfmal so viele Kuchen wie am Dienstag, also 12 x 5 = 60 Kuchen. Insgesamt kaufte Rose 4 + 12 + 60 = 76 Kuchen. Die Antwort ist 76.",76,✅ Correct,✅ Correct,0
+ru,"В понедельник Роуз купила 4 пирожных. Во вторник она купила в 3 раза больше пирожных, чем в понедельник, поэтому она купила 3 * 4 = 12 пирожных. В среду она купила в 5 раз больше пирожных, чем во вторник, поэтому она купила 5 * 12 = 60 пирожных. Всего Роуз купила 4 + 1","Решите следующие вопросы: В понедельник Роуз пошла в магазин и купила 4 пирожных. Во вторник она пошла в другой магазин и купила в три раза больше пирожных. В среду она пошла в другой магазин и купила в 5 раз больше пирожных, чем во вторник. Сколько пирожных она купила за все три дня?
+Следующее рассуждение имеет несоответствие:
+В понедельник Роуз купила 4 пирожных. Во вторник она купила в 3 раза больше пирожных, чем в понедельник, поэтому она купила 3 * 4 = 12 пирожных. В среду она купила в 5 раз больше пирожных, чем во вторник, поэтому она купила 5 * 12 = 60 пирожных. Всего Роуз купила 4 + 1
+Подождите … да, это не соответствует. Роуз купила 4 + 12 + 60 = 76 пирожных за три дня. Ответ: 76.",76,❌ Incorrect (Expected: 76),✅ Correct after revision,0
+zh,周一，露丝买了 4 块蛋糕。周二，她买了周一的三倍，所以她买了 4 * 3 = 12 个蛋糕。周三，她买的蛋糕数量是周二的 5 倍，所以她买了 12 * 5 = 60 个蛋糕。露丝三天总共买了 4 + 12 + 60 = 76 个����,周一，露丝买了 4 块蛋糕。周二，她买了周一的三倍，所以她买了 4 * 3 = 12 个蛋糕。周三，她买的蛋糕数量是周二的 5 倍，所以她买了 12 * 5 = 60 个蛋糕。露丝三天总共买了 4 + 12 + 60 = 76 个����,76,✅ Correct,✅ Correct,0
+ja,月曜日、ローズはケーキを4個買いました。火曜日、彼女は月曜日に買ったケーキの 3 倍の数を買ったので、3*4=12 個のケーキを買いました。水曜日、彼女は火曜日に買ったケーキの 5 倍の数を買ったので、5,"次の質問を解いてください: ローズは月曜日に店に行き、ケーキを4個買いました。火曜日、彼女は違う店に行って、3倍の数のケーキを買いました。水曜日、彼女はまた別の店に行って、火曜日に買ったケーキの数の5倍の数のケーキを購入しました。3日間で何個のケーキを購入しましたか？
+次の推論には矛盾があります:
+月曜日、ローズはケーキを4個買いました。火曜日、彼女は月曜日に買ったケーキの 3 倍の数を買ったので、3*4=12 個のケーキを買いました。水曜日、彼女は火曜日に買ったケーキの 5 倍の数を買ったので、5
+待ってください … 待ってください … 待ってください … 待ってください … 待ってください … ローズは水曜日に 150 個のケーキを買いました。その日、彼女は 150 個のケーキを買いました。その日、彼女は 150 個のケーキを買いました。その日、彼女は 150 個のケーキを買いました。その日、彼女は 150 ",76,❌ Incorrect (Expected: 76),❌ Still Incorrect (Expected: 76),5
+th,: ในวันจันทร์ โรสซื้อเค้ก 4 ชิ้น ในวันอังคาร เธอซื้อเค้กมากกว่าที่เธอซื้อในวันจันทร์ถึงสามเท่า ดังนั้นเธอจึงซื้อเค้ก 4 * 3 = 12 ชิ,"แก้คำถามต่อไปนี้: โรสไปที่ร้านในวันจันทร์และซื้อเค้ก 4 ชิ้น วันอังคารเธอไปอีกร้านหนึ่งและซื้อเค้กมากกว่าเดิมสามเท่า ในวันพุธเธอไปอีกร้านหนึ่งและซื้อเค้กมากกว่าที่ซื้อในวันอังคาร 5 เท่า รวมสามวันเธอซื้อเค้กไปกี่ชิ้น
+การใช้เหตุผลต่อไปนี้ไม่สอดคล้องกัน:
+: ในวันจันทร์ โรสซื้อเค้ก 4 ชิ้น ในวันอังคาร เธอซื้อเค้กมากกว่าที่เธอซื้อในวันจันทร์ถึงสามเท่า ดังนั้นเธอจึงซื้อเค้ก 4 * 3 = 12 ชิ
+รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักค",76,❌ Incorrect (Expected: 76),❌ Still Incorrect (Expected: 76),5
+sw,"Siku ya Jumatatu Rose alinunua keki 4. Siku ya Jumanne alinunua mara 3 ya keki alizonunua Jumatatu, kwa hiyo alinunua 3 * 4 = 12 cupcakes. Siku ya Jumatano alinunua mara 5 zaidi ya keki alizonunua Jumanne, kwa hiyo alinunua 5 * 12 = 60 cupcakes. Kwa jumla, Rose alinunua","Tatua maswali yafuatayo: Rose alienda kwa duka Jumatatu na akanunua keki 4. Jumanne alienda kwa duka tofauti akanunua mara tatu ya keki alizonunua Jumatatu. Jumatano alienda kwa duka lingine na akanunua mara 5 zaidi ya keki alizonunua Jumanne. Alinunua keki ngapi kwa jumla kwa siku hizo tatu?
+Hoja ifuatayo ina hali ya kutofautiana:
+Siku ya Jumatatu Rose alinunua keki 4. Siku ya Jumanne alinunua mara 3 ya keki alizonunua Jumatatu, kwa hiyo alinunua 3 * 4 = 12 cupcakes. Siku ya Jumatano alinunua mara 5 zaidi ya keki alizonunua Jumanne, kwa hiyo alinunua 5 * 12 = 60 cupcakes. Kwa jumla, Rose alinunua
+Subiri … Subiri … kwa siku hizo tatu. Jibu ni 4 + 12 + 60 = 76 cupcakes.
+Answer:
+Hebu fikiria hatua kwa hatua. Acha x iwe idadi ya keki alizonunua Jumatatu. Siku ya Jumanne, alinunua keki 3x. Siku ya Jumatano, alinunua keki 5 * 3x = 15x. Jumla ya idadi ya keki alizonunua ni x +",76,❌ Incorrect (Expected: 76),✅ Correct after revision,1
+bn,"সোমবার রোস 4টি কেক কিনেছে। মঙ্গলবার সে সোমবার কেনা কেকের 3 গুণ কিনেছে, তাই সে 3 * 4 = 12টি কেক কিনেছে। বুধবার সে মঙ","নিম্নলিখিত প্রশ্নগুলি সমাধান করুন: রোস সোমবার দোকানে গিয়েছিল এবং 4টি কেক কিনেছিল। মঙ্গলবার সে অন্য একটি দোকানে গিয়েছিল এবং আগের দিনে কেনা কেকের তিনগুণ বেশি কেক কিনেছিল। বুধবার সে অন্য আরেকটি দোকানে গিয়েছিল এবং মঙ্গলবারে কেনা কেকের 5 গুণ বেশি কেক কিনেছিল। ওই তিনদিনে সে কতগুলি কেক কিনেছিল?
+নিম্নলিখিত যুক্তিটিতে একটি অসঙ্গতি রয়েছে:
+সোমবার রোস 4টি কেক কিনেছে। মঙ্গলবার সে সোমবার কেনা কেকের 3 গুণ কিনেছে, তাই সে 3 * 4 = 12টি কেক কিনেছে। বুধবার সে মঙ
+অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অ",76,❌ Incorrect (Expected: 76),❌ Still Incorrect (Expected: 76),5
+te,సోమవారం రోజ్ 4 కేక్‌లను కొనుగోలు చేసింది. మంగళవారం ఆమె సోమవారం కొనుగోలు �����,"కింది ప్రశ్నలను పరిష్కరించండి: రోజ్ సోమవారం నాడు స్టోరుకు వెళ్లి 4 కేక్‌లను కొనుగోలు చేసింది. మంగళవారం నాడు ఆమె వేరే స్టోరుకు వెళ్లి, కేకుల సంఖ్యకు మూడు రెట్లు ఎక్కువగా కొన్నది, బుధవారం నాడు ఆమె మరో స్టోరుకు వెళ్లి, మంగళవారం నాటి కేకుల సంఖ్యకు 5 రెట్లు ఎక్కువగా కేక్‌‌లను కొనుగోలు చేసింది. ఈ మూడు రోజుల్లో ఆమె మొత్తం ఎన్ని కేకులను కొనుగోలు చేసింది?
+కింది తార్కికంలో అస్థిరత ఉంది:
+సోమవారం రోజ్ 4 కేక్‌లను కొనుగోలు చేసింది. మంగళవారం ఆమె సోమవారం కొనుగోలు �����
+ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి బుధవారం ఆమె మంగళవారం కొనుగోలు చేసిన సంఖ్య కంటే 5 రెట్లు కొనుగోలు ��",76,❌ Incorrect (Expected: 76),❌ Still Incorrect (Expected: 76),5

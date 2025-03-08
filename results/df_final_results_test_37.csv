@@ -1,0 +1,38 @@
+language,original_response,revised_response,expected_answer,initial_status,new_status,wait_count
+en,"Terry eats 2 yogurts a day, so over 30 days, he will eat 2 x 30 = 60 yogurts.
+        The yogurts are on sale at 4 for $5.00, so to buy 60 yogurts, Terry will need to spend 60 / 4 = 15 sets of $5.00.
+        Therefore, Terry will spend 15 x $5.00 = $75.00 on yogurt over 30 days.","Terry eats 2 yogurts a day, so over 30 days, he will eat 2 x 30 = 60 yogurts.
+        The yogurts are on sale at 4 for $5.00, so to buy 60 yogurts, Terry will need to spend 60 / 4 = 15 sets of $5.00.
+        Therefore, Terry will spend 15 x $5.00 = $75.00 on yogurt over 30 days.",75,✅ Correct,✅ Correct,0
+es,"Terry come 2 yogures al día, por lo que en 30 días comerá 2 x 30 = 60 yogures. Hay una oferta de 4 yogures por $5, por lo que Terry necesitará comprar 60/4 = 15 paquetes de yogures. Por lo tanto, gastará 15 x $5 = $75 en yogur durante 30 días. La respuesta es 75.","Terry come 2 yogures al día, por lo que en 30 días comerá 2 x 30 = 60 yogures. Hay una oferta de 4 yogures por $5, por lo que Terry necesitará comprar 60/4 = 15 paquetes de yogures. Por lo tanto, gastará 15 x $5 = $75 en yogur durante 30 días. La respuesta es 75.",75,✅ Correct,✅ Correct,0
+fr,"Terry mange 2 yaourts chaque jour, donc dans 30 jours, il mangera 2 * 30 = 60 yaourts. Les yaourts sont vendus au prix de 4 pour 5,00 $, donc pour acheter 60 yaourts, il faudra à Terry 60/4 = 15 séries de 4 yaourts. Chaque ensemble coûte 5,00 $, donc Terry dépensera 15 * 5,00 $ = 75,00 $","Terry mange 2 yaourts chaque jour, donc dans 30 jours, il mangera 2 * 30 = 60 yaourts. Les yaourts sont vendus au prix de 4 pour 5,00 $, donc pour acheter 60 yaourts, il faudra à Terry 60/4 = 15 séries de 4 yaourts. Chaque ensemble coûte 5,00 $, donc Terry dépensera 15 * 5,00 $ = 75,00 $",75,✅ Correct,✅ Correct,0
+de,"Terry isst 2 Joghurts pro Tag, also wird sie in 30 Tagen 2 * 30 = 60 Joghurts essen. Es gibt 4 Joghurts im Angebot, also muss sie 60/4 = 15 Packungen Joghurt kaufen. Jede Packung kostet 5,00 $, also wird sie innerhalb von 30 Tagen 15 * 5,00 $ = 75,00 $ für Joghurt ausgeben. Die","Terry isst 2 Joghurts pro Tag, also wird sie in 30 Tagen 2 * 30 = 60 Joghurts essen. Es gibt 4 Joghurts im Angebot, also muss sie 60/4 = 15 Packungen Joghurt kaufen. Jede Packung kostet 5,00 $, also wird sie innerhalb von 30 Tagen 15 * 5,00 $ = 75,00 $ für Joghurt ausgeben. Die",75,✅ Correct,✅ Correct,0
+ru,"Терри съедает 2 йогурта в день, значит, за 30 дней он съест 2 * 30 = 60 йогуртов. На распродаже продаются 4 йогурта по цене 5 долларов США, поэтому каждый йогурт стоит 5 долларов США / 4 = 1,25 доллара США. За 60 йогуртов Терри потратит 60 * 1,25 дол","Решите следующие вопросы: Терри съедает по 2 йогурта в день. Сейчас они на распродаже по 5,00 $ за 4 йогурта. Сколько он тратит на йогурт за 30 дней?
+Следующее рассуждение имеет несоответствие:
+Терри съедает 2 йогурта в день, значит, за 30 дней он съест 2 * 30 = 60 йогуртов. На распродаже продаются 4 йогурта по цене 5 долларов США, поэтому каждый йогурт стоит 5 долларов США / 4 = 1,25 доллара США. За 60 йогуртов Терри потратит 60 * 1,25 дол
+Подождите … Терри потратит 75 долларов на йогурт за 30 дней. Варианты ответа: (A) 15 долларов (B) 18 долларов (C) 21 доллар (D) 24 доллара (E) 27 долларов
+Answer:
+Давайте думать поэтапно. 15 долларов. Терри потратит 1,25 доллара на каждый йогурт * 6",75,❌ Incorrect (Expected: 75),✅ Correct after revision,0
+zh,特里每天吃 2 份酸奶，所以在 30 天里他会吃 2 * 30 = 60 份酸奶。酸奶打折，4 份酸奶只需 5.00 美元，因此 60 份酸奶将花费 5 * (60/4) = 75.00 美元。因此，Terry 在 30 天内花费了,特里每天吃 2 份酸奶，所以在 30 天里他会吃 2 * 30 = 60 份酸奶。酸奶打折，4 份酸奶只需 5.00 美元，因此 60 份酸奶将花费 5 * (60/4) = 75.00 美元。因此，Terry 在 30 天内花费了,75,✅ Correct,✅ Correct,0
+ja,テリーは 1 日に 2 つのヨーグルトを食べるため、30 日後には 2 * 30 = 60 個のヨーグルトを食べることになります。ヨーグルトは 1 パックあたり 4 個で販売されているため、テリーには 60 / 4 = 15 パックのヨーグ,"次の質問を解いてください: テリーは1日に2つヨーグルトを食べます。現在ヨーグルトは4つで$5のセール中です。彼は30日分のヨーグルトにいくら使いますか？
+次の推論には矛盾があります:
+テリーは 1 日に 2 つのヨーグルトを食べるため、30 日後には 2 * 30 = 60 個のヨーグルトを食べることになります。ヨーグルトは 1 パックあたり 4 個で販売されているため、テリーには 60 / 4 = 15 パックのヨーグ
+待ってください … 待ってください … 待ってください … 待ってください … 待ってください … テリーは 15 パックを購入した後、ヨーグルトを買うのにどれくらいのお金を使うでしょうか?回答の選択肢: (A) 15 * 5 = 75 ドル (B) 15 * 4 = 60 ドル (C) 15 * 2 = 30 ドル (D) 15 * 1 =",75,❌ Incorrect (Expected: 75),✅ Correct after revision,3
+th,เทอร์รี่กินโยเกิร์ตวันละ 2 ถ้วย ดังนั้นใน 30 วัน เขาจะกินโยเกิร์ต 2 * 30 = 60 ถ้วย โยเกิร์ตลดราคา 4 ถ้วย $5.00 ดังนั้นสำหรับ 60 ถ้,"แก้คำถามต่อไปนี้: เทอร์รีกินโยเกิร์ตวันละ 2 ถ้วย ซึ่งกำลังลดราคาอยู่ที่โยเกิร์ต 4 ถ้วย $5.00 ในช่วง 30 วัน เขาใช้เงินซื้อโยเกิร์ตกี่ดอลลาร์
+การใช้เหตุผลต่อไปนี้ไม่สอดคล้องกัน:
+เทอร์รี่กินโยเกิร์ตวันละ 2 ถ้วย ดังนั้นใน 30 วัน เขาจะกินโยเกิร์ต 2 * 30 = 60 ถ้วย โยเกิร์ตลดราคา 4 ถ้วย $5.00 ดังนั้นสำหรับ 60 ถ้
+รอสักครู่ … 60/4 = 15 แพ็ค หากแต่ละแพ็คมีราคา $5.00 เทอร์รี่จะใช้จ่าย 15 * $5 = $75.00 สำหรับโยเกิร์ต คำตอบที่ถูกต้อง: คำตอบที่ถูกต้องคือ ข เนื่อ",75,❌ Incorrect (Expected: 75),✅ Correct after revision,0
+sw,"Terry hunywa maziwa 2 ya mtindi kwa siku, kwa hivyo kwa siku 30 atakunywa 2 * 30 = maziwa 60 ya mtindi. Kuna ofa ya maziwa 4 ya mtindi kwa $5.00, kwa hivyo kwa maziwa 60 ya mtindi, Terry atahitaji 60/4 = seti 15 za maziwa 4 ya mtindi. Kila seti ya maziwa 4 ya mt","Tatua maswali yafuatayo: Terry hukunywa maziwa 2 ya mtindi. Kwa sasa kuna ofa ya maziwa 4 ya mtindi kwa $5.00. Huwa anatumia pesa ngapi kununua maziwa ya mtindi kwa kipindi cha siku 30?
+Hoja ifuatayo ina hali ya kutofautiana:
+Terry hunywa maziwa 2 ya mtindi kwa siku, kwa hivyo kwa siku 30 atakunywa 2 * 30 = maziwa 60 ya mtindi. Kuna ofa ya maziwa 4 ya mtindi kwa $5.00, kwa hivyo kwa maziwa 60 ya mtindi, Terry atahitaji 60/4 = seti 15 za maziwa 4 ya mtindi. Kila seti ya maziwa 4 ya mt
+Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri",75,❌ Incorrect (Expected: 75),❌ Still Incorrect (Expected: 75),5
+bn,"টেরি দিনে 2টি ইয়োগার্ট খায়, তাই 30 দিনের মধ্যে, সে 2 * 30 = 60টি ইয়োগার্ট খাবে। 4টি ইয়োগার্ট $5.00-এর ছাড়যুক্ত ম��","নিম্নলিখিত প্রশ্নগুলি সমাধান করুন: টেরি দিনে 2টি ইয়োগার্ট খান। সম্প্রতি 4টি ইয়োগার্ট $5.00-এর ছাড়যুক্ত মূল্যে বিক্রি হচ্ছে। 30 দিনে তিনি ইয়োগার্টের জন্য কত ডলার ব্যয় করেন?
+নিম্নলিখিত যুক্তিটিতে একটি অসঙ্গতি রয়েছে:
+টেরি দিনে 2টি ইয়োগার্ট খায়, তাই 30 দিনের মধ্যে, সে 2 * 30 = 60টি ইয়োগার্ট খাবে। 4টি ইয়োগার্ট $5.00-এর ছাড়যুক্ত ম��
+অপেক্ষা করুন … 60টি ইয়োগার্ট প্রয়োজন হবে 60/4 = 15 প্যাক ইয়োগার্ট। যদি প্রতিটি প্যাকের দাম $5.00 হয়, তাহলে 15 প্যাকের দাম পড়বে 15*$5 = $75.",75,❌ Incorrect (Expected: 75),✅ Correct after revision,0
+te,"టెర్రీ ప్రతిరోజూ 2 యోగర్ట్‌లు తింటాడు, కాబట్టి 30 రోజుల్లో అతను 2*30=60 యోగర్ట్","కింది ప్రశ్నలను పరిష్కరించండి: టెర్రీ ప్రతిరోజూ 2 యోగర్ట్‌లు(పెరుగు) తింటాడు. అవి ప్రస్తుతం 4 యోగర్ట్‌లు $5.00కు అమ్మకానికి ఉన్నాయి. అతడు 30 రోజుల్లో యోగర్ట్‌పై ఎంత ఖర్చు పెడతాడు?
+కింది తార్కికంలో అస్థిరత ఉంది:
+టెర్రీ ప్రతిరోజూ 2 యోగర్ట్‌లు తింటాడు, కాబట్టి 30 రోజుల్లో అతను 2*30=60 యోగర్ట్
+ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి సమాధాన ఎంపికలు: (A) 30*5=150 (B) 60*5=300 (C) 30*4=120 (D) 60*4=240 (E) 60*5=300
+Answer:
+అంచెలంచెలుగా ",75,❌ Incorrect (Expected: 75),❌ Still Incorrect (Expected: 75),5

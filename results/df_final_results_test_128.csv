@@ -1,0 +1,24 @@
+language,original_response,revised_response,expected_answer,initial_status,new_status,wait_count
+en,"If Lily made 50 friends, then Amy made 50 + 20 = 70 friends.
+        Together, Lily and Amy have 50 + 70 = 120 friends.
+        The answer is 120.","If Lily made 50 friends, then Amy made 50 + 20 = 70 friends.
+        Together, Lily and Amy have 50 + 70 = 120 friends.
+        The answer is 120.",120,✅ Correct,✅ Correct,0
+es,"Si Lily hizo 50 amigos, Amy hizo 50 + 20 = 70 amigos. Juntas, Lily y Amy tienen 50 + 70 = 120 amigos. La respuesta es 120.","Si Lily hizo 50 amigos, Amy hizo 50 + 20 = 70 amigos. Juntas, Lily y Amy tienen 50 + 70 = 120 amigos. La respuesta es 120.",120,✅ Correct,✅ Correct,0
+fr,"Si Lily s'est fait 50 amis, alors Amy s'est fait 50 + 20 = 70 amis. Ensemble, Lily et Amy ont 50 + 70 = 120 amis. La réponse est 120.","Si Lily s'est fait 50 amis, alors Amy s'est fait 50 + 20 = 70 amis. Ensemble, Lily et Amy ont 50 + 70 = 120 amis. La réponse est 120.",120,✅ Correct,✅ Correct,0
+de,"Wenn Lily 50 Freunde fand, fand Amy 50 + 20 = 70 Freunde. Zusammen haben Lily und Amy 50 + 70 = 120 Freunde. Die Antwort ist 120.","Wenn Lily 50 Freunde fand, fand Amy 50 + 20 = 70 Freunde. Zusammen haben Lily und Amy 50 + 70 = 120 Freunde. Die Antwort ist 120.",120,✅ Correct,✅ Correct,0
+ru,"Если у Лили 50 друзей, а Эми на 20 друзей больше, чем у Лили, то у Эми 50 + 20 = 70 друзей. Общее количество друзей Лили и Эми вместе составляет 50 + 70 = 120 друзей. Ответ: 120.","Если у Лили 50 друзей, а Эми на 20 друзей больше, чем у Лили, то у Эми 50 + 20 = 70 друзей. Общее количество друзей Лили и Эми вместе составляет 50 + 70 = 120 друзей. Ответ: 120.",120,✅ Correct,✅ Correct,0
+zh,如果莉莉有 50 个朋友，那么艾米有 50 + 20 = 70 个朋友。莉莉和艾米总共有 50 + 70 = 120 个朋友。答案是120。,如果莉莉有 50 个朋友，那么艾米有 50 + 20 = 70 个朋友。莉莉和艾米总共有 50 + 70 = 120 个朋友。答案是120。,120,✅ Correct,✅ Correct,0
+ja,リリーが 50 人の友達を作った場合、エイミーは 50+20=70 人の友達を作りました。したがって、リリーとエイミーは合計 50+70=120 人の友達を作りました。答えは120です。,リリーが 50 人の友達を作った場合、エイミーは 50+20=70 人の友達を作りました。したがって、リリーとエイミーは合計 50+70=120 人の友達を作りました。答えは120です。,120,✅ Correct,✅ Correct,0
+th,หากลิลลีมีเพื่อน 50 คน และเอมีมีเพื่อนมากกว่าลิลลี 20 คน แสดงว่าเอมีมีเพื่อน 50 + 20 = 70 คน จำนวนเพื่อนทั้งหมดที่ลิลลีและเอมีมีร,"แก้คำถามต่อไปนี้: หลังจากย้ายมาเรียนที่โรงเรียนใหม่ เอมีก็มีเพื่อนใหม่มากกว่าลิลลี 20 คน หากลิลลีมีเพื่อน 50 คน ลิลลีและเอมีมีเพื่อนรวมกันทั้งสิ้นกี่คน
+การใช้เหตุผลต่อไปนี้ไม่สอดคล้องกัน:
+หากลิลลีมีเพื่อน 50 คน และเอมีมีเพื่อนมากกว่าลิลลี 20 คน แสดงว่าเอมีมีเพื่อน 50 + 20 = 70 คน จำนวนเพื่อนทั้งหมดที่ลิลลีและเอมีมีร
+รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักค",120,❌ Incorrect (Expected: 120),❌ Still Incorrect (Expected: 120),5
+sw,"Ikiwa Lily alipata marafiki 50, basi Amy alipata 50 + 20 = marafiki 70. Kwa pamoja, Lily na Amy wana 50 + 70 = marafiki 120. Jibu ni 120.","Ikiwa Lily alipata marafiki 50, basi Amy alipata 50 + 20 = marafiki 70. Kwa pamoja, Lily na Amy wana 50 + 70 = marafiki 120. Jibu ni 120.",120,✅ Correct,✅ Correct,0
+bn,"যদি লিলির 50 জন বন্ধু থাকে, তাহলে অ্যামির 50 + 20 = 70 বন্ধু আছে। লিলি এবং অ্যামির মোট বন্ধুর সংখ্যা হল 50 + 70 = 120।","যদি লিলির 50 জন বন্ধু থাকে, তাহলে অ্যামির 50 + 20 = 70 বন্ধু আছে। লিলি এবং অ্যামির মোট বন্ধুর সংখ্যা হল 50 + 70 = 120।",120,✅ Correct,✅ Correct,0
+te,"లీల్లీకి 50 మంది స్నేహితులు ఉంటే, అమీకి 50+20=70 మంది స్నేహితులు ఉన్నారు. అమీ మరి","కింది ప్రశ్నలను పరిష్కరించండి: కొత్త స్కూలుకు బదిలీ అయిన తరువాత, లీల్లీ కంటే అమీ 20 మంది ఎక్కువ స్నేహితులను సంపాదించింది. లిల్లీకి 50 మంది స్నేహితులు ఉంటే, అమీ మరియు లిల్లీలు ఇద్దరికి ఎంతమంది స్నేహితులున్నారు?
+కింది తార్కికంలో అస్థిరత ఉంది:
+లీల్లీకి 50 మంది స్నేహితులు ఉంటే, అమీకి 50+20=70 మంది స్నేహితులు ఉన్నారు. అమీ మరి
+ఆగండి … సమాధాన ఎంపికలు: (A) 150 (B) 140 (C) 130 (D) 120 (E) 110
+Answer:
+అంచెలంచెలుగా ఆలోచిద్దాం. లీల్లీకి 50",120,❌ Incorrect (Expected: 120),✅ Correct after revision,0

@@ -1,0 +1,35 @@
+language,original_response,revised_response,expected_answer,initial_status,new_status,wait_count
+en,"The number of rubies was 175 - 35 = 140.
+        The number of emeralds was 140 * 2 = 280.
+        The number of gems in the chest was 175 + 140 + 280 = 595.
+        The answer is 595.","The number of rubies was 175 - 35 = 140.
+        The number of emeralds was 140 * 2 = 280.
+        The number of gems in the chest was 175 + 140 + 280 = 595.
+        The answer is 595.",595,✅ Correct,✅ Correct,0
+es,"Había 175 diamantes. Había 35 rubíes menos que los diamantes, por lo que había 175 - 35 = 140 rubíes. Había el doble de esmeraldas que de rubíes, por lo que había 140 * 2 = 280 esmeraldas. En total, había 175 diamantes + 140 rubíes + 280 esmeraldas = 595 gemas en el cofre. La respuesta es 59","Había 175 diamantes. Había 35 rubíes menos que los diamantes, por lo que había 175 - 35 = 140 rubíes. Había el doble de esmeraldas que de rubíes, por lo que había 140 * 2 = 280 esmeraldas. En total, había 175 diamantes + 140 rubíes + 280 esmeraldas = 595 gemas en el cofre. La respuesta es 59",595,✅ Correct,✅ Correct,0
+fr,Le nombre de rubis était de 175 - 35 = 140. Le nombre d'émeraudes était de 140 * 2 = 280. Le nombre total de pierres précieuses était de 175 + 140 + 280 = 595. La réponse est 595.,Le nombre de rubis était de 175 - 35 = 140. Le nombre d'émeraudes était de 140 * 2 = 280. Le nombre total de pierres précieuses était de 175 + 140 + 280 = 595. La réponse est 595.,595,✅ Correct,✅ Correct,0
+de,Die Anzahl der Rubine betrug 175 - 35 = 140. Die Anzahl der Smaragde betrug 140 * 2 = 280. Die Gesamtzahl der Edelsteine betrug 175 + 140 + 280 = 595. Die Antwort lautet 595.,Die Anzahl der Rubine betrug 175 - 35 = 140. Die Anzahl der Smaragde betrug 140 * 2 = 280. Die Gesamtzahl der Edelsteine betrug 175 + 140 + 280 = 595. Die Antwort lautet 595.,595,✅ Correct,✅ Correct,0
+ru,"Было 175 алмазов. Рубиволокон было на 35 меньше, чем алмазов, поэтому рубиволокон было 175 - 35 = 140. Изумрудов было в два раза больше, чем рубиволокон, поэтому изумрудов получилось 140 * 2 = 280. Всего в сундуке было 175+140+280=595 драгоцен","Было 175 алмазов. Рубиволокон было на 35 меньше, чем алмазов, поэтому рубиволокон было 175 - 35 = 140. Изумрудов было в два раза больше, чем рубиволокон, поэтому изумрудов получилось 140 * 2 = 280. Всего в сундуке было 175+140+280=595 драгоцен",595,✅ Correct,✅ Correct,0
+zh,宝石数量为 175 颗。红宝石比钻石少 35 颗，即 175 - 35 = 140 颗红宝石。绿宝石的数量是红宝石数量的两倍，即 140 * 2 = 280 颗绿宝石。宝石总数为 175 + 140 + 280 = 595 颗宝石。答案是,宝石数量为 175 颗。红宝石比钻石少 35 颗，即 175 - 35 = 140 颗红宝石。绿宝石的数量是红宝石数量的两倍，即 140 * 2 = 280 颗绿宝石。宝石总数为 175 + 140 + 280 = 595 颗宝石。答案是,595,✅ Correct,✅ Correct,0
+ja,175 ダイヤモンドの 2 倍のエメラルドは、2*175 = 350 個のエメラルドです。 175 ダイヤモンドより 35 少ないルビーは、175-35 = 140 ルビーです。合計すると、175+350+140=665 個の宝石があります。答えは665です,"次の質問を解いてください: トレジャーハンターは、宝石が詰まった、埋葬された宝のタンスを見つけた。175のダイヤモンドと、それよりも35少ないルビー、ルビーの2倍の数のエメラルドがあった。タンスには全部でいくつの宝石があった？
+次の推論には矛盾があります:
+175 ダイヤモンドの 2 倍のエメラルドは、2*175 = 350 個のエメラルドです。 175 ダイヤモンドより 35 少ないルビーは、175-35 = 140 ルビーです。合計すると、175+350+140=665 個の宝石があります。答えは665です
+待ってください … 待ってください … 待ってください … 待ってください … 待ってください … 待ってください … 待ってください … 待ってください … 待ってください … 待ってください … 待ってください … 待ってください … 待ってください … 待ってください … 待ってください … 待ってください … 待ってください … 待ってください… 待ってください… 待",595,❌ Incorrect (Expected: 595),❌ Still Incorrect (Expected: 595),5
+th,ในหีบมีเพชร 175 เม็ด มีทับทิมน้อยกว่าเพชร 35 เม็ด จึงมี 175 - 35 = 140 ทับทิม มีมรกมากกว่าทับทิมถึงสองเท่า จึงมีมรก 140 * 2 = 280 ม,"แก้คำถามต่อไปนี้: นักล่าสมบัติพบหีบสมบัติที่เต็มไปด้วยอัญมณีฝังอยู่ ในหีบมีเพชร 175 เม็ด ทับทิมน้อยกว่าเพชร 35 เม็ด และมรกตมากกว่าทับทิมสองเท่า หีบใบนี้มีอัญมณีอยู่ทั้งหมดกี่เม็ด
+การใช้เหตุผลต่อไปนี้ไม่สอดคล้องกัน:
+ในหีบมีเพชร 175 เม็ด มีทับทิมน้อยกว่าเพชร 35 เม็ด จึงมี 175 - 35 = 140 ทับทิม มีมรกมากกว่าทับทิมถึงสองเท่า จึงมีมรก 140 * 2 = 280 ม
+รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักค",595,❌ Incorrect (Expected: 595),❌ Still Incorrect (Expected: 595),5
+sw,"Kulikuwa na almasi 175. Kulikuwa na rubi 35 chache kuliko almasi, kwa hivyo kulikuwa na 175 - 35 = 140 rubi. Kulikuwa na idadi ya zumaridi mara mbili kuliko idadi ya rubi, kwa hivyo kulikuwa na 140 * 2 = 280 za zamani. Kwa jumla, kulikuwa na almasi 175 +","Tatua maswali yafuatayo: Mwindaji wa hazina alipata hazina iliyozikwa ambayo ilikuwa imejaa na vito. Kulikuwa na almasi 175, rubi chache kuliko almasi kwa 35, na idadi ya zumaridi ilikuwa mara mbili zaidi ya idadi ya rubi. Kulikuwa na jumla ya vito vingapi katika hazina hiyo?
+Hoja ifuatayo ina hali ya kutofautiana:
+Kulikuwa na almasi 175. Kulikuwa na rubi 35 chache kuliko almasi, kwa hivyo kulikuwa na 175 - 35 = 140 rubi. Kulikuwa na idadi ya zumaridi mara mbili kuliko idadi ya rubi, kwa hivyo kulikuwa na 140 * 2 = 280 za zamani. Kwa jumla, kulikuwa na almasi 175 +
+Subiri … 140 + 280 = vito 595 kwenye hazina. Jibu Chaguo: (A) 595 (B) 495 (C) 592 (D) 590 (E) 585
+Answer:
+Hebu fikiria hatua kwa hatua. A 595 Jumla ya vito ni jumla ya almasi, rubi na kuweka, = 175 + 140 + 280 = ",595,❌ Incorrect (Expected: 595),✅ Correct after revision,0
+bn,"গুপ্তধন সন্ধানকারী 175টি হীরা খুঁজে পেয়েছেন। তিনি হীরের চেয়ে 35 কম রুবি খুঁজে পেয়েছেন, তাই তিনি 175 - 35 = 140","নিম্নলিখিত প্রশ্নগুলি সমাধান করুন: একজন গুপ্তধন সন্ধানকারী রত্নে ভরা একটি গুপ্তধনের সিন্ধুক খুঁজে পেয়েছিলেন। সেখানে 175টি হীরে, হীরের থেকে 35টি কম রুবি, ও রুবির দ্বিগুণ পান্না ছিল। সিন্ধুকে মোট কতগুলি রত্ন ছিল?
+নিম্নলিখিত যুক্তিটিতে একটি অসঙ্গতি রয়েছে:
+গুপ্তধন সন্ধানকারী 175টি হীরা খুঁজে পেয়েছেন। তিনি হীরের চেয়ে 35 কম রুবি খুঁজে পেয়েছেন, তাই তিনি 175 - 35 = 140
+অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … তিনি রুবির চেয়ে দ্বিগুণ পান্না খুঁজে পেয়েছেন, তাই তিনি 2 * 140 = 280 পান্না খুঁজে পেয়েছেন। গুপ্তধন সন্ধানকার",595,❌ Incorrect (Expected: 595),❌ Still Incorrect (Expected: 595),5
+te,"డైమండ్‌ల సంఖ్య 35 వజ్రాల సంఖ్య కంటే తక్కువగా ఉంటుంది, కాబట్టి డైమండ్‌ల సంఖ్","కింది ప్రశ్నలను పరిష్కరించండి: ఒక నిధి అన్వేషకుడు రత్నాలతో నిండిన ఒక పాతిపెట్టిన నిధి పెట్టెను కనుగొన్నాడు. 175 వజ్రాలు, వజ్రాల కంటే 35 తక్కువగా కెంపులు, కెంపుల కంటే రెట్టింపు సంఖ్యలో పచ్చలు ఉన్నాయి. పెట్టెలో ఎన్ని రత్నాలు ఉన్నాయి?
+కింది తార్కికంలో అస్థిరత ఉంది:
+డైమండ్‌ల సంఖ్య 35 వజ్రాల సంఖ్య కంటే తక్కువగా ఉంటుంది, కాబట్టి డైమండ్‌ల సంఖ్
+ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి సమాధాన ఎంపికలు: (A) 75 డైమండ్లు (B) 76 డైమండ్లు (C) 77 డైమండ్లు (D) 78 డైమండ్",595,❌ Incorrect (Expected: 595),❌ Still Incorrect (Expected: 595),5

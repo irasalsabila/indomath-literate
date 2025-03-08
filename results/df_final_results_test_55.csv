@@ -1,0 +1,57 @@
+language,original_response,revised_response,expected_answer,initial_status,new_status,wait_count
+en,"Patchy had 3 * 7 = 21 kittens.
+        Trixie had 12 kittens.
+        So in total there are 21 + 12 = 33 kittens.
+        Adding the original 7 kittens means there are 33 + 7 = 40 kittens.
+        The answer is 40.","Patchy had 3 * 7 = 21 kittens.
+        Trixie had 12 kittens.
+        So in total there are 21 + 12 = 33 kittens.
+        Adding the original 7 kittens means there are 33 + 7 = 40 kittens.
+        The answer is 40.",40,✅ Correct,✅ Correct,0
+es,Patchy tuvo 3 * 7 = 21 gatitos. Trixie tuvo 12 gatitos. Hay 21 + 12 = 33 gatitos. La respuesta es 33.,"Resuelve las siguientes preguntas: Las hermanas Doubtfire están conduciendo a su casa con 7 gatitos que adoptaron en el refugio de animales local cuando su madre las llama para avisarles que sus dos gatas domésticas acaban de tener gatitos. Les dice que Patchy, la primera gata, ha tenido tres veces la cantidad de gatitos adoptados, mientras que Trixie, la otra gata, ha tenido 12. ¿Cuántos gatitos tiene ahora la familia Doubtfire?
+El siguiente razonamiento tiene una inconsistencia:
+Patchy tuvo 3 * 7 = 21 gatitos. Trixie tuvo 12 gatitos. Hay 21 + 12 = 33 gatitos. La respuesta es 33.
+Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera …",40,❌ Incorrect (Expected: 40),❌ Still Incorrect (Expected: 40),5
+fr,"Le nombre de chatons adoptés par Patchy est de 3 * 7 = 21 chatons. Le nombre total de chatons est de 21 + 12 = 33 chatons. En ajoutant les chattes domestiques, le nombre total de chats est de 33 + 7 + 2 = 42 chats. La réponse est 42.","Résolvez les questions suivantes: Les sœurs Doubtfire quittent le refuge local pour animaux, avec dans leur voiture 7 chatons adoptés. Sur le chemin de retour, elles reçoivent un appel de leur mère qui les informe que leur deux chattes domestiques viennent d'avoir des chatons. Elle dit que Patchy, la première chatte, a eu trois fois le nombre de chatons adoptés, tandis que Trixie, l'autre, en a eu 12. Combien de chatons la famille Doubtfire a-t-elle maintenant ?
+Le raisonnement suivant présente une incohérence :
+Le nombre de chatons adoptés par Patchy est de 3 * 7 = 21 chatons. Le nombre total de chatons est de 21 + 12 = 33 chatons. En ajoutant les chattes domestiques, le nombre total de chats est de 33 + 7 + 2 = 42 chats. La réponse est 42.
+Attendez …. Oui, 42. Mais nous savons que la réponse à la question précédente est 41. Qu'est-ce qui est faux dans la logique ? Choix de réponses : (A) 41 (B) 42 (C) 38 (D) 34 (E) 40
+Answer:
+Réfléchissons étape par étape. 41. Dans le calcul, nous avons supprimé 2 chats lors de l'ajout des chats, ce qui peut",40,❌ Incorrect (Expected: 40),✅ Correct after revision,0
+de,Patchy hat 3 * 7 = 21 Kätzchen. Trixie hat 12 Kätzchen. Zusammen haben sie 21 + 12 = 33 Kätzchen. Zusammen mit den adoptierten Kätzchen haben sie jetzt 33 + 7 = 40 Kätzchen. Die Antwort ist 40.,Patchy hat 3 * 7 = 21 Kätzchen. Trixie hat 12 Kätzchen. Zusammen haben sie 21 + 12 = 33 Kätzchen. Zusammen mit den adoptierten Kätzchen haben sie jetzt 33 + 7 = 40 Kätzchen. Die Antwort ist 40.,40,✅ Correct,✅ Correct,0
+ru,"У семьи Даутфайр было 7 кошек. Пэтчи родила в 3 раза больше котят, чем было взято, поэтому она родила 3 * 7 = 21 котёнка. Трикси родила 12 котят. Итак, всего у семьи Даутфайр теперь 7 + 21 + 12 = 40 кошек. Ответ: 40.","У семьи Даутфайр было 7 кошек. Пэтчи родила в 3 раза больше котят, чем было взято, поэтому она родила 3 * 7 = 21 котёнка. Трикси родила 12 котят. Итак, всего у семьи Даутфайр теперь 7 + 21 + 12 = 40 кошек. Ответ: 40.",40,✅ Correct,✅ Correct,0
+zh,如果小补丁有 2 * 7 = 14 只小猫。这意味着小补丁和小猫一共有 14 + 7 = 21 只。特雷克西有 12 只小猫，这意味着小猫总数为 21 + 12 = 33 只。答案是 33。,"解答以下问题: 在 Doubtfire 姐妹开车载着 7 只从当地动物收容所收养的小猫回家的路上，她们的妈妈打电话来告诉她们说，她们的两只家猫刚生了小猫。她说小补丁（第一只猫）生的小猫数量是收养小猫数量的两倍，而特雷克西（第二只猫）生了 12 只。Doubtfire 一家现在有多少只小猫？
+以下推理存在不一致之处：
+如果小补丁有 2 * 7 = 14 只小猫。这意味着小补丁和小猫一共有 14 + 7 = 21 只。特雷克西有 12 只小猫，这意味着小猫总数为 21 + 12 = 33 只。答案是 33。
+等待 … 等待 … 等待 … 等待 … 等待 … 等待 … 答案是 33。
+Answer:
+让我们一步步思考。不。您之前的推理是不正确的。小补丁有 2 * 7 = 14 只小猫，但是在将其与另外 7 只小猫一起计算时，小猫总数为 14 + 7 = 21 只。特雷克西的 12 只小猫加上小补丁的小猫总数为 21 + 12 = ",40,❌ Incorrect (Expected: 40),❌ Still Incorrect (Expected: 40),5
+ja,ダウトファイア姉妹は、最初の猫のパッチーから 3 * 7 = 21 匹の子猫を持っていました。トリックスシーからの子猫の数は、12匹の子猫の数に加えて、合計21+12=33匹の子猫がいます。これを最初の 7 匹の子猫に加えると、ダウトファイア家には合計,"次の質問を解いてください: ダウトファイア姉妹は、母親が電話で彼女たちに、自宅の2匹の猫が子猫を生んだと伝える時、地元のシェルターから迎えた7匹の子猫をつれて、自宅へと運転中です。彼女は、最初の猫、パッチーが、迎えられた子猫の数の3倍の数の子猫を生んだと、また、別の猫トリクシーは、12匹の子猫を生んだと言います。ダウトファイア家には今何匹の子猫がいますか？
+次の推論には矛盾があります:
+ダウトファイア姉妹は、最初の猫のパッチーから 3 * 7 = 21 匹の子猫を持っていました。トリックスシーからの子猫の数は、12匹の子猫の数に加えて、合計21+12=33匹の子猫がいます。これを最初の 7 匹の子猫に加えると、ダウトファイア家には合計
+待ってください … 答えの選択肢: (A) 3 cats (B) 7 cats (C) 10 cats (D) 12 cats (E) 14 cats
+Answer:
+段階的に考えてみましょう。 33 + 7 = 40 匹の子猫がいます。しかし、ダウトファイアの家には現在 40 - 7 = 33 匹の子猫がいます。したがって、��",40,❌ Incorrect (Expected: 40),✅ Correct after revision,0
+th,ครอบครัวเด๊าท์ไฟร์มีลูกแมว 7 + 3 = 10 ตัว จากแพทชี่ จำนวนลูกแมวทั้งหมดคือ 3 * 10 = 30 ตัว จากทริกซี่ จำนวนลูกแมวทั้งหมดคือ 12 ตัว,"แก้คำถามต่อไปนี้: ระหว่างที่พี่น้องเด๊าท์ไฟร์กำลังขับรถกลับบ้านพร้อมลูกแมว 7 ตัวที่รับอุปการะมาจากศูนย์พักพิงสัตว์แถวบ้าน แม่ของพวกเธอโทรมาบอกว่าแมวที่บ้านสองตัวเพิ่งออกลูก แม่บอกว่าแมวตัวแรกที่ชื่อแพ็ทชี่ ออกลูกมาเป็นจำนวนสามเท่าของแมวที่รับอุปการะมา ส่วนแมวอีกตัวที่ชื่อทริกซี่ ออกลูกมา 12 ตัว ตอนนี้ ครอบครัวเด๊าท์ไฟร์มีลูกแมวทั้งหมดกี่ตัว
+การใช้เหตุผลต่อไปนี้ไม่สอดคล้องกัน:
+ครอบครัวเด๊าท์ไฟร์มีลูกแมว 7 + 3 = 10 ตัว จากแพทชี่ จำนวนลูกแมวทั้งหมดคือ 3 * 10 = 30 ตัว จากทริกซี่ จำนวนลูกแมวทั้งหมดคือ 12 ตัว
+รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักค",40,❌ Incorrect (Expected: 40),❌ Still Incorrect (Expected: 40),5
+sw,"Patchy ina watoto 6 kwa sababu 3 x 2 = 6 Kwa pamoja, Patchy na Trixy wana watoto 18 kwa sababu 6 + 12 = 18 Jibu ni 18.","Tatua maswali yafuatayo: Dada wa Doubtfire wanaendesha wakielekea nyumbani na watoto 7 wa paka waliochukua kutoka makao ya wanyama katika eneo lao kisha mama yao akawapigia simu kuwa paka wao wawili wa nyumba wamezaa watoto. Anasema kuwa Patchy, paka wa kwanza, ana watoto ambao idadi yao ni mara tatu ya watoto wa paka waliotwaa, huku Trixie, paka mwingine, ana watoto 12. Familia ya Doubtfire sasa ina watoto wangapi wa paka?
+Hoja ifuatayo ina hali ya kutofautiana:
+Patchy ina watoto 6 kwa sababu 3 x 2 = 6 Kwa pamoja, Patchy na Trixy wana watoto 18 kwa sababu 6 + 12 = 18 Jibu ni 18.
+Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri.",40,❌ Incorrect (Expected: 40),❌ Still Incorrect (Expected: 40),5
+bn,প্যাচির তিনগুণ বিড়ালছানা 3 * 12 = 36 বিড়ালছানা। প্যাচির বিড়ালছানা এবং অন্য বিড়ালছানার সাথে প্রথম বিড়ালের,"নিম্নলিখিত প্রশ্নগুলি সমাধান করুন: ডাউটফায়ার বোনেরা স্থানীয় পশু আশ্রয় থেকে 7টি বিড়ালছানা দত্তক নিয়ে যখন বাড়ি ফিরছিলেন তখন তাদের মা ফোন করে তাদেরকে জানান যে তাদের বাড়ির দুটি বিড়ালের সবেমাত্র বিড়ালছানা হয়েছে। তিনি বলেন যে দত্তক নেওয়া বিড়ালছানাগুলির থেকে, প্রথম বিড়াল প্যাচির বিড়ালছানার সংখ্যা তিনগুণ, যেখানে অন্য আরেকটি বিড়াল ট্রিক্সির বিড়ালছানার সংখ্যা 12টি। বর্তমানে ডাউটফায়ার পরিবারে কতগুলি বিড়ালছানা রয়েছে?
+নিম্নলিখিত যুক্তিটিতে একটি অসঙ্গতি রয়েছে:
+প্যাচির তিনগুণ বিড়ালছানা 3 * 12 = 36 বিড়ালছানা। প্যাচির বিড়ালছানা এবং অন্য বিড়ালছানার সাথে প্রথম বিড়ালের
+অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … প্রথম বিড়ালের 12 * 3 = 36 বিড়ালছানা রয়েছে। আপনি কি আমাকে বলতে পারেন কি অসঙ্গতি আছে? উত্তর পছন্দ: (A) 36 (B) 37 (C",40,❌ Incorrect (Expected: 40),❌ Still Incorrect (Expected: 40),5
+te,"ప్రశ్న: షాన్ వద్ద ఐదు బొమ్మలు ఉన్నాయి. అతడు క్రిస్టమస్ కొరకు తన అమ్మ మరియు నాన్నల నుంచి రెండేసి బొమ్మల చొప్పున పొందాడు. ఇప్పుడు అతడి వద్ద ఎన్ని బొమ్మలు ఉన్నాయి?
+Step-by-Step Answer: దశలవారీగా సమాధానం: అతడి వద్ద 5 బొమ్మలు ఉన్నాయి. అతడు అమ్మ దగ్గర నుంచి 2 పొందాడు, కాబట్టి ఆ తరువాత అతడి వద్ద 5+2=7 బొమ్మలున్నాయి. తరువాత తండ్రి వద్ద నుంచి అతడు మరో 2 పొందాడు. అందువల్ల మొత్తం మీద అతడి వద్ద 7+2=9 బొమ్మలున్నాయి. సమాధానం 9.బొమ్మలున్నాయి.
+
+
+ప్రశ్న: సర్వర్ రూమ్‌లో తొమ్మిది కంప్యూటర్‌లు ఉన్నాయి. సోమవారం నుంచి గురువారం వరకు ప్రతిరోజూ మరో ఐదు కంప్యూటర్‌లు ఇన్‌స్టాల్ చేయబడ్డాయి. సర్వర్ రూమ్‌లో ఇప్పుడు ఎన్ని కంప్యూటర్‌లు ఉన్నాయి?కంప్యూటర్‌లుకంప్యూటర్‌లు
+Step-by-Step Answer: దశలవారీగా సమాధానం: సోమవారం నుంచి గురువారం వరకు 4 రోజులున్నాయి. ప్రతిరోజూ 5 కంప్యూటర్‌లు జోడించబడ్డాయి. అంటే మొత్తం 4*5=20 కంప్యూటర్‌లు జోడించబడ్డాయి. ప్రారంభంలో 9 కంప్యూటర్‌లు ఉన్నాయి, అందువల్ల ఇప్పుడు అవి 9+20=29 కంప్యూటర్‌లు సమాధానం 29.
+
+
+        Question: డౌట్‌ఫైర్ సోదరీమణులు స్థానిక జంతు ఆశ్రయకేంద్రం నుంచి దత్తత తీసుకున్న 7 పిల్లి పిల్లలతో ఇంటికి డ్రైవింగ్ చేసుకుంటూ వెళుతున్నప్పుడు, వారి అమ్మ కాల్ చేసి, వారి ఇంటిలోని రెండు పిల్లులకు అప్పుడే పిల్లలు పుట్టినట్లుగా తెలియజేసింది. మొదటి పిల్లి, ప్యాచీకి దత్తత తీసుకున్న పిల్లి పిల్లల సంఖ్యకు మూడురెట్లు మరియు రెండో పిల్లి, ట్రిక్సికి 12 పిల్లలు ఉన్నాయని ఆమె చెప్పింది. ఇప్పుడు డౌట్‌ఫైర్ సోదరీమణులు మొత్తం ఎన్ని పిల్లులను కలిగి ఉన్నారు? దశలవారీగా సమాధానం: దశలవార�����","కింది ప్రశ్నలను పరిష్కరించండి: డౌట్‌ఫైర్ సోదరీమణులు స్థానిక జంతు ఆశ్రయకేంద్రం నుంచి దత్తత తీసుకున్న 7 పిల్లి పిల్లలతో ఇంటికి డ్రైవింగ్ చేసుకుంటూ వెళుతున్నప్పుడు, వారి అమ్మ కాల్ చేసి, వారి ఇంటిలోని రెండు పిల్లులకు అప్పుడే పిల్లలు పుట్టినట్లుగా తెలియజేసింది. మొదటి పిల్లి, ప్యాచీకి దత్తత తీసుకున్న పిల్లి పిల్లల సంఖ్యకు మూడురెట్లు మరియు రెండో పిల్లి, ట్రిక్సికి 12 పిల్లలు ఉన్నాయని ఆమె చెప్పింది. ఇప్పుడు డౌట్‌ఫైర్ కుటుంబంలో ఎన్ని పిల్లులు ఉన్నాయి?
+కింది తార్కికంలో అస్థిరత ఉంది:
+ప్రశ్న: షాన్ వద్ద ఐదు బొమ్మలు ఉన్నాయి. అతడు క్రిస్టమస్ కొరకు తన అమ్మ మరియు నాన్నల నుంచి రెండేసి బొమ్మల చొప్పున పొందాడు. ఇప్పుడు అతడి వద్ద ఎన్ని బొమ్మలు ఉన్నాయి? Step-by-Step Answer: దశలవారీగా సమాధానం: అతడి వద్ద 5 బొమ్మలు ఉన్నాయి. అతడు అమ్మ దగ్గర నుంచి 2 పొందాడు, కాబట్టి ఆ తరువాత అతడి వద్ద 5+2=7 బొమ్మలున్నాయి. తరువాత తండ్రి వద్ద నుంచి అతడు మరో 2 పొందాడు. అందువల్ల మొత్తం మీద అతడి వద్ద 7+2=9 బొమ్మలున్నాయి. సమాధానం 9.బొమ్మలున్నాయి. ప్రశ్న: సర్వర్ రూమ్‌లో తొమ్మిది కంప్యూటర్‌లు ఉన్నాయి. సోమవారం నుంచి గురువారం వరకు ప్రతిరోజూ మరో ఐదు కంప్యూటర్‌లు ఇన్‌స్టాల్ చేయబడ్డాయి. సర్వర్ రూమ్‌లో ఇప్పుడు ఎన్ని కంప్యూటర్‌లు ఉన్నాయి?కంప్యూటర్‌లుకంప్యూటర్‌లు Step-by-Step Answer: దశలవారీగా సమాధానం: సోమవారం నుంచి గురువారం వరకు 4 రోజులున్నాయి. ప్రతిరోజూ 5 కంప్యూటర్‌లు జోడించబడ్డాయి. అంటే మొత్తం 4*5=20 కంప్యూటర్‌లు జోడించబడ్డాయి. సర్వర్ రూమ్‌లో మొదట తొమ్మిది ఉంటే, ఇప్పుడు అక్కడ 9+20=29 కంప్యూటర్‌లు ఉన్నా�",40,❌ Incorrect (Expected: 40),❌ Still Incorrect (Expected: 40),5

@@ -1,0 +1,39 @@
+language,original_response,revised_response,expected_answer,initial_status,new_status,wait_count
+en,"Carmen spent 10 * 3 = 30 minutes solving crossword puzzles.
+        Carmen spent 5 * 8 = 40 minutes solving sudoku puzzles.
+        In total Carmen spent 30 + 40 = 70 minutes playing these games.
+        The answer is 70.","Carmen spent 10 * 3 = 30 minutes solving crossword puzzles.
+        Carmen spent 5 * 8 = 40 minutes solving sudoku puzzles.
+        In total Carmen spent 30 + 40 = 70 minutes playing these games.
+        The answer is 70.",70,✅ Correct,✅ Correct,0
+es,"Carmen dedicó 10 minutos a cada crucigrama, por lo que dedicó 10 x 3 = 30 minutos a los crucigramas. Carmen dedicó 5 minutos a cada sudoku, por lo que dedicó 5 x 8 = 40 minutos a los sudokus. En total, Carmen pasó 30 + 40 = 70 minutos en los juegos. La respuesta es 70.","Carmen dedicó 10 minutos a cada crucigrama, por lo que dedicó 10 x 3 = 30 minutos a los crucigramas. Carmen dedicó 5 minutos a cada sudoku, por lo que dedicó 5 x 8 = 40 minutos a los sudokus. En total, Carmen pasó 30 + 40 = 70 minutos en los juegos. La respuesta es 70.",70,✅ Correct,✅ Correct,0
+fr,"Carmen a résolu 3 grilles de mots croisés, ce qui lui a pris 3 x 10 = 30 minutes. Elle a également résolu 8 grilles de Sudoku, ce qui lui a pris 8 x 5 = 40 minutes. Au total, Carmen a passé 30 + 40 = 70 minutes à jouer à ces jeux. La réponse est 70.","Carmen a résolu 3 grilles de mots croisés, ce qui lui a pris 3 x 10 = 30 minutes. Elle a également résolu 8 grilles de Sudoku, ce qui lui a pris 8 x 5 = 40 minutes. Au total, Carmen a passé 30 + 40 = 70 minutes à jouer à ces jeux. La réponse est 70.",70,✅ Correct,✅ Correct,0
+de,"Carmen braucht 10 Minuten, um ein Kreuzworträtsel zu beenden, und sie hat 3 Kreuzworträtsel gelöst, also hat sie 10 x 3 = 30 Minuten mit Kreuzworträtseln verbracht. Carmen braucht 5 Minuten, um eine Sudoku-Aufgabe zu beenden, und sie hat 8 Sudoku-Aufgaben gelöst, also hat sie 5 x 8 = 40 Minuten mit Sudoku-Aufgaben verbracht. Insgesamt","Los die folgenden Fragen: Carmen braucht 10 Minuten, um ein Kreuzworträtsel zu beenden, und 5 Minuten, um eine Sudoku-Aufgabe zu beenden. Über das Wochenende löste sie 3 Kreuzworträtsel und 8 Sudoku-Aufgaben. Wie viel Zeit verbrachte sie mit dem Spielen dieser Spiele?
+Die folgende Argumentation enthält eine Inkonsistenz:
+Carmen braucht 10 Minuten, um ein Kreuzworträtsel zu beenden, und sie hat 3 Kreuzworträtsel gelöst, also hat sie 10 x 3 = 30 Minuten mit Kreuzworträtseln verbracht. Carmen braucht 5 Minuten, um eine Sudoku-Aufgabe zu beenden, und sie hat 8 Sudoku-Aufgaben gelöst, also hat sie 5 x 8 = 40 Minuten mit Sudoku-Aufgaben verbracht. Insgesamt
+Warte … Antwortmöglichkeiten: (A) 30 Minuten (B) 35 Minuten (C) 40 Minuten (D) 45 Minuten (E) 55 Minuten
+Answer:
+Denken wir Schritt für Schritt. Die Antwort lautet D. Carmen hat 30 Minuten mit Kreuzworträtseln und 40 Minuten mit Sudoku-Aufgaben verbracht, also insgesamt 30 + 40 = 70 Minuten. Sie hat 70 Min",70,❌ Incorrect (Expected: 70),✅ Correct after revision,0
+ru,Кармен потратила 10 минут на каждый кроссворд * 3 кроссворда = 30 минут на решение кроссвордов. Кармен потратила 5 минут на каждую головоломку * 8 головоломок = 40 минут на решение головоломок. Кармен потратила в общей сложности 30 + 40 = 70 минут на решение головоломок и кроссвордов. Ответ:,Кармен потратила 10 минут на каждый кроссворд * 3 кроссворда = 30 минут на решение кроссвордов. Кармен потратила 5 минут на каждую головоломку * 8 головоломок = 40 минут на решение головоломок. Кармен потратила в общей сложности 30 + 40 = 70 минут на решение головоломок и кроссвордов. Ответ:,70,✅ Correct,✅ Correct,0
+zh,卡门花了 10 分钟完成一个填字游戏，所以她花了 10 * 3 = 30 分钟完成 3 个填字游戏。卡门花了 5 分钟完成一个数独游戏，所以她花了 5 * 8 = 40 分钟完成 8 个数独游戏。因此，卡门总共花了 30 + 40 = 70 分钟玩这些游戏。答案是70。,卡门花了 10 分钟完成一个填字游戏，所以她花了 10 * 3 = 30 分钟完成 3 个填字游戏。卡门花了 5 分钟完成一个数独游戏，所以她花了 5 * 8 = 40 分钟完成 8 个数独游戏。因此，卡门总共花了 30 + 40 = 70 分钟玩这些游戏。答案是70。,70,✅ Correct,✅ Correct,0
+ja,ステップごとの答え：カルメンはクロスワードパズルを解くのに10分かかりました。彼女はクロスワードパズルを 3 つ解いたので、10*3 = 30 分をクロスワードパズルに費やしました。カルメンは数字のパズルを解くのに 5 分かかりました。彼女は数字,"次の質問を解いてください: カルメンはクロスワードパズルを解くのに10分、数独パズルを解くのに5分かかります。週末、クロスワードパズルを3つ、数独パズルを8つ行いました。彼女はどれほどの時間をこれらのパズルに費やしたでしょうか？
+次の推論には矛盾があります:
+ステップごとの答え：カルメンはクロスワードパズルを解くのに10分かかりました。彼女はクロスワードパズルを 3 つ解いたので、10*3 = 30 分をクロスワードパズルに費やしました。カルメンは数字のパズルを解くのに 5 分かかりました。彼女は数字
+待ってください … 彼女は 8 つの数字のパズルを解いたので、5*8 = 40 分を数字のパズルに費やしました。合計で、カルメンは 30 + 40 = 70 分をパズルに費やしました。答えの選択肢: (A) 70 (B) 75 (C) 80 (D) 85 (E) 90
+Answer",70,❌ Incorrect (Expected: 70),✅ Correct after revision,0
+th,คาร์เมนใช้เวลา 10 นาทีในการทำปริศนาอักษรไขว้ และเธอทำปริศนาอักษรไขว้ 3 ชิ้น ดังนั้นเธอจึงใช้เวลา 10 * 3 = 30 นาทีในการทำปริศนาอัก,"แก้คำถามต่อไปนี้: คาร์เมนใช้เวลา 10 นาทีในการทำปริศนาอักษรไขว้และใช้เวลา 5 นาทีในการทำปริศนาซูโดกุให้เสร็จ ในช่วงสุดสัปดาห์เธอไขปริศนาอักษรไขว้ได้ 3 ปริศนาและไขปริศนาซูโดกุได้ 8 ปริศนา เธอใช้เวลาเล่นเกมเหล่านี้ไปเท่าไหร่
+การใช้เหตุผลต่อไปนี้ไม่สอดคล้องกัน:
+คาร์เมนใช้เวลา 10 นาทีในการทำปริศนาอักษรไขว้ และเธอทำปริศนาอักษรไขว้ 3 ชิ้น ดังนั้นเธอจึงใช้เวลา 10 * 3 = 30 นาทีในการทำปริศนาอัก
+รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักค",70,❌ Incorrect (Expected: 70),❌ Still Incorrect (Expected: 70),5
+sw,"Carmen alitumia dakika 10 kwa kila fumbo la maneno panda na alikamilisha mafumbo 3, kwa hivyo alitumia dakika 10 * 3 = 30 kwenye mafumbo ya maneno panda. Carmen alitumia dakika 5 kwa kila fumbo la sudoku na alikamilisha mafumbo 8, kwa hivyo alitumia dakika 5 * 8 = 40 kwenye","Tatua maswali yafuatayo: Huwa inamchukua Carmen dakika 10 kukamilisha fumbo la maneno panda na dakika 5 kukamilisha fumbo la sudoku. Wikeni alitatua mafumbo 3 ya maneno panda na mafumbo 8 ya sudoku. Alitumia muda gani kwa jumla kucheza michezo hii?
+Hoja ifuatayo ina hali ya kutofautiana:
+Carmen alitumia dakika 10 kwa kila fumbo la maneno panda na alikamilisha mafumbo 3, kwa hivyo alitumia dakika 10 * 3 = 30 kwenye mafumbo ya maneno panda. Carmen alitumia dakika 5 kwa kila fumbo la sudoku na alikamilisha mafumbo 8, kwa hivyo alitumia dakika 5 * 8 = 40 kwenye
+Subiri … Jumla ya muda ambao Carmen alitumia kucheza michezo hii ni dakika 30 + dakika 40 = dakika 70. Jibu ni 70.",70,❌ Incorrect (Expected: 70),✅ Correct after revision,0
+bn,"কারমেন প্রতিটি শব্দছক সমাধান করতে 10 মিনিট ব্যয় করেছেন, তাই তিনি 3টি শব্দছক * 10 মিনিট/শব্দছক = 30 মিনিট শব্দছক সমা�","নিম্নলিখিত প্রশ্নগুলি সমাধান করুন: কারমেন একটি শব্দছক সমাধান করতে 10 মিনিট এবং একটি সুদোকু ধাঁধা সমাধান করতে 5 মিনিট সময় নেয়। সপ্তাহান্তে, সে 3টি শব্দছক এবং 8টি সুদোকু ধাঁধা সমাধান করেছে। এই খেলাগুলির জন্য সে কত সময় ব্যয় করেছিল?
+নিম্নলিখিত যুক্তিটিতে একটি অসঙ্গতি রয়েছে:
+কারমেন প্রতিটি শব্দছক সমাধান করতে 10 মিনিট ব্যয় করেছেন, তাই তিনি 3টি শব্দছক * 10 মিনিট/শব্দছক = 30 মিনিট শব্দছক সমা�
+অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অ",70,❌ Incorrect (Expected: 70),❌ Still Incorrect (Expected: 70),5
+te,కార్మెన్ ప్రతి పజిల్‌ను పూర్తి చేయడానికి 10 నిమిషాలు పట్టింది మరియు ఆమె 3 పజిల్,"కింది ప్రశ్నలను పరిష్కరించండి: ఒక క్రాస్‌వర్డ్ పజిల్ పూర్తి చేయడానికి కార్‌మెన్‌కు10 నిమిషాలు మరియు సుడోకు పజిల్ పూర్తి చేయడానికి 5 నిమిషాలు పడుతుంది. వారాంతంలో ఆమె 3 క్రాస్‌వర్డ్ పజిల్స్‌ని మరియు 8 సుడోకు పజిల్స్‌ని సాధించింది. ఆమె ఈ గేమ్‌లను ఆడటంలో ఎంత సమయం గడిపింది?
+కింది తార్కికంలో అస్థిరత ఉంది:
+కార్మెన్ ప్రతి పజిల్‌ను పూర్తి చేయడానికి 10 నిమిషాలు పట్టింది మరియు ఆమె 3 పజిల్
+ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండ",70,❌ Incorrect (Expected: 70),❌ Still Incorrect (Expected: 70),5

@@ -1,0 +1,45 @@
+language,original_response,revised_response,expected_answer,initial_status,new_status,wait_count
+en,"If Samantha is currently 31, then Raymond is 31 + 6 = 37 years old.
+        If Raymond had a son at the age of 23, then his son is currently 37 - 23 = 14 years old.
+        So, Raymond's son was born 14 years ago.
+        The answer is 14.
+Answer:
+Let's think step by step.
+Jason started with 20 lollipops, but now he has 12, so he gave Denny 2","If Samantha is currently 31, then Raymond is 31 + 6 = 37 years old.
+        If Raymond had a son at the age of 23, then his son is currently 37 - 23 = 14 years old.
+        So, Raymond's son was born 14 years ago.
+        The answer is 14.
+Answer:
+Let's think step by step.
+Jason started with 20 lollipops, but now he has 12, so he gave Denny 2",14,✅ Correct,✅ Correct,0
+es,"Si Samantha tiene actualmente 31 años, entonces Raymond tiene 31 + 6 = 37 años. Raymond tuvo un hijo a los 23 años, por lo que su hijo tiene actualmente 37 - 23 = 14 años. Por tanto, el hijo de Raymond nació hace 14 años. La respuesta es 14.","Si Samantha tiene actualmente 31 años, entonces Raymond tiene 31 + 6 = 37 años. Raymond tuvo un hijo a los 23 años, por lo que su hijo tiene actualmente 37 - 23 = 14 años. Por tanto, el hijo de Raymond nació hace 14 años. La respuesta es 14.",14,✅ Correct,✅ Correct,0
+fr,"Si Samantha a actuellement 31 ans, alors Raymond a 31 - 6 = 25 ans. Si Raymond a 25 ans et a un fils de 23 ans, alors l'âge du fils de Raymond est 25 - 23 = 2 ans. La réponse est 2.","Résolvez les questions suivantes: Raymond et Samantha sont cousins. Raymond est né 6 ans avant Samantha et a eu un fils à l'âge de 23 ans. Si Samantha est maintenant âgée de 31 ans, quel est l'âge du fils de Raymond ?
+Le raisonnement suivant présente une incohérence :
+Si Samantha a actuellement 31 ans, alors Raymond a 31 - 6 = 25 ans. Si Raymond a 25 ans et a un fils de 23 ans, alors l'âge du fils de Raymond est 25 - 23 = 2 ans. La réponse est 2.
+Attendez … Attendez … Attendez … Attendez … Attendez … Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez…",14,❌ Incorrect (Expected: 14),❌ Still Incorrect (Expected: 14),5
+de,"Wenn Samantha derzeit 31 Jahre alt ist, dann ist Raymond 31 + 6 = 37 Jahre alt. Raymond hat einen Sohn im Alter von 23 Jahren, also ist sein Sohn jetzt 37 - 23 = 14 Jahre alt. Daher wurde Raymonds Sohn vor 14 Jahren geboren. Die Antwort ist 14.","Wenn Samantha derzeit 31 Jahre alt ist, dann ist Raymond 31 + 6 = 37 Jahre alt. Raymond hat einen Sohn im Alter von 23 Jahren, also ist sein Sohn jetzt 37 - 23 = 14 Jahre alt. Daher wurde Raymonds Sohn vor 14 Jahren geboren. Die Antwort ist 14.",14,✅ Correct,✅ Correct,0
+ru,"Если Саманте сейчас 31 год, то Рэймонду 31 - 6 = 25 лет, когда Саманте родилась. Сейчас Рэймонду 25 + 23 = 48 лет. Следовательно, сын Рэймонда родился 48 лет назад. Ответ: 48.","Решите следующие вопросы: Рэймонд и Саманта — двоюродные брат и сестра. Рэймонд родился на 6 лет раньше Саманты. В 23 года у Рэймонда родился сын. Если сейчас Саманте 31, сколько лет назад родился сын Рэймонда?
+Следующее рассуждение имеет несоответствие:
+Если Саманте сейчас 31 год, то Рэймонду 31 - 6 = 25 лет, когда Саманте родилась. Сейчас Рэймонду 25 + 23 = 48 лет. Следовательно, сын Рэймонда родился 48 лет назад. Ответ: 48.
+Подождите … Подождите … Подождите … Подождите … Подождите … Подождите … Подождите … Подождите … Подождите … Подождите … Подождите … Подождите … Подождите … Подождите … Подождите … Подождите … Подождите … Подождите … Подождите … Подождите … Подождите … Подождите … Подождите … Подождите … Подождите … Подождите … Подо",14,❌ Incorrect (Expected: 14),❌ Still Incorrect (Expected: 14),5
+zh,如果 Samantha 目前是 31 岁，那么 Remy 是 31 + 6 = 37 岁。雷蒙德的儿子出生时，雷蒙德已经37岁了。所以雷蒙德的儿子出生时是 37 - 23 = 14 岁。答案是14。,如果 Samantha 目前是 31 岁，那么 Remy 是 31 + 6 = 37 岁。雷蒙德的儿子出生时，雷蒙德已经37岁了。所以雷蒙德的儿子出生时是 37 - 23 = 14 岁。答案是14。,14,✅ Correct,✅ Correct,0
+ja,レイモンドの息子が生まれたとき、サマンサは 31-6=25 歳でした。 したがって、レイモンドの息子が生まれたとき、レイモンドは 23-25=-2 歳でした。 答えは 2 です。,"次の質問を解いてください: レイモンドとサマンサはいとこ同士です。レイモンドはサマンサより6年間早く生まれました。レイモンドには23歳の時に息子ができました。サマンサが今31歳だとしたら、レイモンドの息子が生まれたのは何年前のことですか？
+次の推論には矛盾があります:
+レイモンドの息子が生まれたとき、サマンサは 31-6=25 歳でした。 したがって、レイモンドの息子が生まれたとき、レイモンドは 23-25=-2 歳でした。 答えは 2 です。
+待ってください … 待ってください … 待ってください … 待ってください … 待ってください … 待ってください。答えは 2 です。",14,❌ Incorrect (Expected: 14),❌ Still Incorrect (Expected: 14),5
+th,ถ้าตอนนี้ซาแมนธาอายุ 31 ปี เมื่อเธอเกิด เรย์มอนด์มีอายุ 31 - 6 = 25 ปี ถ้าเรย์มอนด์มีลูกชายเมื่ออายุ 23 ปี ลูกชายของเขาเกิดเมื่อเ,"แก้คำถามต่อไปนี้: เรย์มอนด์และซาแมนธาเป็นลูกพี่ลูกน้องกัน เรย์มอนด์เกิดก่อนซาแมนธา 6 ปี เรย์มอนด์มีลูกชายเมื่ออายุ 23 ปี ถ้าตอนนี้ซาแมนธาอายุ 31 ปี แล้วลูกชายของเรย์มอนด์เกิดมาเมื่อกี่ปีที่แล้ว
+การใช้เหตุผลต่อไปนี้ไม่สอดคล้องกัน:
+ถ้าตอนนี้ซาแมนธาอายุ 31 ปี เมื่อเธอเกิด เรย์มอนด์มีอายุ 31 - 6 = 25 ปี ถ้าเรย์มอนด์มีลูกชายเมื่ออายุ 23 ปี ลูกชายของเขาเกิดเมื่อเ
+รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักค",14,❌ Incorrect (Expected: 14),❌ Still Incorrect (Expected: 14),5
+sw,"Ikiwa Samantha kwa sasa ana umri wa miaka 31, basi Raymond ana miaka 31 - 6 = 25. Ikiwa Raymond ana umri wa miaka 25 na alipata mwana akiwa na umri wa miaka 23, basi mwana wa Raymond kwa sasa ana miaka 25 - 23 = 2. Kwa hivyo, mwana wa Raymond alizaliwa miaka 2 iliyopita. Jibu ni","Tatua maswali yafuatayo: Raymond na Samantha ni binamu. Raymond alizaliwa miaka 6 kabla ya Samantha. Raymond alipata mwana akiwa na umri wa miaka 23. Iwapo Samantha sasa ana umri wa miaka 31, mwana wa Raymond alizaliwa miaka mingapi iliyopita?
+Hoja ifuatayo ina hali ya kutofautiana:
+Ikiwa Samantha kwa sasa ana umri wa miaka 31, basi Raymond ana miaka 31 - 6 = 25. Ikiwa Raymond ana umri wa miaka 25 na alipata mwana akiwa na umri wa miaka 23, basi mwana wa Raymond kwa sasa ana miaka 25 - 23 = 2. Kwa hivyo, mwana wa Raymond alizaliwa miaka 2 iliyopita. Jibu ni
+Subiri … Subiri … Subiri … Subiri … Subiri … Jibu ni 2.",14,❌ Incorrect (Expected: 14),❌ Still Incorrect (Expected: 14),5
+bn,"যদি সামান্থার বয়স বর্তমানে 31 বছর হয়, তাহলে রেমণ্ডের বয়স 31 - 6 = 25 বছর হওয়ার সময় তার ছেলের জন্ম হয়েছিল। রেম","নিম্নলিখিত প্রশ্নগুলি সমাধান করুন: রেমণ্ড ও সামান্থা একে অপরের তুতো-ভাইবোন। রেমণ্ড সামান্থার থেকে 6 বছর আগে জন্মেছিলেন। 23 বছর বয়সে রেমণ্ডের একটি ছেলে হয়েছিল। বর্তমানে সামান্থার বয়স যদি 31 বছর হয়, তাহলে রেমণ্ডের পুত্র কত বছর আগে জন্মেছিল?
+নিম্নলিখিত যুক্তিটিতে একটি অসঙ্গতি রয়েছে:
+যদি সামান্থার বয়স বর্তমানে 31 বছর হয়, তাহলে রেমণ্ডের বয়স 31 - 6 = 25 বছর হওয়ার সময় তার ছেলের জন্ম হয়েছিল। রেম
+অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অ",14,❌ Incorrect (Expected: 14),❌ Still Incorrect (Expected: 14),5
+te,ప్రస్తుతం రేమండ్ వయస్సు 23 సంవత్సరాలు మరియు సమంతా ప్రస్తుతం 31 సంవత్సరాలు. అంటే వారి,"కింది ప్రశ్నలను పరిష్కరించండి: రేమండ్ మరియు సమంతాలు కజిన్‌లు. సమంత కంటే 6 సంవత్సరాల ముందు రేమండ్ పుట్టాడు. రేమండ్‌కు 23 సంవత్సరాల కుమారుడు ఉన్నాడు. ఇప్పుడు సమంతకు 31 అయితే, ఎన్ని సంవత్సరాల క్రితం రేమండ్ కొడుకు పుట్టాడు?
+కింది తార్కికంలో అస్థిరత ఉంది:
+ప్రస్తుతం రేమండ్ వయస్సు 23 సంవత్సరాలు మరియు సమంతా ప్రస్తుతం 31 సంవత్సరాలు. అంటే వారి
+ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండ",14,❌ Incorrect (Expected: 14),❌ Still Incorrect (Expected: 14),5

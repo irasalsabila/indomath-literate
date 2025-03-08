@@ -1,0 +1,36 @@
+language,original_response,revised_response,expected_answer,initial_status,new_status,wait_count
+en,"To make 1 Spanish flan, Sandra needs 3 eggs.
+        To make 15 Spanish flans, Sandra needs 3 x 15 = 45 eggs.
+        Sandra's neighbor gives her 9 eggs every time.
+        So, Sandra needs to babysit for 45 / 9 = 5 times.
+The answer is 5.","To make 1 Spanish flan, Sandra needs 3 eggs.
+        To make 15 Spanish flans, Sandra needs 3 x 15 = 45 eggs.
+        Sandra's neighbor gives her 9 eggs every time.
+        So, Sandra needs to babysit for 45 / 9 = 5 times.
+The answer is 5.",5,✅ Correct,✅ Correct,0
+es,"Para hacer 15 flanes, Sandra necesita 15 * 3 = 45 huevos. El vecino de Sandra le da una canasta con 9 huevos cada vez. Por lo tanto, Sandra necesita cuidar a la niña 45/9 = 5 veces. La respuesta es 5.","Para hacer 15 flanes, Sandra necesita 15 * 3 = 45 huevos. El vecino de Sandra le da una canasta con 9 huevos cada vez. Por lo tanto, Sandra necesita cuidar a la niña 45/9 = 5 veces. La respuesta es 5.",5,✅ Correct,✅ Correct,0
+fr,"Pour faire 1 gâteau à la crème, Sandra a besoin de 3 œufs. Si elle doit faire 15 gâteaux à la crème, elle aura besoin de 15 x 3 = 45 œufs. La voisine de Sandra lui donne 9 œufs à chaque fois qu'elle garde sa fille. Pour obtenir 45 œufs, Sandra doit garder sa fille pendant 45/9 = 5 fois. La réponse est 5.","Pour faire 1 gâteau à la crème, Sandra a besoin de 3 œufs. Si elle doit faire 15 gâteaux à la crème, elle aura besoin de 15 x 3 = 45 œufs. La voisine de Sandra lui donne 9 œufs à chaque fois qu'elle garde sa fille. Pour obtenir 45 œufs, Sandra doit garder sa fille pendant 45/9 = 5 fois. La réponse est 5.",5,✅ Correct,✅ Correct,0
+de,"Um einen Kuchen zu backen, braucht Sandra 3 Eier. Um 15 Kuchen zu backen, braucht sie 3 x 15 = 45 Eier. Sandra hat 9 Eier. Um 45 Eier zu haben, muss sie 45 - 9 = 36 weitere Eier bekommen. Jedes Mal, wenn sie babysittet, erhält sie 9 Eier. Um 36 Eier zu bekommen, muss sie 36 / 9 = 4 Mal babysitten","Los die folgenden Fragen: Sandras Nachbar gibt ihr einen Korb mit 9 Eiern, immer wenn sie seine Tochter hütet. Um einen spanischen Karamellpudding zu machen, braucht sie 3 Eier. Wenn Sandra beauftragt wurde, 15 spanische Karamellpuddings für die Spendensammlung ihrer Schule zu machen, wie oft muss Sandra dann babysitten?
+Die folgende Argumentation enthält eine Inkonsistenz:
+Um einen Kuchen zu backen, braucht Sandra 3 Eier. Um 15 Kuchen zu backen, braucht sie 3 x 15 = 45 Eier. Sandra hat 9 Eier. Um 45 Eier zu haben, muss sie 45 - 9 = 36 weitere Eier bekommen. Jedes Mal, wenn sie babysittet, erhält sie 9 Eier. Um 36 Eier zu bekommen, muss sie 36 / 9 = 4 Mal babysitten
+Warte … Antwortmöglichkeiten: (A) 1 (B) 2 (C) 3 (D) 4 (E) 5
+Answer:
+Denken wir Schritt für Schritt. Lösung: Die Argumentation ist korrekt. Um 15 Kuchen zu backen, braucht Sandra 45 Eier. Sie hat bereits 9 Eier. 45 - 9 = 36 Eier, die benötigt werden. Jedes Mal, wenn sie babysittet, bekommt sie 9 Eier.",5,❌ Incorrect (Expected: 5),✅ Correct after revision,0
+ru,"Чтобы приготовить 1 испанский флан, Сандре нужно 3 яйца. Чтобы приготовить 15 испанских фланов, Сандре нужно 15 * 3 = 45 яиц. Сандра получает 9 яиц каждый раз, когда сидит с ребенком. Чтобы получить 45 яиц, Сандре нужно сидеть с ребенком 45/9 = 5 раз","Чтобы приготовить 1 испанский флан, Сандре нужно 3 яйца. Чтобы приготовить 15 испанских фланов, Сандре нужно 15 * 3 = 45 яиц. Сандра получает 9 яиц каждый раз, когда сидит с ребенком. Чтобы получить 45 яиц, Сандре нужно сидеть с ребенком 45/9 = 5 раз",5,✅ Correct,✅ Correct,0
+zh,为了制作 1 个西班牙果馅饼，Sandra 需要 3 个鸡蛋。为了制作 15 个西班牙果馅饼，Sandra 将需要 15 * 3 = 45 个鸡蛋。由于 Sandra 每次保姆都会收到 9 个鸡蛋，因此她需要保姆 45 / 9 = 5 次。答,为了制作 1 个西班牙果馅饼，Sandra 需要 3 个鸡蛋。为了制作 15 个西班牙果馅饼，Sandra 将需要 15 * 3 = 45 个鸡蛋。由于 Sandra 每次保姆都会收到 9 个鸡蛋，因此她需要保姆 45 / 9 = 5 次。答,5,✅ Correct,✅ Correct,0
+ja,ステップごとの答え：15個のスペイン風フランを作るには、サンドラは15*3=45個の卵が必要になります。近所の人は、彼らの娘の面倒を見るたびに、彼女に 9 個の卵が入ったかごを与えます。したがって、サンドラは 45/9 = 5 回の面倒を,ステップごとの答え：15個のスペイン風フランを作るには、サンドラは15*3=45個の卵が必要になります。近所の人は、彼らの娘の面倒を見るたびに、彼女に 9 個の卵が入ったかごを与えます。したがって、サンドラは 45/9 = 5 回の面倒を,5,✅ Correct,✅ Correct,0
+th,แซนดราต้องการไข่ 3 ฟองเพื่อทำขนมฟลานแบบสเปน 1 ชิ้น และเธอต้องทำขนมฟลานแบบสเปน 15 ชิ้น ดังนั้นเธอจึงต้องมีไข่ทั้งหมด 3 * 15 = 45 ฟ,"แก้คำถามต่อไปนี้: เพื่อนบ้านของแซนดราจะมอบไข่ให้เธอหนึ่งตะกร้าซึ่งภายในมีไข่อยู่ 9 ฟองทุกครั้งที่เธอช่วยดูแลลูกสาวให้ แซนดราต้องใช้ไข่ 3 ฟองเพื่อทำขนมฟลานแบบสเปน หากแซนดราได้รับมอบหมายให้ทำขนมฟลานแบบสเปน 15 ชิ้นสำหรับงานการกุศลของโรงเรียน แซนดราจะต้องช่วยดูแลลูกสาวให้เพื่อนบ้านกี่ครั้ง
+การใช้เหตุผลต่อไปนี้ไม่สอดคล้องกัน:
+แซนดราต้องการไข่ 3 ฟองเพื่อทำขนมฟลานแบบสเปน 1 ชิ้น และเธอต้องทำขนมฟลานแบบสเปน 15 ชิ้น ดังนั้นเธอจึงต้องมีไข่ทั้งหมด 3 * 15 = 45 ฟ
+รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักค",5,❌ Incorrect (Expected: 5),❌ Still Incorrect (Expected: 5),5
+sw,"Ili kutengeneza keki 1, unahitaji mayai 3. Ili kutengeneza keki 15, utahitaji mayai 3 * 15 = mayai 45. Ikiwa ana mayai 9 kwa kila kikapu, atakuwa na mayai 45 / mayai 9 kwa kila kikapu = vikapu 5. Jibu ni 5.","Ili kutengeneza keki 1, unahitaji mayai 3. Ili kutengeneza keki 15, utahitaji mayai 3 * 15 = mayai 45. Ikiwa ana mayai 9 kwa kila kikapu, atakuwa na mayai 45 / mayai 9 kwa kila kikapu = vikapu 5. Jibu ni 5.",5,✅ Correct,✅ Correct,0
+bn,"একটি স্প্যানিশ ফ্ল্যান তৈরি করতে, স্যান্ড্রার 3টি ডিমের প্রয়োজন। 15টি স্প্যানিশ ফ্ল্যান তৈরি করতে, স্যান্ড্রার 3 * 15 =","নিম্নলিখিত প্রশ্নগুলি সমাধান করুন: স্যান্ড্রার প্রতিবেশী তাঁদের মেয়েকে দেখাশোনা করার জন্য তাঁকে প্রত্যেকবার 9টি ডিমের একটি ঝুড়ি দেন। একটি স্প্যানিশ ফ্ল্যান বানানোর জন্য, তাঁর 3টি ডিমের প্রয়োজন হয়। তাঁর বিদ্যালয়ের চাঁদা সংগ্রহ করার জন্য স্যান্ড্রাকে যদি 15টি স্প্যানিশ ফ্ল্যান বানানোর দায়িত্ব দেওয়া হয়, তাহলে স্যান্ড্রাকে কতবার বাচ্চার দেখাশোনার কাজ করতে হবে?
+নিম্নলিখিত যুক্তিটিতে একটি অসঙ্গতি রয়েছে:
+একটি স্প্যানিশ ফ্ল্যান তৈরি করতে, স্যান্ড্রার 3টি ডিমের প্রয়োজন। 15টি স্প্যানিশ ফ্ল্যান তৈরি করতে, স্যান্ড্রার 3 * 15 =
+অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন। উত্তর পছন্দ: (A) 45 (B) 3 (C) 15 (D) 9 (E) 7
+Answer:
+আসুন ধা",5,❌ Incorrect (Expected: 5),❌ Still Incorrect (Expected: 5),5
+te,శాండ్రా ఒక స్పానిష్ ఫ్లాన్ చేయడానికి అవసరమైన గుడ్ల సంఖ్యను మొదట కనుగొనండి,"కింది ప్రశ్నలను పరిష్కరించండి: తమ కుమార్తెను బేబీ సిట్టింగ్ చేసినప్పుడల్లా శాండ్రాకు వారి పొరుగింటి వారు 9 గుడ్లు ఉండే బాస్కెట్‌ని ఇస్తారు. స్పానిష్ ఫ్లాన్ తయారు చేయడానికి, ఆమెకు 3 గుడ్లు కావాలి. తన స్కూలు ఫండ్ రైజర్ కొరకు 15 స్పానిష్ ఫ్లాన్‌లను తయారు చేసే పనిని శాండ్రాకు అప్పగిస్తే, శాండా ఎన్నిసార్లు బేబీసిట్టింగ్ చేయాలి?
+కింది తార్కికంలో అస్థిరత ఉంది:
+శాండ్రా ఒక స్పానిష్ ఫ్లాన్ చేయడానికి అవసరమైన గుడ్ల సంఖ్యను మొదట కనుగొనండి
+ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండ",5,❌ Incorrect (Expected: 5),❌ Still Incorrect (Expected: 5),5

@@ -1,0 +1,30 @@
+language,original_response,revised_response,expected_answer,initial_status,new_status,wait_count
+en,"If Suzy's iPhone is 1 year old, then Ben's iPhone is 2 * 1 = 2 years old.
+        And if Ben's iPhone is 2 years old, then Brandon's iPhone is 4 * 2 = 8 years old.
+        So, Brandon's iPhone is 8 years old.
+The answer is 8.","If Suzy's iPhone is 1 year old, then Ben's iPhone is 2 * 1 = 2 years old.
+        And if Ben's iPhone is 2 years old, then Brandon's iPhone is 4 * 2 = 8 years old.
+        So, Brandon's iPhone is 8 years old.
+The answer is 8.",8,✅ Correct,✅ Correct,0
+es,"Si el iPhone de Suzy tiene 1 año, entonces el iPhone de Ben tiene 2 * 1 = 2 años. Y si el iPhone de Ben tiene 2 años, entonces el iPhone de Brandon tiene 4 * 2 = 8 años. Entonces, el iPhone de Brandon tiene 8 años. La respuesta es 8.","Si el iPhone de Suzy tiene 1 año, entonces el iPhone de Ben tiene 2 * 1 = 2 años. Y si el iPhone de Ben tiene 2 años, entonces el iPhone de Brandon tiene 4 * 2 = 8 años. Entonces, el iPhone de Brandon tiene 8 años. La respuesta es 8.",8,✅ Correct,✅ Correct,0
+fr,"Si l'iPhone de Suzie a 1 an, alors l'iPhone de Ben a 2 * 1 = 2 ans. Et si l'iPhone de Ben a 2 ans, alors l'iPhone de Brandon a 4 * 2 = 8 ans. Ainsi, l'iPhone de Brandon a 8 ans. La réponse est 8.","Si l'iPhone de Suzie a 1 an, alors l'iPhone de Ben a 2 * 1 = 2 ans. Et si l'iPhone de Ben a 2 ans, alors l'iPhone de Brandon a 4 * 2 = 8 ans. Ainsi, l'iPhone de Brandon a 8 ans. La réponse est 8.",8,✅ Correct,✅ Correct,0
+de,"Wenn Suzys iPhone 1 Jahr alt ist, dann ist Bens iPhone 2 * 1 = 2 Jahre alt. Und wenn Bens iPhone 2 Jahre alt ist, dann ist Brandons iPhone 4 * 2 = 8 Jahre alt. Daher ist Brandons iPhone 8 Jahre alt. Die Antwort ist 8.","Wenn Suzys iPhone 1 Jahr alt ist, dann ist Bens iPhone 2 * 1 = 2 Jahre alt. Und wenn Bens iPhone 2 Jahre alt ist, dann ist Brandons iPhone 4 * 2 = 8 Jahre alt. Daher ist Brandons iPhone 8 Jahre alt. Die Antwort ist 8.",8,✅ Correct,✅ Correct,0
+ru,"Если iPhone Сьюзи 1 год, то iPhone Бену 2 * 1 = 2 года. А если iPhone Бенна на 2 года старше, чем iPhone Брендона, то iPhone Брендона 4 * 2 = 8 лет. Ответ: 8.","Если iPhone Сьюзи 1 год, то iPhone Бену 2 * 1 = 2 года. А если iPhone Бенна на 2 года старше, чем iPhone Брендона, то iPhone Брендона 4 * 2 = 8 лет. Ответ: 8.",8,✅ Correct,✅ Correct,0
+zh,如果 Sue 的 iPhone 使用了 1 年，那么 Ben 的 iPhone 使用了 2 * 1 = 2 年。由于布兰登的 iPhone 比本的 iPhone 旧 3 倍，因此布兰登的 iPhone 已使用 3 * 2 = 6 年。答案是6。,"解答以下问题: 布兰登的 iPhone 手机比本的 iPhone 手机旧三倍。本的 iPhone 手机比 苏茜的 iPhone 手机旧两倍。如果苏茜的 iPhone 手机使用了 1 年，则 布兰登的 iPhone 手机有多旧？
+以下推理存在不一致之处：
+如果 Sue 的 iPhone 使用了 1 年，那么 Ben 的 iPhone 使用了 2 * 1 = 2 年。由于布兰登的 iPhone 比本的 iPhone 旧 3 倍，因此布兰登的 iPhone 已使用 3 * 2 = 6 年。答案是6。
+等待 … 等待 … 等待 … 等待 … 等待 … 答案是6。",8,❌ Incorrect (Expected: 8),❌ Still Incorrect (Expected: 8),5
+ja,答えを見つけるには、スージーのiPhoneの年齢を知る必要があります。これは、ベンのiPhoneの年齢を知るために2倍にします。そして、ブランドンのiPhoneの年齢を知るために、ベンのiPhoneの年齢を 4 倍します。スージーのiPhoneは1年目なので、ベンのiPhoneは1*2=,"次の質問を解いてください: ブランドンのiPhoneはベンのiPhoneの4倍古いです。ベンのiPhoneはスージーのiPhoneよりも2倍古いです。スージーのiPhoneが利用して1年目なら、ブランドンのiPhoneは何年目ですか？
+次の推論には矛盾があります:
+答えを見つけるには、スージーのiPhoneの年齢を知る必要があります。これは、ベンのiPhoneの年齢を知るために2倍にします。そして、ブランドンのiPhoneの年齢を知るために、ベンのiPhoneの年齢を 4 倍します。スージーのiPhoneは1年目なので、ベンのiPhoneは1*2=
+待ってください … 待ってください … ベンのiPhoneは2年目なので、ブランドンのiPhoneは2*4=8年目になります。答えは8です。",8,❌ Incorrect (Expected: 8),✅ Correct after revision,1
+th,หาก iPhone ของซูซี่มีอายุ 1 ปี แสดงว่า iPhone ของเบ็นมีอายุ 2 * 1 = 2 ปี และถ้า iPhone ของเบ็นมีอายุ 2 ปี แสดงว่า iPhone ของแบรนดอนมีอายุ 4 * 2 = 8 ปี ดังน,หาก iPhone ของซูซี่มีอายุ 1 ปี แสดงว่า iPhone ของเบ็นมีอายุ 2 * 1 = 2 ปี และถ้า iPhone ของเบ็นมีอายุ 2 ปี แสดงว่า iPhone ของแบรนดอนมีอายุ 4 * 2 = 8 ปี ดังน,8,✅ Correct,✅ Correct,0
+sw,"Ikiwa iPhone ya Suzy imekaa mwaka 1, basi iPhone ya Ben imekaa kwa 1 * 2 = miaka 2. Na ikiwa iPhone ya Ben imekaa kwa miaka 2, basi iPhone ya Brandon imekaa kwa 2 * 4 = miaka 8. Kwa hivyo, iPhone ya Brandon imekaa kwa miaka 8. Jibu ni 8.","Ikiwa iPhone ya Suzy imekaa mwaka 1, basi iPhone ya Ben imekaa kwa 1 * 2 = miaka 2. Na ikiwa iPhone ya Ben imekaa kwa miaka 2, basi iPhone ya Brandon imekaa kwa 2 * 4 = miaka 8. Kwa hivyo, iPhone ya Brandon imekaa kwa miaka 8. Jibu ni 8.",8,✅ Correct,✅ Correct,0
+bn,"যদি সুজির আইফোন 1 বছর পুরানো হয়, তাহলে বেনের আইফোন 2 * 1 = 2 বছর পুরানো। এবং যদি বেনের আইফোন 2 বছর পুরানো হয়, তাহলে","নিম্নলিখিত প্রশ্নগুলি সমাধান করুন: ব্র্যান্ডনের iPhone বেনের iPhone-এর থেকে চারগুণ পুরনো। আবার বেনের iPhone সুজির iPhone-এর তুলনায় দ্বিগুণ পুরনো। যদি সুজির iPhone 1 বছর পুরনো হয়, তাহলে ব্র্যান্ডনের iPhone কত বছরের পুরনো?
+নিম্নলিখিত যুক্তিটিতে একটি অসঙ্গতি রয়েছে:
+যদি সুজির আইফোন 1 বছর পুরানো হয়, তাহলে বেনের আইফোন 2 * 1 = 2 বছর পুরানো। এবং যদি বেনের আইফোন 2 বছর পুরানো হয়, তাহলে
+অপেক্ষা করুন … ব্র্যান্ডনের আইফোন 4 * 2 = 8 বছর পুরানো। উত্তর হল 8।",8,❌ Incorrect (Expected: 8),✅ Correct after revision,0
+te,"బెన్ ఐఫోన్ సుజీ ఐఫోన్ కంటే రెండు రెట్లు పాతది, కాబట్టి బెన్ ఐఫోన్ 2*1=2 �","కింది ప్రశ్నలను పరిష్కరించండి: బ్రెండన్ ఐఫోన్ బెన్ ఐఫోన్ కంటే నాలుగురెట్లు పాతది. బెన్ ఐఫోన్ సుజీ ఐఫోన్ కంటే రెండురెట్లు పాతది. ఒకవేళ సుజీ ఐఫోన్ 1 సంవత్సరం పాతది అయితే, బ్రెండన్ ఐఫోన్ ఎంత పాతది?
+కింది తార్కికంలో అస్థిరత ఉంది:
+బెన్ ఐఫోన్ సుజీ ఐఫోన్ కంటే రెండు రెట్లు పాతది, కాబట్టి బెన్ ఐఫోన్ 2*1=2 �
+ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి సమాధానం 24.",8,❌ Incorrect (Expected: 8),❌ Still Incorrect (Expected: 8),5

@@ -1,0 +1,68 @@
+language,original_response,revised_response,expected_answer,initial_status,new_status,wait_count
+en,"The cost of half a dozen plates is $6000/2 = $3000.
+        Twenty dozen cups is 20 * 12 = 240 cups.
+        So the cost of 240 cups is $1200 less than $3000, which is $3000 - $1200 = $1800.
+        Therefore, the cost of each cup is $1800/240 = $7.50.
+        The answer is 7.","Solve the following questions: Twenty dozen cups cost $1200 less than the total cost of half a dozen plates sold at $6000 each. Calculate the total cost of buying each cup.
+The following reasoning has an inconsistency:
+The cost of half a dozen plates is $6000/2 = $3000.
+        Twenty dozen cups is 20 * 12 = 240 cups.
+        So the cost of 240 cups is $1200 less than $3000, which is $3000 - $1200 = $1800.
+        Therefore, the cost of each cup is $1800/240 = $7.50.
+        The answer is 7.
+Wait … Wait … Wait … Wait … Wait …
+The answer is 7.5.
+The answer is 7.5.
+The answer is 7.5.
+The answer is 7.5.
+The answer is 7.5.
+The answer is 7.5.
+The answer is 7.5.
+The answer is 7.5.
+The answer is 7.5.
+The answer is 7.5.
+The answer is 7.5.
+The answer is 7.5.
+The answer is 7.5.
+The answer is 7.5.
+The",145,❌ Incorrect (Expected: 145),❌ Still Incorrect (Expected: 145),5
+es,"Respuesta paso a paso: El costo total de media docena de platos es $6000/2 = $3000. Veinte docenas de tazas cuestan $1200 menos que el costo total de media docena de platos, lo que significa que veinte docenas de tazas cuestan $3000 - $1200 = $1800. El costo total de veinte docenas de tazas dividido por veinte da $1800/20 = $","Resuelve las siguientes preguntas: Veinte docenas de tazas cuestan $1200 menos que el costo total de media docena de platos que se venden a $6000 cada uno. Calcule el costo total de la compra de cada taza individual.
+El siguiente razonamiento tiene una inconsistencia:
+Respuesta paso a paso: El costo total de media docena de platos es $6000/2 = $3000. Veinte docenas de tazas cuestan $1200 menos que el costo total de media docena de platos, lo que significa que veinte docenas de tazas cuestan $3000 - $1200 = $1800. El costo total de veinte docenas de tazas dividido por veinte da $1800/20 = $
+Espera … Espera … Espera … Espera … Espera … La respuesta es D.",145,❌ Incorrect (Expected: 145),❌ Still Incorrect (Expected: 145),5
+fr,"Solution : Soit x le prix d'une tasse. Le coût d'une demi-douzaine de tasses est de 6 000/6 = 1 000 dollars. Ainsi, le coût de vingt douzaines de tasses est de 20x. Et nous savons que 20x = 6 000 - 1 200 = 4 800 dollars. Par conséquent, x = 4800/20 = 240 dollars.","Résolvez les questions suivantes: Vingt douzaines de tasses ont coûté 1 200 $ de moins que le coût total d'une demi-douzaine d'assiettes vendues à 6 000 $ chacune. Calculez le prix d'une tasse.
+Le raisonnement suivant présente une incohérence :
+Solution : Soit x le prix d'une tasse. Le coût d'une demi-douzaine de tasses est de 6 000/6 = 1 000 dollars. Ainsi, le coût de vingt douzaines de tasses est de 20x. Et nous savons que 20x = 6 000 - 1 200 = 4 800 dollars. Par conséquent, x = 4800/20 = 240 dollars.
+Attendez … Attendez … Attendez … Attendez … Attendez … Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez…",145,❌ Incorrect (Expected: 145),❌ Still Incorrect (Expected: 145),5
+de,"Schritt-für-Schritt-Antwort: Die Kosten für ein halbes Dutzend Teller, die zu 6000 $ pro Stück verkauft werden, betragen 6000/6 = 1000 $ pro Tasse. Zwanzig Dutzend Tassen kosten 1200 $ weniger als die Gesamtkosten für ein halbes Dutzend Tassen, wenn sie zu 6000 $ pro Stück verkauft werden. Das bedeutet, dass die Kosten für zwanz","Los die folgenden Fragen: Zwanzig Duzend Tassen kosten 1200 $ weniger als die Gesamtkosten für ein halbes Duzend Teller, das jeweils zu 6000 $ verkauft wird. Berechnen Sie die Gesamtkosten für den Kauf jeder Tasse.
+Die folgende Argumentation enthält eine Inkonsistenz:
+Schritt-für-Schritt-Antwort: Die Kosten für ein halbes Dutzend Teller, die zu 6000 $ pro Stück verkauft werden, betragen 6000/6 = 1000 $ pro Tasse. Zwanzig Dutzend Tassen kosten 1200 $ weniger als die Gesamtkosten für ein halbes Dutzend Tassen, wenn sie zu 6000 $ pro Stück verkauft werden. Das bedeutet, dass die Kosten für zwanz
+Warte … Warte … Warte … Warte … Warte … Die Antwort ist B.",145,❌ Incorrect (Expected: 145),❌ Still Incorrect (Expected: 145),5
+ru,"Решение: Пусть цена полдюжины чашек равна х долларов. Стоимость двадцати дюжин чашек составит 24x долларов. Согласно задаче, 24x = 6000 - 1200. Упрощая, 24x = 4800. Разделив обе части на 24, получим x = 200. Следовательно, цена каждой чашки составляет 2","Решите следующие вопросы: Двадцать дюжин чашек стоят на 1200 $ меньше, чем общая стоимость полдюжины тарелок, продающихся за 6000 $ каждая. Вычислите общую стоимость покупки каждой чашки.
+Следующее рассуждение имеет несоответствие:
+Решение: Пусть цена полдюжины чашек равна х долларов. Стоимость двадцати дюжин чашек составит 24x долларов. Согласно задаче, 24x = 6000 - 1200. Упрощая, 24x = 4800. Разделив обе части на 24, получим x = 200. Следовательно, цена каждой чашки составляет 2
+Подождите … Подождите … Подождите … Подождите … Подождите … Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подо",145,❌ Incorrect (Expected: 145),❌ Still Incorrect (Expected: 145),5
+zh,"解决方案：设每个杯子的成本为X。 12个杯子的总成本=12X。半打杯子的总成本 = 6X。假设 12X - 6X = 1,200 美元。因此，6X = 1,200 美元。两边除以 6，我们得到 X = 200 美元。因此，每个杯子的成本为 200 美元","解答以下问题: 二十打杯子的总费用比半打盘子的总费用低 1,200 美元，每个盘子售价 6,000 美元。计算购买每个杯子的总费用。
+以下推理存在不一致之处：
+解决方案：设每个杯子的成本为X。 12个杯子的总成本=12X。半打杯子的总成本 = 6X。假设 12X - 6X = 1,200 美元。因此，6X = 1,200 美元。两边除以 6，我们得到 X = 200 美元。因此，每个杯子的成本为 200 美元
+等待 … 等待 … 等待 … 等待 … 等待 … 答案是 200。",145,❌ Incorrect (Expected: 145),❌ Still Incorrect (Expected: 145),5
+ja,答えのステップ 1: 半ダースの皿の総コストを計算します。 1/2 * 6000 = 3000 ドル ステップ 2: 20 ダースの皿の総コストを計算します。 20 * 6 = 120 ステップ 3: 20 ダースの皿の総コストを計算しま,"次の質問を解いてください: 20ダースのカップは、$6000で売られている半ダースの皿の総額よりも、$1200安いです。それぞれのカップを購入する際の総額を計算しなさい。
+次の推論には矛盾があります:
+答えのステップ 1: 半ダースの皿の総コストを計算します。 1/2 * 6000 = 3000 ドル ステップ 2: 20 ダースの皿の総コストを計算します。 20 * 6 = 120 ステップ 3: 20 ダースの皿の総コストを計算しま
+待ってください … 待ってください … 待ってください … 待ってください … 待ってください … 答えはありません。与えられた情報に基づいて、ステップ 3 を計算するための数学的な方法が提供されていません。与えられた情報には何かが欠けていますか?回答の選択肢: (A) 4500 (B) 4600 (C) 4700 (D) 4800 (E) 4900",145,❌ Incorrect (Expected: 145),❌ Still Incorrect (Expected: 145),5
+th,"หากครึ่งโหลจานมีราคา 6,000 ดอลลาร์ แต่ละจานจะมีราคา 6,000 ดอลลาร์ / 6 = 1,000 ดอลลาร์ ราคาถ้วยยี่สิบโหลจะเท่ากับ 24 * 1,000 ดอลลาร","แก้คำถามต่อไปนี้: ถ้วยยี่สิบโหลมีราคาน้อยกว่าราคารวมของจานครึ่งโหลที่ขายจานละ $6,000 อยู่ $1,200 จงคำนวณค่าใช้จ่ายทั้งหมดในการซื้อถ้วยแต่ละใบ
+การใช้เหตุผลต่อไปนี้ไม่สอดคล้องกัน:
+หากครึ่งโหลจานมีราคา 6,000 ดอลลาร์ แต่ละจานจะมีราคา 6,000 ดอลลาร์ / 6 = 1,000 ดอลลาร์ ราคาถ้วยยี่สิบโหลจะเท่ากับ 24 * 1,000 ดอลลาร
+รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักค",145,❌ Incorrect (Expected: 145),❌ Still Incorrect (Expected: 145),5
+sw,Jumla ya gharama ya nusu dazeni ya sahani ni $6000. Gharama ya dazeni ya sahani ni $6000 + $1200 = $7200. Bei ya kila kikombe ni $7200/24 = $300. Jibu ni 300.,"Tatua maswali yafuatayo: Bei ya dazeni ishirini za vikombe ni $1200 kidogo kwa jumla ya gharama ya nusu dazeni ya sahani zinazouzwa $6000 kila moja. Piga hesabu ya jumla ya bei ya kila kikombe.
+Hoja ifuatayo ina hali ya kutofautiana:
+Jumla ya gharama ya nusu dazeni ya sahani ni $6000. Gharama ya dazeni ya sahani ni $6000 + $1200 = $7200. Bei ya kila kikombe ni $7200/24 = $300. Jibu ni 300.
+Subiri … Subiri … Subiri … Subiri … Subiri … Jibu ni 300.",145,❌ Incorrect (Expected: 145),❌ Still Incorrect (Expected: 145),5
+bn,"আধা ডজন প্লেটের মোট মূল্য হল $6000, তাই প্রতিটি প্লেটের দাম হল $6000 / 6 = $1000৷ কুড়ি ডজন কাপের মূল্য প্লেটের মোট মূল্য","নিম্নলিখিত প্রশ্নগুলি সমাধান করুন: প্রতিটি প্লেট $6000 মূল্য দরের আধ ডজন প্লেটের মোট মূল্য থেকে কুড়ি ডজন কাপের মূল্য $1200 কম। প্রতিটি কাপের মূল্য বের করো।
+নিম্নলিখিত যুক্তিটিতে একটি অসঙ্গতি রয়েছে:
+আধা ডজন প্লেটের মোট মূল্য হল $6000, তাই প্রতিটি প্লেটের দাম হল $6000 / 6 = $1000৷ কুড়ি ডজন কাপের মূল্য প্লেটের মোট মূল্য
+অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অ",145,❌ Incorrect (Expected: 145),❌ Still Incorrect (Expected: 145),5
+te,సమస్యను పరిష్కరించడానికి ముందుగా అర డజను ప్లేట్ల మొత్తం ధరను గణిద్దాం: 1/2 * 12 *,"కింది ప్రశ్నలను పరిష్కరించండి: ఇరవై డజన్ల కప్పుల ఖరీదు, ఒక్కొక్కటి $6000లకు విక్రయించే అర డజను ప్లేట్‌ల మొత్తం ఖరీదులో $1200 తక్కువ. ప్రతి కప్పును కొనుగోలు చేయడానికి అయ్యే మొత్తం ఖర్చును లెక్కించండి.
+కింది తార్కికంలో అస్థిరత ఉంది:
+సమస్యను పరిష్కరించడానికి ముందుగా అర డజను ప్లేట్ల మొత్తం ధరను గణిద్దాం: 1/2 * 12 *
+ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండ",145,❌ Incorrect (Expected: 145),❌ Still Incorrect (Expected: 145),5

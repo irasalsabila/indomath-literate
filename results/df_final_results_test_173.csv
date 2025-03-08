@@ -1,0 +1,56 @@
+language,original_response,revised_response,expected_answer,initial_status,new_status,wait_count
+en,"If Sally Four is the same age as Sally Thirtytwo, then Sally Four is 8 years old.
+        If Granny Red is two times as old as Sally Four, then Granny Red is 8 x 2 = 16 years old.
+        If Sally Two is three years older than Granny Red, then Sally Two is 16 + 3 = 19 years old.
+        The total age of the four birds is 8 + 16 + 19 + 4 = 53 years.
+The answer is 53.","Solve the following questions: There are four birds at the Caboose. Sally Two is three years older than Granny Red. Granny Red is two times as old as Sally Four. If Sally Four is the same age as Sally Thirtytwo, and Sally Thirtytwo is 8 years old, what's the total age of the four birds?
+The following reasoning has an inconsistency:
+If Sally Four is the same age as Sally Thirtytwo, then Sally Four is 8 years old.
+        If Granny Red is two times as old as Sally Four, then Granny Red is 8 x 2 = 16 years old.
+        If Sally Two is three years older than Granny Red, then Sally Two is 16 + 3 = 19 years old.
+        The total age of the four birds is 8 + 16 + 19 + 4 = 53 years.
+The answer is 53.
+Wait … Wait … Wait … Wait … Wait …
+The answer is 53.",51,❌ Incorrect (Expected: 51),❌ Still Incorrect (Expected: 51),5
+es,"Si Sally Four tiene la misma edad que Sally Thirtytwo, entonces Sally Four tiene 8 años. Granny Red es dos veces mayor que Sally Four, por lo que Granny Red tiene 8 * 2 = 16 años. Sally Two es tres años mayor que Granny Red, por lo que Sally Two tiene 16 + 3 = 19 años. La edad total de las cuatro aves es 8 + 16 + 19 + 19 = 52 años. La respuesta es 52.","Resuelve las siguientes preguntas: Hay cuatro aves en el furgón de cola. Sally Two es tres años mayor que Granny Red. Granny Red es dos veces mayor que Sally Four. Si Sally Four tiene la misma edad que Sally Thirtytwo, y Sally Thirtytwo tiene 8 años, ¿qué edad tienen las cuatro aves en total?
+El siguiente razonamiento tiene una inconsistencia:
+Si Sally Four tiene la misma edad que Sally Thirtytwo, entonces Sally Four tiene 8 años. Granny Red es dos veces mayor que Sally Four, por lo que Granny Red tiene 8 * 2 = 16 años. Sally Two es tres años mayor que Granny Red, por lo que Sally Two tiene 16 + 3 = 19 años. La edad total de las cuatro aves es 8 + 16 + 19 + 19 = 52 años. La respuesta es 52.
+Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera …",51,❌ Incorrect (Expected: 51),❌ Still Incorrect (Expected: 51),5
+fr,"Si Sally Four a le même âge que Sally Thirtytwo, alors Sally Four a 8 ans. Si Granny Red est deux fois plus âgée que Sally Four, alors Granny Red a 8 x 2 = 16 ans. Si Sally Two a trois ans de plus que Granny Red, alors Sally Two a 16 + 3 = 19 ans. L'âge total des quatre oiseaux est de 8 + 16 + 19 + 4 = 53 ans. La réponse est 53.","Résolvez les questions suivantes: Il y a quatre oiseaux au Caboose. Sally Two a trois ans de plus que Granny Red. Granny Red est deux fois plus âgée que Sally Four. Si Sally Four a le même âge que Sally Thirtytwo, et que Sally Thirtytwo a 8 ans, quel est l'âge total des quatre oiseaux ?
+Le raisonnement suivant présente une incohérence :
+Si Sally Four a le même âge que Sally Thirtytwo, alors Sally Four a 8 ans. Si Granny Red est deux fois plus âgée que Sally Four, alors Granny Red a 8 x 2 = 16 ans. Si Sally Two a trois ans de plus que Granny Red, alors Sally Two a 16 + 3 = 19 ans. L'âge total des quatre oiseaux est de 8 + 16 + 19 + 4 = 53 ans. La réponse est 53.
+Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez … Attendez …",51,❌ Incorrect (Expected: 51),❌ Still Incorrect (Expected: 51),5
+de,"Wenn Sally Four 8 Jahre älter ist als Sally Thirtytwo, dann ist Sally Four 32 + 8 = 40 Jahre alt. Wenn Granny Red zwei Mal älter ist als Sally Four, dann ist Granny Red 40 * 2 = 80 Jahre alt. Wenn Sally Two drei Jahre älter ist als Granny Red, dann ist Sally Two 80 + 3 = 83 Jahre alt. Das Gesamtalter der vier Vögel beträgt 40 + 80 + 83 + 4 = 2","Los die folgenden Fragen: Es gibt vier Vögel in der Kombüse. Sally Two ist drei Jahre älter als Granny Red. Granny Red ist zwei Mal älter als Sally Four. Wenn Sally Four gleich alt ist wie Sally Thirtytwo und Sally Thirtytwo 8 Jahre älter, wie hoch ist dann das Gesamtalter der vier Vögel?
+Die folgende Argumentation enthält eine Inkonsistenz:
+Wenn Sally Four 8 Jahre älter ist als Sally Thirtytwo, dann ist Sally Four 32 + 8 = 40 Jahre alt. Wenn Granny Red zwei Mal älter ist als Sally Four, dann ist Granny Red 40 * 2 = 80 Jahre alt. Wenn Sally Two drei Jahre älter ist als Granny Red, dann ist Sally Two 80 + 3 = 83 Jahre alt. Das Gesamtalter der vier Vögel beträgt 40 + 80 + 83 + 4 = 2
+Warte … Warte … Warte … Warte … Warte … Die Antwort ist 243.",51,❌ Incorrect (Expected: 51),❌ Still Incorrect (Expected: 51),5
+ru,"Если Салли Четыре столько же лет, сколько Салли Тридцать два, то Салли Четыре — 8/3 = 2,67 года. Поскольку Грэнни Ред в два раза старше Салли Четыре, Грэнни Ред 2,67 * 2 = 5,33 года. Поскольку Салли Два на три года старше Грэнни Ред, Салли Два 5,33 + 3 = 8,","Решите следующие вопросы: В служебном вагоне четыре птицы. Салли Два на три года старше, чем Грэнни Ред. Грэнни Ред в два раза старше, чем Салли Четыре. Если Салли Четыре столько же лет, сколько и Салли Тридцать два, а Салли Тридцать два 8 лет, каков общий возраст этих четырех птиц?
+Следующее рассуждение имеет несоответствие:
+Если Салли Четыре столько же лет, сколько Салли Тридцать два, то Салли Четыре — 8/3 = 2,67 года. Поскольку Грэнни Ред в два раза старше Салли Четыре, Грэнни Ред 2,67 * 2 = 5,33 года. Поскольку Салли Два на три года старше Грэнни Ред, Салли Два 5,33 + 3 = 8,
+Подождите … Подождите … Подождите … Подождите … Подождите … Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подо",51,❌ Incorrect (Expected: 51),❌ Still Incorrect (Expected: 51),5
+zh,如果 Sally 4 号是 Sally 32 号的年龄，则 Sally 4 号是 8 * 2 = 16 岁。由于 Sally 4 号比 Sally 32 号大 3 岁，因此 Sally 4 号是 16 + 3 = 19 岁。瑞德奶奶的年龄是莎莉四号的两倍，所以瑞德奶奶是 19 * 2 =,"解答以下问题: 守车上有 4 只鸟。莎莉二号比瑞德奶奶大 3 岁。瑞德奶奶的年龄是莎莉四号的两倍。如果莎莉四号和莎莉三十二号一样大，而莎莉三十二号 8 岁，则 4 只鸟一共多少岁？
+以下推理存在不一致之处：
+如果 Sally 4 号是 Sally 32 号的年龄，则 Sally 4 号是 8 * 2 = 16 岁。由于 Sally 4 号比 Sally 32 号大 3 岁，因此 Sally 4 号是 16 + 3 = 19 岁。瑞德奶奶的年龄是莎莉四号的两倍，所以瑞德奶奶是 19 * 2 =
+等待 … 等待 … 等待 … 等待 … 等待 … 答案是 112。",51,❌ Incorrect (Expected: 51),❌ Still Incorrect (Expected: 51),5
+ja,サリーツーは8歳です。グラニーレッドはサリーフォーの2倍の年齢なので、グラニーレッドは8*2=16歳です。サリーツーはグラニーレッドより 3 歳年下なので、グラニーレッドは 16-3=13 歳になります。 4 羽の鳥の合計年齢は,"次の質問を解いてください: カブースには4羽の鳥がいる。サリーツーはグラニーレッドよりも3歳年上だ。グラニーレッドはサリーフォーの2倍の年だ。サリーフォーがサリーサーティートゥーと同じ年で、サリーサーティートゥーが8歳の場合、4羽の年の合計はいくらになる？
+次の推論には矛盾があります:
+サリーツーは8歳です。グラニーレッドはサリーフォーの2倍の年齢なので、グラニーレッドは8*2=16歳です。サリーツーはグラニーレッドより 3 歳年下なので、グラニーレッドは 16-3=13 歳になります。 4 羽の鳥の合計年齢は
+待ってください … 待ってください … 待ってください … 待ってください … 待ってください … 答えは 44 年です。 質問: 上記の質問で与えられた情報を考慮すると、4 羽の鳥の合計年齢はいくらになりますか?回答の選択肢: (A) 44 (B) 45 (C) 46 (D) 47 (E) 48
+Answer:
+段階的に考えてみましょう。 ",51,❌ Incorrect (Expected: 51),❌ Still Incorrect (Expected: 51),5
+th,ถ้า Sally Four อายุเท่ากับ Sally Thirtytwo และ Sally Thirtytwo อายุ 8 ปี แสดงว่า Sally Four คือ 8 - 3 = 5 ปี เนื่องจาก Granny Red มีอายุมากกว่า Sally Four สองเท่า ดังนั้น Granny Red จึงมีอายุ 5 * 2,"แก้คำถามต่อไปนี้: ที่คาบูสมีนกสี่ตัว Sally Two แก่กว่า Granny Red สามปี Granny Red อายุมากกว่า Sally Four สองเท่า หาก Sally Four อายุเท่ากับ Sally Thirtytwo และ Sally Thirtytwo อายุ 8 ปี นกทั้งสี่ตัวมีอายุรวมกันเท่าไหร่
+การใช้เหตุผลต่อไปนี้ไม่สอดคล้องกัน:
+ถ้า Sally Four อายุเท่ากับ Sally Thirtytwo และ Sally Thirtytwo อายุ 8 ปี แสดงว่า Sally Four คือ 8 - 3 = 5 ปี เนื่องจาก Granny Red มีอายุมากกว่า Sally Four สองเท่า ดังนั้น Granny Red จึงมีอายุ 5 * 2
+รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักค",51,❌ Incorrect (Expected: 51),❌ Still Incorrect (Expected: 51),5
+sw,"Ikiwa Sally Four ana umri sawa na Sally Thirtytwo, basi Sally Four ana umri wa miaka 8. Ikiwa umri wa Granny Red ni mara mbili ya umri wa Sally Four, basi Granny Red ni 2 * 8 = miaka 16. Ikiwa Sally Two ana umri wa miaka mitatu kuliko Granny Red, basi Sally Two ana miaka 16 + 3 = 19. Umri wa jumla wa ndege hawa wanne ni 8 +","Tatua maswali yafuatayo: Kuna ndege wanne katika Caboose. Sally Two ana umri wa miaka mitatu zaidi ya Granny Red. Umri wa Granny Red ni mara mbili zaidi ya umri wa Sally Four. Ikiwa Sally Four ana umri sawa na Sally Thirtytwo, na Sally Thirtytwo ana umri wa miaka 8, jumla ya umri wa ndege hawa wanne ni ngapi?
+Hoja ifuatayo ina hali ya kutofautiana:
+Ikiwa Sally Four ana umri sawa na Sally Thirtytwo, basi Sally Four ana umri wa miaka 8. Ikiwa umri wa Granny Red ni mara mbili ya umri wa Sally Four, basi Granny Red ni 2 * 8 = miaka 16. Ikiwa Sally Two ana umri wa miaka mitatu kuliko Granny Red, basi Sally Two ana miaka 16 + 3 = 19. Umri wa jumla wa ndege hawa wanne ni 8 +
+Subiri … Subiri … Subiri … Subiri 19 + 16 + 8 = miaka 51. Jibu ni 51.",51,❌ Incorrect (Expected: 51),✅ Correct after revision,2
+bn,"যদি স্যালি থার্টিটু 8 বছর বয়সী হয়, তাহলে গ্র্যানি রেড 2 * 8 = 16 বছর বয়সী। এবং যদি গ্র্যানি রেডের বয়স স্যালি ফোরের ��","নিম্নলিখিত প্রশ্নগুলি সমাধান করুন: ক্যাবুসে চারটি পাখি আছে। স্যালি টু গ্র্যানি রেডের থেকে তিন বছরের বড়। গ্র্যানি রেডের বয়স স্যালি ফোরের দ্বিগুণ। স্যালি ফোরের বয়স যদি স্যালি থার্টিটু-এর সমান হয়, এবং স্যালি থার্টিটু-এর বয়স 8 বছর হয়, তাহলে চারটি পাখির মোট বয়স কত?
+নিম্নলিখিত যুক্তিটিতে একটি অসঙ্গতি রয়েছে:
+যদি স্যালি থার্টিটু 8 বছর বয়সী হয়, তাহলে গ্র্যানি রেড 2 * 8 = 16 বছর বয়সী। এবং যদি গ্র্যানি রেডের বয়স স্যালি ফোরের ��
+অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … যদি স্যালি ফোরের বয়স স্যালি থার্টিটুর সমান হয়, তাহলে স্যালি ফোরের বয়স 8 + 3 = 11 বছর। এবং যদি স্যালি ফোরের বয়স টু গ",51,❌ Incorrect (Expected: 51),❌ Still Incorrect (Expected: 51),5
+te,"శాలీ ఫోర్ మరియు శాలీ థర్టీ టూ వయస్సు ఒక్కటే అయితే, శాలీ 8*2=16 సంవత్సరాలు.","కింది ప్రశ్నలను పరిష్కరించండి: ఒక ఓడలోని వంటగదిలో మొత్తం నాలుగు పక్షులు ఉన్నాయి. గ్రామీ రెడ్ కంటే శాలీ టూ మూడు సంవత్సరాల పెద్దది. శాలీ ఫోర్ కంటే గ్రానీ రెడ్ వయస్సు రెట్టింపు. శాలీ ఫోర్ మరియు శాలీ థర్టీ టూ వయస్సు ఒక్కటే, శాలీ థర్టీ టూ వయస్సు 8 సంవత్సరాలు అయితే, నాలుగు పక్షుల మొత్తం వయస్సు ఎంత?
+కింది తార్కికంలో అస్థిరత ఉంది:
+శాలీ ఫోర్ మరియు శాలీ థర్టీ టూ వయస్సు ఒక్కటే అయితే, శాలీ 8*2=16 సంవత్సరాలు.
+ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండి … ఆగండ",51,❌ Incorrect (Expected: 51),❌ Still Incorrect (Expected: 51),5

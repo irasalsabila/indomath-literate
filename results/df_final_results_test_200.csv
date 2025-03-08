@@ -1,0 +1,82 @@
+language,original_response,revised_response,expected_answer,initial_status,new_status,wait_count
+en,"Mark edits 1000 sentences for both Publishers, so he earns 1000 * 5 cents = 5000 cents from Publisher A.
+        Publisher B pays him twice what Publisher A pays, so he earns 5000 * 2 = 10000 cents from Publisher B.
+        In total, Mark earns 5000 + 10000 = 15000 cents per week.
+        The answer is 15000.","Solve the following questions: Mark is a copy-editor. He edits an equal number of sentences each week for two different publishers, who each pay him a different rate per sentence. Publisher B pays Mark twice what Publisher A pays. Mark edits a total number of 1000 sentences each week, and Publisher A pays him 5 cents per sentence. How much does Mark make in a week, in cents?
+The following reasoning has an inconsistency:
+Mark edits 1000 sentences for both Publishers, so he earns 1000 * 5 cents = 5000 cents from Publisher A.
+        Publisher B pays him twice what Publisher A pays, so he earns 5000 * 2 = 10000 cents from Publisher B.
+        In total, Mark earns 5000 + 10000 = 15000 cents per week.
+        The answer is 15000.
+Wait … Wait … Wait … Wait … Wait …
+The answer is 15000.
+
+The answer is 15000.
+
+The answer is 15000.
+
+The answer is 15000.
+
+The answer is 15000.
+
+The answer is 15000.
+
+The answer is 15000.
+
+The answer is 15000.
+
+The answer is 15000.
+
+The answer is 15000.
+
+The answer is 150",7500,❌ Incorrect (Expected: 7500),❌ Still Incorrect (Expected: 7500),5
+es,"Si Mark revisa 1000 oraciones cada semana y la editorial A le paga 5 centavos por oración, entonces gana 1000 * 5 = 5000 centavos de la editorial A. La editorial B le paga el doble de lo que le paga la editorial A, por lo que le paga 2 * 5 = 10 centavos por oración. Por lo tanto, Mark gana 1000 * 10 = 10000 centavos de la editorial B.","Resuelve las siguientes preguntas: Mark es revisor de texto. Todas las semanas, revisa la misma cantidad de oraciones para dos editoriales distintas, que le pagan una tarifa diferente por oración. La editorial B, le paga a Mark el doble de lo que le paga la editorial A. Mark revisa una cantidad total de 1000 oraciones cada semana, y la editorial A le paga 5 centavos la oración. ¿Cuántos centavos gana Mark en una semana?
+El siguiente razonamiento tiene una inconsistencia:
+Si Mark revisa 1000 oraciones cada semana y la editorial A le paga 5 centavos por oración, entonces gana 1000 * 5 = 5000 centavos de la editorial A. La editorial B le paga el doble de lo que le paga la editorial A, por lo que le paga 2 * 5 = 10 centavos por oración. Por lo tanto, Mark gana 1000 * 10 = 10000 centavos de la editorial B.
+Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera … Espera …",7500,❌ Incorrect (Expected: 7500),❌ Still Incorrect (Expected: 7500),5
+fr,"Soit x le nombre de centimes que l'éditeur A verse à Marc par semaine. Ensuite, l'éditeur B lui verse 2x centimes par semaine. Il révise un total de x + 2x = 3x centimes par semaine. Nous savons qu'il révise un total de 1 000 phrases par semaine. Cela signifie qu'il gagne 3x = 1 000 centimes par semaine. Pour trouver la valeur de x, nous divisons les deux","Résolvez les questions suivantes: Marc est un réviseur. Il révise le même nombre de phrases chaque semaine pour deux éditeurs différents, qui le paient chacun à un taux différent. L'éditeur B paie Marc deux fois plus que l'éditeur A. Marc édite un total de 1 000 phrases par semaine, tandis que l'éditeur A lui verse 5 cents par phrase. Combien Marc gagne-t-il en une semaine, en centimes ?
+Le raisonnement suivant présente une incohérence :
+Soit x le nombre de centimes que l'éditeur A verse à Marc par semaine. Ensuite, l'éditeur B lui verse 2x centimes par semaine. Il révise un total de x + 2x = 3x centimes par semaine. Nous savons qu'il révise un total de 1 000 phrases par semaine. Cela signifie qu'il gagne 3x = 1 000 centimes par semaine. Pour trouver la valeur de x, nous divisons les deux
+Attendez … Attendez … Attendez … Attendez … Attendez … Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez… Attendez…",7500,❌ Incorrect (Expected: 7500),❌ Still Incorrect (Expected: 7500),5
+de,"Mark verdient 5 Cent pro Satz von Herausgeber A, also verdient er 5 * 1000 = 5000 Cent von Herausgeber A. Herausgeber B zahlt Mark das Doppelte dessen, was Herausgeber A zahlt, also verdient er 2 * 5 = 10 Cent pro Satz von Herausgeber B. Das bedeutet, dass er 10 * 1000 = 10000 Cent von Herausgeber B verdient. Insgesamt","Los die folgenden Fragen: Mark ist Korrektor. Er bearbeitet jede Woche die gleiche Anzahl Sätze für zwei verschiedene Herausgeber, die ihm jeweils eine andere Rate pro Satz bezahlen. Herausgeber B bezahlt Mark das Doppelte dessen, was Herausgeber A bezahlt. Mark bearbeitet jede Woche eine Gesamtzahl von 1000 Sätzen, und Herausgeber A bezahlt ihm 5 Cent pro Satz. Wie viel verdient Mark in einer Woche in Cent?
+Die folgende Argumentation enthält eine Inkonsistenz:
+Mark verdient 5 Cent pro Satz von Herausgeber A, also verdient er 5 * 1000 = 5000 Cent von Herausgeber A. Herausgeber B zahlt Mark das Doppelte dessen, was Herausgeber A zahlt, also verdient er 2 * 5 = 10 Cent pro Satz von Herausgeber B. Das bedeutet, dass er 10 * 1000 = 10000 Cent von Herausgeber B verdient. Insgesamt
+Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte … Warte",7500,❌ Incorrect (Expected: 7500),❌ Still Incorrect (Expected: 7500),5
+ru,"Пусть x — количество предложений, которые Марк редактирует для издательства А. Затем он редактирует предложения 2x для издательства Б. Он редактирует в общей сложности x + 2x = 3x предложений каждую неделю. Он зарабатывает 5 * x центов за предложения издательства А и 2 * 5 * 2x = 20x центов за предложения издательства Б. Таким образом","Решите следующие вопросы: Марк — редактор. Каждую неделю он редактирует одинаковое количество предложений для двух разных издательств, которые платят ему по разным ставкам за предложение. Издательство Б платит Марку в два раза больше, чем издательство А. Марк редактирует суммарно по 1000 предложений каждую неделю, и издательство А платит ему по 5 центов за предложение. Сколько центов зарабатывает Марк в неделю?
+Следующее рассуждение имеет несоответствие:
+Пусть x — количество предложений, которые Марк редактирует для издательства А. Затем он редактирует предложения 2x для издательства Б. Он редактирует в общей сложности x + 2x = 3x предложений каждую неделю. Он зарабатывает 5 * x центов за предложения издательства А и 2 * 5 * 2x = 20x центов за предложения издательства Б. Таким образом
+Подождите … Подождите … Подождите … Подождите … Подождите … Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подождите… Подо",7500,❌ Incorrect (Expected: 7500),❌ Still Incorrect (Expected: 7500),5
+zh,"出版商甲每周向马克支付 1,000 * 5 = 5,000 美分。出版商乙的报酬是出版商甲的两倍，因此他每周向马克支付 2 * 5,000 = 10,000 美分。他每周总共赚到 5,000 + 10,000 = 15,000 美分。答案是15000。","解答以下问题: 马克是一位文字编辑。他每周为两个不同的出版商编辑相同数量的句子，而他们各以不同的每句价格付给他费用。出版商乙付给马克的费用是出版商甲支付的费用的两倍。马克每周编辑总数 1,000 个句子，出版商甲每个句子付给他 5 美分。马克每周赚多少美分？
+以下推理存在不一致之处：
+出版商甲每周向马克支付 1,000 * 5 = 5,000 美分。出版商乙的报酬是出版商甲的两倍，因此他每周向马克支付 2 * 5,000 = 10,000 美分。他每周总共赚到 5,000 + 10,000 = 15,000 美分。答案是15000。
+等待 … 等待 … 等待 … 等待 … 等待 … 答案是 15000。
+Answer:
+让我们一步步思考。马克每周赚到的总金额是 15,000 美分。",7500,❌ Incorrect (Expected: 7500),❌ Still Incorrect (Expected: 7500),5
+ja,マークは出版社 A から 1 文あたり 5 セントを受け取るため、出版社 A からは 5 * 1000 = 5000 セントを受け取ります。出版社 B は出版社 A の 2 倍の金額を支払うため、出版社 B は 1 文あたり 2 * 5 = 10 セントを支払います,"次の質問を解いてください: マークは編集者である。2つの出版社向けに毎週同じ数の文を編集しており、それぞれの出版社が1文あたりに支払う金額は異なる。出版社Bは出版社Aの2倍の金額を支払う。マークは毎週合計1,000文編集し、出版社Aは彼に1文あたり5セント支払う。マークは毎週何セントもらっているか？
+次の推論には矛盾があります:
+マークは出版社 A から 1 文あたり 5 セントを受け取るため、出版社 A からは 5 * 1000 = 5000 セントを受け取ります。出版社 B は出版社 A の 2 倍の金額を支払うため、出版社 B は 1 文あたり 2 * 5 = 10 セントを支払います
+待ってください … 待ってください … 待ってください … 待ってください … 待ってください … 待ってください … 待ってください … 待ってください … 待ってください… 待ってください… 待ってください… 待ってください… 待ってください… 待ってください… 待ってください… 待ってください… 待ってください… 待ってください… 待ってください… 待",7500,❌ Incorrect (Expected: 7500),❌ Still Incorrect (Expected: 7500),5
+th,ให้ x เป็นจำนวนเงินที่สำนักพิมพ์ A จ่ายให้มาร์คต่อประโยค จากนั้น สำนักพิมพ์ B จ่ายให้มาร์ค 2x ต่อประโยค เนื่องจากมาร์คตรวจแก้ไขทั้,"แก้คำถามต่อไปนี้: มาร์คเป็นบรรณาธิการต้นฉบับ เขาตรวจแก้ประโยคให้สำนักพิมพ์สองแห่งเป็นจำนวนเท่าๆ กันในแต่ละสัปดาห์ ซึ่งสำนักพิมพ์แต่ละแห่งจะจ่ายให้เขาในอัตราที่ต่างกันต่อประโยค สำนักพิมพ์ B จ่ายให้มาร์คเป็นสองเท่าของที่สำนักพิมพ์ A จ่าย มาร์คตรวจแก้ทั้งหมดสัปดาห์ละ 1000 ประโยค และสำนักพิมพ์ A จ่ายเงินให้เขา 5 เซ็นต์ต่อประโยค มาร์คทำเงินต่อสัปดาห์ได้กี่เซ็นต์
+การใช้เหตุผลต่อไปนี้ไม่สอดคล้องกัน:
+ให้ x เป็นจำนวนเงินที่สำนักพิมพ์ A จ่ายให้มาร์คต่อประโยค จากนั้น สำนักพิมพ์ B จ่ายให้มาร์ค 2x ต่อประโยค เนื่องจากมาร์คตรวจแก้ไขทั้
+รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักครู่ … รอสักค",7500,❌ Incorrect (Expected: 7500),❌ Still Incorrect (Expected: 7500),5
+sw,"Mchapishaji A humlipa Mark senti 5 kwa kila sentensi, kwa hivyo Mark anapata senti 5 * 1000 = senti 5000 kutoka kwa Mchapishaji A. Mchapishaji B humlipa Mark mara mbili ya kile Mchapishaji A humlipa, kwa hivyo Mark anapata senti 5 * 2 = senti 10 kwa kila sentensi kutoka kwa Mchapishaji B","Tatua maswali yafuatayo: Mark ni mhariri wa nakala. Anahariri idadi inayotoshana ya sentensi kila wiki kwa ajili ya wachapishaji wawili tofauti, ambao kila mmoja anamlipa kwa kiwango tofauti kwa kila sentensi. Mchapishaji B anamlipa Mark mara mbili ya kile Mchapishaji A humlipa. Mark anahariri jumla ya sentensi 1000 kila wiki, na Publisher A humlipa senti 5 kwa kila sentensi. Mark hutengeneza pesa ngapi kwa wiki, kwa senti?
+Hoja ifuatayo ina hali ya kutofautiana:
+Mchapishaji A humlipa Mark senti 5 kwa kila sentensi, kwa hivyo Mark anapata senti 5 * 1000 = senti 5000 kutoka kwa Mchapishaji A. Mchapishaji B humlipa Mark mara mbili ya kile Mchapishaji A humlipa, kwa hivyo Mark anapata senti 5 * 2 = senti 10 kwa kila sentensi kutoka kwa Mchapishaji B
+Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri … Subiri",7500,❌ Incorrect (Expected: 7500),❌ Still Incorrect (Expected: 7500),5
+bn,"মার্ক প্রতি সপ্তাহে মোট 1000টি বাক্য সম্পাদনা করে। প্রকাশক ক তাকে প্রতি বাক্যে 5 সেন্ট প্রদান করে, তাই মার্ক প্রকাশক ক থেকে 1","নিম্নলিখিত প্রশ্নগুলি সমাধান করুন: মার্ক একজন কপি-এডিটর। প্রতি সপ্তাহে তিনি দুটি আলাদা প্রকাশকের জন্য সমান সংখ্যক বাক্যের সম্পাদনা করেন, যারা তাকে প্রতি বাক্যের জন্য পৃথক মূল্য প্রদান করেন। প্রকাশক ক যা মূল্য প্রদান করেন, প্রকাশক খ মার্ককে তার থেকে দ্বিগুণ বেশি মূল্য প্রদান করেন। প্রতি সপ্তাহে মার্ক মোট 1000 সংখ্যক বাক্য সম্পাদনা করেন, এবং প্রকাশক ক তাঁকে প্রতি বাক্য পিছু 5 সেন্ট প্রদান করেন। মার্ক এক সপ্তাহে কত সেন্ট আয় করেন?
+নিম্নলিখিত যুক্তিটিতে একটি অসঙ্গতি রয়েছে:
+মার্ক প্রতি সপ্তাহে মোট 1000টি বাক্য সম্পাদনা করে। প্রকাশক ক তাকে প্রতি বাক্যে 5 সেন্ট প্রদান করে, তাই মার্ক প্রকাশক ক থেকে 1
+অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … অপেক্ষা করুন … মার্ক প্রতি সপ্তাহে মোট 1000টি বাক্য সম্পাদনা করে এবং প্রকাশক ক তাকে প্রতি বাক্যে 5 সেন্ট প্রদান করে, তাই মার্ক প্রকাশক ক থেক",7500,❌ Incorrect (Expected: 7500),❌ Still Incorrect (Expected: 7500),5
+te,"ప్రశ్న: షాన్ వద్ద ఐదు బొమ్మలు ఉన్నాయి. అతడు క్రిస్టమస్ కొరకు తన అమ్మ మరియు నాన్నల నుంచి రెండేసి బొమ్మల చొప్పున పొందాడు. ఇప్పుడు అతడి వద్ద ఎన్ని బొమ్మలు ఉన్నాయి?
+Step-by-Step Answer: దశలవారీగా సమాధానం: అతడి వద్ద 5 బొమ్మలు ఉన్నాయి. అతడు అమ్మ దగ్గర నుంచి 2 పొందాడు, కాబట్టి ఆ తరువాత అతడి వద్ద 5+2=7 బొమ్మలున్నాయి. తరువాత తండ్రి వద్ద నుంచి అతడు మరో 2 పొందాడు. అందువల్ల మొత్తం మీద అతడి వద్ద 7+2=9 బొమ్మలున్నాయి. సమాధానం 9.బొమ్మలున్నాయి.
+
+
+ప్రశ్న: సర్వర్ రూమ్‌లో తొమ్మిది కంప్యూటర్‌లు ఉన్నాయి. సోమవారం నుంచి గురువారం వరకు ప్రతిరోజూ మరో ఐదు కంప్యూటర్‌లు ఇన్‌స్టాల్ చేయబడ్డాయి. సర్వర్ రూమ్‌లో ఇప్పుడు ఎన్ని కంప్యూటర్‌లు ఉన్నాయి?కంప్యూటర్‌లుకంప్యూటర్‌లు
+Step-by-Step Answer: దశలవారీగా సమాధానం: సోమవారం నుంచి గురువారం వరకు 4 రోజులున్నాయి. ప్రతిరోజూ 5 కంప్యూటర్‌లు జోడించబడ్డాయి. అంటే మొత్తం 4*5=20 కంప్యూటర్‌లు జోడించబడ్డాయి. ప్రారంభంలో 9 కంప్యూటర్‌లు ఉన్నాయి, అందువల్ల ఇప్పుడు అవి 9+20=29 కంప్యూటర్‌లు సమాధానం 29.
+
+
+        Question: మార్క్ ఒక కాపీ ఎడిటర్. అతడు రెండు విభిన్న పబ్లిషర్‌ల కొరకు ప్రతివారం సమాన సంఖ్యలో వాక్యాలను ఎడిట్ చేస్తాడు, వారు అతడికి ప్రతి వాక్యానికి విభిన్న రేటును చెల్లిస్తారు. పబ్లిషర్ A చెల్లించే దానికి రెట్టింపు మొత్తాన్ని పబ్లిషర్ B మార్క్‌కు చెల్లిస్తాడు. మార్క్ ప్రతివారం 1000 వాక్యాలను ఎడిట్ చేస్తాడు, పబ్లిషర్ A అతడికి ప్రతివాక్యానికి 5 సెంట్‌లను చెల్లిస్తాడు. మార్క్ ఒక వారంలో ఎన్ని సెంట్‌లను సంపాదిస్తాడు?
+        అంచెలంచెలుగా ఆలోచిద్దాం: మార్క్ ప్రతి వాక్యానికి 5 సెంట్లు చొప్పున 1000 వాక్యాలను ఎడిట్ ����","కింది ప్రశ్నలను పరిష్కరించండి: మార్క్ ఒక కాపీ ఎడిటర్. అతడు రెండు విభిన్న పబ్లిషర్‌ల కొరకు ప్రతివారం సమాన సంఖ్యలో వాక్యాలను ఎడిట్ చేస్తాడు, వారు అతడికి ప్రతి వాక్యానికి విభిన్న రేటును చెల్లిస్తారు. పబ్లిషర్ A చెల్లించే దానికి రెట్టింపు మొత్తాన్ని పబ్లిషర్ B మార్క్‌కు చెల్లిస్తాడు. మార్క్ ప్రతివారం 1000 వాక్యాలను ఎడిట్ చేస్తాడు, పబ్లిషర్ A అతడికి ప్రతివాక్యానికి 5 సెంట్‌లను చెల్లిస్తాడు. మార్క్ ఒక వారంలో ఎన్ని సెంట్‌లను సంపాదిస్తాడు?
+కింది తార్కికంలో అస్థిరత ఉంది:
+ప్రశ్న: షాన్ వద్ద ఐదు బొమ్మలు ఉన్నాయి. అతడు క్రిస్టమస్ కొరకు తన అమ్మ మరియు నాన్నల నుంచి రెండేసి బొమ్మల చొప్పున పొందాడు. ఇప్పుడు అతడి వద్ద ఎన్ని బొమ్మలు ఉన్నాయి? Step-by-Step Answer: దశలవారీగా సమాధానం: అతడి వద్ద 5 బొమ్మలు ఉన్నాయి. అతడు అమ్మ దగ్గర నుంచి 2 పొందాడు, కాబట్టి ఆ తరువాత అతడి వద్ద 5+2=7 బొమ్మలున్నాయి. తరువాత తండ్రి వద్ద నుంచి అతడు మరో 2 పొందాడు. అందువల్ల మొత్తం మీద అతడి వద్ద 7+2=9 బొమ్మలున్నాయి. సమాధానం 9.బొమ్మలున్నాయి. ప్రశ్న: సర్వర్ రూమ్‌లో తొమ్మిది కంప్యూటర్‌లు ఉన్నాయి. సోమవారం నుంచి గురువారం వరకు ప్రతిరోజూ మరో ఐదు కంప్యూటర్‌లు ఇన్‌స్టాల్ చేయబడ్డాయి. సర్వర్ రూమ్‌లో ఇప్పుడు ఎన్ని కంప్యూటర్‌లు ఉన్నాయి?కంప్యూటర్‌లుకంప్యూటర్‌లు Step-by-Step Answer: దశలవారీగా సమాధానం: సోమవారం నుంచి గురువారం వరకు 4 రోజులున్నాయి. ప్రతిరోజూ 5 కంప్యూటర్‌లు జోడించబడ్డాయి. అంటే మొత్తం 4*5=20 కంప్యూటర్‌లు జోడించబడ్డాయి. ప్రారంభంలో 9 కంప్యూటర్‌లు ఉన్నాయి, అందువల్ల ఇప్పుడు మొత్తం 9+20=29 కంప్యూటర్‌లు ఉన్నాయి. సమాధానం 29.",7500,❌ Incorrect (Expected: 7500),❌ Still Incorrect (Expected: 7500),5
