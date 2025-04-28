@@ -1,3 +1,14 @@
-mcot/
-results_mcot/
-classified_erros_1.csv
+v1/
+unsloth_compiled_cache/
+__pycache__/
+
+open_router_api.txt
+
+=1.2.0
+open_router.ipynb
+apis/
+results_qwen/
+dataset_dict/
+# logs/
+# mgsm/
+# mgsm_new/
