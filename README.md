@@ -60,3 +60,6 @@ Example Runs:
 - Store your API keys properly in files like `apis/api.txt`.
 - Adjust the results_dir and language codes depending on your experiment needs.
 - Main low-resource focus: **Bengali, Telugu, Thai, Indonesian, Javanese, Sundanese**.
+
+## Project Link
+[GitHub Repository](https://github.com/irasalsabila/indomath-literate)
