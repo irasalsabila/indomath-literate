@@ -1,0 +1,62 @@
+q_no,lang,answer_number,gen_answer,revised_answer2,is_correct,is_correct2,is_correct_rev,is_correct_rev2,ec_1
+3,en,70000,25000.0,25000.0,False,False,False,False,Arithmetic Mistake
+13,en,13,12.0,90.0,False,False,False,False,Arithmetic Mistake
+16,en,125,29.0,5125.0,False,False,False,False,Arithmetic Mistake
+6,es,64,16.0,16.0,False,False,False,False,Arithmetic Mistake
+13,es,13,12.0,27.0,False,False,False,False,Hallucination
+38,es,2,3.0,11.0,False,False,False,False,Arithmetic Mistake
+42,es,200,0.0,1001.0,False,False,False,False,Hallucination
+50,es,30,32.0,32.0,False,False,False,False,Arithmetic Mistake
+3,ja,70000,80000.0,195000.0,False,False,False,False,Arithmetic Mistake
+8,ja,160,75.0,240.0,False,False,False,False,Arithmetic Mistake
+9,ja,45,595.0,275.0,False,False,False,False,Arithmetic Mistake
+19,ja,7,4.0,84.0,False,False,False,False,Arithmetic Mistake
+21,ja,15,14.67,12.0,False,False,False,False,Hallucination
+23,ja,7,3.0,3.0,False,False,False,False,Arithmetic Mistake
+30,ja,104,94.0,99.0,False,False,False,False,Arithmetic Mistake
+35,ja,23,43.0,43.0,False,False,False,False,Arithmetic Mistake
+40,ja,18,26.0,39.0,False,False,False,False,Arithmetic Mistake
+46,ja,104,44.0,44.0,False,False,False,False,Arithmetic Mistake
+5,bn,20,100.0,0.0,False,False,False,False,Arithmetic Mistake
+8,bn,160,240.0,120.0,False,False,False,False,Arithmetic Mistake
+9,bn,45,225.0,65.0,False,False,False,False,Arithmetic Mistake
+14,bn,18,6.0,10.0,False,False,False,False,Hallucination
+15,bn,60,1.0,55.0,False,False,False,False,Missing Calculation
+17,bn,230,460.0,340.0,False,False,False,False,Arithmetic Mistake
+19,bn,7,84.0,84.0,False,False,False,False,Arithmetic Mistake
+30,bn,104,30.0,94.0,False,False,False,False,Arithmetic Mistake
+35,bn,23,27.0,27.0,False,False,False,False,Missing Calculation
+38,bn,2,13.0,11.0,False,False,True,False,Arithmetic Mistake
+42,bn,200,800.0,1200.0,False,False,False,False,Hallucination
+44,bn,48,173.0,0.0,False,False,False,False,Arithmetic Mistake
+2,te,3,4.0,2.0,False,False,False,False,Hallucination
+3,te,70000,30000.0,25000.0,False,False,False,False,Arithmetic Mistake
+6,te,64,17.0,48.0,False,False,False,False,Arithmetic Mistake
+7,te,260,50.0,22.0,False,False,False,False,Hallucination
+8,te,160,20.0,109.0,False,False,False,False,Hallucination
+9,te,45,330.0,65.0,False,False,False,False,Hallucination
+13,te,13,9.0,0.0,False,False,False,False,Hallucination
+14,te,18,2.0,,False,False,False,False,Missing Calculation
+17,te,230,460.0,300.0,False,False,False,False,Hallucination
+19,te,7,19.0,84.0,False,False,False,False,Hallucination
+20,te,6,1.0,3.5,False,False,False,False,Arithmetic Mistake
+21,te,15,19.0,16.0,False,False,False,False,Hallucination
+22,te,14,25.0,31.0,False,False,False,False,Arithmetic Mistake
+29,te,25,35.0,-20.0,False,False,False,False,Arithmetic Mistake
+30,te,104,33.0,23.0,False,False,False,False,Hallucination
+32,te,80,120.0,101.0,False,False,False,False,Arithmetic Mistake
+34,te,70,102.0,71.0,False,False,False,False,Arithmetic Mistake
+35,te,23,44.0,37.0,False,False,False,False,Hallucination
+37,te,75,150.0,500.0,False,False,False,False,Hallucination
+39,te,10,36.0,1.0,False,False,False,False,Hallucination
+40,te,18,243.0,11.0,False,False,False,False,Hallucination
+41,te,8,24.0,3.0,False,False,False,False,Arithmetic Mistake
+42,te,200,3.0,0.0,False,False,False,False,Hallucination
+46,te,104,36.0,25.0,False,False,False,False,Hallucination
+48,te,800,400.0,400.0,False,False,False,False,Arithmetic Mistake
+49,te,8,36.0,54.0,False,False,False,False,Hallucination
+8,th,160,40.0,200.0,False,False,False,False,Arithmetic Mistake
+19,th,7,,3.0,False,False,False,False,Arithmetic Mistake
+38,th,2,0.0,0.0,False,False,False,False,Arithmetic Mistake
+46,th,104,44.0,44.0,False,False,False,False,Hallucination
+47,th,163,1.0,-56.0,False,False,False,False,Arithmetic Mistake

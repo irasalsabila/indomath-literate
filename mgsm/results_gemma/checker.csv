@@ -1,0 +1,27 @@
+q_no,lang,answer_number,gen_answer,revised_answer2,is_correct,is_correct2,is_correct_rev,is_correct_rev2,ec_1
+13,en,13,12.0,12.0,False,False,False,False,Missing Calculation
+18,en,57500,0.0,0.0,False,False,False,False,Hallucination
+13,es,13,12.0,12.0,False,False,False,False,Arithmetic Mistake
+18,es,57500,0.0,0.0,False,False,False,False,Arithmetic Mistake
+39,es,10,4.0,4.0,False,False,False,False,Hallucination
+8,ja,160,100.0,100.0,False,False,False,False,Hallucination
+13,ja,13,12.0,12.0,False,False,False,False,Arithmetic Mistake
+18,ja,57500,0.0,0.0,False,False,False,False,Missing Calculation
+19,ja,7,84.0,84.0,False,False,False,False,Missing Calculation
+35,ja,23,43.0,43.0,False,False,False,False,Arithmetic Mistake
+40,ja,18,29.0,29.0,False,False,False,False,Arithmetic Mistake
+46,ja,104,44.0,44.0,False,False,False,False,Missing Calculation
+8,bn,160,200.0,200.0,False,False,False,False,Missing Calculation
+13,bn,13,12.0,12.0,False,False,False,False,Arithmetic Mistake
+15,bn,60,55.0,55.0,False,False,False,False,Missing Calculation
+18,bn,57500,0.0,0.0,False,False,False,False,Missing Calculation
+38,bn,2,0.0,0.0,False,False,False,False,Hallucination
+5,te,20,140.0,140.0,False,False,False,False,Arithmetic Mistake
+13,te,13,12.0,12.0,False,False,False,False,Missing Calculation
+22,te,14,23.0,23.0,False,False,False,False,Missing Calculation
+29,te,25,40.0,40.0,False,False,False,False,Missing Calculation
+30,te,104,94.0,61.0,False,False,False,False,Hallucination
+38,te,2,0.0,0.0,False,False,False,False,Hallucination
+13,th,13,12.0,12.0,False,False,False,False,Missing Calculation
+17,th,230,155.0,155.0,False,False,False,False,Hallucination
+18,th,57500,0.0,0.0,False,False,False,False,Arithmetic Mistake

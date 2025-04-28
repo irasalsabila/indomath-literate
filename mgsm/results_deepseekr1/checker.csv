@@ -1,0 +1,12 @@
+q_no,lang,answer_number,gen_answer,revised_answer2,is_correct,is_correct2,is_correct_rev,is_correct_rev2,ec_1
+13,bn,13,12.0,12.0,False,False,False,False,Arithmetic Mistake
+15,bn,60,55.0,55.0,False,False,False,False,Hallucination
+39,es,10,4.0,5.0,False,False,False,False,Hallucination
+22,te,14,23.0,23.0,False,False,False,False,Missing Calculation
+29,te,25,,,False,False,False,False,Missing Calculation
+42,te,200,1200.0,1200.0,False,False,False,False,Missing Calculation
+17,th,230,155.0,155.0,False,False,False,False,Arithmetic Mistake
+19,ja,7,84.0,84.0,False,False,False,False,Missing Calculation
+35,ja,23,43.0,43.0,False,False,False,False,Missing Calculation
+40,ja,18,28.97,29.0,False,False,False,False,Missing Calculation
+46,ja,104,44.0,44.0,False,False,False,False,Hallucination

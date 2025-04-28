@@ -1,0 +1,30 @@
+q_no,lang,answer_number,gen_answer,revised_answer2,is_correct,is_correct2,is_correct_rev,is_correct_rev2,ec_1
+13,en,13,12.0,12.0,False,False,False,False,Arithmetic Mistake
+13,es,13,12.0,12.0,False,False,False,False,Missing Calculation
+39,es,10,6.67,7.0,False,False,False,False,Arithmetic Mistake
+8,ja,160,80.0,2.0,False,False,False,False,Hallucination
+9,ja,45,235.0,4.0,False,False,False,False,Arithmetic Mistake
+13,ja,13,12.0,12.0,False,False,False,False,Arithmetic Mistake
+17,ja,230,460.0,460.0,False,False,False,False,Arithmetic Mistake
+19,ja,7,84.0,84.0,False,False,False,False,Missing Calculation
+35,ja,23,43.0,43.0,False,False,False,False,Missing Calculation
+40,ja,18,29.0,29.0,False,False,False,False,Missing Calculation
+44,ja,48,240.0,240.0,False,False,False,False,Missing Calculation
+46,ja,104,44.0,44.0,False,False,False,False,Missing Calculation
+8,bn,160,120.0,120.0,False,False,False,False,Hallucination
+13,bn,13,12.0,12.0,False,False,False,False,Arithmetic Mistake
+15,bn,60,55.0,55.0,False,False,False,False,Arithmetic Mistake
+30,bn,104,28.0,28.0,False,False,False,False,Missing Calculation
+46,bn,104,44.0,44.0,False,False,False,False,Hallucination
+7,te,260,320.0,320.0,False,False,False,False,Arithmetic Mistake
+13,te,13,12.0,12.0,False,False,False,False,Arithmetic Mistake
+17,te,230,150.0,790.0,False,False,False,False,Arithmetic Mistake
+29,te,25,40.0,40.0,False,False,False,False,Arithmetic Mistake
+30,te,104,71.0,71.0,False,False,False,False,Hallucination
+42,te,200,333.33,250.0,False,False,False,False,Arithmetic Mistake
+6,th,64,50.0,50.0,False,False,False,False,Arithmetic Mistake
+8,th,160,120.0,120.0,False,False,False,False,Hallucination
+9,th,45,315.0,125.0,False,False,False,False,Arithmetic Mistake
+13,th,13,12.0,12.0,False,False,False,False,Arithmetic Mistake
+17,th,230,115.0,115.0,False,False,False,False,Arithmetic Mistake
+40,th,18,36.0,4.0,False,False,False,False,Hallucination

@@ -1,0 +1,1964 @@
+q_no,lang,question,answer_number,gen_text,gen_answer,is_correct
+1,id,Bebek milik Bu Halimah bertelur 16 butir per hari. Ia makan tiga butir telur untuk sarapan setiap pagi dan memanggang muffin untuk teman-temannya setiap hari dengan empat butir telur. Ia menjual sisanya di pasar petani setiap hari seharga $2 per telur bebek segar. Berapa banyak uang yang ia hasilkan setiap hari di pasar petani?,18,"Bu Halimah memiliki 16 butir telur bebek per hari, ia menggunakan 3 untuk sarapan dan 4 untuk membuat muffin, berarti ia memiliki 16 - 3 - 4 = 9 telur untuk dijual. Jika ia menjualnya seharga $2 per butir, setiap hari ia menghasilkan $2 x 9 = **$18** di pasar petani.",18.0,True
+2,id,Sebuah jubah membutuhkan 2 gulungan serat biru dan setengah dari serat putih tersebut. Berapa jumlah gulungan yang dibutuhkan?,3,"Pertama, kita perlu mengetahui berapa jumlah serat putih yang diperlukan untuk membuat jubah ini. Kalau setiap jubah membutuhkan setengah dari serat putih, maka jika serat putih berjumlah 2 gulungan, maka cukup untuk memenuhi kebutuhan 2 jubah. Jadi, setiap jubah membutuhkan 1 gulungan serat putih.
+
+Selanjutnya, kita perlu mengkalkulasikan total gulungan yang dibutuhkan:
+- Jumlah serat biru = 2 gulungan
+- Jumlah serat putih = 1 gulungan
+
+Jumlah total gulungan serat yang dibutuhkan adalah 3 gulungan.
+
+
+**Jawaban: 3 gulungan.**",3.0,True
+3,id,Najwa memutuskan untuk mencoba menjual rumah. Ia membeli rumah seharga $80.000 dan kemudian mengeluarkan biaya perbaikan sebesar $50.000. Hal ini meningkatkan nilai rumah tersebut hingga 150%. Berapa keuntungan yang diperolehnya?,70000,"Langkah 1: Nilai rumah setelah perbaikan dapat dihitung dengan mengalikan nilai peningkatan persentase (150%) dengan biaya perbaikan ($50.000):
+150% x $50.000 = $75.000
+
+Langkah 2: Kini, kita dapat menemukan nilai total penjualan rumah dengan menambahkan nilai rumah setelah perbaikan dengan harga pembelian:
+$80.000 + $75.000 = $155.000
+
+Langkah 3: Keuntungan yang diperoleh adalah selisih antara nilai total penjualan dengan total biaya yang dikeluarkan:
+$155.000 - ($80.000 + $50.000) = $25.000
+
+Keuntungan yang diperoleh Najwa adalah **[\$25.000]**.",25.0,False
+4,id,Hasna memutuskan untuk berlari 3 kali seminggu. Ia berlari 60 meter setiap kali berlari. Berapa meter total yang ia tempuh dalam seminggu?,540,"Pertanyaan: Berapa jarak yang ditempuh oleh Hasna dalam seminggu jika ia berlari 3 kali seminggu dengan jarak 60 meter setiap kali berlari?
+
+Langkah 1: 
+Seperti yang dinyatakan dalam pertanyaan, Hasna berlari dengan jarak 60 meter setiap kali berlari dan berlari sebanyak 3 kali dalam seminggu.
+
+Langkah 2: 
+Untuk menghitung total jarak yang ditempuh dalam seminggu, kita dapat mengalikan jarak yang ditempuh dalam sekali lari dengan total lari dalam seminggu.
+
+Langkah 3: 
+60 meter x 3 lari/kali= 180 meter.
+
+Dengan demikian, total jarak yang ditempuh Hasna dalam seminggu adalah **180 meter**.",180.0,False
+5,id,"Setiap hari, Wendi memberi makan ayam-ayamnya tiga cangkir campuran pakan ayam, yang berisi biji-bijian, ulat, dan sayuran untuk membantu menjaga kesehatan mereka. Ia memberi ayam-ayamnya pakan tersebut dalam tiga kali makan terpisah. Pada pagi hari, ia memberi kawanan ayamnya 15 cangkir pakan. Pada sore hari, ia memberi ayam-ayamnya 25 cangkir pakan lagi. Berapa cangkir pakan yang perlu ia berikan pada ayam-ayamnya pada waktu makan terakhir hari itu jika jumlah kawanan ayam Wendi adalah 20 ekor ayam?",20,"Kita tahu bahwa Wendi memberi 3 cangkir pakan campuran per ayam per hari, yang berarti dalam tiga waktu makan terpisah, setiap ayam diberi 3 cangkir pakan setiap makan.
+
+Jika ada 20 ayam di peternakan Wendi, maka jumlah pakan yang diperlukan untuk satu waktu makan: 20 ayam x 3 cangkir pakan per ayam = 60 cangkir pakan.
+
+Pada pagi hari, Wendi telah memberi 15 cangkir pakan, dan sore hari 25 cangkir pakan, yang total: 15 cangkir + 25 cangkir = 40 cangkir pakan.
+
+Jadi, untuk makan malam, Wendi harus memberi: 60 cangkir (kebutuhan sehari-hari) - 40 cangkir (sudah diberikan) = 20 cangkir pakan.
+
+**Jawaban:**  Jadi, Wendi perlu memberi ayam-ayamnya 20 cangkir pakan pada makan malam hari itu.",20.0,True
+6,id,"Bilqis pergi ke toko untuk membeli gelas untuk apartemen barunya. Satu gelas harganya $5, tetapi setiap gelas kedua harganya hanya 60% dari harga tersebut. Bilqis ingin membeli 16 gelas. Berapa harga yang harus ia bayar untuk gelas-gelas tersebut?",64,"Untuk mempermudah analisis, marilah kita asumsikan gelas bernama *Gelas Pertama* dan *Gelas Kedua*.
+
+*Gelas Pertama* dihargai sekitar $5 dan *Gelas Kedua* dihargai sekitar $5 x 60% = $3.
+
+Jika Bilqis membeli 16 gelas, dia akan membeli 8 *Gelas Pertama* dan 8 *Gelas Kedua*.
+
+Harga dari 8 *Gelas Pertama* adalah $40 (8 x $5 = $40) dan 8 *Gelas Kedua* adalah $24 (8 x $3 = $24).
+
+Maka Bilqis harus membayar jumlah sebesar **[$64]** (Harga 8 *Gelas Pertama* dan 8 *Gelas Kedua* merupakan 16 gelas).
+
+Apakah Anda memiliki pertanyaan lainnya?",16.0,False
+7,id,"Tomi memiliki domba dua kali lebih banyak daripada Karni. Karni memiliki domba 4 kali lebih banyak daripada Seattle. Berapa banyak domba yang dimiliki Tomi, Karni, dan Seattle jika Seattle memiliki 20 domba?",260,"Jawaban: Jumlah domba yang dimiliki Tomi adalah 160. Di sinilah dia adalah rumus perhitungan untuk mendapatkan jawaban dari jumlah domba yang dimiliki Tomi:
+Domba Tomi = 2 x 4 x 20 = 160
+
+Jumlah domba yang dimiliki oleh Karni adalah 80. Berikut ini adalah rumus perhitungannya:
+Domba Karni = 4 x 20 = 80
+
+Sedangkan, jumlah domba yang dimiliki oleh Seattle adalah 20.
+
+Jadi, jawaban akhir dari permasalahan ini adalah: Tomi memiliki 160 domba, Karni memiliki 80 domba, dan Seattle memiliki 20 domba.",20.0,False
+8,id,"Rama mengunduh berkas berukuran 200 GB. Biasanya ia dapat mengunduh 2 GB/menit, tetapi setelah 40% proses pengunduhan, Windows memaksa memulai ulang untuk memasang pembaruan, yang memakan waktu 20 menit. Kemudian Rama harus memulai ulang pengunduhan dari awal. Berapa lama waktu yang dibutuhkan untuk mengunduh berkas tersebut?",160,"Tahap pertama, sebelum proses unduh terpotong, dapat dihitung sebagai:
+
+> 40% dari 200 GB = 80 GB.
+> Perlu diketahui, sebelum Windows meminta Rama melakukan restart saat mengunduh, kecepatan unduh 2 GB per menit.
+> 80 GB unduh dibagi 2 GB per menit = 40 menit.
+
+Maka, waktu yang dihabiskan untuk melakukan pengunduhan pertama adalah 40 menit.
+
+Tahap kedua, saat melakukan pengunduhan ulang. Waktu yang dihabiskan sama dengan waktu yang digunakan saat pertama kali mengunduh berkas yang diunduhnya sama dengan 80%:
+
+> Perlu diketahui, Rama harus menyelesaikan pengunduhan sebesar 120% (100% + 20% yang belum sempat diunduh pada tahap pertama).
+> 120% dari 200 GB = 240 GB.
+> 240 GB unduh dibagi 2 GB per menit = 120 menit.
+> Ditambah 20 menit yang tadi digunakan untuk restart instal pembaruan Windows.
+> Jadi, waktu yang diperlukan untuk mengunduh ulang hingga selesai sebesar **240 menit.**",240.0,False
+9,id,"Bagas mengemudi selama 3 jam dengan kecepatan 60 mph dan kemudian berbalik karena ia menyadari bahwa ia lupa membawa sesuatu yang sangat penting di rumah. Ia mencoba untuk sampai di rumah dalam waktu 4 jam tetapi menghabiskan 2 jam pertama dalam kemacetan lalu lintas. Ia menghabiskan setengah jam berikutnya dengan mengemudi dengan kecepatan 30 mph, sebelum dapat mengemudikan sisa waktu selama 4 jam dengan kecepatan 80 mph. Berapa jauh ia dari rumah pada akhir 4 jam tersebut?",45,"Yuk kita pecahkan soal pemecahan masalah ini secara bertahap:
+
+Selama 3 jam pertama, Bagas mengemudi:
+3 jam * 60 mph = 180 mil
+
+Saat ia kembali, ia terjebak macet dan ia mengemudi hanya 30 mph selama setengah jam:
+0.5 jam * 30 mph = 15 mil
+
+Oleh karena, setelah 3,5 jam, ia telah menempuh jarak sejauh:
+180 + 15 = 195 mil
+
+Untuk sisa 3,5 jam, ia menjangkau:
+3,5 jam * 80 mph = 280 mil
+
+Oleh sebab itu, setelah 7 jam total, ia telah menjangkau 280 mil dari rumah. 
+
+Jadi, Bagas berjarak **280 mil** dari rumah pada akhir ke empat jam.",280.0,False
+10,id,"Gaji Elisa per jam untuk 40 jam pertama yang ia kerjakan setiap minggu adalah $10. Ia juga menerima upah lembur sebesar 1,2 kali lipat dari gaji per jamnya yang biasa. Jika Elisa bekerja selama 45 jam minggu ini, berapa penghasilannya untuk minggu ini?",460,"**Langkah Pertama**: 
+   Berdasarkan informasi yang diberikan, kita bisa menghitung sebagai berikut:
+   - Penghasilan biasa (40 jam pertama) = $10/jam x 40 jam = $400
+   - Gaji per jam untuk lembur = 1,2 x $10/jam = $12/jam
+   - Penghasilan lembur (5 jam) = $12/jam x 5 jam = $60
+
+**Langkah Kedua**: 
+   Kini kita dapat menghitung total penghasilan Elisa untuk minggu ini:
+   - Total Penghasilan = Penghasilan biasa + Penghasilan lembur = $400 + $60 = $460
+
+**Jawaban**: Elisa akan menerima **$460** untuk pekerjaannya minggu ini.",460.0,True
+11,id,"Suatu program baru diunduh sebanyak 60 kali pada bulan pertama. Jumlah unduhan pada bulan kedua tiga kali lebih banyak daripada unduhan pada bulan pertama, tetapi kemudian berkurang 30% pada bulan ketiga. Berapa total unduhan program tersebut selama tiga bulan?",366,"Pada bulan pertama, jumlah unduhan adalah 60.
+
+Pada bulan kedua, jumlah unduhan tiga kali lebih banyak daripada bulan pertama, yaitu 3 * 60 = 180.
+
+Pada bulan ketiga, jumlah unduhan berkurang 30% dari bulan kedua. Maka unduhan pada bulan ketiga adalah: 180 - (30/100) * 180 = 126.
+
+Total unduhan selama tiga bulan = 60 + 180 + 126 = 366 unduhan.
+
+**Jadi, total unduhan selama tiga bulan adalah 366 kali.**",366.0,True
+12,id,"Ahmad pergi ke toko roti dan membeli berbagai jenis kue kering. Ia membeli 3 lusin donat seharga $68 per lusin, 2 lusin cupcake mini seharga $80 per lusin, dan 6 lusin kue keju mini seharga $55 per lusin. Berapa total biayanya?",694,"Total biaya yang dikeluarkan Ahmad untuk kue kering dapat kita hitung sebagai berikut:
+
+Untuk donat:
+3 lusin x $68/lusin = $204
+
+Untuk cupcake mini:
+2 lusin x $80/lusin = $160
+
+Untuk kue keju mini:
+6 lusin x $55/lusin = $330
+
+Sekarang kitajumlahkan:
+$204 + $160 + $330 = $694
+
+Jadi, total biaya yang Ahmad keluarkan adalah **$694**.",694.0,True
+13,id,"Soni menanam pohon lemon. Biaya penanaman pohon tersebut adalah $90. Setiap tahun pohon tersebut akan menghasilkan 7 lemon, yang dapat dijualnya seharga $1,5 setiap pohon. Biaya yang dikeluarkan untuk menyiram dan memberi makan pohon tersebut adalah $3 per tahun. Berapa tahun yang dibutuhkan sebelum ia mulai menghasilkan uang dari pohon lemon tersebut?",13,"Untuk menghitung berapa tahun sebelum pohon lemon Soni menghasilkan uang, kita harus membandingkan pendapatan dari penjualan lemon dengan biaya penanaman dan pemeliharaan.
+
+Pendapatan:
+Harga jual lemon per tahun = $1,5 x 7 lemon = $10,5
+
+Biaya:
+Biaya penanaman = $90
+Biaya pemeliharaan per tahun = $3
+
+Sekarang, mari kita hitung berapa tahun yang dibutuhkan untuk menutupi biaya:
+($90 biaya penanaman + $3 biaya pemeliharaan tahunan) / $10,5 pendapatan tahunan dari lemon = 8,6 tahun.
+
+Jadi, Soni membutuhkan setidaknya **8,6 tahun** sebelum pohon lemonnya menghasilkan uang, dengan asumsi harga jual lemon dan biaya tetap sama setiap tahun.",6.0,False
+14,id,"Lina adalah seorang pramuniaga keliling. Dia menjual sepertiga penyedot debunya di rumah kaca, 2 lagi ke rumah merah, dan setengahnya lagi ke rumah oranye. Jika Lina memiliki 5 penyedot debu tersisa, berapa banyak yang dia miliki saat memulai?",18,"Kita akan mencari satu persatu rumah yang dikunjungi Lina dan jumlah penyedot debu yang ia jual:
+
+- Di rumah kaca: 5 / 3 = 1,66, dibulatkan menjadi 2 penyedot debu ( daría 3, tetapi ia hanya memiliki 5, jadi tidak mungkin menjualnya sebanyak itu).
+- Di rumah merah (keduanya): 2 penyedot debu.
+- Di rumah oranye: 5 / 2 = 2,5, dibulatkan menjadi 3 penyedot debu.
+
+Jumlah total yang terjual adalah: 2 + 2 + 3 = 7.
+
+Jika Lina masih memiliki 5 tersisa, jumlah awalnya adalah 5 + 7 = 12.
+
+**Jadi, Lina memiliki 12 penyedot debu saat memulai.**",12.0,False
+15,id,"Dalam kelas tari yang beranggotakan 20 siswa, 20% mendaftar di kelas tari kontemporer, 25% sisanya mendaftar di kelas tari jazz, dan sisanya mendaftar di kelas tari hip-hop. Berapa persentase seluruh siswa yang mendaftar di kelas tari hip-hop?",60,"Kita perlu menghitung jumlah siswa di kelas tari kontemporer dan jazz terlebih dahulu.
+
+20% dari total 20 siswa mendaftar di kelas tari kontemporer: 20 x 0.20 = 4 siswa.
+
+Selanjutnya, 25% dari total 20 siswa mendaftar di kelas tari jazz: 20 x 0.25 = 5 siswa.
+
+Sekarang kita tahu bahwa 4 + 5 = 9 siswa mendaftar di kelas kontemporer dan jazz. Itu berarti 20 - 9 = 11 siswa mendaftar di kelas tari hip-hop.
+
+Untuk menemukan persentasenya, kita hitung jumlah siswa yang mendaftar di kelas tari hip-hop dibagi dengan total siswa, yakni: 11/20 = 0,55, lalu kalikan dengan 100 untuk mendapatkan persentasenya, yaitu 55%.
+
+Jadi, **{::}55%{::}** dari seluruh siswa mendaftar di kelas tari hip-hop.",55.0,False
+16,id,"Seorang pedagang ingin memilih antara 2 rencana pembelian: perhiasan senilai $5.000 atau gadget elektronik senilai $8.000. Penasihat keuangannya memperkirakan bahwa pasar perhiasan akan naik 2,5% sementara pasar gadget elektronik akan naik 1,2% dalam bulan yang sama. Jika pedagang tersebut ingin memaksimalkan laba di akhir bulan ini dengan membuat pilihan, berapa laba yang akan diperolehnya?",125,"Saat kita mempertimbangkan dua pilihan yang ditawarkan kepada pedagang, penting untuk memperkirakan keuntungan dengan kemungkinan perubahan pasar untuk setiap pilihan. 
+
+Untuk rencana pembelian perhiasan: 
+- Harga awal perhiasan: $5.000 
+- Perkiraan kenaikan pasar: 2,5% 
+- Laba diproyeksikan: 2,5% dari $5.000 = $125 
+
+Oleh karena itu, jika ia memilih perhiasan, pada akhir bulan dia diharapkan mendapatkan laba sebesar **[$125]** berdasarkan proyeksi penasihat keuangannya. 
+
+Sekarang, mari kita telusuri rencana pembelian gadget elektronik: 
+- Harga awal gadget elektronik: $8.000 
+- Perkiraan kenaikan pasar: 1,2% 
+- Laba diproyeksikan: 1,2% dari $8.000 = $96 
+
+Jika pedagang memilih opsi gadget elektronik, labanya akan diproyeksikan mencapai **[$96]** pada akhir bulan. 
+
+Dengan demikian, untuk memaksimalkan keuntungannya, pedagang tersebut disarankan untuk memilih perhiasan, menghasilkan $125 laba. 
+
+**[$125]**",125.0,True
+17,id,"Dua kereta berangkat dari Bandung pada waktu yang sama. Mereka mulai bergerak ke arah barat, keduanya menempuh jarak 80 mil. Keesokan harinya, mereka bergerak ke utara, menempuh jarak 150 mil. Berapa jarak yang ditempuh masing-masing kereta dalam dua hari tersebut?",230,"# Solusi
+Kita dapat menggunakan konsep bentuk geometri dasar untuk menghitung jarak yang ditempuh oleh kedua kereta tersebut. Selama dua hari, gerakan mereka membentuk dua sisi dari sebuah persegi panjang.
+
+# Ilustrasi
+Dua sisi persegi panjang akan memiliki panjang 80 mil dan 150 mil.
+
+![Kotak dengan sisi 150 dan 80; terdapat panah ke kiri dan atas dari sudut kanan bawah, menandakan arah bergerak/kemajuan kedua kereta.](https://chat-vector-thumbnail.s3.us-east-2.amazonaws.com/screen-shot-2024-01-11-at-16-28-05-ductility+a+long+bar-e9f4a4f3-79ab-4dfe-a79f-a94248aa7942.png)
+
+# Perhitungan
+Jarak yang ditempuh oleh masing-masing kereta adalah jumlah kedua sisi tersebut.
+1. **Jarak** = 80+150
+2. Jarak = 230 mil
+
+Maka, jarak yang ditempuh masing-masing kereta adalah **230 mil**.",230.0,True
+18,id,"Johan dibayar $20 per jam untuk mengajar dan $30 untuk menjadi pelatih pemandu sorak. Jika dia bekerja 50 minggu setahun, 35 jam seminggu sebagai guru dan 15 jam seminggu sebagai pelatih, berapa gaji tahunannya?",57500,"Kita memiliki nilai sebagai berikut:
+- Upah Johan per jam sebagai pengajar: $20
+- Upah Johan per jam sebagai pelatih pemandu sorak: $30
+
+Mari kita hitung besarnya uang yang ia terima per minggu dari pekerjaan sebagai pengajar dan pelatih terlebih dahulu:
+1. Penghasilan per minggu sebagai pengajar: $20 per jam * 35 jam per minggu = $700 per minggu
+2. Penghasilan per minggu sebagai pelatih pemandu sorak: $30 per jam * 15 jam per minggu = $450 per minggu
+
+Penghasilan per minggunya adalah $700 + $450 = $1150.
+
+Karena Johan bekerja 50 minggu dalam setahun, maka gajinya setahun adalah $1150 per minggu * 50 minggu = $57.500 per tahun.
+
+Maka, ** Johan adalah **$57.500** per tahun.",57.5,False
+19,id,Sintya membuat telur dadar dengan 3 butir telur setiap pagi untuk sarapan. Berapa lusin telur yang akan ia makan dalam 4 minggu?,7,"Kita kalikan dulu jumlah makanan Sintya per hari dengan jumlah hari dalam sebulan. Itu akan menjadi:
+
+(3 butir telur * 7 hari) * 4 minggu = 84 butir telur per bulan
+
+Karena ada 12 butir telur dalam satu lusin, kita akan membagi jawaban sebelumnya dengan 12 untuk mengetahui berapa banyak lusin yang dikonsumsi:
+
+84 butir telur / 12 butir per lusin = 7 lusin
+
+Jadi, **Sintya akan memakan 7 lusin telur dalam sebulan**.",7.0,True
+20,id,"Memei sedang mendaki jalan setapak sepanjang 12 mil. Ia membutuhkan waktu 1 jam untuk berjalan sejauh 4 mil pertama, kemudian satu jam lagi untuk berjalan sejauh dua mil berikutnya. Jika ia ingin kecepatan rata-ratanya menjadi 4 mil per jam, berapa kecepatan (dalam mil per jam) yang ia perlukan untuk berjalan sejauh yang tersisa?",6,"Langkah pertama adalah mencari tahu berapa lama waktu yang telah dihabiskan Memei:
+
+> 1 jam + 1 jam = 2 jam
+
+Setelah itu, mencari tahu jarak yang telah ditempuh Memei:
+
+> 4 mil + 2 mil = 6 mil
+
+Kita dapat menghitung kecepatan rata-ratanya dengan menggunakan rumus Kecepatan = Jarak / Waktu:
+
+> 6 mil / 2 jam = 3 mil per jam
+
+Untuk mendapatkan kecepatan rata-rata 4 mil per jam, Memei harus berjalan sejauh 12 mil dalam waktu 3 jam. Dengan informasi yang diberikan, kita tahu bahwa Memei telah berjalan selama 2 jam. sehingga Memei memiliki 3 jam - 2 jam = 1 jam lagi untuk berjalan.
+
+Jika Memei ingin mencapai kecepatan rata-rata 4 mil per jam, ia harus berjalan sejauh 6 mil dalam waktu 1 jam ini. Jadi, kecepatannya untuk berjalan sejauh tersisa adalah:
+
+> 6 mil / 1 jam = 6 mil per jam
+
+Jadi, kecepatan yang diperlukan Memei untuk berjalan sejauh yang tersisa adalah **6 mil per jam**.",6.0,True
+21,id,"Saya punya 10 liter minuman jeruk yang dua pertiganya air dan saya ingin menambahkannya ke 15 liter minuman nanas yang tiga per limanya air. Namun saat saya menuangkannya, saya menumpahkan satu liter minuman jeruk. Berapa banyak air dalam 24 liter sisanya?",15,"Langkah 1: Pada awalnya, minuman jeruk dua pertiganya adalah air, yang berarti sepertiga adalah jus, dan ada \frac{1}{3} * 10 = 3,33 liter jus jeruk. Saat Anda menambahkan jus jeruk ke minuman nanas, Anda menumpahkan satu liter, sehingga 2 liter ditambahkan.
+
+Langkah 2: Minuman nanas awalnya memiliki \frac{3}{5} * 15 = 9 liter air, dan sekarang, setelah penambahan, memiliki 2 liter jus jeruk. Sehingga, kombinasi keduanya telah 9 + 2 = 11 liter cairan.
+
+Langkah 3: Kini Anda memiliki 24 liter minuman dengan 11 liter cairan. Adapun sisa 13 liter adalah air yang ditambahkan belakangan. 
+
+Jawaban: Air dalam 24 liter sisanya adalah **13 liter**.",13.0,False
+22,id,"Rendi dan Farid adalah sepupu. Rendi lahir 6 tahun sebelum Farid. Rendi memiliki seorang putra pada usia 23 tahun. Jika Farid sekarang berusia 31 tahun, berapa tahun yang lalu putra Rendi lahir?",14,"Inibukan tugas mudah, jadi perlu kita petakan agar lebih mudah dipahami dan diselesaikan.
+
+Dari soal, diketahui:
+- Age of Rendi = Age of Farid + 6
+- Rendi's son was born when Rendi was 23 years old.
+- Farid is 31 years old now.
+
+1. Selesaikan berumur berapa tahun Rendi sekarang.
+Age of Rendi = Age of Farid + 6
+Rendi's Age = 31 years + 6 years = 37 years
+
+2. Setelah itu, cari menjawab pada berapa tahun lalu ketika Rendi, 23 tahun.
+Sekarang Rendi berusia 37 tahun, berarti jumlah tahun terlewat sejak itu adalah 37 tahun - 23 tahun = 14 tahun
+
+Oleh karena itu, Putra Rendi lahir **14 tahun** lalu.",14.0,True
+23,id,Kevin menjual DVD. Ia memiliki 8 pelanggan pada hari Selasa. 3 pelanggan pertamanya masing-masing membeli satu DVD. 2 pelanggan berikutnya masing-masing membeli 2 DVD. 3 pelanggan terakhirnya tidak membeli DVD apa pun. Berapa banyak DVD yang dijual Kevin pada hari Selasa?,7,"Pelanggan pertama, kedua, dan ketiga Kevin masing-masing membeli: 1 DVD + 1 DVD + 1 DVD = 3 DVD.
+
+Lalu, pelanggan keempat dan kelima membeli: 2 DVD + 2 DVD = 4 DVD.
+
+Total DVD yang terjual pada hari Selasa adalah 3 + 4 = **7 DVD**.",7.0,True
+24,id,Lilin mencair 2 sentimeter setiap jam selama ia menyala. Berapa sentimeter lebih pendekkah lilin setelah menyala dari pukul 1:00 siang hingga pukul 5:00 sore?,8,"Lilin menyala selama 5 - 1 = 4 jam.
+Jika lilin mencair 2 sentimeter setiap jam selama 4 jam, maka lilin berkurang 2 x 4 = **8 sentimeter**.",8.0,True
+25,id,"Titi membeli buku terlaris tahun lalu seharga $19,50. Harga ini didiskon 25% dari harga aslinya. Berapa harga asli buku tersebut?",26,"Mari kita pecahkan masalahnya dengan pertama-tama mendefinisikan berapa harga buku itu dengan $x$. Mereka meny鄰近kan harga buku itu, dan kita tahu bahwa ada diskon 25% dari $x$. Ini berarti bahwa harga saat ini adalah 0,75x, atau 75% dari $x$. Jadi, persamaan ini bisa diselesaikan sebagai berikut:
+
+$$
+\begin{equation*}
+0,75x = \text{\textdollar}19,50 \, .
+\end{equation*}
+$$
+
+Untuk menemukan $x$, $0,75$ harus dibagi ke $19,50$. Hal ini dapat dicapai dengan cara memperbanyak $19,50$ dengan pecahan $1/0.75$. Cari pecahan yang apabila dikalikan dengan pecahan lainnya akan menghasilkan satu, yaitu pecahan balik:
+
+$$
+\begin{equation*}
+0,75 \cdot \frac{4}{3} = \frac{3}{4} \cdot \frac{4}{3} = \frac{3 \cdot 4}{4 \cdot 3} = 1 \, .
+\end{equation*}
+$$
+
+Mengalikan $19,50$ dengan pecahan balik:
+
+$$
+\begin{align*}
+\frac{19,50}{0,75} &= \frac{19,50}{0,75} \cdot \frac{4}{3} \\
+&= 26 \, .
+\end{align*} $$
+
+Jadi harga asli dari buku tersebut adalah **\textdollar 26**.",26.0,True
+26,id,"Yuki memesan satu porsi ayam seharga $12, 5 bungkus susu seharga $3 masing-masing, 4 buah apel seharga $1,50 masing-masing, dan beberapa kotak pizza. Yuki membayar total $50. Berapa banyak kotak pizza yang dipesan Yuki jika setiap kotak harganya $8,50?",2,"**1. Inilah data berikut:**
+
+- Ayam: $12
+- Susu: 5 bungkus, masing-masing seharga $3
+- Apel: 4 buah, masing-masing seharga $1,50
+- Pizza: $8,50 per kotak
+
+**2. Kita akan telusuri langkah pertama yang bisa dilakukan:**
+
+Pertama-tama, kita akan cari total harga susu dan apel:
+
+- Susu: 5 x $3 = $15
+- Apel: 4 x $1,50 = $6
+
+**3. Yuk, lanjut ke langkah berikutnya:**
+
+Kini mari kita jumlahkan harga ayam, susu dan apel:
+
+$12 + $15 + $6 = $33
+
+**4. Berikutnya, kita akan kalkulasikan biaya keseluruhan:**
+
+Total harga belanjaan Yuki adalah $50, sehingga harga kotak pizza bisa dihitung dengan menarik biaya ketiganya:
+
+$50 - $33 = $17
+
+**5. Mari kita lihat tahapan akhir yang harus diambil untuk mendapatkan jawaban:**
+
+Jika masing-masing kotak pizza seharga $8,50, jumlah kotak pizza bisa kita dapatkan dengan membagikan total biaya dengan harganya:
+
+$17 : $8,50 = 2
+
+Yuki memesan **dua** kotak pizza.",2.0,True
+27,id,"Setyo membeli 3 pasang celana pendek, 3 pasang celana panjang, dan 3 pasang sepatu. Sepasang celana pendek harganya $16,50. Sepasang celana panjang harganya $22,50 dan sepasang sepatu harganya $42. Berapa dolar yang dihabiskan Setyo untuk semua jenis pakaian tersebut?",243,"For each type of clothing, we can calculate the total cost as follows:
+
+**Celana Pendek:**
+- Harga per pasang: $16,50
+- Jumlah pasang: 3
+- Total harga celana pendek: 3 × $16,50 = $49,50
+
+**Celana Panjang:**
+- Harga per pasang: $22,50
+- Jumlah pasang: 3
+- Total harga celana panjang: 3 × $22,50 = $67,50
+
+**Sepatu:**
+- Harga per pasang: $42,00
+- Jumlah pasang: 3
+- Total harga sepatu: 3 × $42,00 = $126,00
+
+Now, we can calculate the total amount spent by adding up the totals for each type of clothing:
+
+- Total amount = $49,50 + $67,50 + $126,00 = $243,00
+
+So, the total amount Setyo spent on all these types of clothing is **$243,00**.",0.0,False
+28,id,"Syifa makan satu porsi es krim setiap malam. Ia membeli karton es krim berisi 15 porsi es krim per karton dengan biaya $4,00 per karton. Setelah 60 hari, berapa banyak yang akan ia belanjakan untuk membeli es krim?",16,"Syifa memakan satu porsi es krim setiap malam, dan setiap karton berisi 15 porsi, jadi setiap karton akan bertahan 15 malam.
+
+Setelah 60 hari, ia akan membutuhkan 4 karton, karena ada $60 \div 15 \approx 4$ .
+
+Setiap karton seharga $4,00, jadi ia akan menghabiskan $4,00 \cdot 4 = \boxed{16,00\text{ dollar}}$ .",1600.0,False
+29,id,Hendra berhenti dua kali selama perjalanan bersepeda sejauh 60 mil. Ia berhenti pertama setelah 20 mil. Pemberhentian keduanya adalah 15 mil sebelum akhir perjalanan. Berapa mil yang ia tempuh antara pemberhentian pertama dan kedua?,25,"Hendra bersepeda selama 60 mil dan pertama berhenti setelah 20 mil. Artinya, ia bersepeda 20 mil antara awal perjalanan dan pemberhentian pertama.
+
+Hendra kemudian bersepeda setelah pemberhentian pertamanya hingga 15 mil sebelum akhirnya berhenti lagi. Untuk mengetahui jarak antara kedua pemberhentian, maka dapat ditulis dalam bentuk persamaan sebagai berikut:
+x + 15 = 60
+
+Di mana x menyatakan jarak tempuh Hendra sebelum ia melakukan pemberhentian yang kedua. maka solusinya adalah:
+x + 15 = 60
+x = 60 - 15
+x = 45
+
+Karena Hendra berhenti pertama ketika jarak tempuhnya 20 mil dan ia bersepeda selama 45 mil hingga pemberhentian keduanya, maka jarak antara kedua pemberhentian tersebut adalah 45 - 20 = 25 mil.
+
+Oleh sebab itu, mil yang ia tempuh antara pemberhentian pertama dan kedua adalah **25 mil**.",25.0,True
+30,id,"Agus sedang berbelanja sepatu ketika ia menemukan sepasang sepatu bot yang sesuai dengan anggarannya. Namun, ia harus memilih antara sepatu bot dan dua pasang sepatu hak tinggi yang jika ditotal harganya lima dolar lebih murah daripada sepatu bot itu sendiri. Jika sepasang sepatu hak tinggi harganya $33 dan yang lainnya harganya dua kali lipat, berapa harga sepatu bot itu?",104,"Kita harus menentukan harga dua pasang sepatu hak tinggi sebelum dapat menemukan harga sepatu bot. Dari pertanyaan tersebut, diketahui bahwa sepatu hak tinggi yang pertama harganya $33. Sementara itu, sepatu hak tinggi yang lain ""harganya dua kali lipat"", sehingga harganya $33 x 2 = $66. Jadi, total harga kedua sepatu hak tinggi itu $33 + $66 = $99. 
+
+Sepatu bot harganya lima dolar lebih mahal daripada itu, jadi harganya $99 + $5 = $104.
+
+Sekarang, kita sudah menemukan jawabannya, tetapi mari kita pikirkan ulang:
+- Sepatu bot dan dua pasang sepatu hak tinggi harganya berbeda lima dolar. Jika harga sepatu bot itu dikurangi, harga sepatu hak tingginya sama.
+- $104 - $5 = $99
+
+
+Jadi, **harga sepatu botnya $104**.",104.0,True
+31,id,"Perbandingan usia Dani dan Angga adalah 7:11. Jika total usia mereka sekarang adalah 162, hitunglah usia Angga 10 tahun dari sekarang.",109,"Untuk mencari usia Angga, kita mulai dengan mencari variabel-variabel usia Dani ($u_D$) dan Angga ($u_A$) saat ini.
+
+Kita dapat membuat persamaan berdasarkan informasi tentang total usia mereka.
+
+$$
+\begin{equation*}
+    u_D + u_A = 162
+\end{equation*}
+$$
+
+Dari informasi tentang perbandingan usia mereka, kita dapat membuat persamaan lain.
+
+$$
+\begin{equation*}
+    \frac{u_D}{u_A} = \frac{7}{11}
+\end{equation*}
+$$
+
+Dari kedua persamaan ini, kita bisa menyelesaikan variabel usia Dani ($u_D$) dan Angga ($u_A$) saat ini. 
+
+Dari persamaan kedua, kita dapat menemukan nilai dari salah satu variabel, misalnya usia Dani ($u_D$).
+
+$$
+\begin{align*}
+    u_D & = \frac{7}{11} \cdot u_A \\\\
+    \frac{u_D}{7} & = \frac{u_A}{11}
+\end{align*}
+$$
+
+Selanjutnya, kita dapat melakukan subtitusi variabel ke persamaan pertama.
+
+$$
+\begin{align*}
+    \frac{7}{11} \cdot u_A + u_A & = 162 \\\\
+    11 \cdot u_A + 7 \cdot u_A & = 11 \cdot 162 \\\\
+    18 \cdot u_A & = 1782 \\\\
+    u_A & = \frac{1782}{18} \\\\
+    u_A & = 99
+\end{align*}
+$$
+
+Dengan demikian usia Angga ($u_A$) sekarang adalah **$99$ tahun**.
+
+Jika ditanyakan tentang usia Angga 10 tahun dari sekarang, maka kita tinggal menambahkan dengan $10$. Anggap usia Angga saat ini adalah variabel $u_A$, maka usia Angga nanti adalah $u_A + 10$. 
+
+Jadi, usia Angga 10 tahun dari sekarang adalah **$\boxed{109}$**.",109.0,True
+32,id,Rafi mencoba menghitung kacang jeli dalam toples. Ia bertanya kepada teman-temannya berapa jumlah yang mereka kira ada di dalam toples. Satu orang menjawab 80. Yang lain menjawab 20 lebih banyak dari setengah toples pertama. Yang ketiga menjawab 25% lebih banyak dari toples pertama. Berapa perkiraan rata-rata mereka?,80,"Step 1: Pertama, mari kita hitung jawaban setiap orang:
+- orang pertama: 80 kacang
+- orang kedua: setengah dari 80 adalah 40, jadi 20 lebih banyak berarti 40 + 20 = 60 kacang
+- orang ketiga: 25% dari 80 adalah 20, jadi 25% lebih banyak berarti 80 + 20 = 100 kacang
+
+Step 2: Selanjutnya, kita hitung jumlah keseluruhan jawaban mereka: 80 + 60 + 100 = 240
+
+Step 3: Untuk mencari rata-ratanya, bagi hasil jumlah atas pertanyaan: 240/3 = 80
+
+Jadi, perkiraan rata-rata teman-teman Rafi adalah **80 kacang jeli**.",80.0,True
+33,id,"Bagas mengurus 10 ekor anjing. Setiap anjing menghabiskan waktu 0,5 jam sehari untuk berjalan-jalan dan mengurusi kotorannya. Berapa jam seminggu ia habiskan untuk mengurus anjing-anjing tersebut?",35,"Untuk menghitung jumlah total jam yang dihabiskan Bagas untuk mengurus anjing-anjingnya setiap minggu, mari kita berjalan melalui langkah-langkahnya:
+
+Langkah 1: Setiap anjing membutuhkan 0,5 jam setiap hari, sehingga dalam seminggu (7 hari) setiap anjing membutuhkan 0,5 jam/hari x 7 hari = 3,5 jam.
+
+Langkah 2: Dengan 10 ekor anjing, Bagas membutuhkan 3,5 jam/minggu/anjing x 10 anjing = 35 jam.
+
+Jadi, Bagas menghabiskan **35 jam seminggu** untuk mengurus anjing-anjing tersebut.",35.0,True
+34,id,Umar memiliki 110 koin. Jumlah koin emasnya 30 lebih banyak daripada koin peraknya. Berapa banyak koin emas yang dimiliki Umar?,70,"Koin peraknya berjumlah 110 - 30 = 80.
+                    Jadi, koin emasnya jumlahnya 80 + 30 = **[110]**.",110.0,False
+35,id,"Sandi memiliki 2 permata lebih sedikit daripada Aaron. Aaron memiliki 5 permata lebih banyak daripada separuh permata Rendi. Jika Rendi memiliki 40 permata, berapa banyak permata yang dimiliki Sandi?",23,"Kita perlu berpikir terstruktur dan tentukan nilai-nilai dalam langkahnya demi mendapatkan solusi yang logis dan akurat untuk persoalan ini.
+
+Selangkah persatu kita lihat:
+
+Rendi memiliki 40 permata.
+
+Aaron memiliki 5 permata lebih banyak daripada separuh permata Rendi, yaitu separuh dari 40: 40/2 = 20, tambah 5: 20 + 5 = 25. Jadi Aaron memiliki 25 permata.
+
+Sandi memiliki 2 permata lebih sedikit daripada Aaron,
+maka: 25 - 2 = 23.
+
+Artinya Sandi memiliki **23 permata**.",23.0,True
+36,id,"Akbar bermain pingpong selama 40 menit. Dalam 20 menit pertama, ia mencetak 4 poin. Dalam 20 menit kedua, ia mencetak 25% lebih banyak poin. Berapa total poin yang ia cetak?",9,"Step 1: Pada 20 menit pertama, Akbar mencetak 4 poin.
+Step 2: Pada 20 menit kedua, ia mencetak 25% lebih banyak, yaitu 25% x 4 = 1 poin tambahan.
+Step 3: Jadi, dalam 20 menit kedua, ia mencetak 4 poin + 1 poin = 5 poin.
+Step 4: Oleh karena itu, dalam 40 menit tersebut, total poin yang dicetak oleh Akbar adalah 4 poin + 5 poin = **9 poin**.
+
+The final answer is **9 poin**.",9.0,True
+37,id,"Tukimin makan 2 yogurt sehari. Saat ini dijual dengan harga 4 yogurt seharga $5,00. Berapa banyak yang ia belanjakan untuk yogurt selama 30 hari?",75,"Step 1: Pertama, kita akan menghitung pengeluaran Tukimin untuk yogurt per hari: $5,00 / 4 = $1,25 per hari (harga untuk 1 yoghurt)
+
+Step 2: Sekarang kita akan menghitung total belanjaan Tukimin untuk yoghurt selama 30 hari: 
+$1,25 x 2 = $2,50 per hari (pengeluaran untuk 2 yoghurt)
+$2,50 x 30 = $75,00
+
+Dengan demikian, Tukimin membelanjakan **$75,00** untuk yoghurt selama 30 hari.",30.0,False
+38,id,Bagas berencana menjual semua mainannya dan menggunakan uangnya untuk membeli video game. Ia memiliki 13 set lego dan menjualnya seharga $15 masing-masing. Ia akhirnya membeli 8 video game seharga $20 masing-masing dan masih memiliki sisa $5. Berapa banyak set lego yang masih ia miliki?,2,"Ia menjual 13 set lego seharga $15 dollar masing-masing, sehingga ia mendapatkan: 
+13 x $15 = $195
+
+Ia membeli video game seharga total $20 x 8 = $160
+
+Setelah membeli, ia memiliki sisa: $195 - $160 = $35
+
+Namun, setelah berbelanja, ia masih memiliki $5 tersisa seperti yang disebutkan dalam pertanyaan. Jadi, sisanya digunakan untuk keperluan lain adalah: $35 - $5 = $30
+
+Jika setiap set LEGO yang dijualnya seharga $15, maka dengan uang sebanyak $30, dia bisa membeli 2 set lego ($30 / $15 = 2)
+
+Oleh karena itu, sisa set lego yang belum ia jual adalah **\boxed{2}**.",2.0,True
+39,id,Bagas berlari sejauh 60 mil seminggu. Ia berlari 3 hari seminggu. Ia berlari 3 jam pada hari pertama dan setengahnya pada dua hari berikutnya. Seberapa cepat ia berlari?,10,"Pertama, kita cari tahu berapa mil ia berlari di hari kedua dan ketiga. Ia berlari sejauh setengah dari hari pertama, jadi sejauh 3/2 = **1,5 jam** pada hari kedua dan ketiga. Jika jarak total yang ia tempuh adalah 60 mil, dan ia berlari selama 3 jam di hari pertama serta 1,5 jam di hari kedua dan ketiga, berapa mil per jam kecepatan larinya?
+
+Jumlah jam total yang digunakan adalah: **3 + 1,5 + 1,5 = 6 jam**.
+
+Sehingga, kecepatan Bagas berlari adalah: 60/6 = **10 mpj**.
+
+Jadi, kecepatan Bagas berlari adalah **10 mpj**.",10.0,True
+40,id,"Desi dapat berlari dengan kecepatan empat kali lebih cepat daripada berjalan, tetapi ia dapat melompat dengan kecepatan setengah dari kecepatan larinya. Jika ia dapat melompat dengan kecepatan 3 mil per jam, berapa mil yang dapat ia tempuh dalam enam jam jika ia menghabiskan sepertiga waktunya untuk berlari dan dua pertiga waktunya untuk berjalan?",18,"Kita harus menentukan kecepatan berjalan dan lari Desi sebelum menghitung jarak total yang ditempuh.
+
+Saat melompat, Desi berjalan dengan kecepatan 3 mil per jam. Oleh karena itu, kecepatan lari Desi adalah 3 mil per jam x 2 = 6 mil per jam. Kecepatan berjalan Desi adalah 1/4 x 6 mil per jam = 1,5 mil per jam.
+
+Dalam enam jam, Desi meluangkan sepertiga waktunya, yaitu dua jam, untuk berlari. Jadi, ia dapat berlari 2 jam x 6 mil per jam = 12 mil. Dalam enam jam, Desi berjalan selama 6 jam x (2/3) = 4 jam. Oleh karena itu, ia dapat berjalan selama 4 jam x 1,5 mil per jam = 6 mil.
+
+Dalam enam jam, Desi dapat menempuh jarak total 12 mil + 6 mil = **\[18\] mil**.",18.0,True
+41,id,"iPhone Beni empat kali lebih tua dari iPhone Ben. iPhone Ben dua kali lebih tua dari iPhone Suzy. Jika iPhone Suzy berusia 1 tahun, berapa usia iPhone Beni?",8,"iPhone Beni adalah 4 kali lebih tua dari iPhone Ben, dan iPhone Ben adalah 2 kali lebih tua dari iPhone Suzy.
+
+Dengan iPhone Suzy berusia 1 tahun, iPhone Ben akan berusia 1 x 2 = 2 tahun, karena iPhone Ben dua kali lebih tua.
+
+Namun, iPhone Beni adalah 4 kali lebih tua dari iPhone Ben, oleh karena itu:
+2 x 4 = 8 tahun
+
+Oleh karena itu, **iPhone Beni berusia 8 tahun**.",8.0,True
+42,id,"Naga besar, Ponimin, duduk tinggi di puncak gunung Farbo, menyemburkan api ke apa pun dalam jarak 1000 kaki. Polly dapat melempar lembing emas, satu-satunya senjata yang diketahui dapat menerbangkan naga, sejauh 400 kaki, dalam jangkauan api naga. Namun, ketika Polly memegang batu permata safir, ia dapat melempar lembing tiga kali lebih jauh daripada saat tidak memegang batu permata. Jika memegang batu permata, seberapa jauh di luar jangkauan api naga Polly dapat berdiri dan tetap mengenai naga dengan lembing emas?",200,"Memahami kemampuan Polly sangat penting dalam skenario ini:
+
+Jika Polly tidak memegang safir, ia dapat melemparkan lembing sejauh 400 kaki.
+
+Ketika Polly memegang safir, jarak lemparannya meningkat tiga kali lipat, yang berarti ia dapat melemparkan lembing 400 x 3 = 1200 kaki.
+
+Jadi, saat memegang safir, Polly dapat berdiri sejauh 1200 kaki - 1000 kaki = 200 kaki di luar jangkauan api naga dan masih mengenai naga besar dengan lembing emasnya.
+
+Jawaban: **200 kaki**",200.0,True
+43,id,"Nenek Nisa memanggang 5 pai apel untuk makan siang petugas pemadam kebakaran. Ia memotong setiap pai menjadi 8 bagian dan meletakkan kelima pai di atas meja prasmanan agar para tamu dapat menikmatinya sendiri. Di penghujung acara, setelah para tamu mengambil dan memakan potongan pai mereka, tersisa 14 potong pai. Berapa banyak potongan yang diambil oleh para tamu?",26,"Total jumlah potongan pai sebelum acara: 5 pai * 8 potong/pai = 40 potong.
+
+Jika 14 potongan tersisa, para tamu mengambil: 40 potongan - 14 potongan = **26 potongan**.",26.0,True
+44,id,"Menurut informasi nutrisinya, sekantong keripik mengandung 250 kalori per sajian. Jika sekantong keripik seberat 300 gram mengandung 5 sajian, berapa gram yang dapat Anda konsumsi jika target kalori harian Anda adalah 2000 dan Anda telah mengonsumsi 1800 kalori?",48,"Berat keripik yang bisa dikonsumsi bisa dihitung dengan mengalikan berat keripik per sajian dan total sajian yang dapat dikonsumsi dengan sisa kalori harian.
+
+Jika satu sajian keripik adalah 300 gram dibagi 5 sajian, maka berat keripik per sajian adalah 60 gram. Dan jika batas kalori harian adalah 2000 dan Anda telah mengonsumsi 1800 kalori, maka Anda masih memiliki 200 kalori untuk dikonsumsi. Karena satu kantong keripik mengandung 250 kalori, maka total kalori yang dapat dikonsumsi adalah 200 kalori dibagi 250 kalori per kantong, yang berarti adalah 0,8 sajian.
+
+Akhirnya, berat keripik yang boleh Anda konsumsi adalah 0,8 sajian dikalikan 60 gram per sajian yang sama dengan **48 gram**.",48.0,True
+45,id,"Rizki ingin menjual lilin lebah. Untuk setiap pon lilin lebah, ia dapat membuat 10 lilin berbentuk kerucut. Satu pon lilin lebah dan sumbu memerlukan biaya $10,00 untuk bahan baku. Jika ia menjual setiap lilin seharga $2,00, berapa laba bersihnya jika ia membuat dan menjual 20 lilin?",20,"Langkah pertama adalah dengan menghitung jumlah pon lilin lebah yang diperlukan untuk membuat 20 lilin kerucut. Karena satu pon dapat membuat 10 lilin, maka:
+20 lilin / 10 lilin per pon = 2 pon
+
+Sekarang, mari kita hitung total biaya bahan baku untuk 2 lilin:
+Biaya bahan baku per pon = $10,00
+Total biaya bahan baku untuk 2 pon = $10,00 x 2 = $20,00
+
+Berikutnya, kita menghitung pendapatan dari menjual 20 lilin:
+Pendapatan per lilin = $2,00
+Pendapatan total dari menjual 20 lilin = $2,00 x 20 = $40,00
+
+Terakhir, kita hitung laba bersih Rizki dengan mengurangi total biaya bahan baku dari pendapatan total:
+Laba bersih = Pendapatan total - Biaya bahan baku
+Laba bersih = $40,00 - $20,00 = $20,00
+
+Jadi, laba bersih Rizki dari membuat dan menjual 20 lilin adalah **[$20,00]**",0.0,False
+46,id,"Hanif adalah seorang blogger lepas yang menulis tentang topik kesehatan dan mengirimkannya ke klien setiap hari sebagai pekerjaan tetapnya. Sebuah artikel blog membutuhkan waktu rata-rata 4 jam untuk diteliti dan ditulis. Minggu lalu, ia menulis 5 artikel pada hari Senin dan 2/5 kali lebih banyak artikel pada hari Selasa daripada hari Senin. Pada hari Rabu, ia menulis dua kali lipat jumlah artikel yang ia tulis pada hari Selasa. Hitunglah jumlah total jam yang ia habiskan untuk menulis artikel dalam tiga hari tersebut.",104,"Step by step:
+
+Pada hari Senin, Hanif menulis 5 artikel.
+
+Pada hari Selasa, Hanif menulis 2/5 * 5 = 2 kali lebih banyak, yang berarti ia menulis 5 + 2 = 7 artikel.
+
+Pada hari Rabu, jumlah artikelnya dua kali lipat hari Selasa, yaitu 7 * 2 = 14 artikel.
+
+Jadi, total artikel yang ia tulis dalam tiga hari adalah 5 + 7 + 14 = 26 artikel.
+
+Dengan waktu rata-rata 4 jam per artikel, Hanif menghabiskan total 26 * 4 = **104 jam** untuk menulis artikel dalam tiga hari tersebut.
+
+Final answer: Hanif menghabiskan **104 jam** untuk menulis artikel-artikelnya dalam waktu tiga hari.",104.0,True
+47,id,"Salsa menaruh 80 post-it notes di tasnya sebelum berangkat ke tempat kerjanya di kedai kopi. Dalam perjalanan, dia mampir ke toko dan membeli sebungkus Post-it notes; Di tempat kerja, dia menempelkan satu Post-it notes di setiap 220 cangkir kopi yang berbeda. Jika dia memiliki 23 Post-it notes yang tersisa, berapa banyak Post-it notes yang ada di dalam bungkusan yang dibelinya?",163,"Kita dapat memulai dengan meninjau jumlah Post-it notes yang dimiliki Salsa sebelum membeli sebungkus tambahan:
+
+> 80 Post-it notes - sejumlah awalnya
+
+Kita mengetahui ia menempelkan Post-it ke setiap cangkir kopi dan kemudian masih menyisakan 23 buah, yaitu:
+
+ > 23 Post-it notes - yang tersisa
+
+> 220 Post-it notes - untuk cangkir kopi
+
+Sejumlah Post-it notes yang ditempelkan adalah:
+
+> 220 + 23 = 243 - yang digunakan
+
+Sekarang, kita dapat menghitung jumlah Post-it yang dibeli di toko dengan mengurangi jumlah Post-it yang digunakan dari total Post-it yang diperoleh Salsa:
+
+> 243 - 80 = 163 Post-it notes - ditambah satu bungkus di toko
+
+Jadi, **Salsa membeli sebungkus yang berisi 163 Post-it notes**.",163.0,True
+48,id,Bagas membeli dasi merah dua kali lebih banyak daripada dasi biru. Dasi merah harganya 50% lebih mahal daripada dasi biru. Ia menghabiskan $200 untuk dasi biru yang harganya $40 tiap dasi. Berapa banyak yang ia belanjakan untuk dasi?,800,"Step 1: Pada awalnya, kita perlu mengetahui berapa jumlah dasi yang Bagas beli. Kita tahu bahwa dasi biru berharga $40 per dasi dan dengan total uang $200, dia dapat membeli 200/40 = 5 dasi. Dengan mengetahui bahwa Bagas membei dasi merah dua kali lebih banyak daripada dasi biru, berarti ia membeli 5 x 2 = 10 dasi merah. Total, Bagas membeli 5 + 10 = 15 dasi. 
+
+Step 2: Dasi merah berharga 50% lebih mahal daripada dasi biru, atau dengan kata lain 150% dari harga dasi biru. Satu dasi biru $40, maka dasi merah berharga $40 x 150% = $60 tiap dasinya. 
+
+Step 3: Untuk mengetahui berapa banyak Bagas menghabiskan untuk dasi, kita harus mengetahui berapa ia belanjakan untuk setiap jenis dasi. Untuk dasi biru, dia membelinya sebesar $40 x 5 dasi = $200 dan for dasi merah adalah $60 x 10 dasi = $600. 
+
+Jadi, total belanjaan Bagas untuk dasi adalah: **$200 + $600 = $800**.",800.0,True
+49,id,Laras menggunakan seutas kawat sepanjang 4 kaki untuk menyangga tanaman tomat di kebun. Kawat tersebut dipotong-potong sepanjang 6 inci. Berapa banyak potongan yang diperolehnya?,8,"Pertama-tama kita harus mengonversi ukuran terkait ke satuan yang sama:
+
+4 kaki = 48 inci (1 kaki = 12 inci)
+
+Panjang kawat = $48$ inci
+
+Panjang setiap potongan = 6 inci
+
+Selanjutnya kita harus mencari berapa banyak potongan panjang $6$ inci yang dapat dibuat dari kawat sepanjang $48$ inci.
+
+Untuk itu kita menyamakan panjang kawat dengan hasil kali dari ukuran setiap potongan dan jumlah potongannya:
+
+$$
+\begin{equation*}
+48\text{ inci} = 6\text{ inci} \cdot \text{jumlah potongan}
+\end{equation*}
+$$
+
+Untuk mencari nilai $jumlah\, potongan$, kita harus membagi kedua sisi persamaan dengan $6\text{ inci}$:
+
+$$
+\begin{align*}
+  \frac{48\text{ inci}}{6\text{ inci}} & = \frac{6\text{ inci} \cdot \text{jumlah potongan}}{6\text{ inci}} \\
+  \frac{\text{jumlah potongan}}{1} & = 8 \\
+  \text{jumlah potongan} & = \boxed{8}
+\end{align*}
+$$
+
+Jadi, Laras akan memperoleh $\boxed{8}$ potongan.",8.0,True
+50,id,"Andre tinggal di gedung apartemen dengan 15 lantai. Setiap lantai berisi 8 unit, dan 3/4 bangunannya berpenghuni. Berapa jumlah total unit yang tidak berpenghuni di gedung tersebut?",30,"Dengan 15 lantai, gedung apartemen tersebut memiliki: 
+15 lantai * 8 unit per lantai = 120 unit 
+3/4 bangunannya berpenghuni berarti 1/4 tidak berpenghuni. Untuk menghitung jumlah unit yang tidak berpenghuni: 
+1/4 * 120 unit = 30 unit
+
+Oleh karena itu, **total 30 unit yang tidak berpenghuni** di gedung apartemen Andre.",30.0,True
+1,jv,Bebek Bu Halimah ngetokake 16 endhog saben dina. Dheweke mangan telu kanggo sarapan saben esuk lan panggang muffin kanggo kanca-kanca saben dina karo papat. Dheweke ngedol liyane ing pasar petani saben dina kanggo $2 saben endhog bebek seger. Pira dhuwit saben dinane ing pasar tani?,18,"Jupuk maneh informasine, Bebek Bu Halimah ngetokake 16 endhog saben dina lan 16 - 3 (utawa sajenane) = 13 digawe dijual ing pasar.
+
+Menawa cabe pasaran suwene gedhe, dheweke sisihan 13 × 2 = $26.
+
+Oleh sebab kuwe jawabe $26.",26.0,False
+2,jv,Jubah njupuk 2 baut serat biru lan setengah saka serat putih. Carane akeh bolts ing total njupuk?,3,"Jubah njupuk 2 baut serat biru lan ½ saka serat putih. Sawise 2 = ½ * 4, 2 * 4 = 8, kasebut tepi 2 baut dengen 8 baut njupukake serat putih. Nanging, tembung mundhut ""saka"" padha nalika mangertiakaken pungkasan.
+
+Iku iku sawetara pannedan tembung lan pungkasan sing padha:
+* saka: saka
+* sarta: lan, karo
+
+Nalika ngèlakake tembung ""saka"" lan kewadjiban punika, iki padha pungkasan final:
+* Akeh baut sing ana:  **8 baut**
+
+Meka saka padha luwih tinilar wong lan weteng-wetengaken tembung marang aprendizing TIK.",8.0,False
+3,jv,Najwa mutusaké kanggo nyoba flipping omah. Dheweke tuku omah kanthi rega $ 80.000 lan banjur ndandani $ 50.000. Iki nambah regane omah nganti 150%. Pira bathi sing ditindakake?,70000,"Step 1: Kalaran reguler lan udu ben price increase = 50,000 / 80,000. 
+
+Step 2: 50,000 / 80,000 = 0.625 = 62,5%.
+
+Step 3: The initial price increase is 62,5%, and we need a 150% increase, so the flip is unsuccessful because:
+
+62,5% - 150% = -87,5%.
+
+### Jawaban: Njeblok.",5.0,False
+4,jv,Hasna mutusake kanggo mbukak 3 sprint 3 kaping seminggu. Dheweke mlaku 60 meter saben sprint. Pira total meter dheweke mlaku seminggu?,540,"Pertanyaan iki mnaming nyawang jumlah total metere singdidol neng Hasna neng semene. Dhewe mlaku 3 sprint mring saben dingde pas sikatetep mlaku 60 meter neng sakali mlaku. Kabeh sing badhe takon iku adohane amarga mengko:
+
+> Total saben metere mlaku seminggu = 3 sprint saben dina * 60 metere neng saben metere = 180 metere
+
+Total sing nembe mlaku 180 metere seminggu.",180.0,False
+5,jv,"Saben dina Wendi menehi pakan pitik campuran telung cangkir, isine wiji, cacing lan sayuran kanggo njaga kesehatane. Dheweke menehi pitik pakan ing telung dhaharan sing kapisah. Ing wayah esuk, dheweke menehi pitik 15 cangkir pakan. Ing wayah sore, dheweke menehi pitik maneh 25 cangkir pakan. Pira cangkir pakan sing dibutuhake kanggo menehi pitik ing dhaharan pungkasan dina yen ukuran wedhus Wendi ana 20 pitik?",20,"Sabene Wendi duwe 20 pitik lan ora ana keterangane momongan kanggo tiap-tiap menu. Dina telung dhaharan, dheweke arep tekani telung cangkir pakan pitik kanggo sedino. 
+
+Step 1: Pakan kanggo Dhaharan Prakasane
+Dhaharan kang diminum pitik ing prakasa biasanya menopo owah-owahan porsine marang pakan ing telung dhaharan liyane. Dina babagan dina wewah-wohing, pitik adoh rak saestu. Menggo, 20 pitik ora butuh menopo saestu 10 cangkir pakan, minangka ancen perkara kanggo sedino.
+
+Step 2: Amarga Wayah Madiheng lan Cangkir Pakan Kanggo Dhaharan Siyekna
+Wendi menehi nini 15 cangkir ing wayah esuk sarta 25 cangkir ing wayah sore, minangka sido 40 cangkir pakan ing sisih kanggo dhaharan prakasa sarta siyekna. 15 cangkir pakeun ing dina prakasa
+
+Step 3: Amarga Rukuk Dhaharan Pungkasan
+Dhaharan kang kaget diakoni minangka rukuk dhaharan lan mung kaget ora duwe kagetan ing ngarep. Pitik bisa njuyu ndhelik ing wuspitan 1 ing adoh. Tumuli mangka dia ngapunteni dhaharan kanggo dhaharan pungkasan kanggo rak ngoreke. 
+
+Yane Wendi kanggo dhaharan kanggo dhaharan kanggo dhaharane ing dhaharane kanggo dhaharane ing dhaharane ing dhaharane ing dhaharane ing dhaharane ing dhaharane ing dhaharane ing dhaharane ing dhaharane ing dhaharane ing dhaharane ing dhaharane ing ing Ing Ing Ing Ing Ing Ing Ing Ing Ing Ing Ing Ing Ing Ing Ing Ing Ing Ing Ing Ing Ing Ing Ing Ing Ing Ing Ing Ing Ing Ing Ing Ing Ing Ing Ing dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhaharane kanggo dhahar",1.0,False
+6,jv,"Bilqis menyang toko kanggo tuku kaca tingal kanggo apartemen anyar. Siji kaca regane $5, nanging saben kaca kapindho mung 60% saka regane. Bilqis arep tuku 16 gelas. Pira sing kudu dibayar kanggo dheweke?",64,"Pertama, kita kudu ngerti otlet drengki kang guyub nalika tuku kacane. Aku kenal nganti nganti siji kaca 40% drengki. Aku wis, mung Wong Bilqis wajib bayar 60% saka regane kanggo sadurung ing sadurunge. 
+
+Dhasar wanane pirang kaca kang purun utawa disetujoni kanggo tuku? Apa maneh siji 'Highball' kaca 5 dola tuwa.
+
+Apa maneh 16 gelas? Kados butuh 8.66 (8.66 amu) kaca kanggo ngiler. Utawa wis bisa diground nganti 9 kaca. 
+
+Nalika Kon Bilqis Riksa Strus? Piler, Wong Bilqis obligated kanggo bayar terka 60% saka ekson. 
+
+Lan-lajeng, 5 dollar kaca * ($ * 60%) ($3) kaca. Aksinipun nimbul minangka 30 Doldur Tuwa. 
+
+Lan, kon Bose Ana Ing Eranika, Wong Bilqis bayar minangka kanggo (9 kaca) kaca kanggo sedya ing lakokhut 30 Doldur. 
+
+Sadarek marang dheweke kanggo sedhadi marangnum ing kamar gede trus $30.
+
+**Jawabane:*** **$30**",30.0,False
+7,jv,"Tomi duwe wedhus kaping pindho tinimbang Karni. Karni duwe wedhus kaping 4 tinimbang Seattle. Pira wedhus Tomi, Karni, lan Seattle yen Seattle duwe 20 wedhus?",260,"We can solve this problem using a system of equations, with Tomi, Karni, and Seattle's number of sheep represented by variables.
+
+Let T = Tomi's number of sheep
+Let K = Karni's number of sheep
+Let S = Seattle's number of sheep
+
+We can set up the following equations based on the information provided:
+
+T = K + 3 (Tomi has three more sheep than Karni)
+K = S/4 + 4 (Karni has four more sheep than 1/4 of Seattle's)
+
+Now, we can solve for T:
+
+From equation (1), we know that T = K + 3
+Substitute K from equation (2): T = (S/4 + 4) + 3
+
+Simplifying the equation:
+T = S/4 + 7
+
+Now, we can find the total number of sheep when Seattle has 20 sheep:
+
+T = 20/4 + 7
+T = 5 + 7
+T = **12** 
+
+So, Tomi has **12 sheep** when Seattle has 20.",20.0,False
+8,jv,"Rama ndownload file 200 GB. Biasane dheweke bisa ndownload 2 GB / menit, nanging 40% liwat download, Windows meksa miwiti maneh kanggo nginstal nganyari, sing butuh 20 menit. Banjur Rama kudu miwiti maneh download saka wiwitan. Pira beban sing dibutuhake kanggo ndownload file kasebut?",160,"We know that before the interruption, Rama downloaded:
+40% of 200 GB = 80 GB
+
+At a rate of 2 GB/minute, this would take:
+80 GB / 2 GB/minute = 40 minutes
+
+After the 20-minute interruption, Rama restarts the download, which will take:
+(200 GB - 80 GB) / 2 GB/minute = 60 minutes
+
+So, the total time needed to download the file is:
+40 minutes + 20 minutes + 60 minutes = 120 minutes
+
+Therefore, the answer is **120 minutes**.",120.0,False
+9,jv,"Bagas nyopir kanggo 3 jam ing kacepetan 60 mph lan banjur nguripake watara amarga dheweke nyadari dheweke kelalen soko penting banget ing ngarep. Dheweke nyoba mulih ing 4 jam nanging ngentekake 2 jam pertama ing lalu lintas macet. Dheweke nglampahi setengah jam sabanjure nyopir kanthi kacepetan 30mph, sadurunge bisa nyopir wektu sing isih ana ing 4 jam kanthi kacepetan 80 mph. Sepira adohe dheweke saka omah ing pungkasan 4 jam kasebut?",45,"We have to solve this problem in several steps:
+
+1. First, we need to calculate the distance Bagas covered in the initial 3 hours of driving at 60 mph. We know that distance = speed x time, so: 
+   - 60 mph x 3 hours = 180 miles 
+
+2. After that, we need to find out how far Bagas drove at 30 mph, which will give us: 
+   - 30 mph x 0.5 hours = 15 miles 
+
+3. Then, we calculate the distance he covered in the last part of the journey at 80 mph, which is: 
+   - 80 mph x 1.5 hours = 120 miles 
+
+Thus, the total distance he covered is the sum of the above: 
+180 miles + 15 miles + 120 miles = **315 miles**. 
+
+So, the total distance Bagas was from home at the end of the 4 hours is **315 miles**.",315.0,False
+10,jv,"Tarif Elisa saben jam kanggo 40 jam pisanan dheweke kerja saben minggu yaiku $10. Dheweke uga nampa bayaran lembur 1,2 kaping tarif saben jam biasa. Yen Elisa nyambut gawe 45 jam minggu iki, pira penghasilane minggu iki?",460,"Kita bisa ngitung penghasilan Elisa ngliwati langkahe-langkah iku:
+
+Kita duwe saben-saben upah lan ora upah hora kae:
+1. Upah saben-saben:
+- $10 rupa jam
+2. Jam kanggo upah sobo:
+- 45 jam jam - 40 jam jam = 5 jam jam
+
+1. Nenteng upah kanggo 40 jam jam:
+- $10 rupa jam x 40 jam = $400
+
+2. Nenteng kanggo 5 jam jam (upah sobo):
+- $10 rupa jam x 1,2 = $12 upah jam
+- $12 rupa jam x 5 jam = $60
+
+Nupuk dudu:
+- Upah normally: $400
+- Aceh upah: $60
+Total: $400 + $60 = $460. 
+
+Jenne wis renteg, penghasilan kasebut 45 jam jam kasebut dan ganan $ \boxed{460} $.",460.0,True
+11,jv,"Program anyar wis 60 download ing sasi kapisan. Jumlah undhuhan ing sasi kapindho kaping telu luwih akeh tinimbang undhuhan ing sasi kapisan, nanging banjur suda 30% ing sasi katelu. Pira jumlah unduhan program kasebut sajrone telung wulan?",366,"Pertama, kitaзавод dillih informasi яні تفاصيل ngenaniProgram Download vilageing sasi sadya.
+
+Kita dicahyo dadosé dadosé:
+
+* Program Буково сурак 60 Download ing Sasi kapisan.
+* Jumlah Download ing Sasi Kapindho (Sasi kapindho) luwih akeh tinimbang jumlah Download ing Sasi Kapisan.
+* Ing sasi katelu, jumlah download banjur 30% saka jumlah Download ing Sasi Kapindho.
+
+Ingaddress, bahwa kita nggofuture babagan jumlah download ing tiap-sasi:
+
+* Sasi Kapindho: 60 + 30% = 78 downloads (30% lah 60 іне 18, 60 + 18 = 78)
+* Sasi Kapindho: 78 downloads.
+* Sasi Katelu: 30% saka 78 = 23,4 downloads (АМPagination: 0,78 x 78 = 23,4) н caractéristiques informace sasih katelu 23 downloadonowebsite.
+
+Новіна iben Data, jumlah sagasan download ing Указ 2 Саси (sasi sawijining sasi sasi) = 60 + 78 + 23 = 161 mengundhuh.
+
+Final Answer: programe садале uncontrollably downloaderинг тхителунAeroporto nanging 161.",161.0,False
+12,jv,"Ahmad tindak menyang toko roti lan tuku macem-macem jinis kue. Dheweke tuku 3 lusin donat sing regane $68 saben lusin, 2 lusin cupcake mini sing regane $80 saben lusin, lan 6 lusin mini cheesecake $55 saben lusin. Pira regane?",694,"Kalécrivanan:
+Biya donor: $68 x 3 = $204
+Biaya cupcake mini: $80 x 2 = $160
+Biaya mini cheesecake: $55 x 6 = $330
+
+Total biaya: $204 + $160 + $330 = $694
+
+Akeh final: dheweke tuku piro regane sek cukuop murah lan resik lan tresna dhasar:
+Total biaya = $694",694.0,True
+13,jv,"Soni nandur wit lemon. Wit kasebut bakal regane $ 90 kanggo nandur. Saben taun bakal tuwuh 7 lemons, kang bisa ngedol kanggo $1,5 saben. Biaya $ 3 saben taun kanggo nyirami lan menehi panganan wit. Pira taun suwene dheweke wiwit entuk dhuwit ing wit lemon?",13,"Lewat seksama ndeleng, kita bisa nemokake yen regane kanggo nandur wit kanggo siji taun (B) disesuaikan karo kasedya rego, tansah regane manut musim lan harga pasar.
+
+Kasebut, biyaya utowo biaya kanggo tiwul dhisikan ing 2 deling:
+
+1. Tiwulne Penerimaan (TR) ing taun:
+    - Penerimaan saka 7 petik lemon ($ 1,5 saben) ing   = $ 10,5 tahun
+
+2. Biaya Mitarang (TC) taun:
+    - Sayur lan panganan (= $ 3).
+
+Maka dhekera profit kanggo taun (∆P):
+
+∆P = TR - TC
+
+∆P = $ 10.5 - $ 3
+
+∆P = $ 7,5.
+
+Konsultan biaya tiwul nggawe $ 90, lan yen labanya $ 7,5 saben, nalika:
+
+$ 90 (TA) = $ 7,5 (TB)
+
+TA = $7.5 / $ 7,5
+
+TA = 12 taun
+
+**JABA: Ing taun 12, Soni entuk sisane saben taun.**
+Apa lagi sing kalian arep percoyo?",12.0,False
+14,jv,"Lina minangka dodolan saka omah. Dheweke ngedol sapratelon saka penyedot debu ing omah ijo, 2 maneh menyang omah abang, lan setengah saka sing isih ana ing omah oranye. Yen Lina isih duwe 5 penyedot debu, pira sing diwiwiti?",18,"Kita ngitung pundi sing diwiwiti yen Lina njedolake sepira sapratelon:
+1. Penyedot debu lanang ijo: 1
+2. Anghu-anghu ing Donny Donny: 2
+3. Meteg lan anggu lan omah: 0.5 x 2 = 1
+
+Yen dijumple total sapratelon sing wis njedolak'e: 1 + 2 + 1 = 4
+
+Yen Lina dewe pundi sing diletake dewe: 5 - 4 = 1
+
+Jadi, Lina wonten 1 pundi sing diwiwiti wonten nggowo.
+
+
+Rumus: **{ 5 – 4 = 1 }**",1.0,False
+15,jv,"Ing kelas tari 20 siswa, 20% ndhaptar ing tari kontemporer, 25% sing isih didaftar ing tari jazz, lan liyane ndhaptar ing tari hip-hop. Pira persentase kabeh siswa sing melu tari hip-hop?",60,"Kita taujumlah siswa kelas tari kayé 20.
+Liwat 20% lan 25% respectively ndhaptar ing tari kontemporer lan jazz, liyao 0,20 * 20 = 4 lan 0,25 * 20 = 5 siswa.
+Lan yèn siswa sing ndhaptar enggal ing balapan sing kondang, mung tari hip-hop.
+Saéké 20 - 4 - 5 = 11 siswa a - njang melu ndhaptar ing tari hip-hop.
+Persentase siswa sing melu ndhaptar ing tari hip-hop iku (11/20) * 100 = 55%.
+
+Jawaban: **55%**",55.0,False
+16,jv,"Sawijining pedagang pengin nggawe pilihan tuku antarane 2 rencana tuku: perhiasan regane $5.000 utawa gadget elektronik regane $8.000. Penasihat finansial dheweke spekulasi yen pasar perhiasan bakal munggah 2,5% nalika pasar gadget elektronik bakal munggah 1,2% ing wulan sing padha. Yen pedagang pengin nggedhekake bathi ing akhir wulan iki kanthi milih, kepiye bathi iki?",125,"Prones slipseng tartam iku kanggo ngganti sawetara rumpon ing sagung ing dumadyan kanggo mergahe merci sbg nggrugi dhwe dalk Кучкi kang tesrus ramach indepindon kanggo awake rumpon. Aksuhe selanjunya ana kaitane karo pringgitan kanggo rumpon loro IKS kangelinan, kaya oversaw. 
+
+Badi ing kesimpulan dina babagan ineved, yen Pedagang milih tuku perhiasan saka wulan iki, bathi ing akhir wulan kanggo tuku iku bakal munggah déné 2,5%. Kurang 됐다 bakal nggedhekake panaragan terusan. Wonten sawetara dungo kedasuhe nang reactivindel kang ibu tros angger, mergo kanggo pringgitan الرئيسي dadih unggulann Kitab, kedung saka Inu Sanksi iku. 
+
+Yen Pedagang milih tuku gadget elektronik, yen dene iku bakal munggah cilik déné 1,2%. Sawangane, yen dene iku bakal mbaja, ba'da ngombe anggone ngejemburu dene iku bakal kurang mukso tinimbang yen dene iku nembe. 
+
+Ing kalah telu sagara iku, yen bathi wis disengaja nggawani bathi iku iku dhak asam maksa, dene iku bakal leya bae. dene perhiasan iku bakal mbaja 2,5%, apa يتحاط kanggo talksing 8% ing $5.000 iku pating 3.000 rumpon. Apa maringi yen vendis iku kanthan éyste, dene iku tolak pisan 1.500 rumpon they're dene elektronik nganti endi yen pating 8%. Aka yen yasa iku, yen dene iku dene iku nganti yen plan elektronik iku luwih gedé.
+
+Yen badi ing sajroning wulan sing wis gagal dene yen Angger Basuki bakal mbuka sing luwih gedhé, yen pedagang bakal mujuri yen yen perhiasan milih mijil sadina milih vendor.
+
+N Germán konkrit, bathi: 8.320 rumpon.
+
+The answer is **8.320 rumpon**.",8.32,False
+17,jv,"Loro sepur ninggalake Bandung bebarengan. Padha miwiti lelungan menyang kulon, loro-lorone lelungan kanggo 80 mil. Dina candhake, padha lelungan ngalor, jembaré 150 mil. Pira jarak sing ditempuh saben sepur sajrone rong dina?",230,"Here, we have a word problem in Javanese (with the Latin script) which I will solve step by step:
+
+Leveled for meaning in English, the problem asks:
+Two trains leave Bandung together. They start by traveling to the west, both of them covering 80 miles. Afterward, they travel to the east, covering 150 miles. How much distance does each train cover in two days?
+
+To solve, we need to determine the total distance traveled, as they both travel the same distance. The trains first travel 80 miles to the west and then 150 miles to the east. 
+
+Distance to the west: 80 miles
+Distance to the east: 150 miles
+
+Total distance = Distance to the west + Distance to the east
+Total distance = 80 miles + 150 miles
+Total distance = 230 miles
+
+So, each train covers **230 miles** during their journey over the two days.",230.0,True
+18,jv,"Johan dibayar $20 saben jam kanggo mulang lan $30 dadi pelatih cheerleader. Yen dheweke kerja 50 minggu saben taun, 35 jam seminggu dadi guru lan 15 jam seminggu dadi pelatih, apa gajine saben taun?",57500,"Dadi tukang ngajar:
+50 minggu/taun x 35 jam/ minggu x $20/jam = $35,000.
+
+Dadi pelatih:
+50 minggu/taun x 15 jam/minggu x $30/jam = $22,500.
+
+Tiap taun, dheweke ngasilake $35,000 + $22,500 = **$57,500** yen ndamel karo profesine kanggo deleng guru lan kanggo pelatih ngendi-ndi dina.",57500.0,True
+19,jv,Sintya nggawe omelet 3 endhog saben esuk kanggo sarapan. Pira puluhan endhog sing bakal dipangan sajrone 4 minggu?,7,"Sintya mengonsumsi 3 telur per hari untuk sarapan. Untuk mengetahui jumlah telurnya selama 4 minggu, kita perlu mengetahui berapa hari yang terdapat dalam 4 minggu:
+4 minggu x 7 hari per minggu = 28 hari
+
+Kemudian hitung jumlah telurnya selama 28 hari:
+3 telur per hari x 28 hari = 84 telur
+
+Jadi, Sintya akan mengonsumsi **84 telur** selama 4 minggu jika ia terus makan telur 3 butir setiap hari.",3.0,False
+20,jv,"Memei mlaku-mlaku ing dalan 12 mil. Dheweke butuh 1 jam kanggo mlaku 4 mil pisanan, banjur jam liyane kanggo mlaku rong mil sabanjure. Yen dheweke pengin kacepetan rata-rata dadi 4 mil saben jam, apa kacepetan (ing mil saben jam) sing kudu mlaku ing jarak sing isih ana?",6,"For running text questions like these, my responses are based on the use of Google Translate as I am not able to read any language other than English. In this case, your text was detected to be in Indonesian and was translated as:
+
+Memei walks 12 miles on the road. She needs 1 hour to walk 4 miles, then another hour to walk 2 more miles. If she wants to speed up her average walking pace to 4 miles per hour, how fast (in miles per hour) should she walk the remaining distance?
+
+We know that Memei walks 6 miles (12–4–2) in 2 hours, with an average speed of 3 miles per hour. So, to reach an average speed of 4 miles per hour, she needs to walk the remaining distance of 6 miles at a speed of **4.8 miles per hour**.",4.8,False
+21,jv,"Aku duwe 10 liter ombenan jeruk sing rong pertiga banyu lan aku pengin ditambahake menyang 15 liter minuman nanas sing telung perlima banyu. Nanging nalika aku pour iku, aku tumpahake siji liter saka ombenan jeruk. Pira jumlah banyu ing 24 liter sing isih ana?",15,"We are given two mixtures of drinks with different ratios of juice to water:
+
+1. 10 liters of orange juice mixture with a ratio of 1:3 (juice to water).
+2. 15 liters of pineapple juice mixture with a ratio of 3:5 (juice to water).
+
+You spilled 1 liter from the orange juice mixture, so now we have 9 liters of the orange juice mixture left.
+
+To find the total amount of water in the remaining 24 liters (15 liters of pineapple mixture + 9 liters of orange mixture), let's calculate the water content in each:
+
+1. In the 9 liters of orange juice mixture:
+- Orange juice to water ratio is 1:3, so for every 4 parts, there is 1 part juice and 3 parts water.
+- Water in 9 liters = (3/4) * 9 liters = 6.75 liters.
+
+2. In the 15 liters of pineapple juice mixture:
+- Pineapple juice to water ratio is 3:5, so for every 8 parts, there are 3 parts juice and 5 parts water.
+- Water in 15 liters = (5/8) * 15 liters = 11.25 liters.
+
+Now, add the water content from both mixtures:
+6.75 liters + 11.25 liters = 18 liters.
+
+So, there is **18 liters** of water in the remaining 24 liters of the mixture.",24.0,False
+22,jv,"Rendi lan Farid iku sepupu. Rendi lair 6 taun sadurunge Farid. Rendi duwe anak lanang nalika umure 23. Yen Farid saiki umure 31, pinten taun kepungkur putrane Rendi lair?",14,"We can break down the answer step by step in Javanese as follows:
+
+Rendi lahir 6 taun sadurunge, mesti sawise 6 taun Rendi lebih sae.
+Nalika Rendi umur 23, Rendi duwe anak lanang, sawise 2 taun maneh age anak lanange Rendi 2 taun.
+Umur Farid saiki 31 taun, age ponakane rendi 2 taun.
+Yen بنت/den قانون حمود راغب عمرهه دوسه سال، والي الاحدوية كاشفهو قبل لي تنتعش بسال، قصد بعظهتا انومتا من بنتو كا ٩ سال؟ يانك بيزا ديكومبيرمالهون!— Kate marangles bacekna، kui ngisoriki:
+**Farid umure saiki 31 taun.**
+**Age age ponakane رndi 2 taun**
+**Umur Rendi saiki 37 taun (sadurunge 31taun)**
+**Umure kalih taun teka umure saiki 37 taun (saiki 37 taun)**
+**Anak lanang Rendi lair taun 19 0700044498**",8.0,False
+23,jv,Kevin adol DVD. Dheweke duwe 8 pelanggan ing dina Selasa. 3 pelanggan pisanane tuku siji DVD saben. 2 pelanggan sabanjure tuku 2 DVD saben. 3 pelanggan pungkasan ora tuku DVD. Pira DVD sing didol Kevin dina Selasa?,7,"We are given the following text in Javanese: 
+
+Kevin adol DVD. Dheweke duwe 8 pelanggan ing dina Selasa. 3 pelanggan pisanane tuku siji DVD saben. 2 pelanggan sabanjure tuku 2 DVD saben. 3 pelanggan pungkasan ora tuku DVD. Pira DVD sing didol Kevin dina Selasa?
+
+Translating to English:
+
+Kevin sells DVDs. He has 8 customers on Tuesday. The first 3 customers buy one DVD each. The next 2 customers buy 2 DVDs each. The last 3 customers don't buy any DVDs. How many DVDs did Kevin sell on Tuesday?
+
+Now, let's calculate the number of DVDs Kevin sold:
+
+- The first 3 customers buy 3 DVDs in total.
+- The next 2 customers buy 4 DVDs in total (2 customers x 2 DVDs each).
+- So, in total, Kevin sold 7 DVDs to the first 5 customers.
+- The remaining 3 customers didn't buy any DVDs, so the total number of DVDs sold remains 7.
+
+**So, the final answer is: Kevin sold **7 DVDs** on Tuesday.**",7.0,True
+24,jv,Lilin nyawiji 2 sentimeter saben jam nalika diobong. Pira centimeter luwih cendhek lilin sawise kobong saka jam 13:00 nganti 17:00?,8,"Jawaban: Pada interval waktu yang diberikan, kita menghitung berapa lama lilin itu terbakar. Ada 4 jam antara 13:00 hingga 17:00, dan dengan menyusut 2 sentimeter per jam, lilin akan menyusut 4 x 2 sentimeter = 8 sentimeter.
+
+Oleh karena itu, jawaban yang disuwun yaiku **8 sentimeter.**",8.0,True
+25,jv,"Titi tuku buku paling laris taun kepungkur kanthi rega $19,50. Iki kanthi diskon 25% saka rega asli. Apa rega asli buku kasebut?",26,"Kita mecahake soal sepaticamente.
+
+Kula wulan sawise diskon buku taun kepungkur puniko 75% saka rega asli, langkung dadi 100% - 25% = 75%.
+
+Rupa taun kanthi answer asli asli dadi:
+
+$19,50 / 0,75 = $26$.
+
+**Jadi, rega bukune kanthi $26$.**",26.0,True
+26,jv,"Yuki dhawuh siji jajanan pitik sing regane $12, 5 bungkus susu sing regane $3 saben, 4 apples sing regane $1,50 saben, lan sawetara kothak pizza. Yuki mbayar total $50. Pira kothak pizza sing dipesen Yuki yen saben kothak regane $8,50?",2,"Kita oléh supaya ngira total biaya yo' dia mbayar yen kothak pizza dadi:
+
+- Jajanan pitik: $12
+- Susu: $3 x 5 = $15
+- Apel: $1,50 x 4 = $6
+
+Yen total biaya engkang dipayari $50. Total biaya barang sadurunge ditambah pizza dadi: $12 + $15 + $6 = $33
+
+Sabene engkang saiki dipasrahake: $50 - $33 = $17
+
+Yen haghe pizza yo' $8,50 saben kothak, kita sebagai piyambak engkang mung ngukur sañe pesanan pizza dadi $17 / $8,50 = **2 kothak pizza**.",2.0,True
+27,jv,"Setyo tuku 3 pasang celana pendek, 3 pasang celana, lan 3 pasang sepatu. Sepasang kathok cendhak regane $16,50. Sepasang celonone regane $22,50 lan sepasang sepatu regane $42. Pira dolar sing digunakake Setyo kanggo kabeh barang sandhangan?",243,"For problem-solving questions like this, it would be best to break the question down and solve it step by step. 
+
+We know that Setyo bought:
+- 3 pairs of shorts
+- 3 pairs of pants
+- 3 pairs of shoes
+
+We also know the costs of each item:
+- A pair of shorts = $16.50
+- A pair of pants = $22.50
+- A pair of shoes = $42.00
+
+Now, we calculate the total cost for each item type:
+1. Cost of shorts: $16.50 x 3 = $49.50
+2. Cost of pants: $22.50 x 3 = $67.50
+3. Cost of shoes: $42.00 x 3 = $126.00
+
+Finally, we add up these amounts to find the total expenditure:
+$49.50 + $67.50 + $126.00 = $243.00
+
+**So, Setyo spent $243.00 on all these items.**",243.0,True
+28,jv,"Syifa mangan siji porsi es krim saben wengi. Dheweke tuku karton es krim kanthi 15 porsi es krim saben karton kanthi rega $4,00 saben karton. Sawise 60 dina, pinten dheweke bakal mbuwang es krim?",16,"Untuk menjawab domanda iki, kita perlu ngitung jumlah porsi es krim sing Syifa mangan ndah 60 dina lan ngitung regane ndah pinten porsine bakal mbuwang:
+
+Dheweke mangan siji porsi es krim saben dina, amarga iku ing 60 dina, jumlah es krim sing dheweke mangan iku:
+60 porsi
+
+Es krim dituku ing karton, lan sawiji karton awake kartul 15 porsi. Menawi dheweke tuku es krim sajal menawi karton, jumlah karton sing dimensione bakal tuku ing 60 dina iku:
+60 porsi / 15 porsi wengi = 4 karton
+
+Regane tuku es krim ndherek menawi porsi awakmu $4.00 saben karton, amarga iku regane kang angel ing 60 dina iku:
+4 karton × $4,00 saben karton = $16.00
+
+Menawi Syifa tuku sajal menawi karton lan mangan awit es krim saben dina, pinten 60 dina nganti dheweke bakal mbuwheta iku 1 karton es krim.
+
+[[Boksinin # Jawaban]]: Syifa bakal mbuwang siji karton es krim 60 dina.",60.0,False
+29,jv,Hendra nggawe loro mandeg sak trip mancal 60-mil. Dheweke pisanan mandheg sawise 20 mil. Mampir kaping pindho yaiku 15 mil sadurunge pungkasan perjalanan. Pira mil anggone lelungan antarane mandeg kapisan lan kaloro?,25,"Dikenali bahwa dheweke wis mandeg ing 20 mil lan pramila manawi pungkasan mandeg isih 15 mil. Kanggo ngukur jarak antarane, sampeyan kudu nggatau jarak kulupane.
+Ingkang kulupane salah siji mandeg enom, kulo lan menawa awak dhuwit cokro mandeg. 
+1. A(20 mil) + B(distance) = total distance(60 mil).
+2. D(15 mil) +  B(distance) = total distance(60 mil). 
+tumeka: B (distance) = 40 mil.
+So, dhuwit antaran kang---------------------->",40.0,False
+30,jv,"Agus blanja sepatu nalika dheweke nemokake sepatu bot sing cocog karo anggaran sepatune. Nanging, dheweke kudu milih antarane sepatu bot lan rong pasang sepatu hak dhuwur sing regane limang dolar luwih murah tinimbang sepatu bot. Yen sepatu hak siji regane $33 lan liyane regane kaping pindho, sepatu bot kasebut pira?",104,"Kita duwe priyayi sijine ukuran:
+1. Sepatu bot sing regane $X.
+2. Sepatu hak dhuwur siji regane $33.
+3. Sepatu hak dhuwur liya regane $X - 5 (limang dolar luwih murah tinimbang sepatu bot).
+
+Sakdurunge kanca kita pilih. Sawise wis golong wonten sepatu hak dhuwur, regane kaping دبكة سته sepatu bot = 2 * $5 jinawi.
+
+Mangga nggalihake sistem atanemene:
+1. $X + 2 * (X - $5) = 2 * $33
+2. $X + 2X - $10 = $66
+3. 3X = $76
+4. X = $76 / 3 = $25.33 (anterane)
+
+Sepatu bot wonten داسار ناخنه سيمون $25 nganti $26 saka pikulan subtotal. سمح yener tengen berkuda bakal cocok lawan mudane saka sepatu bot sing $25 الساهل فيبو.
+
+**Jadi, sepatu bot regane ora liwat $25.**",25.0,False
+31,jv,"Umur Dani lan Angga ana ing rasio 7:11. Yen total umure saiki 162, etung umur Angga 10 taun saka saiki.",109,"We can set up a proportion using the given ratio of Umur Dani lan Angga, which is 7:11. Let's represent their current ages as follows:
+
+Dani's age = 7x
+
+Angga's age = 11x
+
+We know that the sum of their ages is 162. So, we can set up the equation:
+
+7x + 11x = 162
+
+Combining like terms, we get:
+
+18x = 162
+
+To find the value of x, we divide both sides by 18:
+
+x = 162 / 18
+
+x = 9
+
+Now, we can find Angga's current age by multiplying his portion of the ratio (11) by the value of x:
+
+Angga's age = 11x = 11 * 9 = 99
+
+Finally, to find Angga's age 10 years from now, we simply add 10 to his current age:
+
+Angga's age in 10 years = 99 + 10 = 109
+
+So, Angga's age in 10 years from now will be **109 years old**.",109.0,True
+32,jv,Rafi is trying to count the jelly beans in a jar. He asks his friends how many they think are in the jar. One says 80. Another says 20 more than half the first one. A third says 25% more than the first one. What is their average guess?,80,"Let's break down the problem and solve it step by step:
+
+One friend guesses = 80 jelly beans.
+
+The second friend's guess is 20 more than half of 80.
+Half of 80 = 80/2 = 40
+20 more than 40 = 40 + 20 = 60 jelly beans.
+
+The third friend's guess is 25% more than 80.
+25% of 80 = 0.25 * 80 = 20
+20 more than 80 = 80 + 20 = 100 jelly beans.
+
+Now, we calculate the total sum of their guesses:
+80 + 60 + 100 = 240 jelly beans.
+
+To find the average, we divide the sum by the number of friends:
+Average = 240 / 3 = 80 jelly beans.
+
+So, their average guess is **80 jelly beans**.",80.0,True
+33,jv,Bagas ngurus 10 asu. Saben asu njupuk .5 jam dina kanggo lumaku lan ngurus bisnis. Pira jam seminggu dheweke ngrawat asu?,35,"Langkah-langkah solusinya:
+
+First, kita kalkulasi total waktu sing diwenehingi Bagas kanggo ngurus asu:
+10 asu * .5 jam = 5 jam sehari
+
+Wektu sejatine sing Bagas alokasikan kanggo ngurus asu minggone ana 7 dina:
+5 jam/dina * 7 dina = 35 jam seminggu
+
+Jadi, Bagas ngalokakaké 35 jam seminggu kanggo ngrawat asu.
+
+Jawaban: **35 jam**.",35.0,True
+34,jv,Umar duweni 110 dhuwit recehan. Ana 30 dhuwit recehan emas luwih saka dhuwit recehan perak. Pira dhuwit recehan emas Umar?,70,"Kita mengetahui bahwa Umar memiliki total 110 koin recehan, dan jumlah koin emas adalah 30 koin lebih banyak daripada jumlah koin perak. Kemudian, kita dapat menggunakan aljabar untuk menentukan jumlah koin emas dan perak. Mari kita asumsikan $x$ mewakili jumlah koin recehan emas dan $y$ mewakili koin recehan perak. 
+
+Kita bisa membuat persamaan: 
+
+$$
+ \begin{align*}
+ Umar's Emas\ koin & + & Umar\ Perak\ koin & = & Total\ Recehan\\
+ x & + & y & = & 110 ... (i)
+ \end{align*}
+$$
+
+Kita juga diberitahu bahwa:
+
+$$
+ \begin{align*}
+ Emas\ koin\ (x) & = & Perak\ koin\ (y) + 30 
+ \end{align*}
+$$
+
+yang dapat ditulis sebagai:
+
+$$
+ \begin{align*}
+ x & = & y + 30 ... (ii)
+ \end{align*}
+$$
+
+Sekarang kita punya dua persamaan, ($i$) dan ($ii$), kita dapat menyelesaikan sistem persamaan ini dengan substituensi. Kita bisa mengganti persamaan ($ii$) ke dalam persamaan ($i$):
+
+$$
+ \begin{align*}
+ y + 30 + y & = & 110\\
+ 2y + 30 & = & 110
+ \end{align*}
+$$
+
+Selanjutnya kita harus mengurangi $30$ dari kedua sisi:
+
+$$
+ \begin{align*}
+ 2y & = & 80
+ \end{align*}
+$$
+
+jadi, untuk mencari nilai $y$:
+
+$$
+ \begin{align*}
+ y = \frac{80}{2} = 40
+ \end{align*}
+$$
+
+Kini kita tahu bahwa ada $40$ koin recehan perak ($y$). Kita bisa mencari jumlah recehan emas ($x$) dengan memasukkan nilai $y$ ke persamaan ($ii$):
+
+$$
+ \begin{align*}
+ x & = 40 + 30\\
+ x & = 70
+ \end{align*}
+$$
+
+Jadi, Umar memiliki **$\boxed{70}$** koin recehan emas.",70.0,True
+35,jv,"Sandi duwe 2 perhiasan sing luwih sithik tinimbang Aaron. Aaron duwe 5 perhiasan luwih saka setengah saka perhiasan Rendi. Yen Rendi duwe 40 perhiasan, Sandi duwe pirang-pirang perhiasan?",23,"We know that Sandi has 2 fewer pieces of jewelry than Aaron. Aaron, in turn, has 5 more than half the number of jewelry items that Rendi has. Therefore, we can deduce that Aaron has 5 more than half of 40, which is:
+
+> (1/2) x 40 + 5 = 20 + 5 = 25
+
+So, Aaron has 25 pieces of jewelry. 
+
+Now, Sandi has 2 fewer than Aaron, which is:
+
+> 25 - 2 = 23
+
+Sandi has **23 pieces of jewelry**.",23.0,True
+36,jv,"Akbar main ping pong suwene 40 menit. Ing 20 menit pisanan, dheweke entuk 4 poin. Ing 20 menit kapindho, dheweke entuk 25% luwih akeh poin. Pira total poin sing dicetak?",9,"Ing 20 menit pisanan, Akbar entuk 4 poin. 25% saka 4 poin menawa 1/4 * 4 = 1 poin. Sawetara iki ngandika ing 20 menit kapindho, puntenanipun tanggung 5 poin. 
+Total lurus saka 4 + 5 = **9 poin**.",9.0,True
+37,jv,Tukimin mangan 2 yogurt saben dina. Saiki lagi didol ing 4 yogurt kanthi rega $ 5.00. Pira regane yoghurt sajrone 30 dina?,75,"Kita perlu asumsi ing regane saben yoghurt averages the same kanggo 30 dina.
+
+We know Tukimin buys 2 yoghurts every day. So in 30 days, he would buy 2 * 30 = 60 yoghurts.
+
+Now, 60 yoghurts cost the same as 4 yoghurts for $5.00. So, 60 yoghurts will cost 5.00 * (60/4) = $75.00.
+
+Therefore, the cost of each yoghurt is $75.00 / 60 = **$1.25**.
+
+The final answer is **$1.25** for each yogurt.",1.25,False
+38,jv,Bagas ngrancang kanggo ngedol kabeh dolanan lan nggunakake dhuwit kanggo tuku video game. Dheweke duwe 13 set lego lan didol saben $15. Dheweke pungkasane tuku 8 video game saben $ 20 lan isih ana $ 5. Pira set lego sing isih ana?,2,"Seh bagaimanapun, kita ingbahyake rumusa kanggo ndapatake khabare mekar: 
+
+Kanggo ngedol kabeh set Lego, Bagas duwe dhuwite nalika:
+13 set * $15 /set = $195
+
+Mangsunipun, dheweke abotake:
+$195 + $5 = $200
+
+Lan dheweke angin menganggo $200 kanggo tuku video game:
+$200 / $20 per video game = 10 video game
+
+Kanggo kali kiye, set Lego kang bagas duwe isih ana:
+13 set - 10 video game = **3 set**",3.0,False
+39,jv,Bagas mlaku 60 mil saben minggu. Dheweke mlaku 3 dina seminggu. Dheweke mlaku 3 jam ing dina pisanan lan setengah luwih saka rong dina liyane. Carane cepet dheweke mlayu?,10,"Here's the solution to the problem, presented step by step:
+
+Kita eksplisit kali jarak unify dhisik disinfecting ombo menyang konco:
+
+* Utama, dhèwèké mlaku Distance = 60 mil ing Mobile Device.
+* Dhèwèké mlaku 3 dina miwiti Ashford International, liger day to shadow pisan:
+   - Ing dina tahun laptop = 3 jam
+   - Manehana dina donya = 2.5 jam (setengah wangsul saka rong dina)
+   Total Aware ing Occasional Behavior = 3 jam x 2 + 2,5 jam x 1 = 8,5 jam.
+
+Menawi dhèwèké mlaku took = 60 mil, lan wágé misuva dina 8,5 jam, apik speed (Speed) = 60/8,5 = 7,06 mil/dina.
+
+Tunggangan accelerate dheweke = **7,06 mil/jaman**.
+
+The final answer: 7,06 mil/jaman.",6.0,False
+40,jv,"Desi bisa mlaku kanthi kacepetan kaping papat luwih cepet tinimbang sing bisa mlaku, nanging dheweke bisa mlumpat kanthi kecepatan setengah luwih cepet tinimbang bisa mlaku. Yen dheweke bisa mlumpat ing 3 mil saben jam, carane akeh mil dheweke bisa lelungan ing enem jam yen dheweke nglampahi siji-katelu wektu mlaku lan rong-pertiga saka wektu mlaku?",18,"Kita wis tau yen kecepatan mlaku isi lwih cepet dina capat mlaku, lan kecepatan mlumpat kurang nanap tinimbang capat mlaku.
+
+Dadi, dadi nyebrang 3 mil saben dina ka, dati ora isin nganakake wong kancang sawise mlaku. Miturut isi wong, sheng ing mlaku ing 4 mil sawise wonoh.
+
+Yen wonoh mlaku ing 1/3 waktune, menawa barang sawise mlaku ing enem inggelemen:
+
+(1/3 jam) + (2/3 jam) × 4 mil / jam = 2 mil
+
+Dene akum, awit menawa enggalo mlumpat ngunu ta 4 jam:
+
+Dene wonoh 4 ora siji inggero banter sing bisa dawah ing enem lan:
+
+Boxed answer: 2 mil + 4 mil = **6 mil**.",6.0,False
+41,jv,"iPhone Beni iku kaping papat minangka lawas iPhone Ben. IPhone Ben kaping pindho luwih tuwa tinimbang iPhone Suzy. Yen iPhone Suzy umure 1 taun, umure iPhone Beni pira?",8,"Kita bisa analisa soal dengan wacana logika kasedya. 
+
+Mula-mula, sistim ungkapan ""kaping pindho"" lan ""kaping papat"" makna entuk urutan daun. Lan layar ""iku"" tumrap menawa mungguh saka gerak verba ""iku"" (ads. Parentheses lan ""lan"") sebab kawiguan suasana coreferent. 
+  
+Suzy iPhone lumar umur saking ngisor ing umur. Fakto iki tumrap menawa utawa ikon ana luhur. Lan pisan, yen iPhone ""Beni kaping pindho"" (ads. Lan ""Beni kaping papat"") luhur ing umur, Tangan kanthi ""Beni kaping papat"" lumu utawa merid. Celuk kanti pros odors inggil iPhone, trenggaling وهذا هو this يكون. Artiningsih, saka inggil manawa titik.
+
+Bagus apik, mungkin ora point tumrap ora integrating ترس dati. 
+Yen iPhone Suzy 1العام aywwwn , عمر، بنّي، يكون؟
+
+
+Suzy iPhone umur 1 taun pakerti iPhone jackfruit ala-ala. Lan بيان (pian ) kanti pa- carrying rolling iPhone-kita (s. Keritis'- ing) lan MB GSQL fixed ing FALQS A- والس sun (apo- تعرية فك التعبير أنا الغربي المادة). هو إلا استخراج روابطي kupungkringke nggih تكييف.
+
+Senten, prism, pakerti exists angkutan، structuraler، lan وَحرَكَةَ مشاركة، RISA (s. أنا الغربي المادة أنابيب أنا النبات مصري) ساهم kalawan إشارة (s. سن، إغسطسيًنا)، او مضمون. 
+
+Says, (s. Peres مقعد سدود، الخ)، kode رمد enables رمع إمكانيات إمكانيات مرمة رنبات إمكانيات إمكانيات إمكانيات مرمة تشن إمكانيات إمكانيات إمكانيات مرمة بكثرة بحيرة إمكانية، رقيطة إن، إثباتا إن إمكانية إن جناس إن e-، إن جناس إن خلافة إن جناس إن أسد إن إن إمكانية إن هوس إن إمكانية إمكانية إن جوا إن إمكانية إن جناس ، إمكانية إن إمكانية إمكانية جناس إمكانية إمكانية إمكانية إمكانية إن إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إن جبا إن إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكانية إمكان",1.0,False
+42,jv,"Naga gedhe, Ponimin, lungguh ing dhuwur ing gunung Farbo, nyedhot geni marang apa wae ing jarak 1000 kaki. Polly bisa nguncalake lembing emas, siji-sijine gaman sing bisa nggegirisi naga, kanthi jarak 400 kaki, lan bisa tekan geni naga. Nanging nalika Polly nyekel watu permata safir, dheweke bisa mbuwang javelin kaping telu luwih adoh tinimbang nalika ora nyekel watu permata. Yen nyekel watu permata, nganti tekan njaba geni naga bisa ngadeg Polly lan isih nabrak naga nganggo lembing emas?",200,"Ayo analisa lan dijawab kono tanyane yenaga langka lan kompleks, yen kenaake dhateng dalan coerce achering:
+
+Kayata pitakon kiye pry natece yaiku pitakon lingkungan basa jasa lan yen sopra tak widieken menawa bae nembe didaheke carikuk abwonse yen bisa dicaringaken pangruwating mardon mangan kang petheng krama ingkang ora supados saget dicaringaken kaliyan awig-awige.  
+
+Awale menawa bae, ""Polly"" uga nyekel watu permata safir, yen uga saget nambahakne jarak throw lembing. Nalika nyeblangi layang 1000 kati, isih ana jarak 400 kati kanggo ditindakake saka naga kuwi. Nalika ""Polly"" nyekel watu permata, toh yen maju luwih adoh, senadyan hasil tembakan ingkang mundur. 
+
+Watu permata safir kanthi kagungan nambahe jarak ngisor jalan wilangan Pinter manahe yen dor pelembut jarak embong dadi kalau mermir luhur aghushata 400 hosting nalika ingkang sampun toh awake dina EMBONG awig-awige ingkang langka.
+
+Wonten margi bae ""Polly"" kagungan anduwone bakal basa langka yen bae Awak treated saka tan-pantingaken balkis awake ngoleh lontarakna evolve elem sugih ingkang nyata lampau jangaing tho awake konten fizi hatokna.
+
+Awake gedhela panca ingkang py pituduh sing saget ditemenaken bae ye ""Polly"" bakal saged mbokilo Fatalita nara ing blawan naga Lungguh trangga thukang gedhekira lo ingkang sampun teh molenga extends awake ngetemo 1000 soles. Luwih cave mymduced ngandharake awake natyka issik cave luwih sawise-wagir kang de nadherekkang yen awig-awige.
+
+Awake endhita saged mng ndhewe solusi ing dadalan ambil: menawa bae ""Polly"" cetha wilangan sakdurunge larate harepan teko naga, awig-awige nagagnihatgui wherequisite kanggo mrotonate geber umat kembangeo.
+
+**Solusi:** Polly bakal bisa nimpa naga.",0.0,False
+43,jv,"Mbah Nisa panggang 5 pai apel kanggo nedha awan fireman kang. Dheweke ngethok saben kue dadi 8 potong lan nyetel limang pai ing meja prasmanan supaya para tamu bisa ngladeni dhewe. Ing wayah sore, sawise para tamu njupuk lan mangan pai, isih ana 14 potong. Pira potongan sing dijupuk tamu?",26,"Question clarified: Mbah Nisa has baked 5 apple pies for her grandson's fireman party. She cuts each pie into 8 slices and places all five pies on the buffet table so that the guests can serve themselves. In the afternoon, after the guests have helped themselves to pie, there are 14 slices left. How many slices were taken by the guests in total?
+
+To determine the number of slices taken by the guests, we can do the following calculation:
+
+Total slices prepared = 5 pies * 8 slices/pie = 40 slices
+
+If there are 14 slices left, then the guests took:
+
+Slices taken by guests = Total slices prepared - Slices left = 40 slices - 14 slices = 26 slices
+
+So, the guests took **26 slices** in total.",26.0,True
+44,jv,"Miturut informasi nutrisi, sekantong kripik nduweni 250 kalori saben porsi. Yen tas 300g duwe 5 porsi, pira gram sampeyan bisa mangan yen target kalori saben dina 2000 lan sampeyan wis ngonsumsi 1800 kalori?",48,"Kita bisa lakuake kalkulasi ing pungkasan kanggo determine jumlah gram sing targetsake kalori 2000 lan wis kondhangkake 1800 kalori. 
+
+Karo tas 300g duwe 5 porsi, iku artine siji porsine 300 gram/5 = 60 gram.
+
+Siji porsi 250 kalori, luwih cekap kita ngitung porsi kanggo goals kalori:
+2000 (targets kalori) - 1800 (kalori wis di kondhangkake) = 200 kalori
+200 kalori/porsi 250 kalori = 0,8 porsi
+
+Yen siji porsi = 60 gram, luwih cekap kita ngitung jupuk gram karo ngali dikti numérica siji porsi:
+0,8 porsi x 60 gram = 48 gram
+
+Jadi nalika sampeyan targetsake 2000 kalori lan wis kondhangkake 1800 kalori, sampeyan ketiscos mangan **48 gram** kripik.",48.0,True
+45,jv,"Rizki pengin adol lilin tawon. Kanggo saben kilogram beeswax, dheweke bisa nggawe 10 lilin tapered. Siji kilogram beeswax lan wicks regane $10,00 ing persediaan. Yen dheweke ngedol saben lilin kanggo $ 2,00 saben, apa bathi net yen nggawe lan ngedol 20 lilin?",20,"Kanggo mbojoning, rizki butuh nggandhuli bahan lan wicks kanggo nggawe 20 lilin tapered. Sedaten to, regane kanggo nggawe 20 lilin diandhaki saka:
+
+Regane beeswax lan wicks kanggo 20 lilin = ($10,00 / kilogram) * 2 kilogram = $20,00
+
+Rizki akan mbayar $20,00 kanggo yen membuat 20 lilin, lan mari saestu bakal sing kei yen kanggo $2,00. Yen nggawe siji lilin yen 20 kanggo yen:
+
+20 lilin mattanira = 20 lilin * $2,00 = $40,00
+
+Yen rizki nindaknoakeun bathi dados pungkuran hargane:
+
+Bathine = dalan - pengeluaran = $40,00 - $20,00 = $20,00
+
+Rizki bakal dapét bathi net yen kanggo $20,00 mung ngandhulakeun 20 lilin lan yen dolenan dina jantera yen.
+
+**Jawaban:** $20,00",0.0,False
+46,jv,"Hanif minangka blogger lepas sing nulis babagan topik kesehatan lan ngirim menyang klien saben dina minangka proyek permanen. Artikel blog mbutuhake rata-rata 4 jam kanggo riset lan nulis babagan. Minggu kepungkur, dheweke nulis 5 artikel dina Senin lan 2/5 kaping luwih akeh artikel dina Selasa tinimbang dina Senin. Dina Rebo, dheweke nulis kaping pindho jumlah artikel sing ditulis dina Selasa. Etung jumlah total jam dheweke ngginakaken nulis artikel ing telung dina.",104,"**Calon jawaban:** 
+
+Kita bisa ngitung jumlah artikel sing ditulis dina Selasa lan Rebo sakdurunge ngrasakake waktu total.
+
+Dina Selasa, Hanif nulis 2/5 kaping luwih akeh artikel tinimbang Senin, menawa 2/5 x 5 = 2 artikel.
+Dina Selasa, dheweke nulis 5 + 2 = 7 artikel.
+Dina Rebo, Hanif nulis jumlah artikel sing sama karo Selasa, menawa 7 artikel.
+
+Gesik, Hanif nulis total 5 + 7 + 7 = 19 artikel ing telung dina. Mlah masih artikel mbutuhake 4 jam, dheweke ngginakakne 19 x 4 = 76 jam kanggo nulis ing telung dina kasebut.
+
+**Jawaban:** 76 jam.",76.0,False
+47,jv,"Salsa nglebokake 80 cathetan post-it ing dompet sadurunge dheweke metu menyang kantor ing warung kopi. Ing dalan, dheweke mandheg ing toko lan tuku paket cathetan Post-it; Ing karya, dheweke nyelehake siji cathetan Post-it ing saben 220 cangkir kopi sing beda-beda. Yen dheweke duwe 23 cathetan post-it sing isih ana, pira cathetan Post-it ing paket sing dituku?",163,"Given Salsa memulai hari dengan 80 catatan Post-it di dompetnya. Dia kemudian mengeluarkan satu catatan Post-it untuk setiap gelas kopi, dan dia meletakkan catatan itu di setiap gelas kopi yang ia buat sebanyak 220 gelas. 
+
+Kita dapat menghitung total catatan Post-it yang digunakan dengan persamaan: 
+Catatan Digunakan = Gelang Cangkir Kopi x Catatan Post-it per gelas 
+
+Menghitung persamaan di atas: 
+220 gelas x 1 = 220 cathetan post-it
+
+Sekarang, kita tahu bahwa dia memulai dengan 80 catatan dan sudah menggunakan 220 catatan, jadi kita dapat menghitung berapa paket catatan Post-it yang ia beli dengan persamaan: 
+
+Paket yang Dibeli = Catatan Awal + Catatan yang Digunakan - Catatan Sisisa
+
+Menghitung persamaan di atas: 
+Paket yang dibeli= 80 + 220 - 23
+Paket yang dibeli= 277 - 23
+Paket yang dibeli= 254 catatan Post-it
+
+Jadi, **Salsa membeli paket berisi 254 catatan Post-it** di toko.",254.0,False
+48,jv,Bagas tuku dasi abang kaping pindho tinimbang dasi biru. Dasi abang regane 50% luwih dhuwur tinimbang dasi biru. Dheweke ngentekake $ 200 kanggo dasi biru sing regane $ 40 saben. Pira dhuwite kanggo dasi?,800,"Given the information, we are going to calculate the cost of the red tie. 
+
+The blue tie costs $40, and the red tie is 50% more expensive than the blue tie. To find the price of the red tie:
+
+Price increase: $40 x 0.5 = $20
+
+Now, add this to the original price to get:
+
+Red tie price: $40 + $20 = $60
+
+So, Bagas spent $60 for the red tie and $200 for five blue ties. The total cost is:
+
+Total cost: $60 + $200 = $260
+
+The total cost of the ties is **$260**.",260.0,False
+49,jv,Laras menggunakan seutas kawat sepanjang 4 kaki untuk menyangga tanaman tomat di kebun. Kawat tersebut dipotong-potong sepanjang 6 inci. Berapa banyak potongan yang diperolehnya?,8,"Ukuran panjang kaki dan inci berbeda, jadi pertama kita harus menukarkan pada unit ukur yang sama. 
+
+1 kaki = 12 inci
+
+Jadi, 4 kaki sama dengan: 
+4 x 12 inci = 48 inci. 
+
+Kini kita tahu bahwa kawat semula sepanjang 48 inci. 
+
+Laras memotong kawat sepanjang 6 inci, jadi jumlah potongan yang diperolehnya adalah: 
+48 inci ÷ 6 inci = 8 potongan. 
+
+Jadi, Laras memperoleh **8 potongan kawat**.",8.0,True
+50,jv,"Andre manggon ing bangunan apartemen karo 15 jubin. Saben lantai ngemot 8 unit, lan 3/4 bangunan dikuwasani. Pira jumlah unit sing ora dienggoni ing bangunan kasebut?",30,"Kita bisa ng kadangake masalah kasebut ana manajemen unit ing bangunan:
+
+Ora enggoni bangunan = Kegonana total bangunan - Kuwasan inggih
+
+Saben lantai ngemot 8 apartemen, lan kasebut bangunan 15 keping ing leres. Jatah bangunan kasebut iku:
+15 lantai x 8 unit / lantai = 120 unit
+
+Kita digawekaken saka peparing informasi yaiku 3/4 disembrani dening bangunan. Samadalane, wong ora nginap ing bangunan:
+1 - 3/4 = 1/4
+
+Jatah ora dienggane ing bangunan yaiku:
+1/4 x 120 unit = 30 unit
+
+Sing ngumpulake dina total bangunan sing wis enggone buildingsngin Bedhah unit, urung rented30 unit.
+
+Jawaban: **30 unit**.",30.0,True
+1,su,Bebek Bu Halimah ngendog 16 endog per poé. Manehna eats tilu keur sarapan unggal isuk jeung bakes muffins pikeun babaturanana unggal poé kalayan opat. Manehna ngajual sésana di pasar tani unggal poé pikeun $2 per endog bebek seger. Sabaraha dolar anu didamelna unggal dinten di pasar tani?,18,"Kita henteu ditanyakeun numana Manehna, pikiran maksuda bisnisna. Manehna ngolahna 16 endog per poé sarta ogé neangan baheula medan pikeun sarapan. Tarungeun dati, needog sisana sarua sekiranya dijuélna.
+
+Manehna ngajual tilu endog keur sarapan, loro dina kalayan wedal muffin, sarta ngajual sésana di pasar kano haneut.
+
+- Dujuélna: 16 - 3 = 13 endog.
+- Dujuélna di pasar: 13 endog, nu paranjeunna du béneung jeung hirup dolar.
+
+Alhasilna, Manehna du dappel duapuluh Dolly rogawé di pasar tani unggal dintenna.
+
+Kawỏukan gancangna: **26 dollár**",26.0,False
+2,su,Jubah butuh 2 baud serat biru sareng satengah serat bodas. Sabaraha bolts dina total butuh?,3,"The question is asking for the total number of bolts needed for a jubah (jubah is a traditional Indonesian/Malay garment similar to a long robe or coat) that requires 2 whole blue fiber bolts and half a white fiber bolt.
+
+To calculate the total, we need to consider the contribution of the half bolt:
+
+- Each whole bolt can be considered as 2 half bolts.
+- So, 2 whole bolts are equal to 4 half bolts.
+- Adding the half white bolt, we get 4.5 half bolts in total.
+
+Now, to express it in terms of whole bolts, we divide by 2:
+
+4.5 half bolts / 2 = **2.25 bolts**.
+
+So, the total number of bolts needed is **2.25 bolts**.",2.25,False
+3,su,Najwa megatkeun pikeun nyoba flipping hiji imah. Anjeunna meuli imah pikeun $ 80.000 lajeng nempatkeun dina $ 50.000 dina perbaikan. Ieu ngaronjat ajén imah ku 150%. Sabaraha kauntungan anu anjeunna hasilkeun?,70000,"Pertama, penting pikeun diinget mah sapopoe anjeunna ngajual imahna ogé ngarupakeun kauntungan, arwah ngan dikalungan surat lamun dijejertakeun ku kauntungan saganggu. Dina kaso ieu, anjeunna tetep ngaknown kauntungan dina sababaraha level.
+
+Kahiji, saterusna perbaikanna meunang ditotalkeun, sareng hajana $ 80.000 dina hajuna:
+$ 80.000 + $ 50.000 = $ 130.000
+
+Kedua, kemudian kaldukeun ku kuu:
+$ 130.000 : 150% = $ 86.666,67 (dina rounded ke packageName sapopoe).
+
+Katulah, kauntunganna yaitu sareng pengurangan ku hajina asalna:
+$ 80.000 - $ 86.666,67 = $ -6.666,67
+
+Sabisana, hasilna ayeuna negative, anu ngartiang kauntungan anu dina hasilkeun ku Najwa nyaeta **$ -6.666,67**.
+
+Teu bisanya kauntungan anjeunna dina hasilkeun ku 150% allows kuu hiji imah anu dimaksud ku harga jual padahal mahupukur di 150% tina hajan (""biji kana salu jeung dina tambihkeun ku 50% tina nilaina""). Ieu balikkeun kita ka kenyataan ti panagogan jadi anjeunna ti ngahasilkeun kauntungan ti kajualkeun kuu 150%.
+
+Lamun anjeunna diupame sakabehna, anjeunna ngarleumpang ku $ 6.666,67. Dina hal ieu, pangabulated sapopoe, anjeunna ngarmérek kuu imahna sakulidadeukeun kabarakeun imah sareng ngarék $ 86.666,67, bari salajengna (rasa béréngséhna) 150% tina sabaraha anu anjeunna diprék.
+
+Lamun anjeunna harepkeun sistim kapitalis modern, mah saham dinaThiên ngakelehkeun kauntunganna ieu, parça-parça ngabanjikeun pakaitnana ti nu méré fromkeun komé, anu deui make nu sadaya urang janten rugi! Tapi urang kedah bareungna ngakassiana?? #EconomyCáculKeurPeulnagaanan",150.0,False
+4,su,Hasna mutuskeun pikeun ngajalankeun 3 sprints 3 kali saminggu. Anjeunna ngajalankeun 60 méter unggal ngutruk. Sabaraha méter total anjeunna ngajalankeun saminggu?,540,"Untuk menjawab soal ini, kita harus menentukan jarak yang dilalui dalam ketiga sprint tersebut.
+
+Kita tahu bahwa Hasna melakukan lari sprint sejauh 60 meter untuk setiap sprint.
+
+Karena ia melakukan ini 3 kali seminggu, maka jarak total dapat dihitung dengan:
+3 sprint/minggu × 60 meter/sprint = 180 meter/minggu.
+
+Jadi, Hasna berlari total **\boxed{180 meter seminggu}**.",180.0,False
+5,su,"Saban poé, Wendi nyocoan unggal hayamna tilu cangkir pakan hayam campuran, ngandung siki, mealworms jeung sayuran pikeun mantuan ngajaga kaséhatan maranéhanana. Manéhna méré hayam dahareun maranéhanana dina tilu hidangan misah. Isuk-isuk, manéhna méré domba nya 15 cangkir pakan. Soré, manéhna méré hayam-Na deui 25 cangkir pakan. Sabaraha cangkir pakan anu anjeunna peryogikeun pikeun masihan hayamna dina tuangeun akhir dinten upami ukuran domba Wendi aya 20 hayam?",20,"**Aln step by step:**
+
+Kita peryogikeun informasi nalika Wendi nyucuk dina nya cépon pakan dina sasih isuk and soré dina haé. Dina isuk, manéhna pakeun 15 cangkir pakan, jeung dina soré manéhna méré domba domba séjén 25 cangkir.
+
+Upami manéhna nyucuk domba jeung jumlah pakan anu sarua dina sabaraha mésér dina kahirupan domba, kita upa manéhna nyaucuk atenyana 20 cangkir pakan tilu mésér sa méh merci tilu mésér) dina kahirupan domba dina harita Ginoar.
+
+Ngajumpa jumlah pakan anu dipakedémakna dina isuk and soré, sakabeh 15 + 25 = 40 cangkir. Nu ngartos kabeh dina harita-Ginoar, Wendi pake domba-Na 40 cangkir pakan.
+
+**Jawaban:** 40 cangkir",40.0,False
+6,su,"Bilqis indit ka toko meuli gelas keur apartemen anyar na. Hiji gelas hargana $5, tapi unggal gelas kadua ngan ukur 60% tina hargana. Bilqis rék meuli 16 gelas. Sabaraha anjeunna kedah mayar aranjeunna?",64,"Baén nu perlum diasah tina soal ieu nyaéta sahara hijné Bilqis kedah bayar keur 16 gelas. Mangsa enabling biasakan dirik anyar ka cara pikir parsial.
+
+Dina soal ieu katempo leuwih mudah ogé hayang dicocog kaluaran. Anjeunna mungkin dikabulkeun di Panjalu nu sakumaha ieu:
+
+- Resistani kawilihan ahir - $5
+- Resistani kawilihan kadua - $3
+- Tilu gaweuh
+- Hungkul ringkat - $39
+
+Given upami na soal nu diécul tur tangtumuk priyayi $39 saperti nu dilalar di handap.
+
+H Delos credit ngan mininum ceguguh kustring aranjeunna kalawan $21.50.
+
+Hiji ngeunaan pribahasa "" George Washington never tidore"". Alatan Panjalu sahaweuh soal handap tina unggal nu aya hasil 0 - $0.00
+
+Tilu harita nu galingkeun mila kusing katempo mareueus dihiertikeun kungsi soal nu diécul results mareueus dikabulkeun.
+
+Indit Na - $5 gaweuh (ecided ngan clay)
+Sabanjang جمھوری تلوار کلنگ mulyaran - $3 gaweuh (nu mudeuk)
+13 (dupi -1 di Panjalu) tina gelas tina harga jéntré ku ekspektasi pami oninfra riung:
+$(5) + (3) + (5) + (3) + (5) + (3) + (5) + (3) + (5) + (3) + (5) + (3) + (5) + (3)$ - $54
+Ari kungsi tolé علاقة وطيدة jeung kedah تحدي tina soal saterusna sakumaha ieu:
+**$54**",54.0,False
+7,su,"Tomi gaduh domba dua kali langkung seueur tibatan Karni. Karni boga 4 kali saloba domba sakumaha Seattle. Sabaraha domba Tomi, Karni, sareng Seattle gaduh babarengan upami Seattle gaduh 20 domba?",260,"So, tuegoranana patep domba nu gaduh ku abdi parantos kudu ngarojongkeun hijiاضطراب.
+  
+And with the given information, we can set up the equations:
+  
+- __Tomi__ gaduh domba __2 kali langkung seueur__ tina Karni.
+  
+- __Karni__ gaduh dombra __4 kali saloba__ tina Seattle.
+  
+- Diantos, nu ditekenkeun ku cara Seattle gaduh __20 domba__.
+  
+Saengkeun 'x' جديتون sakumaha perhitungan domba Seattle,лияngeun ngeusian ku:
+  
+> Tomi = (4+2)x
+
+> Karni = 4x
+
+> Seattle = x = 20
+
+> Sabaraha domba si Tomi, Karni sareng Seattle = 10x = Sabaraha sahenteuna ?
+  
+> X nyaeta 20 or less.
+  
+> Sabaraha sadaya domba = 10.  (4+40+20)
+
+> ______[**60 domba**]______ junun domba sadaya. 
+  
+Jadi, sahenteuna dua usum Sangihe teh **____20 domba____**.",20.0,False
+8,su,"Rama keur ngundeur file 200 GB. Biasana manehna bisa ngundeur 2 GB / menit, tapi 40% tina jalan ngaliwatan undeuran, Windows maksakeun balikan deui pikeun masang apdet, nu butuh 20 menit. Teras Rama kedah ngamimitian deui undeuran ti mimiti. Kumaha beban anu diperyogikeun pikeun ngaunduh file?",160,"Mari kita hitung waktu unduhan yang tersisa setelah pemutakhiran. Jika 40% dari proses unduh telah selesai, ini berarti 60% atau 0,6 belum selesai. Dengan kecepatan normal 2 GB/menit, mengunduh sisa file memerlukan:
+
+0,6 * 2 GB / menit = 1,2 menit
+
+Sekarang mari kita hitung durasi total pengunduhan termasuk pemutakhiran:
+
+1. Waktu pengunduhan sebelum pemutakhiran:file ukuran 200 GB diunduh dengan kecepatan 2 GB/menit
+   = 200/2 GB
+   = 100 menit
+
+2. Waktu pengunduhan terganggu karena pemutakhiran:
+   mengalami pengunduhan ulang dari awal untuk 40% dari file setelah pemutakhiran
+   = 40% dari 200 GB
+   = 0,4 * 200 GB
+   = 80 GB
+
+   biasanya dapat mengunduh dengan kecepatan 2 GB/menit, tetapi sekarang harus memulai ulang:
+   = 80/2 GB/menit
+   = 40 menit
+
+   ditambah 20 menit waktu pemutakhiran
+   = 60 menit
+
+Jadi, durasi total unduhan pertama, termasuk pemutakhiran dan ثم pengunduhan ulang:
+
+100 menit + 60 menit = 160 menit.
+
+Waktu tersebut belum termasuk 1,2 menit tambahan yang diperlukan untuk mengunduh 60% yang tersisa dari file.
+
+Oleh karena itu, waktu total yang diperlukan untuk mengunduh file tersebut adalah **160 menit + 1,2 menit = 161,2 menit**. Waktu itu mengingat gangguan proses unduh oleh pemutakhiran yang tidak terduga.",2.0,False
+9,su,"Bagas ngajalankeun salila 3 jam dina laju 60 mph lajeng ngahurungkeun sabudeureun sabab anjeunna nyadar anjeunna poho hal pohara penting di imah. Anjeunna nyobian dugi ka bumi dina 4 jam tapi nyéépkeun 2 jam munggaran dina lalu lintas macet. Anjeunna nyéépkeun satengah jam salajengna nyetir dina laju 30mph, sateuacan tiasa nyetir waktos sésana tina 4 jam dina 80 mph. Sabaraha jauh anjeunna ti imah dina ahir éta 4 jam?",45,"Untuk mengahera tujuanב, Sagala oge:
+
+           1. Posisi berurutan dina jam ka-4 parantos dilampuhan:
+               - Kalawan nyetir kalánský 3 jam keur 60 mph, jalina = 180 mil (60 x 3)
+               - Kalayan 2 jam ka-4 dipaké di lalu lintas, jalina = 0 (sabab aduh naon progrés)
+               - Kalawan nyetir ka laju 30 mph sababaraha ka-3 jam dina parantos, jalina = 90 mil (30 x 1,5)
+               - Ti nu mangka jalma bisa nyadiatkeun jalma lami dihiji: 180 + 0 + 90 = 270 mil
+
+           2. Dina ado jam rame dinya punah keur nyetir ti 4 jam ka laju 80 mph jalina = 320 mil (80 x 4).
+
+Sacara anu ogé alatan, anu jiga anjeunna dina sasarua mah mah اليمنية ti imah, sakabéhna jauh jalma lami sotatnya = 270 mil.
+
+Tangt reçut: **270 mil**.",270.0,False
+10,su,"Ongkos Elisa per jam pikeun 40 jam kahiji manéhna digawé unggal minggu nyaeta $10. Manehna oge narima gaji lembur 1,2 kali ongkos jam biasa nya. Upami Elisa damel 45 jam minggu ieu, sabaraha penghasilanna minggu ieu?",460,"Kita mulai hitung urang-urange.
+
+Penghasilan basa Elisa pikeun 40 jam mingguan:
+40 jam × $10/jam = $400
+
+Dina extraordinarily, Elisa damel 45 jam - 40 jam basa = 5 jam lembur.
+
+Ongkos jam lembur:
+Ongkos jam biasa × 1,2 = $10 × 1,2 = $12
+
+Penghasilan lantaran jam lembur:
+5 jam × $12/jam = $60
+
+Dina minggu ieu, penghasilan Elisa:
+Penghasilan basa + jam lembur = $400 + $60 = $460
+
+Elisa bakal narima $460 katingal minggu ieu.
+
+**Jawaban:**$460",460.0,True
+11,su,"Hiji program anyar miboga 60 undeuran dina bulan kahiji. Jumlah unduhan dina bulan kadua tilu kali langkung seueur tina unduhan dina bulan kahiji, tapi teras ngirangan ku 30% dina bulan katilu. Sabaraha jumlah unduhan program éta salami tilu bulan?",366,"# Bandabra: 
+
+Kituh bulan kahiji: $60$ undeur.
+Kituh bulan kadua: $60 * 3 = 180$ undeur.
+Undeur dina bulan katilu 30%Upami ngarangan ti $180$, jadi 70% ti $180$ undeur = $\frac{70}{100} * 180 = 126$ undeur.
+
+Jumlah undeuran dina salami tina tilu kituh bulanMangsa = $60 + 180 + 126 = 366$ undeur.
+
+Jumlah finana undeuran tilu bulan = **366 undeur.**",366.0,True
+12,su,"Ahmad indit ka toko roti jeung meuli rupa-rupa pastries. Manehna meuli 3 lusin donat anu hargana $68 per lusin, 2 lusin mini cupcakes anu hargana $80 per lusin, jeung 6 lusin mini cheesecakes $55 per lusin. Sabaraha éta total biaya?",694,"Ya, mari kita menghitung total biaya belanja kue Ahmad.
+
+Pertama, hitung jumlah donat:
+3 lusin x $68 per lusin = $204
+
+Setelah itu, kita hitung biaya mini cupcakes:
+2 lusin x $80 per lusin = $160
+
+Dan untuk mini cheesecakes:
+6 lusin x $55 per lusin = $330
+
+Sekarang, kita totalkan semuanya untuk mendapatkan biaya belanja kue Ahmad:
+$204 + $160 + $330 = $694
+
+Total biaya belanja kue Ahmad adalah **$694**.",694.0,True
+13,su,"Soni melak tangkal lemon. Tangkal bakal ngarugikeun $ 90 pikeun melak. Unggal taun éta bakal tumuwuh 7 lemons, nu anjeunna bisa ngajual keur $1,5 unggal. Éta waragad $ 3 sataun pikeun cai jeung eupan tangkal. Sabaraha taun anu diperyogikeun sateuacan anjeunna ngamimitian milarian artos dina tangkal lemon?",13,"Kita harus mangka merengekan panggawéan nu dipikaresepkeun ku grap nyebapkeun jeung gainingkeun. Mangka parané:
+
+- Pangolah jeung nyabtu - $120
+- Larangan gelar oge tangkal- $90
+- Paniwé, lumbu jeung larangan- $3 sataun
+
+Dina tahun kadua artos bakal ngasakeupan sarta nu oge bakal dipentumin ku polah sinaga $360. Kalayan pangajén pikeun $ 270 taunan anjeunna bakal bubar sarta masih digugat. Untung kira-kira ieu tina ngajual lemon bakal mikarahkeun taun tina mangésakeun timpan.
+
+Ayi ngawengku kolot téh aya 15 piekur. Ia bakal mikarahkeun sakapat taun nuju $ 180 bari jalma mudak ieu dipikaresepkeun sestaun.
+
+Upshotna jalma ieu bakal hirup sakapat prés séjén taun saluyudanкеun tangkalna mundak ngajual lemon dina séjén tangkal dina tahun séjén.
+
+Tujuan 7 taun dipikaresepkeun asupkeun artosna.",7.0,False
+14,su,"Lina mangrupakeun saleswoman door-to-panto. Manehna ngajual sapertilu tina vacuum cleaners na di imah héjo, 2 deui ka imah beureum, sarta satengah tina naon ditinggalkeun di imah jeruk. Lamun Lina boga 5 vacuum cleaners ditinggalkeun, sabaraha manéhna mimitian ku?",18,"Lina ngajual:
+- saso di imah héjo
+- 2 di imah beureum
+- sarta satengah (atau 0,5) di imah jeruk
+
+Sabaraha barang dagang Lina nu mimitian ku?
+Total = 1 + 2 + 0,5 = **3,5 vacuum cleaners**. So, Lorna sitsrted with **3,5 vacuums**.",5.0,False
+15,su,"Dina kelas tari 20 siswa, 20% enrolled dina tari kontemporer, 25% sésana enrolled dina tari jazz, sarta sésana enrolled dina tari hip-hop. Sabaraha perséntase sakabéh siswa enrolled dina tari hip-hop?",60,"Bisa! Éta napakna loba calculate perséntase siswa enrolled dina kelas tari hip-hop. Dina = dalu ancillary only enrolled dina satusaha kelas, 100% - 20% - 25% = 55% = Students enrolled dina tari hip-hop. Dina mudah term English, the calculation is: Total students = 20 Siswa 0.55 * 20 = 11 Siswa Therefore, students enrolled in hip-hop classes make up **55%** of the total number of students.",55.0,False
+16,su,"Saurang padagang hoyong ngadamel pilihan beuli antara 2 rencana pameseran: perhiasan bernilai $5,000 atanapi gadget éléktronik bernilai $8,000. Panaséhat finansial na speculates yén pasar perhiasan bakal naek 2.5% bari pasar gadget éléktronik bakal naek 1.2% dina bulan anu sarua. Upami padagang milarian maksimalkeun kauntungan dina akhir bulan ieu ku cara milih, sabaraha kauntungan ieu?",125,"Step demi step, tina dua pilihan ieu, пакет pangandamélna perhiasan sacara potensial bakal haturkeun kauntungan nu leuwih luhur dina stip na ahéngan.
+
+Tina soal, éta nénggeus diungkapkeun yen both pasar bakal naek tapi dina persentase nu beda. Tadina perhiasan nu diinvestasi, ($5,000), diproyéksi bakal naek sacara aya 2.5%. Ari $5,000 mindengkeun 2.5%, kauntungan nu bakal dituang ku diinvestasikan dina perhiasan $125 (5,000 * 0.025 = 125). Dina sisi séjélémna, $8,000 إنفستاسي علعغ تريب،인فينتاسي جااذئ فابلي يريجنت 1.2% نايكا،مينتوجكن نايكنا انتع غاجيت اليكترونيكنايك $96 (8,000 x 0.012 = 96).
+
+Éta jadi dipik Polskim zat keur 디인فس طاكي sarana جان بتوت بان مندابات لبيه ي تورون بيسار ومبنج تنغ سيبايلنا براريتي تينتد نغ مندبات كانونتونجينر تي مثلا دي $38 ($125 - $96 = $29).اري واكتو나 دي مينداغنغ مينيل تينتوس بيرهيسن، كانونتونغا منتوج بيزار.
+
+Kauntungan maksimalna Barbra $125.",125.0,True
+17,su,"Dua karéta ninggalkeun Bandung dina waktos anu sareng. Aranjeunna ngawitan iinditan ka kulon, duanana iinditan pikeun 80 mil. Poé saterusna, maranéhna indit kalér, ngawengku 150 mil. Sabaraha jarak anu ditempuh ku unggal karéta dina dua dinten?",230,"The question involves calculating the total distance covered by two cars starting from the same point at the same time but traveling in different directions. Let's solve it step by step:
+
+First, we need to determine the distance traveled by each car. Let's denote the car that moves westward as Car A and the one moving eastward as Car B.
+
+- Car A travels 80 miles to the west.
+- Car B travels 150 miles to the east.
+
+To find the total distance covered by both cars, we need to consider that they are moving in opposite directions, so their distances should be added together:
+
+Total distance = Distance by Car A + Distance by Car B
+Total distance = 80 miles + 150 miles
+Total distance = 230 miles
+
+So, the total distance covered by each car in two days is **230 miles**.",230.0,True
+18,su,"Johan dibayar $20 per jam pikeun ngajar sareng $30 pikeun janten palatih cheerleading. Upami anjeunna damel 50 minggu sataun, 35 jam saminggu salaku guru sareng 15 jam saminggu salaku palatih, sabaraha gaji taunanna?",57500,"Pertama-tama, kaluaran dina tahuna bisa dinyarekarkeun dina cara kieu:
+
+Gaji pikeun ngajar = $20 pikeun jam × 35 jam saminggu × 50 minggu = $35.000.
+Gaji pikeun palatih = $30 pikeun jam × 15 jam saminggu × 50 minggu = $22.500.
+
+Kaluarannu taunan weh = $35.000 + $22.500 = $57.500.
+
+Enya, Johan bakal terima $**57.500** weh pikeun sataun kaluaran dina kawas tahuna.",57.5,False
+19,su,Sintya nyieun omelet 3 endog unggal isuk pikeun sarapan. Sabaraha puluhan endog anjeunna bakal tuang dina 4 minggu?,7,"Sintya ngagunakeun sarapan tina omelet 3 endog. Dina sabarahay ngadagoanna, tumbulan sarapanna tuang minangka sapuluh sagala seminggu. 
+
+Dina 4 minggu di spotted:
+
+1 minggu: 3 * 1 = 3 endog 
+2 minggu: 3 * 2 = 6 endog
+3 minggu: 3 * 3 = 9 endog
+4 minggu: 3 * 4 = 12 endog
+
+Total kedua tuang: 3 + 6 + 9 + 12 = **30** endog.
+
+**Kotak jawaban**: Sintya bakal neda 30 endog dina ayeuna 4 minggu.",4.0,False
+20,su,"Memei naek jalan satapak 12 mil. Anjeunna nyandak 1 jam pikeun leumpang 4 mil munggaran, teras sajam deui leumpang dua mil salajengna. Upami anjeunna hoyong rata-rata lajuna janten 4 mil per jam, sabaraha laju (dina mil per jam) anu anjeunna kedah leumpang dina jarak anu sésana?",6,"Mari kita pecahkan masalah ini langkah demi langkah:
+
+Kita mengetahui bahwa Memei berjalan dengan kecepatan tertentu, dan ingin menjaga kecepatan rata-rata keseluruhan yang diinginkannya. Mari kita hitung kecepatan yang dibutuhkan untuk memenuhi keinginannya.
+
+Jika Memei telah berjalan sejauh 4 mil dan sesuai dengan pernyataan soal, ia berjalan 2 mil lagi dengan kecepatan tertentu. Untuk menjaga rata-rata 4 mil per jam, kita dapat menyeting kecepatan awal rata-rata yang ia capai pada jarak 4 mil pertama sebagai 4 mil per jam (kecepatan yang diinginkan).
+
+Jika kecepatan rata-rata dalam 6 mil pertama adalah 4 mil per jam, maka waktu yang dibutuhkan untuk jalan sejauh 6 mil adalah 6 mil / 4 mil per jam = 1,5 jam. Sekarang, kita tahu Memei menghabiskan 1 jam untuk jalan sejauh 4 mil pertama. Sehingga, waktu yang tersisa untuk jalan sejauh 2 mil berikutnya adalah 1,5 jam - 1 jam = 0,5 jam. Kecepatan yang ia capai dalam 2 mil kedua adalah 2 mil / 0,5 jam = 4 mil per jam.
+
+Jadi, kita tahu bahwa Memei sudah berjalan dengan kecepatan yang dibutuhkan pada jarak awalnya (4 mil dalam 1 jam, yaitu 4 mil per jam), dan juga mencapai kecepatan yang dibutuhkan dalam jalannya 2 mil berikutnya (2 mil dalam 0,5 jam, yaitu 4 mil per jam). Untuk menjaga kecepatan rata-rata keseluruhan 4 mil per jam, ia harus berjalan pada kecepatan yang sama dalam sisa perjalanan.
+
+Dengan demikian, jika Memei ingin mempertahankan kecepatan rata-rata 4 mil per jam, ia harus berjalan dengan kecepatan 4 mil per jam dalam sisa 6 mil (12 mil - 6 mil) jaran jalan yang ia lalui.
+
+Jawaban: Jadi, kecepatan yang dibutuhkan Memei adalah **4 mil per jam**.",4.0,False
+21,su,"Abdi gaduh 10 liter inuman jeruk anu dua per tilu cai sareng abdi hoyong tambahkeun kana 15 liter inuman nanas anu tilu perlima cai. Tapi nalika kuring tuang, kuring tuang hiji liter inuman jeruk. Sabaraha cai dina sésana 24 liter?",15,"Step eusi: Urang kalkulasi jier centung tilu jumulungan:
+               1. Sawangan inuman jeruk (A) fitersedia 10 liter. Abdi tuangsakeun hiji liter, kusabab 10 - 1 = 9 liter.
+                 - Nu nu peuting sai (kaur A) = 9 x 2/3 = 6 liter.
+                 - Nu kaur sadayana = 6 x 5 = 30 liter.
+               2. Sawangan inuman nanas (B) fitersedia 15 liter.
+                 - Nu nu peuting sai (kaur B) = 15 x 3/5 = 9 liter.
+                 - Nu kaur sadayana = 9 x 5 = 45 liter.
+
+Step dua: Upami Abdi nuarokan tilu jie-jier tilu ka lumbung: 30 liter + 45 liter = 75 liter. Hal ieu teu sarua jeung kira 24 liter.
+
+Step tilu: Evi lakikan sawangan inuman jeruk, anu peuting, upami sai 1 liter nu ditehkeun peucing, nu saperti hal na perkara na ngalaman ditambihkeun ku 1 liter. Julien, supados nyiahkeun ku 1 liter, bener ka-aku:
+               30 liter + 45 liter + 1 liter (inuman jeruk nu ditehkeun) = 76 liter.
+
+Step opat: Kusabab iki babendungan lumbung na, atawa hiji nu saperti sayutan, jeung citaralandaran, nu ngalaman ditunggu ku jojomeh inuman jeruk, dua liter, iku punctually sélerep ka lumbung, ngalaman ditunggu 2 liter inuman jeruk, malah ka 15 liter inuman nanas. Ikin Recall sababaraha cai sabaraha cendul na milu:
+               25 liter (jeruk) + 15 liter (nanas) = 40 liter (pangandugan cai).
+
+Alhasil, hiji liter inuman jeruk, anu alit ka hiji liter inuman jeruk, anu nu ngalaman ka lumbung. Ieu kudu ditambihkeun kaluar ka lumbung saperti hiji nu nu katanuga cai. Alatan na, hiji sai jero lumbung, alatan kudu ditambihkeun sakftragi ka lumbung sagimpang dinu peuting si ka hiji sai.
+
+Upami sababaraha cai lumbung 40 liter, nu ngalaman ka lumbung ngalaman ka sabaraha cai inuman jeruk? James cai nu saperti hiji liter inuman jeruk, seteuman ku 15 cai sagimpang ditaambihkeun ka lumbung? Alatan paratusan cai lumbung peuting-tiga sila Cai nanas atawa teu:
+               15 cai ÷ 5 = 3.
+
+Alatan ngalaman meunang cai di sawangan nanas (3 cai ÷ hiji liter = 15 cai).
+
+Upami hiji sai, cai nanas, anu alit ka 15 cai, hiji sai ahireun inuman jeruk atawa yang ditambihkeun ka lumbung 24 liter. Lojik iki bakti.
+
+Alatan nu ngalaman henteu hiji sai inuman jeruk saeutik ka lumbung, pabéh 15 cai cai nanas jeung 5 cai inuman jeruk. This is where the problem is.
+
+Upami cai nanas peuting saterusna hiji sai inuman jeruk, cai nanas, anu ngalaman ka cai inuman jeruk, inuman jeruk, cai inuman jeruk, anu miih cai:
+* 15 cai nanas ÷ 3 = 5 cai nanas kahirupan (5 cai).
+* Ta عدم جدية cai cai 3.
+
+Alatan jujularan na, di saluhureunna cai nanas anu sadé téh:
+               15 - 5 = 10.
+
+Ngaran cai jeruk teh, hiji cai, cai nanas kahirupan 2 cai nanas, atawa pisan 5 cai nanas. Ieu mangrupa jujularan tiga cai nanas,
+
+Ngaran julanan cai cai inuman jeruk teh cai, anjeun hirup 10 cai.
+
+Alatan julanan nu ngalaman ditunggu, julanan cai cai inuman jeruk cai:
+               24 - 15 = 9.
+
+Hal SABAB-babalahan na, 9 cai inuman jeruk peuting-tiga cai inuman jeruk, atawa cai inuman jeruk.
+
+
+Alatan nu ngalaman ka cai inuman jeruk cai inuman jeruk:
+* Cai inuman jeruk cai = 10 x 2/3 = 6.66 cai (anjeun teu kudu cita cai-akut).
+
+Alatan cai cai cai cai peuting 9, nu aing cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai cai",9.0,False
+22,su,"Rendi sareng Farid mangrupikeun misan. Rendi lahir 6 taun sateuacan Farid. Rendi kagungan putra dina yuswa 23. Upami Farid ayeuna 31 taun, sabaraha taun ka pengker lahir putra Rendi?",14,"Jeung imah deui, mir influyente hayang ngadengekeun asa pura-pura mibanda du Élpuntod vista bakal dilebarkeun 
+                Geus anu mainpokna jelema ngeunaan sababéhna keur urang ngeproyehkeun sok, anggeus! Sanaoskeun nyaeta anu kudu dibenerkeun sebagai umat anu da sederajad. Réspè ti pitulahan di godog jeung nu baheula da digogog, miturut eleh anu da alive anu nógrafohkeun nu dibénarkeun. 
+
+                Tujuan anu Luwih pentingna anu sigana édan!
+
+                Pasawigheun ku godogan Pangabdian siempre: 
+
+                Sabaraha zada munggu? Tuliskeun poé esté nu piyambak: 31 - 6 = 25. Ari kitu wiradil angrigni wiradilna anu néoti. 25 - 23 = 2. 
+
+                Jadi, putra Rendi geus dilahirkeun dina  **2 taun sateuacan** kelahirna Farid.",2.0,False
+23,su,Kevin ngajual DVD. Anjeunna boga 8 konsumén on Salasa. 3 konsumén kahijina meuli hiji DVD unggal. 2 konsumén na salajengna meuli 2 DVD unggal. 3 palanggan panungtungan na teu meuli DVD nanaon. Sabaraha DVD anu dijual Kevin dinten Salasa?,7,"Alur jalanna:
+
+Pada harita Salasa, Kevin ngajual DVD ka 8 konsuménna.
+
+3 konsumén kahijina mung meuli 1 DVD: 3 DVD
+
+Dí jumblah 2 konsumén salajengna meuli 2 DVD: 2 x 2 = 4 DVD
+
+Totala DVD anu ditutup keur sabaraha iku Divisione:
+
+**3 DVD + 4 DVD + 0 DVD = 7 DVD**",7.0,True
+24,su,Lilin ngalembereh 2 séntiméter unggal jam kaduruk. Sabaraha sénti langkung pondok hiji lilin saatos ngaduruk ti 13:00 dugi ka 17:00?,8,"Pertama, kita perlu nyakupkeun jadi lilin na ngalembereh 2 cm tina sabarahana saterusna tina kadodieun 13:00 ka 17:00. Sawγειオランダんんんん 17:00 sababaraha poed 4, saterusna lila mah ngalembereh 2 cm tina panineunana kadieunana, lila mah ngalembereh 2 cm/jam, ngalemberehna mah 2 cm sakaliwosan, sabaraha lalin ngalembereh 8 santonguخززيa٤٠ن٠０.00. Asupkeun ku mangsa 4 jam, lilin mah ngeus ngalembereh sabaraha sénti 8  cm langkung.
+Final answer: **8 santi  langkung**.",8.0,True
+25,su,"Titi meuli buku laris taun ka tukang pikeun $19,50. Ieu sareng diskon 25% tina harga aslina. Sabaraha harga aslina tina buku?",26,"Kita mangsa $19,50 ti harga pisan ka harga aslina ditundeur ku 25%
+
+Ini maén hitungan basianat nu pasied, kanggo manggihan hal sahija.
+
+$19,50 sagambarpétna sanés 75% (100-25%) ti harga aslina.
+
+Kabéh nu anjeun kudu ngawengku (100%/75%) = (4/3) béntang ku $19,50 nyaeta $26.
+
+
+加热 **$26**",26.0,True
+26,su,"Yuki maréntahkeun hiji hidangan hayam nu hargana $12, 5 bungkus susu nu hargana $3 unggal, 4 apel nu hargana $1,50 unggal, jeung sababaraha kotak pizza. Yuki mayar total $50. Sabaraha kotak pizza anu dipesen Yuki lamun unggal kotak hargana $8,50?",2,"Poin:
+- Hamana harga atuh:
+  - Hamana hidangan hayam $12
+  - Hamana susu $3 unggal x 5 bungkus = $15
+  - Hamana apel $1,50 unggal x 4 apel = $6
+  - Poin sareng hiji kotak pizza: $8,50
+
+Karo total $50, sukur anjeunna kalkulasi jumlah kotak pizza nu dipesen ku babandingkeun ku total biaya nu dipunganjuran ku panerima.
+
+(50-12-15-6) / 8,50 = **Kotak pizza nu dipesen Total: 3 kotak**.",3.0,False
+27,su,"Setyo meuli 3 pasang calana panjang, 3 pasang calana, jeung 3 pasang sapatu. Hiji sapasang pondok hargana $16,50. Sapasang calana hargana $22,50 sareng sapasang sapatu $42. Sabaraha dolar anu dibalanjakeun Setyo pikeun sadaya barang pakean?",243,"Kamu pajabaokeun gumantungkeun Jumlah total sanajan nu dijieun Setyo nyilis barang pisan:
+
+Tiga pasang calana panjang ngahaggle $16,50 sareng sapasangna, jang kaluaran sisua $16,50 x 3 = $49,50.
+
+Tiga pasang calana sareng, maharga $22,50 sapasangan, jiga ogé $22,50 x 3 = $67,50.
+
+Denan tiga pasang sapatu, sareng maharga $42 sareng sapasangna, atuh $42 x 3 = $126.
+
+Kaluaran total sing pinuhna ku lauk tumbu: $49,50 + $67,50 + $126 = $243
+
+Mangsa, Setyo ngabalancesna **[$243]** pisanan pikeun bangku pisan.",243.0,True
+28,su,"Syifa tuang hiji porsi és krim unggal wengi. Manehna meuli karton és krim kalawan 15 porsi és krim per karton kalawan waragad $ 4,00 per karton. Saatos 60 dinten, sabaraha anjeunna bakal méakkeun és krim?",16,"Untuk memecahkan soal ini, kita perlu menghitung berapa banyak Syifa menghabiskan es krim setiap malam. Karena disediakan 15 porsi dalam satu karton, kita dapat menentukan berapa banyak karton yang ia beli setiap kali es krim habis:
+
+\begin{align*}
+    60 \text{ hari} \cdot \frac{1 \text{ porsi}}{1 \text{ malam}} \cdot \frac{1 \text{ karton}}{15 \text{ porsi}} & = 4 \text{ karton} \,.
+\end{align*}
+
+Jadi, dalam $60$ hari, Syifa akan menghabiskan $4$ karton es krim. Dengan harga $4$ dolar per karton, belanjanya akan berjumlah $ \boxed{16 \text{ dolar} \,}$.",16.0,True
+29,su,Hendra ngadamel dua lirén salami perjalanan sapédah 60 mil. Anjeunna mimiti eureun sanggeus 20 mil. eureun kadua nya éta 15 mil saméméh ahir perjalanan. Sabaraha mil anjeunna ngumbara antara eureun kahiji jeung kadua?,25,"Step 1: Anjeunna ngadamel 20 mil anu kahiji.
+
+Step 2: Saprakna, anjeunna ngadamel 15 mil anu kadua.
+
+Step 3: Kanggo ngamutusk ku jarak anjeunna antara dua eureun, urang bisa minduan jarak tina tempat anjeunna eureun kadua pikeun tempat anjeunna eureun kahiji.
+
+Step 4: Nu ngagaduhan dua jarak anu diwangun ku minduan:
+    - 60 mil (jarak sab Atatürk SenPoktan) - 20 mil (Esercito hiji lalابقة) = 40 mil.
+    - 40 mil (hasil tina langkung) - 15 mil (Esercito dujil lalابقة) = 25 mil.
+    
+Step 5: Duta mil bisa dipaké salaku kotakré bak пароли.
+
+TINJAWARTI:
+25 мил.",25.0,True
+30,su,"Agus balanja sapatu nalika anjeunna mendakan sapasang sapatu anu cocog sareng anggaran sapatuna. Tapi, manéhna kudu milih antara sapatu jeung dua pasang heels tinggi nu babarengan hargana lima dollar kurang ti sapatu. Upami sapasang keuneung hargana $33 sareng anu sanésna dua kali langkung seueur, sabaraha dolar éta sapatu?",104,"Aya hiji skema sederhana yang dimimitian pikeun nyelesikn masalah ieu:
+
+Kaasup dibelieun (X) = $33
+Dua pasang sepatu saliénna (2X) = 2 kali seueur ti $33
+
+Kaasup ka-2 dibelieun = 2X - X = X = $33
+Dina kasus ieu, sepatu nu salajengna saleuriya ogé $33. 
+Éta Artifact saterusna: pikeun duo spatu, harga totalna = 33 + 33 = $66
+K Wäk nu gampangna sapatu: $66 - $5 = **$61**. 
+
+Jadi, sepatuna $61.",61.0,False
+31,su,"Umur Dani sareng Angga dina babandingan 7:11. Lamun total umur maranéhanana ayeuna 162, hitung umur Angga 10 taun ti ayeuna.",109,"Let's solve this step by step:
+
+1. Diusian éta umur maranéhanana kapanggih diantara hiji sarta uga 7:11. Cossidekeun 7 sababaraha sakaliaeun sareua jeung Angga, Ara 11 kali. Dina rana nu kanang, sayalaraet kumaha loba, kumaha loba dina hurup kacha. Angga: 7x = 11x = 18x (1)
+
+2. Pépéng urang: akur umur maranéhanana ayeuna: Umur Dani + Umur Angga = 162 dingaran di sisi naréukeun
+
+3. Ges 2 diteuli ku éta. Tungtung, yang kapanggih celawanana kaakibat eta anggon 33: 18. Kitu 7x = 11x = 33 dingaran akurat.
+
+4. Ges eta diteuli: 7x + 11x = 162
+18x = 162 uméntangan x = 162 / 18 yang kalaksana karogekan Uméntangan x = 9. Néngonén emits merana étalna.
+
+5. Ges eta ditodi dodol Umur Angga: 11 x = 99
+11 kalasana na nyalara 99 thn jeung Angga ayeuna.
+
+Pasanyaan sasil kuringan ka eta geus ngaranangen jamanana the Angga dina tahu ka 10. Jamanana حاليا mıraper maong na 89 taun.
+
+**Final answer: Angga étalna 89 taun.**",89.0,False
+32,su,Rafi nyobian ngitung kacang jelly dina toples. Anjeunna naroskeun ka babaturanana sabaraha aranjeunna pikir dina toples. Hiji nyebutkeun 80. Lain nyebutkeun 20 leuwih ti satengah kahiji. Katilu nyebutkeun 25% leuwih ti nu kahiji. Naon rata-rata perkiraan maranéhanana?,80,"Untuk menyelesaikan pertanyaan ini, kita harus menentukan rata-rata dari perkiraan yang diberikan:
+
+1. 80 kacang
+2. ""20 lebih dari setengah dari 80"" berarti 20 lebih dari 40, sehingga 60.
+3. ""25% lebih dari yang pertama"" adalah 25% dari 80, yang sama dengan 20, sehingga perkiraan ini adalah 80 + 20 = 100
+
+Untuk menentukan rata-rata, jumlahkan nilai perkiraan, dan bagi dengan jumlah perkiraan: (80 + 60 + 100) / 3 = 240 / 3 = **80**.
+
+Oleh karena itu, rata-rata perkiraan mereka adalah **80**.",80.0,True
+33,su,Bagas ngurus 10 anjing. Unggal anjing nyokot .5 jam sapoé leumpang jeung ngurus bisnis maranéhanana. Sabaraha jam saminggu anjeunna méakkeun ngurus anjing?,35,"Kita tahu bahwa Bagas harus menghabiskan waktu 0,5 jam merawat setiap anjing. Karena dia memiliki 10 anjing, maka setiap hari ia menghabiskan waktu:
+
+10 anjing x 0,5 jam/anjing = 5 jam
+
+Karena ada 7 hari dalam seminggu, maka Bagas menghabiskan waktu merawat anjingnya selama:
+
+5 jam/hari x 7 hari = 35 jam/minggu
+
+Jadi, **dalam seminggu, Bagas menghabiskan 35 jam merawat anjing-anjingnya**.",35.0,True
+34,su,Umar boga 110 koin. Aya 30 koin emas leuwih ti koin pérak. Sabaraha koin emas Umar gaduh?,70,"Let $E$ be the number of Umar's gold coins, and $S$ be the number of silver coins. We know that: 
+
+$$
+\begin{align*}
+  E + S &= 110\, koin \\
+  E &= 30\, koin\, leuwih\, tibilihna\, S\, .
+\end{align*}
+$$
+
+Solving these equations we find: 
+
+$$
+\begin{align*}
+  E &= 70\, koin \\
+  S &= 40\, koin
+\end{align*}
+$$
+
+So, Umar has **\boxed{70}$ coins* in total.",70.0,True
+35,su,"Sandi ngagaduhan 2 permata anu langkung sakedik tibatan Harun. Harun boga 5 leuwih jewels ti satengah jewels Rendi urang. Lamun Rendi boga 40 jewels, sabaraha jewels teu Sandi gaduh?",23,"Looking at the text provided, it looks like it is written in Sundanese (a language spoken in Indonesia). Please see my attempt at the translation below:
+
+Sandi has two more jewels than Harun. Harun has 5 more jewels than Rendi who has half the amount of jewels than Harun. If Rendi has 40 jewels, how many jewels does Sandi have?
+
+Now, let's break this down step by step:
+
+If Rendi has half the amount of jewels as Harun, this means Harun has 40 x 2 = **80** jewels.
+
+As Harun has 5 more jewels than Rendi, this means he has 40 + 5 = **45** jewels.
+
+Finally, Sandi has 2 more jewels than Harun, so his total number of jewels is 45 + 2 = **47**.
+
+So, the final answer is: **47 jewels**.",47.0,False
+36,su,"Akbar maén ping pong salami 40 menit. Dina 20 menit kahiji, anjeunna ngoleksi 4 poin. Dina 20 menit kadua, anjeunna nyitak 25% langkung poin. Sabaraha total titik anjeunna skor?",9,"Pertanyaan: Dina 20 minutes ka awal, Dina ngoleksi 4 points. Dina 20 menit ka dua, Dina nyitak 25% sabaraha poin liuwih; 25% ti 4 aituh *x*/100 * 4 = 0,25 * 4 = 1. Dina mangkataksan 4 + 1 = **5 poin** nalika 40 menit.
+
+Ka cara anu sarupa, nalika mangkataksan jawaban, upami dipakeun cerita, bakal ngandung **5 poin**.",5.0,False
+37,su,"Tukimin tuang 2 yogurts sapoé. Aranjeunna ayeuna diobral di 4 yogurt pikeun $5,00. Sabaraha anu anjeunna nyéépkeun yogurt salami 30 dinten?",75,"Katingal keur diajar deui Armata Maria nu hareupkeun.
+
+Kitersa lia yogurt na tukang langkung 2 yogurt $2,50 = $5,00 ka 4 = $1,25.
+
+Ayenna Tukimin le含 nyédikeun salami yogurt $1,25 teh museus 25%. Tewareusna hareupkeun sabaraha anu hareupkeun Tukimin pa參考n $1,25?
+
+Dohareupkeun $1,25 ka 25% (kater ng alivatkeun ku dua) ka keur nyaheukeun ateor piqueh nyaheukeun. Kaatel ku dois ka append le含 x ku yeh ka sareng dicha sabirentahna nival $1,25 = 125%. Siyupkeun $1,25 ku 125%= 1. Mimitina 1 = 1 bulan.
+
+Sarua ka hareupkeun hareupkeun numina 4x leb運作 baralia tukang $5,00 4x = 3 bulan (12 Yogurt). Sabarani maehna Tukimin hareupkeun êh 12 Yogurt salami 30 dinten.
+
+Nomer hareupkeun 12 yogurt meunang 30 dinten. Nu hareupkeun hareupkeun hareupkeun, hareupkeun, hareupkeun hareupkeun aring hareupkeun hareupkeun, hareupkeun hareupkeun hareupkeun hareupkeun hareupkeun hareupkeun hareupkeun hareupkeun hareupkeun 12 Yogurt salami 30 dinten.
+
+[**Kabel anjeunna sarengkeun 12 yogurt salami 30 dinten.**]",30.0,False
+38,su,Bagas ngarencanakeun pikeun ngajual sadaya cocooanna sareng nganggo artos kanggo mésér vidéo kaulinan. Anjeunna gaduh 13 set lego sareng anjeunna ngajualna pikeun $ 15 unggal. Anjeunna ends up meuli 8 video kaulinan pikeun $ 20 tiap sarta boga $ 5 ditinggalkeun. Sabaraha set lego anjeunna masih gaduh?,2,"Kitaforge, total naon nepi ka duit ti jalma ieu ngagunakeun henteu kawaras ka duit ti jalma ieu padheeled. Coba ngan meuli set lego sarta video kaulinan, dina ngaran pikeun kalayan hasil ngajual akumulasion.
+
+Video duit: 8 video game × $ 20 masing-masing = $ 160
+
+Lego sales: 13 sets × $ 15 each = $ 195
+
+Total oge: $ 160 + $ 195 = $ 355. Pamaké mahi sarean ngajual cocona sim kaluar duit $ 355.
+
+AsListed: $ 355 (Total oge) + $ 5 (Botén dihabo) = $ 360
+
+Ngalawan $ 360 ka duit, sareng mangrupakeun korban $ 355 sareng hasil jualan, piyambak duit na bakalan $ 5. AsUpami $ 15 ti yén, kawih kaluar $ 5, sabaraha set video games nu kudu décident? $ 5: $ 15 per set nyaéta tina 5: 15 = 1/3 kasebut nuklida artinya kawih kana 1/3 (tata poisoning) sarta nu set. Mibanda 1/3 ti 13 Mangrupa: 13 ÷ 3 = 4,33.
+
+Anu artos giymana dansa saterusna kaleuan sareng kana cocona mibanda sababaraha set game titulur.
+
+Jadi, nu pangalusna keur set Lego nu indigo kalusan artos nyaéta **4 set**.",4.0,False
+39,su,Bagas ngajalankeun 60 mil saminggu. Anjeunna ngajalankeun 3 dinten saminggu. Anjeunna ngajalankeun 3 jam dinten kahiji sareng satengah langkung seueur dua dinten sanésna anjeunna ngajalankeun. Kumaha gancang anjeunna ngajalankeun?,10,"Kaluaran keur sok sapedesian:
+
+3 dinten sapinggu = 3/7 saptu
+
+3 jam sareng 1,5 jam = 4,5 jam ka 1 dinten pagawe
+
+2 dinten = 2/7 saptu
+
+
+Ngajalankeun lilai bagas alungan saptu
+
+= 3/7 * 4,5 + 2/7 * 1,5
+
+= (13,5 + 3) / 7
+
+= 16,5 / 7
+
+= **2,355 jajeuneul dinten** (pikaresep).",2355.0,False
+40,su,"Desi bisa lumpat dina laju opat kali leuwih gancang batan manéhna bisa leumpang, tapi manéhna bisa skip dina laju satengah gancang manéhna bisa lumpat. Upami anjeunna tiasa ngaluncat dina 3 mil per jam, sabaraha mil anjeunna tiasa ngarambat dina genep jam upami anjeunna nyéépkeun sapertilu waktos ngajalankeun sareng dua per tilu waktos leumpang?",18,"Kita harus sabar ngabandingkeun kecepetan luda kirang ti jarak trafikna jeung jarah leumpangna pikeun mimiti kalapa manéh keur jalma sareng.
+
+Darat:
+- Dénér-duduluran kalapa dina 3 mil sakali jam, artina sarenging tilu jam anu kana ngarambat 9 mil (3 mil per jam x 3 jam = 9 mil).
+- Dua pertilu waktos dipaké leumpang ieu, ladeuk di-runding pikeun nginum di metromini leumpang sareng jalan datangna leumpang geus ganggu jalma sababaraha dina. Kumaha perhitungan revisina: 1/3 waktosana leumpang = 1/3 * 2/3 = 2/9.
+- Manéhna ngarambat sareng dua partilu waktos parantos ngagunakeun 2/9 * 9 mil = 2 mil.
+
+Leumpang
+- Loba waktos leumpang kumaha lila-lila dina angkeut leumpang.  Angkeut leumpang pisan posisi kosaréhna 80 mil patali hirup jam. Hana mah, begadang we dina carana leumpangana, leumpang ulah ngagaduhan 20 mil sakali jam. Hana lila-lila kumaha angkeut leumpang.
+
+Query ""Sata mil anjeunna tiasa ngarambat dina genep jam upami anjeunna nyéépkeun sapertilu waktos ngajalankeun sareng dua per tilu waktos leumpang?"":
+Ulah ngabuluk, spototp! ***Aya sata satu mil***!
+
+Upami aya panyalah, tanyakeun weh kumaha rincian hitunganna sareng waktos anu dipaké leumpang dina lila-lila anu lewih gedé.",20.0,False
+41,su,"IPhone Beni opat kali langkung lami tibatan iPhone Ben. IPhone Ben dua kali langkung lami tibatan iPhone Suzy. Upami iPhone Suzy umurna 1 taun, sabaraha lami iPhone Beni?",8,"Kita dikasih informasi mengenai umur beberapa iPhone. IPhone Beni lebih lama $1$ kali lipat dari iPhone Ben. IPhone Ben lebih lama dua kali lipat dari iPhone Suzy. Simpulan: Jika iPhone Suzy berumur $1$ tahun, maka dari pemberitahuan lama iPhone Ben adalah $1 \cdot 2 = 2$ tahun. Sekarang, rimanarie Cinta Lama iPhone Beni adalah iPhone Ben ditambah $1$ tahun, artina $2 + 1 = 3$ tahun. Jadi, umur iPhone Beni adalah $\boxed{3 \text{ tahun}}$.",3.0,False
+42,su,"Naga hébat, Ponimin, diuk luhur di luhur Gunung Farbo, engapan seuneu kana nanaon dina jarak 1000 suku. Polly bisa ngalungkeun javelin emas, hiji-hijina pakarang dipikawanoh nu bisa sleigh naga, pikeun jarak 400 suku, ogé dina jangkauan sahiji seuneu naga urang. Tapi nalika Polly nahan batu permata inten biru, anjeunna tiasa ngalungkeun javelin tilu kali langkung tebih tibatan nalika henteu nahan batu permata. Lamun nyekel batu permata, sabaraha jauh di luar jangkauan seuneu naga urang Polly bisa nangtung sarta masih pencét naga ku javelin emas?",200,"Mari kita pecahkan persoalannya secara tahapan:
+
+Tahap pertama, kita harus tahu jarak aman antara Polly dan naga. Hitung jarak javelin emas normal: 400 suku (jarak lemparan normal) - 1000 suku (jarak jangkauan naga) = -600 suku
+Artinya, lemparan normal Javelin emas akan jatuh di wilayah a ocupadas dan tidak cukup jauh.
+
+Tahap kedua, kita perhitungkan kekuatan tambahan batu permata. Jarak lemparan ekstra dengan bantuan permata: 400 suku (jarak normal) x 3 (faktor kekuatan tambahan batu permata) = 1200 suku. 
+
+Akhirnya, hitung jarak tambahan yang bisa dicapai Polly sambil tetap di luar jangkauan naga: 1200 suku (lemparan diperkuat permata) - 1000 suku (jarak jangkauan naga) = 200 suku
+
+Jadi, **Polly bisa berdiri sejauh 200 suku di luar jangkauan naga sekaligus mengenai naga dengan javelin emas ketika memegang batu permata biru intan**.",200.0,True
+43,su,"Nini Nisa dipanggang 5 pai apal keur luncheon nu fireman urang. Manehna motong unggal pai kana 8 lembar tur nyetel lima pai kaluar dina meja prasmanan pikeun sémah ngawula sorangan. Dina ahir magrib, sanggeus sémah nyokot tur ngahakan potongan pai maranéhanana, aya 14 potongan pai sésana. Sabaraha lembar anu dicandak ku tamu?",26,"Pertanyaan sagalahna:
+
+_""Sabaraha lembar anu dicandak ku tamu?""_
+
+Kamu tina informasi dina énté:
+
+- Sanggeus dipanggang, unggal pai dicandak kana 8 potongan.
+- Golak 5 pai ditérkacon kana meja prasmanan, thék naon 5 pai x 8 potongan = 40 potongan dipriksa.
+- Potongan 14 sisa antuk dina ahir magrib.
+
+Jadi, sababaraha potongan anu dicandak ku tamu:
+ 
+\[
+ \begin{align*}
+40 - 14 = \boxed{26}\text{ potongan}.
+\end{align*}
+\]",26.0,True
+44,su,"Numutkeun inpormasi gizi na, sakantong chip ngandung 250 kalori per porsi. Upami kantong 300g ngagaduhan 5 porsi, sabaraha gram anjeun tiasa tuang upami target kalori sadinten anjeun 2000 sareng anjeun parantos ngonsumsi 1800 kalori?",48,"Konsumsi kalori yang ditargetkan harian Anda adalah 2000 kalori, dan Anda telah mengonsumsi 1800 kalori. Ini berarti Anda masih memerlukan 2000 - 1800 = 200 kalori untuk mencapai target.
+
+Kita tahu bahwa satu porsi mengandung 250 kalori, jadi kita dapat menghitung berapa banyak porsi yang diperlukan untuk memenuhi 200 kalori tambahan dengan cara:
+
+200 kalori / 250 kalori per porsi = 0,8 porsi
+
+Sekarang, kita perlu menghitung berapa banyak gram yang harus ditambahkan, mengetahui bahwa satu kantong berisi 5 porsi. Jadi, 0,8 porsi adalah 0,8 / 5 = 0,16 dari kantong.
+
+Kantong ini memiliki berat total 300 gram, jadi 0,16 dari kantong akan setara dengan:
+0,16 x 300 gram = **48 gram**
+
+Dengan menambahkan sekitar 48 gram chip, Anda bisa memenuhi kebutuhan target kalori harian Anda.",48.0,True
+45,su,"Rizki rék ngajual lilin lebah. Pikeun unggal pon lilin lebah, anjeunna tiasa ngadamel 10 lilin tapered. Hiji pon lilin lebah sareng wick hargana $ 10,00 kanggo suplai. Mun anjeunna sells unggal lilin pikeun $ 2,00 unggal, naon kauntungan net na lamun manehna nyieun jeung ngajual 20 lilin?",20,"Langkah henteu Langkah keur Analyze keur Pertanyaan:
+
+1. Kauntungan Panghasilkeun:
+ - Hiji pon lilin lebah bisa ngagawe 10 lilin, nunutkeun biaya produksi $ 10,00.
+ - Kuarti إنتاج Anggeusna biaya, pelemburan sagala pon nyieun $ 10,00 ÷ 10 = $ 1,00.
+
+2. Jilid Total jeung Klein:
+ - Pikeun neuleuman 20 lilin, cikal kauntungan produksi dicokot ku ($ 1,00) x 20 lilin = $ 20,00.
+ - Jilid total yen nanganan 20 lilin, dicokot ku ($ 2,00) x 20 lilin = $ 40,00.
+
+3. Kauntungan Net:
+ - Kauntungan Net = Jilid total - Jilid produksi
+ - Kauntungan Net = $ 40,00 - $ 20,00 = $ 20,00
+
+** Jawabab: Kauntungan Net na lamun nanganan jeung ngajual 20 lilin ngawengku hususna $ 20,00. **",0.0,False
+46,su,"Hanif mangrupikeun blogger lepas anu nyerat ngeunaan topik kaséhatan sareng ngirimkeun ka klien unggal dinten salaku padamelan permanén na. Artikel blog butuh rata-rata 4 jam pikeun nalungtik sareng nyerat. Minggu kamari, anjeunna nyerat 5 tulisan dina Senén sareng 2/5 kali langkung seueur tulisan dinten Salasa tibatan Senén. Dinten Rebo, anjeunna nyerat dua kali jumlah tulisan anu anjeunna nyerat dinten Salasa. Itung jumlah total jam manehna spent nulis artikel dina tilu poé.",104,"**Tahap Hani:** Sadaya dinten, Hanif ngehabiskeun 4 jam nulis artikel. Dina Senén, anjeunna nulis 5 artikel, nu ngMinuskeun 5/5 kali jumlah paling coér.
+
+**Tahap dua:** Dinten Salasa, Hanif nulis dua kaléngkeun jumlah artikel dina Senén, anu nyédot ku 2/5 = 2 * (1 + 2/5) = 12/5 = 2,4 artos dina Senén.
+
+**Tahap tilu:** Dinten Rebo, jumlah sugan dilebarkeun sareng dua, ngasalkeun 2 * 2,4 = 4,8 artos.
+
+**Tahap paéh:** Hanif nulis panguruh 5 + 2,4 + 4,8 = 12,2 artos dina tilu Poé.
+
+Jawaban Final: **Hanif ngehabiskeun total 12,2 jam** nulis artikel tilu poé.",2.0,False
+47,su,"Salsa nempatkeun 80 catetan pos-éta dina dompetna sateuacan anjeunna angkat ka padamelan di warung kopi. Di jalan, manéhna eureun off di toko jeung meuli paket Post-eta catetan; Di tempat damel, anjeunna nempatkeun catetan Post-it tunggal dina unggal 220 cangkir kopi anu béda. Upami anjeunna ngagaduhan 23 catetan pos-éta sésana sadayana, sabaraha catetan Post-it dina bungkusan anu anjeunna mésér?",163,"Let urang nyadiakeun:
+
+Catetan Post-it dina bungkusan = *x*
+
+Tak nembongkeun 80 catetan dina dompet, sarta anjeunna ogé nempatkeun sacara panglat na jieun catetan ningal 23 séda-sédiana. Stie punaruntuyan, anjeunna nempatkeun:
+
+80 - 23 = 57 catetan dina cangkir kopi
+
+Calanna, 57 catetan anu سجاديان ditemPlane tur rata di 220 cangkir kopi, sakalidan nyaeta:
+
+220 divided by 57 = slightly over 3
+
+Ihtung ieu ngakonkeun *y* sababaraha dapat slightly over 3, anu mica barely 4.
+
+Ogé, yen hal ieu  diulangkeun kaluar, urang mujul tengahna *x* sagadungan 57 + 23 = 80, bari ه سابلونو diахي kimitا PE -ET* kieu.  
+
+Anu malah, ogé sekang *y* = 3.8, dina modél ieu *x* mugadukeun sapoéna nembongkeun lancar.
+
+Therefore, the number of Post-it notes that he initially had in the package is **76**.",76.0,False
+48,su,Bagas meuli dua kali leuwih loba dasi beureum ti dasi biru. Dasi beureum hargana 50% langkung seueur tibatan dasi biru. Anjeunna nyéépkeun $ 200 pikeun dasi biru anu hargana $ 40 unggal. Sabaraha anjeunna méakkeun dina dasi?,800,"Kita staleuniakeun nu dipikawanoh ku data-data nu goel:
+
+- Jilid dasi beureum = 2 × Jilid dasi biru
+- Hargi dasi beureum = 1,5 × Hargi dasi biru = $ 40 × 1,5 = $ 60 unggal
+
+Beur kitu, kari handapeurkanna ku formulana kumaha p Quản X p meni D kudu dikawsetUser keunganan:
+
+60 × Jilid_dasi_beureum + 40 × Jilid_dasi_biru = 200 
+
+Repeated consciente di handapeurkanna nyaéta sabaraha:
+
+$ 60 × (2 × Jilid_dasi_biru) + 40 × Jilid_dasi_biru = $ 200
+
+$ 120 × Jilid_dasi_biru + 40 × Jilid_dasi_biru = $ 200 
+
+$ 160 × Jilid_dasi_biru = $ 200 
+
+Jilid_dasi_biru = 200 ÷ 160
+
+Jilid_dasi_biru = 5/4
+
+Jilid_dasi_biru = 1,25, ngaranna 2 الانجيليا 3/4
+
+Jadi, Bagas *ميؤول* $ 200 pikeun **2 الانجيليا 3 داسي beureum** jeung **3/4 داسي beureum**.",4.0,False
+49,su,Laras ngagunakeun sapotong kawat panjangna 4 kaki pikeun ngadukung pepelakan tomat di kebon. Kawat dipotong kana potongan panjangna 6 inci. Sabaraha lembar anu anjeunna kéngingkeun?,8,"Pertanyaan ieu ditinja tina satuan kaki na satarengna inci, nu mangrupa hal anu panungtulernaan satarengna sarua. Arupa sapotong kawat 4 kaki sarua jeung 48 inci (sakabéh atom, 1 kaki = 12 inci). Dipotong kana potongan 6 inci, addsJumlahna sapotong anu dipotokng anu لازم‎ éta 48 divisi 6, anu nilaina 8.
+
+Jadi, Laras meureux banget 8 potongna.",8.0,True
+50,su,"Andre hirup di hiji gedong apartemen kalawan 15 floors. Unggal lantai ngandung 8 unit, sareng 3/4 gedong ditempatan. Sabaraha jumlah total unit anu teu aya dina wangunan?",30,"Kita perlu ngahitungkeun jumlah total unit dina 3/4 gedong tara/di tempatan.
+
+Dina hiji lantai aya 8 unit, mangka dina 15 lantai total 8 x 15 = 120 unit.
+
+Gedong both 15 floors totalna 120 x 4 = 480 unit.
+
+Maka, 3/4 gedong ahirna ngandung 3/4 x 480 = 360 unit.
+
+Jadi, jumlah total unit anu teu aya dina wangunan 480 - 360 = **120 unit**.",120.0,False

@@ -1,0 +1,29 @@
+q_no,lang,answer_number,gen_answer,revised_answer2,is_correct,is_correct2,is_correct_rev,is_correct_rev2,ec_1
+4,id,540,5.0,2.0,False,False,False,False,Missing Calculation
+7,id,260,160.0,160.0,False,False,False,False,Arithmetic Mistake
+13,id,13,12.0,12.0,False,False,False,False,Hallucination
+2,jv,3,2.0,6.0,False,False,False,False,Arithmetic Mistake
+4,jv,540,180.0,180.0,False,False,False,False,Hallucination
+9,jv,45,315.0,315.0,False,False,False,False,Arithmetic Mistake
+11,jv,366,213.0,213.0,False,False,False,False,Hallucination
+13,jv,13,12.0,12.0,False,False,False,False,Arithmetic Mistake
+14,jv,18,5.0,36.0,False,False,False,False,Arithmetic Mistake
+15,jv,60,55.0,55.0,False,False,False,False,Arithmetic Mistake
+19,jv,7,4.0,8.0,False,False,False,False,Arithmetic Mistake
+28,jv,16,4.0,4.0,False,False,False,False,Missing Calculation
+30,jv,104,71.0,71.0,False,False,False,False,Hallucination
+38,jv,2,0.0,11.0,False,False,False,False,Arithmetic Mistake
+39,jv,10,6.0,6.0,False,False,False,False,Hallucination
+40,jv,18,16.0,16.0,False,False,False,False,Missing Calculation
+42,jv,200,0.0,1.0,False,False,False,False,Hallucination
+47,jv,163,1.0,1.0,False,False,False,False,Arithmetic Mistake
+49,jv,8,4.0,4.0,False,False,False,False,Missing Calculation
+8,su,160,200.0,200.0,False,False,False,False,Arithmetic Mistake
+9,su,45,195.0,4.0,False,False,False,False,Missing Calculation
+13,su,13,12.0,12.0,False,False,False,False,Missing Calculation
+14,su,18,0.0,0.0,False,False,False,False,Hallucination
+15,su,60,55.0,20.0,False,False,False,False,Arithmetic Mistake
+19,su,7,8.0,8.0,False,False,False,False,Hallucination
+22,su,14,8.0,8.0,False,False,False,False,Arithmetic Mistake
+28,su,16,60.0,60.0,False,False,False,False,Hallucination
+40,su,18,60.0,60.0,False,False,False,False,Arithmetic Mistake

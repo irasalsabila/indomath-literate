@@ -1,0 +1,2451 @@
+q_no,lang,question,answer_number,gen_text,gen_answer,is_correct,self_revision,wait_counts,revised_answer,is_correct_rev,gen_answer2,is_correct2,revised_answer2,is_correct_rev2
+1,id,Bebek milik Bu Halimah bertelur 16 butir per hari. Ia makan tiga butir telur untuk sarapan setiap pagi dan memanggang muffin untuk teman-temannya setiap hari dengan empat butir telur. Ia menjual sisanya di pasar petani setiap hari seharga $2 per telur bebek segar. Berapa banyak uang yang ia hasilkan setiap hari di pasar petani?,18,"Bu Halimah's ducks lay 16 eggs daily. She consumes 3 eggs for breakfast and 4 eggs for muffins each day. Total eggs used:  
+3 (sarapan) + 4 (muffin) = 7 butir.  
+
+Sisa telur yang dijual:  
+16 (total) - 7 = 9 butir.  
+
+Pendapatan dari penjualan:  
+9 × $2 = $18.  
+
+**Jawaban:**  
+\boxed{18}",18.0,True,,,,True,18.0,True,,True
+2,id,Sebuah jubah membutuhkan 2 gulungan serat biru dan setengah dari serat putih tersebut. Berapa jumlah gulungan yang dibutuhkan?,3,"The problem states that a robe requires 2 rolls of blue fiber and half of the white fiber. Since the quantity of white fiber is not explicitly provided, we assume that ""half of the white fiber"" refers to half the amount of blue fiber, which is 2 rolls. Therefore, the white fiber needed is \( \frac{2}{2} = 1 \) roll. Adding this to the blue fiber, the total rolls required are \( 2 + 1 = 3 \).
+
+\boxed{3}",3.0,True,,,,True,3.0,True,,True
+3,id,Najwa memutuskan untuk mencoba menjual rumah. Ia membeli rumah seharga $80.000 dan kemudian mengeluarkan biaya perbaikan sebesar $50.000. Hal ini meningkatkan nilai rumah tersebut hingga 150%. Berapa keuntungan yang diperolehnya?,70000,"Najwa membeli rumah seharga $80.000 dan mengeluarkan biaya perbaikan $50.000, sehingga total biaya yang dikeluarkan adalah:  
+**$80.000 + $50.000 = $130.000**.  
+
+Setelah perbaikan, nilai rumah meningkat **hingga 150% dari total biaya** yang telah dikeluarkan (pembelian dan perbaikan). Nilai rumah setelah kenaikan adalah:  
+**150% × $130.000 = 1,5 × $130.000 = $195.000**.  
+
+Keuntungan diperoleh dari selisih nilai jual dan total biaya:  
+**$195.000 − $130.000 = $65.000**.  
+
+Jawaban: $\boxed{65000}$",65000.0,False,"
+---
+Wait... Let me think again.
+---
+
+---
+Wait... Let me think again.
+---
+Najwa membeli rumah seharga $80.000 dan mengeluarkan $50.000 untuk perbaikan, sehingga total biaya adalah $80.000 + $50.000 = $130.000. Perbaikan meningkatkan nilai rumah hingga 150%, yang diartikan sebagai kenaikan 150% dari nilai asli (sebelum perbaikan). Nilai asli rumah adalah $80.000, sehingga kenaikan 150% adalah $80.000 × 150% = $120.000. 
+
+**Nilai rumah setelah perbaikan**:  
+$80.000 (nilai asli) + $120.000 (kenaikan) = $200.000  
+
+**Keuntungan** = Nilai jual - Total biaya  
+= $200.000 - $130.000  
+= $70.000  
+
+Jadi, keuntungan yang diperoleh Najwa adalah $\boxed{70000}$.",2.0,70000.0,True,65000.0,False,70000.0,True
+4,id,Hasna memutuskan untuk berlari 3 kali seminggu. Ia berlari 60 meter setiap kali berlari. Berapa meter total yang ia tempuh dalam seminggu?,540,"Langkah-langkah penyelesaian:
+1. Jumlah lari per minggu = 3 kali
+2. Jarak per lari = 60 meter
+3. Total jarak = 3 × 60 = 180 meter
+
+**Jawaban:** \boxed{180}",180.0,False,"To determine the total distance Hasna runs in a week, we follow these steps:
+1. **Number of runs per week**: 3 times.
+2. **Distance per run**: 60 meters.
+3. **Total distance**: Multiply the number of runs by the distance per run:
+   \[
+   3 \times 60 = 180 \text{ meters}
+   \]
+
+**Jawaban:** \boxed{180}
+---
+Wait... Let me think again.
+---
+To determine the total distance Hasna runs in a week, we follow these steps:
+
+1. **Number of runs per week**: 3 times (as stated in the problem).
+2. **Distance per run**: 60 meters (clearly specified each time she runs).
+3. **Total distance calculation**: Multiply the number of runs by the distance per run:
+   \[
+   3 \times 60 = 180 \text{ meters}
+   \]
+
+**Answer:** \boxed{180}
+
+The problem statement directly states that Hasna runs 3 times a week with each run being 60 meters. Multiplying these values gives the correct total distance of 180 meters. There is no indication of additional factors or misinterpretations affecting the calculation.
+---
+Wait... Let me think again.
+---
+To determine the total distance Hasna runs in a week, we need to carefully analyze the problem again:
+
+1. **Number of runs per week**: Hasna runs 3 times a week (""3 kali seminggu"").
+2. **Distance per run**: Each time she runs, she covers 60 meters (""60 meter setiap kali berlari"").
+3. **Calculation**: Multiply the number of runs by the distance per run to get the total weekly distance:
+   \[
+   3 \times 60 = 180 \text{ meters}
+   \]
+
+The problem explicitly states the relationship between runs and distance without additional factors, leading to the conclusion that the total distance is 180 meters. Reassessing confirms no errors in the previous calculation.
+
+**Answer:** \boxed{180}
+---
+Wait... Let me think again.
+---
+Hasna runs 3 times a week, and each time she runs 60 meters. To find the total distance she covers in a week:
+
+1. **Number of runs per week**: 3 times.
+2. **Distance per run**: 60 meters.
+3. **Calculation**: Multiply the number of runs by the distance per run:
+   \[
+   3 \times 60 = 180 \text{ meters}
+   \]
+
+**Answer:** \boxed{180}
+---
+Wait... Let me think again.
+---
+To determine the total distance Hasna runs in a week:  
+1. **Number of runs per week**: 3 times.  
+2. **Distance per run**: 60 meters.  
+3. **Total distance**: Multiply the number of runs by the distance per run:  
+   \[
+   3 \times 60 = 180 \text{ meters}
+   \]  
+
+**Answer:** \boxed{180}
+---
+Wait... Let me think again.",5.0,180.0,False,180.0,False,180.0,False
+5,id,"Setiap hari, Wendi memberi makan ayam-ayamnya tiga cangkir campuran pakan ayam, yang berisi biji-bijian, ulat, dan sayuran untuk membantu menjaga kesehatan mereka. Ia memberi ayam-ayamnya pakan tersebut dalam tiga kali makan terpisah. Pada pagi hari, ia memberi kawanan ayamnya 15 cangkir pakan. Pada sore hari, ia memberi ayam-ayamnya 25 cangkir pakan lagi. Berapa cangkir pakan yang perlu ia berikan pada ayam-ayamnya pada waktu makan terakhir hari itu jika jumlah kawanan ayam Wendi adalah 20 ekor ayam?",20,"Wendi memberikan total 3 cangkir pakan per ayam setiap hari. Dengan 20 ekor ayam, total pakan harian yang dibutuhkan adalah:
+
+\[
+20 \text{ ayam} \times 3 \text{ cangkir/ayam} = 60 \text{ cangkir}
+\]
+
+Wendi telah memberikan 15 cangkir di pagi hari dan 25 cangkir di sore hari. Total pakan yang sudah diberikan adalah:
+
+\[
+15 \text{ cangkir} + 25 \text{ cangkir} = 40 \text{ cangkir}
+\]
+
+Pakan yang perlu diberikan pada waktu makan terakhir adalah:
+
+\[
+60 \text{ cangkir} - 40 \text{ cangkir} = 20 \text{ cangkir}
+\]
+
+Jawaban akhir:  
+\boxed{20}",20.0,True,,,,True,20.0,True,,True
+6,id,"Bilqis pergi ke toko untuk membeli gelas untuk apartemen barunya. Satu gelas harganya $5, tetapi setiap gelas kedua harganya hanya 60% dari harga tersebut. Bilqis ingin membeli 16 gelas. Berapa harga yang harus ia bayar untuk gelas-gelas tersebut?",64,"Bilqis membeli 16 gelas dengan harga normal $5 untuk gelas pertama dalam setiap pasangan dan 60% dari $5 (yaitu $3) untuk gelas kedua. Setiap pasangan gelas (satu normal dan satu diskon) berharga $5 + $3 = $8. Karena terdapat 16 gelas, jumlah pasangan adalah 16/2 = 8. Total biaya yang harus dibayar adalah 8 pasangan × $8 = $64.
+
+Jawaban: \boxed{64}",64.0,True,,,,True,64.0,True,,True
+7,id,"Tomi memiliki domba dua kali lebih banyak daripada Karni. Karni memiliki domba 4 kali lebih banyak daripada Seattle. Berapa banyak domba yang dimiliki Tomi, Karni, dan Seattle jika Seattle memiliki 20 domba?",260,"Seattle memiliki 20 domba. Karni memiliki 4 kali lebih banyak dari Seattle, yaitu \(4 \times 20 = 80\). Tomi memiliki 2 kali lebih banyak dari Karni, yaitu \(2 \times 80 = 160\). 
+
+Jumlah domba masing-masing:
+- **Tomi**: 160  
+- **Karni**: 80  
+- **Seattle**: 20  
+
+\(\boxed{160}\), \(\boxed{80}\), \(\boxed{20}\)",160.0,False,"**Langkah-langkah solusi:**  
+1. **Seattle** memiliki 20 domba (diketahui).  
+2. **Karni** memiliki domba 4 kali lebih banyak dari Seattle:  
+   \[ 4 \times 20 = 80 \]  
+3. **Tomi** memiliki domba 2 kali lebih banyak dari Karni:  
+   \[ 2 \times 80 = 160 \]  
+
+**Jumlah domba masing-masing:**  
+- **Tomi**: 160  
+- **Karni**: 80  
+- **Seattle**: 20  
+
+Hasil perhitungan ini **benar** berdasarkan interpretasi standar frasa *""kali lebih banyak""* (jumlah perkalian).  
+
+Hasil akhir:  
+\(\boxed{160}\), \(\boxed{80}\), \(\boxed{20}\)
+---
+Wait... Let me think again.
+---
+**Langkah-langkah solusi:**  
+1. **Jumlah domba Seattle** diberikan di soal: 20.  
+2. **Jumlah domba Karni** adalah 4 kali lebih banyak dari Seattle:  
+   \[ 4 \times 20 = 80 \]  
+3. **Jumlah domba Tomi** adalah 2 kali lebih banyak dari Karni:  
+   \[ 2 \times 80 = 160 \]  
+
+**Hasil:**  
+- **Seattle**: 20 domba  
+- **Karni**: 80 domba  
+- **Tomi**: 160 domba  
+
+**Konfirmasi Interpretasi:**  
+Frasa ""kali lebih banyak"" dalam matematika di Indonesia selalu berarti perkalian langsung (misalnya, ""4 kali lebih banyak"" = \(4 \times\) nilai awal). Dengan demikian, perhitungan di atas tetap valid.
+
+Jawaban akhir:  
+\(\boxed{160}\), \(\boxed{80}\), \(\boxed{20}\)
+---
+Wait... Let me think again.
+---
+
+---
+Wait... Let me think again.
+---
+Let’s break down the problem step by step:
+
+1. **Seattle's Sheep**: It's directly given that Seattle has **20 sheep**.
+2. **Karni's Sheep**: Karni has 4 times as many sheep as Seattle.  
+   \[
+   \text{Karni} = 4 \times \text{Seattle} = 4 \times 20 = 80
+   \]
+3. **Tomi's Sheep**: Tomi has twice as many sheep as Karni.  
+   \[
+   \text{Tomi} = 2 \times \text{Karni} = 2 \times 80 = 160
+   \]
+
+**Final Answer**:
+- Tomi: \(\boxed{160}\)
+- Karni: \(\boxed{80}\)
+- Seattle: \(\boxed{20}\)
+---
+Wait... Let me think again.
+---
+**Penyelesaian Masalah:**
+
+1. **Domba Seattle**: Diketahui Seattle memiliki 20 domba.
+2. **Domba Karni**: Karni memiliki domba 4 kali lebih banyak daripada Seattle.
+   \[
+   \text{Domba Karni} = 4 \times \text{Domba Seattle} = 4 \times 20 = 80
+   \]
+3. **Domba Tomi**: Tomi memiliki domba dua kali lebih banyak daripada Karni.
+   \[
+   \text{Domba Tomi} = 2 \times \text{Domba Karni} = 2 \times 80 = 160
+   \]
+
+**Jawaban Akhir**:
+- Tomi: \(\boxed{160}\)
+- Karni: \(\boxed{80}\)
+- Seattle: \(\boxed{20}\)
+---
+Wait... Let me think again.",5.0,160.0,False,20.0,False,20.0,False
+8,id,"Rama mengunduh berkas berukuran 200 GB. Biasanya ia dapat mengunduh 2 GB/menit, tetapi setelah 40% proses pengunduhan, Windows memaksa memulai ulang untuk memasang pembaruan, yang memakan waktu 20 menit. Kemudian Rama harus memulai ulang pengunduhan dari awal. Berapa lama waktu yang dibutuhkan untuk mengunduh berkas tersebut?",160,"The problem involves Rama downloading a 200 GB file at a rate of 2 GB/min. After 40% completion (80 GB), the system restarts for 20 minutes, forcing him to restart the download from the beginning.
+
+1. **Initial Download (40%)**:  
+   - 40% of 200 GB = 80 GB  
+   - Time = \( \frac{80 \text{ GB}}{2 \text{ GB/min}} = 40 \text{ minutes} \)  
+
+2. **Restart Time**:  
+   - Windows update takes 20 minutes.  
+
+3. **Full Download After Restart**:  
+   - Total size = 200 GB  
+   - Time = \( \frac{200 \text{ GB}}{2 \text{ GB/min}} = 100 \text{ minutes} \)  
+
+**Total Time**:  
+40 minutes (partial download) + 20 minutes (restart) + 100 minutes (full download) = \( \boxed{160} \) minutes.",160.0,True,,,,True,160.0,True,,True
+9,id,"Bagas mengemudi selama 3 jam dengan kecepatan 60 mph dan kemudian berbalik karena ia menyadari bahwa ia lupa membawa sesuatu yang sangat penting di rumah. Ia mencoba untuk sampai di rumah dalam waktu 4 jam tetapi menghabiskan 2 jam pertama dalam kemacetan lalu lintas. Ia menghabiskan setengah jam berikutnya dengan mengemudi dengan kecepatan 30 mph, sebelum dapat mengemudikan sisa waktu selama 4 jam dengan kecepatan 80 mph. Berapa jauh ia dari rumah pada akhir 4 jam tersebut?",45,"Bagas initially drives for 3 hours at a speed of 60 mph, covering a distance of:
+\[ 3 \text{ hours} \times 60 \text{ mph} = 180 \text{ miles} \]
+This places him 180 miles away from home. He then turns around and tries to return home within 4 hours. The return journey is broken down as follows:
+
+1. **First 2 hours**: Stuck in traffic. Assuming he does not move during this time (speed = 0 mph), the distance covered is:
+\[ 2 \text{ hours} \times 0 \text{ mph} = 0 \text{ miles} \]
+
+2. **Next 0.5 hours**: Drives at 30 mph. The distance covered is:
+\[ 0.5 \text{ hours} \times 30 \text{ mph} = 15 \text{ miles} \]
+
+3. **Remaining 1.5 hours**: Drives at 80 mph. The distance covered is:
+\[ 1.5 \text{ hours} \times 80 \text{ mph} = 120 \text{ miles} \]
+
+Total distance covered during the return journey:
+\[ 0 + 15 + 120 = 135 \text{ miles} \]
+
+Calculating the remaining distance from home:
+\[ 180 \text{ miles} - 135 \text{ miles} = 45 \text{ miles} \]
+
+Thus, the final distance from home is:
+\[
+\boxed{45}
+\]",45.0,True,,,,True,45.0,True,,True
+10,id,"Gaji Elisa per jam untuk 40 jam pertama yang ia kerjakan setiap minggu adalah $10. Ia juga menerima upah lembur sebesar 1,2 kali lipat dari gaji per jamnya yang biasa. Jika Elisa bekerja selama 45 jam minggu ini, berapa penghasilannya untuk minggu ini?",460,"Elisa's earnings consist of regular pay for 40 hours and overtime pay for 5 hours.  
+- **Regular pay**: \(40 \text{ hours} \times \$10/\text{hour} = \$400\).  
+- **Overtime pay rate**: \(1.2 \times \$10 = \$12/\text{hour}\).  
+- **Overtime pay**: \(5 \text{ hours} \times \$12/\text{hour} = \$60\).  
+
+**Total earnings**: \(\$400 + \$60 = \$460\).  
+
+\[
+\boxed{460}
+\]",460.0,True,,,,True,460.0,True,,True
+11,id,"Suatu program baru diunduh sebanyak 60 kali pada bulan pertama. Jumlah unduhan pada bulan kedua tiga kali lebih banyak daripada unduhan pada bulan pertama, tetapi kemudian berkurang 30% pada bulan ketiga. Berapa total unduhan program tersebut selama tiga bulan?",366,"Bulan pertama: 60 unduhan.  
+Bulan kedua: 3× lebih banyak dari bulan pertama = \(3 \times 60 = 180\).  
+Bulan ketiga: berkurang 30% dari bulan kedua = \(180 - 0.3 \times 180 = 180 \times 0.7 = 126\).  
+
+Total unduhan selama tiga bulan:  
+\[60 + 180 + 126 = 366.\]
+
+Jawaban: \(\boxed{366}\)",366.0,True,,,,True,366.0,True,,True
+12,id,"Ahmad pergi ke toko roti dan membeli berbagai jenis kue kering. Ia membeli 3 lusin donat seharga $68 per lusin, 2 lusin cupcake mini seharga $80 per lusin, dan 6 lusin kue keju mini seharga $55 per lusin. Berapa total biayanya?",694,"Ahmad bought three types of pastries with the following details:
+
+1. **Donuts**: 3 dozen at $68 per dozen.
+   - Calculation: \(3 \times 68 = 204\)
+2. **Mini Cupcakes**: 2 dozen at $80 per dozen.
+   - Calculation: \(2 \times 80 = 160\)
+3. **Mini Cheese Cakes**: 6 dozen at $55 per dozen.
+   - Calculation: \(6 \times 55 = 330\)
+
+Adding the costs of all items together:
+- Donuts: $204
+- Mini Cupcakes: $160
+- Mini Cheese Cakes: $330
+
+Total cost calculation:
+\[
+204 + 160 + 330 = 694
+\]
+
+The final total cost is \(\boxed{694}\).",694.0,True,,,,True,694.0,True,,True
+13,id,"Soni menanam pohon lemon. Biaya penanaman pohon tersebut adalah $90. Setiap tahun pohon tersebut akan menghasilkan 7 lemon, yang dapat dijualnya seharga $1,5 setiap pohon. Biaya yang dikeluarkan untuk menyiram dan memberi makan pohon tersebut adalah $3 per tahun. Berapa tahun yang dibutuhkan sebelum ia mulai menghasilkan uang dari pohon lemon tersebut?",13,"Untuk menentukan berapa tahun yang dibutuhkan Soni agar mulai menghasilkan uang dari pohon lemon, kita perlu menghitung keuntungan bersih per tahun dan waktu untuk menutupi biaya awal. 
+
+**Biaya dan pendapatan:**
+- Biaya awal penanaman: $90
+- Pendapatan per tahun: 7 lemon × $1,5/lemon = $10,5
+- Biaya perawatan per tahun: $3
+- Keuntungan bersih per tahun: $10,5 - $3 = $7,5
+
+**Perhitungan waktu impas:**
+Biaya awal dibagi keuntungan bersih per tahun:
+\[
+\frac{90}{7,5} = 12 \text{ tahun}
+\]
+
+Setelah 12 tahun, total keuntungan kumulatif akan mencapai $90, menutupi biaya awal. Pada akhir tahun ke-12, Soni mencapai titik impas, dan mulai menghasilkan uang setelah tahun tersebut.
+
+Jawaban: \(\boxed{12}\)",12.0,False,"
+---
+Wait... Let me think again.
+---
+The cost of planting the lemon tree is $90, a one-time initial investment. Each year, the tree produces 7 lemons, which are sold at $1.5 each, resulting in an annual revenue of $10.5. The annual costs for watering and feeding the tree are $3, leading to a net profit of $7.5 per year.
+
+To determine when Soni will start making money, we need to find the smallest integer \( t \) such that the cumulative net profit exceeds the initial investment. The net profit after \( t \) years is calculated as follows:
+
+\[
+\text{Net Profit} = 7.5t - 90
+\]
+
+We need this net profit to be greater than zero:
+
+\[
+7.5t > 90
+\]
+
+Solving for \( t \):
+
+\[
+t > \frac{90}{7.5} = 12
+\]
+
+Since \( t \) must be an integer, the smallest value greater than 12 is 13. Checking the cumulative net profit after 13 years:
+
+- **Total Revenue**: \( 10.5 \times 13 = 136.5 \)
+- **Total Costs**: \( 90 + 3 \times 13 = 129 \)
+- **Net Profit**: \( 136.5 - 129 = 7.5 \)
+
+Thus, after 13 years, Soni's cumulative net profit becomes positive, meaning she starts making money. Therefore, the correct answer is:
+
+\[
+\boxed{13}
+\]",1.0,13.0,True,12.0,False,13.0,True
+14,id,"Lina adalah seorang pramuniaga keliling. Dia menjual sepertiga penyedot debunya di rumah kaca, 2 lagi ke rumah merah, dan setengahnya lagi ke rumah oranye. Jika Lina memiliki 5 penyedot debu tersisa, berapa banyak yang dia miliki saat memulai?",18,"Lina memulai dengan sejumlah vacuum cleaner yang kita sebut \( x \).
+
+1. **Rumah Hijau**: Dia menjual \(\frac{1}{3}x\), sehingga sisa:
+   \[
+   x - \frac{1}{3}x = \frac{2}{3}x
+   \]
+
+2. **Rumah Merah**: Dijual 2 unit lagi, sisanya:
+   \[
+   \frac{2}{3}x - 2
+   \]
+
+3. **Rumah Oranye**: Dijual setengah dari sisa, sehingga yang tersisa adalah setengahnya:
+   \[
+   \frac{1}{2} \left( \frac{2}{3}x - 2 \right) = 5
+   \]
+
+Dengan menyelesaikan persamaan:
+\[
+\frac{1}{2} \left( \frac{2}{3}x - 2 \right) = 5
+\]
+Kalikan kedua sisi dengan 2:
+\[
+\frac{2}{3}x - 2 = 10
+\]
+Tambahkan 2:
+\[
+\frac{2}{3}x = 12
+\]
+Kalikan dengan \(\frac{3}{2}\):
+\[
+x = 18
+\]
+
+Verifikasi:
+- Mulai dengan 18 → Rumah Hijau: 18 - 6 = 12 sisa.
+- Rumah Merah: 12 - 2 = 10 sisa.
+- Rumah Oranye: 10 - 5 = 5 sisa (sesuai soal).
+
+Jawaban akhir: \(\boxed{18}\)",18.0,True,,,,True,18.0,True,,True
+15,id,"Dalam kelas tari yang beranggotakan 20 siswa, 20% mendaftar di kelas tari kontemporer, 25% sisanya mendaftar di kelas tari jazz, dan sisanya mendaftar di kelas tari hip-hop. Berapa persentase seluruh siswa yang mendaftar di kelas tari hip-hop?",60,"Langkah 1: Hitung siswa yang mendaftar tari kontemporer:
+20% dari 20 siswa = \(0,2 \times 20 = 4\) siswa.  
+Sisanya = \(20 - 4 = 16\) siswa.
+
+Langkah 2: Hitung siswa yang mendaftar tari jazz (25% dari sisanya):
+25% dari 16 siswa = \(0,25 \times 16 = 4\) siswa.  
+Sisanya untuk hip-hop = \(16 - 4 = 12\) siswa.
+
+Langkah 3: Ubah jumlah siswa hip-hop ke persentase:
+\(\frac{12}{20} \times 100\% = 60\%\).
+
+Jawaban: \(\boxed{60\%}\)",60.0,True,,,,True,60.0,True,,True
+16,id,"Seorang pedagang ingin memilih antara 2 rencana pembelian: perhiasan senilai $5.000 atau gadget elektronik senilai $8.000. Penasihat keuangannya memperkirakan bahwa pasar perhiasan akan naik 2,5% sementara pasar gadget elektronik akan naik 1,2% dalam bulan yang sama. Jika pedagang tersebut ingin memaksimalkan laba di akhir bulan ini dengan membuat pilihan, berapa laba yang akan diperolehnya?",125,"Langkah-langkah solusi:
+
+1. **Hitung keuntungan dari perhiasan:**
+   \[
+   \text{Keuntungan} = 5.000 \times 2,5\% = 5.000 \times 0,025 = 125
+   \]
+
+2. **Hitung keuntungan dari gadget elektronik:**
+   \[
+   \text{Keuntungan} = 8.000 \times 1,2\% = 8.000 \times 0,012 = 96
+   \]
+
+3. **Bandingkan kedua keuntungan:**
+   - Perhiasan: \$125
+   - Gadget: \$96
+
+   Pilih opsi dengan keuntungan tertinggi, yaitu perhiasan.
+
+**Jawaban:**
+\boxed{125}",125.0,True,,,,True,125.0,True,,True
+17,id,"Dua kereta berangkat dari Bandung pada waktu yang sama. Mereka mulai bergerak ke arah barat, keduanya menempuh jarak 80 mil. Keesokan harinya, mereka bergerak ke utara, menempuh jarak 150 mil. Berapa jarak yang ditempuh masing-masing kereta dalam dua hari tersebut?",230,"Setiap kereta bergerak ke barat sejauh 80 mil pada hari pertama dan ke utara 150 mil pada hari berikutnya. Total jarak yang ditempuh adalah penjumlahan kedua jarak tersebut.
+
+Langkah-langkah:
+1. Jarak hari pertama: 80 mil
+2. Jarak hari kedua: 150 mil
+3. Total jarak = 80 + 150 = 230 mil
+
+Kedua kereta menempuh jarak yang sama karena rutenya identik.
+
+**Jawaban**:  
+\boxed{230}",230.0,True,,,,True,230.0,True,,True
+18,id,"Johan dibayar $20 per jam untuk mengajar dan $30 untuk menjadi pelatih pemandu sorak. Jika dia bekerja 50 minggu setahun, 35 jam seminggu sebagai guru dan 15 jam seminggu sebagai pelatih, berapa gaji tahunannya?",57500,"Johan's annual salary is calculated by summing his earnings from teaching and coaching. 
+
+1. **Teaching Earnings**:
+   - Hourly rate: $20
+   - Weekly hours: 35
+   - Weekly income: \( 35 \times 20 = \$700 \)
+   - Annual income: \( 700 \times 50 = \$35,\!000 \)
+
+2. **Coaching Earnings**:
+   - Hourly rate: $30
+   - Weekly hours: 15
+   - Weekly income: \( 15 \times 30 = \$450 \)
+   - Annual income: \( 450 \times 50 = \$22,\!500 \)
+
+3. **Total Annual Salary**:
+   - Combine both earnings: \( 35,\!000 + 22,\!500 = \$57,\!500 \)
+
+Final answer: \(\boxed{57500}\)",57500.0,True,,,,True,57500.0,True,,True
+19,id,Sintya membuat telur dadar dengan 3 butir telur setiap pagi untuk sarapan. Berapa lusin telur yang akan ia makan dalam 4 minggu?,7,"To determine how many dozen eggs Sintya eats in 4 weeks:
+1. **Daily eggs**: 3 eggs per day.
+2. **Total days**: 4 weeks × 7 days/week = 28 days.
+3. **Total eggs consumed**: 3 eggs/day × 28 days = 84 eggs.
+4. **Convert to dozens**: 84 eggs ÷ 12 eggs/dozen = 7 dozen.
+
+Jawaban: \boxed{7}",7.0,True,,,,True,7.0,True,,True
+20,id,"Memei sedang mendaki jalan setapak sepanjang 12 mil. Ia membutuhkan waktu 1 jam untuk berjalan sejauh 4 mil pertama, kemudian satu jam lagi untuk berjalan sejauh dua mil berikutnya. Jika ia ingin kecepatan rata-ratanya menjadi 4 mil per jam, berapa kecepatan (dalam mil per jam) yang ia perlukan untuk berjalan sejauh yang tersisa?",6,"To determine the required speed for the remaining distance, we start by calculating the total time needed for an average speed of 4 mph over 12 miles:
+
+\[
+\text{Total time} = \frac{\text{Total distance}}{\text{Average speed}} = \frac{12}{4} = 3 \, \text{hours}.
+\]
+
+Memei has already hiked 4 miles in 1 hour and 2 miles in another hour, totaling 6 miles in 2 hours. The remaining distance is:
+
+\[
+12 - 6 = 6 \, \text{miles}.
+\]
+
+The remaining time to achieve the target average speed is:
+
+\[
+3 - 2 = 1 \, \text{hour}.
+\]
+
+Thus, the required speed for the remaining 6 miles is:
+
+\[
+\text{Speed} = \frac{\text{Distance}}{\text{Time}} = \frac{6}{1} = 6 \, \text{mph}.
+\]
+
+\boxed{6}",6.0,True,,,,True,6.0,True,,True
+21,id,"Saya punya 10 liter minuman jeruk yang dua pertiganya air dan saya ingin menambahkannya ke 15 liter minuman nanas yang tiga per limanya air. Namun saat saya menuangkannya, saya menumpahkan satu liter minuman jeruk. Berapa banyak air dalam 24 liter sisanya?",15,"First, calculate the amount of water in the original 10 liters of orange drink:
+\[
+\frac{2}{3} \times 10 = \frac{20}{3} \text{ liters}
+\]
+When 1 liter of orange drink is spilled, the spill contains:
+\[
+\frac{2}{3} \times 1 = \frac{2}{3} \text{ liters of water}
+\]
+Remaining water from the orange drink:
+\[
+\frac{20}{3} - \frac{2}{3} = \frac{18}{3} = 6 \text{ liters}
+\]
+
+Next, calculate the water in the 15 liters of pineapple drink:
+\[
+\frac{3}{5} \times 15 = 9 \text{ liters}
+\]
+
+Adding the remaining 9 liters of orange drink to 15 liters of pineapple drink results in 24 liters. The total water content is:
+\[
+6 \text{ liters (from orange)} + 9 \text{ liters (from pineapple)} = 15 \text{ liters}
+\]
+
+\[
+\boxed{15}
+\]",15.0,True,,,,True,15.0,True,,True
+22,id,"Rendi dan Farid adalah sepupu. Rendi lahir 6 tahun sebelum Farid. Rendi memiliki seorang putra pada usia 23 tahun. Jika Farid sekarang berusia 31 tahun, berapa tahun yang lalu putra Rendi lahir?",14,"First, determine Rendi's current age. Since Farid is 31 years old and Rendi was born 6 years earlier, Rendi's current age is:
+\[
+31 + 6 = 37 \text{ years old}
+\]
+
+Next, calculate the current age of Rendi's son. Rendi had his son when he was 23 years old, so the son's current age is:
+\[
+37 - 23 = 14 \text{ years old}
+\]
+
+Since the son is 14 years old now, he was born 14 years ago.
+
+\[
+\boxed{14}
+\]",14.0,True,,,,True,14.0,True,,True
+23,id,Kevin menjual DVD. Ia memiliki 8 pelanggan pada hari Selasa. 3 pelanggan pertamanya masing-masing membeli satu DVD. 2 pelanggan berikutnya masing-masing membeli 2 DVD. 3 pelanggan terakhirnya tidak membeli DVD apa pun. Berapa banyak DVD yang dijual Kevin pada hari Selasa?,7,"Kevin memiliki 8 pelanggan yang dibagi menjadi tiga kelompok berdasarkan jumlah DVD yang dibeli:
+1. **3 pelanggan pertama**: Masing-masing membeli 1 DVD.  
+   \(3 \times 1 = 3\) DVD.  
+2. **2 pelanggan berikutnya**: Masing-masing membeli 2 DVD.  
+   \(2 \times 2 = 4\) DVD.  
+3. **3 pelanggan terakhir**: Tidak membeli DVD.  
+   \(3 \times 0 = 0\) DVD.  
+
+Total DVD yang terjual = \(3 + 4 + 0 = 7\).
+
+Jawaban: \(\boxed{7}\).",7.0,True,,,,True,7.0,True,,True
+24,id,Lilin mencair 2 sentimeter setiap jam selama ia menyala. Berapa sentimeter lebih pendekkah lilin setelah menyala dari pukul 1:00 siang hingga pukul 5:00 sore?,8,"Lilin mencair 2 cm setiap jam selama periode menyala. Dari pukul 1:00 siang hingga 5:00 sore adalah selang waktu 4 jam. 
+
+Total penurunan panjang lilin dihitung dengan:
+\[
+4 \text{ jam} \times 2 \text{ cm/jam} = 8 \text{ cm}
+\]
+
+Jawaban: \(\boxed{8}\)",8.0,True,,,,True,8.0,True,,True
+25,id,"Titi membeli buku terlaris tahun lalu seharga $19,50. Harga ini didiskon 25% dari harga aslinya. Berapa harga asli buku tersebut?",26,"Harga yang dibayar Titi ($19,50) merupakan 75% dari harga aslinya setelah diskon 25%. Dengan persamaan:
+
+\[
+\text{Harga Asli} \times 0,75 = 19,50
+\]
+
+Mencari harga asli:
+
+\[
+\text{Harga Asli} = \frac{19,50}{0,75} = 26
+\]
+
+Verifikasi:  
+25% dari $26 adalah $6,50 → $26 - $6,50 = $19,50 (sesuai). Jadi, harga aslinya adalah \(\boxed{26}\).",26.0,True,,,,True,26.0,True,,True
+26,id,"Yuki memesan satu porsi ayam seharga $12, 5 bungkus susu seharga $3 masing-masing, 4 buah apel seharga $1,50 masing-masing, dan beberapa kotak pizza. Yuki membayar total $50. Berapa banyak kotak pizza yang dipesan Yuki jika setiap kotak harganya $8,50?",2,"To determine how many boxes of pizza Yuki ordered, first, calculate the total cost of the other items:
+
+- **Chicken:** $12  
+- **Milk:** 5 packs × $3 = $15  
+- **Apples:** 4 × $1.50 = $6  
+
+**Total for chicken, milk, and apples:**  
+$12 + $15 + $6 = **$33**  
+
+**Amount spent on pizza:**  
+Total payment $50 − $33 = **$17**  
+
+**Number of pizza boxes:**  
+$17 ÷ $8.50 per box = **2**
+
+**Answer:** \boxed{2}",2.0,True,,,,True,2.0,True,,True
+27,id,"Setyo membeli 3 pasang celana pendek, 3 pasang celana panjang, dan 3 pasang sepatu. Sepasang celana pendek harganya $16,50. Sepasang celana panjang harganya $22,50 dan sepasang sepatu harganya $42. Berapa dolar yang dihabiskan Setyo untuk semua jenis pakaian tersebut?",243,"Setyo membeli 3 pasang untuk setiap jenis pakaian. Total biaya dihitung sebagai berikut:
+
+1. **Celana pendek**:  
+   \(3 \times 16,\!50 = 49,\!50\)  
+2. **Celana panjang**:  
+   \(3 \times 22,\!50 = 67,\!50\)  
+3. **Sepatu**:  
+   \(3 \times 42,\!00 = 126,\!00\)  
+
+Total semua item:  
+\(49,\!50 + 67,\!50 + 126,\!00 = 243,\!00\)
+
+Alternatif:  
+Total per jenis \(16,\!50 + 22,\!50 + 42,\!00 = 81,\!00\), lalu \(3 \times 81,\!00 = 243,\!00\).
+
+Jawaban:  
+\boxed{243}",243.0,True,,,,True,243.0,True,,True
+28,id,"Syifa makan satu porsi es krim setiap malam. Ia membeli karton es krim berisi 15 porsi es krim per karton dengan biaya $4,00 per karton. Setelah 60 hari, berapa banyak yang akan ia belanjakan untuk membeli es krim?",16,"Syifa membeli 1 porsi es krim setiap malam. Dalam 60 hari, total porsi yang dibutuhkan adalah $60 \times 1 = 60$ porsi. Setiap karton berisi 15 porsi, sehingga jumlah karton yang diperlukan adalah $\frac{60}{15} = 4$ karton. Biaya per karton adalah \$4,00, sehingga total pengeluaran adalah $4 \times 4 = 16$.
+
+Jawaban: \boxed{16}",16.0,True,,,,True,16.0,True,,True
+29,id,Hendra berhenti dua kali selama perjalanan bersepeda sejauh 60 mil. Ia berhenti pertama setelah 20 mil. Pemberhentian keduanya adalah 15 mil sebelum akhir perjalanan. Berapa mil yang ia tempuh antara pemberhentian pertama dan kedua?,25,"Hendra melakukan perjalanan sejauh **60 mil** dan berhenti dua kali.  
+- **Pemberhentian pertama** terjadi setelah **20 mil** (setara dengan posisi mil ke-20).  
+- **Pemberhentian kedua** terletak **15 mil sebelum akhir perjalanan**, sehingga posisinya berada di:  
+  \( 60 - 15 = 45 \) mil.  
+
+Jarak antara pemberhentian pertama dan kedua dihitung sebagai:  
+\( 45 - 20 = 25 \) mil.  
+
+Verifikasi: Total jarak yang ditempuh segmen (20 + 25 + 15 = 60) sesuai dengan total perjalanan.  
+
+\(\boxed{25}\)",25.0,True,,,,True,25.0,True,,True
+30,id,"Agus sedang berbelanja sepatu ketika ia menemukan sepasang sepatu bot yang sesuai dengan anggarannya. Namun, ia harus memilih antara sepatu bot dan dua pasang sepatu hak tinggi yang jika ditotal harganya lima dolar lebih murah daripada sepatu bot itu sendiri. Jika sepasang sepatu hak tinggi harganya $33 dan yang lainnya harganya dua kali lipat, berapa harga sepatu bot itu?",104,"The total cost of the two pairs of high heels is calculated by adding the price of the first pair ($33) and the second pair, which is twice that amount:  
+First pair: $33  
+Second pair: \(2 \times 33 = \$66\)  
+Total for high heels: \(33 + 66 = 99\) dollars  
+
+Since the total price of the high heels is $5 cheaper than the boots, the price of the boots is:  
+\(99 + 5 = 104\) dollars  
+
+\(\boxed{104}\)",104.0,True,,,,True,104.0,True,,True
+31,id,"Perbandingan usia Dani dan Angga adalah 7:11. Jika total usia mereka sekarang adalah 162, hitunglah usia Angga 10 tahun dari sekarang.",109,"To determine Angga's age 10 years from now, follow these steps:
+
+1. **Define Variables**: Let the current ages of Dani and Angga be represented as \(7x\) and \(11x\) respectively, based on the ratio \(7:11\).
+
+2. **Set Up the Equation**: Their total current age is 162:
+   \[
+   7x + 11x = 162
+   \]
+   Simplifying gives:
+   \[
+   18x = 162
+   \]
+
+3. **Solve for \(x\)**:
+   \[
+   x = \frac{162}{18} = 9
+   \]
+
+4. **Calculate Current Ages**:
+   - Dani’s age: \(7x = 7 \times 9 = 63\) years
+   - Angga’s age: \(11x = 11 \times 9 = 99\) years
+
+5. **Determine Angga’s Age in 10 Years**:
+   \[
+   99 + 10 = 109
+   \]
+
+**Final Answer**:  
+\boxed{109}",109.0,True,,,,True,109.0,True,,True
+32,id,Rafi mencoba menghitung kacang jeli dalam toples. Ia bertanya kepada teman-temannya berapa jumlah yang mereka kira ada di dalam toples. Satu orang menjawab 80. Yang lain menjawab 20 lebih banyak dari setengah toples pertama. Yang ketiga menjawab 25% lebih banyak dari toples pertama. Berapa perkiraan rata-rata mereka?,80,"The first friend estimates 80 jelly beans. The second friend's estimate is 20 more than half of the first estimate:  
+**First half**: \( \frac{80}{2} = 40 \)  
+**Second friend's guess**: \( 40 + 20 = 60 \).  
+
+The third friend's estimate is 25% more than the first estimate:  
+**25% of 80**: \( 0.25 \times 80 = 20 \)  
+**Third friend's guess**: \( 80 + 20 = 100 \).  
+
+**Calculating the average**:  
+Total sum:  
+\( 80 + 60 + 100 = 240 \)  
+Average:  
+\( \frac{240}{3} = 80 \).  
+
+The average estimate is **\boxed{80}**.",80.0,True,,,,True,80.0,True,,True
+33,id,"Bagas mengurus 10 ekor anjing. Setiap anjing menghabiskan waktu 0,5 jam sehari untuk berjalan-jalan dan mengurusi kotorannya. Berapa jam seminggu ia habiskan untuk mengurus anjing-anjing tersebut?",35,"Bagas memiliki 10 ekor anjing yang masing-masing membutuhkan 0,5 jam per hari untuk diurus. Untuk menghitung total waktu harian, kalikan jumlah anjing dengan waktu per anjing:  
+\[ 10 \times 0,5 = 5 \text{ jam/hari} \]  
+Selanjutnya, kalikan total harian dengan 7 hari dalam seminggu:  
+\[ 5 \times 7 = 35 \text{ jam/minggu} \]  
+
+Jadi, jawabannya adalah \(\boxed{35}\).",35.0,True,,,,True,35.0,True,,True
+34,id,Umar memiliki 110 koin. Jumlah koin emasnya 30 lebih banyak daripada koin peraknya. Berapa banyak koin emas yang dimiliki Umar?,70,"Let \( S \) be the number of silver coins and \( G \) be the number of gold coins.
+
+1. Given \( G = S + 30 \),
+2. Total coins equation: \( S + G = 110 \)
+3. Substitute \( G \) from step 1 into step 2:
+   \[
+   S + (S + 30) = 110
+   \]
+4. Simplify: \( 2S + 30 = 110 \)
+5. Solve for \( S \):
+   \[
+   2S = 80 \Rightarrow S = 40
+   \]
+6. Find \( G \):
+   \[
+   G = 40 + 30 = 70
+   \]
+
+**Answer:**  
+\boxed{70}",70.0,True,,,,True,70.0,True,,True
+35,id,"Sandi memiliki 2 permata lebih sedikit daripada Aaron. Aaron memiliki 5 permata lebih banyak daripada separuh permata Rendi. Jika Rendi memiliki 40 permata, berapa banyak permata yang dimiliki Sandi?",23,"Sandi memiliki 2 permata lebih sedikit daripada Aaron, sehingga jumlah permata Sandi adalah Aaron - 2. Aaron memiliki 5 permata lebih banyak daripada separuh permata Rendi, yang berarti Aaron = (Rendi / 2) + 5. Diketahui Rendi memiliki 40 permata. Langkah-langkahnya adalah sebagai berikut:
+
+1. Hitung setengah dari permata Rendi:  
+   \( \frac{40}{2} = 20 \).
+
+2. Tambahkan 5 untuk mendapatkan jumlah permata Aaron:  
+   \( 20 + 5 = 25 \).
+
+3. Kurangi 2 dari jumlah permata Aaron untuk mendapatkan permata Sandi:  
+   \( 25 - 2 = 23 \).
+
+Jawaban akhir:  
+\(\boxed{23}\)",23.0,True,,,,True,23.0,True,,True
+36,id,"Akbar bermain pingpong selama 40 menit. Dalam 20 menit pertama, ia mencetak 4 poin. Dalam 20 menit kedua, ia mencetak 25% lebih banyak poin. Berapa total poin yang ia cetak?",9,"**Step-by-Step Explanation:**
+
+1. **First 20 Minutes:**  
+   Akbar scores **4 points**.
+
+2. **Calculating 25% Increase for the Next 20 Minutes:**  
+   25% of 4 points = \( \frac{25}{100} \times 4 = 1 \)  
+   So, the points scored in the next 20 minutes = \( 4 + 1 = 5 \).
+
+3. **Total Points:**  
+   First 20 minutes + Next 20 minutes = \( 4 + 5 = 9 \).
+
+**Final Answer:**  
+The total points Akbar scored are \(\boxed{9}\).",9.0,True,,,,True,9.0,True,,True
+37,id,"Tukimin makan 2 yogurt sehari. Saat ini dijual dengan harga 4 yogurt seharga $5,00. Berapa banyak yang ia belanjakan untuk yogurt selama 30 hari?",75,"Tukimin mengonsumsi 2 yogurt per hari. Total yogurt yang dibutuhkan dalam 30 hari adalah:  
+\[ 2 \text{ yogurt/hari} \times 30 \text{ hari} = 60 \text{ yogurt} \]  
+
+Harga yogurt adalah 4 yogurt seharga \$5,00. Banyaknya kelompok 4 yogurt dalam 60 yogurt adalah:  
+\[ \frac{60}{4} = 15 \]  
+
+Total biaya yang dikeluarkan:  
+\[ 15 \times \$5,00 = \$75,00 \]  
+
+Jawaban akhir: $\boxed{75}$",75.0,True,,,,True,75.0,True,,True
+38,id,Bagas berencana menjual semua mainannya dan menggunakan uangnya untuk membeli video game. Ia memiliki 13 set lego dan menjualnya seharga $15 masing-masing. Ia akhirnya membeli 8 video game seharga $20 masing-masing dan masih memiliki sisa $5. Berapa banyak set lego yang masih ia miliki?,2,"Bagas awalnya memiliki 13 set lego. Jika semua terjual dengan harga \$15 per set, total uang yang didapat adalah \(13 \times 15 = 195\) dolar. Namun, dia hanya memiliki sisa \$5 setelah membeli 8 video game (masing-masing \$20), sehingga total uang yang digunakan adalah \(8 \times 20 + 5 = 165\) dolar. Ini menunjukkan bahwa uang dari penjualan lego adalah \$165.
+
+Jumlah lego yang terjual adalah \(\frac{165}{15} = 11\) set. Dengan demikian, sisa lego yang tidak terjual adalah \(13 - 11 = 2\) set.
+
+\[
+\boxed{2}
+\]",2.0,True,,,,True,2.0,True,,True
+39,id,Bagas berlari sejauh 60 mil seminggu. Ia berlari 3 hari seminggu. Ia berlari 3 jam pada hari pertama dan setengahnya pada dua hari berikutnya. Seberapa cepat ia berlari?,10,"Bagas runs a total of 60 miles over 3 days each week. On the first day, he runs for 3 hours. The next two days, he runs half the time of the first day each day: 1.5 hours per day. 
+
+**Total time per week**:  
+\(3 \text{ hours} + 1.5 \text{ hours} + 1.5 \text{ hours} = 6 \text{ hours}\).
+
+Assuming a constant speed \(v\) (miles per hour), the total distance is the sum of distances from each day:  
+\(3v + 1.5v + 1.5v = 6v\).
+
+Given \(6v = 60\) miles, solving for \(v\):  
+\(v = \frac{60}{6} = 10\) mph.
+
+**Final Answer**:  
+\boxed{10}",10.0,True,,,,True,10.0,True,,True
+40,id,"Desi dapat berlari dengan kecepatan empat kali lebih cepat daripada berjalan, tetapi ia dapat melompat dengan kecepatan setengah dari kecepatan larinya. Jika ia dapat melompat dengan kecepatan 3 mil per jam, berapa mil yang dapat ia tempuh dalam enam jam jika ia menghabiskan sepertiga waktunya untuk berlari dan dua pertiga waktunya untuk berjalan?",18,"Desi's jumping speed is given as 3 mph, which is half of her running speed. Therefore, her running speed is \(3 \times 2 = 6\) mph. Since her running speed is four times her walking speed, her walking speed is \(6 \div 4 = 1.5\) mph.
+
+Desi spends one-third of her total time (6 hours) running and two-thirds walking:
+- Time spent running: \(\frac{1}{3} \times 6 = 2\) hours.
+- Time spent walking: \(\frac{2}{3} \times 6 = 4\) hours.
+
+Calculating the distance covered:
+- Distance while running: \(6 \, \text{mph} \times 2 \, \text{hours} = 12 \, \text{miles}\).
+- Distance while walking: \(1.5 \, \text{mph} \times 4 \, \text{hours} = 6 \, \text{miles}\).
+
+Total distance covered: \(12 + 6 = 18 \, \text{miles}\).
+
+\[
+\boxed{18}
+\]",18.0,True,,,,True,18.0,True,,True
+41,id,"iPhone Beni empat kali lebih tua dari iPhone Ben. iPhone Ben dua kali lebih tua dari iPhone Suzy. Jika iPhone Suzy berusia 1 tahun, berapa usia iPhone Beni?",8,"iPhone Suzy berusia 1 tahun.  
+iPhone Ben dua kali lebih tua dari Suzy, sehingga usia Ben adalah \(2 \times 1 = 2\) tahun.  
+iPhone Beni empat kali lebih tua dari Ben, sehingga usia Beni adalah \(4 \times 2 = 8\) tahun.  
+
+Jawaban: \boxed{8}",8.0,True,,,,True,8.0,True,,True
+42,id,"Naga besar, Ponimin, duduk tinggi di puncak gunung Farbo, menyemburkan api ke apa pun dalam jarak 1000 kaki. Polly dapat melempar lembing emas, satu-satunya senjata yang diketahui dapat menerbangkan naga, sejauh 400 kaki, dalam jangkauan api naga. Namun, ketika Polly memegang batu permata safir, ia dapat melempar lembing tiga kali lebih jauh daripada saat tidak memegang batu permata. Jika memegang batu permata, seberapa jauh di luar jangkauan api naga Polly dapat berdiri dan tetap mengenai naga dengan lembing emas?",200,"Polly's throwing range with the sapphire gem is \(3 \times 400 = 1200\) feet. The dragon's fire reaches up to 1000 feet. The distance Polly can stand outside the dragon's range is \(1200 - 1000 = 200\) feet.
+
+\(\boxed{200}\)",200.0,True,,,,True,200.0,True,,True
+43,id,"Nenek Nisa memanggang 5 pai apel untuk makan siang petugas pemadam kebakaran. Ia memotong setiap pai menjadi 8 bagian dan meletakkan kelima pai di atas meja prasmanan agar para tamu dapat menikmatinya sendiri. Di penghujung acara, setelah para tamu mengambil dan memakan potongan pai mereka, tersisa 14 potong pai. Berapa banyak potongan yang diambil oleh para tamu?",26,"The total number of apple pie pieces is calculated by multiplying the number of pies by the pieces per pie:  
+\[
+5 \text{ pies} \times 8 \text{ potongan/pie} = 40 \text{ potongan}.
+\]  
+After the guests took their portions, 14 pieces remained. The number of pieces taken is the total minus the remaining:  
+\[
+40 \text{ potongan} - 14 \text{ potongan} = 26 \text{ potongan}.
+\]  
+
+**Answer:**  
+\boxed{26}",26.0,True,,,,True,26.0,True,,True
+44,id,"Menurut informasi nutrisinya, sekantong keripik mengandung 250 kalori per sajian. Jika sekantong keripik seberat 300 gram mengandung 5 sajian, berapa gram yang dapat Anda konsumsi jika target kalori harian Anda adalah 2000 dan Anda telah mengonsumsi 1800 kalori?",48,"To determine how many grams of chips can be consumed with the remaining calorie allowance:
+
+1. **Calculate remaining calories:**
+   \[
+   2000 \, \text{kalori (target)} - 1800 \, \text{kalori (terkonsumsi)} = 200 \, \text{kalori (tersisa)}.
+   \]
+
+2. **Determine grams per serving:**
+   \[
+   \frac{300 \, \text{gram}}{5 \, \text{sajian}} = 60 \, \text{gram/sajian}.
+   \]
+
+3. **Relate calories to grams:**
+   Set up the proportion where 60 grams correspond to 250 calories:
+   \[
+   \frac{250 \, \text{kalori}}{60 \, \text{gram}} = \frac{200 \, \text{kalori}}{x}.
+   \]
+   Solving for \(x\):
+   \[
+   x = \frac{60 \times 200}{250} = 48 \, \text{gram}.
+   \]
+
+**Final Answer:** \boxed{48}",48.0,True,,,,True,48.0,True,,True
+45,id,"Rizki ingin menjual lilin lebah. Untuk setiap pon lilin lebah, ia dapat membuat 10 lilin berbentuk kerucut. Satu pon lilin lebah dan sumbu memerlukan biaya $10,00 untuk bahan baku. Jika ia menjual setiap lilin seharga $2,00, berapa laba bersihnya jika ia membuat dan menjual 20 lilin?",20,"To determine Rizki's net profit from making and selling 20 beeswax candles, we start by analyzing the costs and revenue:
+
+1. **Cost Calculation**:
+   - One pound of beeswax and wicks costs $10.00 and makes 10 candles.
+   - For 20 candles, Rizki needs \( \frac{20}{10} = 2 \) pounds of materials.
+   - Total cost for 2 pounds: \( 2 \times \$10.00 = \$20.00 \).
+
+2. **Revenue Calculation**:
+   - Each candle is sold for $2.00.
+   - Revenue from 20 candles: \( 20 \times \$2.00 = \$40.00 \).
+
+3. **Net Profit**:
+   - Subtract total cost from total revenue: \( \$40.00 - \$20.00 = \$20.00 \).
+
+Thus, Rizki's net profit is \(\boxed{20}\).",20.0,True,,,,True,20.0,True,,True
+46,id,"Hanif adalah seorang blogger lepas yang menulis tentang topik kesehatan dan mengirimkannya ke klien setiap hari sebagai pekerjaan tetapnya. Sebuah artikel blog membutuhkan waktu rata-rata 4 jam untuk diteliti dan ditulis. Minggu lalu, ia menulis 5 artikel pada hari Senin dan 2/5 kali lebih banyak artikel pada hari Selasa daripada hari Senin. Pada hari Rabu, ia menulis dua kali lipat jumlah artikel yang ia tulis pada hari Selasa. Hitunglah jumlah total jam yang ia habiskan untuk menulis artikel dalam tiga hari tersebut.",104,"Hanif menghabiskan total waktu selama tiga hari dengan perhitungan sebagai berikut:
+- **Senin**: 5 artikel
+- **Selasa**: 5 artikel × (1 + 2/5) = 5 × 7/5 = 7 artikel
+- **Rabu**: 7 artikel (Selasa) × 2 = 14 artikel
+
+Total artikel: 5 + 7 + 14 = 26 artikel  
+Total jam: 26 artikel × 4 jam/artikel = **104 jam**.
+
+Jawaban: \boxed{104}",104.0,True,,,,True,104.0,True,,True
+47,id,"Salsa menaruh 80 post-it notes di tasnya sebelum berangkat ke tempat kerjanya di kedai kopi. Dalam perjalanan, dia mampir ke toko dan membeli sebungkus Post-it notes; Di tempat kerja, dia menempelkan satu Post-it notes di setiap 220 cangkir kopi yang berbeda. Jika dia memiliki 23 Post-it notes yang tersisa, berapa banyak Post-it notes yang ada di dalam bungkusan yang dibelinya?",163,"Salsa awalnya memiliki 80 Post-it, lalu membeli sebungkus berisi \( x \) Post-it. Setelah menggunakan 220 lembar dan tersisa 23, persamaannya adalah:
+
+\[
+80 + x - 220 = 23
+\]
+
+Menyelesaikan untuk \( x \):
+\[
+x = 23 + 220 - 80 = 243 - 80 = 163
+\]
+
+Jumlah Post-it dalam bungkusan yang dibeli adalah \(\boxed{163}\).",163.0,True,,,,True,163.0,True,,True
+48,id,Bagas membeli dasi merah dua kali lebih banyak daripada dasi biru. Dasi merah harganya 50% lebih mahal daripada dasi biru. Ia menghabiskan $200 untuk dasi biru yang harganya $40 tiap dasi. Berapa banyak yang ia belanjakan untuk dasi?,800,"Bagas membeli 5 dasi biru dengan harga $40 per dasi, menghabiskan \( \frac{200}{40} = 5 \) dasi. Dasi merah dibeli dua kali lebih banyak, yaitu \( 2 \times 5 = 10 \) dasi. Harga per dasi merah 50% lebih mahal, yakni \( 40 + (0.5 \times 40) = 60 \) dollar. Total pengeluaran untuk dasi merah adalah \( 10 \times 60 = 600 \) dollar. Dengan demikian, total belanja seluruhnya adalah \( 200 + 600 = 800 \) dollar.
+
+\[
+\boxed{800}
+\]",800.0,True,,,,True,800.0,True,,True
+49,id,Laras menggunakan seutas kawat sepanjang 4 kaki untuk menyangga tanaman tomat di kebun. Kawat tersebut dipotong-potong sepanjang 6 inci. Berapa banyak potongan yang diperolehnya?,8,"Laras mengonversi panjang kawat dari kaki ke inci terlebih dahulu. Karena 1 kaki = 12 inci, maka **4 kaki = 4 × 12 = 48 inci**. Selanjutnya, kawat tersebut dipotong menjadi bagian sepanjang 6 inci. Jumlah potongan yang diperoleh dihitung dengan membagi total panjang kawat dengan panjang setiap potongan:
+
+\[
+\frac{48 \text{ inci}}{6 \text{ inci/potongan}} = 8 \text{ potongan}
+\]
+
+Verifikasi dengan menghitung jumlah pemotongan: untuk mendapatkan 8 potongan, diperlukan **7 kali pemotongan** (setiap potongan menghasilkan +1 bagian). Dengan demikian, jawaban akhir adalah:
+
+\boxed{8}",8.0,True,,,,True,8.0,True,,True
+50,id,"Andre tinggal di gedung apartemen dengan 15 lantai. Setiap lantai berisi 8 unit, dan 3/4 bangunannya berpenghuni. Berapa jumlah total unit yang tidak berpenghuni di gedung tersebut?",30,"Total unit di gedung apartemen: 15 lantai × 8 unit/lantai = **120 unit**.  
+Unit yang berpenghuni: \( \frac{3}{4} \times 120 = 90 \) unit.  
+Unit yang tidak berpenghuni: \( 120 - 90 = 30 \) unit.  
+
+**Jawaban:**  
+\boxed{30}",30.0,True,,,,True,30.0,True,,True
+1,jv,Bebek Bu Halimah ngetokake 16 endhog saben dina. Dheweke mangan telu kanggo sarapan saben esuk lan panggang muffin kanggo kanca-kanca saben dina karo papat. Dheweke ngedol liyane ing pasar petani saben dina kanggo $2 saben endhog bebek seger. Pira dhuwit saben dinane ing pasar tani?,18,"Halimah's duck lays 16 eggs daily. Subtracting the 3 eggs she uses for breakfast and the 4 eggs for muffins:  
+**16 - 3 - 4 = 9 eggs remaining**.  
+
+She sells the remaining 9 eggs at $2 per egg, so her daily earnings are:  
+**9 × $2 = $18**.  
+
+The answer is:  
+\boxed{18}",18.0,True,,,,True,18.0,True,,True
+2,jv,Jubah njupuk 2 baut serat biru lan setengah saka serat putih. Carane akeh bolts ing total njupuk?,3,"Jubah took 2 blue fiber bolts and half the number of white fiber bolts compared to the blue ones. The problem structure suggests taking half the quantity of another given number, which here refers to the blue bolts. 
+
+1. Blue bolts: 2
+2. White bolts: half of blue bolts = \( \frac{2}{2} = 1 \)
+3. Total bolts: \( 2 + 1 = 3 \)
+
+\[
+\boxed{3}
+\]",3.0,True,,,,True,3.0,True,,True
+3,jv,Najwa mutusaké kanggo nyoba flipping omah. Dheweke tuku omah kanthi rega $ 80.000 lan banjur ndandani $ 50.000. Iki nambah regane omah nganti 150%. Pira bathi sing ditindakake?,70000,"Najwa bought a house for $80,000 and spent $50,000 on renovations, totaling a $130,000 investment. The renovations increased the house's value by 150% of the original purchase price. 
+
+1. **Calculating the increase in",1.0,False,"
+---
+Wait... Let me think again.
+---
+
+---
+Wait... Let me think again.
+---
+
+---
+Wait... Let me think again.
+---
+
+---
+Wait... Let me think again.
+---
+
+---
+Wait... Let me think again.",5.0,,False,1.0,False,,False
+4,jv,Hasna mutusake kanggo mbukak 3 sprint 3 kaping seminggu. Dheweke mlaku 60 meter saben sprint. Pira total meter dheweke mlaku seminggu?,540,"Hasna melakukan 3 sprint sesi dalam seminggu, di mana setiap sesi terdiri dari 3 sprint masing-masing 60 meter. Total perhitungannya sebagai berikut:
+
+1. **Sprint per sesi**: 3 sprint × 60 meter = 180 meter per sesi.  
+2. **Total per minggu**: 3 sesi × 180 meter = 540 meter.
+
+Jawaban: \boxed{540}",540.0,True,,,,True,540.0,True,,True
+5,jv,"Saben dina Wendi menehi pakan pitik campuran telung cangkir, isine wiji, cacing lan sayuran kanggo njaga kesehatane. Dheweke menehi pitik pakan ing telung dhaharan sing kapisah. Ing wayah esuk, dheweke menehi pitik 15 cangkir pakan. Ing wayah sore, dheweke menehi pitik maneh 25 cangkir pakan. Pira cangkir pakan sing dibutuhake kanggo menehi pitik ing dhaharan pungkasan dina yen ukuran wedhus Wendi ana 20 pitik?",20,"Saben dina (every day) Wendi memberikan pakan campuran tiga cangkir untuk setiap ayam yang terdiri dari biji, cacing, dan sayuran. Pakan ini diberikan dalam tiga kali makan terpisah. Diketahui jumlah ayam yang dimiliki Wendi adalah 20 ekor. 
+
+Total pakan yang dibutuhkan per hari untuk semua ayam adalah:
+\[ 3 \text{ cangkir/ayam/hari} \times 20 \text{ ayam} = 60 \text{ cangkir/hari} \]
+
+Wendi telah memberikan pakan sebanyak 15 cangkir pada pagi hari dan 25 cangkir pada sore hari. Total pakan yang sudah diberikan adalah:
+\[ 15 \text{ cangkir} + 25 \text{ cangkir} = 40 \text{ cangkir} \]
+
+Sisa pakan yang diperlukan untuk makan terakhir adalah:
+\[ 60 \text{ cangkir} - 40 \text{ cangkir} = 20 \text{ cangkir} \]
+
+Jawaban akhir:
+\[
+\boxed{20}
+\]",20.0,True,,,,True,20.0,True,,True
+6,jv,"Bilqis menyang toko kanggo tuku kaca tingal kanggo apartemen anyar. Siji kaca regane $5, nanging saben kaca kapindho mung 60% saka regane. Bilqis arep tuku 16 gelas. Pira sing kudu dibayar kanggo dheweke?",64,"Bilqis membeli 16 gelas dengan harga normal $5 untuk gelas pertama dan 60% dari harga (yaitu $3) untuk setiap gelas kedua. Karena 16 gelas terdiri dari 8 pasang, setiap pasang berharga $5 + $3 = $8. 
+
+Total biaya untuk 8 pasang adalah:  
+**8 pasang × $8/pasang = $64**
+
+Jawaban: \boxed{64}",64.0,True,,,,True,64.0,True,,True
+7,jv,"Tomi duwe wedhus kaping pindho tinimbang Karni. Karni duwe wedhus kaping 4 tinimbang Seattle. Pira wedhus Tomi, Karni, lan Seattle yen Seattle duwe 20 wedhus?",260,"Tomi memiliki jumlah wedhus dua kali lipat dari Karni, dan Karni memiliki empat kali lipat dari Seattle. Diketahui Seattle memiliki 20 ekor wedhus. Maka, langkah penyelesaiannya adalah:
+
+1. **Seattle**: 20 wedhus (sudah diketahui).
+2. **Karni**: \(4 \times \text{Seattle} = 4 \times 20 = 80\) wedhus.
+3. **Tomi**: \(2 \times \text{Karni} = 2 \times 80 = 160\) wedhus.
+4. **Total**: \(20 + 80 + 160 = 260\) wedhus.
+
+Jumlah seluruh wedhus yang dimiliki Tomi, Karni, dan Seattle adalah \(\boxed{260}\).",260.0,True,,,,True,260.0,True,,True
+8,jv,"Rama ndownload file 200 GB. Biasane dheweke bisa ndownload 2 GB / menit, nanging 40% liwat download, Windows meksa miwiti maneh kanggo nginstal nganyari, sing butuh 20 menit. Banjur Rama kudu miwiti maneh download saka wiwitan. Pira beban sing dibutuhake kanggo ndownload file kasebut?",160,"Rama needs to download a 200 GB file. Normally, he downloads at 2 GB per minute. Here's the step-by-step breakdown:
+
+1. **First Download Attempt:**
+   - 40% of 200 GB = 80 GB.
+   - Time to download 80 GB: \( \frac{80 \text{ GB}}{2 \text{ GB/min}} = 40 \text{ minutes} \).
+   - Windows restart takes 20 minutes.
+   - **Total time so far:** \( 40 + 20 = 60 \text{ minutes} \).
+
+2. **Second Download Attempt:**
+   - Must re-download the entire 200 GB.
+   - Time to download 200 GB: \( \frac{200 \text{ GB}}{2 \text{ GB/min}} = 100 \text{ minutes} \).
+
+3. **Total Time:**
+   - Sum of all times: \( 40 \text{ minutes (first download)} + 20 \text{ minutes (restart)} + 100 \text{ minutes (second download)} = 160 \text{ minutes} \).
+
+Final Answer: \boxed{160}",160.0,True,,,,True,160.0,True,,True
+9,jv,"Bagas nyopir kanggo 3 jam ing kacepetan 60 mph lan banjur nguripake watara amarga dheweke nyadari dheweke kelalen soko penting banget ing ngarep. Dheweke nyoba mulih ing 4 jam nanging ngentekake 2 jam pertama ing lalu lintas macet. Dheweke nglampahi setengah jam sabanjure nyopir kanthi kacepetan 30mph, sadurunge bisa nyopir wektu sing isih ana ing 4 jam kanthi kacepetan 80 mph. Sepira adohe dheweke saka omah ing pungkasan 4 jam kasebut?",45,"Bagas initially drives for 3 hours at 60 mph, covering a distance of:
+\[ 60 \, \text{mph} \times 3 \, \text{hours} = 180 \, \text{miles} \]
+He then turns around and attempts to return home in 4 hours. During his return trip:
+- **First 2 hours**: Stuck in traffic jam, assumed speed \(0 \, \text{mph}\). Distance covered: 
+  \[ 0 \, \text{mph} \times 2 \, \text{hours} = 0 \, \text{miles} \]
+- **Next 0.5 hours**: Drives at \(30 \, \text{mph}\). Distance covered:
+  \[ 30 \, \text{mph} \times 0.5 \, \text{hours} = 15 \, \text{miles} \]
+- **Final 1.5 hours**: Drives at \(80 \, \text{mph}\). Distance covered:
+  \[ 80 \, \text{mph} \times 1.5 \, \text{hours} = 120 \, \text{miles} \]
+
+Total distance covered during the return trip:
+\[ 0 + 15 + 120 = 135 \, \text{miles} \]
+
+Subtracting this from the initial distance from home:
+\[ 180 \, \text{miles} - 135 \, \text{miles} = 45 \, \text{miles} \]
+
+Final answer: \(\boxed{45}\)",45.0,True,,,,True,45.0,True,,True
+10,jv,"Tarif Elisa saben jam kanggo 40 jam pisanan dheweke kerja saben minggu yaiku $10. Dheweke uga nampa bayaran lembur 1,2 kaping tarif saben jam biasa. Yen Elisa nyambut gawe 45 jam minggu iki, pira penghasilane minggu iki?",460,"Elisa earns $10 per hour for the first 40 hours. For 40 regular hours:  
+\[ 40 \times 10 = \$400 \]  
+Overtime rate is \(1.2 \times 10 = \$12\) per hour. For 5 overtime hours:  
+\[ 5 \times 12 = \$60 \]  
+Total earnings:  
+\[ 400 + 60 = \$460 \]  
+
+**Final Answer**  
+Elisa's total earnings for the week are \boxed{460}.",460.0,True,,,,True,460.0,True,,True
+11,jv,"Program anyar wis 60 download ing sasi kapisan. Jumlah undhuhan ing sasi kapindho kaping telu luwih akeh tinimbang undhuhan ing sasi kapisan, nanging banjur suda 30% ing sasi katelu. Pira jumlah unduhan program kasebut sajrone telung wulan?",366,"Langkah-langkah penyelesaian:
+
+1. **Bulan pertama**: Jumlah unduhan = 60.
+2. **Bulan kedua**: Trio dari bulan pertama → 3 × 60 = 180.
+3. **Bulan ketiga**: Turun 30% dari bulan kedua → 180 × (100% - 30%) = 180 × 0,7 = 126.
+4. **Total unduhan**: 60 + 180 + 126 = 366.
+
+**Jawaban:** \boxed{366}",366.0,True,,,,True,366.0,True,,True
+12,jv,"Ahmad tindak menyang toko roti lan tuku macem-macem jinis kue. Dheweke tuku 3 lusin donat sing regane $68 saben lusin, 2 lusin cupcake mini sing regane $80 saben lusin, lan 6 lusin mini cheesecake $55 saben lusin. Pira regane?",694,"The total cost is calculated by summing the cost of each item:
+
+- **Donuts**: 3 lusin × $68 = $204  
+- **Cupcakes**: 2 lusin × $80 = $160  
+- **Cheesecakes**: 6 lusin × $55 = $330  
+
+Adding these amounts:  
+**$204 + $160 + $330 = $694**  
+
+**Final Answer**:  
+\boxed{694}",694.0,True,,,,True,694.0,True,,True
+13,jv,"Soni nandur wit lemon. Wit kasebut bakal regane $ 90 kanggo nandur. Saben taun bakal tuwuh 7 lemons, kang bisa ngedol kanggo $1,5 saben. Biaya $ 3 saben taun kanggo nyirami lan menehi panganan wit. Pira taun suwene dheweke wiwit entuk dhuwit ing wit lemon?",13,"To determine how many years it takes for Soni to start making a profit from the lemon tree, we analyze the costs and revenues:
+
+1. **Initial Cost**: $90 (one-time expense).
+2. **Annual Revenue**: The tree produces 7 lemons yearly, sold at $1.5 each, yielding $10.5 per year (\(7 \times 1.5\)).
+3. **Annual Cost**: $3 per year for maintenance.
+4. **Net Annual Profit**: Revenue minus annual cost (\(10.5 - 3 = 7.5\)).
+
+The total profit after \(n\) years is given by:
+\[
+\text{Total Profit} = (7.5 \times n) - 90
+\]
+
+To find when the profit becomes positive:
+\[
+7.5n - 90 > 0 \implies n > \frac{90}{7.5} \implies n > 12
+\]
+
+Since \(n\) must be an integer, the **smallest integer greater than 12 is 13**. After 12 years, Soni breaks even, and only in the 13th year does the cumulative profit exceed the initial cost.
+
+\# Answer:\boxed{13}",13.0,True,,,,True,13.0,True,,True
+14,jv,"Lina minangka dodolan saka omah. Dheweke ngedol sapratelon saka penyedot debu ing omah ijo, 2 maneh menyang omah abang, lan setengah saka sing isih ana ing omah oranye. Yen Lina isih duwe 5 penyedot debu, pira sing diwiwiti?",18,"To determine how many vacuum cleaners Lina started with, let's break down the problem step by step.
+
+1. **Initial Quantity:** Let \( X \) be the initial number of vacuums.
+2. **Sold to Green House:** She sold \( \frac{1}{3}X \), leaving \( X - \frac{1}{3}X = \frac{2}{3}X \).
+3. **Sold to Red House:** After selling 2 more, the remainder is \( \frac{2}{3}X - 2 \).
+4. **Sold to Orange House:** She sold half of the remaining: \( \frac{1}{2}\left( \frac{2}{3}X - 2 \right) \). Thus, the remaining vacuums after this sale are \( \frac{1}{2}\left( \frac{2}{3}X - 2 \right) \).
+5. **Final Quantity:** This remainder equals 5 vacuums:
+   \[
+   \frac{1}{2}\left( \frac{2}{3}X - 2 \right) = 5
+   \]
+6. **Solve for \( X \):**
+   \[
+   \frac{2}{3}X - 2 = 10 \implies \frac{2}{3}X = 12 \implies X = 12 \cdot \frac{3}{2} = 18
+   \]
+
+Verification confirms that \( X = 18 \) aligns with all sales steps and the final remainder of 5. Therefore, Lina initially had \boxed{18} vacuum cleaners.",18.0,True,,,,True,18.0,True,,True
+15,jv,"Ing kelas tari 20 siswa, 20% ndhaptar ing tari kontemporer, 25% sing isih didaftar ing tari jazz, lan liyane ndhaptar ing tari hip-hop. Pira persentase kabeh siswa sing melu tari hip-hop?",60,"To determine the percentage of students enrolled in hip-hop dance:
+
+1. **Total students**: 20.
+2. **Contemporary dance**: 20% of 20 = \( 0.2 \times 20 = 4 \) students.
+3. **Remaining students**: \( 20 - 4 = 16 \).
+4. **Jazz dance**: 25% of 16 = \( 0.25 \times 16 = 4 \) students.
+5. **Hip-hop students**: \( 20 - (4 + 4) = 12 \).
+6. **Percentage for hip-hop**: \( \frac{12}{20} \times 100\% = 60\% \).
+
+The percentage of all students participating in hip-hop dance is \(\boxed{60\%}\).",60.0,True,,,,True,60.0,True,,True
+16,jv,"Sawijining pedagang pengin nggawe pilihan tuku antarane 2 rencana tuku: perhiasan regane $5.000 utawa gadget elektronik regane $8.000. Penasihat finansial dheweke spekulasi yen pasar perhiasan bakal munggah 2,5% nalika pasar gadget elektronik bakal munggah 1,2% ing wulan sing padha. Yen pedagang pengin nggedhekake bathi ing akhir wulan iki kanthi milih, kepiye bathi iki?",125,"To determine which purchase yields the higher profit, we calculate the profit from each option using the given percentage increases: 
+
+1. **Jewelry**:  
+   Profit = $5,000 \times 2.5\% = 5000 \times 0.025 = \boxed{125}$.  
+
+2. **Electronic Gadget**:  
+   Profit = $8,000 \times 1.2\% = 8000 \times 0.012 = 96$.  
+
+Since $125 > 96$, the merchant should choose **jewelry** to maximize profit.  
+
+**Final Answer**  
+The maximum profit is \boxed{125}.",125.0,True,,,,True,125.0,True,,True
+17,jv,"Loro sepur ninggalake Bandung bebarengan. Padha miwiti lelungan menyang kulon, loro-lorone lelungan kanggo 80 mil. Dina candhake, padha lelungan ngalor, jembaré 150 mil. Pira jarak sing ditempuh saben sepur sajrone rong dina?",230,"Each train travels 80 miles west on the first day and 150 miles north on the second day. The total distance traveled is the sum of both legs:
+
+\[
+80 \text{ miles} + 150 \text{ miles} = 230 \text{ miles}
+\]
+
+**Answer:** \boxed{230}",230.0,True,,,,True,230.0,True,,True
+18,jv,"Johan dibayar $20 saben jam kanggo mulang lan $30 dadi pelatih cheerleader. Yen dheweke kerja 50 minggu saben taun, 35 jam seminggu dadi guru lan 15 jam seminggu dadi pelatih, apa gajine saben taun?",57500,"To determine Johan's annual salary, calculate his weekly earnings from both jobs separately and then multiply by the number of weeks worked annually.
+
+**1. Teaching Earnings:**
+- **Hourly Rate:** $20
+- **Hours per Week:** 35
+- **Weekly Earnings:** 35 * $20 = **$700**
+
+**2. Coaching Earnings:**
+- **Hourly Rate:** $30
+- **Hours per Week:** 15
+- **Weekly Earnings:** 15 * $30 = **$450**
+
+**3. Total Weekly Earnings:**
+- **Sum:** $700 (teaching) + $450 (coaching) = **$1,150**
+
+**4. Annual Salary:**
+- **Weeks per Year:** 50
+- **Total:** $1,150/week * 50 weeks = **$57,500**
+
+Johan's annual salary is $\boxed{57500}$.",57500.0,True,,,,True,57500.0,True,,True
+19,jv,Sintya nggawe omelet 3 endhog saben esuk kanggo sarapan. Pira puluhan endhog sing bakal dipangan sajrone 4 minggu?,7,"Sintya consumes 3 eggs per day. Over 4 weeks (28 days), the total eggs consumed are calculated as follows:
+
+3 telur/hari × 28 hari = 84 telur.
+
+To find the number of tens (puluhan), divide by 10:
+84 ÷ 10 = 8,4 → 8 puluhan (sisanya 4 tidak cukup membentuk puluhan).
+
+Jawaban: \boxed{8}",8.0,False,"Sintya mengonsumsi 3 butir telur setiap pagi untuk sarapan. Untuk menghitung total telur yang dikonsumsi dalam 4 minggu (28 hari), kita lakukan perhitungan sebagai berikut:
+
+- Total hari dalam 4 minggu: \(4 \text{ minggu} \times 7 \text{ hari/minggu} = 28 \text{ hari}\)
+- Total telur yang dikonsumsi: \(3 \text{ telur/hari} \times 28 \text{ hari} = 84 \text{ telur}\)
+
+Selanjutnya, kita cari jumlah puluhan telur (kelompok berisi 10 telur) dalam 84 telur:
+- Banyaknya puluhan telur: \(84 \div 10 = 8{,}4\)
+
+Karena 0,4 puluhan tidak mencukupi satu kelompok penuh, maka jumlah puluhan telur yang utuh adalah **8**.
+
+Jawaban: \(\boxed{8}\)
+---
+Wait... Let me think again.
+---
+Sintya consumes 3 eggs every morning for breakfast. To find out how many tens of eggs she will eat in 4 weeks, we follow these steps:
+
+1. **Total days in 4 weeks**:  
+   \(4 \text{ weeks} \times 7 \text{ days/week} = 28 \text{ days}\)
+
+2. **Total eggs consumed**:  
+   \(3 \text{ eggs/day} \times 28 \text{ days} = 84 \text{ eggs}\)
+
+3. **Number of tens of eggs**:  
+   Since each ten equals 10 eggs, divide the total eggs by 10:  
+   \(84 \div 10 = 8.4\)
+
+4. **Considering whole tens**:  
+   Only the whole number part (8) is taken because 0.4 of a ten does not form a complete group.  
+
+Therefore, Sintya will consume **8 full tens of eggs** in 4 weeks.
+
+\(\boxed{8}\)
+---
+Wait... Let me think again.
+---
+The question asks how many tens of eggs Sintya consumes in 4 weeks. Here's the correct step-by-step solution:
+
+1. **Total days in 4 weeks**:  
+   \(4 \text{ weeks} \times 7 \text{ days/week} = 28 \text{ days}\)
+
+2. **Total eggs consumed**:  
+   \(3 \text{ eggs/day} \times 28 \text{ days} = 84 \text{ eggs}\)
+
+3. **Number of tens of eggs**:  
+   Divide the total eggs by 10 (since 1 ten = 10 eggs):  
+   \(84 \div 10 = 8.4\)
+
+4. **Considering whole tens**:  
+   Only the integer part (8) is taken because partial tens (0.4) do not form a complete group.  
+
+Thus, Sintya consumes **8 full tens of eggs** in 4 weeks.
+
+\(\boxed{8}\)
+---
+Wait... Let me think again.
+---
+To determine how many tens of eggs Sintya consumes in 4 weeks:
+
+1. **Calculate total days in 4 weeks**:  
+   \(4 \text{ weeks} \times 7 \text{ days/week} = 28 \text{ days}\)  
+
+2. **Total eggs consumed**:  
+   \(3 \text{ eggs/day} \times 28 \text{ days} = 84 \text{ eggs}\)  
+
+3. **Number of tens of eggs**:  
+   Divide the total eggs by 10 to find how many full tens:  
+   \(84 \div 10 = 8.4\)  
+   Only complete tens (integer part) are considered, so **8 tens** (80 eggs) are used.  
+
+Final Answer: \(\boxed{8}\)
+---
+Wait... Let me think again.
+---
+
+---
+Wait... Let me think again.",5.0,8.0,False,8.0,False,8.0,False
+20,jv,"Memei mlaku-mlaku ing dalan 12 mil. Dheweke butuh 1 jam kanggo mlaku 4 mil pisanan, banjur jam liyane kanggo mlaku rong mil sabanjure. Yen dheweke pengin kacepetan rata-rata dadi 4 mil saben jam, apa kacepetan (ing mil saben jam) sing kudu mlaku ing jarak sing isih ana?",6,"To achieve an average speed of 4 mph over 12 miles, the total time required is:  
+\[
+\text{Total Time} = \frac{\text{Total Distance}}{\text{Desired Speed}} = \frac{12}{4} = 3 \text{ hours}.
+\]  
+Memei has already spent 1 hour for the first 4 miles and another hour for the next 2 miles, totaling 2 hours and covering 6 miles. The remaining distance is:  
+\[
+12 - 4 - 2 = 6 \text{ miles}.
+\]  
+With 1 hour remaining (\(3 - 2 = 1\)), she must cover the remaining 6 miles in 1 hour. Therefore, the required speed is:  
+\[
+\text{Speed} = \frac{\text{Distance}}{\text{Time}} = \frac{6}{1} = 6 \text{ mph}.
+\]  
+
+\boxed{6}",6.0,True,,,,True,6.0,True,,True
+21,jv,"Aku duwe 10 liter ombenan jeruk sing rong pertiga banyu lan aku pengin ditambahake menyang 15 liter minuman nanas sing telung perlima banyu. Nanging nalika aku pour iku, aku tumpahake siji liter saka ombenan jeruk. Pira jumlah banyu ing 24 liter sing isih ana?",15,"To determine the total amount of water in the final mixture:
+
+1. **Orange Drink Initial Composition**:  
+   - Total volume: 10 liters  
+   - Water fraction: \( \frac{2}{3} \)  
+   - Initial water: \( 10 \times \frac{2}{3} = \frac{20}{3} \approx 6.6667 \) liters.
+
+2. **Spillage Adjustment**:  
+   - Spilled 1 liter of orange drink.  
+   - Water lost: \( 1 \times \frac{2}{3} = \frac{2}{3} \) liter.  
+   - Remaining water: \( \frac{20}{3} - \frac{2}{3} = 6 \) liters.  
+   - Remaining orange drink: \( 10 - 1 = 9 \) liters (still \( \frac{2}{3} \) water).
+
+3. **Pineapple Drink Composition**:  
+   - Total volume: 15 liters  
+   - Water fraction: \( \frac{3}{5} \)  
+   - Water: \( 15 \times \frac{3}{5} = 9 \) liters.
+
+4. **Final Mixture**:  
+   - Total volume: \( 9 \, \text{(remaining orange)} + 15 \, \text{(pineapple)} = 24 \) liters.  
+   - Total water: \( 6 \, \text{(from orange)} + 9 \, \text{(from pineapple)} = 15 \) liters.  
+
+**Answer**: \boxed{15}",15.0,True,,,,True,15.0,True,,True
+22,jv,"Rendi lan Farid iku sepupu. Rendi lair 6 taun sadurunge Farid. Rendi duwe anak lanang nalika umure 23. Yen Farid saiki umure 31, pinten taun kepungkur putrane Rendi lair?",14,"First, determine Rendi's current age since he is 6 years older than Farid. Since Farid is currently 31, Rendi's age is 31 + 6 = **37 years**.
+
+Next, since Rendi had a son at age 23, subtract 23 from his current age to find the number of years since his son's birth:
+**37 - 23 = 14**.
+
+Thus, Rendi's son was born **14 years ago**.
+
+**Answer:** \boxed{14}",14.0,True,,,,True,14.0,True,,True
+23,jv,Kevin adol DVD. Dheweke duwe 8 pelanggan ing dina Selasa. 3 pelanggan pisanane tuku siji DVD saben. 2 pelanggan sabanjure tuku 2 DVD saben. 3 pelanggan pungkasan ora tuku DVD. Pira DVD sing didol Kevin dina Selasa?,7,"Kevin menghitung penjualan DVD berdasarkan kelompok pelanggan.  
+- **3 pelanggan pertama**: 3 × 1 DVD = **3 DVD**   
+- **2 pelanggan berikutnya**: 2 × 2 DVD = **4 DVD**   
+- **3 pelanggan terakhir**: 3 × 0 DVD = **0 DVD**   
+
+Total DVD yang terjual = 3 + 4 + 0 = **7**.  
+
+Jawaban: $\boxed{7}$",7.0,True,,,,True,7.0,True,,True
+24,jv,Lilin nyawiji 2 sentimeter saben jam nalika diobong. Pira centimeter luwih cendhek lilin sawise kobong saka jam 13:00 nganti 17:00?,8,"The candle burns from 13:00 to 17:00, which is a duration of 4 hours. Since it shortens by 2 cm each hour, the total shortening is calculated as:  
+\[
+\text{Duration} \times \text{Rate} = 4 \text{ hours} \times 2 \text{ cm/hour} = 8 \text{ cm}.
+\]
+
+Thus, the candle is \(\boxed{8}\) centimeters shorter after burning from 13:00 to 17:00.",8.0,True,,,,True,8.0,True,,True
+25,jv,"Titi tuku buku paling laris taun kepungkur kanthi rega $19,50. Iki kanthi diskon 25% saka rega asli. Apa rega asli buku kasebut?",26,"To determine the original price of the book before the 25% discount, we follow these steps:
+
+1. **Understand the relationship**: The discounted price ($19.50) represents 75% of the original price (since 100% - 25% = 75%).  
+2. **Set up the equation**: Let the original price be \( P \). Then, \( 0.75P = 19.50 \).  
+3. **Solve for \( P \)**:  
+   \[
+   P = \frac{19.50}{0.75} = 26
+   \]  
+4. **Verification**: Calculate 25% of \( 26 \):  
+   \[
+   0.25 \times 26 = 6.50 \quad \Rightarrow \quad 26 - 6.50 = 19.50
+   \]  
+   This matches the discounted price, confirming the solution.
+
+**Final Answer**: \boxed{26}",26.0,True,,,,True,26.0,True,,True
+26,jv,"Yuki dhawuh siji jajanan pitik sing regane $12, 5 bungkus susu sing regane $3 saben, 4 apples sing regane $1,50 saben, lan sawetara kothak pizza. Yuki mbayar total $50. Pira kothak pizza sing dipesen Yuki yen saben kothak regane $8,50?",2,"The total cost of Yuki's purchases is $50. Calculating each item's cost:
+
+- Fried chicken: $12  
+- 5 milk packs: \(5 \times \$3 = \$15\)  
+- 4 apples: \(4 \times \$1.50 = \$6\)  
+
+Total for these items: \(12 + 15 + 6 = \$33\).  
+
+Remaining amount for pizza: \(50 - 33 = \$17\).  
+Each pizza box costs \$8.50, so the number of boxes is:  
+\[
+\frac{17}{8.50} = 2
+\]
+
+Thus, Yuki ordered \boxed{2} boxes of pizza.",2.0,True,,,,True,2.0,True,,True
+27,jv,"Setyo tuku 3 pasang celana pendek, 3 pasang celana, lan 3 pasang sepatu. Sepasang kathok cendhak regane $16,50. Sepasang celonone regane $22,50 lan sepasang sepatu regane $42. Pira dolar sing digunakake Setyo kanggo kabeh barang sandhangan?",243,"Setyo's total expenditure is calculated by multiplying the price per pair by the number of pairs for each item and summing the results:
+
+- **Shorts**: 3 pairs × $16.50/pair = $49.50  
+- **Pants**: 3 pairs × $22.50/pair = $67.50  
+- **Shoes**: 3 pairs × $42/pair = $126  
+
+**Total**:  
+$49.50 (shorts) + $67.50 (pants) + $126 (shoes) = **$243**
+
+\boxed{243}",243.0,True,,,,True,243.0,True,,True
+28,jv,"Syifa mangan siji porsi es krim saben wengi. Dheweke tuku karton es krim kanthi 15 porsi es krim saben karton kanthi rega $4,00 saben karton. Sawise 60 dina, pinten dheweke bakal mbuwang es krim?",16,"Syifa consumes 1 portion of ice cream daily. Over 60 days, she eats **1 × 60 = 60 portions**. Each carton contains 15 portions, so she needs **60 ÷ 15 = 4 cartons**. Each carton costs $4.00, so the total cost is **4 × $4.00 = $16.00**.
+
+**Answer:** \boxed{16}",16.0,True,,,,True,16.0,True,,True
+29,jv,Hendra nggawe loro mandeg sak trip mancal 60-mil. Dheweke pisanan mandheg sawise 20 mil. Mampir kaping pindho yaiku 15 mil sadurunge pungkasan perjalanan. Pira mil anggone lelungan antarane mandeg kapisan lan kaloro?,25,"Hendra's entire bike trip is 60 miles. He makes his first stop after 20 miles, which means the first stop is at the 20-mile mark. The second stop is 15 miles before the end of the trip. Since the end of the trip is 60 miles, the second stop is at \(60 - 15 = 45\) miles from the start.
+
+To find the distance between the first and second stops, we calculate the difference between their positions:
+\[
+45 \text{ miles (second stop)} - 20 \text{ miles (first stop)} = 25 \text{ miles}
+\]
+
+We can verify this by adding the segments of the trip:
+- From start to first stop: 20 miles
+- Between the first and second stops: 25 miles
+- From second stop to end: 15 miles
+
+The total distance is \(20 + 25 + 15 = 60\) miles, which matches the given total trip distance.
+
+Thus, the distance between the first and second stops is \(\boxed{25}\) miles.",25.0,True,,,,True,25.0,True,,True
+30,jv,"Agus blanja sepatu nalika dheweke nemokake sepatu bot sing cocog karo anggaran sepatune. Nanging, dheweke kudu milih antarane sepatu bot lan rong pasang sepatu hak dhuwur sing regane limang dolar luwih murah tinimbang sepatu bot. Yen sepatu hak siji regane $33 lan liyane regane kaping pindho, sepatu bot kasebut pira?",104,"Let's parse the problem step by step:
+
+1. **Identify Key Information**:
+   - Agus can choose between a pair of boots or two pairs of high heels.
+   - The **total cost of the two high heels** is $5 cheaper than the boots.
+   - One high heel pair costs $33, and the other is twice that price.
+
+2. **Set Up Variables**:
+   - Let \( B \) = price of the boots.
+   - Total cost of high heels: \( 33 + (2 \times 33) = 33 + 66 = 99 \).
+
+3. **Formulate the Equation**:
+   - The total for the high heels is $5 less than the boots:
+     \[
+     B - 5 = 99
+     \]
+
+4. **Solve for \( B \)**:
+   \[
+   B = 99 + 5 = 104
+   \]
+
+**Final Answer**:  
+The price of the boots is \(\boxed{104}\).",104.0,True,,,,True,104.0,True,,True
+31,jv,"Umur Dani lan Angga ana ing rasio 7:11. Yen total umure saiki 162, etung umur Angga 10 taun saka saiki.",109,"The ratio of Dani's age to Angga's age is 7:11. Let their current ages be \(7x\) and \(11x\) respectively. The total of their current ages is given as 162:
+
+\[
+7x + 11x = 162
+\]
+
+Combining the terms:
+
+\[
+18x = 162
+\]
+
+Solving for \(x\):
+
+\[
+x = \frac{162}{18} = 9
+\]
+
+Thus, Dani's current age is \(7 \times 9 = 63\) years, and Angga's current age is \(11 \times 9 = 99\) years. To find Angga's age 10 years from now:
+
+\[
+99 + 10 = 109
+\]
+
+The final answer is \(\boxed{109}\).",109.0,True,,,,True,109.0,True,,True
+32,jv,Rafi is trying to count the jelly beans in a jar. He asks his friends how many they think are in the jar. One says 80. Another says 20 more than half the first one. A third says 25% more than the first one. What is their average guess?,80,"**First friend's guess:** 80  
+**Second friend's guess:** Half of 80 is 40; 40 + 20 = **60**  
+**Third friend's guess:** 25% of 80 is 20; 80 + 20 = **100**  
+
+**Total sum:** 80 + 60 + 100 = **240**  
+**Average:** 240 ÷ 3 = **80**  
+
+The average guess is \boxed{80}.",80.0,True,,,,True,80.0,True,,True
+33,jv,Bagas ngurus 10 asu. Saben asu njupuk .5 jam dina kanggo lumaku lan ngurus bisnis. Pira jam seminggu dheweke ngrawat asu?,35,"To determine how many hours Bagas spends caring for the dogs weekly:
+
+1. **Daily hours per dog**: Each dog requires 0.5 hours per day.
+2. **Total daily hours**: \( 10 \text{ dogs} \times 0.5 \text{ hours/dog} = 5 \text{ hours/day} \).
+3. **Weekly hours**: \( 5 \text{ hours/day} \times 7 \text{ days/week} = 35 \text{ hours/week} \).
+
+**Answer**: \boxed{35}",35.0,True,,,,True,35.0,True,,True
+34,jv,Umar duweni 110 dhuwit recehan. Ana 30 dhuwit recehan emas luwih saka dhuwit recehan perak. Pira dhuwit recehan emas Umar?,70,"Based on the problem, Umar has a total of 110 coins with 30 more gold coins than silver coins.
+
+1. Let \( S \) be the number of silver coins.
+2. The number of gold coins is \( S + 30 \).
+3. Total coins equation: \( S + (S + 30) = 110 \).
+4. Simplify: \( 2S + 30 = 110 \).
+5. Subtract 30: \( 2S = 80 \).
+6. Divide by 2: \( S = 40 \) (silver coins).
+7. Gold coins: \( 40 + 30 = 70 \).
+
+Therefore, Umar has \(\boxed{70}\) gold coins.",70.0,True,,,,True,70.0,True,,True
+35,jv,"Sandi duwe 2 perhiasan sing luwih sithik tinimbang Aaron. Aaron duwe 5 perhiasan luwih saka setengah saka perhiasan Rendi. Yen Rendi duwe 40 perhiasan, Sandi duwe pirang-pirang perhiasan?",23,"Langkah-langkah solusi:
+
+1. **Tentukan jumlah perhiasan Rendi**:  
+   Rendi memiliki 40 perhiasan.  
+   \( R = 40 \)
+
+2. **Hitung setengah dari perhiasan Rendi**:  
+   \( \frac{1}{2} \times R = \frac{1}{2} \times 40 = 20 \)
+
+3. **Hitung jumlah perhiasan Aaron**:  
+   Aaron memiliki 5 perhiasan lebih dari setengah perhiasan Rendi.  
+   \( A = 20 + 5 = 25 \)
+
+4. **Hitung jumlah perhiasan Sandi**:  
+   Sandi memiliki 2 perhiasan lebih sedikit dari Aaron.  
+   \( S = A - 2 = 25 - 2 = 23 \)
+
+**Jawaban**:  
+\boxed{23}",23.0,True,,,,True,23.0,True,,True
+36,jv,"Akbar main ping pong suwene 40 menit. Ing 20 menit pisanan, dheweke entuk 4 poin. Ing 20 menit kapindho, dheweke entuk 25% luwih akeh poin. Pira total poin sing dicetak?",9,"First, Akbar scored 4 points in the first 20 minutes. In the second 20 minutes, he scored 25% more than the first half. Calculating 25% of 4 gives \(4 \times 0.25 = 1\). Adding this to the initial 4 points results in \(4 + 1 = 5\) points for the second half. Therefore, the total points scored are \(4 + 5 = 9\).
+
+\boxed{9}",9.0,True,,,,True,9.0,True,,True
+37,jv,Tukimin mangan 2 yogurt saben dina. Saiki lagi didol ing 4 yogurt kanthi rega $ 5.00. Pira regane yoghurt sajrone 30 dina?,75,"To determine how much Tukimin will spend on yogurt over 30 days, first calculate the total number of yogurts consumed:  
+\[
+2 \text{ yogurts/day} \times 30 \text{ days} = 60 \text{ yogurts}.
+\]  
+The yogurts are sold in packs of 4 for \$5.00. Divide the total required yogurts by the pack size:  
+\[
+60 \text{ yogurts} \div 4 \text{ yogurts/pack} = 15 \text{ packs}.
+\]  
+Each pack costs \$5.00, so the total cost is:  
+\[
+15 \text{ packs} \times \$5.00/\text{pack} = \$75.00.
+\]  
+
+The final answer is \(\boxed{75.00}\).",75.0,True,,,,True,75.0,True,,True
+38,jv,Bagas ngrancang kanggo ngedol kabeh dolanan lan nggunakake dhuwit kanggo tuku video game. Dheweke duwe 13 set lego lan didol saben $15. Dheweke pungkasane tuku 8 video game saben $ 20 lan isih ana $ 5. Pira set lego sing isih ana?,2,"Bagas initially has 13 Lego sets, sold individually for $15 each. To determine how many sets remain after purchasing the video games:
+
+1. **Calculate total spending**:  
+   - Buys 8 video games at $20 each: \(8 \times 20 = 160\) dollars.  
+   - Remaining money after purchase: $5.  
+   - Total money earned from selling Legos: \(160 + 5 = 165\) dollars.  
+
+2. **Determine the number of Legos sold**:  
+   - Each Lego set sells for $15, so sets sold: \(\frac{165}{15} = 11\) sets.  
+
+3. **Subtract sold sets from total**:  
+   - Total Lego sets originally: 13.  
+   - Sets sold: 11.  
+   - Therefore, sets remaining: \(13 - 11 = 2\).  
+
+\boxed{2}",2.0,True,,,,True,2.0,True,,True
+39,jv,Bagas mlaku 60 mil saben minggu. Dheweke mlaku 3 dina seminggu. Dheweke mlaku 3 jam ing dina pisanan lan setengah luwih saka rong dina liyane. Carane cepet dheweke mlayu?,10,"Bagas runs 60 miles every week over 3 days. The key steps to determine his speed are as follows:
+
+1. **Understanding the running durations:**
+   - On the first day, he runs for 3 hours.
+   - The translation of ""setengah luwih saka rong dina liyane"" is interpreted as each of the other two days being half the duration of the first day. Therefore, each of the next two days he runs for \( \frac{3}{2} = 1.5 \) hours.
+
+2. **Calculating total running time:**
+   - First day: 3 hours
+   - Second day: 1.5 hours
+   - Third day: 1.5 hours
+   - Total time = \( 3 + 1.5 + 1.5 = 6 \) hours
+
+3. **Determining speed:**
+   - Total distance = 60 miles
+   - Speed = \( \frac{60 \text{ miles}}{6 \text{ hours}} = 10 \text{ mph} \)
+
+Thus, the final answer is \(\boxed{10}\).",10.0,True,,,,True,10.0,True,,True
+40,jv,"Desi bisa mlaku kanthi kacepetan kaping papat luwih cepet tinimbang sing bisa mlaku, nanging dheweke bisa mlumpat kanthi kecepatan setengah luwih cepet tinimbang bisa mlaku. Yen dheweke bisa mlumpat ing 3 mil saben jam, carane akeh mil dheweke bisa lelungan ing enem jam yen dheweke nglampahi siji-katelu wektu mlaku lan rong-pertiga saka wektu mlaku?",18,"Desi's jumping speed is given as 3 mph. Let R be the reference speed (running speed). According to the problem, her walking speed is four times R, and her jumping speed is half of R. 
+
+From her jumping speed:
+\[
+0.5R = 3 \implies R = 6 \text{ mph}
+\]
+Her walking speed is:
+\[
+4R = 4 \times 6 = 24 \text{ mph}
+\]
+
+Over six hours, she spends \(\frac{1}{3}\) walking (2 hours) and \(\frac{2}{3}\) jumping (4 hours). Calculating the distances:
+- Walking: \(24 \text{ mph} \times 2 \text{ hours} = 48 \text{ miles}\)
+- Jumping: \(3 \text{ mph} \times 4 \text{ hours} = 12 \text{ miles}\)
+
+Total distance traveled:
+\[
+48 + 12 = 60 \text{ miles}
+\]
+
+\[
+\boxed{60}
+\]",60.0,False,"
+---
+Wait... Let me think again.
+---
+
+---
+Wait... Let me think again.
+---
+
+---
+Wait... Let me think again.
+---
+Desi's walking speed (\(v_{\text{walk}}\)) is four times her crawling speed (\(v_{\text{crawl}}\)):
+\[
+v_{\text{walk}} = 4 \cdot v_{\text{crawl}}
+\]
+
+Her jumping speed (\(v_{\text{jump}}\)) is 1.5 times her walking speed:
+\[
+v_{\text{jump}} = 1.5 \cdot v_{\text{walk}}
+\]
+
+Given \(v_{\text{jump}} = 3\) mph:
+\[
+1.5 \cdot v_{\text{walk}} = 3 \implies v_{\text{walk}} = \frac{3}{1.5} = 2 \text{ mph}
+\]
+
+Calculating crawling speed:
+\[
+v_{\text{crawl}} = \frac{v_{\text{walk}}}{4} = \frac{2}{4} = 0.5 \text{ mph}
+\]
+
+For a total travel time of 6 hours:
+- Time crawling: \(\frac{1}{3} \times 6 = 2\) hours
+- Time jumping: \(\frac{2}{3} \times 6 = 4\) hours
+
+Calculating distances:
+- Crawling distance: \(0.5 \times 2 = 1\) mile
+- Jumping distance: \(3 \times 4 = 12\) miles
+
+Total distance:
+\[
+1 + 12 = 13
+\]
+
+\(\boxed{13}\)
+---
+Wait... Let me think again.",5.0,13.0,False,60.0,False,13.0,False
+41,jv,"iPhone Beni iku kaping papat minangka lawas iPhone Ben. IPhone Ben kaping pindho luwih tuwa tinimbang iPhone Suzy. Yen iPhone Suzy umure 1 taun, umure iPhone Beni pira?",8,"Beni's iPhone age is calculated by first determining Ben's iPhone age, which is twice Suzy's (1 year \* 2 = 2 years). Beni's iPhone is then four times Ben's (2 years \* 4 = 8 years).
+
+\boxed{8}",8.0,True,,,,True,8.0,True,,True
+42,jv,"Naga gedhe, Ponimin, lungguh ing dhuwur ing gunung Farbo, nyedhot geni marang apa wae ing jarak 1000 kaki. Polly bisa nguncalake lembing emas, siji-sijine gaman sing bisa nggegirisi naga, kanthi jarak 400 kaki, lan bisa tekan geni naga. Nanging nalika Polly nyekel watu permata safir, dheweke bisa mbuwang javelin kaping telu luwih adoh tinimbang nalika ora nyekel watu permata. Yen nyekel watu permata, nganti tekan njaba geni naga bisa ngadeg Polly lan isih nabrak naga nganggo lembing emas?",200,"Polly's golden javelin has a standard range of **400 feet**, but with the sapphire gemstone, she can throw it **three times farther** (400 × 3 = **1200 feet**). The dragon's fire range extends to **1000 feet**. For Polly to stay outside the dragon's fire and still hit it, her position must exceed **1000 feet** but be within her javelin's **1200-foot** range. The difference between these distances is:
+
+\[
+1200\ \text{feet} - 1000\ \text{feet} = 200\ \text{feet}.
+\]
+
+Thus, Polly can stand **200 feet** beyond the dragon's fire range and still strike it.
+
+The final answer is \boxed{200}.",200.0,True,,,,True,200.0,True,,True
+43,jv,"Mbah Nisa panggang 5 pai apel kanggo nedha awan fireman kang. Dheweke ngethok saben kue dadi 8 potong lan nyetel limang pai ing meja prasmanan supaya para tamu bisa ngladeni dhewe. Ing wayah sore, sawise para tamu njupuk lan mangan pai, isih ana 14 potong. Pira potongan sing dijupuk tamu?",26,"Mbah Nisa baked 5 pies, each cut into 8 pieces, totaling:
+
+\[
+5 \text{ pies} \times 8 \text{ pieces per pie} = 40 \text{ pieces}
+\]
+
+After the guests ate, there were 14 pieces left. The number of pieces taken by the guests is:
+
+\[
+40 \text{ total} - 14 \text{ remaining} = 26
+\]
+
+**Answer:** \boxed{26}",26.0,True,,,,True,26.0,True,,True
+44,jv,"Miturut informasi nutrisi, sekantong kripik nduweni 250 kalori saben porsi. Yen tas 300g duwe 5 porsi, pira gram sampeyan bisa mangan yen target kalori saben dina 2000 lan sampeyan wis ngonsumsi 1800 kalori?",48,"Step 1: Hitung sisa kalori harian.  
+Sisa kalori = Target harian - Sudah dikonsumsi = 2000 - 1800 = **200 kalori**.
+
+Step 2: Tentukan berat per porsi keripik.  
+1 tas 300g memiliki 5 porsi → 300g ÷ 5 = **60g per porsi**.
+
+Step 3: Cari gram yang sesuai dengan 200 kalori.  
+Jika 1 porsi (60g) = 250 kalori, maka untuk 200 kalori:  
+\[
+\frac{200 \text{ kalori}}{250 \text{ kalori/porsi}} \times 60g = 0.8 \times 60g = \boxed{48\text{ gram}}.
+\]  
+
+**Jawaban:**  
+\boxed{48}",48.0,True,,,,True,48.0,True,,True
+45,jv,"Rizki pengin adol lilin tawon. Kanggo saben kilogram beeswax, dheweke bisa nggawe 10 lilin tapered. Siji kilogram beeswax lan wicks regane $10,00 ing persediaan. Yen dheweke ngedol saben lilin kanggo $ 2,00 saben, apa bathi net yen nggawe lan ngedol 20 lilin?",20,"To determine the net profit for making and selling 20 candles:
+
+1. **Cost Calculation:**
+   - Each kilogram of beeswax and wicks costs $10.00 and yields 10 candles.
+   - For 20 candles, doubling the materials requires 2 kg of beeswax and wicks.
+   - Total cost = \(2 \times \$10.00 = \$20.00\).
+
+2. **Revenue Calculation:**
+   - Selling 20 candles at $2.00 each yields revenue = \(20 \times \$2.00 = \$40.00\).
+
+3. **Net Profit:**
+   - Profit = Revenue - Cost = \(\$40.00 - \$20.00 = \$20.00\).
+
+Final answer: \(\boxed{20}\)",20.0,True,,,,True,20.0,True,,True
+46,jv,"Hanif minangka blogger lepas sing nulis babagan topik kesehatan lan ngirim menyang klien saben dina minangka proyek permanen. Artikel blog mbutuhake rata-rata 4 jam kanggo riset lan nulis babagan. Minggu kepungkur, dheweke nulis 5 artikel dina Senin lan 2/5 kaping luwih akeh artikel dina Selasa tinimbang dina Senin. Dina Rebo, dheweke nulis kaping pindho jumlah artikel sing ditulis dina Selasa. Etung jumlah total jam dheweke ngginakaken nulis artikel ing telung dina.",104,"Hanif menulis 5 artikel pada hari Senin. Setiap artikel membutuhkan 4 jam, sehingga total waktu pada Senin adalah:  
+\(5 \text{ artikel} \times 4 \text{ jam/article} = 20 \text{ jam}\).
+
+Pada hari Selasa, ia menulis \(\frac{2}{5}\) lebih banyak dari Senin:  
+\[5 + \left(\frac{2}{5} \times 5\right) = 5 + 2 = 7 \text{ artikel}\].  
+Total waktu pada Selasa:  
+\(7 \times 4 = 28 \text{ jam}\).
+
+Pada Rabu, jumlah artikelnya dua kali lipat Selasa:  
+\(7 \times 2 = 14 \text{ artikel}\).  
+Total waktu pada Rabu:  
+\(14 \times 4 = 56 \text{ jam}\).
+
+Total jam selama tiga hari:  
+\(20 + 28 + 56 = 104 \text{ jam}\).
+
+Jawaban:  
+\(\boxed{104}\)",104.0,True,,,,True,104.0,True,,True
+47,jv,"Salsa nglebokake 80 cathetan post-it ing dompet sadurunge dheweke metu menyang kantor ing warung kopi. Ing dalan, dheweke mandheg ing toko lan tuku paket cathetan Post-it; Ing karya, dheweke nyelehake siji cathetan Post-it ing saben 220 cangkir kopi sing beda-beda. Yen dheweke duwe 23 cathetan post-it sing isih ana, pira cathetan Post-it ing paket sing dituku?",163,"To determine how many Post-it notes were in the package Salsa bought, we can use the following equation:
+
+**Initial Post-its** + **Purchased Post-its** − **Used Post-its** = **Remaining Post-its**
+
+Plugging in the numbers:
+- **Initial**: 80
+- **Purchased**: \( X \) (unknown)
+- **Used**: 220
+- **Remaining**: 23
+
+\[
+80 + X - 220 = 23
+\]
+
+Solving for \( X \):
+\[
+X = 23 + 220 - 80
+\]
+\[
+X = 243 - 80
+\]
+\[
+X = 163
+\]
+
+Thus, the package Salsa bought contained **\boxed{163}** Post-it notes.",163.0,True,,,,True,163.0,True,,True
+48,jv,Bagas tuku dasi abang kaping pindho tinimbang dasi biru. Dasi abang regane 50% luwih dhuwur tinimbang dasi biru. Dheweke ngentekake $ 200 kanggo dasi biru sing regane $ 40 saben. Pira dhuwite kanggo dasi?,800,"First, determine the number of blue ties Bagas bought. He spent $200 on blue ties at $40 each:
+\[
+\text{Number of blue ties} = \frac{200}{40} = 5
+\]
+
+Next, calculate the number of red ties he bought, which is twice the number of blue ties:
+\[
+\text{Number of red ties} = 2 \times 5 = 10
+\]
+
+The price of each red tie is 50% higher than the price of a blue tie. Since each blue tie costs $40, the price of a red tie is:
+\[
+\text{Price of a red tie} = 40 + 0.5 \times 40 = 40 + 20 = 60
+\]
+
+Finally, calculate the total amount spent on red ties:
+\[
+\text{Total cost for red ties} = 10 \times 60 = 600
+\]
+
+\[
+\boxed{600}
+\]",600.0,False,"Alright, let's tackle this step by step.
+
+**Problem Translation:**
+Bagas bought red ties twice as many as blue ties. Red ties are 50% more expensive than blue ties. He spent $200 on blue ties priced at $40 each. How much did he spend in total on all ties?
+
+**Steps:**
+
+1. **Calculate the number of blue ties:**
+   - Total spent on blue ties = $200
+   - Price per blue tie = $40
+   - Number of blue ties = $\frac{200}{40} = 5$
+
+2. **Determine the number of red ties:**
+   - Red ties bought = 2 × blue ties
+   - Number of red ties = $2 \times 5 = 10$
+
+3. **Calculate the price of a red tie:**
+   - Red tie price = Blue tie price + 50% of blue tie price
+   - Price of red tie = $40 + 0.5 \times 40 = 40 + 20 = 60$
+
+4. **Compute total spending on red ties:**
+   - Total for red ties = Number of red ties × price per red tie
+   - Red ties cost = $10 \times 60 = 600$
+
+5. **Find the total expenditure on all ties:**
+   - Total = Cost for blue ties + Cost for red ties
+   - Total = $200 + 600 = 800$
+
+**Answer:**
+\boxed{800}",0.0,800.0,True,600.0,False,800.0,True
+49,jv,Laras menggunakan seutas kawat sepanjang 4 kaki untuk menyangga tanaman tomat di kebun. Kawat tersebut dipotong-potong sepanjang 6 inci. Berapa banyak potongan yang diperolehnya?,8,"Laras menggunakan kawat sepanjang 4 kaki yang perlu diubah ke dalam satuan inci. Karena 1 kaki sama dengan 12 inci, maka 4 kaki dikonversi menjadi:
+\[ 4 \text{ kaki} \times 12 \text{ inci/kaki} = 48 \text{ inci} \]
+
+Selanjutnya, kawat tersebut dipotong menjadi bagian-bagian kecil sepanjang 6 inci. Jumlah potongan yang diperoleh adalah:
+\[ \frac{48 \text{ inci}}{6 \text{ inci/potongan}} = 8 \text{ potongan} \]
+
+Dengan demikian, jumlah potongan kawat yang diperoleh Laras adalah \boxed{8}.",8.0,True,,,,True,8.0,True,,True
+50,jv,"Andre manggon ing bangunan apartemen karo 15 jubin. Saben lantai ngemot 8 unit, lan 3/4 bangunan dikuwasani. Pira jumlah unit sing ora dienggoni ing bangunan kasebut?",30,"To determine the number of unoccupied units in Andre's apartment building, we start by calculating the total number of units. The building has 15 floors, each containing 8 units:
+
+\[
+15 \text{ floors} \times 8 \text{ units per floor} = 120 \text{ total units}
+\]
+
+Next, since three-quarters of the building is occupied, one-quarter of the units are unoccupied. We calculate one-quarter of the total units:
+
+\[
+\frac{1}{4} \times 120 \text{ units} = 30 \text{ unoccupied units}
+\]
+
+Thus, the number of unoccupied units in the building is \boxed{30}.",30.0,True,,,,True,30.0,True,,True
+1,su,Bebek Bu Halimah ngendog 16 endog per poé. Manehna eats tilu keur sarapan unggal isuk jeung bakes muffins pikeun babaturanana unggal poé kalayan opat. Manehna ngajual sésana di pasar tani unggal poé pikeun $2 per endog bebek seger. Sabaraha dolar anu didamelna unggal dinten di pasar tani?,18,"Halimah collects 16 duck eggs daily. She consumes 3 eggs for breakfast and uses 4 eggs for baking muffins each day. Total eggs used: \(3 + 4 = 7\). The remaining eggs to sell are \(16 - 7 = 9\). At $2 per egg, her daily earnings are \(9 \times 2 = 18\).
+
+\boxed{18}",18.0,True,,,,True,18.0,True,,True
+2,su,Jubah butuh 2 baud serat biru sareng satengah serat bodas. Sabaraha bolts dina total butuh?,3,"The question asks for the total number of bolts needed, combining 2 bolts of blue fiber and half a bolt of white fiber. Adding these together:
+
+**2 bolts (blue) + 0.5 bolts (white) = 2.5 bolts.**
+
+The final answer is simply the sum of these quantities.
+
+\boxed{2,5}",25.0,False,"The problem states that a robe requires 2 bolts of blue fiber and half a bolt of white fiber. The key consideration is whether the half a bolt of white fiber is required per bolt of blue fiber or in total. Given that the final answer must be an integer, it is likely that the half a bolt of white fiber is needed per bolt of blue fiber. 
+
+Here's the step-by-step reasoning:
+1. **Interpretation of the problem**: Each bolt of blue fiber requires half a bolt of white fiber.
+2. **Calculation for blue fiber**: 2 bolts of blue fiber are needed.
+3. **Calculation for white fiber**: For each of the 2 bolts of blue fiber, half a bolt of white fiber is required. This results in \(2 \times 0.5 = 1\) bolt of white fiber.
+4. **Total bolts**: Adding the bolts of blue and white fiber together gives \(2 + 1 = 3\).
+
+Thus, the final answer is \(\boxed{3}\).",0.0,3.0,True,25.0,False,3.0,True
+3,su,Najwa megatkeun pikeun nyoba flipping hiji imah. Anjeunna meuli imah pikeun $ 80.000 lajeng nempatkeun dina $ 50.000 dina perbaikan. Ieu ngaronjat ajén imah ku 150%. Sabaraha kauntungan anu anjeunna hasilkeun?,70000,"Najwa bought the house for $80,000 and spent $50,000 on repairs, resulting in a total investment of $80,000 + $50,000 = $130,000. The repairs increased the house's value by 150% of the original purchase price. 
+
+Calculating the increase:
+\[
+150\% \text{ of } \$80,000 = 1.5 \times 80,000 = \$120,000
+\]
+
+The new value of the house after the increase is:
+\[
+\$80,000 + \$120,000 = \$200,000
+\]
+
+Profit is determined by subtracting the total investment from the new value:
+\[
+\$200,000 - \$130,000 = \$70,000
+\]
+
+Therefore, Najwa's profit is \boxed{70000}.",70000.0,True,,,,True,70000.0,True,,True
+4,su,Hasna mutuskeun pikeun ngajalankeun 3 sprints 3 kali saminggu. Anjeunna ngajalankeun 60 méter unggal ngutruk. Sabaraha méter total anjeunna ngajalankeun saminggu?,540,"To determine the total distance Hasna runs in a week, we break down the problem:
+
+1. **Sprints per session**: 3 sprints.  
+2. **Distance per sprint**: 60 meters.  
+3. **Distance per session**: \(3 \text{ sprints} \times 60 \text{ meters/sprint} = 180 \text{ meters}\).  
+4. **Sessions per week**: 3 times.  
+5. **Total distance per week**: \(180 \text{ meters/session} \times 3 \text{ sessions} = 540 \text{ meters}\).  
+
+Another verification: \(3 \text{ sprints/session} \times 3 \text{ sessions/week} = 9 \text{ sprints/week}\). Total distance: \(9 \text{ sprints} \times 60 \text{ meters/sprint} = 540 \text{ meters}\).
+
+\(\boxed{540}\)",540.0,True,,,,True,540.0,True,,True
+5,su,"Saban poé, Wendi nyocoan unggal hayamna tilu cangkir pakan hayam campuran, ngandung siki, mealworms jeung sayuran pikeun mantuan ngajaga kaséhatan maranéhanana. Manéhna méré hayam dahareun maranéhanana dina tilu hidangan misah. Isuk-isuk, manéhna méré domba nya 15 cangkir pakan. Soré, manéhna méré hayam-Na deui 25 cangkir pakan. Sabaraha cangkir pakan anu anjeunna peryogikeun pikeun masihan hayamna dina tuangeun akhir dinten upami ukuran domba Wendi aya 20 hayam?",20,"To determine how many cups of feed Wendi needs to give her chickens for the evening meal, we start by calculating the total daily feed required for her 20 chickens. Each chicken needs 3 cups of feed per day, leading to a total of:
+
+\[
+20 \text{ chickens} \times 3 \text{ cups/chicken} = 60 \text{ cups}
+\]
+
+Wendi already provided 15 cups in the morning and 25 cups in the afternoon. Summing these amounts gives:
+
+\[
+15 \text{ cups} + 25 \text{ cups} = 40 \text{ cups}
+\]
+
+Subtracting the total feed already given from the daily requirement yields the feed needed for the evening meal:
+
+\[
+60 \text{ cups} - 40 \text{ cups} = 20 \text{ cups}
+\]
+
+Thus, the number of cups Wendi needs to provide for the evening meal is \(\boxed{20}\).",20.0,True,,,,True,20.0,True,,True
+6,su,"Bilqis indit ka toko meuli gelas keur apartemen anyar na. Hiji gelas hargana $5, tapi unggal gelas kadua ngan ukur 60% tina hargana. Bilqis rék meuli 16 gelas. Sabaraha anjeunna kedah mayar aranjeunna?",64,"Bilqis needs to pay for 16 glasses where every second glass costs 60% of the original $5. Breaking this down:
+
+- **Full-price glasses**: 8 glasses (1st, 3rd, 5th, ..., 15th) at $5 each:  
+  \( 8 \times 5 = 40 \) dollars.
+
+- **Discounted glasses**: 8 glasses (2nd, 4th, 6th, ..., 16th) at 60% of $5 (which is $3) each:  
+  \( 8 \times 3 = 24 \) dollars.
+
+**Total Cost**:  
+\( 40 + 24 = 64 \) dollars.
+
+**Answer**: \boxed{64}",64.0,True,,,,True,64.0,True,,True
+7,su,"Tomi gaduh domba dua kali langkung seueur tibatan Karni. Karni boga 4 kali saloba domba sakumaha Seattle. Sabaraha domba Tomi, Karni, sareng Seattle gaduh babarengan upami Seattle gaduh 20 domba?",260,"Given that Seattle has 20 sheep, we need to determine the total number of sheep Tomi, Karni, and Seattle have together.
+
+1. **Relation between Karni and Seattle**:
+   - Karni has 4 times as many sheep as Seattle.
+   - Therefore, if Seattle has \( S = 20 \) sheep, then Karni has \( K = 4 \times S \).
+   - Calculation: \( K = 4 \times 20 = 80 \).
+
+2. **Relation between Tomi and Karni**:
+   - Tomi has twice as many sheep as Karni.
+   - Therefore, if Karni has \( K = 80 \) sheep, then Tomi has \( T = 2 \times K \).
+   - Calculation: \( T = 2 \times 80 = 160 \).
+
+3. **Total number of sheep**:
+   - Seattle: \( S = 20 \)
+   - Karni: \( K = 80 \)
+   - Tomi: \( T = 160 \)
+   - Total: \( T + K + S = 160 + 80 + 20 = 260 \).
+
+Thus, the total number of sheep Tomi, Karni, and Seattle have together is \(\boxed{260}\).",260.0,True,,,,True,260.0,True,,True
+8,su,"Rama keur ngundeur file 200 GB. Biasana manehna bisa ngundeur 2 GB / menit, tapi 40% tina jalan ngaliwatan undeuran, Windows maksakeun balikan deui pikeun masang apdet, nu butuh 20 menit. Teras Rama kedah ngamimitian deui undeuran ti mimiti. Kumaha beban anu diperyogikeun pikeun ngaunduh file?",160,"Rama needs to download a 200 GB file at a speed of 2 GB per minute. However, at 40% completion (80 GB), Windows forces a restart that takes 20 minutes, and he must start over. Here's the step-by-step breakdown:
+
+1. **First Download Attempt**:
+   - Downloads 40% (80 GB): \( \frac{80 \text{ GB}}{2 \text{ GB/min}} = 40 \text{ minutes} \).
+   - Restart time: 20 minutes.
+   - **Total time so far**: \( 40 + 20 = 60 \text{ minutes} \).
+
+2. **Second Download Attempt (after restart)**:
+   - Downloads the full 200 GB uninterrupted: \( \frac{200 \text{ GB}}{2 \text{ GB/min}} = 100 \text{ minutes} \).
+
+**Total time**: \( 60 + 100 = 160 \text{ minutes} \).
+
+Thus, the total time required is \boxed{160}.",160.0,True,,,,True,160.0,True,,True
+9,su,"Bagas ngajalankeun salila 3 jam dina laju 60 mph lajeng ngahurungkeun sabudeureun sabab anjeunna nyadar anjeunna poho hal pohara penting di imah. Anjeunna nyobian dugi ka bumi dina 4 jam tapi nyéépkeun 2 jam munggaran dina lalu lintas macet. Anjeunna nyéépkeun satengah jam salajengna nyetir dina laju 30mph, sateuacan tiasa nyetir waktos sésana tina 4 jam dina 80 mph. Sabaraha jauh anjeunna ti imah dina ahir éta 4 jam?",45,"To determine how far Bagas is from home after 4 hours of returning:
+
+1. **Initial Distance from Home**:  
+   Bagas drove away from home for 3 hours at 60 mph:  
+   \[
+   3 \text{ hours} \times 60 \text{ mph} = 180 \text{ miles}
+   \]  
+   He was 180 miles away when he realized he needed to return.
+
+2. **Return Journey Breakdown**:  
+   - **First 2 hours**: Stuck in traffic (assumed speed = 0 mph due to traffic jam).  
+     Distance covered: \(2 \text{ hours} \times 0 \text{ mph} = 0 \text{ miles}\).  
+     Remaining distance: \(180 \text{ miles}\).
+
+   - **Next 0.5 hours**: Drove at 30 mph.  
+     Distance covered: \(0.5 \text{ hours} \times 30 \text{ mph} = 15 \text{ miles}\).  
+     Remaining distance: \(180 - 15 = 165 \text{ miles}\).
+
+   - **Final 1.5 hours**: Drove at 80 mph.  
+     Distance covered: \(1.5 \text{ hours} \times 80 \text{ mph} = 120 \text{ miles}\).  
+     Remaining distance: \(165 - 120 = 45 \text{ miles}\).
+
+**Final Answer**:  
+Bagas is \(\boxed{45}\) miles from home after the 4-hour return journey.",45.0,True,,,,True,45.0,True,,True
+10,su,"Ongkos Elisa per jam pikeun 40 jam kahiji manéhna digawé unggal minggu nyaeta $10. Manehna oge narima gaji lembur 1,2 kali ongkos jam biasa nya. Upami Elisa damel 45 jam minggu ieu, sabaraha penghasilanna minggu ieu?",460,"Elisa's total earnings for the week consist of regular pay and overtime pay. 
+
+1. **Regular Hours**: 40 hours × $10/hour = $400.  
+2. **Overtime Hours**: 45 total hours − 40 regular hours = 5 overtime hours.  
+   - Overtime Rate: 1.2 × $10 = $12/hour.  
+   - Overtime Pay: 5 hours × $12/hour = $60.  
+
+**Total Earnings** = $400 (regular) + $60 (overtime) = **$460**.  
+
+$\boxed{460}$",460.0,True,,,,True,460.0,True,,True
+11,su,"Hiji program anyar miboga 60 undeuran dina bulan kahiji. Jumlah unduhan dina bulan kadua tilu kali langkung seueur tina unduhan dina bulan kahiji, tapi teras ngirangan ku 30% dina bulan katilu. Sabaraha jumlah unduhan program éta salami tilu bulan?",366,"First month: 60 downloads.  
+Second month: 3 times more than the first month, which is \(3 \times 60 = 180\) downloads.  
+Third month: 30% decrease from the second month. This means 70% of the second month's downloads: \(0.7 \times 180 = 126\) downloads.  
+
+Total downloads over three months:  
+\[
+60 + 180 + 126 = 366
+\]
+
+The total number of downloads over three months is \(\boxed{366}\).",366.0,True,,,,True,366.0,True,,True
+12,su,"Ahmad indit ka toko roti jeung meuli rupa-rupa pastries. Manehna meuli 3 lusin donat anu hargana $68 per lusin, 2 lusin mini cupcakes anu hargana $80 per lusin, jeung 6 lusin mini cheesecakes $55 per lusin. Sabaraha éta total biaya?",694,"To calculate the total cost Ahmad spent:
+
+1. **Donuts**: 3 dozen × $68/dozen  
+   = 3 × 68 = **$204**  
+2. **Mini Cupcakes**: 2 dozen × $80/dozen  
+   = 2 × 80 = **$160**  
+3. **Mini Cheesecakes**: 6 dozen × $55/dozen  
+   = 6 × 55 = **$330**  
+
+**Total** = $204 + $160 + $330 = **$694**
+
+\boxed{694}",694.0,True,,,,True,694.0,True,,True
+13,su,"Soni melak tangkal lemon. Tangkal bakal ngarugikeun $ 90 pikeun melak. Unggal taun éta bakal tumuwuh 7 lemons, nu anjeunna bisa ngajual keur $1,5 unggal. Éta waragad $ 3 sataun pikeun cai jeung eupan tangkal. Sabaraha taun anu diperyogikeun sateuacan anjeunna ngamimitian milarian artos dina tangkal lemon?",13,"To determine how many years Soni needs before starting to earn money from the lemon tree, we first calculate the annual net profit. Each year, the tree yields 7 lemons sold at $1.50 each, generating $10.50 in revenue. Subtracting the $3 annual maintenance cost gives a **net profit of $7.50 per year**. 
+
+The initial planting cost is $90. To recover this cost, we divide the initial investment by the annual net profit:  
+\[
+\frac{\$90}{\$7.50/\text{year}} = 12 \text{ years.}
+\]
+
+After 12 years, Soni breaks even (total profit equals the initial cost). **Starting from the 13th year**, he begins making a net profit. Thus, **12 years** are required before he starts earning money.
+
+**Final Answer:**  
+\boxed{12}",12.0,False,"To determine how many years Soni needs before he starts earning money from the lemon tree, we need to consider both the initial cost and the annual net profit.
+
+1. **Initial Cost**: The cost to plant the lemon tree is $90.
+2. **Annual Revenue**: Each year, the tree yields 7 lemons, which are sold at $1.50 each. This results in an annual revenue of:
+   \[
+   7 \text{ lemons} \times \$1.50 \text{ per lemon} = \$10.50
+   \]
+3. **Annual Cost**: The maintenance cost each year is $3.
+4. **Annual Net Profit**: Subtracting the annual maintenance cost from the annual revenue gives:
+   \[
+   \$10.50 - \$3 = \$7.50
+   \]
+5. **Break-Even Calculation**: To determine when the total net profit equals the initial cost, we divide the initial cost by the annual net profit:
+   \[
+   \frac{\$90}{\$7.50/\text{year}} = 12 \text{ years}
+   \]
+
+After 12 years, the cumulative net profit from the lemon tree will cover the initial planting cost of $90. Starting from the 13th year, Soni will begin making a net profit. Therefore, the number of years required before he starts earning money is **12**.
+
+\[
+\boxed{12}
+\]
+---
+Wait... Let me think again.
+---
+
+---
+Wait... Let me think again.
+---
+Soni incurs an initial cost of $90 to plant the lemon tree. Each year, the tree yields 7 lemons sold at $1.5 each, generating $10.5 annually. After deducting the $3 annual maintenance cost, the net profit per year is $7.5. To determine how many years are needed to recover the initial cost, we solve:
+
+\[
+7.5n \geq 90
+\]
+
+Solving for \( n \):
+
+\[
+n \geq \frac{90}{7.5} = 12
+\]
+
+After 12 years, the cumulative profit equals the initial cost, meaning Soni breaks even and starts earning money thereafter. Therefore, the required number of years is \boxed{12}.
+---
+Wait... Let me think again.
+---
+To determine how many years Soni needs to recover her initial investment in the lemon tree, we analyze the costs and revenues:
+
+1. **Initial Cost**: $90 for planting the tree.
+2. **Annual Revenue**: Each year, the tree yields 7 lemons sold at $1.5 each, generating:
+   \[
+   7 \times 1.5 = 10.5 \text{ dollars/year}
+   \]
+3. **Annual Maintenance**: $3 per year for upkeep.
+4. **Net Annual Profit**: Revenue minus maintenance:
+   \[
+   10.5 - 3 = 7.5 \text{ dollars/year}
+   \]
+
+To find the number of years \( n \) required for the cumulative net profit to equal the initial investment:
+\[
+7.5n \geq 90
+\]
+Solving for \( n \):
+\[
+n \geq \frac{90}{7.5} = 12
+\]
+
+After 12 years, the cumulative net profit equals the initial cost, meaning Soni breaks even. Starting from the 13th year, she begins to earn a profit. Therefore, **12 years are needed before she starts earning money** from the lemon tree.
+
+\[
+\boxed{12}
+\]
+---
+Wait... Let me think again.
+---
+To determine how many years Soni needs to recover her initial investment in the lemon tree, we analyze the costs and revenues step by step:
+
+1. **Initial Cost**:  
+   Planting the tree requires an upfront payment of $90.
+
+2. **Annual Revenue**:  
+   Each year, the tree yields 7 lemons. Selling 7 lemons at $1.50 per lemon generates:  
+   \[
+   7 \times 1.50 = 10.50 \text{ dollars/year}
+   \]
+
+3. **Annual Maintenance Cost**:  
+   The yearly cost for water and care is $3.
+
+4. **Net Annual Profit**:  
+   Subtracting maintenance costs from revenue gives the net profit per year:  
+   \[
+   10.50 - 3 = 7.50 \text{ dollars/year}
+   \]
+
+5. **Break-Even Calculation**:  
+   To find the number of years \( n \) required for the cumulative net profit to equal the initial $90 investment:  
+   \[
+   7.50n \geq 90
+   \]  
+   Solving for \( n \):  
+   \[
+   n \geq \frac{90}{7.50} = 12
+   \]
+
+After 12 years, the cumulative net profit equals the initial cost. This means Soni breaks even at the **end of the 12th year**. Starting from the **13th year**, she begins earning profits. Thus, the number of years needed **before** she starts earning money is \( 12 \).
+
+\[
+\boxed{12}
+\]
+---
+Wait... Let me think again.",5.0,12.0,False,12.0,False,12.0,False
+14,su,"Lina mangrupakeun saleswoman door-to-panto. Manehna ngajual sapertilu tina vacuum cleaners na di imah héjo, 2 deui ka imah beureum, sarta satengah tina naon ditinggalkeun di imah jeruk. Lamun Lina boga 5 vacuum cleaners ditinggalkeun, sabaraha manéhna mimitian ku?",18,"Lina started with a certain number of vacuum cleaners, denoted as \( x \). She sold \(\frac{1}{3}x\) at the green house, leaving \(\frac{2}{3}x\). Next, she sold 2 more at the red house, reducing the remaining to \(\frac{2}{3}x - 2\). Then, she sold half of this remaining amount at the orange house, leaving \(\frac{1}{2}(\frac{2}{3}x - 2)\). This final amount equals 5 vacuum cleaners. Solving step-by-step:
+
+\[
+\frac{1}{2}\left(\frac{2}{3}x - 2\right) = 5
+\]
+Multiply both sides by 2:
+\[
+\frac{2}{3}x - 2 = 10
+\]
+Add 2 to both sides:
+\[
+\frac{2}{3}x = 12
+\]
+Multiply by \(\frac{3}{2}\):
+\[
+x = 18
+\]
+
+**Final Answer:** Lina started with \boxed{18} vacuum cleaners.",18.0,True,,,,True,18.0,True,,True
+15,su,"Dina kelas tari 20 siswa, 20% enrolled dina tari kontemporer, 25% sésana enrolled dina tari jazz, sarta sésana enrolled dina tari hip-hop. Sabaraha perséntase sakabéh siswa enrolled dina tari hip-hop?",60,"First, calculate the percentage of students enrolled in contemporary and jazz dance:
+\[
+20\% + 25\% = 45\%
+\]
+
+The remaining percentage of students must be enrolled in hip-hop dance:
+\[
+100\% - 45\% = 55\%
+\]
+
+To verify, calculate the number of students in each dance type:
+- Contemporary: \(20\% \text{ of } 20 = 0.2 \times 20 = 4\) students
+- Jazz: \(25\% \text{ of } 20 = 0.25 \times 20 = 5\) students
+
+The number of students remaining for hip-hop:
+\[
+20 - (4 + 5) = 11 \text{ students}
+\]
+
+Convert this to a percentage:
+\[
+\left(\frac{11}{20}\right) \times 100\% = 55\%
+\]
+
+Thus, the percentage of students enrolled in hip-hop dance is \(\boxed{55\%}\).",55.0,False,"To determine the percentage of students enrolled in hip-hop dance, we follow these steps:
+
+1. **Contemporary Dance Enrollment**:
+   - 20% of 20 students enrolled in contemporary dance:
+   \[
+   0.20 \times 20 = 4 \text{ students}
+   \]
+   - Remaining students: \(20 - 4 = 16\)
+
+2. **Jazz Dance Enrollment**:
+   - 25% of the remaining 16 students enrolled in jazz dance:
+   \[
+   0.25 \times 16 = 4 \text{ students}
+   \]
+   - Remaining students: \(16 - 4 = 12\)
+
+3. **Hip-Hop Dance Enrollment**:
+   - The remaining 12 students are enrolled in hip-hop dance.
+   - Convert this to a percentage of the total students:
+   \[
+   \left( \frac{12}{20} \right) \times 100\% = 60\%
+   \]
+
+Thus, the percentage of students enrolled in hip-hop dance is \(\boxed{60}\).",0.0,60.0,True,55.0,False,60.0,True
+16,su,"Saurang padagang hoyong ngadamel pilihan beuli antara 2 rencana pameseran: perhiasan bernilai $5,000 atanapi gadget éléktronik bernilai $8,000. Panaséhat finansial na speculates yén pasar perhiasan bakal naek 2.5% bari pasar gadget éléktronik bakal naek 1.2% dina bulan anu sarua. Upami padagang milarian maksimalkeun kauntungan dina akhir bulan ieu ku cara milih, sabaraha kauntungan ieu?",125,"To determine the maximum profit, calculate the percentage increase for each option:
+
+**Jewelry:**
+- Value: $5,000
+- Increase: 2.5%
+\[
+\text{Profit} = 5000 \times \frac{2.5}{100} = 5000 \times 0.025 = 125
+\]
+
+**Electronic Gadgets:**
+- Value: $8,000
+- Increase: 1.2%
+\[
+\text{Profit} = 8000 \times \frac{1.2}{100} = 8000 \times 0.012 = 96
+\]
+
+Comparing both profits ($125 vs. $96), the higher profit is from the jewelry. 
+
+\boxed{125}",125.0,True,,,,True,125.0,True,,True
+17,su,"Dua karéta ninggalkeun Bandung dina waktos anu sareng. Aranjeunna ngawitan iinditan ka kulon, duanana iinditan pikeun 80 mil. Poé saterusna, maranéhna indit kalér, ngawengku 150 mil. Sabaraha jarak anu ditempuh ku unggal karéta dina dua dinten?",230,"Each train travels 80 miles west on the first day and 150 miles north the next day. The total distance is the sum of both legs since distance is scalar. 
+
+\[
+80 \, \text{miles} + 150 \, \text{miles} = 230 \, \text{miles}
+\]
+
+Jarak anu ditempuh ku unggal karéta dina dua dinten nyaéta \boxed{230} mil.",230.0,True,,,,True,230.0,True,,True
+18,su,"Johan dibayar $20 per jam pikeun ngajar sareng $30 pikeun janten palatih cheerleading. Upami anjeunna damel 50 minggu sataun, 35 jam saminggu salaku guru sareng 15 jam saminggu salaku palatih, sabaraha gaji taunanna?",57500,"Johan's annual salary is calculated by summing his earnings from teaching and coaching. 
+
+**Teaching Calculation:**
+- Weekly earnings: \(35\ \text{hours/week} \times \$20/\text{hour} = \$700/\text{week}\)
+- Annual earnings: \(\$700/\text{week} \times 50\ \text{weeks} = \$35,000\)
+
+**Coaching Calculation:**
+- Weekly earnings: \(15\ \text{hours/week} \times \$30/\text{hour} = \$450/\text{week}\)
+- Annual earnings: \(\$450/\text{week} \times 50\ \text{weeks} = \$22,500\)
+
+**Total Annual Salary:** \(\$35,000 + \$22,500 = \$57,500\)
+
+\boxed{57500}",57500.0,True,,,,True,57500.0,True,,True
+19,su,Sintya nyieun omelet 3 endog unggal isuk pikeun sarapan. Sabaraha puluhan endog anjeunna bakal tuang dina 4 minggu?,7,"Sintya consumes 3 eggs each day for breakfast. To find out how many dozens she eats in 4 weeks:
+1. **Weekly eggs**: \(3 \text{ eggs/day} \times 7 \text{ days/week} = 21 \text{ eggs/week}\)  
+2. **Total over 4 weeks**: \(21 \text{ eggs/week} \times 4 \text{ weeks} = 84 \text{ eggs}\)  
+3. **Convert to dozens**: \(84 \text{ eggs} ÷ 12 \text{ eggs/dozen} = 7 \text{ dozens}\)  
+
+The final answer is \(\boxed{7}\).",7.0,True,,,,True,7.0,True,,True
+20,su,"Memei naek jalan satapak 12 mil. Anjeunna nyandak 1 jam pikeun leumpang 4 mil munggaran, teras sajam deui leumpang dua mil salajengna. Upami anjeunna hoyong rata-rata lajuna janten 4 mil per jam, sabaraha laju (dina mil per jam) anu anjeunna kedah leumpang dina jarak anu sésana?",6,"To determine the speed Memei needs for the remaining distance to achieve an average speed of 4 mph for the entire 12-mile journey:
+
+1. **Total time required for an average speed of 4 mph**:  
+   \[
+   \text{Total time} = \frac{\text{Total distance}}{\text{Average speed}} = \frac{12 \text{ miles}}{4 \text{ mph}} = 3 \text{ hours}.
+   \]
+
+2. **Time already spent**:  
+   - First segment: 4 miles in 1 hour.  
+   - Second segment: 2 miles in 1 hour.  
+   \[
+   \text{Total time used} = 1 \text{ hour} + 1 \text{ hour} = 2 \text{ hours}.
+   \]
+
+3. **Remaining distance and time**:  
+   - Distance left: \(12 - 4 - 2 = 6 \text{ miles}\).  
+   - Time left: \(3 \text{ hours} - 2 \text{ hours} = 1 \text{ hour}\).  
+
+4. **Required speed for the remaining distance**:  
+   \[
+   \text{Speed} = \frac{\text{Remaining distance}}{\text{Time left}} = \frac{6 \text{ miles}}{1 \text{ hour}} = 6 \text{ mph}.
+   \]
+
+**Answer:**  
+\boxed{6}",6.0,True,,,,True,6.0,True,,True
+21,su,"Abdi gaduh 10 liter inuman jeruk anu dua per tilu cai sareng abdi hoyong tambahkeun kana 15 liter inuman nanas anu tilu perlima cai. Tapi nalika kuring tuang, kuring tuang hiji liter inuman jeruk. Sabaraha cai dina sésana 24 liter?",15,"After spilling 1 liter of the orange drink, the remaining orange drink is 9 liters. The water content in the original orange drink was \(10 \times \frac{2}{3} = \frac{20}{3}\) liters. Spilling 1 liter removes \(\frac{2}{3}\) liters of water, leaving \(\frac{20}{3} - \frac{2}{3} = 6\) liters of water in the remaining 9 liters of orange drink. 
+
+For the pineapple drink, 15 liters with \(\frac{3}{5}\) water contains \(15 \times \frac{3}{5} = 9\) liters of water. 
+
+Combining the remaining orange and pineapple drinks gives 24 liters total, with \(6 + 9 = 15\) liters of water.
+
+\(\boxed{15}\)",15.0,True,,,,True,15.0,True,,True
+22,su,"Rendi sareng Farid mangrupikeun misan. Rendi lahir 6 taun sateuacan Farid. Rendi kagungan putra dina yuswa 23. Upami Farid ayeuna 31 taun, sabaraha taun ka pengker lahir putra Rendi?",14,"Rendi is Farid's cousin and was born 6 years earlier. Since Farid is now 31, Rendi's current age is \(31 + 6 = 37\) years old. Rendi had his son when he was 23, so the son's current age is \(37 - 23 = 14\). This means the son was born 14 years ago.
+
+\[
+\boxed{14}
+\]",14.0,True,,,,True,14.0,True,,True
+23,su,Kevin ngajual DVD. Anjeunna boga 8 konsumén on Salasa. 3 konsumén kahijina meuli hiji DVD unggal. 2 konsumén na salajengna meuli 2 DVD unggal. 3 palanggan panungtungan na teu meuli DVD nanaon. Sabaraha DVD anu dijual Kevin dinten Salasa?,7,"Kevin had 8 customers on Tuesday.  
+- **3 customers** bought **1 DVD each**:  
+  \(3 \times 1 = 3\) DVDs.  
+- **2 customers** bought **2 DVDs each**:  
+  \(2 \times 2 = 4\) DVDs.  
+- **3 customers** bought **0 DVDs**:  
+  \(3 \times 0 = 0\) DVDs.  
+
+**Total DVDs sold**:  
+\(3 + 4 + 0 = 7\).  
+
+\( \boxed{7} \)",7.0,True,,,,True,7.0,True,,True
+24,su,Lilin ngalembereh 2 séntiméter unggal jam kaduruk. Sabaraha sénti langkung pondok hiji lilin saatos ngaduruk ti 13:00 dugi ka 17:00?,8,"The candle burns from 13:00 to 17:00, which is a duration of **4 hours**. Since it melts at **2 centimeters per hour**, the total shortening is calculated as:
+
+\[
+4 \text{ hours} \times 2 \text{ cm/hour} = 8 \text{ cm}
+\]
+
+**Answer**: The candle is \boxed{8} centimeters shorter.",8.0,True,,,,True,8.0,True,,True
+25,su,"Titi meuli buku laris taun ka tukang pikeun $19,50. Ieu sareng diskon 25% tina harga aslina. Sabaraha harga aslina tina buku?",26,"Titi bought a best-selling book last year for $19.50, which was after a 25% discount. To find the original price before the discount, we note that the sale price is 75% of the original price. Let \( P \) be the original price. Then:
+
+\[
+0.75 \times P = 19.50
+\]
+
+Solving for \( P \):
+
+\[
+P = \frac{19.50}{0.75}
+\]
+
+Converting the division into fractions, we get:
+
+\[
+P = \frac{19.50 \times 4}{3} = \frac{78.00}{3} = 26.00
+\]
+
+Thus, the original price of the book is \boxed{26}.",26.0,True,,,,True,26.0,True,,True
+26,su,"Yuki maréntahkeun hiji hidangan hayam nu hargana $12, 5 bungkus susu nu hargana $3 unggal, 4 apel nu hargana $1,50 unggal, jeung sababaraha kotak pizza. Yuki mayar total $50. Sabaraha kotak pizza anu dipesen Yuki lamun unggal kotak hargana $8,50?",2,"To determine the number of pizza boxes Yuki ordered, calculate the total cost of other items and subtract from the total payment:
+
+1. **Chicken dish**: \$12  
+2. **Milk**: \(5 \times \$3 = \$15\)  
+3. **Apples**: \(4 \times \$1.50 = \$6\)  
+
+**Total without pizza**:  
+\[
+\$12 + \$15 + \$6 = \$33
+\]
+
+**Remaining amount for pizza**:  
+\[
+\$50 - \$33 = \$17
+\]
+
+**Number of pizza boxes** (each costing \$8.50):  
+\[
+\frac{\$17}{\$8.50} = 2
+\]
+
+**Final Answer**:  
+\boxed{2}",2.0,True,,,,True,2.0,True,,True
+27,su,"Setyo meuli 3 pasang calana panjang, 3 pasang calana, jeung 3 pasang sapatu. Hiji sapasang pondok hargana $16,50. Sapasang calana hargana $22,50 sareng sapasang sapatu $42. Sabaraha dolar anu dibalanjakeun Setyo pikeun sadaya barang pakean?",243,,,False,"
+---
+Wait... Let me think again.
+---
+Setyo membeli 3 pasang celana panjang, 3 pasang celana pendek, dan 3 pasang sepatu. Harga per pasang celana pendek adalah \$16,50, celana panjang \$22,50, dan sepatu \$42.
+
+1. **Biaya celana panjang**:  
+   \(3 \times 22,50 = 67,50\) dolar.
+
+2. **Biaya celana pendek**:  
+   \(3 \times 16,50 = 49,50\) dolar.
+
+3. **Biaya sepatu**:  
+   \(3 \times 42 = 126\) dolar.
+
+**Total biaya**:  
+\[
+67,50 + 49,50 + 126 = 243 \text{ dolar}
+\]
+
+Jawaban akhir: \boxed{243}",1.0,243.0,True,,False,243.0,True
+28,su,"Syifa tuang hiji porsi és krim unggal wengi. Manehna meuli karton és krim kalawan 15 porsi és krim per karton kalawan waragad $ 4,00 per karton. Saatos 60 dinten, sabaraha anjeunna bakal méakkeun és krim?",16,"Syifa uses 1 ice cream portion each night, with 15 portions per carton costing $4.00. Over 60 days:
+
+1. **Total portions needed**:  
+   \( 60 \, \text{days} \times 1 \, \text{portion/day} = 60 \, \text{portions} \)
+
+2. **Number of cartons required**:  
+   \( \frac{60 \, \text{portions}}{15 \, \text{portions/carton}} = 4 \, \text{cartons} \)
+
+3. **Total cost**:  
+   \( 4 \, \text{cartons} \times \$4.00/\text{carton} = \$16.00 \)
+
+**Answer**: \boxed{16.00}",16.0,True,,,,True,16.0,True,,True
+29,su,Hendra ngadamel dua lirén salami perjalanan sapédah 60 mil. Anjeunna mimiti eureun sanggeus 20 mil. eureun kadua nya éta 15 mil saméméh ahir perjalanan. Sabaraha mil anjeunna ngumbara antara eureun kahiji jeung kadua?,25,"To determine the distance Hendra traveled between the first and second stops:
+
+1. **Total journey**: 60 miles.  
+2. **First stop**: 20 miles from the start.  
+3. **Distance from the second stop to the end**: 15 miles.  
+4. **Remaining distance after the first stop**:  
+   \[ 60 \ \text{miles} - 20 \ \text{miles} = 40 \ \text{miles}. \]  
+5. **Subtract the final 15 miles (after the second stop)**:  
+   \[ 40 \ \text{miles} - 15 \ \text{miles} = 25 \ \text{miles}. \]  
+
+Thus, the distance between the first and second stops is \(\boxed{25}\) miles.",25.0,True,,,,True,25.0,True,,True
+30,su,"Agus balanja sapatu nalika anjeunna mendakan sapasang sapatu anu cocog sareng anggaran sapatuna. Tapi, manéhna kudu milih antara sapatu jeung dua pasang heels tinggi nu babarengan hargana lima dollar kurang ti sapatu. Upami sapasang keuneung hargana $33 sareng anu sanésna dua kali langkung seueur, sabaraha dolar éta sapatu?",104,"**Penjelasan Langkah demi Langkah:**
+
+1. **Identifikasi Harga Heels:**
+   - Heels pertama berharga $33.
+   - Heels kedua dua kali lebih mahal dari yang pertama: \(2 \times 33 = 66\) USD.
+   - Total harga dua heels: \(33 + 66 = 99\) USD.
+
+2. **Hubungkan dengan Harga Sepatu:**
+   - Total harga dua heels adalah $5 lebih murah daripada harga sepatu.
+   - Misal harga sepatu = \(S\), maka persamaannya:
+     \[
+     S - 5 = 99
+     \]
+   - Selesaikan persamaan:
+     \[
+     S = 99 + 5 = 104
+     \]
+
+**Jawaban:**  
+\boxed{104}",104.0,True,,,,True,104.0,True,,True
+31,su,"Umur Dani sareng Angga dina babandingan 7:11. Lamun total umur maranéhanana ayeuna 162, hitung umur Angga 10 taun ti ayeuna.",109,"The ratio of Dani's to Angga's ages is 7:11. Total ratio parts = 7 + 11 = 18.  
+Each part represents \( \frac{162}{18} = 9 \) years.  
+Angga's current age: \( 11 \times 9 = 99 \) years.  
+Angga's age in 10 years: \( 99 + 10 = 109 \).  
+
+\boxed{109}",109.0,True,,,,True,109.0,True,,True
+32,su,Rafi nyobian ngitung kacang jelly dina toples. Anjeunna naroskeun ka babaturanana sabaraha aranjeunna pikir dina toples. Hiji nyebutkeun 80. Lain nyebutkeun 20 leuwih ti satengah kahiji. Katilu nyebutkeun 25% leuwih ti nu kahiji. Naon rata-rata perkiraan maranéhanana?,80,"Rafi asked three friends to estimate the number of jellybeans in a jar. The first friend estimated 80. The second friend estimated 20 more than half of the first friend's guess. The third friend estimated 25% more than the first friend's guess. Here are the steps to find the average of their estimates:
+
+1. **First friend's estimate**: 80.
+2. **Second friend's estimate**: Half of 80 is 40, plus 20 gives \(40 + 20 = 60\).
+3. **Third friend's estimate**: 25% of 80 is 20, plus 80 gives \(80 + 20 = 100\).
+
+Adding these estimates together:
+\[ 80 + 60 + 100 = 240 \]
+
+Calculating the average:
+\[ \frac{240}{3} = 80 \]
+
+Thus, the average of the three estimates is \(\boxed{80}\).",80.0,True,,,,True,80.0,True,,True
+33,su,Bagas ngurus 10 anjing. Unggal anjing nyokot .5 jam sapoé leumpang jeung ngurus bisnis maranéhanana. Sabaraha jam saminggu anjeunna méakkeun ngurus anjing?,35,"To determine how many hours Bagas spends per week caring for the dogs, start by calculating the daily total:  
+- **10 dogs** × **0.5 hours/day** per dog = **5 hours/day**.  
+
+Next, multiply the daily total by the number of days in a week:  
+- **5 hours/day** × **7 days/week** = **35 hours/week**.  
+
+**Final Answer:**  
+\boxed{35}",35.0,True,,,,True,35.0,True,,True
+34,su,Umar boga 110 koin. Aya 30 koin emas leuwih ti koin pérak. Sabaraha koin emas Umar gaduh?,70,"Based on the problem, it's determined that Umar has a total of 110 coins, with 30 more gold coins than silver coins. Let \( G \) be the number of gold coins and \( S \) be the number of silver coins. The equations are:
+
+\[
+\begin{cases}
+G + S = 110 \\
+G = S + 30
+\end{cases}
+\]
+
+Substituting \( G = S + 30 \) into the first equation:
+
+\[
+(S + 30) + S = 110 \\
+2S + 30 = 110 \\
+2S = 80 \\
+S = 40
+\]
+
+Thus, the number of gold coins is:
+
+\[
+G = 40 + 30 = 70
+\]
+
+The final answer is \(\boxed{70}\).",70.0,True,,,,True,70.0,True,,True
+35,su,"Sandi ngagaduhan 2 permata anu langkung sakedik tibatan Harun. Harun boga 5 leuwih jewels ti satengah jewels Rendi urang. Lamun Rendi boga 40 jewels, sabaraha jewels teu Sandi gaduh?",23,"Sandi memiliki 2 permata lebih sedikit dari Harun. Harun memiliki 5 permata lebih banyak dari setengah permata Rendi. Jika Rendi memiliki 40 permata, jumlah permata Sandi dapat dihitung sebagai berikut:
+
+1. **Permata Rendi** = 40.  
+2. **Setengah permata Rendi** = \( \frac{40}{2} = 20 \).  
+3. **Permata Harun** = \( 20 + 5 = 25 \).  
+4. **Permata Sandi** = \( 25 - 2 = 23 \).
+
+Hasil akhir:  
+\boxed{23}",23.0,True,,,,True,23.0,True,,True
+36,su,"Akbar maén ping pong salami 40 menit. Dina 20 menit kahiji, anjeunna ngoleksi 4 poin. Dina 20 menit kadua, anjeunna nyitak 25% langkung poin. Sabaraha total titik anjeunna skor?",9,"Akbar bermain ping pong selama dua sesi, masing-masing 20 menit. 
+- **Sesi pertama**: Dia memperoleh 4 poin.
+- **Sesi kedua**: Skornya meningkat 25% dari sesi pertama.  
+  - 25% dari 4 poin = \( 4 \times 0.25 = 1 \) poin.  
+  - Total di sesi kedua = \( 4 + 1 = 5 \) poin.
+
+Total poin dari kedua sesi:  
+\[ 4 \text{ (sesi pertama)} + 5 \text{ (sesi kedua)} = 9 \]
+
+Jadi, total poin yang dikumpulkan Akbar adalah \(\boxed{9}\).",9.0,True,,,,True,9.0,True,,True
+37,su,"Tukimin tuang 2 yogurts sapoé. Aranjeunna ayeuna diobral di 4 yogurt pikeun $5,00. Sabaraha anu anjeunna nyéépkeun yogurt salami 30 dinten?",75,"Tukimin consumes 2 yogurts per day, totaling \(2 \times 30 = 60\) yogurts in 30 days. The sale offers 4 yogurts for \$5.00. To find how many sets of 4 yogurts are needed:  
+\[
+60 \div 4 = 15 \text{ sets}
+\].  
+Each set costs \$5.00, so the total cost is:  
+\[
+15 \times 5 = 75
+\].  
+
+**Final Answer**: Tukimin spends \boxed{75.00} dollars on yogurt over 30 days.",75.0,True,,,,True,75.0,True,,True
+38,su,Bagas ngarencanakeun pikeun ngajual sadaya cocooanna sareng nganggo artos kanggo mésér vidéo kaulinan. Anjeunna gaduh 13 set lego sareng anjeunna ngajualna pikeun $ 15 unggal. Anjeunna ends up meuli 8 video kaulinan pikeun $ 20 tiap sarta boga $ 5 ditinggalkeun. Sabaraha set lego anjeunna masih gaduh?,2,"Bagas awalnya memiliki 13 set lego. Dia menjual beberapa set seharga \$15 per set, lalu membeli 8 video game seharga \$20 masing-masing dan memiliki sisa \$5. Total uang dari penjualan lego adalah \(8 \times 20 + 5 = 165\) dollar. Jumlah set lego yang terjual adalah \(165 \div 15 = 11\). Oleh karena itu, set lego yang tersisa adalah \(13 - 11 = 2\).
+
+\[
+\boxed{2}
+\]",2.0,True,,,,True,2.0,True,,True
+39,su,Bagas ngajalankeun 60 mil saminggu. Anjeunna ngajalankeun 3 dinten saminggu. Anjeunna ngajalankeun 3 jam dinten kahiji sareng satengah langkung seueur dua dinten sanésna anjeunna ngajalankeun. Kumaha gancang anjeunna ngajalankeun?,10,"**Step-by-Step Explanation:**
+
+1. **Total Distance:** Bagas runs 60 miles per week.
+2. **Running Days:** He runs 3 days each week.
+3. **Daily Running Time:**
+   - **Day 1:** 3 hours.
+   - **Day 2:** 3 + 0.5 = 3.5 hours.
+   - **Day 3:** 3.5 + 0.5 = 4 hours.
+4. **Total Weekly Time:** \(3 + 3.5 + 4 = 10.5\) hours.
+5. **Average Speed:** Total distance divided by total time:
+   \[
+   \frac{60 \text{ miles}}{10.5 \text{ hours}} = \frac{60}{\frac{21}{2}} = \frac{60 \times 2}{21} = \frac{120}{21} = \frac{40}{7} \text{ mph}
+   \]
+   
+**Final Answer:** \boxed{\dfrac{40}{7}} mph",40.0,False,"
+---
+Wait... Let me think again.
+---
+Bagas runs a total of 60 miles per week over 3 days. On the first day, he runs for 3 hours. The problem states he runs ""half an hour more"" on each of the other two days. Interpreting this as each of the next two days being 30 minutes longer than the first day:
+
+- **Day 1**: 3 hours  
+- **Day 2**: 3 hours + 0.5 hours = 3.5 hours  
+- **Day 3**: 3 hours + 0.5 hours = 3.5 hours  
+
+**Total time** = 3 + 3.5 + 3.5 = 10 hours per week.  
+
+**Speed** = Total Distance / Total Time = 60 miles / 10 hours = 6 miles per hour.  
+
+Thus, the final answer is \(\boxed{6}\).
+---
+Wait... Let me think again.
+---
+
+---
+Wait... Let me think again.
+---
+Bagas runs 60 miles per week over 3 days. On the first day, he runs 3 hours. On the other two days, he runs half an hour more each day than the first day. 
+
+To find his speed, we need to determine the total time he spends running each week and then divide the total distance by this time.
+
+1. **First day**: 3 hours.
+2. **Second day**: 3 hours + 0.5 hours = 3.5 hours.
+3. **Third day**: 3 hours + 0.5 hours = 3.5 hours.
+
+Adding these together gives the total weekly running time:
+\[
+3 + 3.5 + 3.5 = 10 \text{ hours}
+\]
+
+The total distance run during the week is 60 miles. Therefore, his speed is:
+\[
+\text{Speed} = \frac{\text{Total Distance}}{\text{Total Time}} = \frac{60 \text{ miles}}{10 \text{ hours}} = 6 \text{ miles per hour}
+\]
+
+Thus, the final answer is:
+\[
+\boxed{6}
+\]
+---
+Wait... Let me think again.
+---
+
+---
+Wait... Let me think again.",5.0,6.0,False,40.0,False,6.0,False
+40,su,"Desi bisa lumpat dina laju opat kali leuwih gancang batan manéhna bisa leumpang, tapi manéhna bisa skip dina laju satengah gancang manéhna bisa lumpat. Upami anjeunna tiasa ngaluncat dina 3 mil per jam, sabaraha mil anjeunna tiasa ngarambat dina genep jam upami anjeunna nyéépkeun sapertilu waktos ngajalankeun sareng dua per tilu waktos leumpang?",18,"Desi's skipping speed is given as 3 mph, which is half her running speed. Thus, her running speed is \(6 \text{ mph}\). Since she runs four times faster than she walks, her walking speed is \(6 \div 4 = 1.5 \text{ mph}\). 
+
+In six hours, she spends \(\frac{1}{3}\) of the time (2 hours) running and \(\frac{2}{3}\) (4 hours) walking. The distances are:
+- Running: \(6 \text{ mph} \times 2 \text{ hours} = 12 \text{ miles}\)
+- Walking: \(1.5 \text{ mph} \times 4 \text{ hours} = 6 \text{ miles}\)
+
+Total distance: \(12 + 6 = 18 \text{ miles}\).
+
+\(\boxed{18}\)",18.0,True,,,,True,18.0,True,,True
+41,su,"IPhone Beni opat kali langkung lami tibatan iPhone Ben. IPhone Ben dua kali langkung lami tibatan iPhone Suzy. Upami iPhone Suzy umurna 1 taun, sabaraha lami iPhone Beni?",8,"First, determine Ben's iPhone age: since Suzy's iPhone is 1 year old, Ben's is twice that, so \( 2 \times 1 = 2 \) years.  
+
+Next, calculate Beni's iPhone age: it is four times Ben's iPhone age, so \( 4 \times 2 = 8 \) years.  
+
+Therefore, the age of Beni's iPhone is \(\boxed{8}\).",8.0,True,,,,True,8.0,True,,True
+42,su,"Naga hébat, Ponimin, diuk luhur di luhur Gunung Farbo, engapan seuneu kana nanaon dina jarak 1000 suku. Polly bisa ngalungkeun javelin emas, hiji-hijina pakarang dipikawanoh nu bisa sleigh naga, pikeun jarak 400 suku, ogé dina jangkauan sahiji seuneu naga urang. Tapi nalika Polly nahan batu permata inten biru, anjeunna tiasa ngalungkeun javelin tilu kali langkung tebih tibatan nalika henteu nahan batu permata. Lamun nyekel batu permata, sabaraha jauh di luar jangkauan seuneu naga urang Polly bisa nangtung sarta masih pencét naga ku javelin emas?",200,"Polly can throw the golden javelin normally 400 feet, but with the blue diamond gem, her range triples to **400 × 3 = 1200 feet**. The dragon's fire reaches up to 1000 feet. To stay outside the dragon's fire range while still hitting it, the maximum distance Polly can be from the dragon is **1200 feet**. Subtracting the dragon's fire range (1000 feet), she can stand **1200 − 1000 = 200 feet** beyond the dragon's fire range.
+
+### Final Answer
+\boxed{200}",200.0,True,,,,True,200.0,True,,True
+43,su,"Nini Nisa dipanggang 5 pai apal keur luncheon nu fireman urang. Manehna motong unggal pai kana 8 lembar tur nyetel lima pai kaluar dina meja prasmanan pikeun sémah ngawula sorangan. Dina ahir magrib, sanggeus sémah nyokot tur ngahakan potongan pai maranéhanana, aya 14 potongan pai sésana. Sabaraha lembar anu dicandak ku tamu?",26,"Nini Nisa baked 5 pies, each cut into 8 slices:  
+\[ 5 \text{ pies} \times 8 \text{ slices/pie} = 40 \text{ total slices} \]  
+
+After the guests took slices, 14 remained. The number of slices taken is:  
+\[ 40 \text{ total} - 14 \text{ remaining} = 26 \text{ slices taken} \]  
+
+**Answer:** \boxed{26}",26.0,True,,,,True,26.0,True,,True
+44,su,"Numutkeun inpormasi gizi na, sakantong chip ngandung 250 kalori per porsi. Upami kantong 300g ngagaduhan 5 porsi, sabaraha gram anjeun tiasa tuang upami target kalori sadinten anjeun 2000 sareng anjeun parantos ngonsumsi 1800 kalori?",48,"To determine how many grams of chips can be consumed without exceeding the daily calorie target:
+
+1. **Calculate remaining calories:**  
+   Daily target = 2000 kcal  
+   Consumed = 1800 kcal  
+   Remaining = 2000 - 1800 = **200 kcal**
+
+2. **Determine grams per serving:**  
+   Total bag weight = 300g  
+   Servings per bag = 5  
+   Grams per serving = 300g ÷ 5 = **60g**  
+
+3. **Calculate grams equivalent to 200 kcal:**  
+   - Calories per gram = 250 kcal ÷ 60g ≈ 4.1667 kcal/g  
+   - Grams for 200 kcal = 200 kcal ÷ (250 kcal/60g) = (200 × 60g) ÷ 250 = **48g**  
+
+Thus, the person can safely eat **\boxed{48}** grams of chips.",48.0,True,,,,True,48.0,True,,True
+45,su,"Rizki rék ngajual lilin lebah. Pikeun unggal pon lilin lebah, anjeunna tiasa ngadamel 10 lilin tapered. Hiji pon lilin lebah sareng wick hargana $ 10,00 kanggo suplai. Mun anjeunna sells unggal lilin pikeun $ 2,00 unggal, naon kauntungan net na lamun manehna nyieun jeung ngajual 20 lilin?",20,"Rizki needs 2 pounds of beeswax to make 20 candles (since 1 pound makes 10 candles). Each pound with wicks costs $10.00, so the total cost is 2 * $10 = $20. The revenue from selling 20 candles at $2 each is 20 * $2 = $40. Subtracting the cost from the revenue gives the net profit: $40 - $20 = $20.
+
+\boxed{20}",20.0,True,,,,True,20.0,True,,True
+46,su,"Hanif mangrupikeun blogger lepas anu nyerat ngeunaan topik kaséhatan sareng ngirimkeun ka klien unggal dinten salaku padamelan permanén na. Artikel blog butuh rata-rata 4 jam pikeun nalungtik sareng nyerat. Minggu kamari, anjeunna nyerat 5 tulisan dina Senén sareng 2/5 kali langkung seueur tulisan dinten Salasa tibatan Senén. Dinten Rebo, anjeunna nyerat dua kali jumlah tulisan anu anjeunna nyerat dinten Salasa. Itung jumlah total jam manehna spent nulis artikel dina tilu poé.",104,"Hanif menulis 5 artikel pada hari Senin. Pada hari Selasa, dia menulis \( 5 + \frac{2}{5} \times 5 = 7 \) artikel. Pada hari Rabu, dia menulis \( 2 \times 7 = 14 \) artikel. Total artikel dalam tiga hari adalah \( 5 + 7 + 14 = 26 \). Setiap artikel membutuhkan 4 jam, sehingga total waktu yang dihabiskan adalah \( 26 \times 4 = 104 \) jam.
+
+\[
+\boxed{104}
+\]",104.0,True,,,,True,104.0,True,,True
+47,su,"Salsa nempatkeun 80 catetan pos-éta dina dompetna sateuacan anjeunna angkat ka padamelan di warung kopi. Di jalan, manéhna eureun off di toko jeung meuli paket Post-eta catetan; Di tempat damel, anjeunna nempatkeun catetan Post-it tunggal dina unggal 220 cangkir kopi anu béda. Upami anjeunna ngagaduhan 23 catetan pos-éta sésana sadayana, sabaraha catetan Post-it dina bungkusan anu anjeunna mésér?",163,"Salsa initially had 80 post-it notes. After buying a package with \( x \) notes, her total became \( 80 + x \). She then used 220 notes for coffee cups, leaving her with 23. The equation is:
+
+\[
+80 + x - 220 = 23
+\]
+
+Solving for \( x \):
+
+\[
+x = 23 + 220 - 80 = 163
+\]
+
+Thus, the number of post-it notes in the purchased package is \(\boxed{163}\).",163.0,True,,,,True,163.0,True,,True
+48,su,Bagas meuli dua kali leuwih loba dasi beureum ti dasi biru. Dasi beureum hargana 50% langkung seueur tibatan dasi biru. Anjeunna nyéépkeun $ 200 pikeun dasi biru anu hargana $ 40 unggal. Sabaraha anjeunna méakkeun dina dasi?,800,"Bagas bought twice as many red ties as blue ties. He spent $200 on blue ties priced at $40 each, which means he bought \( \frac{200}{40} = 5 \) blue ties. The number of red ties is \( 5 \times 2 = 10 \). Each red tie costs 50% more than a blue tie, so \( 40 + (0.5 \times 40) = 60 \) dollars. The total cost for red ties is \( 10 \times 60 = 600 \) dollars. Adding the amounts spent on both ties: \( 200 + 600 = 800 \).
+
+**Final Answer**  
+\boxed{800}",800.0,True,,,,True,800.0,True,,True
+49,su,Laras ngagunakeun sapotong kawat panjangna 4 kaki pikeun ngadukung pepelakan tomat di kebon. Kawat dipotong kana potongan panjangna 6 inci. Sabaraha lembar anu anjeunna kéngingkeun?,8,"To determine how many 6-inch pieces Laras can get from a 4-foot wire, follow these steps:
+
+1. **Convert feet to inches**:  
+   \( 4 \text{ feet} \times \frac{12 \text{ inches}}{1 \text{ foot}} = 48 \text{ inches} \).
+
+2. **Divide total length by piece length**:  
+   \( \frac{48 \text{ inches}}{6 \text{ inches/piece}} = 8 \text{ pieces} \).
+
+**Final Answer**:  
+\boxed{8}",8.0,True,,,,True,8.0,True,,True
+50,su,"Andre hirup di hiji gedong apartemen kalawan 15 floors. Unggal lantai ngandung 8 unit, sareng 3/4 gedong ditempatan. Sabaraha jumlah total unit anu teu aya dina wangunan?",30,"Total units in the building = 15 floors × 8 units/floor = **120 units**.
+
+Since 3/4 of the building is occupied, the unoccupied fraction is **1/4**.
+
+Unoccupied units = 1/4 × 120 = **30 units**.
+
+\boxed{30}",30.0,True,,,,True,30.0,True,,True

@@ -1,0 +1,12 @@
+q_no,lang,answer_number,gen_answer,revised_answer2,is_correct,is_correct2,is_correct_rev,is_correct_rev2,ec_1
+4,id,540,180.0,180.0,False,False,False,False,Missing Calculation
+14,id,18,42.0,42.0,False,False,False,False,Arithmetic Mistake
+7,jv,260,160.0,160.0,False,False,False,False,Hallucination
+14,jv,18,16.0,16.0,False,False,False,False,Missing Calculation
+15,jv,60,55.0,55.0,False,False,False,False,Hallucination
+19,jv,7,8.0,8.0,False,False,False,False,Hallucination
+21,jv,15,18.0,18.0,False,False,False,False,Arithmetic Mistake
+39,jv,10,5.0,5.0,False,False,False,False,Missing Calculation
+40,jv,18,36.0,36.0,False,False,False,False,Hallucination
+42,jv,200,1200.0,1200.0,False,False,False,False,Missing Calculation
+39,su,10,5.0,5.0,False,False,False,False,Hallucination

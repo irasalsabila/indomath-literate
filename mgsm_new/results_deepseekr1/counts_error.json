@@ -1,0 +1,22 @@
+{
+    "arithmetic": {
+        "su": [
+            13
+        ]
+    },
+    "missing_calc": {
+        "id": [
+            4,
+            7
+        ],
+        "jv": [
+            3,
+            19,
+            40
+        ],
+        "su": [
+            39
+        ]
+    },
+    "hallucination": {}
+}
